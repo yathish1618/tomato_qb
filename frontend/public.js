@@ -10,6 +10,7 @@ let catalogSearch = "";
 let catalogSortMode = "name";
 let selectedAnswers = new Set();
 let answerChecked = false;
+let currentRoute = "home";
 
 const $ = id => document.getElementById(id);
 
@@ -36,7 +37,7 @@ document.addEventListener("DOMContentLoaded", async () => {
         await Promise.all([loadQuestions(), loadTopics(), loadCatalog()]);
         buildFilterControls();
         wireNavigation();
-        routeFromHash();
+        routeFromState();
     } catch (err) {
         console.error(err);
         showError("Could not load the question bank.");
@@ -149,7 +150,7 @@ function wireNavigation() {
     $("homeTopicsCard").onclick = () => go("#topics");
 
     $("catalogBack").onclick = () => {
-        const raw = window.location.hash.replace(/^#/, "") || "home";
+        const raw = currentRoute || "home";
         const parts = raw.split("/").filter(Boolean);
         if (parts[0] === "collections" && parts.length > 1) go("#collections");
         else if (parts[0] === "topics" && parts.length > 1) go("#topics");
@@ -225,7 +226,6 @@ function wireNavigation() {
         };
     });
 
-    window.addEventListener("hashchange", routeFromHash);
 
     document.addEventListener("keydown", e => {
         if ($("filterModal").classList.contains("open") && e.key === "Escape") {
@@ -242,15 +242,13 @@ function wireNavigation() {
 }
 
 function go(hash) {
-    if (window.location.hash === hash) {
-        routeFromHash();
-    } else {
-        window.location.hash = hash;
-    }
+    const next = String(hash || "home").replace(/^#/, "");
+    currentRoute = next || "home";
+    routeFromState();
 }
 
-function routeFromHash() {
-    const raw = window.location.hash.replace(/^#/, "") || "home";
+function routeFromState() {
+    const raw = currentRoute || "home";
     const parts = raw.split("/").filter(Boolean);
 
     if (parts[0] === "collections") {
@@ -382,7 +380,7 @@ function resetCatalogControls(placeholder) {
 }
 
 function rerenderCurrentCatalog() {
-    const raw = window.location.hash.replace(/^#/, "") || "home";
+    const raw = currentRoute || "home";
     const parts = raw.split("/").filter(Boolean);
 
     if (parts[0] === "collections") {
@@ -416,7 +414,7 @@ function showCollectionCatalog(collectionId, resetTools = true) {
         $("catalogGrid").innerHTML = collections.map(c => {
             const count = questionCountForCollection(c.id);
             return `
-                <button class="catalog-item" onclick="go('#collections/${escAttr(c.id)}')">
+                <button class="catalog-item pattern-square" onclick="go('#collections/${escAttr(c.id)}')">
                     <div class="catalog-item-main">
                         <div class="catalog-item-title">${esc(c.name)}</div>
                         <div class="catalog-item-meta">${count} question${count === 1 ? "" : "s"}</div>
@@ -455,7 +453,7 @@ function showCollectionCatalog(collectionId, resetTools = true) {
     $("catalogGrid").innerHTML = sets.map(set => {
         const count = questionCountForCollection(collection.id, set.id);
         return `
-            <button class="catalog-item" onclick="go('#collections/${escAttr(collection.id)}/${escAttr(set.id)}')">
+            <button class="catalog-item pattern-rect" onclick="go('#collections/${escAttr(collection.id)}/${escAttr(set.id)}')">
                 <div class="catalog-item-main">
                     <div class="catalog-item-title">${esc(set.name)}</div>
                     <div class="catalog-item-meta">${count} question${count === 1 ? "" : "s"}</div>
@@ -494,7 +492,7 @@ function showTopicCatalog(topicId, resetTools = true) {
         $("catalogGrid").innerHTML = topics.map(t => {
             const count = questionCountForTopic(t.id);
             return `
-                <button class="catalog-item" onclick="go('#topics/${escAttr(t.id)}')">
+                <button class="catalog-item pattern-tri" onclick="go('#topics/${escAttr(t.id)}')">
                     <div class="catalog-item-main">
                         <div class="catalog-item-title">${esc(t.name)}</div>
                         <div class="catalog-item-meta">${count} question${count === 1 ? "" : "s"}</div>
@@ -532,7 +530,7 @@ function showTopicCatalog(topicId, resetTools = true) {
     $("catalogGrid").innerHTML = subtopics.map(sub => {
         const count = questionCountForTopic(topic.id, sub.id);
         return `
-            <button class="catalog-item" onclick="go('#topics/${escAttr(topic.id)}/${escAttr(sub.id)}')">
+            <button class="catalog-item pattern-hex" onclick="go('#topics/${escAttr(topic.id)}/${escAttr(sub.id)}')">
                 <div class="catalog-item-main">
                     <div class="catalog-item-title">${esc(sub.name)}</div>
                     <div class="catalog-item-meta">${count} question${count === 1 ? "" : "s"}</div>

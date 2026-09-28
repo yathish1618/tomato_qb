@@ -228,7 +228,12 @@ def backup_question(qid, old):
 
 
 @app.get("/")
-def index():
+def public_home():
+    return send_from_directory(FRONTEND, "public.html")
+
+
+@app.get("/cms")
+def cms_home():
     return send_from_directory(FRONTEND, "index.html")
 
 

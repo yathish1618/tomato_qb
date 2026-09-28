@@ -12,7 +12,7 @@ document.addEventListener("DOMContentLoaded", async () => {
   
   document.addEventListener("keydown", e => {
     if (e.key === "Escape") {
-      window.location.href = '/';
+      window.location.href = '/cms';
     }
   });
 });
