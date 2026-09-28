@@ -1,0 +1,31 @@
+{
+  "id": "ee0a3f44-a47a-40d6-9f7d-25506333127c",
+  "type": "MCQ",
+  "question": "Let $[x]$ denote the greatest integer which is less than or equal to $x$. Then the value of the integral $\\displaystyle\\int_0^{\\pi/4}[3\\tan^2x]dx$ is",
+  "options": {
+    "A": "$\\displaystyle\\frac\\pi3-\tan^{-1}\\left(\\sqrt{\\frac23}\\right)$",
+    "B": "$\\displaystyle\\frac\\pi4-\tan^{-1}\\left(\\sqrt{\\frac23}\\right)$",
+    "C": "$\\displaystyle3-\\left[\\frac{3\\pi}{4}\\right]$",
+    "D": "$\\displaystyle\\left[3-\\frac{3\\pi}{4}\\right]$"
+  },
+  "answer": "A",
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "tomato"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10+2 Level",
+    "file": "tomato.pdf",
+    "pages": [
+      134
+    ],
+    "question_number": 831,
+    "crop": "full_page"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

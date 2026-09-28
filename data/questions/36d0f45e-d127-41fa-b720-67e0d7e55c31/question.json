@@ -1,0 +1,25 @@
+{
+  "id": "36d0f45e-d127-41fa-b720-67e0d7e55c31",
+  "type": "SUBJECTIVE",
+  "question": "29. Show that for every positive integer $n$, 7 divides $3^{2n+1}+2^{n+2}$.",
+  "answer": null,
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "tomato"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10 + 2 Level",
+    "file": "Tomato 16th Edition.pdf",
+    "pages": [
+      236
+    ],
+    "question_number": 29,
+    "crop": "questions/36d0f45e-d127-41fa-b720-67e0d7e55c31/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

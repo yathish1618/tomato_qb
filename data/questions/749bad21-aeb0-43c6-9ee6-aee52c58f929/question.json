@@ -1,0 +1,31 @@
+{
+  "id": "749bad21-aeb0-43c6-9ee6-aee52c58f929",
+  "type": "MCQ",
+  "question": "Let the integers $a_i$ for $0\\le i\\le54$ be defined by the equation $(1+X+X^2)^{27}=a_0+a_1X+a_2X^2+\\cdots+a_{54}X^{54}$. Then, $a_0+a_3+a_6+a_9+\\cdots+a_{54}$ equals",
+  "options": {
+    "A": "$3^{26}$",
+    "B": "$3^{27}$",
+    "C": "$3^{28}$",
+    "D": "$3^{29}$."
+  },
+  "answer": null,
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "bstat-bmath-uga-2019"
+  ],
+  "source": {
+    "title": "UGA 2019",
+    "file": "BStat-BMath-UGA-2019.pdf",
+    "pages": [
+      5
+    ],
+    "question_number": 22,
+    "crop": "questions/749bad21-aeb0-43c6-9ee6-aee52c58f929/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

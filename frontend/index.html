@@ -1,0 +1,224 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Tomato CMS</title>
+  <script>
+    window.MathJax = {
+      tex: { inlineMath: [['$', '$'], ['\\(', '\\)']], displayMath: [['$$', '$$'], ['\\[', '\\]']], processEscapes: true },
+      svg: { fontCache: 'global' },
+      options: { skipHtmlTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code'] }
+    };
+  </script>
+  <script defer src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js"></script>
+  <link rel="stylesheet" href="/styles.css">
+</head>
+
+<body>
+  <div class="app">
+    <header class="topbar">
+      <div class="brand-wrap">
+        <div class="brand">TOMATO</div>
+        <div class="brand-sub">Question Bank CMS</div>
+      </div>
+      <div class="top-center" id="topCenter"></div>
+      <div class="top-actions">
+        <button class="btn secondary" id="manageBtn" onclick="window.location.href='/collections'"
+          title="Manage collections and sets">Collections/Sets</button>
+        <button class="btn secondary" id="publicViewBtn" onclick="window.location.href='/public.html'"
+          title="Open public question bank">Public View</button>
+        <button class="btn secondary" id="manageTopicsBtn" onclick="window.location.href='/topics'"
+          title="Manage topics and subtopics">Topics/Subtopics</button>
+        <button class="btn secondary" id="bulkBtn" title="Bulk assign filtered questions">Bulk Operations</button>
+        <button class="btn secondary" id="importBtn" title="Import questions">＋ Import</button>
+        <button class="btn save" id="saveBtn" disabled>Save</button>
+      </div>
+    </header>
+
+    <aside class="sidebar">
+      <div class="side-head">
+        <div class="search-wrap">
+          <span class="search-icon" aria-hidden="true"><svg width="18" height="18" viewBox="0 0 24 24" fill="none"
+              stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <circle cx="11" cy="11" r="8"></circle>
+              <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+            </svg></span>
+          <input id="search" class="search" placeholder="Search questions…">
+          <button id="filterBtn" class="filter-btn" title="Filter questions" aria-label="Filter questions"><svg
+              width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+              stroke-linecap="round" stroke-linejoin="round">
+              <polygon points="22 3 2 3 10 12.46 10 19 14 21 14 12.46 22 3"></polygon>
+            </svg></button>
+        </div>
+      </div>
+      <div id="questionList" class="question-list"></div>
+      <div class="side-foot"><span id="count">0 questions</span></div>
+    </aside>
+
+    <main class="workspace">
+      <section class="panel preview-panel">
+        <div id="groupPreview" class="group-preview" hidden>
+          <div class="group-preview-head">
+            <span id="groupPreviewTitle">Group Question</span>
+            <div class="group-nav">
+              <button class="icon group-nav-btn" id="groupPrevBtn" title="Previous part"
+                aria-label="Previous part">‹</button>
+              <button class="icon group-nav-btn" id="groupNextBtn" title="Next part" aria-label="Next part">›</button>
+            </div>
+          </div>
+          <div id="groupContent" class="group-content"></div>
+        </div>
+        <div class="question-preview">
+          <div id="preview" class="preview-body"></div>
+        </div>
+        <div class="question-nav-bar admin-question-nav">
+          <button class="icon question-nav-btn" id="prevBtn" title="Previous question"
+            aria-label="Previous question">‹</button>
+          <button class="icon question-nav-btn" id="nextBtn" title="Next question" aria-label="Next question">›</button>
+        </div>
+      </section>
+
+      <section class="panel editor-panel">
+        <div class="panel-head"><span>EDITOR</span><span id="editorType" class="panel-type">—</span></div>
+        <div class="editor-scroll">
+          <div class="field"><label>QUESTION</label><textarea id="question"></textarea></div>
+          <div class="field" id="optionsField"><label>OPTIONS</label>
+            <div id="options"></div>
+          </div>
+          <div class="field"><label>SOLUTION</label><textarea id="solution"
+              placeholder="Solution explanation…"></textarea></div>
+
+          <div class="meta-grid">
+            <div class="field"><label>DIFFICULTY</label><select id="difficulty">
+                <option value="">—</option>
+                <option>easy</option>
+                <option>medium</option>
+                <option>hard</option>
+              </select></div>
+            <div class="field"><label>GRADE</label><select id="grade">
+                <option value="">—</option>
+              </select></div>
+            <div class="field"><label>MARKS</label><input id="marks" type="number" min="0" max="100"></div>
+          </div>
+
+          <div class="field"><label>TOPIC &amp; SUBTOPIC</label>
+            <div id="topics"></div><button class="btn secondary small add-topic" id="addTopic">+ Add Topic</button>
+          </div>
+
+          <div class="field"><label>COLLECTION &amp; SET</label>
+            <div id="collectionsList"></div><button class="btn secondary small add-collection" id="addCollection">+ Add
+              Collection</button>
+          </div>
+
+          <div class="field"><label>TAGS</label>
+            <div id="tagBox" class="tag-box"><input id="tagInput" placeholder="Add tag…">
+              <div id="tagSuggestions" class="tag-suggestions"></div>
+            </div>
+          </div>
+
+          <div class="status-grid">
+            <div class="field"><label>REVIEW STATUS</label>
+              <div id="reviewStatus" class="status-row"></div>
+            </div>
+            <div class="field"><label>PUBLICATION</label>
+              <div id="pubStatus" class="status-row"></div>
+            </div>
+          </div>
+
+          <div class="field"><label>REVIEW NOTES</label><textarea id="reviewNotes" class="notes"
+              placeholder="Notes…"></textarea></div>
+
+          <div class="source">
+            <button id="sourceToggle" class="source-head"><span>SOURCE DOCUMENT</span><span
+                id="sourceChevron">⌄</span></button>
+            <div id="sourceBody" class="source-body"></div>
+          </div>
+        </div>
+      </section>
+    </main>
+  </div>
+  <div id="toast" class="toast"></div>
+
+
+  <div id="bulkModal" class="modal-mask">
+    <div class="modal">
+      <div class="modal-head">
+        <div>
+          <h3>Bulk Assign Collection &amp; Set</h3>
+          <p>Assign the selected filtered questions. Existing values will be overwritten.</p>
+        </div><button class="modal-x" id="bulkClose">×</button>
+      </div>
+      <div class="modal-body">
+        <div class="bulk-count" id="bulkCount">0 questions selected</div>
+        <div class="field"><label>COLLECTION</label><select id="bulkCollection"></select></div>
+        <div class="field"><label>SET</label><select id="bulkSet"></select></div>
+        <div class="bulk-note">Every selected question will receive both <code>collection_id</code> and
+          <code>set_id</code>. A backup of each existing JSON is created before writing.
+        </div>
+      </div>
+      <div class="modal-foot"><button class="btn secondary" id="bulkCancel">Cancel</button><button class="btn primary"
+          id="bulkApply">Assign to selected</button></div>
+    </div>
+  </div>
+
+  <div id="filterModal" class="modal-mask">
+    <div class="modal">
+      <div class="modal-head">
+        <div>
+          <h3>Filter Questions</h3>
+        </div><button class="modal-x" id="filterClose">×</button>
+      </div>
+      <div class="modal-body filter-form">
+        <div class="field"><label>Collection</label><select id="filterCollection">
+            <option value="">All Collections</option>
+          </select></div>
+        <div class="field"><label>Set</label><select id="filterSet">
+            <option value="">All Sets</option>
+          </select></div>
+        <div class="field"><label>Topic</label><select id="filterTopic">
+            <option value="">All Topics</option>
+          </select></div>
+        <div class="field"><label>Subtopic</label><select id="filterSubtopic">
+            <option value="">All Subtopics</option>
+          </select></div>
+        <div class="field"><label>Grade</label><select id="filterGrade">
+            <option value="">All Grades</option>
+          </select></div>
+        <div class="field"><label>Difficulty</label><select id="filterDifficulty">
+            <option value="">All</option>
+            <option>easy</option>
+            <option>medium</option>
+            <option>hard</option>
+          </select></div>
+        <div class="field"><label>Marks</label><select id="filterMarks">
+            <option value="">All</option>
+            <option>1</option>
+            <option>2</option>
+            <option>3</option>
+            <option>4</option>
+            <option>5</option>
+          </select></div>
+        <div class="field"><label>Question Type</label><select id="filterType">
+            <option value="">All Types</option>
+            <option value="MCQ">MCQ</option>
+            <option value="SUBJECTIVE">Subjective</option>
+          </select></div>
+        <div class="field"><label>Status</label><select id="filterStatus">
+            <option value="all">All Statuses</option>
+            <option value="NEEDS_REVIEW">Needs Review</option>
+            <option value="REVIEWED">Reviewed</option>
+            <option value="DRAFT">Draft</option>
+            <option value="PUBLISHED">Published</option>
+          </select></div>
+        <div class="field"><label>Tag</label><input id="filterTag" placeholder="e.g. tomato"></div>
+      </div>
+      <div class="modal-foot"><button id="clearFilters" class="btn secondary">Clear All</button><button
+          class="btn primary" id="applyFiltersBtn">Apply Filters</button></div>
+    </div>
+  </div>
+  <script src="/app.js"></script>
+</body>
+
+</html>

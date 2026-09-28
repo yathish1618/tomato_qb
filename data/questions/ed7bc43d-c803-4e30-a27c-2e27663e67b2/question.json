@@ -1,0 +1,25 @@
+{
+  "id": "ed7bc43d-c803-4e30-a27c-2e27663e67b2",
+  "type": "SUBJECTIVE",
+  "question": "35. (a) Prove that, for any odd integer $n$, $n^4$ when divided by 16 always leaves remainder 1.\n\n(b) Hence or otherwise show that we cannot find integers $n_1,n_2,\\ldots,n_8$ such that\n\\[\nn_1^4+n_2^4+\\cdots+n_8^4=1993.\n\\]",
+  "answer": null,
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "tomato"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10 + 2 Level",
+    "file": "Tomato 16th Edition.pdf",
+    "pages": [
+      237
+    ],
+    "question_number": 35,
+    "crop": "questions/ed7bc43d-c803-4e30-a27c-2e27663e67b2/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

@@ -1,0 +1,31 @@
+{
+  "id": "c3fbddfa-4aa4-4eac-a0a0-b96182f9293d",
+  "type": "MCQ",
+  "question": "When the product of four consecutive odd positive integers is divided by 5, the set of remainder(s) is",
+  "options": {
+    "A": "\\(\\{0\\}\\)",
+    "B": "\\(\\{0,4\\}\\)",
+    "C": "\\(\\{0,2,4\\}\\)",
+    "D": "\\(\\{0,2,3,4\\}\\)"
+  },
+  "answer": "B",
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "2015-bstat-bmath-admission-test-multiple-choice"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10 + 2 Level",
+    "file": "Tomato 16th Edition.pdf",
+    "pages": [
+      206
+    ],
+    "question_number": 11,
+    "crop": "questions/c3fbddfa-4aa4-4eac-a0a0-b96182f9293d/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

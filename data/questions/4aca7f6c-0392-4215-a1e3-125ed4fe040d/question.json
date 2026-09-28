@@ -1,0 +1,31 @@
+{
+  "id": "4aca7f6c-0392-4215-a1e3-125ed4fe040d",
+  "type": "MCQ",
+  "question": "Let $a_1,\\ldots,a_n$ be arbitrary integers and suppose $b_1,\\ldots,b_n$ is a permutation of the $a_i$\\textquotesingle$s. Then the value $|a_1-b_1|+|a_2-b_2|+\\cdots+|a_n-b_n|$",
+  "options": {
+    "A": "is less than or equal to $n$;",
+    "B": "can be an arbitrary positive integer;",
+    "C": "can be any even nonnegative integer;",
+    "D": "must be zero"
+  },
+  "answer": "C",
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "2010-bmath-admission-test-multiple-choice"
+  ],
+  "source": {
+    "title": "B.Math. (Hons.) Admission Test: 2010",
+    "file": "Tomato 16th Edition.pdf",
+    "pages": [
+      177
+    ],
+    "question_number": 30,
+    "crop": "questions/4aca7f6c-0392-4215-a1e3-125ed4fe040d/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

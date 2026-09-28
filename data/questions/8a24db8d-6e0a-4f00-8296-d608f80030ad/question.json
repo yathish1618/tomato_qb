@@ -1,0 +1,31 @@
+{
+  "id": "8a24db8d-6e0a-4f00-8296-d608f80030ad",
+  "type": "MCQ",
+  "question": "If $A,B,C$ and $D$ are statements such that if at least one of $A$ and $B$ is true, then at least one of $C$ and $D$ must be true. Further, both $A$ and $C$ are false. Then",
+  "options": {
+    "A": "if $D$ is false then $B$ is false",
+    "B": "if $B$ and $D$ are false then $B$ is true",
+    "C": "both $B$ and $D$ are true",
+    "D": "if $B$ is true then $D$ is true."
+  },
+  "answer": "A",
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "tomato"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10+2 Level — Sixteenth Edition",
+    "file": "tomato.pdf",
+    "pages": [
+      22
+    ],
+    "question_number": 66,
+    "crop": "questions/8a24db8d-6e0a-4f00-8296-d608f80030ad/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

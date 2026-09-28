@@ -1,0 +1,25 @@
+{
+  "id": "b0dee5ed-a2d4-4c59-bfb1-f805ed771dd1",
+  "type": "SUBJECTIVE",
+  "question": "25. Show that for every positive integer $n$, $\\sqrt n$ is either an integer or an irrational number.",
+  "answer": null,
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "tomato"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10 + 2 Level",
+    "file": "Tomato 16th Edition.pdf",
+    "pages": [
+      236
+    ],
+    "question_number": 25,
+    "crop": "questions/b0dee5ed-a2d4-4c59-bfb1-f805ed771dd1/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

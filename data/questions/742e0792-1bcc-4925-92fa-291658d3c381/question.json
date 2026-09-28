@@ -1,0 +1,31 @@
+{
+  "id": "742e0792-1bcc-4925-92fa-291658d3c381",
+  "type": "MCQ",
+  "question": "Let $A$ be the point $(1,2)$ and $L$ be the line $x+y=4$. Let $M$ be the line passing through $A$ such that the distance between $A$ and the point of intersection of $L$ and $M$ is $\\sqrt{\\frac23}$. Then the angle which $M$ makes with $L$ is",
+  "options": {
+    "A": "$45^\\circ$",
+    "B": "$60^\\circ$",
+    "C": "$75^\\circ$",
+    "D": "$30^\\circ$"
+  },
+  "answer": "B",
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "tomato"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10+2 Level — Sixteenth Edition",
+    "file": "tomato.pdf",
+    "pages": [
+      90
+    ],
+    "question_number": 542,
+    "crop": "questions/742e0792-1bcc-4925-92fa-291658d3c381/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

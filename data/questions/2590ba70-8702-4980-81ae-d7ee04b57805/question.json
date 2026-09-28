@@ -1,0 +1,31 @@
+{
+  "id": "2590ba70-8702-4980-81ae-d7ee04b57805",
+  "type": "MCQ",
+  "question": "A sequence \\(\\{a_n\\}\\) is defined by \\(a_1=1\\) and the inductive formula \\(a_{n+1}=\\sqrt{1+a_n^\\delta}\\) where \\(\\delta\\) is a real number greater than 0. If this sequence converges to a finite limit then \\(\\delta\\) must be",
+  "options": {
+    "A": ">0",
+    "B": ">2",
+    "C": "<2",
+    "D": "=2"
+  },
+  "answer": "C",
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "2011-bmath-admission-test-multiple-choice"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10 + 2 Level",
+    "file": "Tomato 16th Edition.pdf",
+    "pages": [
+      187
+    ],
+    "question_number": 20,
+    "crop": "questions/2590ba70-8702-4980-81ae-d7ee04b57805/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

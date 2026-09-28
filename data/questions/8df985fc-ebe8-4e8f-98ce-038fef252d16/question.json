@@ -1,0 +1,32 @@
+{
+  "id": "8df985fc-ebe8-4e8f-98ce-038fef252d16",
+  "type": "MCQ",
+  "question": "The lengths of the two adjacent sides of a parallelogram are $2$ cm and $3$ cm. The length of one diagonal is $\\sqrt{19}$ cm. Then the length of the other diagonal is",
+  "options": {
+    "A": "$\\sqrt5$ cm",
+    "B": "$\\sqrt7$ cm",
+    "C": "$\\sqrt{15}$ cm",
+    "D": "$\\sqrt{21}$ cm"
+  },
+  "answer": "B",
+  "solution": "If the diagonals are $d_1,d_2$ and the adjacent sides are $a,b$, the parallelogram identity gives\n\\[\nd_1^2+d_2^2=2(a^2+b^2).\n\\]\nThus $19+d_2^2=2(4+9)=26$, so $d_2^2=7$ and $d_2=\\sqrt7$ cm.",
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "bstat-bmath-uga-2025"
+  ],
+  "source": {
+    "title": "UGA 2025",
+    "file": "ISI BStat-BMath UGA & UGB 2025 Problem and Solution - Cheenta Academy.pdf",
+    "pages": [
+      13,
+      14
+    ],
+    "question_number": 15,
+    "crop": "questions/8df985fc-ebe8-4e8f-98ce-038fef252d16/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

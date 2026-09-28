@@ -1,0 +1,31 @@
+{
+  "id": "51bb4cca-bb4d-4943-96c8-b9a8dc7eea03",
+  "type": "MCQ",
+  "question": "We denote the largest integer less than or equal to \\(z\\) by \\([z]\\). Consider the identity \\((1+x)(10+x)(10^2+x)\\cdots(10^{10}+x)=10^a+10^b x+a_2x^2+\\cdots+a_{11}x^{11}.\\) Then",
+  "options": {
+    "A": "\\([a]>[b]\\)",
+    "B": "\\([a]=[b]\\) and \\(a>b\\)",
+    "C": "\\([a]<[b]\\)",
+    "D": "\\([a]=[b]\\) and \\(a<b\\)."
+  },
+  "answer": "D",
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "2013-bstat-bmath-admission-test-multiple-choice"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10 + 2 Level",
+    "file": "Tomato 16th Edition.pdf",
+    "pages": [
+      198
+    ],
+    "question_number": 23,
+    "crop": "questions/51bb4cca-bb4d-4943-96c8-b9a8dc7eea03/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

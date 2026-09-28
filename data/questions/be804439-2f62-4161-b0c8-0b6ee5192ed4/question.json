@@ -1,0 +1,31 @@
+{
+  "id": "be804439-2f62-4161-b0c8-0b6ee5192ed4",
+  "type": "MCQ",
+  "question": "Suppose $x$ and $y$ are positive integers. If $4x+3y$ and $2x+4y$ are divided by $7$, then the respective remainders are $2$ and $5$. If $11x+5y$ is divided by $7$, then the remainder equals",
+  "options": {
+    "A": "$0$",
+    "B": "$1$",
+    "C": "$2$",
+    "D": "$3$"
+  },
+  "answer": null,
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "bstat-bmath-uga-2023"
+  ],
+  "source": {
+    "title": "",
+    "file": "BStat-BMath-UGA-2023(1).pdf",
+    "pages": [
+      4
+    ],
+    "question_number": 11,
+    "crop": "questions/be804439-2f62-4161-b0c8-0b6ee5192ed4/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

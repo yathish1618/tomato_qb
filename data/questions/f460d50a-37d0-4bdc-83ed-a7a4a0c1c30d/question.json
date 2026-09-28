@@ -1,0 +1,31 @@
+{
+  "id": "f460d50a-37d0-4bdc-83ed-a7a4a0c1c30d",
+  "type": "MCQ",
+  "question": "The value of $\\sum_{k=0}^{202}(-1)^k\\binom{202}{k}\\cos\\left(\\frac{k\\pi}{3}\\right)$ equals",
+  "options": {
+    "A": "$\\sin\\left(\\frac{202\\pi}{3}\\right)$",
+    "B": "$-\\sin\\left(\\frac{202\\pi}{3}\\right)$",
+    "C": "$\\cos\\left(\\frac{202\\pi}{3}\\right)$",
+    "D": "$\\cos^{202}\\left(\\frac\\pi3\\right)$"
+  },
+  "answer": null,
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "bstat-bmath-uga-2023"
+  ],
+  "source": {
+    "title": "",
+    "file": "BStat-BMath-UGA-2023(1).pdf",
+    "pages": [
+      4
+    ],
+    "question_number": 12,
+    "crop": "questions/f460d50a-37d0-4bdc-83ed-a7a4a0c1c30d/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

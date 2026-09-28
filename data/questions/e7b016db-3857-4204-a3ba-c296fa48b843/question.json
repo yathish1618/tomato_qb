@@ -1,0 +1,31 @@
+{
+  "id": "e7b016db-3857-4204-a3ba-c296fa48b843",
+  "type": "MCQ",
+  "question": "Let 10 red balls and 10 white balls be arranged in a straight line such that 10 each are on either side of a central mark. The number of such symmetrical arrangements about the central mark is",
+  "options": {
+    "A": "$\\frac{10!}{5!5!}$",
+    "B": "$10!$",
+    "C": "$\\frac{10!}{5!}$",
+    "D": "$2\\cdot10!$"
+  },
+  "answer": null,
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "bstat-bmath-uga-2018"
+  ],
+  "source": {
+    "title": "",
+    "file": "BStat-BMath-UGA-2018.pdf",
+    "pages": [
+      2
+    ],
+    "question_number": 12,
+    "crop": "questions/e7b016db-3857-4204-a3ba-c296fa48b843/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

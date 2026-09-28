@@ -1,0 +1,31 @@
+{
+  "id": "e1eb79fe-f4fe-4622-aedd-e4afdd0f7d9a",
+  "type": "MCQ",
+  "question": "As $x$ varies over all real numbers, the range of the function $f(x)=\\frac{x^2-3x+4}{x^2+3x+4}$ is",
+  "options": {
+    "A": "$[\\frac17,7]$",
+    "B": "$[-\\frac17,7]$",
+    "C": "$[-7,7]$",
+    "D": "$(-\\infty,\\frac17)\\cup(7,\\infty)$"
+  },
+  "answer": "A",
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "tomato"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10+2 Level",
+    "file": "tomato.pdf",
+    "pages": [
+      128
+    ],
+    "question_number": 792,
+    "crop": "full_page"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

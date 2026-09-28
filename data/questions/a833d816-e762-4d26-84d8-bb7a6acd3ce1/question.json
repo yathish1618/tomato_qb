@@ -1,0 +1,31 @@
+{
+  "id": "a833d816-e762-4d26-84d8-bb7a6acd3ce1",
+  "type": "MCQ",
+  "question": "Amongst all polynomials $p(x)=c_0+c_1x+\\cdots+c_{10}x^{10}$ with real coefficients satisfying $|p(x)|\\le|x|$ for all $x\\in[-1,1]$, what is the maximum possible value of $(2c_0+c_1)^{10}$?",
+  "options": {
+    "A": "$4^{10}$",
+    "B": "$3^{10}$",
+    "C": "$2^{10}$",
+    "D": "$1$"
+  },
+  "answer": null,
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "bstat-bmath-uga-2022"
+  ],
+  "source": {
+    "title": "",
+    "file": "BStat-BMath-UGA-2022(1).pdf",
+    "pages": [
+      1
+    ],
+    "question_number": 3,
+    "crop": "questions/a833d816-e762-4d26-84d8-bb7a6acd3ce1/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

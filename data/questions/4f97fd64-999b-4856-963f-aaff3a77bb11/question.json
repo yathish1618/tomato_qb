@@ -1,0 +1,31 @@
+{
+  "id": "4f97fd64-999b-4856-963f-aaff3a77bb11",
+  "type": "MCQ",
+  "question": "In a survey of 100 families, the number of families that read the most recent issues of various magazines was found to be: $\\textit{India Today}$ 42, $\\textit{Sunday}$ 30, $\\textit{New Delhi}$ 28, $\\textit{India Today}$ and $\\textit{Sunday}$ 10, $\\textit{India Today}$ and $\\textit{New Delhi}$ 5, $\\textit{Sunday}$ and $\\textit{New Delhi}$ 8, all three magazines 3. Then the number of families that read either both or none of the two magazines Sunday and India Today is",
+  "options": {
+    "A": "48",
+    "B": "38",
+    "C": "72",
+    "D": "58"
+  },
+  "answer": "A",
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "tomato"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10+2 Level — Sixteenth Edition",
+    "file": "tomato.pdf",
+    "pages": [
+      19
+    ],
+    "question_number": 49,
+    "crop": "questions/4f97fd64-999b-4856-963f-aaff3a77bb11/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

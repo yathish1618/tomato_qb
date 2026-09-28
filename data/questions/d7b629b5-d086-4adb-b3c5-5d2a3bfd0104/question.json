@@ -1,0 +1,25 @@
+{
+  "id": "d7b629b5-d086-4adb-b3c5-5d2a3bfd0104",
+  "type": "SUBJECTIVE",
+  "question": "Let \\(S\\) be the set of all sequences \\((a_1,a_2,\\ldots)\\) of non-negative integers such that\n\\[\n(i)\\quad a_1\\ge a_2\\ge\\cdots;\n\\]\nand\n\\[\n(ii)\\quad\\text{there exists a positive integer }N\\text{ such that }a_n=0\\text{ for all }n\\ge N.\n\\]\nDefine the dual of the sequence \\((a_1,a_2,\\ldots)\\) belonging to \\(S\\) to be the sequence \\((b_1,b_2,\\ldots)\\), where, for \\(m\\ge1\\), \\(b_m\\) is the number of \\(a_n\\)'s which are greater than or equal to \\(m\\).\n\n(i) Show that the dual of a sequence in \\(S\\) belongs to \\(S\\).\n\n(ii) Show that the dual of the dual of a sequence in \\(S\\) is the original sequence itself.\n\n(iii) Show that the duals of distinct sequences in \\(S\\) are distinct.",
+  "answer": null,
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "tomato"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10 + 2 Level",
+    "file": "Tomato 16th Edition.pdf",
+    "pages": [
+      257
+    ],
+    "question_number": 184,
+    "crop": "questions/d7b629b5-d086-4adb-b3c5-5d2a3bfd0104/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

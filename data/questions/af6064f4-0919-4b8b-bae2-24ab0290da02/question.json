@@ -1,0 +1,31 @@
+{
+  "id": "af6064f4-0919-4b8b-bae2-24ab0290da02",
+  "type": "MCQ",
+  "question": "The number of terms in the expansion of $(x+y+z+w)^{2009}$ is",
+  "options": {
+    "A": "$\\binom{2009}{4}$",
+    "B": "$\\binom{2013}{4}$",
+    "C": "$\\binom{2012}{3}$",
+    "D": "$2010^4$"
+  },
+  "answer": "C",
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "2009-bmath-admission-test-multiple-choice"
+  ],
+  "source": {
+    "title": "B.Math. (Hons.) Admission Test: 2009",
+    "file": "Tomato 16th Edition.pdf",
+    "pages": [
+      165
+    ],
+    "question_number": 15,
+    "crop": "questions/af6064f4-0919-4b8b-bae2-24ab0290da02/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

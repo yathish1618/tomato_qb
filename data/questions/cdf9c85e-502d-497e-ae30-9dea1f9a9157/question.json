@@ -1,0 +1,31 @@
+{
+  "id": "cdf9c85e-502d-497e-ae30-9dea1f9a9157",
+  "type": "MCQ",
+  "question": "It is given that the expression $ax^2+bx+c$ takes positive values for all $x$ greater than 5. Then",
+  "options": {
+    "A": "the equation $ax^2+bx+c=0$ has equal roots",
+    "B": "$a>0$ and $b<0$",
+    "C": "$a>0$, but $b$ may or may not be negative",
+    "D": "$c>5$"
+  },
+  "answer": "C",
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "tomato"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10+2 Level — Sixteenth Edition",
+    "file": "tomato.pdf",
+    "pages": [
+      44
+    ],
+    "question_number": 241,
+    "crop": "questions/cdf9c85e-502d-497e-ae30-9dea1f9a9157/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

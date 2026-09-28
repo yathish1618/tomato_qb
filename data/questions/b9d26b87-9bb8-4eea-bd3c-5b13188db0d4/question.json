@@ -1,0 +1,25 @@
+{
+  "id": "b9d26b87-9bb8-4eea-bd3c-5b13188db0d4",
+  "type": "SUBJECTIVE",
+  "question": "A cow is grazing with a rope around her neck and the other end of the rope is tied to a pole. The length of the rope is 10 metres. There are two boundary walls perpendicular to each other, one at a distance of 5 metres to the east of the pole and another at a distance of \\(5\\sqrt2\\) metres to the north of the pole. Find the area the cow can graze on.",
+  "answer": null,
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "tomato"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10 + 2 Level",
+    "file": "Tomato 16th Edition.pdf",
+    "pages": [
+      254
+    ],
+    "question_number": 166,
+    "crop": "questions/b9d26b87-9bb8-4eea-bd3c-5b13188db0d4/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

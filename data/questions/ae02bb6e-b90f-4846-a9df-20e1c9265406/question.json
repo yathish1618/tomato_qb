@@ -1,0 +1,31 @@
+{
+  "id": "ae02bb6e-b90f-4846-a9df-20e1c9265406",
+  "type": "MCQ",
+  "question": "Consider the function \\(f(x)=ax^3+bx^2+cx+d\\), where \\(a,b,c,d\\) are real numbers with \\(a>0\\). If \\(f\\) is strictly increasing, then the function \\(g(x)=f'(x)-f''(x)+f'''(x)\\) is",
+  "options": {
+    "A": "zero for some \\(x\\in\\mathbb R\\)",
+    "B": "positive for all \\(x\\in\\mathbb R\\)",
+    "C": "negative for all \\(x\\in\\mathbb R\\)",
+    "D": "strictly increasing."
+  },
+  "answer": "B",
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "2014-bstat-bmath-admission-test-multiple-choice"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10 + 2 Level",
+    "file": "Tomato 16th Edition.pdf",
+    "pages": [
+      201
+    ],
+    "question_number": 13,
+    "crop": "questions/ae02bb6e-b90f-4846-a9df-20e1c9265406/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

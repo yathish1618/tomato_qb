@@ -1,0 +1,31 @@
+{
+  "id": "26b0dbf6-376e-4af4-a251-084d6ac9f34f",
+  "type": "MCQ",
+  "question": "If $x>1$ and $x+x^{-1}<\\sqrt5$, then",
+  "options": {
+    "A": "$2x<\\sqrt5+1,\\ 2x^{-1}>\\sqrt5-1$",
+    "B": "$2x<\\sqrt5+1,\\ 2x^{-1}<\\sqrt5-1$",
+    "C": "$2x>\\sqrt5+1,\\ 2x^{-1}<\\sqrt5-1$",
+    "D": "none of the foregoing pair of inequalities hold"
+  },
+  "answer": "A",
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "tomato"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10+2 Level — Sixteenth Edition",
+    "file": "tomato.pdf",
+    "pages": [
+      48
+    ],
+    "question_number": 268,
+    "crop": "questions/26b0dbf6-376e-4af4-a251-084d6ac9f34f/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

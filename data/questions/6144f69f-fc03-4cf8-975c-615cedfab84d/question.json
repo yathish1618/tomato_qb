@@ -1,0 +1,31 @@
+{
+  "id": "6144f69f-fc03-4cf8-975c-615cedfab84d",
+  "type": "MCQ",
+  "question": "The number of roots between $0$ and $\\pi$ of the equation $2\\sin^2x+1=3\\sin x$ equals",
+  "options": {
+    "A": "2",
+    "B": "4",
+    "C": "1",
+    "D": "3"
+  },
+  "answer": "D",
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "tomato"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10+2 Level",
+    "file": "tomato.pdf",
+    "pages": [
+      102
+    ],
+    "question_number": 631,
+    "crop": "full_page"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

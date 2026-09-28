@@ -1,0 +1,31 @@
+{
+  "id": "82a08f3b-add7-4775-b171-8d1d58f86f69",
+  "type": "MCQ",
+  "question": "The set of all real numbers \\(x\\) satisfying the inequality \\(|x^2+3x|+x^2-2\\ge0\\) is",
+  "options": {
+    "A": "all the real numbers \\(x\\) with either \\(x\\le-3\\) or \\(x\\ge2\\)",
+    "B": "all the real numbers \\(x\\) with either \\(x\\le-3\\) or \\(x\\ge\\frac12\\)",
+    "C": "all the real numbers \\(x\\) with either \\(x\\le-2\\) or \\(x\\ge\\frac12\\)",
+    "D": "described by none of the foregoing statements"
+  },
+  "answer": "B",
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "tomato"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10+2 Level — Sixteenth Edition",
+    "file": "tomato.pdf",
+    "pages": [
+      64
+    ],
+    "question_number": 380,
+    "crop": "questions/82a08f3b-add7-4775-b171-8d1d58f86f69/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

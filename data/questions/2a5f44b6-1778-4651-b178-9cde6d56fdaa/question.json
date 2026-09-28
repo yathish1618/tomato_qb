@@ -1,0 +1,25 @@
+{
+  "id": "2a5f44b6-1778-4651-b178-9cde6d56fdaa",
+  "type": "SUBJECTIVE",
+  "question": "Consider a cubic polynomial $p(x)=ax^3+bx^2+cx+d$ where $a,b,c,d$ are integers such that $ad$ is odd and $bc$ is even. Prove that not all roots of $p(x)$ can be rational.",
+  "answer": null,
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "2016-bstat-bmath-admission-test-short-answer-type"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10 + 2 Level",
+    "file": "Tomato 16th Edition(1).pdf",
+    "pages": [
+      286
+    ],
+    "question_number": 2,
+    "crop": "questions/2a5f44b6-1778-4651-b178-9cde6d56fdaa/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

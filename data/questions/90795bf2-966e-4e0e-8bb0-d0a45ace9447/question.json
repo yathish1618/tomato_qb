@@ -1,0 +1,31 @@
+{
+  "id": "90795bf2-966e-4e0e-8bb0-d0a45ace9447",
+  "type": "MCQ",
+  "question": "If $c\\int_0^1 x f(2x)\\,dx=\\int_0^2 t f(t)\\,dt$, where $f$ is a positive continuous function, then the value of $c$ is",
+  "options": {
+    "A": "$1/2$;",
+    "B": "4;",
+    "C": "2;",
+    "D": "1."
+  },
+  "answer": "B",
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "2008-bmath-admission-test-multiple-choice"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10 + 2 Level",
+    "file": "Tomato 16th Edition.pdf",
+    "pages": [
+      156
+    ],
+    "question_number": 21,
+    "crop": "questions/90795bf2-966e-4e0e-8bb0-d0a45ace9447/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

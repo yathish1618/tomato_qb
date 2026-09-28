@@ -1,0 +1,31 @@
+{
+  "id": "6852261b-5259-40f2-94dc-34225fb8a001",
+  "type": "MCQ",
+  "question": "Let $f(x)=e^{-|x|}$, $x\\in\\mathbb R$, and $g(\\theta)=\\int_{-1}^{1}f\\!\\left(\\frac{x}{\\theta}\\right)dx$, $\\theta\\ne0$. Then $\\lim_{\\theta\\to0}\\frac{g(\\theta)}{\\theta}$",
+  "options": {
+    "A": "equals $0$",
+    "B": "equals $+\\infty$",
+    "C": "equals $2$",
+    "D": "does not exist"
+  },
+  "answer": null,
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "bstat-bmath-uga-2021"
+  ],
+  "source": {
+    "title": "",
+    "file": "BStat-BMath-UGA-2021(1).pdf",
+    "pages": [
+      2
+    ],
+    "question_number": 9,
+    "crop": "questions/6852261b-5259-40f2-94dc-34225fb8a001/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

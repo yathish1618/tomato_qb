@@ -1,0 +1,31 @@
+{
+  "id": "5dd38661-9b12-4391-a86c-8f9530fac6ff",
+  "type": "MCQ",
+  "question": "$\\displaystyle\\lim_{n\\to\\infty}\\frac{\\pi}{2^n}\\sum_{j=1}^{2^n}\\sin\\left(\\frac{j\\pi}{2^n}\\right)$ is equal to",
+  "options": {
+    "A": "$0$",
+    "B": "$\\pi$",
+    "C": "$2$",
+    "D": "$1$"
+  },
+  "answer": "C",
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "2009-bmath-admission-test-multiple-choice"
+  ],
+  "source": {
+    "title": "B.Math. (Hons.) Admission Test: 2009",
+    "file": "Tomato 16th Edition.pdf",
+    "pages": [
+      164
+    ],
+    "question_number": 8,
+    "crop": "questions/5dd38661-9b12-4391-a86c-8f9530fac6ff/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

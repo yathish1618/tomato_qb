@@ -1,0 +1,25 @@
+{
+  "id": "8a0bf42f-b6de-47f6-9b61-c82acf905d41",
+  "type": "SUBJECTIVE",
+  "question": "Suppose that in a sports tournament featuring $n$ players, each pair plays one game and there is always a winner and a loser (no draws). Show that the players can be arranged in an order $P_1,P_2,\\ldots,P_n$ such that player $P_i$ has beaten $P_{i+1}$ for all $i=1,2,\\ldots,n-1$.",
+  "answer": null,
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "2016-bstat-bmath-admission-test-short-answer-type"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10 + 2 Level",
+    "file": "Tomato 16th Edition(1).pdf",
+    "pages": [
+      286
+    ],
+    "question_number": 1,
+    "crop": "questions/8a0bf42f-b6de-47f6-9b61-c82acf905d41/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

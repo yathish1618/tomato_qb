@@ -1,0 +1,31 @@
+{
+  "id": "80139e88-6349-4449-a3e6-f06a2a625376",
+  "type": "MCQ",
+  "question": "Let $\\theta_1=\\frac{2\\pi}{3}$, $\\theta_2=\\frac{4\\pi}{7}$, $\\theta_3=\\frac{7\\pi}{12}$. Then",
+  "options": {
+    "A": "$(\\sin\\theta_1)^{\\sin\\theta_1}<(\\sin\\theta_2)^{\\sin\\theta_2}<(\\sin\\theta_3)^{\\sin\\theta_3}$",
+    "B": "$(\\sin\\theta_2)^{\\sin\\theta_2}<(\\sin\\theta_1)^{\\sin\\theta_1}<(\\sin\\theta_3)^{\\sin\\theta_3}$",
+    "C": "$(\\sin\\theta_3)^{\\sin\\theta_3}<(\\sin\\theta_1)^{\\sin\\theta_1}<(\\sin\\theta_2)^{\\sin\\theta_2}$",
+    "D": "$(\\sin\\theta_1)^{\\sin\\theta_1}<(\\sin\\theta_3)^{\\sin\\theta_3}<(\\sin\\theta_2)^{\\sin\\theta_2}$"
+  },
+  "answer": "D",
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "2010-bstat-admission-test-multiple-choice"
+  ],
+  "source": {
+    "title": "B.Stat. (Hons.) Admission Test: 2010",
+    "file": "Tomato 16th Edition.pdf",
+    "pages": [
+      172
+    ],
+    "question_number": 25,
+    "crop": "questions/80139e88-6349-4449-a3e6-f06a2a625376/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

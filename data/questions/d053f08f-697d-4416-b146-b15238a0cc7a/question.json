@@ -1,0 +1,31 @@
+{
+  "id": "d053f08f-697d-4416-b146-b15238a0cc7a",
+  "type": "MCQ",
+  "question": "The function \\(f(x)=x^2e^{-|x|}\\) defined on the entire real line is",
+  "options": {
+    "A": "not continuous at exactly one point;",
+    "B": "continuous everywhere but not differentiable at exactly one point;",
+    "C": "differentiable everywhere;",
+    "D": "differentiable everywhere."
+  },
+  "answer": "C",
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "2011-bmath-admission-test-multiple-choice"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10 + 2 Level",
+    "file": "Tomato 16th Edition.pdf",
+    "pages": [
+      184
+    ],
+    "question_number": 2,
+    "crop": "questions/d053f08f-697d-4416-b146-b15238a0cc7a/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

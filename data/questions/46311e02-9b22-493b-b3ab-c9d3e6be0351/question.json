@@ -1,0 +1,31 @@
+{
+  "id": "46311e02-9b22-493b-b3ab-c9d3e6be0351",
+  "type": "MCQ",
+  "question": "The number of consecutive zeroes adjacent to the digit in the unit’s place of $40^{150}$ is",
+  "options": {
+    "A": "$3$",
+    "B": "$4$",
+    "C": "$49$",
+    "D": "$50$"
+  },
+  "answer": null,
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "bstat-bmath-uga-2023"
+  ],
+  "source": {
+    "title": "",
+    "file": "BStat-BMath-UGA-2023(1).pdf",
+    "pages": [
+      2
+    ],
+    "question_number": 4,
+    "crop": "questions/46311e02-9b22-493b-b3ab-c9d3e6be0351/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

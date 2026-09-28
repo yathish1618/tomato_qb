@@ -1,0 +1,25 @@
+{
+  "id": "e8196fa9-b9d4-4c0a-8c90-51ae88b0e524",
+  "type": "SUBJECTIVE",
+  "question": "Let $A$ be the region in the $xy$-plane given by\n\\[\nA=\\{(x,y):x=u+v,\\ y=v,\\ u^2+v^2\\le1\\}.\n\\]\nDerive the length of the longest line segment that can be enclosed inside the region $A$.",
+  "answer": null,
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "2014-bstat-bmath-admission-test-short-answer-type"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10 + 2 Level",
+    "file": "Tomato 16th Edition(1).pdf",
+    "pages": [
+      282
+    ],
+    "question_number": 6,
+    "crop": "questions/e8196fa9-b9d4-4c0a-8c90-51ae88b0e524/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

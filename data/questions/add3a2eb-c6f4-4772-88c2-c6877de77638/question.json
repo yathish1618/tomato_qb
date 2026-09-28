@@ -1,0 +1,31 @@
+{
+  "id": "add3a2eb-c6f4-4772-88c2-c6877de77638",
+  "type": "MCQ",
+  "question": "The value of \\((1^r+2^r+\\cdots+n^r)^n\\), where \\(r\\) is a real number, is",
+  "options": {
+    "A": "greater than or equal to \\(n^n\\cdot(n!)^r\\)",
+    "B": "less than \\(n^n\\cdot(n!)^{2r}\\)",
+    "C": "less than or equal to \\(n^{2n}\\cdot(n!)^r\\)",
+    "D": "greater than \\(n^n\\cdot(n!)^r\\)"
+  },
+  "answer": "D",
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "tomato"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10+2 Level — Sixteenth Edition",
+    "file": "tomato.pdf",
+    "pages": [
+      66
+    ],
+    "question_number": 393,
+    "crop": "questions/add3a2eb-c6f4-4772-88c2-c6877de77638/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

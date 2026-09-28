@@ -1,0 +1,31 @@
+{
+  "id": "73ebee54-04bb-4068-94f5-a893d15eeb3a",
+  "type": "MCQ",
+  "question": "Let $f:\\mathbb R\\to\\mathbb R$ be a twice differentiable one-to-one function. If $f(2)=2$, $f(3)=-8$ and $\\int_2^3f(x)\\,dx=-3$, then $\\int_{-8}^{2}f^{-1}(x)\\,dx$ equals",
+  "options": {
+    "A": "$-25$",
+    "B": "$25$",
+    "C": "$-31$",
+    "D": "$31$"
+  },
+  "answer": null,
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "bstat-bmath-uga-2023"
+  ],
+  "source": {
+    "title": "",
+    "file": "BStat-BMath-UGA-2023(1).pdf",
+    "pages": [
+      6
+    ],
+    "question_number": 18,
+    "crop": "questions/73ebee54-04bb-4068-94f5-a893d15eeb3a/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

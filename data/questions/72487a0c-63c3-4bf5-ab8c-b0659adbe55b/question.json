@@ -1,0 +1,31 @@
+{
+  "id": "72487a0c-63c3-4bf5-ab8c-b0659adbe55b",
+  "type": "MCQ",
+  "question": "The number of positive integers $n\\le22$ such that $7$ divides $n^5+4n^4+3n^3+2022$ is",
+  "options": {
+    "A": "$7$",
+    "B": "$8$",
+    "C": "$9$",
+    "D": "$10$"
+  },
+  "answer": null,
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "bstat-bmath-uga-2022"
+  ],
+  "source": {
+    "title": "",
+    "file": "BStat-BMath-UGA-2022(1).pdf",
+    "pages": [
+      5
+    ],
+    "question_number": 19,
+    "crop": "questions/72487a0c-63c3-4bf5-ab8c-b0659adbe55b/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

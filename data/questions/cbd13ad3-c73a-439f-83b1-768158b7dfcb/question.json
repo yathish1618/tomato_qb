@@ -1,0 +1,25 @@
+{
+  "id": "cbd13ad3-c73a-439f-83b1-768158b7dfcb",
+  "type": "SUBJECTIVE",
+  "question": "Let $d$ be a positive integer. Prove that there exists a right-angled triangle with rational sides and area equal to $d$ if and only if there exists an arithmetic progression $x^2,y^2,z^2$ of squares of rational numbers whose common difference is $d$.",
+  "answer": null,
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "2016-bstat-bmath-admission-test-short-answer-type"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10 + 2 Level",
+    "file": "Tomato 16th Edition(1).pdf",
+    "pages": [
+      286
+    ],
+    "question_number": 4,
+    "crop": "questions/cbd13ad3-c73a-439f-83b1-768158b7dfcb/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

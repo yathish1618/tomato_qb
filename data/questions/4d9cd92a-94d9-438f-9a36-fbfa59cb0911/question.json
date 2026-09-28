@@ -1,0 +1,31 @@
+{
+  "id": "4d9cd92a-94d9-438f-9a36-fbfa59cb0911",
+  "type": "MCQ",
+  "question": "Consider an array of $m$ rows and $n$ columns obtained by arranging the first $mn$ integers in some order. Let $b_i$ be the maximum of the numbers in the $i$-th row and $c_j$ be the minimum of the numbers in the $j$-th column. If $b=\\min_{1\\le i\\le m}b_i$ and $c=\\max_{1\\le j\\le n}c_j$, then which of the following statements are necessarily true?",
+  "options": {
+    "A": "$m\\le c$",
+    "B": "$n\\ge b$",
+    "C": "$c\\ge b$",
+    "D": "$c\\le b$"
+  },
+  "answer": "D",
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "2009-bstat-admission-test-multiple-choice"
+  ],
+  "source": {
+    "title": "B.Stat. (Hons.) Admission Test: 2009",
+    "file": "Tomato 16th Edition.pdf",
+    "pages": [
+      163
+    ],
+    "question_number": 30,
+    "crop": "questions/4d9cd92a-94d9-438f-9a36-fbfa59cb0911/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

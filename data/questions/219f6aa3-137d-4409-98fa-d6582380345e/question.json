@@ -1,0 +1,31 @@
+{
+  "id": "219f6aa3-137d-4409-98fa-d6582380345e",
+  "type": "MCQ",
+  "question": "A ladder $AB$, 25 feet (ft) (1 ft=12 inches (in)) long leans against a vertical wall. The lower end $A$, which is at a distance of 7 ft from the bottom of the wall, is being moved away along the ground from the wall at the rate of 2 ft/sec. Then the upper end $B$ will start moving towards the bottom of the wall at the rate of (in in/sec)",
+  "options": {
+    "A": "10",
+    "B": "17",
+    "C": "7",
+    "D": "5"
+  },
+  "answer": "C",
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "tomato"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10+2 Level",
+    "file": "tomato.pdf",
+    "pages": [
+      118
+    ],
+    "question_number": 733,
+    "crop": "full_page"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

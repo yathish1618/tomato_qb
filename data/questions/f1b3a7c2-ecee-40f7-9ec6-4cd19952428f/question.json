@@ -1,0 +1,31 @@
+{
+  "id": "f1b3a7c2-ecee-40f7-9ec6-4cd19952428f",
+  "type": "MCQ",
+  "question": "In an isosceles triangle $ABC$, $\\angle A=\\angle C=\\frac{\\pi}{6}$ and the radius of its circumcircle is $4$. The radius of its incircle is",
+  "options": {
+    "A": "$4\\sqrt3-6$",
+    "B": "$4\\sqrt3+6$",
+    "C": "$2\\sqrt3-2$",
+    "D": "$2\\sqrt3+2$"
+  },
+  "answer": "A",
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "tomato"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10+2 Level — Sixteenth Edition",
+    "file": "tomato.pdf",
+    "pages": [
+      81
+    ],
+    "question_number": 482,
+    "crop": "questions/f1b3a7c2-ecee-40f7-9ec6-4cd19952428f/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

@@ -1,0 +1,31 @@
+{
+  "id": "6ce442cc-4c4e-4749-a86e-9d83ade396b4",
+  "type": "MCQ",
+  "question": "A square, whose side is 2 metres, has its corners cut away so as to form a regular octagon. Then the area of the octagon, in square metres, is",
+  "options": {
+    "A": "2",
+    "B": "$\\frac{8}{\\sqrt2+1}$",
+    "C": "$4(3-2\\sqrt2)$",
+    "D": "none of the foregoing numbers"
+  },
+  "answer": "B",
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "tomato"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10+2 Level — Sixteenth Edition",
+    "file": "tomato.pdf",
+    "pages": [
+      87
+    ],
+    "question_number": 523,
+    "crop": "questions/6ce442cc-4c4e-4749-a86e-9d83ade396b4/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

@@ -1,0 +1,31 @@
+{
+  "id": "44fd65d1-66f0-447e-a325-ce52ad1fcece",
+  "type": "MCQ",
+  "question": "Consider the equation of the form $x^2+ax+b=0$. The number of such equations that have real roots and whose coefficients $a$ and $b$ are in the set $\\{1,2,3,4,5,6\\}$, is",
+  "options": {
+    "A": "20",
+    "B": "18",
+    "C": "17",
+    "D": "19"
+  },
+  "answer": "D",
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "tomato"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10+2 Level — Sixteenth Edition",
+    "file": "tomato.pdf",
+    "pages": [
+      29
+    ],
+    "question_number": 123,
+    "crop": "questions/44fd65d1-66f0-447e-a325-ce52ad1fcece/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

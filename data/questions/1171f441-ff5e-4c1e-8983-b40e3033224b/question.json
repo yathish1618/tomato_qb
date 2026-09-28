@@ -1,0 +1,31 @@
+{
+  "id": "1171f441-ff5e-4c1e-8983-b40e3033224b",
+  "type": "MCQ",
+  "question": "For $k\\ge1$, the value of\n\\[\n\\binom n0+\\binom{n+1}1+\\binom{n+2}2+\\cdots+\\binom{n+k}{k}\n\\]\nequals",
+  "options": {
+    "A": "$\\binom{n+k+1}{n+k}$;",
+    "B": "$(n+k+1)\\binom{n+k}{n+1}$;",
+    "C": "$\\binom{n+k+1}{n+1}$;",
+    "D": "$\\binom{n+k+1}{n}$."
+  },
+  "answer": "C",
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "2007-bstat-admission-test-multiple-choice"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10 + 2 Level",
+    "file": "Tomato 16th Edition.pdf",
+    "pages": [
+      141
+    ],
+    "question_number": 14,
+    "crop": "questions/1171f441-ff5e-4c1e-8983-b40e3033224b/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

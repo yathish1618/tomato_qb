@@ -1,0 +1,31 @@
+{
+  "id": "77ffee6b-2271-4955-b324-3f0a7d180bbc",
+  "type": "MCQ",
+  "question": "Four married couples are to be seated in a merry-go-round with 8 identical seats. In how many ways can they be seated so that (i) males and females sit alternately, and (ii) no husband sits adjacent to his wife?",
+  "options": {
+    "A": "8",
+    "B": "12",
+    "C": "16",
+    "D": "20"
+  },
+  "answer": "B",
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "tomato"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10+2 Level — Sixteenth Edition",
+    "file": "tomato.pdf",
+    "pages": [
+      26
+    ],
+    "question_number": 104,
+    "crop": "questions/77ffee6b-2271-4955-b324-3f0a7d180bbc/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

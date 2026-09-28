@@ -1,0 +1,31 @@
+{
+  "id": "f78e9688-6cb4-445f-8321-5f20b5149d3e",
+  "type": "MCQ",
+  "question": "If $a,b,c$ are real numbers so that $x^3+ax^2+bx+c=(x^2+1)g(x)$ for some polynomial $g$, then",
+  "options": {
+    "A": "$b=1,a=c$;",
+    "B": "$b=0=c$;",
+    "C": "$a=0$;",
+    "D": "none of the above."
+  },
+  "answer": "A",
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "2010-bmath-admission-test-multiple-choice"
+  ],
+  "source": {
+    "title": "B.Math. (Hons.) Admission Test: 2010",
+    "file": "Tomato 16th Edition.pdf",
+    "pages": [
+      176
+    ],
+    "question_number": 20,
+    "crop": "questions/f78e9688-6cb4-445f-8321-5f20b5149d3e/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

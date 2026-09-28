@@ -1,0 +1,25 @@
+{
+  "id": "8c49c8e9-893d-4e86-926b-81602122f380",
+  "type": "SUBJECTIVE",
+  "question": "Let $X\\subset\\mathbb{R}^2$ be a set satisfying the following properties: (i) if $(x_1,y_1)$ and $(x_2,y_2)$ are any two distinct elements in $X$, then either $x_1>x_2$ and $y_1>y_2$, or $x_2>x_1$ and $y_2>y_1$; (ii) there are two elements $(a_1,b_1)$ and $(a_2,b_2)$ in $X$ such that for any $(x,y)$ in $X$, $a_1\\le x\\le a_2$ and $b_1\\le y\\le b_2$; (iii) if $(x_1,y_1)$ and $(x_2,y_2)$ are two elements of $X$, then for all $\\lambda\\in[0,1]$, $(\\lambda x_1+(1-\\lambda)x_2,\\lambda y_1+(1-\\lambda)y_2)\\in X$. Show that if $(x,y)$ is in $X$, then for some $\\lambda\\in[0,1]$, $x=\\lambda a_1+(1-\\lambda)a_2$, $y=\\lambda b_1+(1-\\lambda)b_2$.",
+  "answer": null,
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "2007-bstat-admission-test-short-answer-type"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10 + 2 Level",
+    "file": "Tomato 16th Edition(1).pdf",
+    "pages": [
+      261
+    ],
+    "question_number": 9,
+    "crop": "questions/8c49c8e9-893d-4e86-926b-81602122f380/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

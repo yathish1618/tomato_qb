@@ -1,0 +1,31 @@
+{
+  "id": "763474f5-d8e9-49b8-8748-1e7b7743dc1d",
+  "type": "MCQ",
+  "question": "Let \\(f(x)=\\sqrt{\\log_2 x-1}+\\frac12\\log_{1/2}x^3+2\\). The set of all real values of \\(x\\) for which the function \\(f(x)\\) is defined and \\(f(x)<0\\) is",
+  "options": {
+    "A": "\\(x>2\\)",
+    "B": "\\(x>3\\)",
+    "C": "\\(x>e\\)",
+    "D": "\\(x>4\\)"
+  },
+  "answer": "D",
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "2013-bstat-bmath-admission-test-multiple-choice"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10 + 2 Level",
+    "file": "Tomato 16th Edition.pdf",
+    "pages": [
+      196
+    ],
+    "question_number": 16,
+    "crop": "questions/763474f5-d8e9-49b8-8748-1e7b7743dc1d/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

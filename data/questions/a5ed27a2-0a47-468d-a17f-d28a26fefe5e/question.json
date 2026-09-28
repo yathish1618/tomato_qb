@@ -1,0 +1,31 @@
+{
+  "id": "a5ed27a2-0a47-468d-a17f-d28a26fefe5e",
+  "type": "MCQ",
+  "question": "Recall that, for any non-zero complex number $w$ which does not lie on the negative real axis, $\\arg w$ denotes the unique real number $\\theta$ in $(-\\pi,\\pi)$ such that $w=|w|(\\cos\\theta+i\\sin\\theta)$. Let $z$ be any complex number such that its real and imaginary parts are both non-zero. Further, suppose that $z$ satisfies the relations $\\arg z>\\arg(z+1)$ and $\\arg z>\\arg(z+i)$. Then $\\cos(\\arg z)$ can take",
+  "options": {
+    "A": "any value in the set $(-1/2,0)\\cup(0,1/2)$ but none from outside;",
+    "B": "any value in the interval $(-1,0)$ but none from outside;",
+    "C": "any value in the interval $(0,1)$ but none from outside;",
+    "D": "any value in the set $(-1,0)\\cup(0,1)$ but none from outside."
+  },
+  "answer": "B",
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "2010-bstat-admission-test-multiple-choice"
+  ],
+  "source": {
+    "title": "B.Stat. (Hons.) Admission Test: 2010",
+    "file": "Tomato 16th Edition.pdf",
+    "pages": [
+      169
+    ],
+    "question_number": 9,
+    "crop": "questions/a5ed27a2-0a47-468d-a17f-d28a26fefe5e/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

@@ -1,0 +1,31 @@
+{
+  "id": "57db1dde-2ae8-430b-9f3b-fa986ea28bfa",
+  "type": "MCQ",
+  "question": "Consider the curves $x^2+y^2-4x-6y-12=0$, $9x^2+4y^2-900=0$ and $y^2-6y-6x+51=0$. The maximum number of disjoint regions into which these curves divide the $XY$-plane (excluding the curves themselves), is",
+  "options": {
+    "A": "$4$",
+    "B": "$5$",
+    "C": "$6$",
+    "D": "$7$"
+  },
+  "answer": null,
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "bstat-bmath-uga-2021"
+  ],
+  "source": {
+    "title": "",
+    "file": "BStat-BMath-UGA-2021(1).pdf",
+    "pages": [
+      2
+    ],
+    "question_number": 10,
+    "crop": "questions/57db1dde-2ae8-430b-9f3b-fa986ea28bfa/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

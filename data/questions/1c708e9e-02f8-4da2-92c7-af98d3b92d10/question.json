@@ -1,0 +1,32 @@
+{
+  "id": "1c708e9e-02f8-4da2-92c7-af98d3b92d10",
+  "type": "MCQ",
+  "question": "In the figure that follows, \\(BD=CD,\\ BE=DE,\\ AP=PD\\) and \\(DG\\parallel CF\\). Then \\(\\frac{\\text{area of }\\triangle ADH}{\\text{area of }\\triangle ABC}\\) is equal to",
+  "options": {
+    "A": "\\(\\frac16\\)",
+    "B": "\\(\\frac14\\)",
+    "C": "\\(\\frac15\\)",
+    "D": "none of the foregoing quantities"
+  },
+  "answer": "C",
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "tomato"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10+2 Level — Sixteenth Edition",
+    "file": "tomato.pdf",
+    "pages": [
+      76,
+      77
+    ],
+    "question_number": 451,
+    "crop": "questions/1c708e9e-02f8-4da2-92c7-af98d3b92d10/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

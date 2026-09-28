@@ -1,0 +1,31 @@
+{
+  "id": "c09f38d9-7402-4cb4-9388-4c0f1b377bd1",
+  "type": "MCQ",
+  "question": "A television station telecasts three types of programs $X$, $Y$ and $Z$. A survey gives the following data on television viewing. Among the people interviewed 60% watch program $X$, 50% watch program $Y$, 50% watch program $Z$, 30% watch programs $X$ and $Y$, 20% watch programs $Y$ and $Z$, 30% watch programs $X$ and $Z$ while 10% do not watch any television program. The percentage of people watching all the three programs $X,Y$ and $Z$ is",
+  "options": {
+    "A": "90",
+    "B": "50",
+    "C": "10",
+    "D": "20"
+  },
+  "answer": "C",
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "tomato"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10+2 Level — Sixteenth Edition",
+    "file": "tomato.pdf",
+    "pages": [
+      18
+    ],
+    "question_number": 47,
+    "crop": "questions/c09f38d9-7402-4cb4-9388-4c0f1b377bd1/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

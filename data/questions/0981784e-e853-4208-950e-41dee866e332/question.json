@@ -1,0 +1,31 @@
+{
+  "id": "0981784e-e853-4208-950e-41dee866e332",
+  "type": "MCQ",
+  "question": "Let $N$ be a 50 digit number. All the digits except the 26th one from the right are 1. If $N$ is divisible by 13, then the unknown digit is",
+  "options": {
+    "A": "$1$",
+    "B": "$3$",
+    "C": "$7$",
+    "D": "$9$"
+  },
+  "answer": null,
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "bstat-bmath-uga-2026"
+  ],
+  "source": {
+    "title": "Sample Question Paper-UGA",
+    "file": "BStat-BMath-UGA-2026(1).pdf",
+    "pages": [
+      2
+    ],
+    "question_number": 18,
+    "crop": "questions/0981784e-e853-4208-950e-41dee866e332/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

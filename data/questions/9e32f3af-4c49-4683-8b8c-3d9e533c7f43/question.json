@@ -1,0 +1,31 @@
+{
+  "id": "9e32f3af-4c49-4683-8b8c-3d9e533c7f43",
+  "type": "MCQ",
+  "question": "If \\(a_0,a_1,\\ldots,a_{2n}\\) are real numbers such that \\((1+z)^{2n}=a_0+a_1z+a_2z^2+\\cdots+a_{2n}z^{2n}\\), for all complex numbers \\(z\\), then",
+  "options": {
+    "A": "\\(a_0+a_1+a_2+\\cdots+a_{2n}=2^n\\)",
+    "B": "\\((a_0-a_2+a_4-\\cdots)^2+(a_1-a_3+a_5-\\cdots)^2=2^{2n}\\)",
+    "C": "\\(a_0^2+a_1^2+a_2^2+\\cdots+a_{2n}^2=2^{2n}\\)",
+    "D": "\\((a_0+a_2+a_4+\\cdots)^2+(a_1+a_3+a_5+\\cdots)^2=2^{2n}\\)"
+  },
+  "answer": "B",
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "tomato"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10+2 Level — Sixteenth Edition",
+    "file": "tomato.pdf",
+    "pages": [
+      70
+    ],
+    "question_number": 413,
+    "crop": "questions/9e32f3af-4c49-4683-8b8c-3d9e533c7f43/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

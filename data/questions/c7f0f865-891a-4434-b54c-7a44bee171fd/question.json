@@ -1,0 +1,25 @@
+{
+  "id": "c7f0f865-891a-4434-b54c-7a44bee171fd",
+  "type": "SUBJECTIVE",
+  "question": "A class has $100$ students. Let $a_i$, $1\\le i\\le100$, denote the number of friends the $i$-th student has in the class. For each $0\\le j\\le99$, let $c_j$ denote the number of students having at least $j$ friends. Show that\n\\[\n\\sum_{i=1}^{100}a_i=\\sum_{j=0}^{99}c_j.\n\\]",
+  "answer": null,
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "2014-bstat-bmath-admission-test-short-answer-type"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10 + 2 Level",
+    "file": "Tomato 16th Edition(1).pdf",
+    "pages": [
+      282
+    ],
+    "question_number": 1,
+    "crop": "questions/c7f0f865-891a-4434-b54c-7a44bee171fd/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

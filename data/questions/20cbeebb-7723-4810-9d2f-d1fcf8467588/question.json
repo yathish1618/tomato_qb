@@ -1,0 +1,31 @@
+{
+  "id": "20cbeebb-7723-4810-9d2f-d1fcf8467588",
+  "type": "MCQ",
+  "question": "Let $P=\\left(\\frac1{\\sqrt2},\\frac1{\\sqrt2}\\right)$ and $Q=\\left(-\\frac1{\\sqrt2},-\\frac1{\\sqrt2}\\right)$ be two vertices of a regular polygon having 12 sides such that $PQ$ is a diameter of the circle circumscribing the polygon. Which of the following points is not a vertex of this polygon?",
+  "options": {
+    "A": "$\\left(\\frac{\\sqrt3-1}{2\\sqrt2},\\frac{\\sqrt3+1}{2\\sqrt2}\\right)$",
+    "B": "$\\left(\\frac{\\sqrt3+1}{2\\sqrt2},\\frac{\\sqrt3-1}{2\\sqrt2}\\right)$",
+    "C": "$\\left(\\frac{\\sqrt3+1}{2\\sqrt2},\\frac{1-\\sqrt3}{2\\sqrt2}\\right)$",
+    "D": "$\\left(-\\frac12,\\frac{\\sqrt3}{2}\\right)$."
+  },
+  "answer": null,
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "bstat-bmath-uga-2017"
+  ],
+  "source": {
+    "title": "",
+    "file": "BStat-BMath-UGA-2017.pdf",
+    "pages": [
+      5
+    ],
+    "question_number": 24,
+    "crop": "questions/20cbeebb-7723-4810-9d2f-d1fcf8467588/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

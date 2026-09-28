@@ -1,0 +1,25 @@
+{
+  "id": "8257ee5c-6bad-47dc-b73e-0abdabcc9226",
+  "type": "SUBJECTIVE",
+  "question": "62. Consider the system of equations $x+y=2$, $ax+y=b$. Find conditions on $a$ and $b$ under which\n\n(i) the system has exactly one solution;\n\n(ii) the system has no solution;\n\n(iii) the system has more than one solution.",
+  "answer": null,
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "tomato"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10 + 2 Level",
+    "file": "Tomato 16th Edition.pdf",
+    "pages": [
+      240
+    ],
+    "question_number": 62,
+    "crop": "questions/8257ee5c-6bad-47dc-b73e-0abdabcc9226/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

@@ -1,0 +1,31 @@
+{
+  "id": "2d76440d-c2ec-4dbe-a605-0e19098c6569",
+  "type": "MCQ",
+  "question": "If $f(x)=(\\sin x)(\\sin 2x)\\cdots(\\sin nx)$, then $f\\prime(x)$ is",
+  "options": {
+    "A": "$\\displaystyle\\sum_{k=1}^{n}(k\\cos kx)f(x)$",
+    "B": "$(\\cos x)(2\\cos2x)(3\\cos3x)\\cdots(n\\cos nx)$",
+    "C": "$\\displaystyle\\sum_{k=1}^{n}(k\\cos kx)(\\sin kx)$",
+    "D": "$\\displaystyle\\sum_{k=1}^{n}(k\\cot kx)f(x)$"
+  },
+  "answer": "D",
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "tomato"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10+2 Level",
+    "file": "tomato.pdf",
+    "pages": [
+      123
+    ],
+    "question_number": 757,
+    "crop": "full_page"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

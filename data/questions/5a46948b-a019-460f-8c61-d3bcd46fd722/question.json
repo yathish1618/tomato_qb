@@ -1,0 +1,25 @@
+{
+  "id": "5a46948b-a019-460f-8c61-d3bcd46fd722",
+  "type": "SUBJECTIVE",
+  "question": "Let $ABC$ be an isosceles triangle with $AB=AC=20$. Let $P$ be a point inside the triangle $ABC$ such that the sum of the distances of $P$ to $AB$ and $AC$ is 1. Describe the locus of all such points inside $ABC$.",
+  "answer": null,
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "2007-bmath-admission-test-short-answer-type"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10 + 2 Level",
+    "file": "Tomato 16th Edition(1).pdf",
+    "pages": [
+      263
+    ],
+    "question_number": 4,
+    "crop": "questions/5a46948b-a019-460f-8c61-d3bcd46fd722/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

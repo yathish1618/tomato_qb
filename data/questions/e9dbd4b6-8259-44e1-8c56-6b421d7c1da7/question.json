@@ -1,0 +1,31 @@
+{
+  "id": "e9dbd4b6-8259-44e1-8c56-6b421d7c1da7",
+  "type": "MCQ",
+  "question": "If $x+y+z=0$ and $x^3+y^3+z^3-kxyz=0$, then only one of the following is true. Which one is it?",
+  "options": {
+    "A": "$k=3$ whatever be $x,y,z$",
+    "B": "$k=0$ whatever be $x,y,z$",
+    "C": "$k$ can be only one of the numbers $+1,-1,0$",
+    "D": "If none of $x,y,z$ is zero, then $k=3$"
+  },
+  "answer": "D",
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "tomato"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10+2 Level — Sixteenth Edition",
+    "file": "tomato.pdf",
+    "pages": [
+      50
+    ],
+    "question_number": 280,
+    "crop": "questions/e9dbd4b6-8259-44e1-8c56-6b421d7c1da7/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

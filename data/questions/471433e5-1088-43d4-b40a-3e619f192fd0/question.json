@@ -1,0 +1,31 @@
+{
+  "id": "471433e5-1088-43d4-b40a-3e619f192fd0",
+  "type": "MCQ",
+  "question": "The number of divisors of 6000, where 1 and 6000 are also considered as divisors of 6000, is",
+  "options": {
+    "A": "40",
+    "B": "50",
+    "C": "60",
+    "D": "30"
+  },
+  "answer": "A",
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "tomato"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10+2 Level — Sixteenth Edition",
+    "file": "tomato.pdf",
+    "pages": [
+      26
+    ],
+    "question_number": 97,
+    "crop": "questions/471433e5-1088-43d4-b40a-3e619f192fd0/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

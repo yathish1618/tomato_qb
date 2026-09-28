@@ -1,0 +1,31 @@
+{
+  "id": "ce9325ae-6c56-4991-8a71-d704cf7ffc1c",
+  "type": "MCQ",
+  "question": "The algebraic sum of the perpendicular distances from $A(x_1,y_1)$, $B(x_2,y_2)$, $C(x_3,y_3)$, to a line is zero. Then the line must pass through the",
+  "options": {
+    "A": "orthocentre of $\\triangle ABC$;",
+    "B": "centroid of $\\triangle ABC$;",
+    "C": "incentre of $\\triangle ABC$;",
+    "D": "circumcentre of $\\triangle ABC$."
+  },
+  "answer": "B",
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "2007-bstat-admission-test-multiple-choice"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10 + 2 Level",
+    "file": "Tomato 16th Edition.pdf",
+    "pages": [
+      140
+    ],
+    "question_number": 9,
+    "crop": "questions/ce9325ae-6c56-4991-8a71-d704cf7ffc1c/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

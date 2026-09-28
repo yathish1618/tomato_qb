@@ -1,0 +1,32 @@
+{
+  "id": "64986e7e-cfcd-4d4b-96c7-f579c5dc126e",
+  "type": "MCQ",
+  "question": "Twelve boxes are placed along a circle. In each box, $1,2,3$ or $4$ balls are put such that the total number of balls in any $4$ consecutive boxes is the same. The number of ways this can be done is",
+  "options": {
+    "A": "$4!$",
+    "B": "$4^4$",
+    "C": "$(4!)^3$",
+    "D": "$(4!)^4$"
+  },
+  "answer": "B",
+  "solution": "Once the number of balls in the first four boxes is chosen, the remaining choices become fixed. Each of the four boxes has four choices, giving $4^4$ cases in total.",
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "bstat-bmath-uga-2025"
+  ],
+  "source": {
+    "title": "UGA 2025",
+    "file": "ISI BStat-BMath UGA & UGB 2025 Problem and Solution - Cheenta Academy.pdf",
+    "pages": [
+      9,
+      10
+    ],
+    "question_number": 10,
+    "crop": "questions/64986e7e-cfcd-4d4b-96c7-f579c5dc126e/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

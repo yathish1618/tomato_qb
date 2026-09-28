@@ -1,0 +1,25 @@
+{
+  "id": "4e6763dc-4829-4cee-b8c8-34b70e423c47",
+  "type": "SUBJECTIVE",
+  "question": "Use calculus to find the behaviour of the function $y=e^x\\sin x$, $-\\infty<x<+\\infty$, and sketch the graph of the function for $-2\\pi\\le x\\le 2\\pi$. Show clearly the locations of the maxima, minima and points of inflection in your graph.",
+  "answer": null,
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "2007-bstat-admission-test-short-answer-type"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10 + 2 Level",
+    "file": "Tomato 16th Edition(1).pdf",
+    "pages": [
+      260
+    ],
+    "question_number": 2,
+    "crop": "questions/4e6763dc-4829-4cee-b8c8-34b70e423c47/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

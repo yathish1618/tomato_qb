@@ -1,0 +1,31 @@
+{
+  "id": "c5bfca5a-b0d9-4602-91f9-110ceb1654f2",
+  "type": "MCQ",
+  "question": "In a group of 120 persons there are 70 Bengalis, 35 Gujaratis and 15 Maharashtrians. Further, 75 persons in the group are Muslims and the remaining are Hindus. Then the number of Bengali Muslims in the group is",
+  "options": {
+    "A": "between 10 and 14",
+    "B": "between 15 and 19",
+    "C": "exactly 20",
+    "D": "25 or more"
+  },
+  "answer": "D",
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "tomato"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10+2 Level — Sixteenth Edition",
+    "file": "tomato.pdf",
+    "pages": [
+      20
+    ],
+    "question_number": 56,
+    "crop": "questions/c5bfca5a-b0d9-4602-91f9-110ceb1654f2/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

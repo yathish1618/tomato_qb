@@ -1,0 +1,31 @@
+{
+  "id": "f7d24f06-7099-494d-84a4-703d9f70ebf7",
+  "type": "MCQ",
+  "question": "Let $n>1$, and let us arrange the expansion of $\\left(x^{1/2}+\\frac{1}{2x^{1/4}}\\right)^n$ in decreasing powers of $x$. Suppose the first three coefficients are in arithmetic progression. Then, the number of terms where $x$ appears with an integer power, is",
+  "options": {
+    "A": "$3$",
+    "B": "$2$",
+    "C": "$1$",
+    "D": "$0$"
+  },
+  "answer": null,
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "bstat-bmath-uga-2024"
+  ],
+  "source": {
+    "title": "",
+    "file": "BStat-BMath-UGA-2024(1).pdf",
+    "pages": [
+      5
+    ],
+    "question_number": 22,
+    "crop": "questions/f7d24f06-7099-494d-84a4-703d9f70ebf7/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

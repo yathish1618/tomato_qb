@@ -1,0 +1,31 @@
+{
+  "id": "3b6f206f-df7a-43fc-a76c-d2983baec790",
+  "type": "MCQ",
+  "question": "Let \\(A=\\{a+b\\sqrt{-1}\\mid a,b\\text{ are integers}\\}\\) and \\(U=\\{x\\in A\\mid \\frac1x\\in A\\}\\). Then the number of elements in \\(U\\) is",
+  "options": {
+    "A": "2",
+    "B": "4",
+    "C": "6",
+    "D": "8"
+  },
+  "answer": "B",
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "tomato"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10+2 Level — Sixteenth Edition",
+    "file": "tomato.pdf",
+    "pages": [
+      68
+    ],
+    "question_number": 405,
+    "crop": "questions/3b6f206f-df7a-43fc-a76c-d2983baec790/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

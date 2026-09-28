@@ -1,0 +1,31 @@
+{
+  "id": "b574652b-c67e-4f07-8c1f-3a2dc749706f",
+  "type": "MCQ",
+  "question": "If $x=\\frac{3+5\\sqrt{-1}}2$ is a root of the equation $2x^3+ax^2+bx+68=0$ where $a,b$ are real numbers, then which of the following is also a root?",
+  "options": {
+    "A": "$\\frac{5+3\\sqrt{-1}}2$",
+    "B": "-8",
+    "C": "-4",
+    "D": "can not be answered without knowing the values of $a$ and $b$"
+  },
+  "answer": "C",
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "tomato"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10+2 Level — Sixteenth Edition",
+    "file": "tomato.pdf",
+    "pages": [
+      49
+    ],
+    "question_number": 277,
+    "crop": "questions/b574652b-c67e-4f07-8c1f-3a2dc749706f/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

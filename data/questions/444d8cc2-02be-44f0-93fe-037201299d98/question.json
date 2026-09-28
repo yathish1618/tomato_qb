@@ -1,0 +1,31 @@
+{
+  "id": "444d8cc2-02be-44f0-93fe-037201299d98",
+  "type": "MCQ",
+  "question": "For a real number $x$, let $[x]$ denote the largest integer smaller than or equal to $x$. The value of\n\\[\n\\int_{-100}^{100}[t^3] \\,dt\n\\]\nis",
+  "options": {
+    "A": "0;",
+    "B": "100;",
+    "C": "-100;",
+    "D": "$-100^3$."
+  },
+  "answer": "C",
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "2007-bstat-admission-test-multiple-choice"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10 + 2 Level",
+    "file": "Tomato 16th Edition.pdf",
+    "pages": [
+      143
+    ],
+    "question_number": 30,
+    "crop": "questions/444d8cc2-02be-44f0-93fe-037201299d98/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

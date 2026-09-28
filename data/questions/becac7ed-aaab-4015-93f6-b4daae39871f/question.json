@@ -1,0 +1,25 @@
+{
+  "id": "becac7ed-aaab-4015-93f6-b4daae39871f",
+  "type": "SUBJECTIVE",
+  "question": "1. Let $m_1<m_2<\\cdots<m_k$ be positive integers such that $\\frac1{m_1},\\frac1{m_2},\\ldots,\\frac1{m_k}$ are in arithmetic progression. Then prove that $k\\le m_1+2$.\n\n2. For any integer $k>0$, give an example of a sequence of $k$ positive integers whose reciprocals are in arithmetic progression.",
+  "answer": null,
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "2015-bstat-bmath-admission-test-short-answer-type"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10 + 2 Level",
+    "file": "Tomato 16th Edition(1).pdf",
+    "pages": [
+      285
+    ],
+    "question_number": 8,
+    "crop": "questions/becac7ed-aaab-4015-93f6-b4daae39871f/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

@@ -1,0 +1,31 @@
+{
+  "id": "bd8a995e-ab14-47ce-a83f-cec05a6bf936",
+  "type": "MCQ",
+  "question": "A particle starts at the origin and travels along the positive $x$-axis. For the first one second, its speed is $1$ m/sec. Thereafter, its speed at any time $t$ is at most $(9/10)$-th of its speed at time $t-1$. Then",
+  "options": {
+    "A": "the particle reaches any point $x>0$ at some finite time;",
+    "B": "the particle must reach $x=10$;",
+    "C": "the particle may or may not reach $x=9$ but it will never reach $x=10$;",
+    "D": "nothing of the above nature can be predicted without knowing the exact speed."
+  },
+  "answer": "C",
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "2010-bmath-admission-test-multiple-choice"
+  ],
+  "source": {
+    "title": "B.Math. (Hons.) Admission Test: 2010",
+    "file": "Tomato 16th Edition.pdf",
+    "pages": [
+      175
+    ],
+    "question_number": 15,
+    "crop": "questions/bd8a995e-ab14-47ce-a83f-cec05a6bf936/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

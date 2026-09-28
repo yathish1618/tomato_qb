@@ -1,0 +1,31 @@
+{
+  "id": "1f71cbe6-8045-4808-9998-ac799b3f7358",
+  "type": "MCQ",
+  "question": "Each side of a cube is increased by 50%. Then the surface area of the cube is increased by",
+  "options": {
+    "A": "50%",
+    "B": "100%",
+    "C": "125%",
+    "D": "150%"
+  },
+  "answer": "C",
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "tomato"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10+2 Level — Sixteenth Edition",
+    "file": "tomato.pdf",
+    "pages": [
+      96
+    ],
+    "question_number": 585,
+    "crop": "questions/1f71cbe6-8045-4808-9998-ac799b3f7358/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

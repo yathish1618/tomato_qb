@@ -1,0 +1,31 @@
+{
+  "id": "fd450348-9fa0-4034-8b0f-ad6b708e8342",
+  "type": "MCQ",
+  "question": "Let $\\{a_n\\}$ be a sequence of positive real numbers such that $\\displaystyle\\lim_{n\\to\\infty}2^n(a_n+a_{n+1})$ is finite. Then",
+  "options": {
+    "A": "$\\{a_n\\}$ converges to $1$;",
+    "B": "$\\{a_n\\}$ converges to $0$;",
+    "C": "$\\{a_n\\}$ converges to $1/2$;",
+    "D": "$\\{a_n\\}$ converges to $1/\\sqrt2$."
+  },
+  "answer": "B",
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "2010-bmath-admission-test-multiple-choice"
+  ],
+  "source": {
+    "title": "B.Math. (Hons.) Admission Test: 2010",
+    "file": "Tomato 16th Edition.pdf",
+    "pages": [
+      175
+    ],
+    "question_number": 12,
+    "crop": "questions/fd450348-9fa0-4034-8b0f-ad6b708e8342/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

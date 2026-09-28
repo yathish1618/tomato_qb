@@ -1,0 +1,31 @@
+{
+  "id": "fe4dd388-0e23-40c6-9444-ace81756f79e",
+  "type": "MCQ",
+  "question": "The equation of the line passing through the intersection of the lines $3x+4y=-5$, $4x+6y=6$ and perpendicular to $7x-5y+3=0$ is",
+  "options": {
+    "A": "$5x+7y-2=0$",
+    "B": "$5x-7y+2=0$",
+    "C": "$7x-5y+2=0$",
+    "D": "$5x+7y+2=0$"
+  },
+  "answer": "D",
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "tomato"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10+2 Level — Sixteenth Edition",
+    "file": "tomato.pdf",
+    "pages": [
+      87
+    ],
+    "question_number": 524,
+    "crop": "questions/fe4dd388-0e23-40c6-9444-ace81756f79e/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

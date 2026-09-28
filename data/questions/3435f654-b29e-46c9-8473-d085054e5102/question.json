@@ -1,0 +1,32 @@
+{
+  "id": "3435f654-b29e-46c9-8473-d085054e5102",
+  "type": "MCQ",
+  "question": "Let $A=\\{(x,y):x,y\\in[0,1]\\}$ and $B=\\{(x,y):x,y\\in[0,2]\\}$. Define $f:A\\to B$ by $f(x,y)=(x^2+y,x+y^2)$. Then $f$ is",
+  "options": {
+    "A": "one-to-one but not onto",
+    "B": "onto but not one-to-one",
+    "C": "both one-to-one and onto",
+    "D": "neither one-to-one nor onto"
+  },
+  "answer": "D",
+  "solution": "The map is not one-to-one because $(1,0)$ and $(0,1)$ both map to $(1,1)$. It is not onto: for example, the point $(0,2)$ cannot be attained because $x^2+y=0$ with $0\\le x,y\\le1$ forces $x=y=0$, for which $x+y^2\\ne2$. Hence option (D).",
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "bstat-bmath-uga-2025"
+  ],
+  "source": {
+    "title": "UGA 2025",
+    "file": "ISI BStat-BMath UGA & UGB 2025 Problem and Solution - Cheenta Academy.pdf",
+    "pages": [
+      7,
+      8
+    ],
+    "question_number": 8,
+    "crop": "questions/3435f654-b29e-46c9-8473-d085054e5102/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

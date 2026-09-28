@@ -1,0 +1,31 @@
+{
+  "id": "1ace17e7-49da-41ee-9b27-92ebee2edf76",
+  "type": "MCQ",
+  "question": "An up-right path is a sequence of points $a_0=(x_0,y_0),a_1=(x_1,y_1),a_2=(x_2,y_2),\\ldots$ such that $a_{i+1}-a_i$ is either $(1,0)$ or $(0,1)$. The number of up-right paths from $(0,0)$ to $(100,100)$ which pass through $(1,2)$ is:",
+  "options": {
+    "A": "$3\\binom{197}{99}$",
+    "B": "$3\\binom{100}{50}$",
+    "C": "$2\\binom{197}{98}$",
+    "D": "$3\\binom{197}{100}$."
+  },
+  "answer": null,
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "bstat-bmath-uga-2018"
+  ],
+  "source": {
+    "title": "",
+    "file": "BStat-BMath-UGA-2018.pdf",
+    "pages": [
+      2
+    ],
+    "question_number": 9,
+    "crop": "questions/1ace17e7-49da-41ee-9b27-92ebee2edf76/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

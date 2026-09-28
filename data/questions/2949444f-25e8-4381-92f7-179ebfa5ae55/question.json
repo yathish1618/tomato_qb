@@ -1,0 +1,31 @@
+{
+  "id": "2949444f-25e8-4381-92f7-179ebfa5ae55",
+  "type": "MCQ",
+  "question": "A “basic row operation” on a matrix means adding a multiple of one row to another row. Consider the matrices $A=\\begin{pmatrix}x&5&x\\\\1&3&-2\\\\-2&-2&2\\end{pmatrix}$ and $B=\\begin{pmatrix}0&0&21\\\\1&-1&-14\\\\0&\\frac43&4\\end{pmatrix}$. It is given that $B$ can be obtained from $A$ by applying finitely many basic row operations. Then, the value of $x$ is:",
+  "options": {
+    "A": "3",
+    "B": "-3",
+    "C": "-1",
+    "D": "2."
+  },
+  "answer": null,
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "bstat-bmath-uga-2017"
+  ],
+  "source": {
+    "title": "",
+    "file": "BStat-BMath-UGA-2017.pdf",
+    "pages": [
+      2
+    ],
+    "question_number": 11,
+    "crop": "questions/2949444f-25e8-4381-92f7-179ebfa5ae55/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

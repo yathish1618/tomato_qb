@@ -1,0 +1,31 @@
+{
+  "id": "263ca992-927c-45ee-a083-456c49f28af9",
+  "type": "MCQ",
+  "question": "Let \\(P\\) be a 12-sided regular polygon and \\(T\\) be an equilateral triangle with its incircle having radius 1. If the area of \\(P\\) is the same as the area of \\(T\\), then the length of the side of \\(P\\) is",
+  "options": {
+    "A": "\\(\\sqrt{\\sqrt3\\cot15^\\circ}\\)",
+    "B": "\\(\\sqrt{\\sqrt3\\tan15^\\circ}\\)",
+    "C": "\\(\\sqrt{3\\sqrt2\\tan15^\\circ}\\)",
+    "D": "\\(\\sqrt{3\\sqrt2\\cot15^\\circ}\\)"
+  },
+  "answer": "A",
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "2016-bstat-bmath-admission-test-multiple-choice"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10 + 2 Level",
+    "file": "Tomato 16th Edition.pdf",
+    "pages": [
+      212
+    ],
+    "question_number": 15,
+    "crop": "questions/263ca992-927c-45ee-a083-456c49f28af9/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

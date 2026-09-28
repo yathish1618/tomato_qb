@@ -1,0 +1,31 @@
+{
+  "id": "790e0917-04c0-4d91-a290-38f615b24002",
+  "type": "MCQ",
+  "question": "The maximum value of the integral $\\displaystyle\\int_{a-1}^{a+1}\\frac{1}{1+x^8}dx$ is attained",
+  "options": {
+    "A": "exactly at two values of $a$",
+    "B": "only at one value of $a$ which is positive",
+    "C": "only at one value of $a$ which is negative",
+    "D": "only at $a=0$"
+  },
+  "answer": "D",
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "tomato"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10+2 Level",
+    "file": "tomato.pdf",
+    "pages": [
+      135
+    ],
+    "question_number": 835,
+    "crop": "full_page"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

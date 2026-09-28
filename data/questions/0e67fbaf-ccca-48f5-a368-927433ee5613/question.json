@@ -1,0 +1,33 @@
+{
+  "id": "0e67fbaf-ccca-48f5-a368-927433ee5613",
+  "type": "MCQ",
+  "question": "The adjoining figure is the graph of",
+  "options": {
+    "A": "$y=2e^x$",
+    "B": "$y=2e^{-x}$",
+    "C": "$y=e^x+e^{-x}$",
+    "D": "$y=e^x-e^{-x}+2$"
+  },
+  "answer": "C",
+  "solution": null,
+  "marks": 1,
+  "figures": [
+    "q699_figure.png"
+  ],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "tomato"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10+2 Level",
+    "file": "tomato.pdf",
+    "pages": [
+      113
+    ],
+    "question_number": 699,
+    "crop": "full_page"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

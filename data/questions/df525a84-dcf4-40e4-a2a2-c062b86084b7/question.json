@@ -1,0 +1,31 @@
+{
+  "id": "df525a84-dcf4-40e4-a2a2-c062b86084b7",
+  "type": "MCQ",
+  "question": "$P,Q$ and $R$ are statements such that if $P$ is true then at least one of the following is correct: (i) $Q$ is true, (ii) $R$ is not true. Then",
+  "options": {
+    "A": "if both $P$ and $Q$ are true then $R$ is true",
+    "B": "if both $Q$ and $R$ are true then $P$ is true",
+    "C": "if both $P$ and $R$ are true then $P$ is true",
+    "D": "none of the statements is correct."
+  },
+  "answer": "C",
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "tomato"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10+2 Level — Sixteenth Edition",
+    "file": "tomato.pdf",
+    "pages": [
+      22
+    ],
+    "question_number": 67,
+    "crop": "questions/df525a84-dcf4-40e4-a2a2-c062b86084b7/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

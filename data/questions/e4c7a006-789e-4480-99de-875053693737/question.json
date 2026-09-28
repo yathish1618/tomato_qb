@@ -1,0 +1,31 @@
+{
+  "id": "e4c7a006-789e-4480-99de-875053693737",
+  "type": "MCQ",
+  "question": "The line $x=y$ is tangent at $(0,0)$ to a circle of radius 1. The centre of the circle is",
+  "options": {
+    "A": "$(1,0)$",
+    "B": "either $\\left(\\frac1{\\sqrt2},\\frac1{\\sqrt2}\\right)$ or $\\left(-\\frac1{\\sqrt2},-\\frac1{\\sqrt2}\\right)$",
+    "C": "either $\\left(\\frac1{\\sqrt2},-\\frac1{\\sqrt2}\\right)$ or $\\left(-\\frac1{\\sqrt2},\\frac1{\\sqrt2}\\right)$",
+    "D": "none of the foregoing points"
+  },
+  "answer": "C",
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "tomato"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10+2 Level — Sixteenth Edition",
+    "file": "tomato.pdf",
+    "pages": [
+      90
+    ],
+    "question_number": 544,
+    "crop": "questions/e4c7a006-789e-4480-99de-875053693737/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

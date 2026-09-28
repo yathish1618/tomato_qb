@@ -1,0 +1,31 @@
+{
+  "id": "68b0cbad-8db0-465b-b54c-00ce3103470d",
+  "type": "MCQ",
+  "question": "The area of the region of the plane bounded by $\\max(|x|,|y|)\\le1$ and $xy\\le\\frac12$ is",
+  "options": {
+    "A": "$\\frac12+\\log2$",
+    "B": "$3+\\log2$",
+    "C": "$7\\frac34$",
+    "D": "none of the foregoing numbers"
+  },
+  "answer": "B",
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "tomato"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10+2 Level",
+    "file": "tomato.pdf",
+    "pages": [
+      137
+    ],
+    "question_number": 850,
+    "crop": "full_page"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

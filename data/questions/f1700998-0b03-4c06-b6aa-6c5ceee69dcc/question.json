@@ -1,0 +1,25 @@
+{
+  "id": "f1700998-0b03-4c06-b6aa-6c5ceee69dcc",
+  "type": "SUBJECTIVE",
+  "question": "Let $R$ and $S$ be two cubes with sides of lengths $r$ and $s$ respectively, where $r$ and $s$ are positive integers. Show that the difference of their volumes equals the difference of their surface areas, if and only if $r=s$.",
+  "answer": null,
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "2011-bmath-admission-test-short-answer-type"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10 + 2 Level",
+    "file": "Tomato 16th Edition(1).pdf",
+    "pages": [
+      277
+    ],
+    "question_number": 6,
+    "crop": "questions/f1700998-0b03-4c06-b6aa-6c5ceee69dcc/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

@@ -1,0 +1,31 @@
+{
+  "id": "1130a9eb-8ea5-4829-bb72-71ecc958fd38",
+  "type": "MCQ",
+  "question": "Let $p(n)$ be the number of digits when $8^n$ is written in base 6, and let $q(n)$ be the number of digits when $6^n$ is written in base 4. For example, $8^2$ in base 6 is 144, hence $p(2)=3$. Then $\\lim_{n\\to\\infty}\\frac{p(n)q(n)}{n^2}$ equals:",
+  "options": {
+    "A": "1",
+    "B": "$\\frac43$",
+    "C": "$\\frac32$",
+    "D": "2."
+  },
+  "answer": null,
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "bstat-bmath-uga-2018"
+  ],
+  "source": {
+    "title": "",
+    "file": "BStat-BMath-UGA-2018.pdf",
+    "pages": [
+      3
+    ],
+    "question_number": 18,
+    "crop": "questions/1130a9eb-8ea5-4829-bb72-71ecc958fd38/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

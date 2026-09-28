@@ -1,0 +1,31 @@
+{
+  "id": "8c46d2d1-b765-4254-9b3d-450b81122f1b",
+  "type": "MCQ",
+  "question": "Suppose $x,y\\in(0,\\pi/2)$ and $x\\ne y$. Which of the following statements is true?",
+  "options": {
+    "A": "$2\\sin(x+y)<\\sin2x+\\sin2y$ for all $x,y$;",
+    "B": "$2\\sin(x+y)>\\sin2x+\\sin2y$ for all $x,y$;",
+    "C": "There exist $x,y$ such that $2\\sin(x+y)=\\sin2x+\\sin2y$;",
+    "D": "None of the above."
+  },
+  "answer": "B",
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "2008-bstat-admission-test-multiple-choice"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10 + 2 Level",
+    "file": "Tomato 16th Edition.pdf",
+    "pages": [
+      148
+    ],
+    "question_number": 14,
+    "crop": "questions/8c46d2d1-b765-4254-9b3d-450b81122f1b/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

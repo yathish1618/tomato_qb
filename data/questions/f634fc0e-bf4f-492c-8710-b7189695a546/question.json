@@ -1,0 +1,31 @@
+{
+  "id": "f634fc0e-bf4f-492c-8710-b7189695a546",
+  "type": "MCQ",
+  "question": "The number of terms in the expansion of $(x+y+z+w)^{10}$ is",
+  "options": {
+    "A": "$\\binom{10}{4}$",
+    "B": "$\\binom{13}{3}$",
+    "C": "$\\binom{14}{4}$",
+    "D": "$11^4$"
+  },
+  "answer": "B",
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "tomato"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10+2 Level — Sixteenth Edition",
+    "file": "tomato.pdf",
+    "pages": [
+      36
+    ],
+    "question_number": 174,
+    "crop": "questions/f634fc0e-bf4f-492c-8710-b7189695a546/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

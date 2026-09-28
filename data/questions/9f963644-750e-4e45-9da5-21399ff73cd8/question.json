@@ -1,0 +1,31 @@
+{
+  "id": "9f963644-750e-4e45-9da5-21399ff73cd8",
+  "type": "MCQ",
+  "question": "In a win-or-lose game, the winner gets 2 points whereas the loser gets 0. Six players $A,B,C,D,E$ and $F$ play each other in a preliminary round from which the top three players move to the final round. After each player has played four games, $A$ has 6 points, $B$ has 8 points and $C$ has 4 points. It is also known that $E$ won against $F$. In the next set of games $D,E$ and $F$ win their games against $A,B$ and $C$ respectively. If $A,B$ and $D$ move to the final round, the final scores of $E$ and $F$ are, respectively,",
+  "options": {
+    "A": "4 and 2;",
+    "B": "2 and 4;",
+    "C": "2 and 2;",
+    "D": "4 and 4."
+  },
+  "answer": "A",
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "2008-bstat-admission-test-multiple-choice"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10 + 2 Level",
+    "file": "Tomato 16th Edition.pdf",
+    "pages": [
+      152
+    ],
+    "question_number": 29,
+    "crop": "questions/9f963644-750e-4e45-9da5-21399ff73cd8/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

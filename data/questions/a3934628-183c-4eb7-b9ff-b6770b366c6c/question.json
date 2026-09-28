@@ -1,0 +1,25 @@
+{
+  "id": "a3934628-183c-4eb7-b9ff-b6770b366c6c",
+  "type": "SUBJECTIVE",
+  "question": "For any positive integer $n$, and $i=1,2$, let $f_i(n)$ denote the number of divisors of $n$ of the form $3k+i$ (including $1$ and $n). Define, for any positive integer $n$, $f(n)=f_1(n)-f_2(n)$. Find the values of $f(5^{2022})$ and $f(21^{2022})$.",
+  "answer": null,
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "bstat-bmath-ugb-2022"
+  ],
+  "source": {
+    "title": "",
+    "file": "BStat-BMath-UGB-2022.pdf",
+    "pages": [
+      1
+    ],
+    "question_number": 5,
+    "crop": "questions/a3934628-183c-4eb7-b9ff-b6770b366c6c/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

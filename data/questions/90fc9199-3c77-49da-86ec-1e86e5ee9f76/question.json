@@ -1,0 +1,25 @@
+{
+  "id": "90fc9199-3c77-49da-86ec-1e86e5ee9f76",
+  "type": "SUBJECTIVE",
+  "question": "Using the identity \\(\\log x=\\int_1^x\\frac{dt}{t}\\), \\(x>0\\), or otherwise, prove that\n\\[\n\\frac1{n+1}\\le\\log\\left(1+\\frac1n\\right)\\le\\frac1n\n\\]\nfor all integers \\(n\\ge1\\).",
+  "answer": null,
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "tomato"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10 + 2 Level",
+    "file": "Tomato 16th Edition.pdf",
+    "pages": [
+      253
+    ],
+    "question_number": 163,
+    "crop": "questions/90fc9199-3c77-49da-86ec-1e86e5ee9f76/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

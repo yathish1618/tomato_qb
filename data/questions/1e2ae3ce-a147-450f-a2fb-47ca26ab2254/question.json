@@ -1,0 +1,25 @@
+{
+  "id": "1e2ae3ce-a147-450f-a2fb-47ca26ab2254",
+  "type": "SUBJECTIVE",
+  "question": "5. In a study of the disparities in the levels of living in rural areas among different states in India, estimates were obtained for the per-capita household consumption expenditure on all items per month, (denoted by PCE) in the years 1963-64 and 1973-74. They are presented in the table below.\n\n(i) Which state has a PCE closest to the all-India PCE (a) in 1963-64? (b) in 1973-74?\n\n(ii) Suppose the overall disparity among states is measured by the ratio of the largest to the smallest of the state PCEs in a year. Has disparity among states increased or decreased between 1963-64 and 1973-74?\n\n(iii) By considering the ranks of the states according to PCE, separately for each year, find out which state has improved its rank most and which state has declined most between the two years.\n\n\\[\n\\begin{array}{c|r|r}\n\\text{State}&\\text{PCE in 1963-64}&\\text{PCE in 1973-74}\\\\\n\\text{Andhra Pradesh}&20.91&50.69\\\\\n\\text{Assam}&26.28&52.01\\\\\n\\text{Bihar}&21.24&56.31\\\\\n\\text{Gujarat}&22.69&54.54\\\\\n\\text{Himachal Pradesh}&25.75&71.85\\\\\n\\text{Jammu \\& Kashmir}&27.99&54.14\\\\\n\\text{Karnataka}&20.35&52.29\\\\\n\\text{Kerala}&20.45&55.32\\\\\n\\text{Madhya Pradesh}&23.21&50.84\\\\\n\\text{Maharashtra}&21.75&52.91\\\\\n\\text{Manipur}&22.20&52.88\\\\\n\\text{Orissa}&19.47&42.61\\\\\n\\text{Punjab \\& Haryana}&29.11&75.09\\\\\n\\text{Rajasthan}&23.27&63.98\\\\\n\\text{Tamil Nadu}&23.52&47.68\\\\\n\\text{Tripura}&23.66&50.15\\\\\n\\text{Uttar Pradesh}&21.37&51.50\\\\\n\\text{West Bengal}&23.83&47.47\\\\\n\\text{INDIA}&22.38&55.90\n\\end{array}\n\\]",
+  "answer": null,
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "tomato"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10 + 2 Level",
+    "file": "Tomato 16th Edition.pdf",
+    "pages": [
+      232
+    ],
+    "question_number": 5,
+    "crop": "questions/1e2ae3ce-a147-450f-a2fb-47ca26ab2254/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

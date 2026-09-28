@@ -1,0 +1,25 @@
+{
+  "id": "2bdc77b3-b3a4-4c28-94e0-bec333ea1903",
+  "type": "SUBJECTIVE",
+  "question": "For a real number \\(x\\), let \\([x]\\) denote the largest integer less than or equal to \\(x\\) and \\(\\langle x\\rangle\\) denote \\(x-[x]\\). Find all the solutions of the equation\n\\[\n13[x]+25\\langle x\\rangle=271.\n\\]",
+  "answer": null,
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "tomato"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10 + 2 Level",
+    "file": "Tomato 16th Edition.pdf",
+    "pages": [
+      250
+    ],
+    "question_number": 137,
+    "crop": "questions/2bdc77b3-b3a4-4c28-94e0-bec333ea1903/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

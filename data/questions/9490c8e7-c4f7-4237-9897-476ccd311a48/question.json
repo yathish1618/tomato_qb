@@ -1,0 +1,25 @@
+{
+  "id": "9490c8e7-c4f7-4237-9897-476ccd311a48",
+  "type": "SUBJECTIVE",
+  "question": "Suppose that $PQ$ and $RS$ are two chords of a circle intersecting at a point $O$. It is given that $PO=3$ cm and $SO=4$ cm. Moreover, the area of the triangle $POR$ is $7\\text{ cm}^2$. Find the area of the triangle $QOS$.",
+  "answer": null,
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "bstat-bmath-ugb-2018"
+  ],
+  "source": {
+    "title": "",
+    "file": "BStat-BMath-UGB-2018.pdf",
+    "pages": [
+      1
+    ],
+    "question_number": 2,
+    "crop": "questions/9490c8e7-c4f7-4237-9897-476ccd311a48/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

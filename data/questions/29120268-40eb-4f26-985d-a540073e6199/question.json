@@ -1,0 +1,31 @@
+{
+  "id": "29120268-40eb-4f26-985d-a540073e6199",
+  "type": "MCQ",
+  "question": "Let $f(x)$ be a continuous function such that its first two derivatives $f\\prime(x),f\\prime\\prime(x)$ are continuous. The tangents to the graph of $f(x)$ at the points with abscissa $x=a$ and $x=b$ make with the $X$-axis angles $\\frac\\pi3$ and $\\frac\\pi4$ respectively. Then the value of the integral $\\displaystyle\\int_a^b f\\prime(x)f\\prime\\prime(x)\\,dx$ equals",
+  "options": {
+    "A": "$1-\\sqrt3$",
+    "B": "0",
+    "C": "1",
+    "D": "-1"
+  },
+  "answer": "D",
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "tomato"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10+2 Level",
+    "file": "tomato.pdf",
+    "pages": [
+      130
+    ],
+    "question_number": 809,
+    "crop": "full_page"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

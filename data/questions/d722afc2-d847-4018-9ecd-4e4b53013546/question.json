@@ -1,0 +1,31 @@
+{
+  "id": "d722afc2-d847-4018-9ecd-4e4b53013546",
+  "type": "MCQ",
+  "question": "Let $a_n$ be the sequence whose $n$th term is the sum of the digits of the natural number $9n$. For example, $a_1=9$, $a_{11}=18$ etc. The minimum $m$ such that $a_m=81$ is",
+  "options": {
+    "A": "110111112;",
+    "B": "119111113;",
+    "C": "111111111;",
+    "D": "none of the above."
+  },
+  "answer": "C",
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "2007-bmath-admission-test-multiple-choice"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10 + 2 Level",
+    "file": "Tomato 16th Edition.pdf",
+    "pages": [
+      144
+    ],
+    "question_number": 8,
+    "crop": "questions/d722afc2-d847-4018-9ecd-4e4b53013546/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

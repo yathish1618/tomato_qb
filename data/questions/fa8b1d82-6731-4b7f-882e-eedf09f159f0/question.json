@@ -1,0 +1,25 @@
+{
+  "id": "fa8b1d82-6731-4b7f-882e-eedf09f159f0",
+  "type": "SUBJECTIVE",
+  "question": "(a) Study the derivatives of the function\n\\[\nf(x)=\\frac{x+1}{(x-1)(x-7)}\n\\]\nto make conclusions about the behaviour of the function as \\(x\\) ranges over all possible values for which the above formula for \\(f(x)\\) is meaningful.\n\n(b) Use the information obtained in (a) to draw a rough sketch of the graph of \\(f(x)\\) on plain paper.",
+  "answer": null,
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "tomato"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10 + 2 Level",
+    "file": "Tomato 16th Edition.pdf",
+    "pages": [
+      249
+    ],
+    "question_number": 130,
+    "crop": "questions/fa8b1d82-6731-4b7f-882e-eedf09f159f0/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

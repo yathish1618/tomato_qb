@@ -1,0 +1,31 @@
+{
+  "id": "7969cef5-5812-409c-bfd3-f59a2a21000d",
+  "type": "MCQ",
+  "question": "A man invests Rs. 10,000 for a year. Of this Rs. 4,000 is invested at the interest rate of 5% per year, Rs. 3,500 at 4% per year and the rest at $\\alpha$% per year. His total interest for the year is Rs. 500. Then $\\alpha$ equals",
+  "options": {
+    "A": "6.2",
+    "B": "6.3",
+    "C": "6.4",
+    "D": "6.5"
+  },
+  "answer": "C",
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "tomato"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10+2 Level — Sixteenth Edition",
+    "file": "tomato.pdf",
+    "pages": [
+      11
+    ],
+    "question_number": 5,
+    "crop": "questions/7969cef5-5812-409c-bfd3-f59a2a21000d/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

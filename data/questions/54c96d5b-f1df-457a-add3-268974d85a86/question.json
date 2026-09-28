@@ -1,0 +1,31 @@
+{
+  "id": "54c96d5b-f1df-457a-add3-268974d85a86",
+  "type": "MCQ",
+  "question": "The number of tangents that can be drawn from the point $(2,3)$ to the parabola $y^2=8x$ is",
+  "options": {
+    "A": "1",
+    "B": "2",
+    "C": "0",
+    "D": "3"
+  },
+  "answer": "C",
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "tomato"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10+2 Level — Sixteenth Edition",
+    "file": "tomato.pdf",
+    "pages": [
+      89
+    ],
+    "question_number": 539,
+    "crop": "questions/54c96d5b-f1df-457a-add3-268974d85a86/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

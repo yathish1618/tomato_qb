@@ -1,0 +1,31 @@
+{
+  "id": "24fe8d55-5ab1-45e5-8692-1c6bfc51954f",
+  "type": "MCQ",
+  "question": "A straight road has walls on both sides of height $8$ feet and $4$ feet respectively. Two ladders are placed from the top of one wall to the foot of the other as in the figure below. What is the height (in feet) of the maximum clearance $x$ below the ladders?",
+  "options": {
+    "A": "$3$",
+    "B": "$2\\sqrt2$",
+    "C": "$\\frac83$",
+    "D": "$2\\sqrt3$"
+  },
+  "answer": null,
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "bstat-bmath-uga-2022"
+  ],
+  "source": {
+    "title": "",
+    "file": "BStat-BMath-UGA-2022(1).pdf",
+    "pages": [
+      3
+    ],
+    "question_number": 13,
+    "crop": "questions/24fe8d55-5ab1-45e5-8692-1c6bfc51954f/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

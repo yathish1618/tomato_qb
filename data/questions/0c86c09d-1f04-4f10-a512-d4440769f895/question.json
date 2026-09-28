@@ -1,0 +1,31 @@
+{
+  "id": "0c86c09d-1f04-4f10-a512-d4440769f895",
+  "type": "MCQ",
+  "question": "The smallest value of \\(\\alpha\\) satisfying the conditions that \\(\\alpha\\) is a positive integer and that \\(\\frac{\\alpha}{540}\\) is the square of a rational number is",
+  "options": {
+    "A": "15",
+    "B": "5",
+    "C": "6",
+    "D": "3"
+  },
+  "answer": "A",
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "tomato"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10+2 Level — Sixteenth Edition",
+    "file": "tomato.pdf",
+    "pages": [
+      64
+    ],
+    "question_number": 382,
+    "crop": "questions/0c86c09d-1f04-4f10-a512-d4440769f895/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

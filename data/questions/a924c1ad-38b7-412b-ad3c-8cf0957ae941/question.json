@@ -1,0 +1,31 @@
+{
+  "id": "a924c1ad-38b7-412b-ad3c-8cf0957ae941",
+  "type": "MCQ",
+  "question": "The minimum value of $x_1^2+x_2^2+x_3^2+x_4^2$ subject to $x_1+x_2+x_3+x_4=a$ and $x_1-x_2+x_3-x_4=b$ is",
+  "options": {
+    "A": "$\\frac{a^2+b^2}{4}$",
+    "B": "$\\frac{a^2+b^2}{2}$",
+    "C": "$\\frac{(a+b)^2}{4}$",
+    "D": "$\\frac{(a+b)^2}{2}$"
+  },
+  "answer": "A",
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "2010-bstat-admission-test-multiple-choice"
+  ],
+  "source": {
+    "title": "B.Stat. (Hons.) Admission Test: 2010",
+    "file": "Tomato 16th Edition.pdf",
+    "pages": [
+      170
+    ],
+    "question_number": 13,
+    "crop": "questions/a924c1ad-38b7-412b-ad3c-8cf0957ae941/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

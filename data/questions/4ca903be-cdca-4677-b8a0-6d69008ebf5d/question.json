@@ -1,0 +1,31 @@
+{
+  "id": "4ca903be-cdca-4677-b8a0-6d69008ebf5d",
+  "type": "MCQ",
+  "question": "If, inside a big circle, exactly $n$ ($n\\geq3$) small circles, each of radius $r$, can be drawn in such a way that each small circle touches the big circle and also touches both its adjacent small circles (as shown in the picture), then the radius of the big circle is",
+  "options": {
+    "A": "$r\\csc\\frac{\\pi}{n}$",
+    "B": "$r\\left(1+\\csc\\frac{2\\pi}{n}\\right)$",
+    "C": "$r\\left(1+\\csc\\frac{\\pi}{2n}\\right)$",
+    "D": "$r\\left(1+\\csc\\frac{\\pi}{n}\\right)$"
+  },
+  "answer": "D",
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "tomato"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10+2 Level — Sixteenth Edition",
+    "file": "tomato.pdf",
+    "pages": [
+      98
+    ],
+    "question_number": 601,
+    "crop": "questions/4ca903be-cdca-4677-b8a0-6d69008ebf5d/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

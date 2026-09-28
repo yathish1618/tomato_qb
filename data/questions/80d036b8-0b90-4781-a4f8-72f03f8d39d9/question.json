@@ -1,0 +1,25 @@
+{
+  "id": "80d036b8-0b90-4781-a4f8-72f03f8d39d9",
+  "type": "SUBJECTIVE",
+  "question": "Let $n_1,n_2,\\ldots,n_{51}$ be distinct natural numbers each of which has exactly $2023$ positive integer factors. For instance, $2^{2022}$ has exactly $2023$ positive integer factors $1,2,2^2,\\ldots,2^{2021},2^{2022}$. Assume that no prime larger than $11$ divides any of the $n_i$'s. Show that there must be some perfect cube among the $n_i$'s. You may use the fact that $2023=7\\times17\\times17$.",
+  "answer": null,
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "bstat-bmath-ugb-2023"
+  ],
+  "source": {
+    "title": "",
+    "file": "BStat-BMath-UGB-2023.pdf",
+    "pages": [
+      2
+    ],
+    "question_number": 4,
+    "crop": "questions/80d036b8-0b90-4781-a4f8-72f03f8d39d9/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

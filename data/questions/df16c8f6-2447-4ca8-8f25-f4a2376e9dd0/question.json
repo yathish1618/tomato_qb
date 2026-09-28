@@ -1,0 +1,31 @@
+{
+  "id": "df16c8f6-2447-4ca8-8f25-f4a2376e9dd0",
+  "type": "MCQ",
+  "question": "The number of solutions of the equation \\(6m+15n=8\\) in integers \\(m\\) and \\(n\\) are",
+  "options": {
+    "A": "zero;",
+    "B": "one;",
+    "C": "more than one but finitely many;",
+    "D": "infinitely many."
+  },
+  "answer": "A",
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "2011-bmath-admission-test-multiple-choice"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10 + 2 Level",
+    "file": "Tomato 16th Edition.pdf",
+    "pages": [
+      186
+    ],
+    "question_number": 17,
+    "crop": "questions/df16c8f6-2447-4ca8-8f25-f4a2376e9dd0/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

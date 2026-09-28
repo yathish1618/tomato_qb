@@ -1,0 +1,31 @@
+{
+  "id": "a20a87b5-ad2e-430b-89ed-d538a3e9c592",
+  "type": "MCQ",
+  "question": "Let $R$ be the set of all real numbers. The function $f:R\\to R$ defined by $f(x)=x^3-3x^2+6x-5$ is",
+  "options": {
+    "A": "one-to-one, but not onto;",
+    "B": "one-to-one and onto;",
+    "C": "onto, but not one-to-one;",
+    "D": "neither one-to-one nor onto."
+  },
+  "answer": "B",
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "2008-bstat-admission-test-multiple-choice"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10 + 2 Level",
+    "file": "Tomato 16th Edition.pdf",
+    "pages": [
+      148
+    ],
+    "question_number": 10,
+    "crop": "questions/a20a87b5-ad2e-430b-89ed-d538a3e9c592/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

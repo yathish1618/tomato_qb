@@ -1,0 +1,31 @@
+{
+  "id": "1ddb746a-dfc9-4422-986b-c2d83a322002",
+  "type": "MCQ",
+  "question": "The number of factors of \\(2^{15}\\times3^{10}\\times5^6\\) which are either perfect squares or perfect cubes (or both) is:",
+  "options": {
+    "A": "252",
+    "B": "256",
+    "C": "260",
+    "D": "264."
+  },
+  "answer": "A",
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "2015-bstat-bmath-admission-test-multiple-choice"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10 + 2 Level",
+    "file": "Tomato 16th Edition.pdf",
+    "pages": [
+      205
+    ],
+    "question_number": 4,
+    "crop": "questions/1ddb746a-dfc9-4422-986b-c2d83a322002/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

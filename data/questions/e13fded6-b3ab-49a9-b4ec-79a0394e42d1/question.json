@@ -1,0 +1,31 @@
+{
+  "id": "e13fded6-b3ab-49a9-b4ec-79a0394e42d1",
+  "type": "MCQ",
+  "question": "The number of minima of the polynomial $10x^6-24x^5+15x^4+40x^2+108$ is",
+  "options": {
+    "A": "0",
+    "B": "1",
+    "C": "2",
+    "D": "3"
+  },
+  "answer": "B",
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "tomato"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10+2 Level",
+    "file": "tomato.pdf",
+    "pages": [
+      128
+    ],
+    "question_number": 794,
+    "crop": "full_page"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

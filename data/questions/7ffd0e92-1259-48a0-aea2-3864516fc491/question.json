@@ -1,0 +1,31 @@
+{
+  "id": "7ffd0e92-1259-48a0-aea2-3864516fc491",
+  "type": "MCQ",
+  "question": "Let \\(x,y,z\\) be positive numbers. The least value of \\(\\dfrac{x(1+y)+y(1+z)+z(1+x)}{\\sqrt{xyz}}\\) is",
+  "options": {
+    "A": "\\(\\frac9{\\sqrt2}\\)",
+    "B": "6",
+    "C": "\\(\\frac1{\\sqrt6}\\)",
+    "D": "none of these numbers."
+  },
+  "answer": "B",
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "tomato"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10+2 Level — Sixteenth Edition",
+    "file": "tomato.pdf",
+    "pages": [
+      61
+    ],
+    "question_number": 361,
+    "crop": "questions/7ffd0e92-1259-48a0-aea2-3864516fc491/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

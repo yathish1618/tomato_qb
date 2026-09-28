@@ -1,0 +1,31 @@
+{
+  "id": "643e19da-c2a1-4346-83db-288a80f8876f",
+  "type": "MCQ",
+  "question": "If $P(x)=ax^2+bx+c$ and $Q(x)=-ax^2+bx+c$, where $ac\\ne0$, then the equation $P(x)Q(x)=0$ has:",
+  "options": {
+    "A": "only real roots",
+    "B": "no real root",
+    "C": "at least two real roots",
+    "D": "exactly two real roots"
+  },
+  "answer": "C",
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "2009-bmath-admission-test-multiple-choice"
+  ],
+  "source": {
+    "title": "B.Math. (Hons.) Admission Test: 2009",
+    "file": "Tomato 16th Edition.pdf",
+    "pages": [
+      164
+    ],
+    "question_number": 6,
+    "crop": "questions/643e19da-c2a1-4346-83db-288a80f8876f/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

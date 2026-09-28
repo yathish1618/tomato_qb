@@ -1,0 +1,31 @@
+{
+  "id": "dad0c376-91a3-4015-859e-df8dc3b21995",
+  "type": "MCQ",
+  "question": "If $\\alpha,\\beta,\\gamma$ are the roots of $x^3+2x^2+3x+3=0$, then the value of $\\left(\\frac{\\alpha}{\\alpha+1}\\right)^3+\\left(\\frac{\\beta}{\\beta+1}\\right)^3+\\left(\\frac{\\gamma}{\\gamma+1}\\right)^3$ is",
+  "options": {
+    "A": "18",
+    "B": "44",
+    "C": "13",
+    "D": "none of the foregoing numbers"
+  },
+  "answer": "B",
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "tomato"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10+2 Level — Sixteenth Edition",
+    "file": "tomato.pdf",
+    "pages": [
+      49
+    ],
+    "question_number": 272,
+    "crop": "questions/dad0c376-91a3-4015-859e-df8dc3b21995/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

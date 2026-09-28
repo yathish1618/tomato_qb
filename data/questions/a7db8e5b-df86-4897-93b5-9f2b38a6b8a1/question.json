@@ -1,0 +1,25 @@
+{
+  "id": "a7db8e5b-df86-4897-93b5-9f2b38a6b8a1",
+  "type": "SUBJECTIVE",
+  "question": "Study the derivative of the function\n\\[\nf(x)=x^3-3x^2+4,\n\\]\nand roughly sketch the graph of \\(f(x)\\), on plain paper.",
+  "answer": null,
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "tomato"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10 + 2 Level",
+    "file": "Tomato 16th Edition.pdf",
+    "pages": [
+      251
+    ],
+    "question_number": 142,
+    "crop": "questions/a7db8e5b-df86-4897-93b5-9f2b38a6b8a1/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

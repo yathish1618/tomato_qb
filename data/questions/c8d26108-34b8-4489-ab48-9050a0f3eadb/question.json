@@ -1,0 +1,31 @@
+{
+  "id": "c8d26108-34b8-4489-ab48-9050a0f3eadb",
+  "type": "MCQ",
+  "question": "The value of the integral\n\\[\n\\int_2^3\\frac{dx}{\\log_e x}\n\\]\n",
+  "options": {
+    "A": "is less than 2;",
+    "B": "is equal to 2;",
+    "C": "lies in the interval $(2,3)$;",
+    "D": "is greater than 3."
+  },
+  "answer": "A",
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "2008-bstat-admission-test-multiple-choice"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10 + 2 Level",
+    "file": "Tomato 16th Edition.pdf",
+    "pages": [
+      150
+    ],
+    "question_number": 24,
+    "crop": "questions/c8d26108-34b8-4489-ab48-9050a0f3eadb/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

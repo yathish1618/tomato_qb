@@ -1,0 +1,31 @@
+{
+  "id": "f3e24430-7bf2-4bc7-9bed-36fc5014ec8c",
+  "type": "MCQ",
+  "question": "Let $f(x)=\\begin{cases}x^3-x+3,&0<x\\le1,\\\\2x+1,&1<x\\le2,\\\\x^2+1,&2<x<3.\\end{cases}$ Then",
+  "options": {
+    "A": "$f(x)$ is differentiable at $x=1$ and at $x=2$",
+    "B": "$f(x)$ is differentiable at $x=1$ but not at $x=2$",
+    "C": "$f(x)$ is differentiable at $x=2$ but not at $x=1$",
+    "D": "$f(x)$ is differentiable neither at $x=1$ nor at $x=2$"
+  },
+  "answer": "B",
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "tomato"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10+2 Level",
+    "file": "tomato.pdf",
+    "pages": [
+      120
+    ],
+    "question_number": 744,
+    "crop": "full_page"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

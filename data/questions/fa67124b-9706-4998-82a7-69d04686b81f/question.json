@@ -1,0 +1,31 @@
+{
+  "id": "fa67124b-9706-4998-82a7-69d04686b81f",
+  "type": "MCQ",
+  "question": "Let \\(S=\\{(x,y):(y-x)\\le0,\\ (x+y)\\ge0,\\ x^2+y^2\\le2\\}\\). Then the diameter of \\(S\\) is",
+  "options": {
+    "A": "4",
+    "B": "2",
+    "C": "\\(2\\sqrt2\\)",
+    "D": "\\(\\sqrt2\\)"
+  },
+  "answer": "B",
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": "21ecd853-1cfb-4095-8fdc-9ac22b53c238",
+  "grade": "12",
+  "tags": [
+    "tomato"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10+2 Level — Sixteenth Edition",
+    "file": "tomato.pdf",
+    "pages": [
+      73
+    ],
+    "question_number": 427,
+    "crop": "questions/fa67124b-9706-4998-82a7-69d04686b81f/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

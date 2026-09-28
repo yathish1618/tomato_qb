@@ -1,0 +1,25 @@
+{
+  "id": "faba7b6e-94ae-4f4d-a5e8-32fbb8b1404f",
+  "type": "SUBJECTIVE",
+  "question": "Let \\(P\\) be the fixed point \\((3,4)\\) and \\(Q\\) the point \\((x,\\sqrt{25-x^2})\\). If \\(M(x)\\) is the slope of the line \\(PQ\\), find \\(\\lim_{x\\to3}M(x)\\).",
+  "answer": null,
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "tomato"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10 + 2 Level",
+    "file": "Tomato 16th Edition.pdf",
+    "pages": [
+      245
+    ],
+    "question_number": 103,
+    "crop": "questions/faba7b6e-94ae-4f4d-a5e8-32fbb8b1404f/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

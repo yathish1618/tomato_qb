@@ -1,0 +1,31 @@
+{
+  "id": "d9059bb1-288e-4351-adbe-03833f2aa6b1",
+  "type": "MCQ",
+  "question": "Let $x_1,x_2,\\ldots,x_{100}$ be positive integers such that $x_i+x_{i+1}=k$ for all $i$, where $k$ is a constant. If $x_{10}=1$, then the value of $x_1$ is",
+  "options": {
+    "A": "$k$",
+    "B": "$k-1$",
+    "C": "$k+1$",
+    "D": "1"
+  },
+  "answer": "B",
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "tomato"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10+2 Level — Sixteenth Edition",
+    "file": "tomato.pdf",
+    "pages": [
+      11
+    ],
+    "question_number": 6,
+    "crop": "questions/d9059bb1-288e-4351-adbe-03833f2aa6b1/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

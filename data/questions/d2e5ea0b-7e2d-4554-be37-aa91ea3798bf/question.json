@@ -1,0 +1,31 @@
+{
+  "id": "d2e5ea0b-7e2d-4554-be37-aa91ea3798bf",
+  "type": "MCQ",
+  "question": "Let $f$ be a polynomial. Then the second derivative of $f(e^x)$ is",
+  "options": {
+    "A": "$f''(e^x)\\cdot e^x+f'(e^x)$",
+    "B": "$f''(e^x)\\cdot e^{2x}+f'(x)\\cdot e^x$",
+    "C": "$f''(e^x)$",
+    "D": "$f''(e^x)\\cdot e^{2x}+f'(e^x)\\cdot e^x$"
+  },
+  "answer": "D",
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "tomato"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10+2 Level",
+    "file": "tomato.pdf",
+    "pages": [
+      125
+    ],
+    "question_number": 769,
+    "crop": "full_page"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

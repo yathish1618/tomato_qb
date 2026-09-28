@@ -1,0 +1,31 @@
+{
+  "id": "f9fa2d26-d8f2-4b75-a279-1e4a8037b686",
+  "type": "MCQ",
+  "question": "Let $a_1=2$ and for all natural number $n$, define $a_{n+1}=a_n(a_n+1)$. Then, as $n\\to\\infty$, the number of prime factors of $a_n$",
+  "options": {
+    "A": "goes to infinity;",
+    "B": "goes to a finite limit;",
+    "C": "oscillates boundedly;",
+    "D": "oscillates unboundedly."
+  },
+  "answer": "A",
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "2007-bmath-admission-test-multiple-choice"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10 + 2 Level",
+    "file": "Tomato 16th Edition.pdf",
+    "pages": [
+      145
+    ],
+    "question_number": 12,
+    "crop": "questions/f9fa2d26-d8f2-4b75-a279-1e4a8037b686/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

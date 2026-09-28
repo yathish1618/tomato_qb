@@ -1,0 +1,31 @@
+{
+  "id": "31abc2be-0b93-4a3a-8a8f-4846f285f81a",
+  "type": "MCQ",
+  "question": "Let $x$ be an irrational number. If $a,b,c$ and $d$ are rational numbers such that $\\frac{ax+b}{cx+d}$ is a rational number, which of the following must be true?",
+  "options": {
+    "A": "$ad=bc$",
+    "B": "$ac=bd$",
+    "C": "$ab=cd$",
+    "D": "$a=d=0$"
+  },
+  "answer": "A",
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "2007-bstat-admission-test-multiple-choice"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10 + 2 Level",
+    "file": "Tomato 16th Edition.pdf",
+    "pages": [
+      139
+    ],
+    "question_number": 1,
+    "crop": "questions/31abc2be-0b93-4a3a-8a8f-4846f285f81a/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

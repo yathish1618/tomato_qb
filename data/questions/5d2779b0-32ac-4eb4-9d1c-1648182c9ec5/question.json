@@ -1,0 +1,25 @@
+{
+  "id": "5d2779b0-32ac-4eb4-9d1c-1648182c9ec5",
+  "type": "SUBJECTIVE",
+  "question": "Let \\(P(x)=x^4+ax^3+bx^2+cx+d\\), where \\(a,b,c\\) and \\(d\\) are integers. The sums of the pairs of roots of \\(P(x)\\) are given by 1, 2, 5, 6, 9 and 10. Find \\(P(1/2)\\).",
+  "answer": null,
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "tomato"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10 + 2 Level",
+    "file": "Tomato 16th Edition.pdf",
+    "pages": [
+      255
+    ],
+    "question_number": 174,
+    "crop": "questions/5d2779b0-32ac-4eb4-9d1c-1648182c9ec5/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

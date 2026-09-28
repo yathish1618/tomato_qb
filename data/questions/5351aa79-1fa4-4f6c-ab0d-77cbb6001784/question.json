@@ -1,0 +1,31 @@
+{
+  "id": "5351aa79-1fa4-4f6c-ab0d-77cbb6001784",
+  "type": "MCQ",
+  "question": "Let $a,b,c,d$ be positive integers such that $\\log_a b=3/2$ and $\\log_c d=5/4$. If $a-c=9$, then $b-d$ equals",
+  "options": {
+    "A": "$55$",
+    "B": "$23$",
+    "C": "$89$",
+    "D": "$93$"
+  },
+  "answer": "D",
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "2009-bmath-admission-test-multiple-choice"
+  ],
+  "source": {
+    "title": "B.Math. (Hons.) Admission Test: 2009",
+    "file": "Tomato 16th Edition.pdf",
+    "pages": [
+      164
+    ],
+    "question_number": 4,
+    "crop": "questions/5351aa79-1fa4-4f6c-ab0d-77cbb6001784/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

@@ -1,0 +1,25 @@
+{
+  "id": "174f59c4-3ec6-47ba-adb7-9f0bfa8d1133",
+  "type": "SUBJECTIVE",
+  "question": "Let $A$ be the set of all functions $f:\\mathbb{R}\\to\\mathbb{R}$ such that $f(xy)=xf(y)$ for all $x,y\\in\\mathbb{R}$. (a) If $f\\in A$, then show that $f(x+y)=f(x)+f(y)$ for all $x,y\\in\\mathbb{R}$. (b) For $g,h\\in A$, define a function $g\\circ h$ by $(g\\circ h)(x)=g(h(x))$ for $x\\in\\mathbb{R}$. Prove that $g\\circ h$ is in $A$ and is equal to $h\\circ g$.",
+  "answer": null,
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "2010-bstat-admission-test-short-answer-type"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10 + 2 Level",
+    "file": "Tomato 16th Edition(1).pdf",
+    "pages": [
+      271
+    ],
+    "question_number": 5,
+    "crop": "questions/174f59c4-3ec6-47ba-adb7-9f0bfa8d1133/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

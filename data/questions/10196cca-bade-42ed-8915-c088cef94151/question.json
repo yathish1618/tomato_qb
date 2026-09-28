@@ -1,0 +1,31 @@
+{
+  "id": "10196cca-bade-42ed-8915-c088cef94151",
+  "type": "MCQ",
+  "question": "Let $x_1$ and $x_2$ be the roots of the equation $x^2-3x+a=0$, and let $x_3$ and $x_4$ be the roots of the equation $x^2-12x+b=0$. If $x_1<x_2<x_3<x_4$ are in G.P., then $a\\cdot b$ equals",
+  "options": {
+    "A": "5184",
+    "B": "64",
+    "C": "-5184",
+    "D": "-64"
+  },
+  "answer": "B",
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "tomato"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10+2 Level — Sixteenth Edition",
+    "file": "tomato.pdf",
+    "pages": [
+      49
+    ],
+    "question_number": 276,
+    "crop": "questions/10196cca-bade-42ed-8915-c088cef94151/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

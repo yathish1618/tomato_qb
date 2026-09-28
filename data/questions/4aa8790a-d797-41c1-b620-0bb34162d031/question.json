@@ -1,0 +1,31 @@
+{
+  "id": "4aa8790a-d797-41c1-b620-0bb34162d031",
+  "type": "MCQ",
+  "question": "If $f(x)=x^{n-1}\\log x$, then the $n$-th derivative of $f$ equals",
+  "options": {
+    "A": "$\\frac{(n-1)!}{x}$;",
+    "B": "$\\frac nx$;",
+    "C": "$(-1)^{n-1}\\frac{(n-1)!}{x}$;",
+    "D": "$\\frac1x$."
+  },
+  "answer": "A",
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "2008-bstat-admission-test-multiple-choice"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10 + 2 Level",
+    "file": "Tomato 16th Edition.pdf",
+    "pages": [
+      149
+    ],
+    "question_number": 19,
+    "crop": "questions/4aa8790a-d797-41c1-b620-0bb34162d031/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

@@ -1,0 +1,31 @@
+{
+  "id": "cd9a8c6d-e322-41ce-baca-4c12f5fd92f5",
+  "type": "MCQ",
+  "question": "The expression \\(\\dfrac{(1+i)^n}{(1-i)^{n-2}}\\) equals",
+  "options": {
+    "A": "\\(-i^{n+1}\\)",
+    "B": "\\(\\,i^{n+1}\\)",
+    "C": "\\(-2i^{n+1}\\)",
+    "D": "1"
+  },
+  "answer": "C",
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "tomato"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10+2 Level — Sixteenth Edition",
+    "file": "tomato.pdf",
+    "pages": [
+      67
+    ],
+    "question_number": 400,
+    "crop": "questions/cd9a8c6d-e322-41ce-baca-4c12f5fd92f5/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

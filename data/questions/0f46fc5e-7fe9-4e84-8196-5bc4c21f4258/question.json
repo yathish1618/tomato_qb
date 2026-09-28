@@ -1,0 +1,31 @@
+{
+  "id": "0f46fc5e-7fe9-4e84-8196-5bc4c21f4258",
+  "type": "MCQ",
+  "question": "Given two complex numbers \\(z,w\\) with unit modulus (i.e., \\(|z|=|w|=1\\)), which of the following statements will ALWAYS be correct?",
+  "options": {
+    "A": "\\(|z+w|<\\sqrt2\\) and \\(|z-w|<\\sqrt2\\)",
+    "B": "\\(|z+w|\\le\\sqrt2\\) and \\(|z-w|\\ge\\sqrt2\\)",
+    "C": "\\(|z+w|\\ge\\sqrt2\\) or \\(|z-w|\\ge\\sqrt2\\)",
+    "D": "\\(|z+w|<\\sqrt2\\) or \\(|z-w|<\\sqrt2\\)"
+  },
+  "answer": "C",
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "2015-bstat-bmath-admission-test-multiple-choice"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10 + 2 Level",
+    "file": "Tomato 16th Edition.pdf",
+    "pages": [
+      208
+    ],
+    "question_number": 25,
+    "crop": "questions/0f46fc5e-7fe9-4e84-8196-5bc4c21f4258/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

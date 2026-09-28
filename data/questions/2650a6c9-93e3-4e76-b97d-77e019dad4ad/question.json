@@ -1,0 +1,25 @@
+{
+  "id": "2650a6c9-93e3-4e76-b97d-77e019dad4ad",
+  "type": "SUBJECTIVE",
+  "question": "Draw the region of points \\((x,y)\\) in the plane, which satisfy \\(|y|\\le |x|\\le1\\).",
+  "answer": null,
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "tomato"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10 + 2 Level",
+    "file": "Tomato 16th Edition.pdf",
+    "pages": [
+      243
+    ],
+    "question_number": 90,
+    "crop": "questions/2650a6c9-93e3-4e76-b97d-77e019dad4ad/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

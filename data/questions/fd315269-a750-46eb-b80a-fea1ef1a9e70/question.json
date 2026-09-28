@@ -1,0 +1,25 @@
+{
+  "id": "fd315269-a750-46eb-b80a-fea1ef1a9e70",
+  "type": "SUBJECTIVE",
+  "question": "Suppose $ABC$ is a triangle with inradius $r$. The incircle touches the sides $BC$, $CA$ and $AB$ at $D$, $E$ and $F$ respectively. If $BD=x$, $CE=y$ and $AF=z$, then show that $$r^2=\\frac{xyz}{x+y+z}.$$",
+  "answer": null,
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "2008-bstat-admission-test-short-answer-type"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10 + 2 Level",
+    "file": "Tomato 16th Edition(1).pdf",
+    "pages": [
+      264
+    ],
+    "question_number": 5,
+    "crop": "questions/fd315269-a750-46eb-b80a-fea1ef1a9e70/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

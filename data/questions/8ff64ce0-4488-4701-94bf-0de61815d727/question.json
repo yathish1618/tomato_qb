@@ -1,0 +1,25 @@
+{
+  "id": "8ff64ce0-4488-4701-94bf-0de61815d727",
+  "type": "SUBJECTIVE",
+  "question": "Let \\(\\theta_1,\\theta_2,\\ldots,\\theta_{10}\\) be any values in the closed interval \\([0,\\pi]\\). Show that\n\\[\nF=(1+\\sin^2\\theta_1)(1+\\cos^2\\theta_1)(1+\\sin^2\\theta_2)(1+\\cos^2\\theta_2)\\cdots(1+\\sin^2\\theta_{10})(1+\\cos^2\\theta_{10})\\le \\left(\\frac94\\right)^{10}.\n\\]\nWhat is the maximum value attainable by \\(F\\) and at what values of \\(\\theta_1,\\theta_2,\\ldots,\\theta_{10}\\) is the maximum value attained?",
+  "answer": null,
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "tomato"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10 + 2 Level",
+    "file": "Tomato 16th Edition.pdf",
+    "pages": [
+      242
+    ],
+    "question_number": 79,
+    "crop": "questions/8ff64ce0-4488-4701-94bf-0de61815d727/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

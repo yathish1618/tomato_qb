@@ -1,0 +1,25 @@
+{
+  "id": "1addfaea-3a5b-47f0-82dc-78edd00cd987",
+  "type": "SUBJECTIVE",
+  "question": "Let $a\\ge b\\ge c>0$ be real numbers such that for all $n\\in\\mathbb N$, there exist triangles of side lengths $a^n,b^n,c^n$. Prove that the triangles are isosceles.",
+  "answer": null,
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "bstat-bmath-ugb-2018"
+  ],
+  "source": {
+    "title": "",
+    "file": "BStat-BMath-UGB-2018.pdf",
+    "pages": [
+      2
+    ],
+    "question_number": 6,
+    "crop": "questions/1addfaea-3a5b-47f0-82dc-78edd00cd987/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

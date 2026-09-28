@@ -1,0 +1,31 @@
+{
+  "id": "6bf1f5df-111b-46c0-968b-2b90169a2780",
+  "type": "MCQ",
+  "question": "The coefficient of $t^3$ in the expansion of $\\left(\\frac{1-t^6}{1-t}\\right)^3$ is",
+  "options": {
+    "A": "$10$",
+    "B": "$12$",
+    "C": "$8$",
+    "D": "$9$"
+  },
+  "answer": "A",
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "2009-bmath-admission-test-multiple-choice"
+  ],
+  "source": {
+    "title": "B.Math. (Hons.) Admission Test: 2009",
+    "file": "Tomato 16th Edition.pdf",
+    "pages": [
+      165
+    ],
+    "question_number": 12,
+    "crop": "questions/6bf1f5df-111b-46c0-968b-2b90169a2780/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

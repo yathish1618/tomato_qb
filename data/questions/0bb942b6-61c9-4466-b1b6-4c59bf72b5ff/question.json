@@ -1,0 +1,25 @@
+{
+  "id": "0bb942b6-61c9-4466-b1b6-4c59bf72b5ff",
+  "type": "SUBJECTIVE",
+  "question": "22. Let $n\\ge2$ be an integer. Let $m$ be the largest integer which is less than or equal to $n$, and which is a power of 2. Put $l_n$ = the least common multiple of $1,2,\\ldots,n$. Show that $l_n/m$ is odd, and that for every integer $k\\le n$, $k\\ne m$, $l_n/k$ is even. Hence prove that\n\\[\n1+\\frac12+\\cdots+\\frac1n\n\\]\nis not an integer.",
+  "answer": null,
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "tomato"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10 + 2 Level",
+    "file": "Tomato 16th Edition.pdf",
+    "pages": [
+      236
+    ],
+    "question_number": 22,
+    "crop": "questions/0bb942b6-61c9-4466-b1b6-4c59bf72b5ff/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

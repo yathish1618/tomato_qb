@@ -1,0 +1,31 @@
+{
+  "id": "0d0627ff-d857-403f-a199-cc7b0f186e47",
+  "type": "MCQ",
+  "question": "If $k$ times the sum of the first $n$ natural numbers is equal to the sum of the squares of the first $n$ natural numbers, then $\\cos^{-1}\\left(\\frac{2n-3k}{2}\\right)$ is",
+  "options": {
+    "A": "$\\frac{5\\pi}{6}$",
+    "B": "$\\frac{2\\pi}{3}$",
+    "C": "$\\frac{\\pi}{3}$",
+    "D": "$\\frac{\\pi}{6}$"
+  },
+  "answer": "B",
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "2009-bstat-admission-test-multiple-choice"
+  ],
+  "source": {
+    "title": "B.Stat. (Hons.) Admission Test: 2009",
+    "file": "Tomato 16th Edition.pdf",
+    "pages": [
+      158
+    ],
+    "question_number": 1,
+    "crop": "questions/0d0627ff-d857-403f-a199-cc7b0f186e47/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

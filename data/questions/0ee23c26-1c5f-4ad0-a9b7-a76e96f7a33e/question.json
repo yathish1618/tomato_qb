@@ -1,0 +1,32 @@
+{
+  "id": "0ee23c26-1c5f-4ad0-a9b7-a76e96f7a33e",
+  "type": "MCQ",
+  "question": "Let \\(a\\) be the largest integer strictly smaller than \\(\\frac78b\\) where \\(b\\) is also an integer. Consider the following inequalities: (1) \\(\\frac78b-a\\le1\\), (2) \\(\\frac78b-a\\ge\\frac18\\), and find which of the following is correct.",
+  "options": {
+    "A": "Only (1) is correct.",
+    "B": "Only (2) is correct.",
+    "C": "Both (1) and (2) are correct.",
+    "D": "None of them is correct."
+  },
+  "answer": "C",
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "2013-bstat-bmath-admission-test-multiple-choice"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10 + 2 Level",
+    "file": "Tomato 16th Edition.pdf",
+    "pages": [
+      196,
+      197
+    ],
+    "question_number": 17,
+    "crop": "questions/0ee23c26-1c5f-4ad0-a9b7-a76e96f7a33e/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

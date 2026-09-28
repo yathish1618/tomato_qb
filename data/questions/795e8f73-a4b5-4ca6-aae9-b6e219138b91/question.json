@@ -1,0 +1,31 @@
+{
+  "id": "795e8f73-a4b5-4ca6-aae9-b6e219138b91",
+  "type": "MCQ",
+  "question": "The roots of the equation $2x^2-6x-5\\sqrt{x^2-3x-6}=10$ are",
+  "options": {
+    "A": "$\\frac32\\pm\\frac12\\sqrt{41},\\ \\frac32\\pm\\frac12\\sqrt{35}$",
+    "B": "$3\\pm\\sqrt{41},\\ 3\\pm\\sqrt{35}$",
+    "C": "$-2,\\ 5,\\ \\frac32\\pm\\frac12\\sqrt{34}$",
+    "D": "$-2,\\ 5,\\ 3\\pm\\sqrt{34}$"
+  },
+  "answer": "C",
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "tomato"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10+2 Level — Sixteenth Edition",
+    "file": "tomato.pdf",
+    "pages": [
+      44
+    ],
+    "question_number": 238,
+    "crop": "questions/795e8f73-a4b5-4ca6-aae9-b6e219138b91/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

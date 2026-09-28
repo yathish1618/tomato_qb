@@ -1,0 +1,31 @@
+{
+  "id": "ebd4344a-e242-422a-88ae-41782ba49b9c",
+  "type": "MCQ",
+  "question": "The inequality \\(\\sqrt{x+2}\\ge x\\) is satisfied if and only if",
+  "options": {
+    "A": "\\(-2\\le x\\le2\\)",
+    "B": " \\(-1\\le x\\le2\\)",
+    "C": "\\(\\,0\\le x\\le2\\)",
+    "D": "none of the foregoing conditions"
+  },
+  "answer": "A",
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "tomato"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10+2 Level — Sixteenth Edition",
+    "file": "tomato.pdf",
+    "pages": [
+      63
+    ],
+    "question_number": 373,
+    "crop": "questions/ebd4344a-e242-422a-88ae-41782ba49b9c/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

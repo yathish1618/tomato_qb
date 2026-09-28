@@ -1,0 +1,25 @@
+{
+  "id": "8c217d97-8fd7-4b44-a1d0-242ea3040719",
+  "type": "SUBJECTIVE",
+  "question": "Let $f:(0,\\infty)\\to\\mathbb R$ be defined by $f(x)=\\displaystyle\\lim_{n\\to\\infty}\\cos^n\\left(\\frac{1}{nx}\\right)$. (a) Show that $f$ has exactly one point of discontinuity. (b) Evaluate $f$ at its point of discontinuity.",
+  "answer": null,
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "bstat-bmath-ugb-2019"
+  ],
+  "source": {
+    "title": "UGB 2019",
+    "file": "BStat-BMath-UGB-2019.pdf",
+    "pages": [
+      1
+    ],
+    "question_number": 2,
+    "crop": "questions/8c217d97-8fd7-4b44-a1d0-242ea3040719/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

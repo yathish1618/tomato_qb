@@ -1,0 +1,25 @@
+{
+  "id": "38387991-f3f4-4cdb-a207-b861f995620e",
+  "type": "SUBJECTIVE",
+  "question": "16. Suppose $k,n$ are integers $\\ge1$. Show that $(k\\cdot n)!$ is divisible by $(k!)^n$.",
+  "answer": null,
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "tomato"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10 + 2 Level",
+    "file": "Tomato 16th Edition.pdf",
+    "pages": [
+      235
+    ],
+    "question_number": 16,
+    "crop": "questions/38387991-f3f4-4cdb-a207-b861f995620e/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

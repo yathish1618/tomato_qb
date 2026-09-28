@@ -1,0 +1,31 @@
+{
+  "id": "b56d1ab5-bef4-4402-b803-e0d5efe24a1b",
+  "type": "MCQ",
+  "question": "The number of distinct 6-digit numbers between 1 and 300000 which are divisible by 4 and are obtained by rearranging the digits of 112233, is",
+  "options": {
+    "A": "12",
+    "B": "15",
+    "C": "18",
+    "D": "90"
+  },
+  "answer": "B",
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "tomato"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10+2 Level — Sixteenth Edition",
+    "file": "tomato.pdf",
+    "pages": [
+      29
+    ],
+    "question_number": 125,
+    "crop": "questions/b56d1ab5-bef4-4402-b803-e0d5efe24a1b/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

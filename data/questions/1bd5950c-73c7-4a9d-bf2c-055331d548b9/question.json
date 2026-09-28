@@ -1,0 +1,25 @@
+{
+  "id": "1bd5950c-73c7-4a9d-bf2c-055331d548b9",
+  "type": "SUBJECTIVE",
+  "question": "Let $\\mathbb R$ denote the set of real numbers. Find all functions $f:\\mathbb R\\to\\mathbb R$, satisfying\n\\[\n|f(x)-f(y)|=2|x-y|\n\\]\nfor all $x,y\\in\\mathbb R$. Justify your answer.",
+  "answer": null,
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "2015-bstat-bmath-admission-test-short-answer-type"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10 + 2 Level",
+    "file": "Tomato 16th Edition(1).pdf",
+    "pages": [
+      284
+    ],
+    "question_number": 2,
+    "crop": "questions/1bd5950c-73c7-4a9d-bf2c-055331d548b9/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

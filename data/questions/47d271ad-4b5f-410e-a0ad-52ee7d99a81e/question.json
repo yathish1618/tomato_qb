@@ -1,0 +1,31 @@
+{
+  "id": "47d271ad-4b5f-410e-a0ad-52ee7d99a81e",
+  "type": "MCQ",
+  "question": "The number of four tuples \\((a,b,c,d)\\) of positive integers satisfying all three equations \\(a^3=b^2,\\ c^3=d^2,\\ c-a=64\\) is",
+  "options": {
+    "A": "0",
+    "B": "1",
+    "C": "2",
+    "D": "4."
+  },
+  "answer": "C",
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "2013-bstat-bmath-admission-test-multiple-choice"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10 + 2 Level",
+    "file": "Tomato 16th Edition.pdf",
+    "pages": [
+      198
+    ],
+    "question_number": 24,
+    "crop": "questions/47d271ad-4b5f-410e-a0ad-52ee7d99a81e/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

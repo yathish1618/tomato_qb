@@ -1,0 +1,31 @@
+{
+  "id": "0a8432e0-a25f-4995-906e-03261b73f223",
+  "type": "MCQ",
+  "question": "Let $f(x)=c\\sin(x)$ for all $x\\in\\mathbb R$. Suppose $f(x)=\\sum_{k=1}^{\\infty}\\frac{f(x+k\\pi)}{2^k}$ for all $x\\in\\mathbb R$. Then",
+  "options": {
+    "A": "$c=1$",
+    "B": "$c=0$",
+    "C": "$c<0$",
+    "D": "$c=-1$"
+  },
+  "answer": "B",
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "2009-bmath-admission-test-multiple-choice"
+  ],
+  "source": {
+    "title": "B.Math. (Hons.) Admission Test: 2009",
+    "file": "Tomato 16th Edition.pdf",
+    "pages": [
+      166
+    ],
+    "question_number": 23,
+    "crop": "questions/0a8432e0-a25f-4995-906e-03261b73f223/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

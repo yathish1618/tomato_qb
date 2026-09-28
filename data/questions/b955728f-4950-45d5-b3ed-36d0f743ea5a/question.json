@@ -1,0 +1,31 @@
+{
+  "id": "b955728f-4950-45d5-b3ed-36d0f743ea5a",
+  "type": "MCQ",
+  "question": "Let $P$ be a moving point such that if $PA$ and $PB$ are the two tangents drawn from $P$ to the circle $x^2+y^2=1$ ($A,B$ being the points of contact), then $\\angle AOB=60^\\circ$, where $O$ is the origin. Then the locus of $P$ is",
+  "options": {
+    "A": "a circle of radius $\\frac{2}{\\sqrt3}$",
+    "B": "a circle of radius 2",
+    "C": "a circle of radius $\\sqrt3$",
+    "D": "none of the foregoing curves"
+  },
+  "answer": "A",
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "tomato"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10+2 Level — Sixteenth Edition",
+    "file": "tomato.pdf",
+    "pages": [
+      98
+    ],
+    "question_number": 599,
+    "crop": "questions/b955728f-4950-45d5-b3ed-36d0f743ea5a/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

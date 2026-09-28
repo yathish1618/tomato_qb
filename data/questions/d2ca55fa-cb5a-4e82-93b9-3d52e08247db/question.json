@@ -1,0 +1,31 @@
+{
+  "id": "d2ca55fa-cb5a-4e82-93b9-3d52e08247db",
+  "type": "MCQ",
+  "question": "As in the following figure, the straight line $OA$ lies in the second quadrant of the $(x,y)$-plane and makes an angle $\\theta$ with the negative half of the $x$-axis, where $0<\\theta<\\pi/2$. The line segment $CD$ of length $1$ slides on the $(x,y)$-plane in such a way that $C$ is always on $OA$ and $D$ on the positive side of the $x$-axis. The locus of the mid-point of $CD$ is",
+  "options": {
+    "A": "$x^2+4xy\\cot\\theta+y^2(1+4\\cot^2\\theta)=\\frac14$",
+    "B": "$x^2+y^2=\\frac14+\\cot^2\\theta$",
+    "C": "$x^2+4xy\\cot\\theta+y^2=\\frac14$",
+    "D": "$x^2+y^2(1+4\\cot^2\\theta)=\\frac14$"
+  },
+  "answer": null,
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "bstat-bmath-uga-2023"
+  ],
+  "source": {
+    "title": "",
+    "file": "BStat-BMath-UGA-2023(1).pdf",
+    "pages": [
+      8
+    ],
+    "question_number": 26,
+    "crop": "questions/d2ca55fa-cb5a-4e82-93b9-3d52e08247db/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

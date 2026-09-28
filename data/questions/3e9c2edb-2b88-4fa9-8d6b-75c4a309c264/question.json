@@ -1,0 +1,25 @@
+{
+  "id": "3e9c2edb-2b88-4fa9-8d6b-75c4a309c264",
+  "type": "SUBJECTIVE",
+  "question": "If \\(c\\) is a real number with \\(0<c<1\\), then show that the values taken by the function \\(y=\\frac{x^2+2x+c}{x^2+4x+3c}\\), as \\(x\\) varies over real numbers, range over all real numbers.",
+  "answer": null,
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "tomato"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10 + 2 Level",
+    "file": "Tomato 16th Edition.pdf",
+    "pages": [
+      241
+    ],
+    "question_number": 66,
+    "crop": "questions/3e9c2edb-2b88-4fa9-8d6b-75c4a309c264/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

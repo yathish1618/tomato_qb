@@ -1,0 +1,31 @@
+{
+  "id": "263d88ed-bbee-4149-9076-d008e5ade647",
+  "type": "MCQ",
+  "question": "Suppose that $x_1,\\ldots,x_n$ ($n>2$) are real numbers such that $x_i=-x_{n-i+1}$ for $1\\le i\\le n$. Consider the sum $S=\\sum\\sum\\sum x_i x_j x_k$, where the summations are taken over all $i,j,k$: $1\\le i,j,k\\le n$ and $i,j,k$ are all distinct. Then $S$ equals",
+  "options": {
+    "A": "$n!x_1x_2\\cdots x_n$",
+    "B": "$(n-3)(n-4)$",
+    "C": "$(n-3)(n-4)(n-5)$",
+    "D": "none of the foregoing expressions"
+  },
+  "answer": "D",
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "tomato"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10+2 Level — Sixteenth Edition",
+    "file": "tomato.pdf",
+    "pages": [
+      18
+    ],
+    "question_number": 44,
+    "crop": "questions/263d88ed-bbee-4149-9076-d008e5ade647/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

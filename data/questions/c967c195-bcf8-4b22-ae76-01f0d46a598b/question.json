@@ -1,0 +1,31 @@
+{
+  "id": "c967c195-bcf8-4b22-ae76-01f0d46a598b",
+  "type": "MCQ",
+  "question": "How many functions $f:\\{1,2,\\ldots,10\\}\\to\\{1,\\ldots,2000\\}$, which satisfy $f(i+1)-f(i)\\ge20$ for all $1\\le i\\le9$, are there?",
+  "options": {
+    "A": "$10!\\binom{1829}{10}$",
+    "B": "$11!\\binom{1830}{11}$",
+    "C": "$\\binom{1829}{10}$",
+    "D": "$\\binom{1830}{11}$"
+  },
+  "answer": null,
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "bstat-bmath-uga-2023"
+  ],
+  "source": {
+    "title": "",
+    "file": "BStat-BMath-UGA-2023(1).pdf",
+    "pages": [
+      10
+    ],
+    "question_number": 30,
+    "crop": "questions/c967c195-bcf8-4b22-ae76-01f0d46a598b/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

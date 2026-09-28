@@ -1,0 +1,31 @@
+{
+  "id": "a5ae6e71-f79a-4d45-af76-bb841a09c6d6",
+  "type": "MCQ",
+  "question": "The term that is independent of $x$ in the expansion of $\\left(\\frac{3x^2}{2}-\\frac{1}{3x}\\right)^9$ is",
+  "options": {
+    "A": "$\\binom96\\left(\\frac13\\right)^3\\left(\\frac32\\right)^6$",
+    "B": "$\\binom95\\left(\\frac32\\right)^5\\left(-\\frac13\\right)^4$",
+    "C": "$\\binom93\\left(\\frac16\\right)^3$",
+    "D": "$\\binom94\\left(\\frac32\\right)^4\\left(-\\frac13\\right)^5$"
+  },
+  "answer": "C",
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "tomato"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10+2 Level — Sixteenth Edition",
+    "file": "tomato.pdf",
+    "pages": [
+      27
+    ],
+    "question_number": 106,
+    "crop": "questions/a5ae6e71-f79a-4d45-af76-bb841a09c6d6/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

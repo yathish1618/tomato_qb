@@ -1,0 +1,31 @@
+{
+  "id": "298e6cf6-abc8-4c18-8c5b-13a2c57b966c",
+  "type": "MCQ",
+  "question": "Suppose that $A,B$ and $C$ are sets satisfying $(A-B)\\triangle(B-C)=A\\triangle B$. Which of the following statements must be true?",
+  "options": {
+    "A": "$A=C$",
+    "B": "$A\\cap B=B\\cap C$",
+    "C": "$A\\cup B=B\\cup C$",
+    "D": "none of the foregoing statements necessarily follows."
+  },
+  "answer": "B",
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": "4615231b-13f6-4512-9f11-31343628a683",
+  "grade": "12",
+  "tags": [
+    "tomato"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10+2 Level — Sixteenth Edition",
+    "file": "tomato.pdf",
+    "pages": [
+      16
+    ],
+    "question_number": 36,
+    "crop": "questions/298e6cf6-abc8-4c18-8c5b-13a2c57b966c/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

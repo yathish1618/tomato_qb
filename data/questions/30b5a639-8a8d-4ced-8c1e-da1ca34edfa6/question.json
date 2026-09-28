@@ -1,0 +1,31 @@
+{
+  "id": "30b5a639-8a8d-4ced-8c1e-da1ca34edfa6",
+  "type": "MCQ",
+  "question": "Two equal sides of an isosceles triangle are given by the equations $y=7x$ and $y=-x$ and its third side passes through $(1,-10)$. Then the equation of the third side is",
+  "options": {
+    "A": "$3x+y+7=0$ or $x-3y-31=0$",
+    "B": "$x+3y+29=0$ or $-3x+y+13=0$",
+    "C": "$3x+y+7=0$ or $x+3y+9=0$",
+    "D": "$x-3y-31=0$ or $-3x+y+13=0$"
+  },
+  "answer": "A",
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "tomato"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10+2 Level — Sixteenth Edition",
+    "file": "tomato.pdf",
+    "pages": [
+      84
+    ],
+    "question_number": 502,
+    "crop": "questions/30b5a639-8a8d-4ced-8c1e-da1ca34edfa6/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

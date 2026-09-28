@@ -1,0 +1,31 @@
+{
+  "id": "7804d161-b3f7-459c-a1f6-f9370fdbc2e9",
+  "type": "MCQ",
+  "question": "The equation $\\frac{x^3+7}{x^2+1}=5$ has",
+  "options": {
+    "A": "no solution in $[0,2]$",
+    "B": "exactly two solutions in $[0,2]$",
+    "C": "exactly one solution in $[0,2]$",
+    "D": "exactly three solutions in $[0,2]$"
+  },
+  "answer": "C",
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "tomato"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10+2 Level — Sixteenth Edition",
+    "file": "tomato.pdf",
+    "pages": [
+      44
+    ],
+    "question_number": 237,
+    "crop": "questions/7804d161-b3f7-459c-a1f6-f9370fdbc2e9/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

@@ -1,0 +1,31 @@
+{
+  "id": "76038576-fb74-48a0-ab1a-59d315ae770c",
+  "type": "MCQ",
+  "question": "Let \\(ABC\\) be a right-angled triangle with \\(\\angle ABC=90^\\circ\\). Let \\(P\\) be the midpoint of \\(BC\\) and \\(Q\\) be a point on \\(AB\\). Suppose that the length of \\(BC\\) is \\(2x\\), \\(\\angle ACQ=\\alpha\\), and \\(\\angle APQ=\\beta\\). Then the length of \\(AQ\\) is",
+  "options": {
+    "A": "\\(\\frac{3x}{2\\cot\\alpha-\\cot\\beta}\\)",
+    "B": "\\(\\frac{2x}{3\\cot\\alpha-2\\cot\\beta}\\)",
+    "C": "\\(\\frac{3x}{\\cot\\alpha-2\\cot\\beta}\\)",
+    "D": "\\(\\frac{2x}{2\\cot\\alpha-3\\cot\\beta}\\)"
+  },
+  "answer": "A",
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "2016-bstat-bmath-admission-test-multiple-choice"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10 + 2 Level",
+    "file": "Tomato 16th Edition.pdf",
+    "pages": [
+      212
+    ],
+    "question_number": 16,
+    "crop": "questions/76038576-fb74-48a0-ab1a-59d315ae770c/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

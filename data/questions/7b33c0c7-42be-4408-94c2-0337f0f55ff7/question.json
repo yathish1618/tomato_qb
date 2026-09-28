@@ -1,0 +1,25 @@
+{
+  "id": "7b33c0c7-42be-4408-94c2-0337f0f55ff7",
+  "type": "SUBJECTIVE",
+  "question": "For all natural numbers $n$, let $A_n=\\sqrt{2-\\sqrt{2+\\sqrt{2+\\cdots+\\sqrt2}}}$ ($n$ many radicals). (a) Show that for $n\\ge2$, $A_n=2\\sin\\frac{\\pi}{2^{n+1}}$. (b) Hence, or otherwise, evaluate the limit $\\displaystyle\\lim_{n\\to\\infty}2^nA_n$.",
+  "answer": null,
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "bstat-bmath-ugb-2019"
+  ],
+  "source": {
+    "title": "UGB 2019",
+    "file": "BStat-BMath-UGB-2019.pdf",
+    "pages": [
+      2
+    ],
+    "question_number": 6,
+    "crop": "questions/7b33c0c7-42be-4408-94c2-0337f0f55ff7/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

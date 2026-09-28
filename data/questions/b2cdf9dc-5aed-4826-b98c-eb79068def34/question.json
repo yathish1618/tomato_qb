@@ -1,0 +1,31 @@
+{
+  "id": "b2cdf9dc-5aed-4826-b98c-eb79068def34",
+  "type": "MCQ",
+  "question": "Let $\\frac{\\tan(\\alpha-\\beta+\\gamma)}{\\tan(\\alpha+\\beta-\\gamma)}=\\frac{\\tan\\beta}{\\tan\\gamma}$. Then",
+  "options": {
+    "A": "$\\sin(\\beta-\\gamma)=\\sin(\\alpha-\\beta)$",
+    "B": "$\\sin(\\alpha-\\gamma)=\\sin(\\beta-\\gamma)$",
+    "C": "$\\sin(\\beta-\\gamma)=0$",
+    "D": "$\\sin2\\alpha+\\sin2\\beta+\\sin2\\gamma=0$"
+  },
+  "answer": null,
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "bstat-bmath-uga-2026"
+  ],
+  "source": {
+    "title": "Sample Question Paper-UGA",
+    "file": "BStat-BMath-UGA-2026(1).pdf",
+    "pages": [
+      3
+    ],
+    "question_number": 8,
+    "crop": "questions/b2cdf9dc-5aed-4826-b98c-eb79068def34/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

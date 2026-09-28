@@ -1,0 +1,26 @@
+{
+  "id": "bae1488f-2abb-4530-8b7b-d19c73d3f9ac",
+  "type": "SUBJECTIVE",
+  "question": "7. The following table gives the natural logarithm of the bodyweights (in Kg) for five individuals going through a weight-loss programme for five successive weeks.\n\n\\[\n\\begin{array}{c|rrrrrr}\n\\text{Person} & \\text{Week 0}&1&2&3&4&5\\\\\nA&4.24&4.00&3.75&3.50&3.40&3.40\\\\\nB&4.32&4.15&3.90&3.95&6.30&3.40\\\\\nC&4.24&4.10&3.80&3.50&3.45&3.60\\\\\nD&4.38&4.40&4.25&4.30&4.10&3.95\\\\\nE&4.38&4.30&4.35&4.20&3.80&3.85\n\\end{array}\n\\]\n\n(i) For each week identify the individual for whom there are equal number of individuals with higher and lower bodyweights, respectively. Call this individual the \\emph{midperson} for that week.\n\n(ii) Plot the logarithm of the bodyweight of the midperson for each week against the week (in plain paper).\n\n(iii) What is your prediction for the logarithm of the bodyweight of the midperson for the sixth week? Give reasons.\n\n(iv) Comment on any unusual observations that you find in the table.\n\n(v) Write a brief report (in about five sentences) on how effective the weight-loss programme has been on different individuals.",
+  "answer": null,
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "tomato"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10 + 2 Level",
+    "file": "Tomato 16th Edition.pdf",
+    "pages": [
+      233,
+      234
+    ],
+    "question_number": 7,
+    "crop": "questions/bae1488f-2abb-4530-8b7b-d19c73d3f9ac/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

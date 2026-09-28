@@ -1,0 +1,31 @@
+{
+  "id": "be8ac8f6-8db2-4118-9203-6433a40470a3",
+  "type": "MCQ",
+  "question": "Consider the following two subsets of $\\mathbb C$: $A=\\{1/z:|z|=2\\}$ and $B=\\{1/z:|z-1|=2\\}$. Then",
+  "options": {
+    "A": "$A$ is a circle, but $B$ is not a circle.",
+    "B": "$B$ is a circle, but $A$ is not a circle.",
+    "C": "$A$ and $B$ are both circles.",
+    "D": "Neither $A$ nor $B$ is a circle."
+  },
+  "answer": null,
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "bstat-bmath-uga-2021"
+  ],
+  "source": {
+    "title": "",
+    "file": "BStat-BMath-UGA-2021(1).pdf",
+    "pages": [
+      3
+    ],
+    "question_number": 12,
+    "crop": "questions/be8ac8f6-8db2-4118-9203-6433a40470a3/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

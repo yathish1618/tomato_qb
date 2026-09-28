@@ -1,0 +1,25 @@
+{
+  "id": "98685009-5025-4751-bd70-668a14c91ee0",
+  "type": "SUBJECTIVE",
+  "question": "Show that the area of the bounded region enclosed between the curves \\(y^3=x^2\\) and \\(y=2-x^2\\), is \\(2\\frac{2}{15}\\).",
+  "answer": null,
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "tomato"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10 + 2 Level",
+    "file": "Tomato 16th Edition.pdf",
+    "pages": [
+      254
+    ],
+    "question_number": 164,
+    "crop": "questions/98685009-5025-4751-bd70-668a14c91ee0/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

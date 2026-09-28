@@ -1,0 +1,31 @@
+{
+  "id": "7783c7b6-e1c7-4a19-ab70-051c1a1a18d3",
+  "type": "MCQ",
+  "question": "The distance at which a vertical pillar, of height 33 feet, subtends an angle of $12^{\\prime\\prime}$ (that is, 12 seconds), is approximately in yards (1 yard = 3 feet),",
+  "options": {
+    "A": "$\\frac{11000000}{6\\pi}$",
+    "B": "$\\frac{864000}{11\\pi}$",
+    "C": "$\\frac{594000}{\\pi}$",
+    "D": "$\\frac{864000}{\\pi}$"
+  },
+  "answer": "C",
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "tomato"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10+2 Level",
+    "file": "tomato.pdf",
+    "pages": [
+      106
+    ],
+    "question_number": 659,
+    "crop": "full_page"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

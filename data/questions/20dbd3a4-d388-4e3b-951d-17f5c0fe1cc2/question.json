@@ -1,0 +1,31 @@
+{
+  "id": "20dbd3a4-d388-4e3b-951d-17f5c0fe1cc2",
+  "type": "MCQ",
+  "question": "A set of numbers \\(S\\) is said to be multiplicatively closed if \\(ab\\in S\\) whenever both \\(a\\in S\\) and \\(b\\in S\\). Let \\(i=\\sqrt{-1}\\) and \\(\\omega\\) be a non-real cube root of unity. Let\n\\[\nS_1=\\{a+bi\\mid a,b\\text{ are integers}\\}\\quad\\text{and}\\quad S_2=\\{a+b\\omega\\mid a,b\\text{ are integers}\\}.\n\\]\nWhich one of the following statements is true?",
+  "options": {
+    "A": "Both \\(S_1\\) and \\(S_2\\) are multiplicatively closed.",
+    "B": "\\(S_1\\) is multiplicatively closed but \\(S_2\\) is not.",
+    "C": "\\(S_2\\) is multiplicatively closed but \\(S_1\\) is not.",
+    "D": "Neither \\(S_1\\) nor \\(S_2\\) is multiplicatively closed."
+  },
+  "answer": "A",
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "2015-bstat-bmath-admission-test-multiple-choice"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10 + 2 Level",
+    "file": "Tomato 16th Edition.pdf",
+    "pages": [
+      206
+    ],
+    "question_number": 10,
+    "crop": "questions/20dbd3a4-d388-4e3b-951d-17f5c0fe1cc2/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

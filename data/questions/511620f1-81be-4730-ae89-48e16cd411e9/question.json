@@ -1,0 +1,31 @@
+{
+  "id": "511620f1-81be-4730-ae89-48e16cd411e9",
+  "type": "MCQ",
+  "question": "Let $x,y,z$ be real numbers. Then only one of the following statements is true. Which one is it?",
+  "options": {
+    "A": "If $x<y$, then $xz<yz$ for all values of $z$",
+    "B": "If $x<y$, then $\\frac{x}{z}<\\frac{y}{z}$ for all values of $z$",
+    "C": "If $x<y$, then $(x+z)<(y+z)$ for all values of $z$",
+    "D": "If $0<x<y$, then $xz<yz$ for all values of $z"
+  },
+  "answer": "C",
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "tomato"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10+2 Level — Sixteenth Edition",
+    "file": "tomato.pdf",
+    "pages": [
+      50
+    ],
+    "question_number": 279,
+    "crop": "questions/511620f1-81be-4730-ae89-48e16cd411e9/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

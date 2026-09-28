@@ -1,0 +1,31 @@
+{
+  "id": "91a036f9-5ece-4492-8476-ea74d9ddecb6",
+  "type": "MCQ",
+  "question": "Let \\(A\\) be the set \\(\\{1,2,\\ldots,6\\}\\). How many functions \\(f\\) from \\(A\\) to \\(A\\) are there such that the range of \\(f\\) has exactly 5 elements?",
+  "options": {
+    "A": "240",
+    "B": "720",
+    "C": "1800",
+    "D": "10800"
+  },
+  "answer": "D",
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "2011-bstat-admission-test-multiple-choice"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10 + 2 Level",
+    "file": "Tomato 16th Edition.pdf",
+    "pages": [
+      179
+    ],
+    "question_number": 10,
+    "crop": "questions/91a036f9-5ece-4492-8476-ea74d9ddecb6/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

@@ -1,0 +1,25 @@
+{
+  "id": "1205607f-1f2a-4818-bf7b-7cf5bb3bae4e",
+  "type": "SUBJECTIVE",
+  "question": "Let $ABCD$ be a square two of whose adjacent vertices, say $A,B$, are on the positive $X$-axis and the positive $Y$-axis, respectively. If $C$ has coordinates $(u,v)$ in the first quadrant, determine the area of $ABCD$ in terms of $u$ and $v$.",
+  "answer": null,
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "2016-bstat-bmath-admission-test-short-answer-type"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10 + 2 Level",
+    "file": "Tomato 16th Edition(1).pdf",
+    "pages": [
+      286
+    ],
+    "question_number": 5,
+    "crop": "questions/1205607f-1f2a-4818-bf7b-7cf5bb3bae4e/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

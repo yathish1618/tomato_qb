@@ -1,0 +1,31 @@
+{
+  "id": "ad22dd53-a2fa-466c-8ac9-8422d4fdfb07",
+  "type": "MCQ",
+  "question": "The area of quadrilateral $ABCD$ with sides $a,b,c,d$ is given by the formula $\\\\left[(s-a)(s-b)(s-c)(s-d)-abcd\\cos^2\\\\theta\\\\right]^{1/2}$, where $2s$ is the perimeter and $2\\\\theta$ is the sum of opposite angles $A$ and $C$. Then the area of the quadrilateral circumscribing a circle is given by",
+  "options": {
+    "A": "$\\tan\\theta\\sqrt{abcd}$",
+    "B": "$\\cos\\theta\\sqrt{abcd}$",
+    "C": "$\\sin\\theta\\sqrt{abcd}$",
+    "D": "none of the foregoing formulae"
+  },
+  "answer": "C",
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "tomato"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10+2 Level — Sixteenth Edition",
+    "file": "tomato.pdf",
+    "pages": [
+      81
+    ],
+    "question_number": 484,
+    "crop": "questions/ad22dd53-a2fa-466c-8ac9-8422d4fdfb07/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

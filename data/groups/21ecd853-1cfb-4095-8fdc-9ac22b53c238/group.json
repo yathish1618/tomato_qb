@@ -1,0 +1,26 @@
+{
+  "id": "21ecd853-1cfb-4095-8fdc-9ac22b53c238",
+  "type": "GROUP",
+  "content": "Directions for Items 427 and 428:\n\nLet the diameter of a subset S of the plane be defined as the maximum of the distances between arbitrary pairs of points of S.",
+  "children": [
+    "fa67124b-9706-4998-82a7-69d04686b81f",
+    "9c273bb2-efb9-49be-aca1-563afea47b26"
+  ],
+  "marks": null,
+  "figures": [],
+  "grade": "12",
+  "tags": [
+    "tomato"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10+2 Level — Sixteenth Edition",
+    "file": "tomato.pdf",
+    "pages": [
+      73
+    ],
+    "question_number": "427-428",
+    "crop": "groups/21ecd853-1cfb-4095-8fdc-9ac22b53c238/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

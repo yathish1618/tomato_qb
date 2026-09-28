@@ -1,0 +1,25 @@
+{
+  "id": "ade318cf-3291-4767-8e70-8da5b8debd09",
+  "type": "SUBJECTIVE",
+  "question": "36. Let $a_1,a_2,\\ldots,a_n$ be $n$ numbers such that each $a_i$ is either 1 or $-1$. If\n\\[\na_1a_2a_3a_4+a_2a_3a_4a_5+\\cdots+a_na_1a_2a_3=0,\n\\]\nthen prove that 4 divides $n$.",
+  "answer": null,
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "tomato"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10 + 2 Level",
+    "file": "Tomato 16th Edition.pdf",
+    "pages": [
+      237
+    ],
+    "question_number": 36,
+    "crop": "questions/ade318cf-3291-4767-8e70-8da5b8debd09/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

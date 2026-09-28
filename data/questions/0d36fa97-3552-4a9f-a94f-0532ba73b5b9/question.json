@@ -1,0 +1,25 @@
+{
+  "id": "0d36fa97-3552-4a9f-a94f-0532ba73b5b9",
+  "type": "SUBJECTIVE",
+  "question": "Consider a regular heptagon (polygon of 7 equal sides and equal angles) $ABCDEFG$. (a) Prove $\\displaystyle\\frac{1}{\\sin\\frac{\\pi}{7}}=\\frac{1}{\\sin\\frac{2\\pi}{7}}+\\frac{1}{\\sin\\frac{3\\pi}{7}}$. (b) Using (a) or otherwise, show that $\\displaystyle\\frac{1}{AG}=\\frac{1}{AF}+\\frac{1}{AE}$. (See the figure appearing in the next page.)",
+  "answer": null,
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "2010-bmath-admission-test-short-answer-type"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10 + 2 Level",
+    "file": "Tomato 16th Edition(1).pdf",
+    "pages": [
+      274
+    ],
+    "question_number": 10,
+    "crop": "questions/0d36fa97-3552-4a9f-a94f-0532ba73b5b9/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

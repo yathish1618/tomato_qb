@@ -1,0 +1,25 @@
+{
+  "id": "f9d57294-8f1b-4fb3-9354-3367cd639075",
+  "type": "SUBJECTIVE",
+  "question": "Consider the following simultaneous equations in \\(x\\) and \\(y\\):\n\\[\nx+y+axy=a,\n\\]\n\\[\nx-2y-xy^2=0,\n\\]\nwhere \\(a\\) is a real constant. Show that these equations admit real solutions in \\(x\\) and \\(y\\).",
+  "answer": null,
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "tomato"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10 + 2 Level",
+    "file": "Tomato 16th Edition.pdf",
+    "pages": [
+      241
+    ],
+    "question_number": 71,
+    "crop": "questions/f9d57294-8f1b-4fb3-9354-3367cd639075/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

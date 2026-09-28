@@ -1,0 +1,25 @@
+{
+  "id": "4620781f-f532-4ab8-992b-66b0c1625d38",
+  "type": "SUBJECTIVE",
+  "question": "Let $\\mathbb R$ denote the set of real numbers. Suppose a function $f:\\mathbb R\\to\\mathbb R$ satisfies $f(f(f(x)))=x$ for all $x\\in\\mathbb R$. Show that\n(a) $f$ is one-to-one,\n(b) $f$ cannot be strictly decreasing, and\n(c) if $f$ is strictly increasing, then $f(x)=x$ for all $x\\in\\mathbb R$.",
+  "answer": null,
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "2011-bstat-admission-test-short-answer-type"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10 + 2 Level",
+    "file": "Tomato 16th Edition(1).pdf",
+    "pages": [
+      275
+    ],
+    "question_number": 3,
+    "crop": "questions/4620781f-f532-4ab8-992b-66b0c1625d38/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

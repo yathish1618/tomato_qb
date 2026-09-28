@@ -1,0 +1,31 @@
+{
+  "id": "dcc4c57e-a6a1-4df1-9a6d-4c14fe6325cd",
+  "type": "MCQ",
+  "question": "If $\\log_2(\\log_3(\\log_4x))=\\log_3(\\log_4(\\log_2y))=\\log_4(\\log_2(\\log_3z))=0$, then $x+y+z$ is",
+  "options": {
+    "A": "99",
+    "B": "50",
+    "C": "89",
+    "D": "49"
+  },
+  "answer": "C",
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "tomato"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10+2 Level — Sixteenth Edition",
+    "file": "tomato.pdf",
+    "pages": [
+      43
+    ],
+    "question_number": 228,
+    "crop": "questions/dcc4c57e-a6a1-4df1-9a6d-4c14fe6325cd/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

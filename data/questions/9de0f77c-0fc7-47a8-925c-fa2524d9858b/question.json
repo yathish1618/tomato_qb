@@ -1,0 +1,25 @@
+{
+  "id": "9de0f77c-0fc7-47a8-925c-fa2524d9858b",
+  "type": "SUBJECTIVE",
+  "question": "Let $n$ be a positive integer. If $n$ has odd number of divisors (other than 1 and $n$), then show that $n$ is a perfect square.",
+  "answer": null,
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "2007-bmath-admission-test-short-answer-type"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10 + 2 Level",
+    "file": "Tomato 16th Edition(1).pdf",
+    "pages": [
+      263
+    ],
+    "question_number": 1,
+    "crop": "questions/9de0f77c-0fc7-47a8-925c-fa2524d9858b/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

@@ -1,0 +1,31 @@
+{
+  "id": "136cc630-354e-47c3-a016-b6af0de1db63",
+  "type": "MCQ",
+  "question": "The number of triples $(a,b,c)$ of positive integers satisfying $\\frac1a+\\frac1b+\\frac1c=1+\\frac{2}{abc}$ and such that $a<b<c$, equals",
+  "options": {
+    "A": "$3$",
+    "B": "$2$",
+    "C": "$1$",
+    "D": "$0$"
+  },
+  "answer": null,
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "bstat-bmath-uga-2022"
+  ],
+  "source": {
+    "title": "",
+    "file": "BStat-BMath-UGA-2022(1).pdf",
+    "pages": [
+      6
+    ],
+    "question_number": 23,
+    "crop": "questions/136cc630-354e-47c3-a016-b6af0de1db63/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

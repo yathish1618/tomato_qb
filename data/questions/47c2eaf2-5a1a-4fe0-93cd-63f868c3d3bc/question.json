@@ -1,0 +1,31 @@
+{
+  "id": "47c2eaf2-5a1a-4fe0-93cd-63f868c3d3bc",
+  "type": "MCQ",
+  "question": "For any choice of five distinct points in the unit square (that is, a square with side 1 unit), we can assert that there is a number $c$ such that there are at least two points whose distance is less than or equal to $c$. The smallest value $c$ for which such an assertion can be made is",
+  "options": {
+    "A": "$\\frac1{\\sqrt2}$",
+    "B": "$\\frac23$",
+    "C": "$\\frac12$",
+    "D": "none of the foregoing numbers"
+  },
+  "answer": "A",
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "tomato"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10+2 Level",
+    "file": "tomato.pdf",
+    "pages": [
+      138
+    ],
+    "question_number": 856,
+    "crop": "full_page"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

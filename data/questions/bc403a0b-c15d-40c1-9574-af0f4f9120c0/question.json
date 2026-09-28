@@ -1,0 +1,31 @@
+{
+  "id": "bc403a0b-c15d-40c1-9574-af0f4f9120c0",
+  "type": "MCQ",
+  "question": "Let $z$ be a complex number such that $\\frac{z-i}{z-1}$ is purely imaginary. Then the minimum value of $|z-(2+2i)|$ is",
+  "options": {
+    "A": "$2\\sqrt{2}$",
+    "B": "$\\sqrt{2}$",
+    "C": "$\\frac{3}{\\sqrt{2}}$",
+    "D": "$\\frac{1}{\\sqrt{2}}$."
+  },
+  "answer": null,
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "bstat-bmath-uga-2017"
+  ],
+  "source": {
+    "title": "",
+    "file": "BStat-BMath-UGA-2017.pdf",
+    "pages": [
+      1
+    ],
+    "question_number": 4,
+    "crop": "questions/bc403a0b-c15d-40c1-9574-af0f4f9120c0/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

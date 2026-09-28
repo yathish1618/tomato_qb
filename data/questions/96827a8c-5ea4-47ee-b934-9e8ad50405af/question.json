@@ -1,0 +1,31 @@
+{
+  "id": "96827a8c-5ea4-47ee-b934-9e8ad50405af",
+  "type": "MCQ",
+  "question": "If $a\\sin\\theta=b\\cos\\theta$, then the value of $\\sqrt{\\frac{a-b}{a+b}}+\\sqrt{\\frac{a+b}{a-b}}$ equals",
+  "options": {
+    "A": "$2\\cos\\theta$",
+    "B": "$\\frac{2\\cos\\theta}{\\sqrt{\\cos2\\theta}}$",
+    "C": "$\\frac{2\\sin\\theta}{\\sqrt{\\cos2\\theta}}$",
+    "D": "$\\frac{2}{\\sqrt{\\cos2\\theta}}$"
+  },
+  "answer": "B",
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "tomato"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10+2 Level — Sixteenth Edition",
+    "file": "tomato.pdf",
+    "pages": [
+      100
+    ],
+    "question_number": 620,
+    "crop": "questions/96827a8c-5ea4-47ee-b934-9e8ad50405af/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

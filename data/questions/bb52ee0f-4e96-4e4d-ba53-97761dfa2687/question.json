@@ -1,0 +1,31 @@
+{
+  "id": "bb52ee0f-4e96-4e4d-ba53-97761dfa2687",
+  "type": "MCQ",
+  "question": "Suppose \\(z_1,z_2\\) are complex numbers satisfying \\(z_2\\ne0,\\ z_1\\ne z_2\\) and \\(\\left|\\frac{z_1+z_2}{z_1-z_2}\\right|=1\\). Then \\(\\frac{z_1}{z_2}\\) is",
+  "options": {
+    "A": "real and negative",
+    "B": "real and positive",
+    "C": "purely imaginary",
+    "D": "not necessarily any of these"
+  },
+  "answer": "C",
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "tomato"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10+2 Level — Sixteenth Edition",
+    "file": "tomato.pdf",
+    "pages": [
+      69
+    ],
+    "question_number": 409,
+    "crop": "questions/bb52ee0f-4e96-4e4d-ba53-97761dfa2687/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

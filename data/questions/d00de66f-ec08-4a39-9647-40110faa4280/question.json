@@ -1,0 +1,31 @@
+{
+  "id": "d00de66f-ec08-4a39-9647-40110faa4280",
+  "type": "MCQ",
+  "question": "Let \\(C_1,C_2\\) and \\(C_3\\) be three circles lying in the same quadrant, each touching both the axes. Suppose also that \\(C_1\\) touches \\(C_2\\) and \\(C_2\\) touches \\(C_3\\). If the area of the smallest circle is 1 unit, then the area of the largest circle is",
+  "options": {
+    "A": "\\(\\left(\\frac{\\sqrt2+1}{\\sqrt2-1}\\right)^4\\)",
+    "B": "\\((1+\\sqrt2)^2\\)",
+    "C": "\\((2+\\sqrt2)^2\\)",
+    "D": "\\(2^4\\)"
+  },
+  "answer": "A",
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "2011-bstat-admission-test-multiple-choice"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10 + 2 Level",
+    "file": "Tomato 16th Edition.pdf",
+    "pages": [
+      179
+    ],
+    "question_number": 11,
+    "crop": "questions/d00de66f-ec08-4a39-9647-40110faa4280/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

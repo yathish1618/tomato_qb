@@ -1,0 +1,31 @@
+{
+  "id": "7d4e4a9e-df15-4c97-91fa-c11f509b24a4",
+  "type": "MCQ",
+  "question": "A stick of length 20 units is to be divided into $n$ parts so that the product of the lengths of the parts is greater than unity. The maximum possible value of $n$ is",
+  "options": {
+    "A": "18",
+    "B": "20",
+    "C": "19",
+    "D": "21"
+  },
+  "answer": "C",
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "tomato"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10+2 Level — Sixteenth Edition",
+    "file": "tomato.pdf",
+    "pages": [
+      60
+    ],
+    "question_number": 358,
+    "crop": "questions/7d4e4a9e-df15-4c97-91fa-c11f509b24a4/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

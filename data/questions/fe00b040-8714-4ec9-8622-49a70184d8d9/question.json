@@ -1,0 +1,31 @@
+{
+  "id": "fe00b040-8714-4ec9-8622-49a70184d8d9",
+  "type": "MCQ",
+  "question": "The $n^{\\text{th}}$ derivative of the function $f(x)=\\frac{1}{1-x^2}$ at the point $x=0$, where $n$ is even, is",
+  "options": {
+    "A": "$n\binom{n}{2}$",
+    "B": "$0$",
+    "C": "$n!$",
+    "D": "none of the foregoing quantities"
+  },
+  "answer": "C",
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "tomato"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10+2 Level",
+    "file": "tomato.pdf",
+    "pages": [
+      127
+    ],
+    "question_number": 782,
+    "crop": "full_page"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

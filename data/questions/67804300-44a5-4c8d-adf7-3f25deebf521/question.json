@@ -1,0 +1,31 @@
+{
+  "id": "67804300-44a5-4c8d-adf7-3f25deebf521",
+  "type": "MCQ",
+  "question": "In how many ways can 20 identical chocolates be distributed among 8 students so that each student gets at least one chocolate and exactly two students get at least two chocolates each?",
+  "options": {
+    "A": "308",
+    "B": "364",
+    "C": "616",
+    "D": "\\(\\binom82\\binom{17}{7}\\)"
+  },
+  "answer": "A",
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "2014-bstat-bmath-admission-test-multiple-choice"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10 + 2 Level",
+    "file": "Tomato 16th Edition.pdf",
+    "pages": [
+      201
+    ],
+    "question_number": 10,
+    "crop": "questions/67804300-44a5-4c8d-adf7-3f25deebf521/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

@@ -1,0 +1,31 @@
+{
+  "id": "af5e4353-27f5-41e6-9950-8300c9b034e2",
+  "type": "MCQ",
+  "question": "A box contains 100 balls of different colours: 28 red, 17 blue, 21 green, 10 white, 12 yellow and 12 black. The smallest number $n$ such that any $n$ balls drawn from the box will contain at least 15 balls of the same colour is",
+  "options": {
+    "A": "73;",
+    "B": "77;",
+    "C": "81;",
+    "D": "85."
+  },
+  "answer": "B",
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "2008-bmath-admission-test-multiple-choice"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10 + 2 Level",
+    "file": "Tomato 16th Edition.pdf",
+    "pages": [
+      154
+    ],
+    "question_number": 13,
+    "crop": "questions/af5e4353-27f5-41e6-9950-8300c9b034e2/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

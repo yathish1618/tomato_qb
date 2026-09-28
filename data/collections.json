@@ -1,0 +1,219 @@
+{
+  "collections": [
+    {
+      "id": "isi",
+      "name": "ISI (Indian Statistical Institute)",
+      "sets": [
+        {
+          "id": "tomato-practice",
+          "name": "TOMATO Book Practice Questions"
+        },
+        {
+          "id": "2007-bstat-admission-test-multiple-choice",
+          "name": "ISI Admission Test 2007 (B.Stat) MCQ"
+        },
+        {
+          "id": "2007-bmath-admission-test-multiple-choice",
+          "name": "ISI Admission Test 2007 (B.Math) MCQ"
+        },
+        {
+          "id": "2008-bstat-admission-test-multiple-choice",
+          "name": "ISI Admission Test 2008 (B.Stat) MCQ"
+        },
+        {
+          "id": "2008-bmath-admission-test-multiple-choice",
+          "name": "ISI Admission Test 2008 (B.Math) MCQ"
+        },
+        {
+          "id": "2009-bstat-admission-test-multiple-choice",
+          "name": "ISI Admission Test 2009 (B.Stat) MCQ"
+        },
+        {
+          "id": "2009-bmath-admission-test-multiple-choice",
+          "name": "ISI Admission Test 2009 (B.Math) MCQ"
+        },
+        {
+          "id": "2010-bstat-admission-test-multiple-choice",
+          "name": "ISI Admission Test 2010 (B.Stat) MCQ"
+        },
+        {
+          "id": "2010-bmath-admission-test-multiple-choice",
+          "name": "ISI Admission Test 2010 (B.Math) MCQ"
+        },
+        {
+          "id": "2011-bstat-admission-test-multiple-choice",
+          "name": "ISI Admission Test 2011 (B.Stat) MCQ"
+        },
+        {
+          "id": "2011-bmath-admission-test-multiple-choice",
+          "name": "ISI Admission Test 2011 (B.Math) MCQ"
+        },
+        {
+          "id": "2012-bstat-bmath-admission-test-multiple-choice",
+          "name": "ISI Admission Test 2012 (B.Stat & B.Math) MCQ"
+        },
+        {
+          "id": "2013-bstat-bmath-admission-test-multiple-choice",
+          "name": "ISI Admission Test 2013 (B.Stat & B.Math) MCQ"
+        },
+        {
+          "id": "2014-bstat-bmath-admission-test-multiple-choice",
+          "name": "ISI Admission Test 2014 (B.Stat & B.Math) MCQ"
+        },
+        {
+          "id": "2015-bstat-bmath-admission-test-multiple-choice",
+          "name": "ISI Admission Test 2015 (B.Stat & B.Math) MCQ"
+        },
+        {
+          "id": "2016-bstat-bmath-admission-test-multiple-choice",
+          "name": "ISI Admission Test 2016 (B.Stat & B.Math) MCQ"
+        },
+        {
+          "id": "2007-bstat-admission-test-short-answer-type",
+          "name": "ISI Admission Test 2007 (B.Stat) Subjective"
+        },
+        {
+          "id": "2007-bmath-admission-test-short-answer-type",
+          "name": "ISI Admission Test 2007 (B.Math) Subjective"
+        },
+        {
+          "id": "2008-bstat-admission-test-short-answer-type",
+          "name": "ISI Admission Test 2008 (B.Stat) Subjective"
+        },
+        {
+          "id": "2008-bmath-admission-test-short-answer-type",
+          "name": "ISI Admission Test 2008 (B.Math) Subjective"
+        },
+        {
+          "id": "2009-bstat-admission-test-short-answer-type",
+          "name": "ISI Admission Test 2009 (B.Stat) Subjective"
+        },
+        {
+          "id": "2009-bmath-admission-test-short-answer-type",
+          "name": "ISI Admission Test 2009 (B.Math) Subjective"
+        },
+        {
+          "id": "2010-bstat-admission-test-short-answer-type",
+          "name": "ISI Admission Test 2010 (B.Stat) Subjective"
+        },
+        {
+          "id": "2010-bmath-admission-test-short-answer-type",
+          "name": "ISI Admission Test 2010 (B.Math) Subjective"
+        },
+        {
+          "id": "2011-bstat-admission-test-short-answer-type",
+          "name": "ISI Admission Test 2011 (B.Stat) Subjective"
+        },
+        {
+          "id": "2011-bmath-admission-test-short-answer-type",
+          "name": "ISI Admission Test 2011 (B.Math) Subjective"
+        },
+        {
+          "id": "2012-bstat-bmath-admission-test-short-answer-type",
+          "name": "ISI Admission Test 2012 (B.Stat & B.Math) Subjective"
+        },
+        {
+          "id": "2013-bstat-bmath-admission-test-short-answer-type",
+          "name": "ISI Admission Test 2013 (B.Stat & B.Math) Subjective"
+        },
+        {
+          "id": "2014-bstat-bmath-admission-test-short-answer-type",
+          "name": "ISI Admission Test 2014 (B.Stat & B.Math) Subjective"
+        },
+        {
+          "id": "2015-bstat-bmath-admission-test-short-answer-type",
+          "name": "ISI Admission Test 2015 (B.Stat & B.Math) Subjective"
+        },
+        {
+          "id": "2016-bstat-bmath-admission-test-short-answer-type",
+          "name": "ISI Admission Test 2016 (B.Stat & B.Math) Subjective"
+        },
+        {
+          "id": "bstat-bmath-uga-2017",
+          "name": "ISI Admission Test 2017 (B.Stat & B.Math) MCQ"
+        },
+        {
+          "id": "bstat-bmath-uga-2018",
+          "name": "ISI Admission Test 2018 (B.Stat & B.Math) MCQ"
+        },
+        {
+          "id": "bstat-bmath-uga-2019",
+          "name": "ISI Admission Test 2019 (B.Stat & B.Math) MCQ"
+        },
+        {
+          "id": "bstat-bmath-uga-2020",
+          "name": "ISI Admission Test 2020 (B.Stat & B.Math) MCQ"
+        },
+        {
+          "id": "bstat-bmath-uga-2021",
+          "name": "ISI Admission Test 2021 (B.Stat & B.Math) MCQ"
+        },
+        {
+          "id": "bstat-bmath-uga-2022",
+          "name": "ISI Admission Test 2022 (B.Stat & B.Math) MCQ"
+        },
+        {
+          "id": "bstat-bmath-uga-2023",
+          "name": "ISI Admission Test 2023 (B.Stat & B.Math) MCQ"
+        },
+        {
+          "id": "bstat-bmath-uga-2024",
+          "name": "ISI Admission Test 2024 (B.Stat & B.Math) MCQ"
+        },
+        {
+          "id": "bstat-bmath-uga-2025",
+          "name": "ISI Admission Test 2025 (B.Stat & B.Math) MCQ"
+        },
+        {
+          "id": "bstat-bmath-uga-2026",
+          "name": "ISI Admission Test 2026 (B.Stat & B.Math) MCQ"
+        },
+        {
+          "id": "bstat-bmath-ugb-2017",
+          "name": "ISI Admission Test 2017 (B.Stat & B.Math) Subjective"
+        },
+        {
+          "id": "bstat-bmath-ugb-2018",
+          "name": "ISI Admission Test 2018 (B.Stat & B.Math) Subjective"
+        },
+        {
+          "id": "bstat-bmath-ugb-2019",
+          "name": "ISI Admission Test 2019 (B.Stat & B.Math) Subjective"
+        },
+        {
+          "id": "bstat-bmath-ugb-2020",
+          "name": "ISI Admission Test 2020 (B.Stat & B.Math) Subjective"
+        },
+        {
+          "id": "bstat-bmath-ugb-2021",
+          "name": "ISI Admission Test 2021 (B.Stat & B.Math) Subjective"
+        },
+        {
+          "id": "bstat-bmath-ugb-2022",
+          "name": "ISI Admission Test 2022 (B.Stat & B.Math) Subjective"
+        },
+        {
+          "id": "bstat-bmath-ugb-2023",
+          "name": "ISI Admission Test 2023 (B.Stat & B.Math) Subjective"
+        },
+        {
+          "id": "bstat-bmath-ugb-2024",
+          "name": "ISI Admission Test 2024 (B.Stat & B.Math) Subjective"
+        },
+        {
+          "id": "bstat-bmath-ugb-2025",
+          "name": "ISI Admission Test 2025 (B.Stat & B.Math) Subjective"
+        },
+        {
+          "id": "bstat-bmath-ugb-2026",
+          "name": "ISI Admission Test 2026 (B.Stat & B.Math) Subjective"
+        }
+      ]
+    },
+    {
+      "id": "cbse",
+      "name": "CBSE",
+      "sets": []
+    }
+  ]
+}

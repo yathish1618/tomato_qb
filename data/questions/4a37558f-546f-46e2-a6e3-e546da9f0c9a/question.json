@@ -1,0 +1,25 @@
+{
+  "id": "4a37558f-546f-46e2-a6e3-e546da9f0c9a",
+  "type": "SUBJECTIVE",
+  "question": "Suppose $f:\\mathbb R\\to\\mathbb R$ is a function given by $$f(x)=\\begin{cases}1,&x=1,\\\\\\\\ e^{(x^{10}-1)}+(x-1)^2\\sin\\left(\\frac1{x-1}\\right),&x\\ne1.\\end{cases}$$ (a) Find $f'(1)$. (b) Evaluate $\\displaystyle\\lim_{u\\to\\infty}\\left[100u-u\\sum_{k=1}^{100}f\\left(1+\\frac{k}{u}\\right)\\right]$.",
+  "answer": null,
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "bstat-bmath-ugb-2017"
+  ],
+  "source": {
+    "title": "",
+    "file": "BStat-BMath-UGB-2017.pdf",
+    "pages": [
+      1
+    ],
+    "question_number": 3,
+    "crop": "questions/4a37558f-546f-46e2-a6e3-e546da9f0c9a/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

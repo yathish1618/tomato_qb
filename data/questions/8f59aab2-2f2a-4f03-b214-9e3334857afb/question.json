@@ -1,0 +1,31 @@
+{
+  "id": "8f59aab2-2f2a-4f03-b214-9e3334857afb",
+  "type": "MCQ",
+  "question": "Express the polynomial \\(f(x)=(2+x)^n\\) as \\(f(x)=c_0+c_1x+c_2x^2+\\cdots+c_nx^n\\), where \\(n\\) is a positive integer. If \\(\\sum_{j=0}^n c_j=81\\), then the largest coefficient \\(c_j\\) of \\(f\\) is",
+  "options": {
+    "A": "64",
+    "B": "16",
+    "C": "24",
+    "D": "32"
+  },
+  "answer": "D",
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "2011-bmath-admission-test-multiple-choice"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10 + 2 Level",
+    "file": "Tomato 16th Edition.pdf",
+    "pages": [
+      187
+    ],
+    "question_number": 23,
+    "crop": "questions/8f59aab2-2f2a-4f03-b214-9e3334857afb/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

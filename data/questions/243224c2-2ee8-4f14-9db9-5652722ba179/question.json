@@ -1,0 +1,31 @@
+{
+  "id": "243224c2-2ee8-4f14-9db9-5652722ba179",
+  "type": "MCQ",
+  "question": "The minimum value of $f(x)=x^8+x^6-x^4-2x^3-x^2-2x+9$ is",
+  "options": {
+    "A": "5",
+    "B": "1",
+    "C": "0",
+    "D": "9"
+  },
+  "answer": "A",
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "tomato"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10+2 Level",
+    "file": "tomato.pdf",
+    "pages": [
+      128
+    ],
+    "question_number": 793,
+    "crop": "full_page"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

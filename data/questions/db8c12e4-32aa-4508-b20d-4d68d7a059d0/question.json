@@ -1,0 +1,25 @@
+{
+  "id": "db8c12e4-32aa-4508-b20d-4d68d7a059d0",
+  "type": "SUBJECTIVE",
+  "question": "Let $P(X)$ be a polynomial with integer coefficients of degree $d>0$. (a) If $\\alpha$ and $\\beta$ are two integers such that $P(\\alpha)=1$ and $P(\\beta)=-1$, then prove that $|\\beta-\\alpha|$ divides 2. (b) Prove that the number of distinct integer roots of $P^2(x)-1$ is at most $d+2$.",
+  "answer": null,
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "2007-bmath-admission-test-short-answer-type"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10 + 2 Level",
+    "file": "Tomato 16th Edition(1).pdf",
+    "pages": [
+      263
+    ],
+    "question_number": 5,
+    "crop": "questions/db8c12e4-32aa-4508-b20d-4d68d7a059d0/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

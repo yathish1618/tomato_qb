@@ -1,0 +1,25 @@
+{
+  "id": "0e25ec30-4315-404b-b948-7ae4797e085c",
+  "type": "SUBJECTIVE",
+  "question": "2. Find the number of positive integers less than or equal to 6300 which are not divisible by 3, 5 and 7.",
+  "answer": null,
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "tomato"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10 + 2 Level",
+    "file": "Tomato 16th Edition.pdf",
+    "pages": [
+      231
+    ],
+    "question_number": 2,
+    "crop": "questions/0e25ec30-4315-404b-b948-7ae4797e085c/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

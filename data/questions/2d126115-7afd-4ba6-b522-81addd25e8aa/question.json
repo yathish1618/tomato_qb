@@ -1,0 +1,31 @@
+{
+  "id": "2d126115-7afd-4ba6-b522-81addd25e8aa",
+  "type": "MCQ",
+  "question": "The value of the expression \\(\\left(\\frac{-1+\\sqrt{-3}}2\\right)^n+\\left(\\frac{-1-\\sqrt{-3}}2\\right)^n\\) is",
+  "options": {
+    "A": "3 when \\(n\\) is a positive multiple of 3, and 0 when \\(n\\) is any other positive integer",
+    "B": "2 when \\(n\\) is a positive multiple of 3, and −1 when \\(n\\) is any other positive integer",
+    "C": "1 when \\(n\\) is a positive multiple of 3, and −2 when \\(n\\) is any other positive integer",
+    "D": "none of the foregoing numbers"
+  },
+  "answer": "B",
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "tomato"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10+2 Level — Sixteenth Edition",
+    "file": "tomato.pdf",
+    "pages": [
+      66
+    ],
+    "question_number": 395,
+    "crop": "questions/2d126115-7afd-4ba6-b522-81addd25e8aa/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

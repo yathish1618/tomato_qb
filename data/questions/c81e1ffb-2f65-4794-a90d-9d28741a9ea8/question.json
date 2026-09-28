@@ -1,0 +1,31 @@
+{
+  "id": "c81e1ffb-2f65-4794-a90d-9d28741a9ea8",
+  "type": "MCQ",
+  "question": "Let $y=x+c_1$, $y=x+c_2$ be the two tangents to the ellipse $x^2+4y^2=1$. What is the value of $|c_1-c_2|$?",
+  "options": {
+    "A": "$\\sqrt2$",
+    "B": "$\\sqrt5$",
+    "C": "$\\frac{\\sqrt5}{2}$",
+    "D": "$1$"
+  },
+  "answer": null,
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "bstat-bmath-uga-2022"
+  ],
+  "source": {
+    "title": "",
+    "file": "BStat-BMath-UGA-2022(1).pdf",
+    "pages": [
+      4
+    ],
+    "question_number": 16,
+    "crop": "questions/c81e1ffb-2f65-4794-a90d-9d28741a9ea8/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

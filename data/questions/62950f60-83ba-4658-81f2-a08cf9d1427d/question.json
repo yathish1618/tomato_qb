@@ -1,0 +1,31 @@
+{
+  "id": "62950f60-83ba-4658-81f2-a08cf9d1427d",
+  "type": "MCQ",
+  "question": "Let $j$ be a number selected at random from $\\{1,2,\\ldots,2024\\}$. What is the probability that $j$ is divisible by $9$ and $15$?",
+  "options": {
+    "A": "$\\frac1{23}$",
+    "B": "$\\frac1{46}$",
+    "C": "$\\frac1{44}$",
+    "D": "$\\frac1{253}$"
+  },
+  "answer": null,
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "bstat-bmath-uga-2024"
+  ],
+  "source": {
+    "title": "",
+    "file": "BStat-BMath-UGA-2024(1).pdf",
+    "pages": [
+      1
+    ],
+    "question_number": 2,
+    "crop": "questions/62950f60-83ba-4658-81f2-a08cf9d1427d/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

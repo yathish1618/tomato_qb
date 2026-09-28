@@ -1,0 +1,31 @@
+{
+  "id": "8529d112-f29c-451f-bad4-6fd1370788d2",
+  "type": "MCQ",
+  "question": "A water pitcher has a hemispherical bottom and a neck in the shape of two truncated cones of the same size. The vertical cross-section of the pitcher with relevant dimensions is shown in the figure. Suppose that the pitcher is filled with water to the brim. If a solid cylinder with diameter 24 cm and height greater than 60 cm is inserted vertically into the pitcher as far down to the bottom as possible, how much water would remain in the pitcher?",
+  "options": {
+    "A": "$6316\\pi\\ \\mathrm{cm}^3$",
+    "B": "$6116\\pi\\ \\mathrm{cm}^3$",
+    "C": "$6336\\pi\\ \\mathrm{cm}^3$",
+    "D": "$6136\\pi\\ \\mathrm{cm}^3$"
+  },
+  "answer": null,
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "bstat-bmath-uga-2017"
+  ],
+  "source": {
+    "title": "",
+    "file": "BStat-BMath-UGA-2017.pdf",
+    "pages": [
+      6
+    ],
+    "question_number": 29,
+    "crop": "questions/8529d112-f29c-451f-bad4-6fd1370788d2/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

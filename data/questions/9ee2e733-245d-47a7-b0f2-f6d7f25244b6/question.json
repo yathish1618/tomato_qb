@@ -1,0 +1,25 @@
+{
+  "id": "9ee2e733-245d-47a7-b0f2-f6d7f25244b6",
+  "type": "SUBJECTIVE",
+  "question": "31. If $k$ is an odd positive integer, prove that for any integer $n\\ge1$, $1^k+2^k+\\cdots+n^k$ is divisible by $\\dfrac{n(n+1)}2$.",
+  "answer": null,
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "tomato"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10 + 2 Level",
+    "file": "Tomato 16th Edition.pdf",
+    "pages": [
+      236
+    ],
+    "question_number": 31,
+    "crop": "questions/9ee2e733-245d-47a7-b0f2-f6d7f25244b6/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

@@ -1,0 +1,31 @@
+{
+  "id": "18bbad22-e402-4772-bfcb-54fa34680c8e",
+  "type": "MCQ",
+  "question": "By an upper bound for a set $A$ of real numbers, we mean any real number $x$ such that every number $a$ in $A$ is smaller than or equal to $x$. If $x$ is an upper bound for a set $A$ and no number strictly smaller than $x$ is an upper bound for $A$, then $x$ is called sup $A$. Let $A$ and $B$ be two sets of real numbers with $x=\\sup A$ and $y=\\sup B$. Let $C$ be the set of all real numbers of the form $a+b$ where $a$ is in $A$ and $b$ is in $B$. If $z=\\sup C$, then",
+  "options": {
+    "A": "$z>x+y$",
+    "B": "$z<x+y$",
+    "C": "$z=x+y$",
+    "D": "nothing can be said in general about the relation between $x,y$ and $z$"
+  },
+  "answer": "C",
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "tomato"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10+2 Level — Sixteenth Edition",
+    "file": "tomato.pdf",
+    "pages": [
+      18
+    ],
+    "question_number": 45,
+    "crop": "questions/18bbad22-e402-4772-bfcb-54fa34680c8e/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

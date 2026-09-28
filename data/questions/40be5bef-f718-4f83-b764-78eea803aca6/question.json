@@ -1,0 +1,31 @@
+{
+  "id": "40be5bef-f718-4f83-b764-78eea803aca6",
+  "type": "MCQ",
+  "question": "The maximum value of $\\displaystyle\\int_{a-1}^{a+1}e^{-(x-1)^2}dx$, where $a$ is a real number, is attained at",
+  "options": {
+    "A": "$a=0$",
+    "B": "$a=1$",
+    "C": "$a=-1$",
+    "D": "$a=2$"
+  },
+  "answer": "B",
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "tomato"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10+2 Level",
+    "file": "tomato.pdf",
+    "pages": [
+      133
+    ],
+    "question_number": 827,
+    "crop": "full_page"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

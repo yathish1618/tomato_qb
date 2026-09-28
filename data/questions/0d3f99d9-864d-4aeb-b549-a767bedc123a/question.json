@@ -1,0 +1,25 @@
+{
+  "id": "0d3f99d9-864d-4aeb-b549-a767bedc123a",
+  "type": "SUBJECTIVE",
+  "question": "Suppose \\(f\\) is a function such that \\(f(x)>0\\) and \\(f'(x)\\) is continuous at every real number \\(x\\). If \\(f'(t)\\ge\\sqrt{f(t)}\\) for all \\(t\\), then show that\n\\[\n\\sqrt{f(x)}\\ge\\sqrt{f(1)}+\\frac12(x-1)\n\\]\nfor all \\(x\\ge1\\).",
+  "answer": null,
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "tomato"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10 + 2 Level",
+    "file": "Tomato 16th Edition.pdf",
+    "pages": [
+      251
+    ],
+    "question_number": 146,
+    "crop": "questions/0d3f99d9-864d-4aeb-b549-a767bedc123a/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

@@ -1,0 +1,31 @@
+{
+  "id": "8d63fcfc-1ded-40cc-ac4d-8044e7a2b700",
+  "type": "MCQ",
+  "question": "For how many real values of $p$ do the equations $x^2+px+1=0$ and $x^2+x+p=0$ have exactly one common root?",
+  "options": {
+    "A": "0;",
+    "B": "1;",
+    "C": "2;",
+    "D": "3."
+  },
+  "answer": "B",
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "2007-bstat-admission-test-multiple-choice"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10 + 2 Level",
+    "file": "Tomato 16th Edition.pdf",
+    "pages": [
+      139
+    ],
+    "question_number": 4,
+    "crop": "questions/8d63fcfc-1ded-40cc-ac4d-8044e7a2b700/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

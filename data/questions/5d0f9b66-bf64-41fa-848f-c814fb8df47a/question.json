@@ -1,0 +1,31 @@
+{
+  "id": "5d0f9b66-bf64-41fa-848f-c814fb8df47a",
+  "type": "MCQ",
+  "question": "If $\\log_b a=10$, then $\\log_{b^5}(a^3)$ equals",
+  "options": {
+    "A": "$\\frac{50}{3}$",
+    "B": "6",
+    "C": "$\\frac53$",
+    "D": "$\\frac35$"
+  },
+  "answer": "B",
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "tomato"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10+2 Level — Sixteenth Edition",
+    "file": "tomato.pdf",
+    "pages": [
+      42
+    ],
+    "question_number": 223,
+    "crop": "questions/5d0f9b66-bf64-41fa-848f-c814fb8df47a/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

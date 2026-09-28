@@ -1,0 +1,31 @@
+{
+  "id": "1570c924-172e-4ded-a64f-2e6b3b12d905",
+  "type": "MCQ",
+  "question": "If $k$ is an integer such that $\\lim_{n\\to\\infty}\\left[\\left(\\cos\\frac{k\\pi}{4}\\right)^n-\\left(\\cos\\frac{k\\pi}{6}\\right)^n\\right]=0$, then",
+  "options": {
+    "A": "$k$ is divisible neither by 4 nor by 6",
+    "B": "$k$ must be divisible by 12, but not necessarily by 24",
+    "C": "$k$ must be divisible by 24",
+    "D": "either $k$ is divisible by 24 or $k$ is divisible neither by 4 nor by 6"
+  },
+  "answer": "D",
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "tomato"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10+2 Level",
+    "file": "tomato.pdf",
+    "pages": [
+      112
+    ],
+    "question_number": 696,
+    "crop": "full_page"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

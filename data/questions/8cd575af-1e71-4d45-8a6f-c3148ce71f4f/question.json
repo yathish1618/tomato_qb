@@ -1,0 +1,25 @@
+{
+  "id": "8cd575af-1e71-4d45-8a6f-c3148ce71f4f",
+  "type": "SUBJECTIVE",
+  "question": "Consider the function\n\\[\nf(x)=\\lim_{n\\to\\infty}\\frac{\\log_e(2+x)-x^{2n}\\sin x}{1+x^{2n}},\\qquad x>0.\n\\]\n(i) Is \\(f(x)\\) continuous at \\(x=1\\)? Justify your answer.\n\n(ii) Show that \\(f(x)\\) does not vanish anywhere in the interval \\(0\\le x\\le\\pi/2\\), and indicate the points where \\(f(x)\\) changes its sign.",
+  "answer": null,
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "tomato"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10 + 2 Level",
+    "file": "Tomato 16th Edition.pdf",
+    "pages": [
+      250
+    ],
+    "question_number": 140,
+    "crop": "questions/8cd575af-1e71-4d45-8a6f-c3148ce71f4f/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

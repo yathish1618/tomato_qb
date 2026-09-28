@@ -1,0 +1,31 @@
+{
+  "id": "d5aace88-7bf1-41c3-88b0-e8fc1c4da83a",
+  "type": "MCQ",
+  "question": "The number of triplets $(a,b,c)$ of integers such that $a<b<c$ and $a,b,c$ are the sides of a triangle with perimeter 21 is",
+  "options": {
+    "A": "7;",
+    "B": "8;",
+    "C": "11;",
+    "D": "12."
+  },
+  "answer": "A",
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "2008-bstat-admission-test-multiple-choice"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10 + 2 Level",
+    "file": "Tomato 16th Edition.pdf",
+    "pages": [
+      147
+    ],
+    "question_number": 5,
+    "crop": "questions/d5aace88-7bf1-41c3-88b0-e8fc1c4da83a/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

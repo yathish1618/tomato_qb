@@ -1,0 +1,31 @@
+{
+  "id": "223f9079-a2d1-4eba-85e4-652251ade8d6",
+  "type": "MCQ",
+  "question": "If $\\sin6\\theta=\\sin4\\theta-\\sin2\\theta$, then $\\theta$ must be, for some integer $n$, equal to",
+  "options": {
+    "A": "$\\frac{n\\pi}{4}$",
+    "B": "$n\\pi\\pm\\frac\\pi6$",
+    "C": "$\\frac{n\\pi}{4}$ or $n\\pi\\pm\\frac\\pi6$",
+    "D": "$\\frac{n\\pi}{2}$"
+  },
+  "answer": "C",
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "tomato"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10+2 Level",
+    "file": "tomato.pdf",
+    "pages": [
+      104
+    ],
+    "question_number": 647,
+    "crop": "full_page"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

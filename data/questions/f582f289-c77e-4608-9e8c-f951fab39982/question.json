@@ -1,0 +1,31 @@
+{
+  "id": "f582f289-c77e-4608-9e8c-f951fab39982",
+  "type": "MCQ",
+  "question": "Let \\(N\\) be a number such that whenever you take \\(N\\) consecutive positive integers, at least one of them is coprime to 374. What is the smallest possible value of \\(N\\)?",
+  "options": {
+    "A": "4",
+    "B": "5",
+    "C": "6",
+    "D": "7"
+  },
+  "answer": "C",
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "2014-bstat-bmath-admission-test-multiple-choice"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10 + 2 Level",
+    "file": "Tomato 16th Edition.pdf",
+    "pages": [
+      202
+    ],
+    "question_number": 18,
+    "crop": "questions/f582f289-c77e-4608-9e8c-f951fab39982/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

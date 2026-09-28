@@ -1,0 +1,31 @@
+{
+  "id": "bf52f42f-d025-4103-85ef-8db2377b7bb5",
+  "type": "MCQ",
+  "question": "Let $A=\\{1,\\ldots,5\\}$ and $B=\\{1,\\ldots,10\\}$. Then the number of ordered pairs $(f,g)$ of functions $f:A\\to B$ and $g:B\\to A$ satisfying $(g\\circ f)(a)=a$ for all $a\\in A$ is",
+  "options": {
+    "A": "$\\frac{10!}{5!}\\times5^5$",
+    "B": "$5^{10}\times5!$",
+    "C": "$10!\times5!$",
+    "D": "$\\binom{10}{5}\\times10^5$"
+  },
+  "answer": null,
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "bstat-bmath-uga-2024"
+  ],
+  "source": {
+    "title": "",
+    "file": "BStat-BMath-UGA-2024(1).pdf",
+    "pages": [
+      4
+    ],
+    "question_number": 18,
+    "crop": "questions/bf52f42f-d025-4103-85ef-8db2377b7bb5/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

@@ -1,0 +1,25 @@
+{
+  "id": "a8644d21-b3c4-4a6c-90b0-3be5a4123333",
+  "type": "SUBJECTIVE",
+  "question": "If $a_1,\\ldots,a_7$ are not necessarily distinct real numbers such that $1<a_i<13$ for all $i$, then show that we can choose three of them such that they are the lengths of the sides of a triangle.",
+  "answer": null,
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "2011-bmath-admission-test-short-answer-type"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10 + 2 Level",
+    "file": "Tomato 16th Edition(1).pdf",
+    "pages": [
+      277
+    ],
+    "question_number": 4,
+    "crop": "questions/a8644d21-b3c4-4a6c-90b0-3be5a4123333/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

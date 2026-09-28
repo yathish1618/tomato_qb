@@ -1,0 +1,33 @@
+{
+  "id": "b9a6682f-8bcd-4828-a71d-f17a6639dc47",
+  "type": "MCQ",
+  "question": "Which of the following graphs represent functions whose derivatives have a maximum in the interval $(0,1)$?",
+  "options": {
+    "A": "Graph (A)",
+    "B": "Graph (B)",
+    "C": "Graph (C)",
+    "D": "Graph (D)"
+  },
+  "answer": "A,B",
+  "solution": null,
+  "marks": 1,
+  "figures": [
+    "figures/figure.png"
+  ],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "2009-bstat-admission-test-multiple-choice"
+  ],
+  "source": {
+    "title": "B.Stat. (Hons.) Admission Test: 2009",
+    "file": "Tomato 16th Edition.pdf",
+    "pages": [
+      162
+    ],
+    "question_number": 28,
+    "crop": "questions/b9a6682f-8bcd-4828-a71d-f17a6639dc47/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

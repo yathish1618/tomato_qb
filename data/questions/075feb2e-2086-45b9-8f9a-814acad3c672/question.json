@@ -1,0 +1,31 @@
+{
+  "id": "075feb2e-2086-45b9-8f9a-814acad3c672",
+  "type": "MCQ",
+  "question": "Consider the real-valued function $h:\\{0,1,2,\\ldots,100\\}\\to\\mathbb R$ such that $h(0)=5$, $h(100)=20$ and satisfying $h(i)=\\frac12(h(i+1)+h(i-1))$, for every $i=1,2,\\ldots,99$. Then, the value of $h(1)$ is:",
+  "options": {
+    "A": "5.15",
+    "B": "5.5",
+    "C": "6",
+    "D": "6.15."
+  },
+  "answer": null,
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "bstat-bmath-uga-2018"
+  ],
+  "source": {
+    "title": "",
+    "file": "BStat-BMath-UGA-2018.pdf",
+    "pages": [
+      2
+    ],
+    "question_number": 8,
+    "crop": "questions/075feb2e-2086-45b9-8f9a-814acad3c672/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

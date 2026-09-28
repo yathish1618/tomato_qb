@@ -1,0 +1,31 @@
+{
+  "id": "a228d491-d342-4df5-a3ef-413e6844bf5a",
+  "type": "MCQ",
+  "question": "The number of sequences of length five with 0 and 1 as terms which contain at least two consecutive 0's is",
+  "options": {
+    "A": "$4\\cdot2^3$",
+    "B": "$\\binom52$",
+    "C": "20",
+    "D": "19"
+  },
+  "answer": "D",
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "tomato"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10+2 Level — Sixteenth Edition",
+    "file": "tomato.pdf",
+    "pages": [
+      37
+    ],
+    "question_number": 182,
+    "crop": "questions/a228d491-d342-4df5-a3ef-413e6844bf5a/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

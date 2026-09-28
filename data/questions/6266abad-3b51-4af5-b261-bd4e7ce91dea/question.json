@@ -1,0 +1,31 @@
+{
+  "id": "6266abad-3b51-4af5-b261-bd4e7ce91dea",
+  "type": "MCQ",
+  "question": "Let $\\psi:\\mathbb R\\to\\mathbb R$ be a continuous function with $\\int_{-1}^{1}\\psi(x)\\,dx=1$. Let $f:\\mathbb R\\to\\mathbb R$ be a differentiable function. Then $\\lim_{\\varepsilon\\to0}\\frac1\\varepsilon\\int_{1-\\varepsilon}^{1+\\varepsilon}f(y)\\psi\\left(\\frac{1-y}{\\varepsilon}\\right)dy$ equals",
+  "options": {
+    "A": "$f(1)$",
+    "B": "$f(1)\\psi(0)$",
+    "C": "$f^\\prime(1)\\psi(0)$",
+    "D": "$f(1)\\psi(1)$"
+  },
+  "answer": null,
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "bstat-bmath-uga-2024"
+  ],
+  "source": {
+    "title": "",
+    "file": "BStat-BMath-UGA-2024(1).pdf",
+    "pages": [
+      7
+    ],
+    "question_number": 30,
+    "crop": "questions/6266abad-3b51-4af5-b261-bd4e7ce91dea/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

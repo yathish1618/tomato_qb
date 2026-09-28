@@ -1,0 +1,31 @@
+{
+  "id": "17eb7141-1071-4644-b367-384c2ceea559",
+  "type": "MCQ",
+  "question": "A man standing $x$ metres to the north of a tower finds the angle of elevation of its top to be $30^\\circ$. He then starts walking towards the tower. After walking a distance of $\\frac12x$ metres, he turns east and walks $\\frac12x$ metres. Then again he turns south and walks $\\frac12x$ metres. The angle of elevation of the top of the tower from his new position is",
+  "options": {
+    "A": "$30^\\circ$",
+    "B": "$\\tan^{-1}\\sqrt{\\frac23}$",
+    "C": "$\\tan^{-1}\\frac2{\\sqrt3}$",
+    "D": "none of the foregoing quantities"
+  },
+  "answer": "C",
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "tomato"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10+2 Level",
+    "file": "tomato.pdf",
+    "pages": [
+      105
+    ],
+    "question_number": 657,
+    "crop": "full_page"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

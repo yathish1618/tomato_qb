@@ -1,0 +1,31 @@
+{
+  "id": "777ce151-703d-4d39-96a0-da48bb73dd14",
+  "type": "MCQ",
+  "question": "A right circular cylindrical container closed on both sides is to contain a fixed volume of motor oil. Suppose its base has diameter $d$ and its height is $h$. The overall surface area of the container is minimum when",
+  "options": {
+    "A": "$h=\\frac43\\pi d$",
+    "B": "$h=2d$",
+    "C": "$h=d$",
+    "D": "conditions other than the foregoing are satisfied"
+  },
+  "answer": "C",
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "tomato"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10+2 Level",
+    "file": "tomato.pdf",
+    "pages": [
+      117
+    ],
+    "question_number": 725,
+    "crop": "full_page"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

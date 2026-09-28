@@ -1,0 +1,31 @@
+{
+  "id": "b68dafbf-6578-4e29-85b3-241b2e4c507b",
+  "type": "MCQ",
+  "question": "Let \\(\\displaystyle f(x)=\\begin{cases}x^2\\sin(1/x),&x\\ne0,\\\\0,&x=0.\\end{cases}\\) Then",
+  "options": {
+    "A": "\\(f\\) is discontinuous at \\(x=0\\);",
+    "B": "\\(f\\) is differentiable, and \\(f^\\prime\\) is continuous;",
+    "C": "\\(f\\) is not differentiable at \\(x=0\\);",
+    "D": "\\(f\\) is differentiable at every \\(x\\), but \\(f^\\prime\\) is discontinuous at \\(x=0\\)."
+  },
+  "answer": "D",
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "2011-bmath-admission-test-multiple-choice"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10 + 2 Level",
+    "file": "Tomato 16th Edition.pdf",
+    "pages": [
+      185
+    ],
+    "question_number": 6,
+    "crop": "questions/b68dafbf-6578-4e29-85b3-241b2e4c507b/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

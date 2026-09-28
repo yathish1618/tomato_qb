@@ -1,0 +1,25 @@
+{
+  "id": "79aebded-5f74-4025-8c45-3a10fff3aff6",
+  "type": "SUBJECTIVE",
+  "question": "In a badminton singles tournament, each player played against all the others exactly once and each game had a winner. After all the games, each player listed the names of all the players she defeated as well as the names of all the players defeated by the players defeated by her. For instance, if $A$ defeats $B$ and $B$ defeats $C$, then in the list of $A$ both $B$ and $C$ are included. Prove that at least one player listed the names of all the other players.",
+  "answer": null,
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "2013-bstat-bmath-admission-test-short-answer-type"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10 + 2 Level",
+    "file": "Tomato 16th Edition(1).pdf",
+    "pages": [
+      281
+    ],
+    "question_number": 4,
+    "crop": "questions/79aebded-5f74-4025-8c45-3a10fff3aff6/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

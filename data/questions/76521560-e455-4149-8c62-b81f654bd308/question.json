@@ -1,0 +1,31 @@
+{
+  "id": "76521560-e455-4149-8c62-b81f654bd308",
+  "type": "MCQ",
+  "question": "Suppose that $x$ is an irrational number and $a,b,c,d$ are rational numbers such that $\\frac{ax+b}{cx+d}$ is rational. Then it is",
+  "options": {
+    "A": "a=c=0",
+    "B": "a=c and b=d",
+    "C": "a+b=c+d",
+    "D": "ad=bc"
+  },
+  "answer": "D",
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "tomato"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10+2 Level — Sixteenth Edition",
+    "file": "tomato.pdf",
+    "pages": [
+      32
+    ],
+    "question_number": 146,
+    "crop": "questions/76521560-e455-4149-8c62-b81f654bd308/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

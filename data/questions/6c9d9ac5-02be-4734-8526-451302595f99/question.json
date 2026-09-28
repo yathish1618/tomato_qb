@@ -1,0 +1,31 @@
+{
+  "id": "6c9d9ac5-02be-4734-8526-451302595f99",
+  "type": "MCQ",
+  "question": "Let $f:\\mathbb{R}\\to\\mathbb{R}$ be a continuous function such that for any two real numbers $x$ and $y$, $|f(x)-f(y)|\\le 7|x-y|^{201}$. Then,",
+  "options": {
+    "A": "$f(101)=f(202)+8$",
+    "B": "$f(101)=f(201)+1$",
+    "C": "$f(101)=f(200)+2$",
+    "D": "None of the above."
+  },
+  "answer": null,
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "bstat-bmath-uga-2017"
+  ],
+  "source": {
+    "title": "",
+    "file": "BStat-BMath-UGA-2017.pdf",
+    "pages": [
+      1
+    ],
+    "question_number": 5,
+    "crop": "questions/6c9d9ac5-02be-4734-8526-451302595f99/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

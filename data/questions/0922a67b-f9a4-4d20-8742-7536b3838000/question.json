@@ -1,0 +1,31 @@
+{
+  "id": "0922a67b-f9a4-4d20-8742-7536b3838000",
+  "type": "MCQ",
+  "question": "In the figure below, $ABCD$ is a square and $\\triangle CEF$ is a triangle with given sides inscribed as in the figure. Find the length $BE$.",
+  "options": {
+    "A": "$\\sqrt{\\frac{13}{17}}$",
+    "B": "$\\sqrt{\\frac{14}{17}}$",
+    "C": "$\\sqrt{\\frac{15}{17}}$",
+    "D": "$\\sqrt{\\frac{16}{17}}$"
+  },
+  "answer": null,
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "bstat-bmath-uga-2022"
+  ],
+  "source": {
+    "title": "",
+    "file": "BStat-BMath-UGA-2022(1).pdf",
+    "pages": [
+      4
+    ],
+    "question_number": 15,
+    "crop": "questions/0922a67b-f9a4-4d20-8742-7536b3838000/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

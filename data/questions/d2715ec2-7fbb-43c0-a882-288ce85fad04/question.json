@@ -1,0 +1,25 @@
+{
+  "id": "d2715ec2-7fbb-43c0-a882-288ce85fad04",
+  "type": "SUBJECTIVE",
+  "question": "Let $a_0=\\frac12$ and $a_n$ be defined inductively by $a_n=\\sqrt{\\frac{1+a_{n-1}}2},\\ n\\ge1$. (a) Show that for $n=0,1,2,\\ldots$, $a_n=\\cos\\theta_n$ for some $0<\\theta_n<\\frac\\pi2$, and determine $\\theta_n$. (b) Using (a) or otherwise, calculate $\\displaystyle\\lim_{n\\to\\infty}4^n(1-a_n)$.",
+  "answer": null,
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "bstat-bmath-ugb-2023"
+  ],
+  "source": {
+    "title": "",
+    "file": "BStat-BMath-UGB-2023.pdf",
+    "pages": [
+      1
+    ],
+    "question_number": 2,
+    "crop": "questions/d2715ec2-7fbb-43c0-a882-288ce85fad04/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

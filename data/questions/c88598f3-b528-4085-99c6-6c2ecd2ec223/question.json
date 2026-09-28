@@ -1,0 +1,31 @@
+{
+  "id": "c88598f3-b528-4085-99c6-6c2ecd2ec223",
+  "type": "MCQ",
+  "question": "By a diagonal of a convex polygon, we mean a line segment between any two non-consecutive vertices. The number of diagonals of a convex polygon of 8 sides is:",
+  "options": {
+    "A": "15;",
+    "B": "20;",
+    "C": "28;",
+    "D": "35."
+  },
+  "answer": "B",
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "2011-bmath-admission-test-multiple-choice"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10 + 2 Level",
+    "file": "Tomato 16th Edition.pdf",
+    "pages": [
+      185
+    ],
+    "question_number": 12,
+    "crop": "questions/c88598f3-b528-4085-99c6-6c2ecd2ec223/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

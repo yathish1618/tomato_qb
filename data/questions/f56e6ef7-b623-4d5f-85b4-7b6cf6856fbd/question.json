@@ -1,0 +1,31 @@
+{
+  "id": "f56e6ef7-b623-4d5f-85b4-7b6cf6856fbd",
+  "type": "MCQ",
+  "question": "There were 41 candidates in an examination and each candidate was examined in Algebra, Geometry and Calculus. It was found that 12 candidates failed in Algebra, 7 failed in Geometry and 8 failed in Calculus, 2 in Geometry and Calculus, 3 in Calculus and Algebra, 6 in Algebra and Geometry, whereas only 1 failed in all three subjects. Then the number of candidates who passed in all three subjects",
+  "options": {
+    "A": "is 24",
+    "B": "is 2",
+    "C": "is 14",
+    "D": "cannot be determined from the given information"
+  },
+  "answer": "A",
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "tomato"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10+2 Level — Sixteenth Edition",
+    "file": "tomato.pdf",
+    "pages": [
+      20
+    ],
+    "question_number": 54,
+    "crop": "questions/f56e6ef7-b623-4d5f-85b4-7b6cf6856fbd/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

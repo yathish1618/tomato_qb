@@ -1,0 +1,31 @@
+{
+  "id": "2b27931f-7aa7-4ddc-8175-3b4e7ae22f32",
+  "type": "MCQ",
+  "question": "The value of $1\\cdot3\\cdot5+3\\cdot5\\cdot7+5\\cdot7\\cdot9+\\cdots+17\\cdot19\\cdot21$ equals",
+  "options": {
+    "A": "12270",
+    "B": "17220",
+    "C": "12720",
+    "D": "19503"
+  },
+  "answer": "D",
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "tomato"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10+2 Level — Sixteenth Edition",
+    "file": "tomato.pdf",
+    "pages": [
+      55
+    ],
+    "question_number": 320,
+    "crop": "questions/2b27931f-7aa7-4ddc-8175-3b4e7ae22f32/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

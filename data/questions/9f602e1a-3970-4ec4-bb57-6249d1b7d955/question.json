@@ -1,0 +1,25 @@
+{
+  "id": "9f602e1a-3970-4ec4-bb57-6249d1b7d955",
+  "type": "SUBJECTIVE",
+  "question": "(a) Show that there cannot exist three prime numbers, each greater than $3$, which are in arithmetic progression with a common difference less than $5$.\n\n(b) Let $k>3$ be an integer. Show that it is not possible for $k$ prime numbers, each greater than $k$, to be in arithmetic progression with a common difference less than or equal to $k+1$.",
+  "answer": null,
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "2011-bstat-admission-test-short-answer-type"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10 + 2 Level",
+    "file": "Tomato 16th Edition(1).pdf",
+    "pages": [
+      275
+    ],
+    "question_number": 7,
+    "crop": "questions/9f602e1a-3970-4ec4-bb57-6249d1b7d955/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

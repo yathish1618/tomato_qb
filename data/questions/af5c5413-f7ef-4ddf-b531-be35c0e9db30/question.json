@@ -1,0 +1,31 @@
+{
+  "id": "af5c5413-f7ef-4ddf-b531-be35c0e9db30",
+  "type": "MCQ",
+  "question": "Two men set out at the same time to walk towards each other from points $A$ and $B$, 72 km apart. The first man walks at the rate of 4 km per hour. The second man walks 2 km the first hour, $2\\frac12$ km the second hour, 3 km the third hour, and so on. Then the men will meet",
+  "options": {
+    "A": "in 7 hours",
+    "B": "nearer A than B",
+    "C": "nearer B than A",
+    "D": "midway between A and B"
+  },
+  "answer": "D",
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "tomato"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10+2 Level — Sixteenth Edition",
+    "file": "tomato.pdf",
+    "pages": [
+      54
+    ],
+    "question_number": 310,
+    "crop": "questions/af5c5413-f7ef-4ddf-b531-be35c0e9db30/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

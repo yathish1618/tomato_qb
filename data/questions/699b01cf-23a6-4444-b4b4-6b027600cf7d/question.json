@@ -1,0 +1,31 @@
+{
+  "id": "699b01cf-23a6-4444-b4b4-6b027600cf7d",
+  "type": "MCQ",
+  "question": "A $3\\times3$ magic square is a $3\\times3$ rectangular array of positive integers such that the sum of the three numbers in any row, any column or any of the two major diagonals, is the same. For the following incomplete magic square [diagram], the column sum is",
+  "options": {
+    "A": "$90$",
+    "B": "$96$",
+    "C": "$94$",
+    "D": "$99$"
+  },
+  "answer": null,
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "bstat-bmath-uga-2022"
+  ],
+  "source": {
+    "title": "",
+    "file": "BStat-BMath-UGA-2022(1).pdf",
+    "pages": [
+      5
+    ],
+    "question_number": 20,
+    "crop": "questions/699b01cf-23a6-4444-b4b4-6b027600cf7d/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

@@ -1,0 +1,25 @@
+{
+  "id": "5f14af7e-a654-4168-9d5c-3094b1d80606",
+  "type": "SUBJECTIVE",
+  "question": "Show that $$-2\\le \\cos\\theta\\left(\\sin\\theta+\\sqrt{\\sin^2\\theta+3}\\right)\\le 2$$ for all values of $\\theta$.",
+  "answer": null,
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "2007-bstat-admission-test-short-answer-type"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10 + 2 Level",
+    "file": "Tomato 16th Edition(1).pdf",
+    "pages": [
+      260
+    ],
+    "question_number": 5,
+    "crop": "questions/5f14af7e-a654-4168-9d5c-3094b1d80606/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

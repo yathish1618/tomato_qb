@@ -1,0 +1,26 @@
+{
+  "id": "302c5ba9-9d09-4b61-8bae-f738b15c94a9",
+  "type": "SUBJECTIVE",
+  "question": "4. The following table gives the urban population in India and percentages of total population in rural and urban centres for the decades during 1901-81.\n\n\\[\n\\begin{array}{c|c|c|c}\n\\text{Year} & \\text{Urban Population in million} & \\multicolumn{2}{c}{\\text{Percentage of Total Population}}\\\\\n&&\\text{Rural}&\\text{Urban}\\\\\n1901&25.8&89.0&11.0\\\\\n1911&25.9&89.6&10.4\\\\\n1921&28.0&88.7&11.3\\\\\n1931&33.5&87.8&12.2\\\\\n1941&44.1&85.9&14.1\\\\\n1951&62.4&82.4&17.6\\\\\n1961&78.9&81.7&18.3\\\\\n1971&108.9&79.8&20.2\\\\\n1981&162.2&76.3&23.7\n\\end{array}\n\\]\n\nVerify the following statements against the given data and classify each statement into one of the following categories: (A) True; (B) False; (C) Does not necessarily follow from the given information. [Note: Do not make any additional assumptions. Use only the information given.]\n\n(i) The percent increase in urban population during 1901-81 is about 2.5 to 3 times the percent increase in total population in that period.\n\n(ii) The density of population in urban centres has increased by 160% during 1951-81.\n\n(iii) The largest rate of increase in urban population in a decade during 1901-1981 occurred in 1971-81.\n\n(iv) The smallest rate of increase in urban population in a decade during 1931-1981 occurred in 1931-41.\n\n(v) The relative degree of urbanization (i.e., change in the percentage of urban population) was highest in 1941-51 and 1971-81.",
+  "answer": null,
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "tomato"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10 + 2 Level",
+    "file": "Tomato 16th Edition.pdf",
+    "pages": [
+      231,
+      232
+    ],
+    "question_number": 4,
+    "crop": "questions/302c5ba9-9d09-4b61-8bae-f738b15c94a9/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

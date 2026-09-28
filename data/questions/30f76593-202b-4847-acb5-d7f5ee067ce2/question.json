@@ -1,0 +1,31 @@
+{
+  "id": "30f76593-202b-4847-acb5-d7f5ee067ce2",
+  "type": "MCQ",
+  "question": "$ABC$ is a triangle inscribed in a circle. $AD,AE$ are straight lines drawn from the vertex $A$ to the base $BC$ parallel to the tangents at $B$ and $C$ respectively. If $AB=5$ cm, $AC=6$ cm, and $CE=9$ cm, then the length of $BD$ (in cm) equals",
+  "options": {
+    "A": "7.5",
+    "B": "10.8",
+    "C": "7.0",
+    "D": "6.25"
+  },
+  "answer": "D",
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "tomato"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10+2 Level — Sixteenth Edition",
+    "file": "tomato.pdf",
+    "pages": [
+      83
+    ],
+    "question_number": 494,
+    "crop": "questions/30f76593-202b-4847-acb5-d7f5ee067ce2/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

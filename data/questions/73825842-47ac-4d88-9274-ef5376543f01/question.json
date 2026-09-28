@@ -1,0 +1,31 @@
+{
+  "id": "73825842-47ac-4d88-9274-ef5376543f01",
+  "type": "MCQ",
+  "question": "$\\displaystyle\\sum_{n=1}^{\\infty}\\frac{n^2}{n!}$ equals",
+  "options": {
+    "A": "$e$;",
+    "B": "$2e$;",
+    "C": "$e^2$;",
+    "D": "$\\infty$."
+  },
+  "answer": "B",
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "2007-bmath-admission-test-multiple-choice"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10 + 2 Level",
+    "file": "Tomato 16th Edition.pdf",
+    "pages": [
+      146
+    ],
+    "question_number": 22,
+    "crop": "questions/73825842-47ac-4d88-9274-ef5376543f01/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

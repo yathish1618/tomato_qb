@@ -1,0 +1,31 @@
+{
+  "id": "e1feb03d-9242-4209-9fab-5291f0e101de",
+  "type": "MCQ",
+  "question": "If $f(x)=\\frac{1-x}{1+x}$, then $f(f(\\cos x))$ equals",
+  "options": {
+    "A": "$x$",
+    "B": "$\\cos x$",
+    "C": "$\\tan^2\\left(\\frac{x}{2}\\right)$",
+    "D": "none of the foregoing expressions"
+  },
+  "answer": "B",
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "tomato"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10+2 Level — Sixteenth Edition",
+    "file": "tomato.pdf",
+    "pages": [
+      97
+    ],
+    "question_number": 596,
+    "crop": "questions/e1feb03d-9242-4209-9fab-5291f0e101de/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

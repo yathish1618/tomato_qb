@@ -1,0 +1,31 @@
+{
+  "id": "a8945e14-2c58-4b42-bca1-cc0a69daef1d",
+  "type": "MCQ",
+  "question": "The set of all complex numbers \\(z\\) such that \\(\\arg\\left(\\frac{z-2}{z+2}\\right)=\\frac{\\pi}{3}\\) represents",
+  "options": {
+    "A": "part of a circle",
+    "B": "a circle",
+    "C": "an ellipse",
+    "D": "part of an ellipse"
+  },
+  "answer": "A",
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "tomato"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10+2 Level — Sixteenth Edition",
+    "file": "tomato.pdf",
+    "pages": [
+      71
+    ],
+    "question_number": 420,
+    "crop": "questions/a8945e14-2c58-4b42-bca1-cc0a69daef1d/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

@@ -1,0 +1,31 @@
+{
+  "id": "e23e1e95-692a-4efc-a282-7bdcda0714b0",
+  "type": "MCQ",
+  "question": "If $X=\\{1,2,3,4\\}$, $Y=\\{2,3,5,7\\}$, $Z=\\{3,6,8,9\\}$, $W=\\{2,4,8,10\\}$, then $(X\\triangle Y)\\triangle(Z\\triangle W)$ is",
+  "options": {
+    "A": "$\\{4,8\\}$",
+    "B": "$\\{1,5,6,10\\}$",
+    "C": "$\\{1,2,3,5,6,7,9,10\\}$",
+    "D": "none of the foregoing sets"
+  },
+  "answer": "C",
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": "4615231b-13f6-4512-9f11-31343628a683",
+  "grade": "12",
+  "tags": [
+    "tomato"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10+2 Level — Sixteenth Edition",
+    "file": "tomato.pdf",
+    "pages": [
+      15
+    ],
+    "question_number": 28,
+    "crop": "questions/e23e1e95-692a-4efc-a282-7bdcda0714b0/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

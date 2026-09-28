@@ -1,0 +1,31 @@
+{
+  "id": "f3ebede4-87eb-4d4e-8e63-2851a87612ef",
+  "type": "MCQ",
+  "question": "Let $A(x_1,y_1),B(x_2,y_2),C(x_3,y_3),D(x_4,y_4)$ be four points such that $x_1,x_2,x_3,x_4$ and $y_1,y_2,y_3,y_4$ are all in $[0,1]$. If $\\Delta$ denotes the area of the quadrilateral $ABCD$, then",
+  "options": {
+    "A": "$\\Delta=0$",
+    "B": "$\\Delta>1$",
+    "C": "$\\Delta<1$",
+    "D": "$\\Delta$ depends on the coordinates of $A,B,C,D$"
+  },
+  "answer": "A",
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "tomato"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10+2 Level — Sixteenth Edition",
+    "file": "tomato.pdf",
+    "pages": [
+      85
+    ],
+    "question_number": 505,
+    "crop": "questions/f3ebede4-87eb-4d4e-8e63-2851a87612ef/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

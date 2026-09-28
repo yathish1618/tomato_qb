@@ -1,0 +1,25 @@
+{
+  "id": "e82db069-c9c3-41ae-9c66-ac80e597317a",
+  "type": "SUBJECTIVE",
+  "question": "43. Show that the equation\n\\[\nx^3+7x-14(n^2+1)=0\n\\]\nhas no integral root for any integer $n$.",
+  "answer": null,
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "tomato"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10 + 2 Level",
+    "file": "Tomato 16th Edition.pdf",
+    "pages": [
+      238
+    ],
+    "question_number": 43,
+    "crop": "questions/e82db069-c9c3-41ae-9c66-ac80e597317a/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

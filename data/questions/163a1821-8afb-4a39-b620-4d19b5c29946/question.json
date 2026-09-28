@@ -1,0 +1,25 @@
+{
+  "id": "163a1821-8afb-4a39-b620-4d19b5c29946",
+  "type": "SUBJECTIVE",
+  "question": "In a triangle $ABC$, consider points $D$ and $E$ on $AC$ and $AB$, respectively, and assume that they do not coincide with any of the vertices $A,B,C$. If the segments $BD$ and $CE$ intersect at $F$, consider the areas $w,x,y,z$ of the quadrilateral $AEFD$ and the triangles $BEF,BFC,CDF$, respectively. (a) Prove that $y^2>xz$. (b) Determine $w$ in terms of $x,y,z$.",
+  "answer": null,
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "bstat-bmath-ugb-2023"
+  ],
+  "source": {
+    "title": "",
+    "file": "BStat-BMath-UGB-2023.pdf",
+    "pages": [
+      1
+    ],
+    "question_number": 3,
+    "crop": "questions/163a1821-8afb-4a39-b620-4d19b5c29946/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

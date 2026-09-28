@@ -1,0 +1,251 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Tomato</title>
+  <script>
+    window.MathJax = {
+      tex: {
+        inlineMath: [['$', '$'], ['\\(', '\\)']],
+        displayMath: [['$$', '$$'], ['\\[', '\\]']],
+        processEscapes: true
+      },
+      svg: { fontCache: 'global' },
+      options: { skipHtmlTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code'] }
+    };
+  </script>
+  <script defer src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js"></script>
+  <link rel="stylesheet" href="/public.css">
+</head>
+
+<body>
+  <div class="app public-app">
+
+    <header class="topbar">
+      <div class="brand-wrap">
+        <div class="brand">TOMATO</div>
+        <div class="brand-sub">Question Bank</div>
+      </div>
+      <div class="top-center" id="topCenter"></div>
+      <div class="top-actions public-actions">
+        <button class="btn secondary" id="homeBtn">Home</button>
+        <button class="btn secondary" id="collectionsBtn">Collections</button>
+        <button class="btn secondary" id="topicsBtn">Topics</button>
+      </div>
+    </header>
+
+    <main id="homeView" class="public-home">
+      <div class="public-home-inner">
+        <div class="public-eyebrow">MATHEMATICS QUESTION BANK</div>
+        <h1>Practice mathematics your way.</h1>
+        <p class="public-home-sub">Browse by collection or by topic and jump straight into questions.</p>
+
+        <div class="public-home-cards">
+          <button class="catalog-card" id="homeCollectionsCard">
+            <div class="catalog-card-icon">C</div>
+            <div class="catalog-card-title">Collections &amp; Sets</div>
+            <div class="catalog-card-copy">Practice questions grouped into curated collections and sets.</div>
+            <div class="catalog-card-arrow">→</div>
+          </button>
+
+          <button class="catalog-card" id="homeTopicsCard">
+            <div class="catalog-card-icon">T</div>
+            <div class="catalog-card-title">Topics &amp; Subtopics</div>
+            <div class="catalog-card-copy">Choose a mathematical topic, then narrow it down to a subtopic.</div>
+            <div class="catalog-card-arrow">→</div>
+          </button>
+        </div>
+      </div>
+    </main>
+
+    <main id="catalogView" class="public-catalog" hidden>
+      <div class="catalog-page-head">
+        <button class="catalog-back" id="catalogBack">← Back</button>
+        <div>
+          <div class="public-eyebrow" id="catalogEyebrow">BROWSE</div>
+          <h1 id="catalogTitle">Collections</h1>
+          <p id="catalogSubtitle" class="catalog-subtitle"></p>
+        </div>
+      </div>
+
+      <div class="catalog-tools">
+        <div class="search-wrap catalog-search-wrap">
+          <span class="search-icon" aria-hidden="true">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+              stroke-linecap="round" stroke-linejoin="round">
+              <circle cx="11" cy="11" r="8"></circle>
+              <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+            </svg>
+          </span>
+          <input id="catalogSearch" class="search" placeholder="Search…" autocomplete="off">
+          <button id="catalogSort" class="catalog-sort-btn" title="Sort by question count: descending"
+            aria-label="Sort by question count: descending">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+              stroke-linecap="round" stroke-linejoin="round">
+              <path d="m3 16 4 4 4-4"></path>
+              <path d="M7 20V4"></path>
+              <path d="m21 8-4-4-4 4"></path>
+              <path d="M17 4v16"></path>
+            </svg>
+          </button>
+        </div>
+      </div>
+
+      <div id="catalogGrid" class="catalog-grid"></div>
+    </main>
+
+    <main id="questionView" class="public-question-layout" hidden>
+      <aside class="sidebar public-sidebar">
+        <div class="side-head">
+          <div class="search-wrap">
+            <span class="search-icon" aria-hidden="true">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                stroke-linecap="round" stroke-linejoin="round">
+                <circle cx="11" cy="11" r="8"></circle>
+                <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+              </svg>
+            </span>
+            <input id="search" class="search" placeholder="Search questions…">
+            <button id="filterBtn" class="filter-btn" title="Filter questions" aria-label="Filter questions">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                stroke-linecap="round" stroke-linejoin="round">
+                <polygon points="22 3 2 3 10 12.46 10 19 14 21 14 12.46 22 3"></polygon>
+              </svg>
+            </button>
+          </div>
+        </div>
+        <div id="questionList" class="question-list"></div>
+        <div class="side-foot"><span id="count">0 questions</span></div>
+      </aside>
+
+      <section class="public-question-main">
+        <div class="public-context" id="questionContext"></div>
+
+        <div class="public-question-scroll">
+          <div id="groupPreview" class="group-preview" hidden>
+            <div class="group-preview-head">
+              <span id="groupPreviewTitle">Group Question</span>
+              <div class="group-nav">
+                <button class="icon group-nav-btn" id="groupPrevBtn" title="Previous part"
+                  aria-label="Previous part">‹</button>
+                <button class="icon group-nav-btn" id="groupNextBtn" title="Next part" aria-label="Next part">›</button>
+              </div>
+            </div>
+            <div id="groupContent" class="group-content"></div>
+          </div>
+
+          <div class="question-preview public-question-preview">
+            <div id="preview" class="preview-body"></div>
+          </div>
+        </div>
+
+        <div class="question-nav-bar public-question-nav">
+          <button class="icon question-nav-btn" id="prevBtn" title="Previous question"
+            aria-label="Previous question">‹</button>
+          <button class="icon question-nav-btn" id="nextBtn" title="Next question" aria-label="Next question">›</button>
+        </div>
+      </section>
+    </main>
+
+  </div>
+
+
+  <div id="filterModal" class="modal-mask">
+    <div class="modal public-filter-modal">
+      <div class="modal-head">
+        <div>
+          <h3>Filter Questions</h3>
+        </div>
+        <button class="modal-x" id="filterClose">×</button>
+      </div>
+
+      <div class="modal-body filter-form">
+        <div class="field"><label>Question Type</label>
+          <select id="filterType">
+            <option value="">All Types</option>
+            <option value="MCQ">MCQ</option>
+            <option value="SUBJECTIVE">Subjective</option>
+          </select>
+        </div>
+
+        <div class="field" style="display: none;"><label>Tag</label>
+          <input id="filterTag" placeholder="e.g. tomato">
+        </div>
+
+        <div class="field" style="display: none;"><label>Collection</label>
+          <select id="filterCollection">
+            <option value="">All Collections</option>
+          </select>
+        </div>
+
+        <div class="field" style="display: none;"><label>Set</label>
+          <select id="filterSet">
+            <option value="">All Sets</option>
+          </select>
+        </div>
+
+        <div class="field" style="display: none;"><label>Topic</label>
+          <select id="filterTopic">
+            <option value="">All Topics</option>
+          </select>
+        </div>
+
+        <div class="field" style="display: none;"><label>Subtopic</label>
+          <select id="filterSubtopic">
+            <option value="">All Subtopics</option>
+          </select>
+        </div>
+
+        <div class="field"><label>Grade</label>
+          <select id="filterGrade">
+            <option value="">All Grades</option>
+            <option>1</option>
+            <option>2</option>
+            <option>3</option>
+            <option>4</option>
+            <option>5</option>
+            <option>6</option>
+            <option>7</option>
+            <option>8</option>
+            <option>9</option>
+            <option>10</option>
+            <option>11</option>
+            <option>12</option>
+            <option>12+</option>
+          </select>
+        </div>
+
+        <div class="field"><label>Difficulty</label>
+          <select id="filterDifficulty">
+            <option value="">All</option>
+            <option>easy</option>
+            <option>medium</option>
+            <option>hard</option>
+          </select>
+        </div>
+
+        <div class="field"><label>Marks</label>
+          <select id="filterMarks">
+            <option value="">All</option>
+            <option>1</option>
+            <option>2</option>
+            <option>3</option>
+            <option>4</option>
+            <option>5</option>
+          </select>
+        </div>
+      </div>
+
+      <div class="modal-foot">
+        <button id="clearFilters" class="btn secondary">Clear All</button>
+        <button class="btn primary" id="applyFiltersBtn">Apply Filters</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="/public.js"></script>
+</body>
+
+</html>

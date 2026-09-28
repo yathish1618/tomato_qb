@@ -1,0 +1,31 @@
+{
+  "id": "360927fe-b47f-416b-9947-dd33b2716652",
+  "type": "MCQ",
+  "question": "The value of $\\displaystyle\\int_{-2}^{2}|x(x-1)|dx$ is",
+  "options": {
+    "A": "$\\frac{11}{3}$",
+    "B": "$\\frac{13}{3}$",
+    "C": "$\\frac{16}{3}$",
+    "D": "$\\frac{17}{3}$"
+  },
+  "answer": "D",
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "tomato"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10+2 Level",
+    "file": "tomato.pdf",
+    "pages": [
+      133
+    ],
+    "question_number": 824,
+    "crop": "full_page"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

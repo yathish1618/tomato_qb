@@ -1,0 +1,31 @@
+{
+  "id": "32709224-edb8-4139-b26a-421a0e0a7fbd",
+  "type": "MCQ",
+  "question": "The number of multiples of $4$ among all $10$ digit numbers is",
+  "options": {
+    "A": "$25\\times10^8$",
+    "B": "$25\\times10^7$",
+    "C": "$225\\times10^7$",
+    "D": "$234\\times10^7$"
+  },
+  "answer": "C",
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "2010-bmath-admission-test-multiple-choice"
+  ],
+  "source": {
+    "title": "B.Math. (Hons.) Admission Test: 2010",
+    "file": "Tomato 16th Edition.pdf",
+    "pages": [
+      175
+    ],
+    "question_number": 10,
+    "crop": "questions/32709224-edb8-4139-b26a-421a0e0a7fbd/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

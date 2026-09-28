@@ -1,0 +1,31 @@
+{
+  "id": "5ba588ca-e34c-4496-9591-3255215b505a",
+  "type": "MCQ",
+  "question": "$\\displaystyle\\lim_{x\\to0}\\frac{(e^x-1)\\tan^2x}{x^3}$",
+  "options": {
+    "A": "does not exist",
+    "B": "exists and equals 0",
+    "C": "exists and equals $\\frac23$",
+    "D": "exists and equals 1"
+  },
+  "answer": "D",
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "tomato"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10+2 Level",
+    "file": "tomato.pdf",
+    "pages": [
+      125
+    ],
+    "question_number": 771,
+    "crop": "full_page"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

@@ -1,0 +1,25 @@
+{
+  "id": "624f8552-b015-4712-93aa-e0a105daab8b",
+  "type": "SUBJECTIVE",
+  "question": "10. We say that a sequence $\\{a_n\\}$ has property $P$, if there exists a positive integer $m$ such that $a_n\\le1$ for every $n\\ge m$. For each of the following sequences, determine whether it has the property $P$ or not. [Do not use any result on limits.]\n\n(i)\n\\[\na_n=\\begin{cases}0.9+\\dfrac{200}{n},&\\text{if $n$ is even},\\\\[4pt]\\dfrac1n,&\\text{if $n$ is odd.}\\end{cases}\n\\]\n\n(ii)\n\\[\na_n=\\begin{cases}1+\\dfrac{\\cos\\frac{n\\pi}{2}}{n},&\\text{if $n$ is even},\\\\[4pt]\\dfrac1n,&\\text{if $n$ is odd.}\\end{cases}\n\\]",
+  "answer": null,
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "tomato"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10 + 2 Level",
+    "file": "Tomato 16th Edition.pdf",
+    "pages": [
+      234
+    ],
+    "question_number": 10,
+    "crop": "questions/624f8552-b015-4712-93aa-e0a105daab8b/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

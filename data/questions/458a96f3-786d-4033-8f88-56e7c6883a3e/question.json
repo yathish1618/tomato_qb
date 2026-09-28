@@ -1,0 +1,32 @@
+{
+  "id": "458a96f3-786d-4033-8f88-56e7c6883a3e",
+  "type": "MCQ",
+  "question": "Let $A$ be the point $(0,0)$ and let $B$ be the point $(1,0)$. A point $P$ moves so that the angle $APB$ measures $\\frac{\\pi}{6}$. The locus of $P$ is",
+  "options": {
+    "A": "a parabola",
+    "B": "arcs of two circles with centres $\\left(\\frac1{\\sqrt2},\\frac1{\\sqrt2}\\right)$ and $\\left(\\frac1{\\sqrt2},-\\frac1{\\sqrt2}\\right)$",
+    "C": "arcs of two circles each of radius 1",
+    "D": "a pair of straight lines"
+  },
+  "answer": "C",
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "tomato"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10+2 Level — Sixteenth Edition",
+    "file": "tomato.pdf",
+    "pages": [
+      93,
+      94
+    ],
+    "question_number": 570,
+    "crop": "questions/458a96f3-786d-4033-8f88-56e7c6883a3e/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

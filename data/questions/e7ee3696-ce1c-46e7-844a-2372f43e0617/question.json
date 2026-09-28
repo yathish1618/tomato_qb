@@ -1,0 +1,31 @@
+{
+  "id": "e7ee3696-ce1c-46e7-844a-2372f43e0617",
+  "type": "MCQ",
+  "question": "The value of $\\sin15^\\circ$ is",
+  "options": {
+    "A": "$\\frac{\\sqrt6-\\sqrt2}{4}$",
+    "B": "$\\frac{\\sqrt6+\\sqrt2}{4}$",
+    "C": "$\\frac{\\sqrt5+1}{2}$",
+    "D": "$\\frac{\\sqrt5-1}{2}$"
+  },
+  "answer": "A",
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "tomato"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10+2 Level — Sixteenth Edition",
+    "file": "tomato.pdf",
+    "pages": [
+      97
+    ],
+    "question_number": 591,
+    "crop": "questions/e7ee3696-ce1c-46e7-844a-2372f43e0617/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

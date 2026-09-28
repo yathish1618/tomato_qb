@@ -1,0 +1,31 @@
+{
+  "id": "d0223f6f-e438-4a7f-9820-3579ad5888d4",
+  "type": "MCQ",
+  "question": "Let $(1+x+x^2)^9=\\alpha_0+\\alpha_1x+\\cdots+\\alpha_{18}x^{18}$. Then",
+  "options": {
+    "A": "$\\alpha_0+\\alpha_2+\\cdots+\\alpha_{18}=\\alpha_1+\\alpha_3+\\cdots+\\alpha_{17}$",
+    "B": "$\\alpha_0+\\alpha_2+\\cdots+\\alpha_{18}$ is even",
+    "C": "$\\alpha_0+\\alpha_2+\\cdots+\\alpha_{18}$ is divisible by 9",
+    "D": "$\\alpha_0+\\alpha_2+\\cdots+\\alpha_{18}$ is divisible by 3 but not by 9"
+  },
+  "answer": "B",
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "tomato"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10+2 Level — Sixteenth Edition",
+    "file": "tomato.pdf",
+    "pages": [
+      46
+    ],
+    "question_number": 253,
+    "crop": "questions/d0223f6f-e438-4a7f-9820-3579ad5888d4/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

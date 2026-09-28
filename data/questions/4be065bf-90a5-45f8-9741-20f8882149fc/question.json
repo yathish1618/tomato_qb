@@ -1,0 +1,31 @@
+{
+  "id": "4be065bf-90a5-45f8-9741-20f8882149fc",
+  "type": "MCQ",
+  "question": "The angles of a convex pentagon are in A.P. Then, the minimum possible value of the smallest angle is",
+  "options": {
+    "A": "$30^\\circ$;",
+    "B": "$36^\\circ$;",
+    "C": "$45^\\circ$;",
+    "D": "$54^\\circ$."
+  },
+  "answer": "B",
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "2008-bstat-admission-test-multiple-choice"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10 + 2 Level",
+    "file": "Tomato 16th Edition.pdf",
+    "pages": [
+      148
+    ],
+    "question_number": 11,
+    "crop": "questions/4be065bf-90a5-45f8-9741-20f8882149fc/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

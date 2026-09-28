@@ -1,0 +1,31 @@
+{
+  "id": "8bd81538-ab47-4684-b25a-4023d051620b",
+  "type": "MCQ",
+  "question": "If $4x^{10}-x^9-3x^8+5x^7+kx^6+2x^5-x^3+kx^2+5x-5$, when divided by $(x+1)$ gives a remainder of $-14$, then the value of $k$ equals",
+  "options": {
+    "A": "2",
+    "B": "0",
+    "C": "7",
+    "D": "-2"
+  },
+  "answer": "B",
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "tomato"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10+2 Level — Sixteenth Edition",
+    "file": "tomato.pdf",
+    "pages": [
+      46
+    ],
+    "question_number": 250,
+    "crop": "questions/8bd81538-ab47-4684-b25a-4023d051620b/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

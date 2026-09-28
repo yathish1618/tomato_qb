@@ -1,0 +1,25 @@
+{
+  "id": "0fcd3273-9f88-4ee4-8f7e-0bce5a858351",
+  "type": "SUBJECTIVE",
+  "question": "20. Let $u_n=(3+\\sqrt5)^n+(3-\\sqrt5)^n$ for $n=1,2,\\ldots$.\n\n(i) Show that for each $n$, $u_n$ is an integer.\n\n(ii) Show that $u_{n+1}=6u_n-4u_{n-1}$ for all $n\\ge2$.\n\n(iii) Use (ii) above, to show that $u_n$ is divisible by $2^n$.",
+  "answer": null,
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "tomato"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10 + 2 Level",
+    "file": "Tomato 16th Edition.pdf",
+    "pages": [
+      236
+    ],
+    "question_number": 20,
+    "crop": "questions/0fcd3273-9f88-4ee4-8f7e-0bce5a858351/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

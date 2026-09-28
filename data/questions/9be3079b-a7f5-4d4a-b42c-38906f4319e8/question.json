@@ -1,0 +1,25 @@
+{
+  "id": "9be3079b-a7f5-4d4a-b42c-38906f4319e8",
+  "type": "SUBJECTIVE",
+  "question": "(i) Determine \\(m\\) so that the equation\n\\[\nx^4-(3m+2)x^2+m^2=0\n\\]\nhas four real roots in arithmetic progression.\n\n(ii) Let \\(a\\) and \\(b\\) be two real numbers. If the roots of the equation\n\\[\nx^2-ax-b=0\n\\]\nhave absolute value less than one, show that each of the following conditions holds:\n\\[\n\\text{(i) }|b|<1,\\qquad \\text{(ii) }a+b<1,\\qquad \\text{(iii) }b-a<1.\n\\]",
+  "answer": null,
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "tomato"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10 + 2 Level",
+    "file": "Tomato 16th Edition.pdf",
+    "pages": [
+      241
+    ],
+    "question_number": 68,
+    "crop": "questions/9be3079b-a7f5-4d4a-b42c-38906f4319e8/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

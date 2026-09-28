@@ -1,0 +1,31 @@
+{
+  "id": "afaa875a-b944-4b12-8e2f-1fffc345bff4",
+  "type": "MCQ",
+  "question": "Among the complex numbers \\(z\\) satisfying \\(|z-25i|\\le15\\), the number having the least argument is",
+  "options": {
+    "A": "\\(10i\\)",
+    "B": "\\(−15+25i\\)",
+    "C": "\\(\\,12+16i\\)",
+    "D": "\\(\\,7+12i\\)"
+  },
+  "answer": "C",
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "tomato"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10+2 Level — Sixteenth Edition",
+    "file": "tomato.pdf",
+    "pages": [
+      70
+    ],
+    "question_number": 417,
+    "crop": "questions/afaa875a-b944-4b12-8e2f-1fffc345bff4/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

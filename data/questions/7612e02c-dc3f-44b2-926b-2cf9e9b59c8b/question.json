@@ -1,0 +1,31 @@
+{
+  "id": "7612e02c-dc3f-44b2-926b-2cf9e9b59c8b",
+  "type": "MCQ",
+  "question": "Suppose all roots of the polynomial \\(P(x)=a_{10}x^{10}+a_9x^9+\\cdots+a_1x+a_0\\) are real and smaller than 1. Then, for any such polynomial, the function \\(\\displaystyle f(x)=a_{10}\\frac{e^{10x}}{10}+a_9\\frac{e^{9x}}9+\\cdots+a_1e^x+a_0x,\\ x>0\\)",
+  "options": {
+    "A": "is increasing",
+    "B": "is either increasing or decreasing",
+    "C": "is decreasing",
+    "D": "is neither increasing nor decreasing."
+  },
+  "answer": "B",
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "2013-bstat-bmath-admission-test-multiple-choice"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10 + 2 Level",
+    "file": "Tomato 16th Edition.pdf",
+    "pages": [
+      198
+    ],
+    "question_number": 28,
+    "crop": "questions/7612e02c-dc3f-44b2-926b-2cf9e9b59c8b/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

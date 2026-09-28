@@ -1,0 +1,31 @@
+{
+  "id": "f3f81c2e-4c2d-49e4-9824-5d627ccf9999",
+  "type": "MCQ",
+  "question": "\\(ABC\\) is a right-angled triangle with right angle at \\(B\\). \\(D\\) is a point on \\(AC\\) such that \\(\\angle ABD=45^\\circ\\). If \\(AC=6\\) cm and \\(AD=2\\) cm then \\(AB\\) is",
+  "options": {
+    "A": "\\(\\frac6{\\sqrt5}\\) cm",
+    "B": "\\(3\\sqrt2\\) cm",
+    "C": "\\(\\frac{12}{\\sqrt5}\\) cm",
+    "D": "2 cm"
+  },
+  "answer": "A",
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "tomato"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10+2 Level — Sixteenth Edition",
+    "file": "tomato.pdf",
+    "pages": [
+      79
+    ],
+    "question_number": 467,
+    "crop": "questions/f3f81c2e-4c2d-49e4-9824-5d627ccf9999/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

@@ -1,0 +1,31 @@
+{
+  "id": "20089966-4f4d-4496-87d2-d9cf78de2fb5",
+  "type": "MCQ",
+  "question": "A triangle has sides of lengths $\\sqrt5$, $2\\sqrt2$, $\\sqrt3$ units. Then, the radius of its inscribed circle is",
+  "options": {
+    "A": "$\\frac{\\sqrt5+\\sqrt3+2\\sqrt2}{2}$",
+    "B": "$\\frac{\\sqrt5+\\sqrt3+2\\sqrt2}{3}$",
+    "C": "$\\sqrt5+\\sqrt3+2\\sqrt2$",
+    "D": "$\\frac{\\sqrt5+\\sqrt3-2\\sqrt2}{2}$"
+  },
+  "answer": null,
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "bstat-bmath-uga-2022"
+  ],
+  "source": {
+    "title": "",
+    "file": "BStat-BMath-UGA-2022(1).pdf",
+    "pages": [
+      6
+    ],
+    "question_number": 25,
+    "crop": "questions/20089966-4f4d-4496-87d2-d9cf78de2fb5/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

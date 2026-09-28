@@ -1,0 +1,25 @@
+{
+  "id": "affd8a90-2776-4c65-8ce2-cbd5e6f7a2a5",
+  "type": "SUBJECTIVE",
+  "question": "63. If any one pair among the straight lines\n\\[\nax+by=a+b,\\qquad bx-(a+b)y=-a,\\qquad (a+b)x-ay=b\n\\]\nintersect, then show that the three straight lines are concurrent.",
+  "answer": null,
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "tomato"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10 + 2 Level",
+    "file": "Tomato 16th Edition.pdf",
+    "pages": [
+      240
+    ],
+    "question_number": 63,
+    "crop": "questions/affd8a90-2776-4c65-8ce2-cbd5e6f7a2a5/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

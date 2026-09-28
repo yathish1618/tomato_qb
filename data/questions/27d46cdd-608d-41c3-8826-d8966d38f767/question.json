@@ -1,0 +1,31 @@
+{
+  "id": "27d46cdd-608d-41c3-8826-d8966d38f767",
+  "type": "MCQ",
+  "question": "Consider the parabola $y^2=4x$. Let $P$ and $Q$ be the points $(4,-4)$ and $(9,6)$ of the parabola. Let $R$ be a moving point on the arc of the parabola between $P$ and $Q$. Then the area of the triangle $RPQ$ is largest when",
+  "options": {
+    "A": "$\\angle PRQ=90^\\circ$",
+    "B": "$R=(4,4)$",
+    "C": "$R=(\\frac14,1)$",
+    "D": "condition other than the foregoing conditions is satisfied"
+  },
+  "answer": "C",
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "tomato"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10+2 Level",
+    "file": "tomato.pdf",
+    "pages": [
+      129
+    ],
+    "question_number": 803,
+    "crop": "full_page"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

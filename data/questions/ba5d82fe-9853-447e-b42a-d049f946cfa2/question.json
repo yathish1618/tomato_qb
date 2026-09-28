@@ -1,0 +1,31 @@
+{
+  "id": "ba5d82fe-9853-447e-b42a-d049f946cfa2",
+  "type": "MCQ",
+  "question": "Let $K$ be the set of all points $(x,y)$ such that $|x|+|y|\\le1$. Given a point $A$ in the plane, let $F_A$ be the point in $K$ which is closest to $A$. Then the points $A$ for which $F_A=(1,0)$ are",
+  "options": {
+    "A": "all points $A=(x,y)$ with $x\\ge1$.",
+    "B": "all points $A=(x,y)$ with $x\\ge y+1$ and $x\\ge1-y$",
+    "C": "all points $A=(x,y)$ with $x\\ge1$ and $y=0$.",
+    "D": "all points $A=(x,y)$ with $x\\ge0$ and $y=0$"
+  },
+  "answer": null,
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "bstat-bmath-uga-2026"
+  ],
+  "source": {
+    "title": "Sample Question Paper-UGA",
+    "file": "BStat-BMath-UGA-2026(1).pdf",
+    "pages": [
+      3
+    ],
+    "question_number": 9,
+    "crop": "questions/ba5d82fe-9853-447e-b42a-d049f946cfa2/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

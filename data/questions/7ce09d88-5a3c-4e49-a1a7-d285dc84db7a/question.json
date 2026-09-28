@@ -1,0 +1,31 @@
+{
+  "id": "7ce09d88-5a3c-4e49-a1a7-d285dc84db7a",
+  "type": "MCQ",
+  "question": "Let \\(A_0=\\varnothing\\) (the empty set). For each \\(i=1,2,3,\\ldots\\), define the set \\(A_i=A_{i-1}\\cup\\{A_{i-1}\\}\\). The set \\(A_3\\) is",
+  "options": {
+    "A": "\\(\\varnothing\\)",
+    "B": "\\(\\{\\varnothing\\}\\)",
+    "C": "\\(\\{\\varnothing,\\{\\varnothing\\}\\}\\)",
+    "D": "\\(\\{\\varnothing,\\{\\varnothing\\},\\{\\varnothing,\\{\\varnothing\\}\\}\\}\\)"
+  },
+  "answer": "D",
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "2014-bstat-bmath-admission-test-multiple-choice"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10 + 2 Level",
+    "file": "Tomato 16th Edition.pdf",
+    "pages": [
+      201
+    ],
+    "question_number": 16,
+    "crop": "questions/7ce09d88-5a3c-4e49-a1a7-d285dc84db7a/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

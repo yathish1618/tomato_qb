@@ -1,0 +1,31 @@
+{
+  "id": "e125adcb-a35f-4255-8493-8fa5ba0e04fa",
+  "type": "MCQ",
+  "question": "The number of pairs of integers $(x,y)$ satisfying the equation $xy(x+y+1)=5^{2018}+1$ is:",
+  "options": {
+    "A": "0",
+    "B": "2",
+    "C": "1009",
+    "D": "2018."
+  },
+  "answer": null,
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "bstat-bmath-uga-2018"
+  ],
+  "source": {
+    "title": "",
+    "file": "BStat-BMath-UGA-2018.pdf",
+    "pages": [
+      3
+    ],
+    "question_number": 17,
+    "crop": "questions/e125adcb-a35f-4255-8493-8fa5ba0e04fa/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

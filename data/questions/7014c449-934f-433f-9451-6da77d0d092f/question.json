@@ -1,0 +1,25 @@
+{
+  "id": "7014c449-934f-433f-9451-6da77d0d092f",
+  "type": "SUBJECTIVE",
+  "question": "Let $0\\le\\theta\\le\\frac{\\pi}{2}$. Prove that $\\sin\\theta\\ge\\frac{2\\theta}{\\pi}$.",
+  "answer": null,
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "2007-bmath-admission-test-short-answer-type"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10 + 2 Level",
+    "file": "Tomato 16th Edition(1).pdf",
+    "pages": [
+      263
+    ],
+    "question_number": 7,
+    "crop": "questions/7014c449-934f-433f-9451-6da77d0d092f/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

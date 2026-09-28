@@ -1,0 +1,31 @@
+{
+  "id": "966893ea-dfd8-4759-b904-bd5b65c1d696",
+  "type": "MCQ",
+  "question": "Let $a,b,c$ be three complex numbers. The equation $az+b\\bar z+c=0$ represents a straight line on the complex plane if and only if",
+  "options": {
+    "A": "$a=b$",
+    "B": "$\\bar a c=b\\bar c$",
+    "C": "$|a|=|b|\\ne0$",
+    "D": "$|a|=|b|\\ne0$ and $\\bar a c=b\\bar c$"
+  },
+  "answer": null,
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "bstat-bmath-uga-2024"
+  ],
+  "source": {
+    "title": "",
+    "file": "BStat-BMath-UGA-2024(1).pdf",
+    "pages": [
+      6
+    ],
+    "question_number": 26,
+    "crop": "questions/966893ea-dfd8-4759-b904-bd5b65c1d696/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

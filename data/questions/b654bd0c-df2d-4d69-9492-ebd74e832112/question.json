@@ -1,0 +1,25 @@
+{
+  "id": "b654bd0c-df2d-4d69-9492-ebd74e832112",
+  "type": "SUBJECTIVE",
+  "question": "Consider all non-empty subsets of the set $\\{1,2,\\ldots,n\\}$. For every such subset, we find the product of the reciprocals of each of its elements. Denote the sum of all these products as $S_n$. For example,\n\\[\nS_3=1+\\frac12+\\frac13+\\frac1{1\\cdot2}+\\frac1{1\\cdot3}+\\frac1{2\\cdot3}+\\frac1{1\\cdot2\\cdot3}.\n\\]\n(a) Show that $S_n=\\dfrac1n+\\left(1+\\dfrac1n\\right)S_{n-1}$.\n\n(b) Hence or otherwise, deduce that $S_n=n$.",
+  "answer": null,
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "2011-bstat-admission-test-short-answer-type"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10 + 2 Level",
+    "file": "Tomato 16th Edition(1).pdf",
+    "pages": [
+      276
+    ],
+    "question_number": 9,
+    "crop": "questions/b654bd0c-df2d-4d69-9492-ebd74e832112/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

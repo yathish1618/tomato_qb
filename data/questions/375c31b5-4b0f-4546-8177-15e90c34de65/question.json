@@ -1,0 +1,31 @@
+{
+  "id": "375c31b5-4b0f-4546-8177-15e90c34de65",
+  "type": "MCQ",
+  "question": "The limit of $\\frac1{n^4}\\sum_{k=1}^n k(k+2)(k+4)$ as $n\\to\\infty$",
+  "options": {
+    "A": "exists and equals $\\frac14$",
+    "B": "exists and equals 0",
+    "C": "exists and equals $\\frac18$",
+    "D": "does not exist"
+  },
+  "answer": "A",
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "tomato"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10+2 Level",
+    "file": "tomato.pdf",
+    "pages": [
+      111
+    ],
+    "question_number": 691,
+    "crop": "full_page"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

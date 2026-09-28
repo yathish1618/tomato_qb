@@ -1,0 +1,25 @@
+{
+  "id": "e596d045-af51-481d-8466-a0888258dab2",
+  "type": "SUBJECTIVE",
+  "question": "Let $x_1,\\ldots,x_{2024}$ be non-negative real numbers with $\\sum_{i=1}^{2024}x_i=1$. Find, with proof, the minimum and maximum possible values of the expression $$\\sum_{i=1}^{1012}x_i+\\sum_{i=1013}^{2024}x_i^2.$$",
+  "answer": null,
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "bstat-bmath-ugb-2024"
+  ],
+  "source": {
+    "title": "",
+    "file": "BStat-BMath-UGB-2024.pdf",
+    "pages": [
+      2
+    ],
+    "question_number": 6,
+    "crop": "questions/e596d045-af51-481d-8466-a0888258dab2/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

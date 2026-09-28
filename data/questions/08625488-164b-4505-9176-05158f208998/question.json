@@ -1,0 +1,25 @@
+{
+  "id": "08625488-164b-4505-9176-05158f208998",
+  "type": "SUBJECTIVE",
+  "question": "Consider the real-valued function \\(f\\), defined over \\(( -\\infty,\\infty)\\) by \\(f(x)=x^4+bx^3+cx^2+dx+e\\), where \\(b,c,d,e\\) are real numbers and \\(3b^2<8c\\). Show that the function \\(f\\) has a unique minimum.",
+  "answer": null,
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "tomato"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10 + 2 Level",
+    "file": "Tomato 16th Edition.pdf",
+    "pages": [
+      252
+    ],
+    "question_number": 149,
+    "crop": "questions/08625488-164b-4505-9176-05158f208998/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

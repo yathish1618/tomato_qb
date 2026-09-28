@@ -1,0 +1,31 @@
+{
+  "id": "73da8f03-d722-4a03-a9da-02863e7af864",
+  "type": "MCQ",
+  "question": "If a fair coin is tossed 100 times, then the probability of getting at least one head is",
+  "options": {
+    "A": "$\\frac{100}{2^{100}}$;",
+    "B": "$\\frac{99}{100}$;",
+    "C": "$1-\\frac1{100}$;",
+    "D": "$1-\\frac1{2^{100}}$."
+  },
+  "answer": "D",
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "2007-bmath-admission-test-multiple-choice"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10 + 2 Level",
+    "file": "Tomato 16th Edition.pdf",
+    "pages": [
+      144
+    ],
+    "question_number": 4,
+    "crop": "questions/73da8f03-d722-4a03-a9da-02863e7af864/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

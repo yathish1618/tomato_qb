@@ -1,0 +1,31 @@
+{
+  "id": "3f75bbfd-3060-4258-967d-0a33334fe28b",
+  "type": "MCQ",
+  "question": "The coefficients of three consecutive terms in the expansion of $(1+x)^n$ are 165, 330 and 462. Then the value of n is",
+  "options": {
+    "A": "10",
+    "B": "12",
+    "C": "13",
+    "D": "11"
+  },
+  "answer": "D",
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "tomato"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10+2 Level — Sixteenth Edition",
+    "file": "tomato.pdf",
+    "pages": [
+      30
+    ],
+    "question_number": 131,
+    "crop": "questions/3f75bbfd-3060-4258-967d-0a33334fe28b/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

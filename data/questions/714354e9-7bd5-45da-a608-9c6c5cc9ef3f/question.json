@@ -1,0 +1,31 @@
+{
+  "id": "714354e9-7bd5-45da-a608-9c6c5cc9ef3f",
+  "type": "MCQ",
+  "question": "Consider the two statements: (I) between any two rational numbers, there is an irrational number; (II) between any two irrational numbers, there is a rational number. Then",
+  "options": {
+    "A": "both (I) and (II) are true;",
+    "B": "(I) is true but (II) is not;",
+    "C": "(I) is false but (II) is not;",
+    "D": "both (I) and (II) are false."
+  },
+  "answer": "A",
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "2010-bmath-admission-test-multiple-choice"
+  ],
+  "source": {
+    "title": "B.Math. (Hons.) Admission Test: 2010",
+    "file": "Tomato 16th Edition.pdf",
+    "pages": [
+      177
+    ],
+    "question_number": 26,
+    "crop": "questions/714354e9-7bd5-45da-a608-9c6c5cc9ef3f/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

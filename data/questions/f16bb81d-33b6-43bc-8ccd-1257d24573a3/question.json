@@ -1,0 +1,25 @@
+{
+  "id": "f16bb81d-33b6-43bc-8ccd-1257d24573a3",
+  "type": "SUBJECTIVE",
+  "question": "(i) If \\(A+B+C=n\\pi\\) where \\(n\\) is a positive integer, show that\n\\[\n\\sin 2A+\\sin 2B+\\sin 2C=(-1)^{n-1}4\\sin A\\sin B\\sin C.\n\\]\n\n(ii) Let triangles \\(ABC\\) and \\(DEF\\) be inscribed in the same circle. If the triangles are of equal perimeter, then prove that\n\\[\n\\sin A+\\sin B+\\sin C=\\sin D+\\sin E+\\sin F.\n\\]\n\n(iii) State and prove the converse of (ii) above.",
+  "answer": null,
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "tomato"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10 + 2 Level",
+    "file": "Tomato 16th Edition.pdf",
+    "pages": [
+      247
+    ],
+    "question_number": 120,
+    "crop": "questions/f16bb81d-33b6-43bc-8ccd-1257d24573a3/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

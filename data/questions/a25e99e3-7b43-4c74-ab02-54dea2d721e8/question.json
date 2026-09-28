@@ -1,0 +1,31 @@
+{
+  "id": "a25e99e3-7b43-4c74-ab02-54dea2d721e8",
+  "type": "MCQ",
+  "question": "Suppose that the equation $ax^2+bx+c=0$ has roots $\\alpha$ and $\\beta$, both of which are different from $\\frac12$. Then an equation whose roots are $\\frac1{2\\alpha-1}$ and $\\frac1{2\\beta-1}$ is",
+  "options": {
+    "A": "$(a+2b+4c)x^2+2(a+b)x+a=0$",
+    "B": "$4cx^2+2(b-2c)x+(a-b+c)=0$",
+    "C": "$cx^2+2(a+b)x+(a+2b+4c)=0$",
+    "D": "none of the foregoing equations"
+  },
+  "answer": "A",
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "tomato"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10+2 Level — Sixteenth Edition",
+    "file": "tomato.pdf",
+    "pages": [
+      45
+    ],
+    "question_number": 246,
+    "crop": "questions/a25e99e3-7b43-4c74-ab02-54dea2d721e8/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

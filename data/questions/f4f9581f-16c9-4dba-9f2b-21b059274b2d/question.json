@@ -1,0 +1,31 @@
+{
+  "id": "f4f9581f-16c9-4dba-9f2b-21b059274b2d",
+  "type": "MCQ",
+  "question": "If $f(x)=\\left(\\frac{a+x}{b+x}\\right)^{a+b+2x}$, then $f\\prime(0)$ equals",
+  "options": {
+    "A": "$\\displaystyle\\frac{b^2-a^2}{a^2}\\left(\\frac ab\\right)^{a+b-1}$",
+    "B": "$\\displaystyle\\left(2\\log\\frac ab+\\frac{b^2-a^2}{ab}\\right)\\left(\\frac ab\\right)^{a+b}$",
+    "C": "$\\displaystyle2\\log\\left(\\frac ab\\right)+\\frac{b^2-a^2}{ab}$",
+    "D": "none of the foregoing expressions"
+  },
+  "answer": "B",
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "tomato"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10+2 Level",
+    "file": "tomato.pdf",
+    "pages": [
+      124
+    ],
+    "question_number": 761,
+    "crop": "full_page"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

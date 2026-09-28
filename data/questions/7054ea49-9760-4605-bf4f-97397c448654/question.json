@@ -1,0 +1,31 @@
+{
+  "id": "7054ea49-9760-4605-bf4f-97397c448654",
+  "type": "MCQ",
+  "question": "Consider a square $ABCD$ inscribed in a circle of radius $1$. Let $A\\prime$ and $C\\prime$ be two points on the (smaller) arcs $AD$ and $CD$ respectively, such that $A\\prime A=CC\\prime$. If $P$ denotes the area of the pentagon $A\\prime ABC C\\prime$, then",
+  "options": {
+    "A": "$P$ can not be equal to $2$;",
+    "B": "$P$ lies in the interval $(1,2]$;",
+    "C": "$P$ is greater than or equal to $2$;",
+    "D": "none of the above."
+  },
+  "answer": "D",
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "2010-bstat-admission-test-multiple-choice"
+  ],
+  "source": {
+    "title": "B.Stat. (Hons.) Admission Test: 2010",
+    "file": "Tomato 16th Edition.pdf",
+    "pages": [
+      173
+    ],
+    "question_number": 30,
+    "crop": "questions/7054ea49-9760-4605-bf4f-97397c448654/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

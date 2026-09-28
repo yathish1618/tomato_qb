@@ -1,0 +1,25 @@
+{
+  "id": "f60b6745-a3e9-494f-a885-25438f8f7061",
+  "type": "SUBJECTIVE",
+  "question": "37. Suppose $p$ is a prime number such that $(p-1)/4$ and $(p+1)/2$ are also primes. Show that $p=13$.",
+  "answer": null,
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "tomato"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10 + 2 Level",
+    "file": "Tomato 16th Edition.pdf",
+    "pages": [
+      237
+    ],
+    "question_number": 37,
+    "crop": "questions/f60b6745-a3e9-494f-a885-25438f8f7061/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

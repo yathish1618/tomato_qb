@@ -1,0 +1,31 @@
+{
+  "id": "0718b7b6-eb6f-46a6-8c4f-1f53b2394288",
+  "type": "MCQ",
+  "question": "The indefinite integral $\\displaystyle\\int\\frac{\\sqrt{x}}{\\sqrt{a^3-x^3}}dx$ equals",
+  "options": {
+    "A": "$\\displaystyle\\frac23\\sin^{-1}\\left(\\frac xa\\right)^{3/2}+C$, where $C$ is a constant",
+    "B": "$\\displaystyle\\cos^{-1}\\left(\\frac xa\\right)^{3/2}+C$, where $C$ is a constant",
+    "C": "$\\displaystyle\\frac23\\cos^{-1}\\left(\\frac xa\\right)^{3/2}+C$",
+    "D": "none of the foregoing functions"
+  },
+  "answer": "A",
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "tomato"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10+2 Level",
+    "file": "tomato.pdf",
+    "pages": [
+      135
+    ],
+    "question_number": 840,
+    "crop": "full_page"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

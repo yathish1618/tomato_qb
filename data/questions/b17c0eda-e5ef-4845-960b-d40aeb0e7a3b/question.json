@@ -1,0 +1,31 @@
+{
+  "id": "b17c0eda-e5ef-4845-960b-d40aeb0e7a3b",
+  "type": "MCQ",
+  "question": "If $\\theta$ is an acute angle, the maximal value of $3\\sin\\theta+4\\cos\\theta$ is",
+  "options": {
+    "A": "$4$",
+    "B": "$5$",
+    "C": "$5\\sqrt2$",
+    "D": "$3(1+\\sqrt3/2)$"
+  },
+  "answer": "B",
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "2010-bmath-admission-test-multiple-choice"
+  ],
+  "source": {
+    "title": "B.Math. (Hons.) Admission Test: 2010",
+    "file": "Tomato 16th Edition.pdf",
+    "pages": [
+      176
+    ],
+    "question_number": 17,
+    "crop": "questions/b17c0eda-e5ef-4845-960b-d40aeb0e7a3b/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

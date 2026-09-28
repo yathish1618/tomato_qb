@@ -1,0 +1,31 @@
+{
+  "id": "0dc3d3f1-75f5-496c-97a7-e9b38251e4a6",
+  "type": "MCQ",
+  "question": "Let $A$ and $C$ be two distinct points in the plane and $B$ a point on the line segment $AC$ such that $AB=2BC$. Then the locus of the point $P$ lying in the plane and satisfying the condition $AP^2+CP^2=2BP^2$ is",
+  "options": {
+    "A": "a straight line parallel to the line $AC$",
+    "B": "a straight line perpendicular to the line $AC$",
+    "C": "a circle passing through $A$ and $C$",
+    "D": "none of the foregoing curves"
+  },
+  "answer": "B",
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "tomato"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10+2 Level — Sixteenth Edition",
+    "file": "tomato.pdf",
+    "pages": [
+      95
+    ],
+    "question_number": 580,
+    "crop": "questions/0dc3d3f1-75f5-496c-97a7-e9b38251e4a6/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

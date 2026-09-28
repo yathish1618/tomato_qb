@@ -1,0 +1,31 @@
+{
+  "id": "fc744b05-92be-4392-801c-d418127845b0",
+  "type": "MCQ",
+  "question": "A man finds that at a point due south of a tower the angle of elevation of the tower is $60^\\circ$. He then walks due west $10\\sqrt6$ metres on a horizontal plane and finds that the angle of elevation of the tower at that point is $30^\\circ$. Then the original distance of the man from the tower is, in metres",
+  "options": {
+    "A": "$5\\sqrt3$",
+    "B": "$15\\sqrt3$",
+    "C": "15",
+    "D": "180"
+  },
+  "answer": "A",
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "tomato"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10+2 Level",
+    "file": "tomato.pdf",
+    "pages": [
+      107
+    ],
+    "question_number": 666,
+    "crop": "full_page"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

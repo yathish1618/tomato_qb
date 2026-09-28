@@ -1,0 +1,31 @@
+{
+  "id": "3d7e29de-7471-4ec3-b455-b3ea93bc3675",
+  "type": "MCQ",
+  "question": "If $(\\log_5 x)(\\log_x 3x)(\\log_{3x}y)=\\log_x x^3$, then $y$ equals",
+  "options": {
+    "A": "125",
+    "B": "25",
+    "C": "$\\frac53$",
+    "D": "243"
+  },
+  "answer": "A",
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "tomato"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10+2 Level — Sixteenth Edition",
+    "file": "tomato.pdf",
+    "pages": [
+      41
+    ],
+    "question_number": 214,
+    "crop": "questions/3d7e29de-7471-4ec3-b455-b3ea93bc3675/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

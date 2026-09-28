@@ -1,0 +1,31 @@
+{
+  "id": "de7169c5-167b-4723-8284-4364f77658ed",
+  "type": "MCQ",
+  "question": "For each natural number $k$, choose a complex number $z_k$ with $|z_k|=1$ and denote by $a_k$ the area of the triangle formed by $z_k,iz_k,z_k+iz_k$. Then, which of the following is true for the series $\\sum_{k=1}^{\\infty}(a_k)^k$?",
+  "options": {
+    "A": "It converges only if every $z_k$ lies in the same quadrant.",
+    "B": "It always diverges.",
+    "C": "It always converges.",
+    "D": "none of the above."
+  },
+  "answer": null,
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "bstat-bmath-uga-2019"
+  ],
+  "source": {
+    "title": "UGA 2019",
+    "file": "BStat-BMath-UGA-2019.pdf",
+    "pages": [
+      2
+    ],
+    "question_number": 8,
+    "crop": "questions/de7169c5-167b-4723-8284-4364f77658ed/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

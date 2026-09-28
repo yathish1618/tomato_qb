@@ -1,0 +1,31 @@
+{
+  "id": "69da6365-6610-4ab8-892a-b861e83e0334",
+  "type": "MCQ",
+  "question": "Let $\\{F_n\\}$ be the sequence of numbers defined by $F_1=1=F_2;\\ F_{n+1}=F_n+F_{n-1}$ for $n\\ge2$. Let $f_n$ be the remainder left when $F_n$ is divided by 5. Then $f_{2000}$ equals",
+  "options": {
+    "A": "0",
+    "B": "1",
+    "C": "2",
+    "D": "3"
+  },
+  "answer": "A",
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "tomato"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10+2 Level — Sixteenth Edition",
+    "file": "tomato.pdf",
+    "pages": [
+      57
+    ],
+    "question_number": 334,
+    "crop": "questions/69da6365-6610-4ab8-892a-b861e83e0334/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

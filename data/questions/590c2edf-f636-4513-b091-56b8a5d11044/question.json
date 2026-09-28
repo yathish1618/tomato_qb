@@ -1,0 +1,31 @@
+{
+  "id": "590c2edf-f636-4513-b091-56b8a5d11044",
+  "type": "MCQ",
+  "question": "The smallest positive solution of the equation $(81)^{\\sin^2x}+(81)^{\\cos^2x}=30$ is",
+  "options": {
+    "A": "$\\frac{\\pi}{12}$",
+    "B": "$\\frac{\\pi}{6}$",
+    "C": "$\\frac{\\pi}{8}$",
+    "D": "is none of the foregoing quantities"
+  },
+  "answer": "B",
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "tomato"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10+2 Level — Sixteenth Edition",
+    "file": "tomato.pdf",
+    "pages": [
+      47
+    ],
+    "question_number": 262,
+    "crop": "questions/590c2edf-f636-4513-b091-56b8a5d11044/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

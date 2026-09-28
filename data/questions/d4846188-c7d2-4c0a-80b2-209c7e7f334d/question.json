@@ -1,0 +1,31 @@
+{
+  "id": "d4846188-c7d2-4c0a-80b2-209c7e7f334d",
+  "type": "MCQ",
+  "question": "If $0<x<\\pi/2$, then",
+  "options": {
+    "A": "$\\cos(\\cos x)>\\sin x$",
+    "B": "$\\sin(\\sin x)>\\sin x$",
+    "C": "$\\sin(\\cos x)>\\cos x$",
+    "D": "$\\cos(\\sin x)>\\sin x$"
+  },
+  "answer": "A",
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "2009-bstat-admission-test-multiple-choice"
+  ],
+  "source": {
+    "title": "B.Stat. (Hons.) Admission Test: 2009",
+    "file": "Tomato 16th Edition.pdf",
+    "pages": [
+      161
+    ],
+    "question_number": 23,
+    "crop": "questions/d4846188-c7d2-4c0a-80b2-209c7e7f334d/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

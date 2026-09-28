@@ -1,0 +1,25 @@
+{
+  "id": "aee3cf10-beb1-4bfb-a205-f87c0dd7d173",
+  "type": "SUBJECTIVE",
+  "question": "Let $a$ and $b$ be real numbers. Define a function $f:\\mathbb R\\to\\mathbb R$ by the formula $f(x)=x^2+ax+b$. Assume that the graph of $f$ intersects the co-ordinate axes in three distinct points. Prove that the circle passing through these three points also passes through the point $(0,1)$.",
+  "answer": null,
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "2015-bstat-bmath-admission-test-short-answer-type"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10 + 2 Level",
+    "file": "Tomato 16th Edition(1).pdf",
+    "pages": [
+      284
+    ],
+    "question_number": 4,
+    "crop": "questions/aee3cf10-beb1-4bfb-a205-f87c0dd7d173/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

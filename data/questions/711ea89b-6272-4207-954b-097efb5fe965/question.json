@@ -1,0 +1,31 @@
+{
+  "id": "711ea89b-6272-4207-954b-097efb5fe965",
+  "type": "MCQ",
+  "question": "Let $C_1$ and $C_2$ be the circles given by the equations $x^2+y^2-4x-5=0$ and $x^2+y^2+8y+7=0$. Then the circle having the common chord of $C_1$ and $C_2$ as its diameter has",
+  "options": {
+    "A": "centre at $(-1,-1)$ and radius 2",
+    "B": "centre at $(1,-2)$ and radius $2\\sqrt3$",
+    "C": "centre at $(1,-2)$ and radius 2",
+    "D": "centre at $(3,-3)$ and radius 2"
+  },
+  "answer": "C",
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "tomato"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10+2 Level — Sixteenth Edition",
+    "file": "tomato.pdf",
+    "pages": [
+      91
+    ],
+    "question_number": 550,
+    "crop": "questions/711ea89b-6272-4207-954b-097efb5fe965/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

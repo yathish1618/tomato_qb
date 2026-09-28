@@ -1,0 +1,31 @@
+{
+  "id": "3c29cd2e-a3e5-4768-a6c2-9b840a8df090",
+  "type": "MCQ",
+  "question": "The difference between the roots of the equation $6x^2+\\alpha x+1=0$ is $\\frac16$. Further, $\\alpha$ is a positive number. Then the value of $\\alpha$ is",
+  "options": {
+    "A": "3",
+    "B": "4",
+    "C": "5",
+    "D": "$2\\frac13$"
+  },
+  "answer": "C",
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "tomato"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10+2 Level — Sixteenth Edition",
+    "file": "tomato.pdf",
+    "pages": [
+      57
+    ],
+    "question_number": 337,
+    "crop": "questions/3c29cd2e-a3e5-4768-a6c2-9b840a8df090/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

@@ -1,0 +1,31 @@
+{
+  "id": "df95a25f-146d-4b35-a895-ed10c8a46af9",
+  "type": "MCQ",
+  "question": "$\\lim_{x\\to\\infty}\\frac{20+2\\sqrt{x}+3\\sqrt[3]{x}}{2+\\sqrt{4x-3}+\\sqrt[3]{8x-4}}$ is",
+  "options": {
+    "A": "10",
+    "B": "$\\frac32$",
+    "C": "1",
+    "D": "0"
+  },
+  "answer": "C",
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "tomato"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10+2 Level",
+    "file": "tomato.pdf",
+    "pages": [
+      116
+    ],
+    "question_number": 716,
+    "crop": "full_page"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

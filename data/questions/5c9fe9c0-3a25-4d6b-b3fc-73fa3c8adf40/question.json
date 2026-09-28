@@ -1,0 +1,31 @@
+{
+  "id": "5c9fe9c0-3a25-4d6b-b3fc-73fa3c8adf40",
+  "type": "MCQ",
+  "question": "Consider the function \\(\\displaystyle f(x)=\\frac{2x^2+3x+1}{2x-1},\\quad 2\\le x\\le3.\\) Then",
+  "options": {
+    "A": "maximum of \\(f\\) is attained inside the interval \\((2,3)\\)",
+    "B": "minimum of \\(f\\) is \\(28/5\\)",
+    "C": "maximum of \\(f\\) is \\(28/5\\)",
+    "D": "\\(f\\) is a decreasing function in \\((2,3)\\)."
+  },
+  "answer": "C",
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "2012-bstat-bmath-admission-test-multiple-choice"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10 + 2 Level",
+    "file": "Tomato 16th Edition.pdf",
+    "pages": [
+      190
+    ],
+    "question_number": 9,
+    "crop": "questions/5c9fe9c0-3a25-4d6b-b3fc-73fa3c8adf40/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

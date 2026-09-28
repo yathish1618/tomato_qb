@@ -1,0 +1,25 @@
+{
+  "id": "119fe77f-a5d7-4410-a686-555da3499112",
+  "type": "SUBJECTIVE",
+  "question": "19. Prove that\n\\[\n{}_nC_0+{}_nC_3+{}_nC_6+\\cdots+{}_nC_{3k}\\le\\frac13(2^n+2),\n\\]\nwhere $n$ is a positive integer and $k$ is the largest integer for which $3k\\le n$.",
+  "answer": null,
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "tomato"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10 + 2 Level",
+    "file": "Tomato 16th Edition.pdf",
+    "pages": [
+      235
+    ],
+    "question_number": 19,
+    "crop": "questions/119fe77f-a5d7-4410-a686-555da3499112/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

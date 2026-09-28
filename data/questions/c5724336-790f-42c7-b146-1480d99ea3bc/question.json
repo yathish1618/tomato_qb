@@ -1,0 +1,31 @@
+{
+  "id": "c5724336-790f-42c7-b146-1480d99ea3bc",
+  "type": "MCQ",
+  "question": "The limit $\\lim_{x\\to0}\\frac1x\\left(\\cos x+\\cos\\frac1x-\\cos x\\cos\\frac1x-1\\right)$",
+  "options": {
+    "A": "equals $0$",
+    "B": "equals $1/2$",
+    "C": "equals $1$",
+    "D": "does not exist"
+  },
+  "answer": null,
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "bstat-bmath-uga-2023"
+  ],
+  "source": {
+    "title": "",
+    "file": "BStat-BMath-UGA-2023(1).pdf",
+    "pages": [
+      5
+    ],
+    "question_number": 14,
+    "crop": "questions/c5724336-790f-42c7-b146-1480d99ea3bc/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

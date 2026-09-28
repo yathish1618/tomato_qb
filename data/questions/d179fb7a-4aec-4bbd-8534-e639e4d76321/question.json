@@ -1,0 +1,31 @@
+{
+  "id": "d179fb7a-4aec-4bbd-8534-e639e4d76321",
+  "type": "MCQ",
+  "question": "In the following figure, $OAB$ is a quarter-circle. The unshaded region is a circle to which $OA$ and $CD$ are tangents. If $CD$ is of length $10$ and is parallel to $OA$, then the area of the shaded region in the above figure equals",
+  "options": {
+    "A": "$25\\pi$",
+    "B": "$50\\pi$",
+    "C": "$75\\pi$",
+    "D": "$100\\pi$"
+  },
+  "answer": null,
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "bstat-bmath-uga-2023"
+  ],
+  "source": {
+    "title": "",
+    "file": "BStat-BMath-UGA-2023(1).pdf",
+    "pages": [
+      7
+    ],
+    "question_number": 22,
+    "crop": "questions/d179fb7a-4aec-4bbd-8534-e639e4d76321/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

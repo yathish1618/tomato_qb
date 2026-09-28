@@ -1,0 +1,31 @@
+{
+  "id": "82742adb-0fa0-41f6-9000-99cd159be1ff",
+  "type": "MCQ",
+  "question": "\\(P\\) is a variable point on a circle \\(C\\) and \\(Q\\) is a fixed point outside of \\(C\\). \\(R\\) is a point on \\(PQ\\) dividing it in the ratio \\(p:q\\), where \\(p>0\\) and \\(q>0\\) are fixed. Then the locus of \\(R\\) is",
+  "options": {
+    "A": "a circle",
+    "B": "an ellipse",
+    "C": "a circle if \\(p=q\\) and an ellipse otherwise",
+    "D": "none of the foregoing curves"
+  },
+  "answer": "A",
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "tomato"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10+2 Level — Sixteenth Edition",
+    "file": "tomato.pdf",
+    "pages": [
+      78
+    ],
+    "question_number": 455,
+    "crop": "questions/82742adb-0fa0-41f6-9000-99cd159be1ff/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

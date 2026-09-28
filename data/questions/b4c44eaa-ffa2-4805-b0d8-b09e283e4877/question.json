@@ -1,0 +1,25 @@
+{
+  "id": "b4c44eaa-ffa2-4805-b0d8-b09e283e4877",
+  "type": "SUBJECTIVE",
+  "question": "(a) Let $n\\ge1$ be an integer. Prove that $X^n+Y^n+Z^n$ can be written as a polynomial with integer coefficients in the variables $\\alpha=X+Y+Z$, $\\beta=XY+YZ+ZX$ and $\\gamma=XYZ$. (b) Let $G_n=x^n\\sin(nA)+y^n\\sin(nB)+z^n\\sin(nC)$, where $x,y,z,A,B,C$ are real numbers such that $A+B+C$ is an integral multiple of $\\pi$. Using (a) or otherwise, show that if $G_1=G_2=0$, then $G_n=0$ for all positive integers $n.",
+  "answer": null,
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "bstat-bmath-ugb-2023"
+  ],
+  "source": {
+    "title": "",
+    "file": "BStat-BMath-UGB-2023.pdf",
+    "pages": [
+      3
+    ],
+    "question_number": 7,
+    "crop": "questions/b4c44eaa-ffa2-4805-b0d8-b09e283e4877/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

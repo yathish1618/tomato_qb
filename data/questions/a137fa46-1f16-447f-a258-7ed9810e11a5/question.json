@@ -1,0 +1,31 @@
+{
+  "id": "a137fa46-1f16-447f-a258-7ed9810e11a5",
+  "type": "MCQ",
+  "question": "$\\displaystyle\\int_0^1\\tan^{-1}x\\,dx$ is equal to",
+  "options": {
+    "A": "$\\frac\\pi4-\\log_e\\sqrt2$",
+    "B": "$\\frac\\pi4+\\log_e\\sqrt2$",
+    "C": "$\\frac\\pi4$",
+    "D": "$\\log_e\\sqrt2$"
+  },
+  "answer": "A",
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "tomato"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10+2 Level",
+    "file": "tomato.pdf",
+    "pages": [
+      135
+    ],
+    "question_number": 838,
+    "crop": "full_page"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

@@ -1,0 +1,31 @@
+{
+  "id": "eeffb0c0-97de-4f31-9f2c-e7f19de485e8",
+  "type": "MCQ",
+  "question": "Let $\\theta$ be an angle in the second quadrant (that is, $90^\\circ\\leq\\theta<180^\\circ$) with $\\tan\\theta=-\\frac23$. Then the value of\n\\[\n\\frac{\\tan(90^\\circ+\\theta)+\\cos(180^\\circ+\\theta)}\n{\\sin(270^\\circ-\\theta)-\\cot(-\\theta)}\n\\]\nis",
+  "options": {
+    "A": "$\\frac{2+\\sqrt{13}}{2-\\sqrt{13}}$",
+    "B": "$\\frac{2-\\sqrt{13}}{2+\\sqrt{13}}$",
+    "C": "$\\frac{2+\\sqrt{39}}{2-\\sqrt{39}}$",
+    "D": "$2+3\\sqrt{13}$"
+  },
+  "answer": "A",
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "tomato"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10+2 Level — Sixteenth Edition",
+    "file": "tomato.pdf",
+    "pages": [
+      98
+    ],
+    "question_number": 598,
+    "crop": "questions/eeffb0c0-97de-4f31-9f2c-e7f19de485e8/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

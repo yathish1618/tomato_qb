@@ -1,0 +1,31 @@
+{
+  "id": "272b69d9-d16c-4cdd-ae61-8f43d1a8b9a4",
+  "type": "MCQ",
+  "question": "Let $p$ be an odd prime number. Then the number of positive integers $k$ with $1<k<p$, for which $k^2$ leaves a remainder of 1 when divided by $p$, is",
+  "options": {
+    "A": "2",
+    "B": "1",
+    "C": "p-1",
+    "D": "$\\frac{p-1}{2}$"
+  },
+  "answer": "B",
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "tomato"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10+2 Level — Sixteenth Edition",
+    "file": "tomato.pdf",
+    "pages": [
+      32
+    ],
+    "question_number": 150,
+    "crop": "questions/272b69d9-d16c-4cdd-ae61-8f43d1a8b9a4/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

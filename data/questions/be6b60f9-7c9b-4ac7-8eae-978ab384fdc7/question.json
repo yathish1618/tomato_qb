@@ -1,0 +1,25 @@
+{
+  "id": "be6b60f9-7c9b-4ac7-8eae-978ab384fdc7",
+  "type": "SUBJECTIVE",
+  "question": "A pair of complex numbers \\(z_1,z_2\\) is said to have property \\(P\\) if for every complex number \\(z\\), we can find real numbers \\(r\\) and \\(s\\) such that \\(z=rz_1+sz_2\\). Show that a pair \\(z_1,z_2\\) has property \\(P\\) if and only if the points \\(z_1,z_2\\) and \\(0\\) on the complex plane are not collinear.",
+  "answer": null,
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "tomato"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10 + 2 Level",
+    "file": "Tomato 16th Edition.pdf",
+    "pages": [
+      243
+    ],
+    "question_number": 88,
+    "crop": "questions/be6b60f9-7c9b-4ac7-8eae-978ab384fdc7/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

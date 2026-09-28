@@ -1,0 +1,25 @@
+{
+  "id": "eb096e4f-0282-49a7-a175-72a99e45399c",
+  "type": "SUBJECTIVE",
+  "question": "Suppose $n\\ge2$. Consider the polynomial $Q_n(x)=1-x^n-(1-x)^n$. Show that the equation $Q_n(x)=0$ has only two real roots, namely $0$ and $1$.",
+  "answer": null,
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "bstat-bmath-ugb-2024"
+  ],
+  "source": {
+    "title": "",
+    "file": "BStat-BMath-UGB-2024.pdf",
+    "pages": [
+      1
+    ],
+    "question_number": 2,
+    "crop": "questions/eb096e4f-0282-49a7-a175-72a99e45399c/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

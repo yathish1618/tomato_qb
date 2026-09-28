@@ -1,0 +1,32 @@
+{
+  "id": "989d6064-5639-47b2-b567-9409fce28273",
+  "type": "MCQ",
+  "question": "A function $f$ is said to be odd if $f(-x)=-f(x)$ for all $x$. Which of the following is not odd?",
+  "options": {
+    "A": "A function $f$ such that $f(x+y)=f(x)+f(y)$ for all $x,y$",
+    "B": "$f(x)=\\frac{xe^{x/2}}{1+e^x}$",
+    "C": "$f(x)=x-[x]$, where $[x]$ denotes the greatest integer which is less than or equal to $x$",
+    "D": "$f(x)=x^2\\sin x+x^3\\cos x$"
+  },
+  "answer": "C",
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "tomato"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10+2 Level",
+    "file": "tomato.pdf",
+    "pages": [
+      114,
+      115
+    ],
+    "question_number": 707,
+    "crop": "full_page"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

@@ -1,0 +1,25 @@
+{
+  "id": "724bce63-cb71-41e4-8e5e-f613e7c5f15b",
+  "type": "SUBJECTIVE",
+  "question": "Let $a,b,c\\in\\mathbb N$ be such that $a^2+b^2=c^2$ and $c-b=1$. Prove that (i) $a$ is odd, (ii) $b$ is divisible by $4$, (iii) $a^b+b^a$ is divisible by $c$.",
+  "answer": null,
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "bstat-bmath-ugb-2018"
+  ],
+  "source": {
+    "title": "",
+    "file": "BStat-BMath-UGB-2018.pdf",
+    "pages": [
+      2
+    ],
+    "question_number": 7,
+    "crop": "questions/724bce63-cb71-41e4-8e5e-f613e7c5f15b/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

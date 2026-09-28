@@ -1,0 +1,25 @@
+{
+  "id": "c8528c94-6fcc-4293-99ed-72d627c4bbb1",
+  "type": "SUBJECTIVE",
+  "question": "If \\(f(x)\\) is a real-valued function of a real variable \\(x\\), such that \\(2f(x)+3f(-x)=15-4x\\) for all \\(x\\), find the function \\(f(x)\\).",
+  "answer": null,
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "tomato"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10 + 2 Level",
+    "file": "Tomato 16th Edition.pdf",
+    "pages": [
+      241
+    ],
+    "question_number": 64,
+    "crop": "questions/c8528c94-6fcc-4293-99ed-72d627c4bbb1/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

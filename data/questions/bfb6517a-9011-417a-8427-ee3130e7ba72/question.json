@@ -1,0 +1,31 @@
+{
+  "id": "bfb6517a-9011-417a-8427-ee3130e7ba72",
+  "type": "MCQ",
+  "question": "How many integers $n$ are there such that $1\\le n\\le1000$ and the highest common factor of $n$ and 36 is 1?",
+  "options": {
+    "A": "333;",
+    "B": "667;",
+    "C": "166;",
+    "D": "361."
+  },
+  "answer": "A",
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "2008-bmath-admission-test-multiple-choice"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10 + 2 Level",
+    "file": "Tomato 16th Edition.pdf",
+    "pages": [
+      153
+    ],
+    "question_number": 3,
+    "crop": "questions/bfb6517a-9011-417a-8427-ee3130e7ba72/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

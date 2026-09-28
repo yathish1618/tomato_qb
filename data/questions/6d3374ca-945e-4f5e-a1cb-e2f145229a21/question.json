@@ -1,0 +1,31 @@
+{
+  "id": "6d3374ca-945e-4f5e-a1cb-e2f145229a21",
+  "type": "MCQ",
+  "question": "Suppose $f:\\mathbb Z\\to\\mathbb Z$ is a non-decreasing function. Consider the following two cases: Case 1: $f(0)=2, f(10)=8$. Case 2: $f(0)=-2, f(10)=12$. In which of the above cases is it necessarily true that there exists an $n$ with $f(n)=n$?",
+  "options": {
+    "A": "In both cases.",
+    "B": "In neither case.",
+    "C": "In Case 1, but not necessarily in Case 2.",
+    "D": "In Case 2, but not necessarily in Case 1."
+  },
+  "answer": null,
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "bstat-bmath-uga-2023"
+  ],
+  "source": {
+    "title": "",
+    "file": "BStat-BMath-UGA-2023(1).pdf",
+    "pages": [
+      10
+    ],
+    "question_number": 29,
+    "crop": "questions/6d3374ca-945e-4f5e-a1cb-e2f145229a21/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

@@ -1,0 +1,31 @@
+{
+  "id": "586c370e-c6dd-40ea-bd11-6ba713b617e9",
+  "type": "MCQ",
+  "question": "The function $f(x)=\\begin{cases}\\frac{1-\\cos4x}{x^2},&x<0,\\\\a,&x=0,\\\\\\frac{2\\sqrt{x}}{\\sqrt{16+\\sqrt{x}}-4},&x>0\\end{cases}$ is continuous at $x=0$ for",
+  "options": {
+    "A": " $a=8$",
+    "B": "$a=4$",
+    "C": "$a=16$",
+    "D": "no value of $a$"
+  },
+  "answer": "D",
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "tomato"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10+2 Level",
+    "file": "tomato.pdf",
+    "pages": [
+      121
+    ],
+    "question_number": 746,
+    "crop": "full_page"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

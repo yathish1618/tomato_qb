@@ -1,0 +1,31 @@
+{
+  "id": "a1124cc5-4984-485f-b33c-7cc26cba3006",
+  "type": "MCQ",
+  "question": "For real numbers $a,b,c,d,a^\\prime,b^\\prime,c^\\prime,d^\\prime$, consider the system $ax^2+ay^2+bx+cy+d=0$, $a^\\prime x^2+a^\\prime y^2+b^\\prime x+c^\\prime y+d^\\prime=0$. If $S$ denotes the set of all real solutions $(x,y)$ of the above system of equations, then the number of elements in $S$ can never be",
+  "options": {
+    "A": "$0$",
+    "B": "$1$",
+    "C": "$2$",
+    "D": "$3$"
+  },
+  "answer": null,
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "bstat-bmath-uga-2023"
+  ],
+  "source": {
+    "title": "",
+    "file": "BStat-BMath-UGA-2023(1).pdf",
+    "pages": [
+      4
+    ],
+    "question_number": 13,
+    "crop": "questions/a1124cc5-4984-485f-b33c-7cc26cba3006/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

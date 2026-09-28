@@ -1,0 +1,31 @@
+{
+  "id": "27f9e19c-77c3-4b26-8606-98da64275a2a",
+  "type": "MCQ",
+  "question": "The number of distinct positive integers that can be formed using 0, 1, 2, 4 where each integer is used at most once is equal to",
+  "options": {
+    "A": "48",
+    "B": "84",
+    "C": "64",
+    "D": "36"
+  },
+  "answer": "A",
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "tomato"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10+2 Level — Sixteenth Edition",
+    "file": "tomato.pdf",
+    "pages": [
+      30
+    ],
+    "question_number": 135,
+    "crop": "questions/27f9e19c-77c3-4b26-8606-98da64275a2a/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

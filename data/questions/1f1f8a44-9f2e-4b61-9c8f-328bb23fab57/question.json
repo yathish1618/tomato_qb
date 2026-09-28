@@ -1,0 +1,25 @@
+{
+  "id": "1f1f8a44-9f2e-4b61-9c8f-328bb23fab57",
+  "type": "SUBJECTIVE",
+  "question": "Let \\(f:N\\to N\\) be the function defined by \\(f(0)=0\\), \\(f(1)=1\\), and \\(f(n)=f(n-1)+f(n-2)\\) for \\(n\\ge2\\), where \\(N\\) is the set of all non-negative integers. Prove the following results:\n\n(i) \\(f(n)<f(n+1)\\) for all \\(n\\ge2\\).\n\n(ii) There exist precisely four non-negative integers \\(n\\) for which \\(f(f(n))=f(n)\\).\n\n(iii) \\(f(5n)\\) is divisible by 5, for all \\(n\\).",
+  "answer": null,
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "tomato"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10 + 2 Level",
+    "file": "Tomato 16th Edition.pdf",
+    "pages": [
+      248
+    ],
+    "question_number": 125,
+    "crop": "questions/1f1f8a44-9f2e-4b61-9c8f-328bb23fab57/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

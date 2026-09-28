@@ -1,0 +1,31 @@
+{
+  "id": "b8a5f680-0e9a-4b1c-bb44-7f09cbd7ab64",
+  "type": "MCQ",
+  "question": "The value of $4^2+2\\cdot5^2+3\\cdot6^2+\\cdots+27\\cdot30^2$ is",
+  "options": {
+    "A": "187854",
+    "B": "187860",
+    "C": "187868",
+    "D": "187866"
+  },
+  "answer": "D",
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "tomato"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10+2 Level — Sixteenth Edition",
+    "file": "tomato.pdf",
+    "pages": [
+      56
+    ],
+    "question_number": 326,
+    "crop": "questions/b8a5f680-0e9a-4b1c-bb44-7f09cbd7ab64/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

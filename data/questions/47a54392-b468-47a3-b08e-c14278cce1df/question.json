@@ -1,0 +1,25 @@
+{
+  "id": "47a54392-b468-47a3-b08e-c14278cce1df",
+  "type": "SUBJECTIVE",
+  "question": "Sketch on plain paper, the graph of the function \\(y=\\sin(x^2)\\), in the range \\(0\\le x\\le\\sqrt{4\\pi}\\).",
+  "answer": null,
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "tomato"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10 + 2 Level",
+    "file": "Tomato 16th Edition.pdf",
+    "pages": [
+      248
+    ],
+    "question_number": 122,
+    "crop": "questions/47a54392-b468-47a3-b08e-c14278cce1df/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

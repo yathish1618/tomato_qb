@@ -1,0 +1,31 @@
+{
+  "id": "0d4f2d4e-814e-4879-8d22-d8012a58f821",
+  "type": "MCQ",
+  "question": "Suppose $A,B$ are matrices satisfying $AB+BA=0$. Then $A^5B^2$ is equal to",
+  "options": {
+    "A": "$0$",
+    "B": "$B^2A^5$",
+    "C": "$-B^2A^5$",
+    "D": "$AB$"
+  },
+  "answer": "B",
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "2009-bmath-admission-test-multiple-choice"
+  ],
+  "source": {
+    "title": "B.Math. (Hons.) Admission Test: 2009",
+    "file": "Tomato 16th Edition.pdf",
+    "pages": [
+      165
+    ],
+    "question_number": 14,
+    "crop": "questions/0d4f2d4e-814e-4879-8d22-d8012a58f821/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

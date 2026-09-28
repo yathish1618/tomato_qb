@@ -1,0 +1,25 @@
+{
+  "id": "d57d6ec6-430d-4f71-8cc0-7e559f43b8d3",
+  "type": "SUBJECTIVE",
+  "question": "Draw the graph (on plain paper) of\n\\[\nf(x)=\\min\\{|x|-1,\\ |x-1|-1,\\ |x-2|-1\\}.\n\\]",
+  "answer": null,
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "tomato"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10 + 2 Level",
+    "file": "Tomato 16th Edition.pdf",
+    "pages": [
+      248
+    ],
+    "question_number": 128,
+    "crop": "questions/d57d6ec6-430d-4f71-8cc0-7e559f43b8d3/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

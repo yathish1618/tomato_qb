@@ -1,0 +1,31 @@
+{
+  "id": "86cbf730-cbc8-40d5-b3e5-5d1bfd3b7a44",
+  "type": "MCQ",
+  "question": "Consider the following two statements: (I) There exists a differentiable function $g:\\mathbb R\\to\\mathbb R$ such that $g(x^3+x^5)=e^x-100$. (II) There exists a continuous function $g:\\mathbb R\\to\\mathbb R$ such that $g(e^x)=x^3+x^5$. Then",
+  "options": {
+    "A": "Only (I) is correct.",
+    "B": "Only (II) is correct.",
+    "C": "Both (I) and (II) are correct.",
+    "D": "Neither (I) nor (II) is correct."
+  },
+  "answer": null,
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "bstat-bmath-uga-2024"
+  ],
+  "source": {
+    "title": "",
+    "file": "BStat-BMath-UGA-2024(1).pdf",
+    "pages": [
+      7
+    ],
+    "question_number": 29,
+    "crop": "questions/86cbf730-cbc8-40d5-b3e5-5d1bfd3b7a44/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

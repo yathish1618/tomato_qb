@@ -1,0 +1,27 @@
+{
+  "id": "23b76c8a-6816-4341-8529-3840774e1ad9",
+  "type": "SUBJECTIVE",
+  "question": "Let $ABC$ be any triangle and let $O$ be a point on the line segment $BC$. Show that there exists a line parallel to $AO$ which divides the triangle $ABC$ into two equal parts of equal area. (See the figure in the next page.)",
+  "answer": null,
+  "solution": null,
+  "marks": 1,
+  "figures": [
+    "questions/23b76c8a-6816-4341-8529-3840774e1ad9/figures/figure.png"
+  ],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "2011-bmath-admission-test-short-answer-type"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10 + 2 Level",
+    "file": "Tomato 16th Edition(1).pdf",
+    "pages": [
+      277
+    ],
+    "question_number": 7,
+    "crop": "questions/23b76c8a-6816-4341-8529-3840774e1ad9/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

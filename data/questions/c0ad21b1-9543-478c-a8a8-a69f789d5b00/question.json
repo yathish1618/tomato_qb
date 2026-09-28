@@ -1,0 +1,31 @@
+{
+  "id": "c0ad21b1-9543-478c-a8a8-a69f789d5b00",
+  "type": "MCQ",
+  "question": "A unit square has its corners chopped off to form a regular polygon with eight sides. What is the area of this polygon?",
+  "options": {
+    "A": "$2(\\sqrt{3}-\\sqrt{2})$",
+    "B": "$2\\sqrt{2}-2$",
+    "C": "$\\frac{\\sqrt{2}}{2}$",
+    "D": "$\\frac{7}{9}$."
+  },
+  "answer": null,
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "bstat-bmath-uga-2017"
+  ],
+  "source": {
+    "title": "",
+    "file": "BStat-BMath-UGA-2017.pdf",
+    "pages": [
+      1
+    ],
+    "question_number": 2,
+    "crop": "questions/c0ad21b1-9543-478c-a8a8-a69f789d5b00/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

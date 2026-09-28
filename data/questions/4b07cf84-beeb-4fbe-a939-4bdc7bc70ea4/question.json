@@ -1,0 +1,25 @@
+{
+  "id": "4b07cf84-beeb-4fbe-a939-4bdc7bc70ea4",
+  "type": "SUBJECTIVE",
+  "question": "Let \\(P(x)=x^n+a_{n-1}x^{n-1}+a_{n-2}x^{n-2}+\\cdots+a_1x+a_0\\) be a polynomial with integer coefficients, such that \\(P(0)\\) and \\(P(1)\\) are odd integers. Show that:\n\n(a) \\(P(x)\\) does not have any even integer roots.\n\n(b) \\(P(x)\\) does not have any odd integer roots.",
+  "answer": null,
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "tomato"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10 + 2 Level",
+    "file": "Tomato 16th Edition.pdf",
+    "pages": [
+      255
+    ],
+    "question_number": 175,
+    "crop": "questions/4b07cf84-beeb-4fbe-a939-4bdc7bc70ea4/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

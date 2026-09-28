@@ -1,0 +1,25 @@
+{
+  "id": "94387416-3a29-41c4-96aa-f8817b8de88b",
+  "type": "SUBJECTIVE",
+  "question": "Let \\(E\\) be the ellipse with centre at origin \\(O\\) whose major and minor axes are of length \\(2a\\) and \\(2b\\) respectively. Let \\(\\theta\\) be the acute angle at which \\(E\\) is cut by a circle with centre at the origin (i.e., \\(\\theta\\) is the acute angle of intersection of their tangents at a point of intersection). Prove that the maximum possible value of \\(\\theta\\) is \\(\\tan^{-1}\\!\\left(\\frac{a^2-b^2}{2ab}\\right)\\).",
+  "answer": null,
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "tomato"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10 + 2 Level",
+    "file": "Tomato 16th Edition.pdf",
+    "pages": [
+      245
+    ],
+    "question_number": 101,
+    "crop": "questions/94387416-3a29-41c4-96aa-f8817b8de88b/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

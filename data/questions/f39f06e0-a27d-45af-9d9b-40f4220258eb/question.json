@@ -1,0 +1,31 @@
+{
+  "id": "f39f06e0-a27d-45af-9d9b-40f4220258eb",
+  "type": "MCQ",
+  "question": "Let $1,4,\\ldots$ and $9,14,\\ldots$ be two arithmetic progressions. Then the number of distinct integers in the collection of first $500$ terms of each of the progressions is",
+  "options": {
+    "A": "$833$",
+    "B": "$835$",
+    "C": "$837$",
+    "D": "$901$"
+  },
+  "answer": "D",
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "2009-bstat-admission-test-multiple-choice"
+  ],
+  "source": {
+    "title": "B.Stat. (Hons.) Admission Test: 2009",
+    "file": "Tomato 16th Edition.pdf",
+    "pages": [
+      159
+    ],
+    "question_number": 12,
+    "crop": "questions/f39f06e0-a27d-45af-9d9b-40f4220258eb/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

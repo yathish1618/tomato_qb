@@ -1,0 +1,31 @@
+{
+  "id": "e143f03f-0893-433f-b7ef-1125d857ab90",
+  "type": "MCQ",
+  "question": "Let $A=(-4,0)$ and $B=(4,0)$. Let $M$ and $N$ be points on the $y$-axis, with $M$ below $N$, and $MN=4$. Let $P$ be the point of intersection of $AM$ and $BN$. This is illustrated in the figure. Then the locus of $P$ is",
+  "options": {
+    "A": "$x^2-2xy=16$",
+    "B": "$x^2+2xy=16$",
+    "C": "$x^2+2xy+y^2=64$",
+    "D": "$x^2-2xy+y^2=64$"
+  },
+  "answer": "B",
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "tomato"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10+2 Level — Sixteenth Edition",
+    "file": "tomato.pdf",
+    "pages": [
+      94
+    ],
+    "question_number": 571,
+    "crop": "questions/e143f03f-0893-433f-b7ef-1125d857ab90/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

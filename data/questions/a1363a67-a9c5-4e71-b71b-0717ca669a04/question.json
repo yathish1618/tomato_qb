@@ -1,0 +1,31 @@
+{
+  "id": "a1363a67-a9c5-4e71-b71b-0717ca669a04",
+  "type": "MCQ",
+  "question": "Let \\(S(k)\\) denote the set of all one-to-one and onto functions from \\(\\{1,2,3,\\ldots,k\\}\\) to itself. Let \\(p,q\\) be positive integers. Let \\(S(p,q)\\) be the set of all \\(\\tau\\) in \\(S(p+q)\\) such that \\(\\tau(1)<\\tau(2)<\\cdots<\\tau(p)\\) and \\(\\tau(p+1)<\\tau(p+2)<\\cdots<\\tau(p+q)\\). The number of elements in the set \\(S(13,29)\\) is",
+  "options": {
+    "A": "377",
+    "B": "\\(42!\\)",
+    "C": "\\(\\binom{42}{13}\\)",
+    "D": "\\(\\frac{42!}{29!}\\)"
+  },
+  "answer": "C",
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "2016-bstat-bmath-admission-test-multiple-choice"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10 + 2 Level",
+    "file": "Tomato 16th Edition.pdf",
+    "pages": [
+      211
+    ],
+    "question_number": 11,
+    "crop": "questions/a1363a67-a9c5-4e71-b71b-0717ca669a04/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

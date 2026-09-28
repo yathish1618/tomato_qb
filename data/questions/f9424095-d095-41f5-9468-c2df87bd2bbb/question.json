@@ -1,0 +1,25 @@
+{
+  "id": "f9424095-d095-41f5-9468-c2df87bd2bbb",
+  "type": "SUBJECTIVE",
+  "question": "Let $i$ be a root of the equation $x^2+1=0$ and let $\\omega$ be a root of the equation $x^2+x+1=0$. Construct a polynomial $f(x)=a_0+a_1x+\\cdots+a_nx^n$ where $a_0,a_1,\\ldots,a_n$ are all integers such that $f(i+\\omega)=0$.",
+  "answer": null,
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "bstat-bmath-ugb-2020"
+  ],
+  "source": {
+    "title": "",
+    "file": "BStat-BMath-UGB-2020.pdf",
+    "pages": [
+      1
+    ],
+    "question_number": 1,
+    "crop": "questions/f9424095-d095-41f5-9468-c2df87bd2bbb/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

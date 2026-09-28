@@ -1,0 +1,31 @@
+{
+  "id": "6f37de35-1d5c-49a2-b1b2-63b4b65b4e6e",
+  "type": "MCQ",
+  "question": "The value of $1\\cdot2\\cdot3+2\\cdot3\\cdot4+3\\cdot4\\cdot5+\\cdots+20\\cdot21\\cdot22$ equals",
+  "options": {
+    "A": "51330",
+    "B": "53130",
+    "C": "53310",
+    "D": "35130"
+  },
+  "answer": "B",
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "tomato"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10+2 Level — Sixteenth Edition",
+    "file": "tomato.pdf",
+    "pages": [
+      53
+    ],
+    "question_number": 303,
+    "crop": "questions/6f37de35-1d5c-49a2-b1b2-63b4b65b4e6e/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

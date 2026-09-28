@@ -1,0 +1,31 @@
+{
+  "id": "b32a34ad-4c0c-4c2b-a385-53f6510b5d8b",
+  "type": "MCQ",
+  "question": "Two circles are said to cut each other orthogonally if the tangents at a point of intersection are perpendicular to each other. The locus of the center of a circle that cuts the circle $x^2+y^2=1$ orthogonally and touches the line $x=2$ is",
+  "options": {
+    "A": "a pair of straight lines",
+    "B": "an ellipse",
+    "C": "a hyperbola",
+    "D": "a parabola"
+  },
+  "answer": "D",
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "tomato"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10+2 Level — Sixteenth Edition",
+    "file": "tomato.pdf",
+    "pages": [
+      92
+    ],
+    "question_number": 556,
+    "crop": "questions/b32a34ad-4c0c-4c2b-a385-53f6510b5d8b/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

@@ -1,0 +1,25 @@
+{
+  "id": "ed658a90-28f3-47f0-a2a2-11b2c933c5d7",
+  "type": "SUBJECTIVE",
+  "question": "Let $P(x)$ be an odd degree polynomial in $x$ with real coefficients. Show that the equation $P(P(x))=0$ has at least as many distinct real roots as the equation $P(x)=0$.",
+  "answer": null,
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "bstat-bmath-ugb-2022"
+  ],
+  "source": {
+    "title": "",
+    "file": "BStat-BMath-UGB-2022.pdf",
+    "pages": [
+      1
+    ],
+    "question_number": 4,
+    "crop": "questions/ed658a90-28f3-47f0-a2a2-11b2c933c5d7/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

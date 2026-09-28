@@ -1,0 +1,32 @@
+{
+  "id": "46196e63-9626-40b3-81eb-233717df19d5",
+  "type": "MCQ",
+  "question": "There are $N$ boxes, each containing at most $r$ balls. If the number of boxes containing at least $i$ balls is $N_i$ for $i=1,2,\\ldots,r$, then the total number of balls contained in these $N$ boxes",
+  "options": {
+    "A": "cannot be determined from the given information",
+    "B": "is exactly equal to $N_1+N_2+\\\\cdots+N_r$",
+    "C": "is strictly larger than $N_1+N_2+\\\\cdots+N_r$",
+    "D": "is strictly smaller than $N_1+N_2+\\\\cdots+N_r$"
+  },
+  "answer": "B",
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "tomato"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10+2 Level — Sixteenth Edition",
+    "file": "tomato.pdf",
+    "pages": [
+      29,
+      30
+    ],
+    "question_number": 129,
+    "crop": "questions/46196e63-9626-40b3-81eb-233717df19d5/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

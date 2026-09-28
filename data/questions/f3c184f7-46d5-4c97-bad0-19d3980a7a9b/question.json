@@ -1,0 +1,31 @@
+{
+  "id": "f3c184f7-46d5-4c97-bad0-19d3980a7a9b",
+  "type": "MCQ",
+  "question": "The minimum value of the quantity \\(\\dfrac{(a^2+3a+1)(b^2+3b+1)(c^2+3c+1)}{abc}\\), where \\(a,b,c\\) are positive real numbers, is",
+  "options": {
+    "A": "\\(\\frac{11^3}{23}\\)",
+    "B": "125",
+    "C": "25",
+    "D": "27"
+  },
+  "answer": "B",
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "tomato"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10+2 Level — Sixteenth Edition",
+    "file": "tomato.pdf",
+    "pages": [
+      65
+    ],
+    "question_number": 390,
+    "crop": "questions/f3c184f7-46d5-4c97-bad0-19d3980a7a9b/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

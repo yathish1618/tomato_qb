@@ -1,0 +1,25 @@
+{
+  "id": "95aca5e3-6961-4129-82a2-a223b3c95540",
+  "type": "SUBJECTIVE",
+  "question": "Prove that in each year, the 13th day of some month occurs on a Friday.",
+  "answer": null,
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "2010-bmath-admission-test-short-answer-type"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10 + 2 Level",
+    "file": "Tomato 16th Edition(1).pdf",
+    "pages": [
+      273
+    ],
+    "question_number": 1,
+    "crop": "questions/95aca5e3-6961-4129-82a2-a223b3c95540/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

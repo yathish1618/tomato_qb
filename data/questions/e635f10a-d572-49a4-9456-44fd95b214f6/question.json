@@ -1,0 +1,31 @@
+{
+  "id": "e635f10a-d572-49a4-9456-44fd95b214f6",
+  "type": "MCQ",
+  "question": "$ABCD$ is a fixed rectangle with $AB=2$ cm and $BC=4$ cm. $PQRS$ is a rectangle such that $A,B,C,D$ lie on $PQ,QR,RS$ and $SP$ respectively. Then the maximum possible area of $PQRS$ is",
+  "options": {
+    "A": "$16\\text{ cm}^2$",
+    "B": "$18\\text{ cm}^2$",
+    "C": "$20\\text{ cm}^2$",
+    "D": "$22\\text{ cm}^2$"
+  },
+  "answer": "B",
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "tomato"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10+2 Level",
+    "file": "tomato.pdf",
+    "pages": [
+      128
+    ],
+    "question_number": 790,
+    "crop": "full_page"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

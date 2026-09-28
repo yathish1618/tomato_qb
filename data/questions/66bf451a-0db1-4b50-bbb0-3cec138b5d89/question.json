@@ -1,0 +1,25 @@
+{
+  "id": "66bf451a-0db1-4b50-bbb0-3cec138b5d89",
+  "type": "SUBJECTIVE",
+  "question": "Suppose $f:\\mathbb R\\to\\mathbb R$ is differentiable and $|f'(x)|<\\frac12$ for all $x\\in\\mathbb R$. Show that for some $x_0\\in\\mathbb R$, $f(x_0)=x_0$. [10 points]",
+  "answer": null,
+  "solution": null,
+  "marks": 10,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "bstat-bmath-ugb-2026"
+  ],
+  "source": {
+    "title": "UGB",
+    "file": "BStat-BMath-UGB-2026.pdf",
+    "pages": [
+      1
+    ],
+    "question_number": 1,
+    "crop": "questions/66bf451a-0db1-4b50-bbb0-3cec138b5d89/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

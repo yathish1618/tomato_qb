@@ -1,0 +1,25 @@
+{
+  "id": "c738c0a0-b12d-40ab-8635-1434a5f00b63",
+  "type": "SUBJECTIVE",
+  "question": "Find the maximum and minimum values of the function \\(f(x)=x^2-x\\sin x\\), in the closed interval \\([0,\\pi/2]\\).",
+  "answer": null,
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "tomato"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10 + 2 Level",
+    "file": "Tomato 16th Edition.pdf",
+    "pages": [
+      252
+    ],
+    "question_number": 154,
+    "crop": "questions/c738c0a0-b12d-40ab-8635-1434a5f00b63/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

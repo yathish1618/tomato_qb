@@ -1,0 +1,31 @@
+{
+  "id": "12928381-b2ff-46d5-b822-21b716ee7ce4",
+  "type": "MCQ",
+  "question": "For a set \\(X\\), let \\(P(X)\\) denote the set of all subsets of \\(X\\). Consider the following statements:\n\\[\n\\begin{aligned}\n\\text{(I)}&\\quad P(A)\\cap P(B)=P(A\\cap B),\\\\\n\\text{(II)}&\\quad P(A)\\cup P(B)=P(A\\cup B),\\\\\n\\text{(III)}&\\quad P(A)=P(B)\\Rightarrow A=B,\\\\\n\\text{(IV)}&\\quad P(\\varnothing)=\\varnothing.\n\\end{aligned}\n\\]\nThen",
+  "options": {
+    "A": "All the statements are true",
+    "B": "(I), (II), (III) are true and (IV) is false",
+    "C": "(I), (III) are true and (II), (IV) are false",
+    "D": "(II), (III), (IV) are true and (I) is false."
+  },
+  "answer": "C",
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "2016-bstat-bmath-admission-test-multiple-choice"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10 + 2 Level",
+    "file": "Tomato 16th Edition.pdf",
+    "pages": [
+      214
+    ],
+    "question_number": 25,
+    "crop": "questions/12928381-b2ff-46d5-b822-21b716ee7ce4/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

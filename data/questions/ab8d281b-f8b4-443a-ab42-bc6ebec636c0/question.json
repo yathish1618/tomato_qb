@@ -1,0 +1,25 @@
+{
+  "id": "ab8d281b-f8b4-443a-ab42-bc6ebec636c0",
+  "type": "SUBJECTIVE",
+  "question": "Consider a sequence $P_1,P_2,\\ldots$ of points in the plane such that $P_1,P_2,P_3$ are non-collinear and for every $n\\ge4$, $P_n$ is the mid-point of the line segment joining $P_{n-2}$ and $P_{n-3}$. Let $L$ denote the line segment joining $P_1$ and $P_5$. Prove the following: (a) The area of the triangle formed by the points $P_n,P_{n-1},P_{n-2}$ converges to zero as $n$ goes to infinity. (b) The point $P_9$ lies on $L.",
+  "answer": null,
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "bstat-bmath-ugb-2022"
+  ],
+  "source": {
+    "title": "",
+    "file": "BStat-BMath-UGB-2022.pdf",
+    "pages": [
+      2
+    ],
+    "question_number": 6,
+    "crop": "questions/ab8d281b-f8b4-443a-ab42-bc6ebec636c0/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

@@ -1,0 +1,25 @@
+{
+  "id": "49a87d79-32af-4f24-ba10-09215989177a",
+  "type": "SUBJECTIVE",
+  "question": "In a competition, six teams \\(A,B,C,D,E,F\\) play each other in the preliminary round—called round robin tournament. Each game ends either in a win or a loss. The winner is awarded two points while the loser is awarded zero points. After the round robin tournament, the three teams with the highest scores move to the final round. Based on the following information, find the score of each team at the end of the round robin tournament.\n\n(i) In the game between \\(E\\) and \\(F\\), team \\(E\\) won.\n\n(ii) After each team had played four games, team \\(A\\) had 6 points, team \\(B\\) had 8 points and team \\(C\\) had 4 points. The remaining matches yet to be played were\n\n(i) between \\(A\\) and \\(D\\);\n\n(ii) between \\(B\\) and \\(E\\); and\n\n(iii) between \\(C\\) and \\(F\\).\n\n(iii) The teams \\(D,E\\) and \\(F\\) had won their games against \\(A,B\\) and \\(C\\) respectively.\n\n(iv) Teams \\(A,B\\) and \\(D\\) had moved to the final round of the tournament.",
+  "answer": null,
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "tomato"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10 + 2 Level",
+    "file": "Tomato 16th Edition.pdf",
+    "pages": [
+      256
+    ],
+    "question_number": 182,
+    "crop": "questions/49a87d79-32af-4f24-ba10-09215989177a/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

@@ -1,0 +1,31 @@
+{
+  "id": "5a9b5ea7-3d93-4d7e-bb47-cd9169146505",
+  "type": "MCQ",
+  "question": "Consider the equation \\(x^2+y^2=2007\\). How many solutions \\((x,y)\\) exist such that \\(x\\) and \\(y\\) are positive integers?",
+  "options": {
+    "A": "None",
+    "B": "Exactly two",
+    "C": "More than two but finitely many",
+    "D": "Infinitely many."
+  },
+  "answer": "A",
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "2012-bstat-bmath-admission-test-multiple-choice"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10 + 2 Level",
+    "file": "Tomato 16th Edition.pdf",
+    "pages": [
+      188
+    ],
+    "question_number": 2,
+    "crop": "questions/5a9b5ea7-3d93-4d7e-bb47-cd9169146505/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

@@ -1,0 +1,31 @@
+{
+  "id": "c16a9dbd-9928-43c1-a0a2-91d2ead7c94d",
+  "type": "MCQ",
+  "question": "Let $P$ be the point of intersection of the lines $ax+by-a=0$ and $bx-ay+b=0$. A circle with centre $(1,0)$ passes through $P$. The tangent to this circle at $P$ meets the $x$-axis at the point $(d,0)$. Then the value of $d$ is",
+  "options": {
+    "A": "$\\frac{2ab}{a^2+b^2}$",
+    "B": "0",
+    "C": "$-1$",
+    "D": "none of the foregoing values"
+  },
+  "answer": "C",
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "tomato"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10+2 Level — Sixteenth Edition",
+    "file": "tomato.pdf",
+    "pages": [
+      91
+    ],
+    "question_number": 553,
+    "crop": "questions/c16a9dbd-9928-43c1-a0a2-91d2ead7c94d/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

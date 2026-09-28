@@ -1,0 +1,25 @@
+{
+  "id": "2af64b81-12d5-4f3b-8dd0-29935281f71b",
+  "type": "SUBJECTIVE",
+  "question": "Let $f(x)$ be a polynomial with integer coefficients. Assume that 3 divides the value $f(n)$ for each integer $n$. Prove that when $f(x)$ is divided by $x^3-x$, the remainder is of the form $3r(x)$, where $r(x)$ is a polynomial with integer coefficients.",
+  "answer": null,
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "2010-bmath-admission-test-short-answer-type"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10 + 2 Level",
+    "file": "Tomato 16th Edition(1).pdf",
+    "pages": [
+      274
+    ],
+    "question_number": 9,
+    "crop": "questions/2af64b81-12d5-4f3b-8dd0-29935281f71b/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

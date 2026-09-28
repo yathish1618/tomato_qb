@@ -1,0 +1,25 @@
+{
+  "id": "1a134e74-b568-4791-a48f-375f5cab4b48",
+  "type": "SUBJECTIVE",
+  "question": "Let the sequence $\\{a_n\\}_{n\\ge1}$ be defined by $a_n=\\tan(n\\theta)$, where $\\tan(\\theta)=2$. Show that for all $n$, $a_n$ is a rational number which can be written with an odd denominator.",
+  "answer": null,
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "bstat-bmath-ugb-2017"
+  ],
+  "source": {
+    "title": "",
+    "file": "BStat-BMath-UGB-2017.pdf",
+    "pages": [
+      1
+    ],
+    "question_number": 1,
+    "crop": "questions/1a134e74-b568-4791-a48f-375f5cab4b48/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

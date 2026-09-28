@@ -1,0 +1,25 @@
+{
+  "id": "2b838180-74da-42e1-9c7f-c94302e29b4a",
+  "type": "SUBJECTIVE",
+  "question": "Let $p(x)=x^7+x^6+b_5x^5+\\cdots+b_1x+b_0$ and $q(x)=x^5+c_4x^4+\\cdots+c_1x+c_0$ be polynomials with integer coefficients. Assume that $p(i)=q(i)$ for integers $i=1,2,\\ldots,6$. Then, show that there exists a negative integer $r$ such that $p(r)=q(r)$.",
+  "answer": null,
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "2015-bstat-bmath-admission-test-short-answer-type"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10 + 2 Level",
+    "file": "Tomato 16th Edition(1).pdf",
+    "pages": [
+      284
+    ],
+    "question_number": 6,
+    "crop": "questions/2b838180-74da-42e1-9c7f-c94302e29b4a/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

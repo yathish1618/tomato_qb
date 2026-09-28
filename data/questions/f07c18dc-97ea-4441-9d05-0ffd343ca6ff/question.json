@@ -1,0 +1,31 @@
+{
+  "id": "f07c18dc-97ea-4441-9d05-0ffd343ca6ff",
+  "type": "MCQ",
+  "question": "Let $f(x)=|x|\\sin x+|x-\\pi|\\cos x$ for $x\\in\\mathbb R$. Then",
+  "options": {
+    "A": "$f$ is differentiable at $x=0$ and $x=\\pi$;",
+    "B": "$f$ is not differentiable at $x=0$ and $x=\\pi$;",
+    "C": "$f$ is differentiable at $x=0$ but not differentiable at $x=\\pi$;",
+    "D": "$f$ is not differentiable at $x=0$ but differentiable at $x=\\pi$"
+  },
+  "answer": "C",
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "2010-bstat-admission-test-multiple-choice"
+  ],
+  "source": {
+    "title": "B.Stat. (Hons.) Admission Test: 2010",
+    "file": "Tomato 16th Edition.pdf",
+    "pages": [
+      169
+    ],
+    "question_number": 7,
+    "crop": "questions/f07c18dc-97ea-4441-9d05-0ffd343ca6ff/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

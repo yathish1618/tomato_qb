@@ -1,0 +1,25 @@
+{
+  "id": "14507dac-5e32-467b-90b3-87fe2d5b0a71",
+  "type": "SUBJECTIVE",
+  "question": "If \\(\\frac{\\sin^4x}{a}+\\frac{\\cos^4x}{b}=\\frac{1}{a+b}\\), then show that\n\\[\n\\frac{\\sin^6x}{a^2}+\\frac{\\cos^6x}{b^2}=\\frac{1}{(a+b)^2}.\n\\]",
+  "answer": null,
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "tomato"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10 + 2 Level",
+    "file": "Tomato 16th Edition.pdf",
+    "pages": [
+      246
+    ],
+    "question_number": 115,
+    "crop": "questions/14507dac-5e32-467b-90b3-87fe2d5b0a71/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

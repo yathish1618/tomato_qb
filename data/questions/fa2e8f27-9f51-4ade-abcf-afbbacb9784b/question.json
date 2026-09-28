@@ -1,0 +1,31 @@
+{
+  "id": "fa2e8f27-9f51-4ade-abcf-afbbacb9784b",
+  "type": "MCQ",
+  "question": "If $\\tan\\theta+\\cot\\theta=4$, then $\\theta$, for some integer $n$, is",
+  "options": {
+    "A": "$\\frac{n\\pi}{2}+(-1)^n\\frac\\pi{12}$",
+    "B": "$n\\pi+(-1)^n\\frac\\pi{12}$",
+    "C": "$n\\pi+\\frac\\pi{12}$",
+    "D": "$n\\pi-\\frac\\pi{12}$"
+  },
+  "answer": "A",
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "tomato"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10+2 Level",
+    "file": "tomato.pdf",
+    "pages": [
+      102
+    ],
+    "question_number": 633,
+    "crop": "full_page"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

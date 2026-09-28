@@ -1,0 +1,31 @@
+{
+  "id": "ccdb4ccb-6042-4b72-aeed-4cbe9345c9ed",
+  "type": "MCQ",
+  "question": "The three sides of a right-angled triangle are in G.P. The tangents of the two acute angles are",
+  "options": {
+    "A": "$\\frac{\\sqrt5+1}{2}$ and $\\frac{\\sqrt5-1}{2}$",
+    "B": "$\\sqrt{\\frac{\\sqrt5+1}{2}}$ and $\\sqrt{\\frac{\\sqrt5-1}{2}}$",
+    "C": "$\\sqrt5$ and $\\frac1{\\sqrt5}$",
+    "D": "none of the foregoing pairs of numbers"
+  },
+  "answer": "B",
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "tomato"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10+2 Level — Sixteenth Edition",
+    "file": "tomato.pdf",
+    "pages": [
+      54
+    ],
+    "question_number": 313,
+    "crop": "questions/ccdb4ccb-6042-4b72-aeed-4cbe9345c9ed/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

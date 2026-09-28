@@ -1,0 +1,31 @@
+{
+  "id": "3e58db3e-c503-4335-95a9-7e1a0bcf9c99",
+  "type": "MCQ",
+  "question": "The coefficient of $x^2$ in the binomial expansion of $(1+x+x^2)^{10}$ is",
+  "options": {
+    "A": "$\\binom{10}{1}+\\binom{10}{2}$",
+    "B": "$\\binom{10}{2}$",
+    "C": "$\\binom{10}{1}$",
+    "D": "none of the foregoing numbers."
+  },
+  "answer": "A",
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "tomato"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10+2 Level — Sixteenth Edition",
+    "file": "tomato.pdf",
+    "pages": [
+      28
+    ],
+    "question_number": 117,
+    "crop": "questions/3e58db3e-c503-4335-95a9-7e1a0bcf9c99/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

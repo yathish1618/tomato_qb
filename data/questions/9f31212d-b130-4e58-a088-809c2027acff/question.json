@@ -1,0 +1,31 @@
+{
+  "id": "9f31212d-b130-4e58-a088-809c2027acff",
+  "type": "MCQ",
+  "question": "The set of complex numbers $z$ such that $z(1-z)$ is a real number forms",
+  "options": {
+    "A": "a line and circle;",
+    "B": "a pair of lines;",
+    "C": "a line and a parabola;",
+    "D": "a line and a hyperbola."
+  },
+  "answer": "B",
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "2008-bmath-admission-test-multiple-choice"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10 + 2 Level",
+    "file": "Tomato 16th Edition.pdf",
+    "pages": [
+      156
+    ],
+    "question_number": 23,
+    "crop": "questions/9f31212d-b130-4e58-a088-809c2027acff/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

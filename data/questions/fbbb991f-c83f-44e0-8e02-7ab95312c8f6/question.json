@@ -1,0 +1,31 @@
+{
+  "id": "fbbb991f-c83f-44e0-8e02-7ab95312c8f6",
+  "type": "MCQ",
+  "question": "The equation of the line passing through the point of intersection of the lines \\(x-y+1=0\\) and \\(3x+y-5=0\\) and is perpendicular to the line \\(x+3y+1=0\\) is",
+  "options": {
+    "A": "\\(x+3y-1=0\\)",
+    "B": "\\(\\,x-3y+1=0\\)",
+    "C": "\\(\\,3x-y+1=0\\)",
+    "D": "\\(\\,3x-y-1=0\\)"
+  },
+  "answer": "D",
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "tomato"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10+2 Level — Sixteenth Edition",
+    "file": "tomato.pdf",
+    "pages": [
+      73
+    ],
+    "question_number": 431,
+    "crop": "questions/fbbb991f-c83f-44e0-8e02-7ab95312c8f6/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

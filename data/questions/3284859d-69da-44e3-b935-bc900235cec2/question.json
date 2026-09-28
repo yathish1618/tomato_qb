@@ -1,0 +1,31 @@
+{
+  "id": "3284859d-69da-44e3-b935-bc900235cec2",
+  "type": "MCQ",
+  "question": "If the equation $6x^3-ax^2+6x-1=0$ has three real roots $\\alpha,\\beta,\\gamma$ such that $\\frac1\\alpha,\\frac1\\beta,\\frac1\\gamma$ are in Arithmetic Progression, then the value of $a$ is",
+  "options": {
+    "A": "9",
+    "B": "10",
+    "C": "11",
+    "D": "12"
+  },
+  "answer": "C",
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "tomato"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10+2 Level — Sixteenth Edition",
+    "file": "tomato.pdf",
+    "pages": [
+      50
+    ],
+    "question_number": 278,
+    "crop": "questions/3284859d-69da-44e3-b935-bc900235cec2/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

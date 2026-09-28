@@ -1,0 +1,25 @@
+{
+  "id": "c1901c04-9c7f-445d-899c-69cc6fabbf01",
+  "type": "SUBJECTIVE",
+  "question": "Let $a,b,c,d$ be distinct digits such that the product of the 2-digit numbers $ab$ and $cb$ is of the form $ddd$. Find all possible values of $a+b+c+d$.",
+  "answer": null,
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "2010-bstat-admission-test-short-answer-type"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10 + 2 Level",
+    "file": "Tomato 16th Edition(1).pdf",
+    "pages": [
+      271
+    ],
+    "question_number": 2,
+    "crop": "questions/c1901c04-9c7f-445d-899c-69cc6fabbf01/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

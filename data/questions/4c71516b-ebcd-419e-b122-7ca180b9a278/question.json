@@ -1,0 +1,31 @@
+{
+  "id": "4c71516b-ebcd-419e-b122-7ca180b9a278",
+  "type": "MCQ",
+  "question": "If the points $z_1$ and $z_2$ are on the circles $|z|=2$ and $|z|=3$, respectively, and the angle included between these vectors is $60^\\circ$, then the value of $\\frac{|z_1+z_2|}{|z_1-z_2|}$ is",
+  "options": {
+    "A": "$\\sqrt{19/7}$",
+    "B": "$\\sqrt{19}$",
+    "C": "$\\sqrt7$",
+    "D": "$\\sqrt{7/19}$"
+  },
+  "answer": null,
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "bstat-bmath-uga-2024"
+  ],
+  "source": {
+    "title": "",
+    "file": "BStat-BMath-UGA-2024(1).pdf",
+    "pages": [
+      2
+    ],
+    "question_number": 10,
+    "crop": "questions/4c71516b-ebcd-419e-b122-7ca180b9a278/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

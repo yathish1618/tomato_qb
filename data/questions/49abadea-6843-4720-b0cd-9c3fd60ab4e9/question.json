@@ -1,0 +1,31 @@
+{
+  "id": "49abadea-6843-4720-b0cd-9c3fd60ab4e9",
+  "type": "MCQ",
+  "question": "Let $f(x)=\\frac12x\\sin x-(1-\\cos x)$. The smallest positive integer $k$ such that $\\lim_{x\\to0}\\frac{f(x)}{x^k}\\ne0$ is:",
+  "options": {
+    "A": "3",
+    "B": "4",
+    "C": "5",
+    "D": "6."
+  },
+  "answer": null,
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "bstat-bmath-uga-2018"
+  ],
+  "source": {
+    "title": "",
+    "file": "BStat-BMath-UGA-2018.pdf",
+    "pages": [
+      2
+    ],
+    "question_number": 10,
+    "crop": "questions/49abadea-6843-4720-b0cd-9c3fd60ab4e9/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

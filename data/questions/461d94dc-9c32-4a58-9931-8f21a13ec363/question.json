@@ -1,0 +1,25 @@
+{
+  "id": "461d94dc-9c32-4a58-9931-8f21a13ec363",
+  "type": "SUBJECTIVE",
+  "question": "Let $f(x)$ be the function satisfying $$xf(x)=\\log x,\\qquad x>0.$$ Show that $$f^{(n)}(1)=(-1)^{n+1}n!\\left(1+\\frac12+\\cdots+\\frac1n\\right),$$ where $f^{(n)}(x)$ denotes the $n$-th derivative of the function $f$ evaluated at $x$.",
+  "answer": null,
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "2009-bstat-admission-test-short-answer-type"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10 + 2 Level",
+    "file": "Tomato 16th Edition(1).pdf",
+    "pages": [
+      268
+    ],
+    "question_number": 6,
+    "crop": "questions/461d94dc-9c32-4a58-9931-8f21a13ec363/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

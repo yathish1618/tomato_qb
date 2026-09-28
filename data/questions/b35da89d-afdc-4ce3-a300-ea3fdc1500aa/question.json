@@ -1,0 +1,31 @@
+{
+  "id": "b35da89d-afdc-4ce3-a300-ea3fdc1500aa",
+  "type": "MCQ",
+  "question": "The coefficients of three consecutive terms in the expansion of \\((1+t)^n\\) are 120, 210, 252. Then, \\(n\\) must be",
+  "options": {
+    "A": "10;",
+    "B": "12;",
+    "C": "14;",
+    "D": "16."
+  },
+  "answer": "A",
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "2011-bmath-admission-test-multiple-choice"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10 + 2 Level",
+    "file": "Tomato 16th Edition.pdf",
+    "pages": [
+      186
+    ],
+    "question_number": 13,
+    "crop": "questions/b35da89d-afdc-4ce3-a300-ea3fdc1500aa/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

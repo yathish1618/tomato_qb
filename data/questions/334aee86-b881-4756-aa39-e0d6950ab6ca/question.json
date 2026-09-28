@@ -1,0 +1,25 @@
+{
+  "id": "334aee86-b881-4756-aa39-e0d6950ab6ca",
+  "type": "SUBJECTIVE",
+  "question": "For real numbers \\(x,y\\) and \\(z\\), show that\n\\[\n|x|+|y|+|z|\\le |x+y-z|+|y+z-x|+|z+x-y|.\n\\]",
+  "answer": null,
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "tomato"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10 + 2 Level",
+    "file": "Tomato 16th Edition.pdf",
+    "pages": [
+      242
+    ],
+    "question_number": 78,
+    "crop": "questions/334aee86-b881-4756-aa39-e0d6950ab6ca/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

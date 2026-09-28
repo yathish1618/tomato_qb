@@ -1,0 +1,31 @@
+{
+  "id": "9575dc0f-bb8a-44d9-a32a-9150388ffabd",
+  "type": "MCQ",
+  "question": "Let\n\\[\nf(x)=\\begin{cases}\\frac{|\\sin x|}{x},&x\\ne0\\\\1,&x=0.\\end{cases}\n\\]\nThen \\(\\displaystyle\\int_{-1}^{1}f(x)\\,dx\\) is equal to",
+  "options": {
+    "A": "\\(\\frac{2\\pi}{3}\\)",
+    "B": "\\(\\frac{3\\pi}{8}\\)",
+    "C": "\\(-\\frac{\\pi}{4}\\)",
+    "D": "0."
+  },
+  "answer": "D",
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "2015-bstat-bmath-admission-test-multiple-choice"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10 + 2 Level",
+    "file": "Tomato 16th Edition.pdf",
+    "pages": [
+      208
+    ],
+    "question_number": 22,
+    "crop": "questions/9575dc0f-bb8a-44d9-a32a-9150388ffabd/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

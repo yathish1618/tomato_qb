@@ -1,0 +1,25 @@
+{
+  "id": "3b0374d2-d3eb-483f-a41e-7400084f1d07",
+  "type": "SUBJECTIVE",
+  "question": "21. For a natural number $n$, let $a_n=n^2+20$. If $d_n$ denotes the greatest common divisor of $a_n$ and $a_{n+1}$, then show that $d_n$ divides 81.",
+  "answer": null,
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "tomato"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10 + 2 Level",
+    "file": "Tomato 16th Edition.pdf",
+    "pages": [
+      236
+    ],
+    "question_number": 21,
+    "crop": "questions/3b0374d2-d3eb-483f-a41e-7400084f1d07/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

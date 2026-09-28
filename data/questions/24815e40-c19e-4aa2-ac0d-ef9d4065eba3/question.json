@@ -1,0 +1,31 @@
+{
+  "id": "24815e40-c19e-4aa2-ac0d-ef9d4065eba3",
+  "type": "MCQ",
+  "question": "We define a set \\(\\{f_1,f_2,\\ldots,f_n\\}\\) of polynomials to be a linearly dependent set if there exist real numbers \\(c_1,c_2,\\ldots,c_n\\), not all zero, such that \\(c_1f_1(x)+\\cdots+c_nf_n(x)=0\\) for all real numbers \\(x\\). Which of the following is a linearly dependent set?",
+  "options": {
+    "A": "\\(\\{x,x^2,x^3\\}\\)",
+    "B": "\\(\\{x^2-x,2x,x^2+3x\\}\\)",
+    "C": "\\(\\{x,2x^3,5x^2\\}\\)",
+    "D": "\\(\\{x^2-1,2x+5,x^2+1\\}\\)"
+  },
+  "answer": "B",
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "2015-bstat-bmath-admission-test-multiple-choice"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10 + 2 Level",
+    "file": "Tomato 16th Edition.pdf",
+    "pages": [
+      206
+    ],
+    "question_number": 9,
+    "crop": "questions/24815e40-c19e-4aa2-ac0d-ef9d4065eba3/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

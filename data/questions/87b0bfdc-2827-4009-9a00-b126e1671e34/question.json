@@ -1,0 +1,31 @@
+{
+  "id": "87b0bfdc-2827-4009-9a00-b126e1671e34",
+  "type": "MCQ",
+  "question": "Let $\\omega$ denote a cube root of unity which is not equal to 1. Then the number of distinct elements in the set\n\\[\n\\{(1+\\omega+\\omega^2+\\cdots+\\omega^n)^m:m,n=1,2,3,\\ldots\\}\n\\]\nis",
+  "options": {
+    "A": "4;",
+    "B": "5;",
+    "C": "7;",
+    "D": "infinite."
+  },
+  "answer": "C",
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "2008-bstat-admission-test-multiple-choice"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10 + 2 Level",
+    "file": "Tomato 16th Edition.pdf",
+    "pages": [
+      149
+    ],
+    "question_number": 22,
+    "crop": "questions/87b0bfdc-2827-4009-9a00-b126e1671e34/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

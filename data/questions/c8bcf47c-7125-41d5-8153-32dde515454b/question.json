@@ -1,0 +1,31 @@
+{
+  "id": "c8bcf47c-7125-41d5-8153-32dde515454b",
+  "type": "MCQ",
+  "question": "The equation $x^3-yx^2+x-y=0$ represents",
+  "options": {
+    "A": "a straight line",
+    "B": "a parabola and two straight lines",
+    "C": "a hyperbola and two straight lines",
+    "D": "a straight line and a circle"
+  },
+  "answer": "A",
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "tomato"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10+2 Level — Sixteenth Edition",
+    "file": "tomato.pdf",
+    "pages": [
+      86
+    ],
+    "question_number": 513,
+    "crop": "questions/c8bcf47c-7125-41d5-8153-32dde515454b/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

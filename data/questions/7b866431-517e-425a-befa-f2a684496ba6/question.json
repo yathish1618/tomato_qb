@@ -1,0 +1,25 @@
+{
+  "id": "7b866431-517e-425a-befa-f2a684496ba6",
+  "type": "SUBJECTIVE",
+  "question": "Suppose $P$ and $Q$ are the centres of two disjoint circles $C_1$ and $C_2$ respectively, such that $P$ lies outside $C_2$ and $Q$ lies outside $C_1$. Two tangents are drawn from the point $P$ to the circle $C_2$, which intersect the circle $C_1$ at points $A$ and $B$. Similarly, two tangents are drawn from the point $Q$ to the circle $C_1$, which intersect the circle $C_2$ at points $M$ and $N$. Show that $AB=MN$.",
+  "answer": null,
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "2008-bstat-admission-test-short-answer-type"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10 + 2 Level",
+    "file": "Tomato 16th Edition(1).pdf",
+    "pages": [
+      264
+    ],
+    "question_number": 4,
+    "crop": "questions/7b866431-517e-425a-befa-f2a684496ba6/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

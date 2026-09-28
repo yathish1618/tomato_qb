@@ -1,0 +1,31 @@
+{
+  "id": "917b3ccd-64b0-48c4-81c9-13272a1c0225",
+  "type": "MCQ",
+  "question": "The number 1000! contains exactly how many trailing zeroes?",
+  "options": {
+    "A": "249",
+    "B": "250",
+    "C": "240",
+    "D": "200"
+  },
+  "answer": "A",
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "tomato"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10+2 Level — Sixteenth Edition",
+    "file": "tomato.pdf",
+    "pages": [
+      33
+    ],
+    "question_number": 154,
+    "crop": "questions/917b3ccd-64b0-48c4-81c9-13272a1c0225/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

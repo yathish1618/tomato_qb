@@ -1,0 +1,25 @@
+{
+  "id": "199cdad7-93ae-43d8-b599-7f4c3e015b48",
+  "type": "SUBJECTIVE",
+  "question": "It is given that the graph of $y=x^4+ax^3+bx^2+cx+d$ (where $a,b,c,d$ are real) has at least $3$ points of intersection with the $x$-axis. Prove that either there are exactly $4$ distinct points of intersection, or one of those $3$ points of intersection is a local minimum or maximum.",
+  "answer": null,
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "2014-bstat-bmath-admission-test-short-answer-type"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10 + 2 Level",
+    "file": "Tomato 16th Edition(1).pdf",
+    "pages": [
+      282
+    ],
+    "question_number": 2,
+    "crop": "questions/199cdad7-93ae-43d8-b599-7f4c3e015b48/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

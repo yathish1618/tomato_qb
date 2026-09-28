@@ -1,0 +1,25 @@
+{
+  "id": "3e8b79ad-6423-4b29-9d93-d0152e3ba86d",
+  "type": "SUBJECTIVE",
+  "question": "Consider a circle of radius $6$ as given in the diagram below. Let $B,C,D$ and $E$ be points on the circle such that $BD$ and $CE$, when extended, intersect at $A$. If $AD$ and $AE$ have length $5$ and $4$ respectively, and $\\angle DBC$ is a right angle, then show that the length of $BC$ is $\\frac{12+9\\sqrt{15}}{5}$.",
+  "answer": null,
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "bstat-bmath-ugb-2017"
+  ],
+  "source": {
+    "title": "",
+    "file": "BStat-BMath-UGB-2017.pdf",
+    "pages": [
+      1
+    ],
+    "question_number": 2,
+    "crop": "questions/3e8b79ad-6423-4b29-9d93-d0152e3ba86d/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

@@ -1,0 +1,31 @@
+{
+  "id": "3564d511-90b6-4730-aa9f-4a9f8f9717b4",
+  "type": "MCQ",
+  "question": "The equation $\\sin x(\\sin x+\\cos x)=k$ has real solutions if and only if $k$ is a real number such that",
+  "options": {
+    "A": "$0\\le k\\le\\frac{1+\\sqrt2}{2}$",
+    "B": "$2-\\sqrt3\\le k\\le2+\\sqrt3$",
+    "C": "$0\\le k\\le2-\\sqrt3$",
+    "D": "$\\frac{1-\\sqrt2}{2}\\le k\\le\\frac{1+\\sqrt2}{2}$"
+  },
+  "answer": "D",
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "tomato"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10+2 Level",
+    "file": "tomato.pdf",
+    "pages": [
+      102
+    ],
+    "question_number": 634,
+    "crop": "full_page"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

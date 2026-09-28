@@ -1,0 +1,25 @@
+{
+  "id": "4585fe21-a331-48b3-bfbb-8d399a95834d",
+  "type": "SUBJECTIVE",
+  "question": "The following figure shows a $3^2\\times3^2$ grid divided into $3^2$ subgrids of size $3\\times3$. This grid has 81 cells, 9 in each subgrid. Now consider an $n^2\\times n^2$ grid divided into $n^2$ subgrids of size $n\\times n$. Find the number of ways in which you can select $n^2$ cells from this grid such that there is exactly one cell coming from each subgrid, one from each row and one from each column.",
+  "answer": null,
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "2007-bstat-admission-test-short-answer-type"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10 + 2 Level",
+    "file": "Tomato 16th Edition(1).pdf",
+    "pages": [
+      261
+    ],
+    "question_number": 8,
+    "crop": "questions/4585fe21-a331-48b3-bfbb-8d399a95834d/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

@@ -1,0 +1,25 @@
+{
+  "id": "72618817-61ee-4766-81ce-db5604816652",
+  "type": "SUBJECTIVE",
+  "question": "57. How many 6-letter words can be formed using the letters $A,B$ and $C$ so that each letter appears at least once in the word?",
+  "answer": null,
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "tomato"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10 + 2 Level",
+    "file": "Tomato 16th Edition.pdf",
+    "pages": [
+      240
+    ],
+    "question_number": 57,
+    "crop": "questions/72618817-61ee-4766-81ce-db5604816652/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

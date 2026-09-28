@@ -1,0 +1,31 @@
+{
+  "id": "1679a8b5-0a40-41eb-8f4c-738ce0e1143e",
+  "type": "MCQ",
+  "question": "The number of solutions to the system of simultaneous equations $|z+1-i|=\\sqrt2$ and $|z|=3$ is",
+  "options": {
+    "A": "0",
+    "B": "1",
+    "C": "2",
+    "D": ">2"
+  },
+  "answer": "A",
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "tomato"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10+2 Level — Sixteenth Edition",
+    "file": "tomato.pdf",
+    "pages": [
+      58
+    ],
+    "question_number": 340,
+    "crop": "questions/1679a8b5-0a40-41eb-8f4c-738ce0e1143e/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

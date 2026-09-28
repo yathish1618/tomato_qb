@@ -1,0 +1,31 @@
+{
+  "id": "d7f3e478-951b-43f2-9eb9-f0ad89749659",
+  "type": "MCQ",
+  "question": "The area of the triangle formed by the straight lines whose equations are $y=4x+2$, $2y=x+3$ and $x=0$, is",
+  "options": {
+    "A": "$\\frac{25}{4\\sqrt2}$",
+    "B": "$\\frac{\\sqrt2}{8}$",
+    "C": "$\\frac{1}{28}$",
+    "D": "$\\frac{15}{7}$"
+  },
+  "answer": "C",
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "tomato"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10+2 Level — Sixteenth Edition",
+    "file": "tomato.pdf",
+    "pages": [
+      87
+    ],
+    "question_number": 525,
+    "crop": "questions/d7f3e478-951b-43f2-9eb9-f0ad89749659/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

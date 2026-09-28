@@ -1,0 +1,25 @@
+{
+  "id": "f206f3c8-ce58-470e-a8ae-4112544d3134",
+  "type": "SUBJECTIVE",
+  "question": "There are three cities each of which has exactly the same number of citizens, say $n$. Every citizen in each city has exactly a total of $n+1$ friends in the other two cities. Show that there exist three people, one from each city, such that they are friends. We assume that friendship is mutual (that is, a symmetric relation).",
+  "answer": null,
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "bstat-bmath-ugb-2021"
+  ],
+  "source": {
+    "title": "",
+    "file": "BStat-BMath-UGB-2021.pdf",
+    "pages": [
+      1
+    ],
+    "question_number": 1,
+    "crop": "questions/f206f3c8-ce58-470e-a8ae-4112544d3134/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

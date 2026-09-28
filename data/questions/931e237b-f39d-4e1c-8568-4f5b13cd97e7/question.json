@@ -1,0 +1,25 @@
+{
+  "id": "931e237b-f39d-4e1c-8568-4f5b13cd97e7",
+  "type": "SUBJECTIVE",
+  "question": "Let $S=\\{1,2,\\ldots,n\\}$ where $n$ is an odd integer. Let $f$ be a function defined on $\\{(i,j):i\\in S,j\\in S\\}$ taking values in $S$ such that (i) $f(s,r)=f(r,s)$ for all $r,s\\in S$; (ii) $\\{f(r,s):s\\in S\\}=S$ for all $r\\in S$. Show that $\\{f(r,r):r\\in S\\}=S$.",
+  "answer": null,
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "2007-bstat-admission-test-short-answer-type"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10 + 2 Level",
+    "file": "Tomato 16th Edition(1).pdf",
+    "pages": [
+      260
+    ],
+    "question_number": 6,
+    "crop": "questions/931e237b-f39d-4e1c-8568-4f5b13cd97e7/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

@@ -1,0 +1,31 @@
+{
+  "id": "bb008d30-5083-49c7-a85b-14d5dc86cf3b",
+  "type": "MCQ",
+  "question": "An astronaut lands on a planet and meets a native of the planet. She asks the native “How many days do you have in your year?” He answers “It is the sum of the squares of three consecutive natural numbers but it is also the sum of the squares of the next two numbers”. The answer to the astronaut’s question is",
+  "options": {
+    "A": "365;",
+    "B": "1095;",
+    "C": "30000;",
+    "D": "$10^{10}$."
+  },
+  "answer": "A",
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "2007-bmath-admission-test-multiple-choice"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10 + 2 Level",
+    "file": "Tomato 16th Edition.pdf",
+    "pages": [
+      145
+    ],
+    "question_number": 11,
+    "crop": "questions/bb008d30-5083-49c7-a85b-14d5dc86cf3b/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

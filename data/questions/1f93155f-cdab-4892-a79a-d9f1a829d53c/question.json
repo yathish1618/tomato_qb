@@ -1,0 +1,31 @@
+{
+  "id": "1f93155f-cdab-4892-a79a-d9f1a829d53c",
+  "type": "MCQ",
+  "question": "Let $f(x)=\\frac{x^n(1-x)^n}{n!}$. Then for any integer $k\\ge0$, the $k$-th derivatives $f^{(k)}(0)$ and $f^{(k)}(1)$",
+  "options": {
+    "A": "are both 0",
+    "B": "are both rational numbers but not necessarily integers",
+    "C": "are both integers",
+    "D": "do not satisfy any of the foregoing properties"
+  },
+  "answer": "C",
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "tomato"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10+2 Level",
+    "file": "tomato.pdf",
+    "pages": [
+      127
+    ],
+    "question_number": 783,
+    "crop": "full_page"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

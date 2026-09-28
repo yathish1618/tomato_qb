@@ -1,0 +1,25 @@
+{
+  "id": "a5253d6e-1bfe-4461-abdb-80f5db7065e2",
+  "type": "SUBJECTIVE",
+  "question": "52. (i) Find the number of all possible ordered $k$-tuples of non-negative integers $(n_1,n_2,\\ldots,n_k)$ such that\n\\[\n\\sum_{i=1}^{k}n_i=100.\n\\]\n\n(ii) Show that the number of all possible ordered 4-tuples of non-negative integers $(n_1,n_2,n_3,n_4)$ such that\n\\[\n\\sum_{i=1}^{4}n_i\\le100\n\\]\nis $\\binom{104}{4}$.",
+  "answer": null,
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "tomato"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10 + 2 Level",
+    "file": "Tomato 16th Edition.pdf",
+    "pages": [
+      239
+    ],
+    "question_number": 52,
+    "crop": "questions/a5253d6e-1bfe-4461-abdb-80f5db7065e2/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

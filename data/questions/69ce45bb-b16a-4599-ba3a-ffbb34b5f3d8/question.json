@@ -1,0 +1,31 @@
+{
+  "id": "69ce45bb-b16a-4599-ba3a-ffbb34b5f3d8",
+  "type": "MCQ",
+  "question": "Let $P(X)=X^4+a_3X^3+a_2X^2+a_1X+a_0$ be a polynomial in $X$ with real coefficients. Assume that $P(0)=1$, $P(1)=2$, $P(2)=3$, and $P(3)=4$. Then, the value of $P(4)$ is",
+  "options": {
+    "A": "5",
+    "B": "24",
+    "C": "29",
+    "D": "not determinable from the given data."
+  },
+  "answer": null,
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "bstat-bmath-uga-2019"
+  ],
+  "source": {
+    "title": "UGA 2019",
+    "file": "BStat-BMath-UGA-2019.pdf",
+    "pages": [
+      3
+    ],
+    "question_number": 14,
+    "crop": "questions/69ce45bb-b16a-4599-ba3a-ffbb34b5f3d8/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

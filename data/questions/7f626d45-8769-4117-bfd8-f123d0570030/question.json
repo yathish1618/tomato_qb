@@ -1,0 +1,31 @@
+{
+  "id": "7f626d45-8769-4117-bfd8-f123d0570030",
+  "type": "MCQ",
+  "question": "The graph of the equation \\(x^3+3x^2y+3xy^2+y^3-x^2+y^2=0\\) comprises",
+  "options": {
+    "A": "one point",
+    "B": "union of a line and a parabola",
+    "C": "one line",
+    "D": "union of a line and a hyperbola."
+  },
+  "answer": "B",
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "2013-bstat-bmath-admission-test-multiple-choice"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10 + 2 Level",
+    "file": "Tomato 16th Edition.pdf",
+    "pages": [
+      199
+    ],
+    "question_number": 30,
+    "crop": "questions/7f626d45-8769-4117-bfd8-f123d0570030/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

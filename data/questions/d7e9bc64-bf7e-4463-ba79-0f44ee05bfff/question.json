@@ -1,0 +1,25 @@
+{
+  "id": "d7e9bc64-bf7e-4463-ba79-0f44ee05bfff",
+  "type": "SUBJECTIVE",
+  "question": "Suppose \\(S=\\{0,1\\}\\) with the following addition and multiplication rules:\n\\[\n0+0=1+1=0,\\quad 0+1=1+0=1,\\quad 0\\cdot0=0\\cdot1=1\\cdot0=0,\\quad 1\\cdot1=1.\n\\]\nA system of polynomials is defined with coefficients in \\(S\\). The sum and product of two polynomials in the system are the usual sum and product, respectively, where for the addition and multiplication of coefficients the above mentioned rules apply. For example, in the system,\n\\[\n(x+1)(x^2+x+1)=x^3+(1+1)x^2+(1+1)x+1=x^3+0x^2+0x+1=x^3+1.\n\\]\nShow that in this system \\(x^3+x+1\\) is not factorisable, that is, one cannot write\n\\[\nx^3+x+1=(ax+b)(cx^2+dx+e),\n\\]\nwhere \\(a,b,c,d,e\\) are elements of \\(S\\).",
+  "answer": null,
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "tomato"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10 + 2 Level",
+    "file": "Tomato 16th Edition.pdf",
+    "pages": [
+      258
+    ],
+    "question_number": 187,
+    "crop": "questions/d7e9bc64-bf7e-4463-ba79-0f44ee05bfff/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

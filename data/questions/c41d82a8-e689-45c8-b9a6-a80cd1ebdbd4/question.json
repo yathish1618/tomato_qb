@@ -1,0 +1,31 @@
+{
+  "id": "c41d82a8-e689-45c8-b9a6-a80cd1ebdbd4",
+  "type": "MCQ",
+  "question": "The real numbers $x$ such that $x^2+4|x|-4=0$ are",
+  "options": {
+    "A": "$-2\\pm\\sqrt8$",
+    "B": "$2\\pm\\sqrt8$",
+    "C": "$-2\\pm\\sqrt8,\\ 2\\pm\\sqrt8$",
+    "D": "$\\pm(\\sqrt8-2)$"
+  },
+  "answer": "D",
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "tomato"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10+2 Level — Sixteenth Edition",
+    "file": "tomato.pdf",
+    "pages": [
+      52
+    ],
+    "question_number": 294,
+    "crop": "questions/c41d82a8-e689-45c8-b9a6-a80cd1ebdbd4/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

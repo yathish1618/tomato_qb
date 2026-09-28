@@ -1,0 +1,31 @@
+{
+  "id": "c9d86dde-0dfd-4297-80b1-cd0c86e8b2f4",
+  "type": "MCQ",
+  "question": "If \\(t_k=\\binom{100}{k}x^{100-k}\\), for \\(k=0,1,\\ldots,100\\), then \\((t_0-t_2+t_4-\\cdots+t_{100})^2+(t_1-t_3+t_5-\\cdots-t_{99})^2\\) equals",
+  "options": {
+    "A": "\\((x^2-1)^{100}\\)",
+    "B": "\\((x+1)^{100}\\)",
+    "C": "\\((x^2+1)^{100}\\)",
+    "D": "\\((x-1)^{100}\\)"
+  },
+  "answer": "C",
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "tomato"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10+2 Level — Sixteenth Edition",
+    "file": "tomato.pdf",
+    "pages": [
+      67
+    ],
+    "question_number": 399,
+    "crop": "questions/c9d86dde-0dfd-4297-80b1-cd0c86e8b2f4/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

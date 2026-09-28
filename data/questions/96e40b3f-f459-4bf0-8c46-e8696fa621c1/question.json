@@ -1,0 +1,31 @@
+{
+  "id": "96e40b3f-f459-4bf0-8c46-e8696fa621c1",
+  "type": "MCQ",
+  "question": "Let $S$ be the set of those real numbers $x$ for which the identity $\\sum_{n=2}^{\\infty}\\cos^n x=(1+\\cos x)\\cot^2x$ is valid, and the quantities on both sides are finite. Then",
+  "options": {
+    "A": "$S$ is the empty set.",
+    "B": "$S=\\{x\\in\\mathbb R:x\\ne n\\pi\\text{ for all }n\\in\\mathbb Z\\}$",
+    "C": "$S=\\{x\\in\\mathbb R:x\\ne2n\\pi\\text{ for all }n\\in\\mathbb Z\\}$",
+    "D": "$S=\\{x\\in\\mathbb R:x\\ne(2n+1)\\pi\\text{ for all }n\\in\\mathbb Z\\}$"
+  },
+  "answer": null,
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "bstat-bmath-uga-2023"
+  ],
+  "source": {
+    "title": "",
+    "file": "BStat-BMath-UGA-2023(1).pdf",
+    "pages": [
+      2
+    ],
+    "question_number": 3,
+    "crop": "questions/96e40b3f-f459-4bf0-8c46-e8696fa621c1/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

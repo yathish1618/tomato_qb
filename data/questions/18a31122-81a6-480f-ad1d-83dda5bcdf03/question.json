@@ -1,0 +1,31 @@
+{
+  "id": "18a31122-81a6-480f-ad1d-83dda5bcdf03",
+  "type": "MCQ",
+  "question": "If the area of the circumcircle of a regular polygon with $n$ sides is $A$, then the area of the circle inscribed in the polygon is",
+  "options": {
+    "A": "$A\\cos^2\\frac{2\\pi}{n}$",
+    "B": "$\\frac{A}{2}\\left(\\cos\\frac{2\\pi}{n}+1\\right)$",
+    "C": "$\\frac{A}{2}\\cos^2\\frac{2\\pi}{n}$",
+    "D": "$A\\left(\\cos\\frac{2\\pi}{n}+1\\right)$"
+  },
+  "answer": "B",
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "tomato"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10+2 Level — Sixteenth Edition",
+    "file": "tomato.pdf",
+    "pages": [
+      87
+    ],
+    "question_number": 527,
+    "crop": "questions/18a31122-81a6-480f-ad1d-83dda5bcdf03/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

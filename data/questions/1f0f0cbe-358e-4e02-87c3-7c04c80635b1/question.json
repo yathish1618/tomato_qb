@@ -1,0 +1,31 @@
+{
+  "id": "1f0f0cbe-358e-4e02-87c3-7c04c80635b1",
+  "type": "MCQ",
+  "question": "If the roots of the equation \\(x^4+ax^3+bx^2+cx+d=0\\) are in geometric progression then",
+  "options": {
+    "A": "\\(b^2=ac\\)",
+    "B": "\\(a^2=b\\)",
+    "C": "\\(a^2b^2=c^2\\)",
+    "D": "\\(c^2=a^2d\\)"
+  },
+  "answer": "D",
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "2012-bstat-bmath-admission-test-multiple-choice"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10 + 2 Level",
+    "file": "Tomato 16th Edition.pdf",
+    "pages": [
+      194
+    ],
+    "question_number": 30,
+    "crop": "questions/1f0f0cbe-358e-4e02-87c3-7c04c80635b1/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

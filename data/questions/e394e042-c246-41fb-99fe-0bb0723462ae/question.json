@@ -1,0 +1,31 @@
+{
+  "id": "e394e042-c246-41fb-99fe-0bb0723462ae",
+  "type": "MCQ",
+  "question": "The ratio of the area of a triangle $ABC$ to the area of the triangle whose sides are equal to the medians of the triangle $ABC$ is",
+  "options": {
+    "A": "$2:1$",
+    "B": "$3:1$",
+    "C": "$4:3$",
+    "D": "$3:2$"
+  },
+  "answer": "C",
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "tomato"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10+2 Level — Sixteenth Edition",
+    "file": "tomato.pdf",
+    "pages": [
+      81
+    ],
+    "question_number": 479,
+    "crop": "questions/e394e042-c246-41fb-99fe-0bb0723462ae/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

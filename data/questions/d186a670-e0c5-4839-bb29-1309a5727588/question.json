@@ -1,0 +1,25 @@
+{
+  "id": "d186a670-e0c5-4839-bb29-1309a5727588",
+  "type": "SUBJECTIVE",
+  "question": "32. Show that the number $11\\ldots1$ with $3^n$ digits is divisible by $3^n$.",
+  "answer": null,
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "tomato"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10 + 2 Level",
+    "file": "Tomato 16th Edition.pdf",
+    "pages": [
+      236
+    ],
+    "question_number": 32,
+    "crop": "questions/d186a670-e0c5-4839-bb29-1309a5727588/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

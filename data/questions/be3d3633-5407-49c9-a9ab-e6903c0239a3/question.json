@@ -1,0 +1,31 @@
+{
+  "id": "be3d3633-5407-49c9-a9ab-e6903c0239a3",
+  "type": "MCQ",
+  "question": "In an A.P., suppose that, for some $m\\ne n$, the ratio of the sum of the first $m$ terms to the sum of the first $n$ terms is $\\frac{m^2}{n^2}$. If the 13th term of the A.P. is 50, then the 26th term of the A.P. is",
+  "options": {
+    "A": "75",
+    "B": "76",
+    "C": "100",
+    "D": "102"
+  },
+  "answer": "D",
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "tomato"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10+2 Level — Sixteenth Edition",
+    "file": "tomato.pdf",
+    "pages": [
+      52
+    ],
+    "question_number": 300,
+    "crop": "questions/be3d3633-5407-49c9-a9ab-e6903c0239a3/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

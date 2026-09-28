@@ -1,0 +1,31 @@
+{
+  "id": "3d3fee56-e26c-4d49-a419-b65c40574e51",
+  "type": "MCQ",
+  "question": "$\\lim_{x\\to0}\\frac{(1+x)^{1/2}-1}{(1+x)^{1/3}-1}$ is",
+  "options": {
+    "A": "1",
+    "B": "0",
+    "C": "$\\frac32$",
+    "D": "$\\infty$"
+  },
+  "answer": "C",
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "tomato"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10+2 Level",
+    "file": "tomato.pdf",
+    "pages": [
+      117
+    ],
+    "question_number": 724,
+    "crop": "full_page"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

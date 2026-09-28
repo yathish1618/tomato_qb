@@ -1,0 +1,31 @@
+{
+  "id": "2530348d-80e4-4fd5-9fca-5c6518f1a51d",
+  "type": "MCQ",
+  "question": "If at least $90$ per cent students in a class are good in sports, and at least $80$ per cent are good in music and at least $70$ per cent are good in studies, then the percentage of students who are good in all three is at least",
+  "options": {
+    "A": "$25$",
+    "B": "$40$",
+    "C": "$20$",
+    "D": "$50$"
+  },
+  "answer": "B",
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "2009-bmath-admission-test-multiple-choice"
+  ],
+  "source": {
+    "title": "B.Math. (Hons.) Admission Test: 2009",
+    "file": "Tomato 16th Edition.pdf",
+    "pages": [
+      165
+    ],
+    "question_number": 17,
+    "crop": "questions/2530348d-80e4-4fd5-9fca-5c6518f1a51d/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

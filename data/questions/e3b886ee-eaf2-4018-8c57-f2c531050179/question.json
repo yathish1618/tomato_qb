@@ -1,0 +1,25 @@
+{
+  "id": "e3b886ee-eaf2-4018-8c57-f2c531050179",
+  "type": "SUBJECTIVE",
+  "question": "Let \\(P\\) be an interior point of the triangle \\(\\Delta ABC\\). Assume that \\(AP,BP\\) and \\(CP\\) meet the opposite sides \\(BC,CA\\) and \\(AB\\) at \\(D,E\\) and \\(F\\), respectively. Show that\n\\[\n\\frac{AF}{FB}+\\frac{AE}{EC}=\\frac{AP}{PD}.\n\\]",
+  "answer": null,
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "tomato"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10 + 2 Level",
+    "file": "Tomato 16th Edition.pdf",
+    "pages": [
+      246
+    ],
+    "question_number": 109,
+    "crop": "questions/e3b886ee-eaf2-4018-8c57-f2c531050179/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

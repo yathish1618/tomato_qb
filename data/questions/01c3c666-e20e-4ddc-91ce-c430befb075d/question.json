@@ -1,0 +1,25 @@
+{
+  "id": "01c3c666-e20e-4ddc-91ce-c430befb075d",
+  "type": "SUBJECTIVE",
+  "question": "\\(AB\\) is a chord of a circle \\(C\\).\n\n(a) Find a point \\(P\\) on the circumference of \\(C\\) such that \\(PA\\cdot PB\\) is the maximum.\n\n(b) Find a point \\(P\\) on the circumference of \\(C\\) which maximises \\(PA+PB\\).",
+  "answer": null,
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "tomato"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10 + 2 Level",
+    "file": "Tomato 16th Edition.pdf",
+    "pages": [
+      246
+    ],
+    "question_number": 111,
+    "crop": "questions/01c3c666-e20e-4ddc-91ce-c430befb075d/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

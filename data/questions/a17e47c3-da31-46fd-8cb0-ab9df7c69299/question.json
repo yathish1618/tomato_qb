@@ -1,0 +1,31 @@
+{
+  "id": "a17e47c3-da31-46fd-8cb0-ab9df7c69299",
+  "type": "MCQ",
+  "question": "If $f,g$ are real-valued differentiable functions on the real line $\\mathbb R$ such that $f(g(x))=x$ and $f\\prime(x)=1+(f(x))^2$, then $g\\prime(x)$ equals",
+  "options": {
+    "A": "$\\frac1{1+x^2}$",
+    "B": "$1+x^2$",
+    "C": "$\\frac1{1+x^4}$",
+    "D": "$1+x^4$."
+  },
+  "answer": null,
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "bstat-bmath-uga-2020"
+  ],
+  "source": {
+    "title": "",
+    "file": "BStat-BMath-UGA-2020.pdf",
+    "pages": [
+      1
+    ],
+    "question_number": 3,
+    "crop": "questions/a17e47c3-da31-46fd-8cb0-ab9df7c69299/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

@@ -1,0 +1,31 @@
+{
+  "id": "88f200e0-1ecb-4957-894b-67bfc3c19b64",
+  "type": "MCQ",
+  "question": "The two sequences of numbers $\\{1,4,16,64,\\ldots\\}$ and $\\{3,12,48,192,\\ldots\\}$ are mixed as follows: $1,3,4,12,16,48,64,192,\\ldots$. The sum of the mixed series is $1048576$. Then the number immediately preceding $1048576$ is",
+  "options": {
+    "A": "786432",
+    "B": "262144",
+    "C": "814572",
+    "D": "786516"
+  },
+  "answer": "A",
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "tomato"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10+2 Level — Sixteenth Edition",
+    "file": "tomato.pdf",
+    "pages": [
+      24
+    ],
+    "question_number": 79,
+    "crop": "questions/88f200e0-1ecb-4957-894b-67bfc3c19b64/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

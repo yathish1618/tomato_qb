@@ -1,0 +1,32 @@
+{
+  "id": "8f024fcb-7cdd-487e-bef3-eff604218c02",
+  "type": "MCQ",
+  "question": "If $y=3^{\\frac{\\sin ax}{\\cos bx}}$, then $\\frac{dy}{dx}$ is",
+  "options": {
+    "A": "$\\displaystyle3^{\\frac{\\sin ax}{\\cos bx}}\\frac{a\\cos ax\\cos bx+b\\sin ax\\sin bx}{\\cos^2 bx}$",
+    "B": "$\\displaystyle3^{\\frac{\\sin ax}{\\cos bx}}\\frac{a\\cos ax\\cos bx+b\\sin ax\\sin bx}{\\cos^2 bx}\\log3$",
+    "C": "$\\displaystyle3^{\\frac{\\sin ax}{\\cos bx}}\\frac{a\\cos ax\\cos bx-b\\sin ax\\sin bx}{\\cos^2 bx}\\log3$",
+    "D": "$\\displaystyle3^{\\frac{\\sin ax}{\\cos bx}}\\log3$"
+  },
+  "answer": "B",
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "tomato"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10+2 Level",
+    "file": "tomato.pdf",
+    "pages": [
+      124,
+      125
+    ],
+    "question_number": 764,
+    "crop": "full_page"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

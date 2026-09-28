@@ -1,0 +1,25 @@
+{
+  "id": "ea20103a-f672-4182-a433-748d2b0bcaff",
+  "type": "SUBJECTIVE",
+  "question": "Let $a$ be a fixed real number. Consider the equation $\\frac{(x+2)^2}{(x+7)^2}+a=0,\\ x\\in\\mathbb R$, where $\\mathbb R$ is the set of real numbers. For what values of $a$ will the equation have exactly one double-root?",
+  "answer": null,
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "bstat-bmath-ugb-2020"
+  ],
+  "source": {
+    "title": "",
+    "file": "BStat-BMath-UGB-2020.pdf",
+    "pages": [
+      1
+    ],
+    "question_number": 2,
+    "crop": "questions/ea20103a-f672-4182-a433-748d2b0bcaff/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

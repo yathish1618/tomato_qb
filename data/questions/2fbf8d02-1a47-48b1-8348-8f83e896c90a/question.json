@@ -1,0 +1,31 @@
+{
+  "id": "2fbf8d02-1a47-48b1-8348-8f83e896c90a",
+  "type": "MCQ",
+  "question": "The distance between the two foci of the rectangular hyperbola defined by \\(xy=2\\) is",
+  "options": {
+    "A": "2",
+    "B": "\\(2\\sqrt2\\)",
+    "C": "4",
+    "D": "\\(4\\sqrt2\\)"
+  },
+  "answer": "D",
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "2013-bstat-bmath-admission-test-multiple-choice"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10 + 2 Level",
+    "file": "Tomato 16th Edition.pdf",
+    "pages": [
+      195
+    ],
+    "question_number": 6,
+    "crop": "questions/2fbf8d02-1a47-48b1-8348-8f83e896c90a/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

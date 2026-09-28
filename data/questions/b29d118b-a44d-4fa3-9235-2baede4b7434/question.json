@@ -1,0 +1,25 @@
+{
+  "id": "b29d118b-a44d-4fa3-9235-2baede4b7434",
+  "type": "SUBJECTIVE",
+  "question": "Let $A$ and $B$ be variable points on the $x$-axis and $y$-axis respectively such that the line segment $AB$ is in the first quadrant and of a fixed length $2d$. Let $C$ be the mid-point of $AB$ and $P$ be a point such that (a) $P$ and the origin are on the opposite sides of $AB$ and (b) $PC$ is a line segment of length $d$ which is perpendicular to $AB$. Find the locus of $P$.",
+  "answer": null,
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "bstat-bmath-ugb-2020"
+  ],
+  "source": {
+    "title": "",
+    "file": "BStat-BMath-UGB-2020.pdf",
+    "pages": [
+      1
+    ],
+    "question_number": 3,
+    "crop": "questions/b29d118b-a44d-4fa3-9235-2baede4b7434/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

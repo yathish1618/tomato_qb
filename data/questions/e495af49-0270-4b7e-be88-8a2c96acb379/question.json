@@ -1,0 +1,31 @@
+{
+  "id": "e495af49-0270-4b7e-be88-8a2c96acb379",
+  "type": "MCQ",
+  "question": "If \\(l^2+m^2+n^2=1\\) and \\(l'^2+m'^2+n'^2=1\\), then the value of \\(ll'+mm'+nn'\\)",
+  "options": {
+    "A": "is always greater than 2",
+    "B": "is always greater than 1, but less than 2",
+    "C": "is always less than or equal to 1",
+    "D": "does not satisfy any of the foregoing conditions"
+  },
+  "answer": "C",
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "tomato"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10+2 Level — Sixteenth Edition",
+    "file": "tomato.pdf",
+    "pages": [
+      63
+    ],
+    "question_number": 374,
+    "crop": "questions/e495af49-0270-4b7e-be88-8a2c96acb379/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

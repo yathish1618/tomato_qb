@@ -1,0 +1,31 @@
+{
+  "id": "2222c190-6d7e-45cd-a0ad-fd784d5c5704",
+  "type": "MCQ",
+  "question": "In $\\triangle ABC$, $CD$ is the median and $BE$ is the altitude. Given that $CD=BE$, what is the value of $\\angle ACD$?",
+  "options": {
+    "A": "$\\pi/3$",
+    "B": "$\\pi/4$",
+    "C": "$\\pi/5$",
+    "D": "$\\pi/6$"
+  },
+  "answer": null,
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "bstat-bmath-uga-2024"
+  ],
+  "source": {
+    "title": "",
+    "file": "BStat-BMath-UGA-2024(1).pdf",
+    "pages": [
+      2
+    ],
+    "question_number": 9,
+    "crop": "questions/2222c190-6d7e-45cd-a0ad-fd784d5c5704/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

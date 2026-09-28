@@ -1,0 +1,31 @@
+{
+  "id": "899bd6c0-a55d-414a-9ad3-b68ea77b1f01",
+  "type": "MCQ",
+  "question": "Let $x_1,x_2,\\ldots,x_{50}$ be fifty nonzero numbers such that $x_i+x_{i+1}=k$ for all $1\\le i\\le49$. If $x_{14}=a,\\ x_{27}=b$, then $x_{20}+x_{37}$ equals",
+  "options": {
+    "A": "$2(a+b)-k$",
+    "B": "$k+a$",
+    "C": "$k+b$",
+    "D": "none of the foregoing expressions"
+  },
+  "answer": "A",
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "tomato"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10+2 Level — Sixteenth Edition",
+    "file": "tomato.pdf",
+    "pages": [
+      34
+    ],
+    "question_number": 163,
+    "crop": "questions/899bd6c0-a55d-414a-9ad3-b68ea77b1f01/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

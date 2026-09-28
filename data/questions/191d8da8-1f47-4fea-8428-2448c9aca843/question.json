@@ -1,0 +1,31 @@
+{
+  "id": "191d8da8-1f47-4fea-8428-2448c9aca843",
+  "type": "MCQ",
+  "question": "Consider a triangle $ABC$. The sides $AB$ and $AC$ are extended to points $D$ and $E$, respectively, such that $AD=3AB$ and $AE=3AC$. Then one diagonal of $BDEC$ divides the other diagonal in the ratio",
+  "options": {
+    "A": "$1:3$",
+    "B": "$1:\\sqrt{3}$",
+    "C": "$1:2$",
+    "D": "$1:\\sqrt{2}$."
+  },
+  "answer": null,
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "bstat-bmath-uga-2017"
+  ],
+  "source": {
+    "title": "",
+    "file": "BStat-BMath-UGA-2017.pdf",
+    "pages": [
+      2
+    ],
+    "question_number": 8,
+    "crop": "questions/191d8da8-1f47-4fea-8428-2448c9aca843/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

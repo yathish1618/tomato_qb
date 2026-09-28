@@ -1,0 +1,31 @@
+{
+  "id": "79dd39b1-f56a-42fd-9607-81ced89a447d",
+  "type": "MCQ",
+  "question": "A cooking pot has a spherical bottom, while the upper part is a truncated cone. Its vertical cross-section is shown in the figure. If the volume of food increases by 15% during cooking, the maximum initial volume of food that can be cooked without spilling is, in cc,",
+  "options": {
+    "A": "$14450\\frac{\\pi}{3}$",
+    "B": "$19550\\frac{\\pi}{3}$",
+    "C": "$\\frac{340000\\pi}{23}$",
+    "D": "$20000\\frac{\\pi}{3}$"
+  },
+  "answer": "D",
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "tomato"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10+2 Level — Sixteenth Edition",
+    "file": "tomato.pdf",
+    "pages": [
+      89
+    ],
+    "question_number": 537,
+    "crop": "questions/79dd39b1-f56a-42fd-9607-81ced89a447d/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

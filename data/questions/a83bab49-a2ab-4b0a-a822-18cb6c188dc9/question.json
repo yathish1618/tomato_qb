@@ -1,0 +1,31 @@
+{
+  "id": "a83bab49-a2ab-4b0a-a822-18cb6c188dc9",
+  "type": "MCQ",
+  "question": "Suppose that the roots of the equation $ax^2+bx+\\lambda=0$ (where $a$ and $b$ are given real numbers) are real for all positive values of $\\lambda$. Then we must have",
+  "options": {
+    "A": "$a\\ge0$",
+    "B": "$a=0$",
+    "C": "$b^2\\ge4a$",
+    "D": "$a\\le0$"
+  },
+  "answer": "D",
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "tomato"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10+2 Level — Sixteenth Edition",
+    "file": "tomato.pdf",
+    "pages": [
+      44
+    ],
+    "question_number": 239,
+    "crop": "questions/a83bab49-a2ab-4b0a-a822-18cb6c188dc9/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

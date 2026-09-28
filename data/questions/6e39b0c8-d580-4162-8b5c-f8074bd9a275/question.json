@@ -1,0 +1,31 @@
+{
+  "id": "6e39b0c8-d580-4162-8b5c-f8074bd9a275",
+  "type": "MCQ",
+  "question": "For any two sets $S$ and $T$, $S\\triangle T$ is defined as the set of all elements that belong to either $S$ or $T$ but not both, that is, $S\\triangle T=(S\\cup T)-(S\\cap T)$. Let $A,B$ and $C$ be sets such that $A\\cap B\\cap C=\\varnothing$, and the number of elements in each of $A\\triangle B$, $B\\triangle C$ and $C\\triangle A$ equals 100. Then the number of elements in $A\\cup B\\cup C$ equals",
+  "options": {
+    "A": "150",
+    "B": "300",
+    "C": "230",
+    "D": "210"
+  },
+  "answer": "A",
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": "4615231b-13f6-4512-9f11-31343628a683",
+  "grade": "12",
+  "tags": [
+    "tomato"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10+2 Level — Sixteenth Edition",
+    "file": "tomato.pdf",
+    "pages": [
+      15
+    ],
+    "question_number": 33,
+    "crop": "questions/6e39b0c8-d580-4162-8b5c-f8074bd9a275/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

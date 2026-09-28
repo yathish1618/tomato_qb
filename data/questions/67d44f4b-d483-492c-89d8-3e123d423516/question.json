@@ -1,0 +1,31 @@
+{
+  "id": "67d44f4b-d483-492c-89d8-3e123d423516",
+  "type": "MCQ",
+  "question": "From a square of unit length, pieces from the corners are removed to form a regular octagon. Then, the value of the area removed is",
+  "options": {
+    "A": "\\(1/2\\)",
+    "B": "\\(1/\\sqrt2\\)",
+    "C": "\\(\\sqrt2-1\\)",
+    "D": "\\((\\sqrt2-1)^2\\)"
+  },
+  "answer": "D",
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "2013-bstat-bmath-admission-test-multiple-choice"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10 + 2 Level",
+    "file": "Tomato 16th Edition.pdf",
+    "pages": [
+      195
+    ],
+    "question_number": 2,
+    "crop": "questions/67d44f4b-d483-492c-89d8-3e123d423516/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

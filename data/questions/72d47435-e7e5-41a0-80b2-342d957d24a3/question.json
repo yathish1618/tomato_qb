@@ -1,0 +1,25 @@
+{
+  "id": "72d47435-e7e5-41a0-80b2-342d957d24a3",
+  "type": "SUBJECTIVE",
+  "question": "In how many ways can you divide the set of eight numbers $\\{2,3,\\ldots,9\\}$ into 4 pairs such that no pair of numbers has g.c.d. equal to 2?",
+  "answer": null,
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "2008-bstat-admission-test-short-answer-type"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10 + 2 Level",
+    "file": "Tomato 16th Edition(1).pdf",
+    "pages": [
+      264
+    ],
+    "question_number": 8,
+    "crop": "questions/72d47435-e7e5-41a0-80b2-342d957d24a3/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

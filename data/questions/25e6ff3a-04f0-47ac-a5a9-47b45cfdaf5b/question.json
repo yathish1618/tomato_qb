@@ -1,0 +1,31 @@
+{
+  "id": "25e6ff3a-04f0-47ac-a5a9-47b45cfdaf5b",
+  "type": "MCQ",
+  "question": "The equation \\(x^3+y^3=xy(1+xy)\\) represents",
+  "options": {
+    "A": "two parabolas intersecting at two points",
+    "B": "two parabolas touching at one point",
+    "C": "two non-intersecting hyperbolas",
+    "D": "one parabola passing through the origin."
+  },
+  "answer": "A",
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "2011-bstat-admission-test-multiple-choice"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10 + 2 Level",
+    "file": "Tomato 16th Edition.pdf",
+    "pages": [
+      179
+    ],
+    "question_number": 8,
+    "crop": "questions/25e6ff3a-04f0-47ac-a5a9-47b45cfdaf5b/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

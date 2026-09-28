@@ -1,0 +1,31 @@
+{
+  "id": "dda179d3-94d0-4b5d-ac20-6f5df556e2d2",
+  "type": "MCQ",
+  "question": "Consider points of the form $(n,n^k)$, where $n$ and $k$ are integers with $n\\ge0$, $k\\ge1$. How many such points are strictly inside the circle of radius $10$ with centre at the origin?",
+  "options": {
+    "A": "$11$",
+    "B": "$12$",
+    "C": "$15$",
+    "D": "$17$"
+  },
+  "answer": null,
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "bstat-bmath-uga-2024"
+  ],
+  "source": {
+    "title": "",
+    "file": "BStat-BMath-UGA-2024(1).pdf",
+    "pages": [
+      5
+    ],
+    "question_number": 21,
+    "crop": "questions/dda179d3-94d0-4b5d-ac20-6f5df556e2d2/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

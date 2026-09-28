@@ -1,0 +1,31 @@
+{
+  "id": "19aaac03-0d00-4b37-83f4-e2a50eb5f6a1",
+  "type": "MCQ",
+  "question": "Let $n$ be a positive integer. Now consider all numbers of the form $2^{3n+1}+2^{2n+1}$. Only one of the following statements is true regarding the last digit of these numbers. Which one is it?",
+  "options": {
+    "A": "It is 5 for some of these numbers but not for all.",
+    "B": "It is 5 for all these numbers.",
+    "C": "It is always 5 for $n\\le10$ and it is 5 for some $n>10$.",
+    "D": "It is odd for all $n$ but it is not necessarily 5."
+  },
+  "answer": "B",
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "tomato"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10+2 Level — Sixteenth Edition",
+    "file": "tomato.pdf",
+    "pages": [
+      23
+    ],
+    "question_number": 76,
+    "crop": "questions/19aaac03-0d00-4b37-83f4-e2a50eb5f6a1/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

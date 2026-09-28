@@ -1,0 +1,25 @@
+{
+  "id": "e423037a-43cf-4114-9101-c76c61639d50",
+  "type": "SUBJECTIVE",
+  "question": "Let $\\alpha$ be a real number. Consider the function\n\\[\ng(x)=(\\alpha+|x|)^2e^{(5-|x|)^2},\\qquad -\\infty<x<\\infty.\n\\]\n(i) Determine the values of $\\alpha$ for which $g$ is continuous at all $x$.\n\n(ii) Determine the values of $\\alpha$ for which $g$ is differentiable at all $x$.",
+  "answer": null,
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "2012-bstat-bmath-admission-test-short-answer-type"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10 + 2 Level",
+    "file": "Tomato 16th Edition(1).pdf",
+    "pages": [
+      279
+    ],
+    "question_number": 2,
+    "crop": "questions/e423037a-43cf-4114-9101-c76c61639d50/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

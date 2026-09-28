@@ -1,0 +1,31 @@
+{
+  "id": "e5d0b62c-dc01-4f51-835f-3d00815bfb5a",
+  "type": "MCQ",
+  "question": "If $\\log_{30}3=a$ and $\\log_{30}5=b$, then $\\log_{30}8$ is equal to",
+  "options": {
+    "A": "$a+b$",
+    "B": "$3(1-a-b)$",
+    "C": "$\\frac83(1-a-b)$",
+    "D": "$\\frac12(1-a-b)$"
+  },
+  "answer": "B",
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "tomato"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10+2 Level — Sixteenth Edition",
+    "file": "tomato.pdf",
+    "pages": [
+      41
+    ],
+    "question_number": 217,
+    "crop": "questions/e5d0b62c-dc01-4f51-835f-3d00815bfb5a/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

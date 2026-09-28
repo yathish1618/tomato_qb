@@ -1,0 +1,25 @@
+{
+  "id": "27ac482e-9a05-4cd2-9688-f18cc6f5004a",
+  "type": "SUBJECTIVE",
+  "question": "41. Find the number of rational numbers $m/n$, where $m,n$ are relatively prime positive integers satisfying $m<n$ and $mn=25!$.",
+  "answer": null,
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "tomato"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10 + 2 Level",
+    "file": "Tomato 16th Edition.pdf",
+    "pages": [
+      237
+    ],
+    "question_number": 41,
+    "crop": "questions/27ac482e-9a05-4cd2-9688-f18cc6f5004a/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

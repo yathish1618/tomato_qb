@@ -1,0 +1,31 @@
+{
+  "id": "adcfb897-705b-4bd8-a1bd-467e8a311fe7",
+  "type": "MCQ",
+  "question": "Let $a_1=1$ and $a_n=n(a_{n-1}+1)$ for $n=2,3,\\ldots$. Define $P_n=(1+\\frac1{a_1})(1+\\frac1{a_2})\\cdots(1+\\frac1{a_n})$. Then $\\lim_{n\\to\\infty}P_n$ is",
+  "options": {
+    "A": "$1+e$",
+    "B": "$e$",
+    "C": "1",
+    "D": "$\\infty$"
+  },
+  "answer": "B",
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "tomato"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10+2 Level",
+    "file": "tomato.pdf",
+    "pages": [
+      111
+    ],
+    "question_number": 694,
+    "crop": "full_page"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

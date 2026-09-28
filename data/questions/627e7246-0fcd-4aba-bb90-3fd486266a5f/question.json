@@ -1,0 +1,31 @@
+{
+  "id": "627e7246-0fcd-4aba-bb90-3fd486266a5f",
+  "type": "MCQ",
+  "question": "The locus of the foot of perpendicular from any focus upon any tangent to the ellipse $\\frac{x^2}{a^2}+\\frac{y^2}{b^2}=1$ is",
+  "options": {
+    "A": "$\\frac{x^2}{b^2}+\\frac{y^2}{a^2}=1$",
+    "B": "$x^2+y^2=a^2+b^2$",
+    "C": "$x^2+y^2=a^2$",
+    "D": "none of the foregoing curves"
+  },
+  "answer": "C",
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "tomato"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10+2 Level — Sixteenth Edition",
+    "file": "tomato.pdf",
+    "pages": [
+      94
+    ],
+    "question_number": 573,
+    "crop": "questions/627e7246-0fcd-4aba-bb90-3fd486266a5f/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

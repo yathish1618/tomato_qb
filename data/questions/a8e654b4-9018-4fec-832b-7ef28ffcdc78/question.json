@@ -1,0 +1,25 @@
+{
+  "id": "a8e654b4-9018-4fec-832b-7ef28ffcdc78",
+  "type": "SUBJECTIVE",
+  "question": "Let $c$ be a fixed real number. Show that a root of the equation $$x(x+1)(x+2)\\cdots(x+2009)=c$$ can have multiplicity at most 2. Determine the number of values of $c$ for which the equation has a root of multiplicity 2.",
+  "answer": null,
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "2009-bmath-admission-test-short-answer-type"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10 + 2 Level",
+    "file": "Tomato 16th Edition(1).pdf",
+    "pages": [
+      270
+    ],
+    "question_number": 2,
+    "crop": "questions/a8e654b4-9018-4fec-832b-7ef28ffcdc78/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

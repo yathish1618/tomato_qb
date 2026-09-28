@@ -1,0 +1,31 @@
+{
+  "id": "c0b40f46-910f-42e4-8d99-bd00c76841b1",
+  "type": "MCQ",
+  "question": "The remainder when $3^{33}$ is divided by 79 is",
+  "options": {
+    "A": "78",
+    "B": "1",
+    "C": "2",
+    "D": "35"
+  },
+  "answer": "D",
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "tomato"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10+2 Level — Sixteenth Edition",
+    "file": "tomato.pdf",
+    "pages": [
+      25
+    ],
+    "question_number": 87,
+    "crop": "questions/c0b40f46-910f-42e4-8d99-bd00c76841b1/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

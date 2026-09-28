@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Collections & Sets - TOMATO</title>
+<link rel="stylesheet" href="/styles.css">
+<style>
+  .app-minimal { display: flex; flex-direction: column; height: 100vh; }
+  .topbar-minimal { flex: none; background: var(--card); border-bottom: 1px solid var(--line); padding: 0 18px; height: 64px; display: flex; justify-content: space-between; align-items: center; }
+  .main-content { flex: 1; overflow: auto; padding: 40px 20px; display: flex; justify-content: center; }
+  .container { width: 100%; max-width: 800px; }
+  .page-header { margin-bottom: 24px; display: flex; justify-content: space-between; align-items: flex-end; }
+  .page-header h1 { font-size: 24px; font-weight: 800; letter-spacing: -0.02em; }
+  .page-header p { color: var(--muted); font-size: 14px; margin-top: 6px; }
+  
+  .collection-card { background: #fff; border: 1px solid var(--line); border-radius: var(--r); margin-bottom: 12px; overflow: hidden; box-shadow: 0 2px 8px rgba(0,0,0,.02); }
+  .collection-head { display: flex; align-items: center; gap: 12px; padding: 12px 16px; background: var(--bg); cursor: pointer; user-select: none; }
+  .collection-head:hover { background: var(--bg2); }
+  .collection-head input { flex: 1; height: 38px; padding: 8px 12px; font-weight: 700; font-size: 15px; background: #fff; border: 1px solid var(--line); border-radius: var(--rs); }
+  .collection-head input:focus { border-color: #aaa; outline: none; }
+  
+  .collection-title-wrap { flex: 1; display: flex; align-items: center; gap: 8px; position: relative; }
+  .collection-name-text { font-weight: 700; font-size: 15px; flex: 1; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  
+  .id-hover-icon {
+    display: inline-flex; align-items: center; justify-content: center;
+    width: 22px; height: 22px; border-radius: 4px; background: #eee; color: #666;
+    font-size: 10px; cursor: help; font-family: monospace; position: relative; font-weight: bold; text-transform: uppercase;
+  }
+  .id-hover-icon::before { content: "id"; }
+  .id-hover-icon:hover::after {
+    content: attr(data-id);
+    position: absolute; bottom: 125%; left: 50%; transform: translateX(-50%);
+    background: #222; color: #fff; padding: 4px 8px; border-radius: 4px;
+    font-size: 12px; white-space: nowrap; z-index: 10; font-weight: normal; text-transform: none;
+  }
+  
+  .icon-btn { border: 0; background: transparent; color: var(--muted); font-size: 20px; font-weight: 600; width: 28px; height: 28px; display: inline-flex; align-items: center; justify-content: center; cursor: pointer; border-radius: 4px; transition: transform 0.2s; }
+  .icon-btn.open { transform: rotate(90deg); }
+  
+  .set-list { padding: 12px 16px 16px 52px; border-top: 1px solid var(--line); display: none; }
+  .set-list.open { display: block; }
+  
+  .set-row { display: flex; align-items: center; gap: 12px; margin-bottom: 8px; position: relative; }
+  .set-row::before { content: ""; position: absolute; left: -26px; top: 18px; width: 18px; height: 1px; background: #ddd; }
+  .set-row::after { content: ""; position: absolute; left: -26px; top: -12px; width: 1px; height: 30px; background: #ddd; }
+  .set-row:first-child::after { top: -12px; height: 30px; }
+  
+  .set-title-wrap { flex: 1; display: flex; align-items: center; gap: 8px; position: relative; }
+  .set-name-text { font-size: 14px; flex: 1; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+
+  .set-row input { flex: 1; height: 36px; padding: 8px 12px; border: 1px solid var(--line); border-radius: var(--rs); }
+  .set-row input:focus { border-color: #aaa; outline: none; }
+  
+  .add-set-row { display: flex; gap: 12px; margin-top: 12px; position: relative; }
+  .add-set-row::before { content: ""; position: absolute; left: -26px; top: 18px; width: 18px; height: 1px; background: #ddd; }
+  .add-set-row::after { content: ""; position: absolute; left: -26px; top: -8px; width: 1px; height: 26px; background: #ddd; }
+  /* Extend the vertical line of the previous item down to the next one */
+  .set-row + .set-row::after, .set-row + .add-set-row::after { top: -20px; height: 38px; }
+  
+  .add-set-row input { flex: 1; height: 36px; padding: 8px 12px; border: 1px solid var(--line); border-radius: var(--rs); }
+  
+  .manage-create { display: flex; gap: 12px; margin-bottom: 30px; background: #fff; padding: 20px; border-radius: var(--r); border: 1px solid var(--line); box-shadow: var(--shadow); }
+  .manage-create input { flex: 1; height: 44px; padding: 10px 14px; font-size: 15px; }
+  .manage-create button { height: 44px; padding: 0 20px; font-size: 15px; }
+</style>
+</head>
+<body>
+<div class="app-minimal">
+  <header class="topbar-minimal">
+    <div class="brand-wrap"><div class="brand">TOMATO</div><div class="brand-sub">Question Bank CMS</div></div>
+    <div class="top-actions">
+      <button class="btn secondary" onclick="window.location.href='/'">‹ Back to Questions</button>
+    </div>
+  </header>
+  
+  <main class="main-content">
+    <div class="container">
+      <div class="page-header">
+        <div>
+          <h1>Collections & Sets</h1>
+          <p>Manage the source groupings used by questions. IDs remain stable; names can be edited.</p>
+        </div>
+      </div>
+      
+      <div class="manage-create">
+        <input id="newCollectionName" placeholder="New collection name…">
+        <button class="btn primary" id="createCollectionBtn">+ Create Collection</button>
+      </div>
+      
+      <div id="collectionManager"></div>
+    </div>
+  </main>
+</div>
+<div id="toast" class="toast"></div>
+
+<script src="/collections.js"></script>
+</body>
+</html>

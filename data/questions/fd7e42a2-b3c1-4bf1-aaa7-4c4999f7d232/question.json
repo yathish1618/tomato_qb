@@ -1,0 +1,25 @@
+{
+  "id": "fd7e42a2-b3c1-4bf1-aaa7-4c4999f7d232",
+  "type": "SUBJECTIVE",
+  "question": "Consider three positive real numbers $a,b,c$. Show that there cannot exist two distinct positive integers $m$ and $n$ such that both $a^m+b^m=c^m$ and $a^n+b^n=c^n$ hold.",
+  "answer": null,
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "2011-bstat-admission-test-short-answer-type"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10 + 2 Level",
+    "file": "Tomato 16th Edition(1).pdf",
+    "pages": [
+      275
+    ],
+    "question_number": 2,
+    "crop": "questions/fd7e42a2-b3c1-4bf1-aaa7-4c4999f7d232/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

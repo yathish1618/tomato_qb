@@ -1,0 +1,25 @@
+{
+  "id": "f1e7c241-2b78-49cd-b6e7-3d645d5e1f12",
+  "type": "SUBJECTIVE",
+  "question": "A real valued function $f$ is defined on the interval $(-1,2)$. A point $x_0$ is said to be a fixed point of $f$ if $f(x_0)=x_0$. Suppose that $f$ is a differentiable function such that $f(0)>0$ and $f(1)=1$. Show that if $f'(1)>1$, then $f$ has a fixed point in the interval $(0,1)$.",
+  "answer": null,
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "2010-bstat-admission-test-short-answer-type"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10 + 2 Level",
+    "file": "Tomato 16th Edition(1).pdf",
+    "pages": [
+      271
+    ],
+    "question_number": 4,
+    "crop": "questions/f1e7c241-2b78-49cd-b6e7-3d645d5e1f12/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

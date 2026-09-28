@@ -1,0 +1,31 @@
+{
+  "id": "44da6286-ff67-4683-bdb8-2b75166372a4",
+  "type": "MCQ",
+  "question": "Let \\(G(x)=\\displaystyle\\int_{-x^3}^{x^3}f(t)\\,dt\\), where \\(x\\) is any real number and \\(f\\) is a continuous function such that \\(f(t)>1\\) for all real \\(t\\). Then,",
+  "options": {
+    "A": "\\(G'(0)=0\\) and \\(G\\) has a local maximum or minimum at \\(x=0\\).",
+    "B": "For any real number \\(c\\), the equation \\(G(x)=c\\) has a unique solution.",
+    "C": "There exists a real number \\(c\\) such that \\(G(x)=c\\) has no solution.",
+    "D": "There exists a real number \\(c\\) such that \\(G(x)=c\\) has more than one solution."
+  },
+  "answer": "B",
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "2015-bstat-bmath-admission-test-multiple-choice"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10 + 2 Level",
+    "file": "Tomato 16th Edition.pdf",
+    "pages": [
+      209
+    ],
+    "question_number": 29,
+    "crop": "questions/44da6286-ff67-4683-bdb8-2b75166372a4/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

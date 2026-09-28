@@ -1,0 +1,31 @@
+{
+  "id": "6025ad7f-5fd2-443f-8442-e8125216d980",
+  "type": "MCQ",
+  "question": "The sum of all the solutions of $2+\\log_2(x-2)=\\log_{x-2}8$ in the interval $(2,\\infty)$ is",
+  "options": {
+    "A": "$\\frac{35}{8}$",
+    "B": "$5$",
+    "C": "$\\frac{49}{8}$",
+    "D": "$\\frac{55}{8}$"
+  },
+  "answer": null,
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "bstat-bmath-uga-2021"
+  ],
+  "source": {
+    "title": "",
+    "file": "BStat-BMath-UGA-2021(1).pdf",
+    "pages": [
+      1
+    ],
+    "question_number": 1,
+    "crop": "questions/6025ad7f-5fd2-443f-8442-e8125216d980/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

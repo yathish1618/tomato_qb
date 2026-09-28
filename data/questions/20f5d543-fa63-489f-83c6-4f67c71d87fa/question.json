@@ -1,0 +1,31 @@
+{
+  "id": "20f5d543-fa63-489f-83c6-4f67c71d87fa",
+  "type": "MCQ",
+  "question": "Let $S$ be the set of all points $z$ in the complex plane such that $\\left(1+\\frac1z\\right)^4=1$. Then, the points of $S$ are",
+  "options": {
+    "A": "vertices of a rectangle",
+    "B": "vertices of a right-angled triangle",
+    "C": "vertices of an equilateral triangle",
+    "D": "collinear"
+  },
+  "answer": null,
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "bstat-bmath-uga-2017"
+  ],
+  "source": {
+    "title": "",
+    "file": "BStat-BMath-UGA-2017.pdf",
+    "pages": [
+      3
+    ],
+    "question_number": 16,
+    "crop": "questions/20f5d543-fa63-489f-83c6-4f67c71d87fa/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

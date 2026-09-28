@@ -1,0 +1,31 @@
+{
+  "id": "9793715b-4d82-48d5-993c-d37352e55950",
+  "type": "MCQ",
+  "question": "Let $A=(0,10)$ and $B=(30,20)$ be two points in the plane and let $P=(x,0)$ be a moving point on the $x$-axis. The value of $x$ for which the sum of the distances of $P$ from $A$ and $B$ is minimum equals",
+  "options": {
+    "A": "0",
+    "B": "10",
+    "C": "15",
+    "D": "20"
+  },
+  "answer": "B",
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "tomato"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10+2 Level — Sixteenth Edition",
+    "file": "tomato.pdf",
+    "pages": [
+      96
+    ],
+    "question_number": 587,
+    "crop": "questions/9793715b-4d82-48d5-993c-d37352e55950/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

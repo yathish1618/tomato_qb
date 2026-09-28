@@ -1,0 +1,33 @@
+{
+  "id": "69d64446-3277-4f1d-ad2d-fb77dea68c48",
+  "type": "MCQ",
+  "question": "If the points $A,B,C,D$ and $E$ in the figure lie on a circle, then $\\frac{AD}{BE}$",
+  "options": {
+    "A": "equally $\\frac{\\sin(A+D)}{\\sin(B+E)}$",
+    "B": "equals $\\frac{\\sin B}{\\sin D}$",
+    "C": "equals $\\frac{\\sin(B+C)}{\\sin(C+D)}$",
+    "D": "cannot be found unless the radius of the circle is given"
+  },
+  "answer": "C",
+  "solution": null,
+  "marks": 1,
+  "figures": [
+    "q660_figure.png"
+  ],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "tomato"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10+2 Level",
+    "file": "tomato.pdf",
+    "pages": [
+      106
+    ],
+    "question_number": 660,
+    "crop": "full_page"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

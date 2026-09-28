@@ -1,0 +1,31 @@
+{
+  "id": "bccaa499-e914-4d09-86d4-ebd5ceb3fea4",
+  "type": "MCQ",
+  "question": "If $f(x)$ is a polynomial in $x$ and $a,b$ are distinct real numbers, then the remainder in the division of $f(x)$ by $(x-a)(x-b)$ is",
+  "options": {
+    "A": "$\\frac{(x-a)f(a)-(x-b)f(b)}{a-b}$",
+    "B": "$\\frac{(x-a)f(b)-(x-b)f(a)}{b-a}$",
+    "C": "$\\frac{(x-a)f(b)-(x-b)f(a)}{a-b}$",
+    "D": "$\\frac{(x-a)f(a)-(x-b)f(b)}{b-a}$"
+  },
+  "answer": "B",
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "tomato"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10+2 Level — Sixteenth Edition",
+    "file": "tomato.pdf",
+    "pages": [
+      46
+    ],
+    "question_number": 256,
+    "crop": "questions/bccaa499-e914-4d09-86d4-ebd5ceb3fea4/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

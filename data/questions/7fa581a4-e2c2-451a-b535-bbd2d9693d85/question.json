@@ -1,0 +1,31 @@
+{
+  "id": "7fa581a4-e2c2-451a-b535-bbd2d9693d85",
+  "type": "MCQ",
+  "question": "For a positive real number $\\alpha$, let $S_\\alpha$ denote the set of points $(x,y)$ satisfying $|x|^\\alpha+|y|^\\alpha=1$. A positive number $\\alpha$ is said to be good if the points in $S_\\alpha$ that are closest to the origin lie only on the coordinate axes. Then",
+  "options": {
+    "A": "all $\\alpha$ in $(0,1)$ are good and others are not good.",
+    "B": "all $\\alpha$ in $(1,2)$ are good and others are not good.",
+    "C": "all $\\alpha>2$ are good and others are not good.",
+    "D": "all $\\alpha>1$ are good and others are not good."
+  },
+  "answer": null,
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "bstat-bmath-uga-2017"
+  ],
+  "source": {
+    "title": "",
+    "file": "BStat-BMath-UGA-2017.pdf",
+    "pages": [
+      6
+    ],
+    "question_number": 28,
+    "crop": "questions/7fa581a4-e2c2-451a-b535-bbd2d9693d85/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

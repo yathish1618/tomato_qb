@@ -1,0 +1,31 @@
+{
+  "id": "a89c7b6f-b282-4d56-93f0-4307295a2364",
+  "type": "MCQ",
+  "question": "A ring of 10 cm in diameter is suspended from a point 12 cm vertically above the centre by six equal strings. The strings are attached to the circumference of the ring at equal intervals, thus keeping the ring in a horizontal plane. The cosine of the angle between two adjacent strings is",
+  "options": {
+    "A": "$\\frac{2}{\\sqrt{13}}$",
+    "B": "$\\frac{313}{338}$",
+    "C": "$\\frac{5}{\\sqrt{26}}$",
+    "D": "$\\frac{5\\sqrt{651}}{338}$"
+  },
+  "answer": "B",
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "tomato"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10+2 Level — Sixteenth Edition",
+    "file": "tomato.pdf",
+    "pages": [
+      98
+    ],
+    "question_number": 600,
+    "crop": "questions/a89c7b6f-b282-4d56-93f0-4307295a2364/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

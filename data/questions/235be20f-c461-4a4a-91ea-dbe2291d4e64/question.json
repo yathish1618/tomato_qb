@@ -1,0 +1,31 @@
+{
+  "id": "235be20f-c461-4a4a-91ea-dbe2291d4e64",
+  "type": "MCQ",
+  "question": "Let $Q=(x_1,y_1)$ be an exterior point and $P$ a point on the circle centred at the origin and with radius $r$. Let $\\theta$ be the angle which the line joining $P$ to the centre makes with the positive direction of the $x$-axis. If the line $PQ$ is tangent to the circle, then $x_1\\cos\\theta+y_1\\sin\\theta$ is equal to",
+  "options": {
+    "A": "$r$",
+    "B": "$r^2$",
+    "C": "$\\frac1r$",
+    "D": "$\\frac1{r^2}$"
+  },
+  "answer": "A",
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "tomato"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10+2 Level — Sixteenth Edition",
+    "file": "tomato.pdf",
+    "pages": [
+      88
+    ],
+    "question_number": 531,
+    "crop": "questions/235be20f-c461-4a4a-91ea-dbe2291d4e64/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

@@ -1,0 +1,25 @@
+{
+  "id": "4d114b69-d7d2-417e-af60-8c32f7fb295d",
+  "type": "SUBJECTIVE",
+  "question": "Let \\(f(x,y)=xy\\), where \\(x\\ge0\\) and \\(y\\ge0\\). Prove that the function \\(f\\) satisfies the following property:\n\\[\nf(\\lambda x+(1-\\lambda)x',\\lambda y+(1-\\lambda)y')>\\min\\{f(x,y),f(x',y')\\}\n\\]\nfor all \\((x,y)\\ne(x',y')\\) and for all \\(\\lambda\\in(0,1)\\).",
+  "answer": null,
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "tomato"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10 + 2 Level",
+    "file": "Tomato 16th Edition.pdf",
+    "pages": [
+      244
+    ],
+    "question_number": 98,
+    "crop": "questions/4d114b69-d7d2-417e-af60-8c32f7fb295d/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

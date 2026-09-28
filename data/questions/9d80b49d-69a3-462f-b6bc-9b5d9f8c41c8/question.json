@@ -1,0 +1,31 @@
+{
+  "id": "9d80b49d-69a3-462f-b6bc-9b5d9f8c41c8",
+  "type": "MCQ",
+  "question": "The lengths of the sides $CB$ and $CA$ of a triangle $ABC$ are given by $a$ and $b$, and the angle $C$ is $\\frac{2\\pi}{3}$. The line $CD$ bisects the angle $C$ and meets $AB$ at $D$. Then the length of $CD$ is",
+  "options": {
+    "A": "$\\frac1{a+b}$",
+    "B": "$\\frac{a^2+b^2}{a+b}$",
+    "C": "$\\frac{ab}{2(a+b)}$",
+    "D": "$\\frac{ab}{a+b}$"
+  },
+  "answer": "D",
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "tomato"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10+2 Level",
+    "file": "tomato.pdf",
+    "pages": [
+      110
+    ],
+    "question_number": 685,
+    "crop": "full_page"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

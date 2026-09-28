@@ -1,0 +1,31 @@
+{
+  "id": "555737a9-4297-45ef-a332-a57866e4421c",
+  "type": "MCQ",
+  "question": "The value of $\\log_5\\frac{(125)(625)}{25}$ is",
+  "options": {
+    "A": "725",
+    "B": "6",
+    "C": "3125",
+    "D": "5"
+  },
+  "answer": "D",
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "tomato"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10+2 Level — Sixteenth Edition",
+    "file": "tomato.pdf",
+    "pages": [
+      40
+    ],
+    "question_number": 204,
+    "crop": "questions/555737a9-4297-45ef-a332-a57866e4421c/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

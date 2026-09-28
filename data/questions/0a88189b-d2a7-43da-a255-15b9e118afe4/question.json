@@ -1,0 +1,27 @@
+{
+  "id": "0a88189b-d2a7-43da-a255-15b9e118afe4",
+  "type": "SUBJECTIVE",
+  "question": "Each pair in a group of 20 persons is classified by the existence of kinship relation and friendship relation between them. The following table of data is obtained from such a classification.\n\nDetermine (with justifications) whether each of the following statements is supported by the above data:\n\n(i) Most of the friends are kin.\n\n(ii) Most of the kin are friends.",
+  "answer": null,
+  "solution": null,
+  "marks": 1,
+  "figures": [
+    "figures/q180.png"
+  ],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "tomato"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10 + 2 Level",
+    "file": "Tomato 16th Edition.pdf",
+    "pages": [
+      255
+    ],
+    "question_number": 180,
+    "crop": "questions/0a88189b-d2a7-43da-a255-15b9e118afe4/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

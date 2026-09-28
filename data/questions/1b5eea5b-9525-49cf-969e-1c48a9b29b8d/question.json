@@ -1,0 +1,31 @@
+{
+  "id": "1b5eea5b-9525-49cf-969e-1c48a9b29b8d",
+  "type": "MCQ",
+  "question": "A sealed cylindrical drum of radius $r$ is 9% filled with paint. If the drum is tilted to rest on its side, the fraction of its curved surface area (not counting the flat sides) that will be under the paint is",
+  "options": {
+    "A": "less than $\\frac1{12}$",
+    "B": "between $\\frac1{12}$ and $\\frac16$",
+    "C": "between $\\frac16$ and $\\frac14$",
+    "D": "greater than $\\frac14$"
+  },
+  "answer": "B",
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "tomato"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10+2 Level — Sixteenth Edition",
+    "file": "tomato.pdf",
+    "pages": [
+      89
+    ],
+    "question_number": 538,
+    "crop": "questions/1b5eea5b-9525-49cf-969e-1c48a9b29b8d/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

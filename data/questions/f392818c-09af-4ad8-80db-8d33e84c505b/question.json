@@ -1,0 +1,31 @@
+{
+  "id": "f392818c-09af-4ad8-80db-8d33e84c505b",
+  "type": "MCQ",
+  "question": "Two contestants run a 3-kilometre race along a circular course of length 300 metres. If their speeds are in the ratio of 4:3, how often and where would the winner pass the other? (The initial start-off is not counted as passing.)",
+  "options": {
+    "A": "4 times; at the starting point",
+    "B": "Twice; at the starting point",
+    "C": "Twice; at a distance of 225 metres from the starting point",
+    "D": "Twice; once at 75 metres and again at 225 metres from the starting point"
+  },
+  "answer": "B",
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "tomato"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10+2 Level — Sixteenth Edition",
+    "file": "tomato.pdf",
+    "pages": [
+      13
+    ],
+    "question_number": 19,
+    "crop": "questions/f392818c-09af-4ad8-80db-8d33e84c505b/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

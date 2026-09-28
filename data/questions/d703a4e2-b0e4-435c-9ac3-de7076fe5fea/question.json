@@ -1,0 +1,31 @@
+{
+  "id": "d703a4e2-b0e4-435c-9ac3-de7076fe5fea",
+  "type": "MCQ",
+  "question": "For a nonzero number $x$, if $y=1-x+\\frac{x^2}{2!}-\\frac{x^3}{3!}+\\cdots$ and $z=-y-\\frac{y^2}{2}-\\frac{y^3}{3}-\\cdots$, then the value of $\\log_e\\left(\\frac1{1-e^z}\\right)$ is",
+  "options": {
+    "A": "$1-x$",
+    "B": "$\\frac1x$",
+    "C": "$1+x$",
+    "D": "$x"
+  },
+  "answer": "D",
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "tomato"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10+2 Level — Sixteenth Edition",
+    "file": "tomato.pdf",
+    "pages": [
+      59
+    ],
+    "question_number": 350,
+    "crop": "questions/d703a4e2-b0e4-435c-9ac3-de7076fe5fea/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

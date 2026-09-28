@@ -1,0 +1,25 @@
+{
+  "id": "b244fb68-eaca-4556-865e-8ed3697539c2",
+  "type": "SUBJECTIVE",
+  "question": "Find the vertices of the two right angled triangles each having area 18 and such that the point \\((2,4)\\) lies on the hypotenuse and the other two sides are formed by the \\(x\\) and \\(y\\) axes.",
+  "answer": null,
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "tomato"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10 + 2 Level",
+    "file": "Tomato 16th Edition.pdf",
+    "pages": [
+      246
+    ],
+    "question_number": 113,
+    "crop": "questions/b244fb68-eaca-4556-865e-8ed3697539c2/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

@@ -1,0 +1,31 @@
+{
+  "id": "4132eabf-c64f-4262-8193-f93f65b4434b",
+  "type": "MCQ",
+  "question": "A necessary and sufficient condition for the function $f(x)$ defined by $f(x)=\\begin{cases}x^2+2x,&x\\le0\\\\ax+b,&x>0\\end{cases}$ to be differentiable at the point $x=0$ is that",
+  "options": {
+    "A": "$a=0$ and $b=0$",
+    "B": "$a=0$ while $b$ can be arbitrary",
+    "C": "$a=2$ while $b$ can be arbitrary",
+    "D": "$a=2$ and $b=0$"
+  },
+  "answer": "D",
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "tomato"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10+2 Level",
+    "file": "tomato.pdf",
+    "pages": [
+      126
+    ],
+    "question_number": 776,
+    "crop": "full_page"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

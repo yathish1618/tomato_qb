@@ -1,0 +1,22 @@
+{
+  "id": "53391dc5-6c21-431a-b897-2737c42f6a8c",
+  "type": "SUBJECTIVE",
+  "question": "Let $\\mathbb N$ denote the set of natural numbers, and let $(a_i,b_i)$, $1\\le i\\le9$, be nine distinct tuples in $\\mathbb N\\times\\mathbb N$. Show that there are three distinct elements in the set $\\{2^{a_i}3^{b_i}:1\\le i\\le9\\}$ whose product is a perfect cube.",
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "bstat-bmath-ugb-2025"
+  ],
+  "source": {
+    "title": "UGB 2025",
+    "file": "ISI BStat-BMath UGA & UGB 2025 Problem and Solution - Cheenta Academy.pdf",
+    "pages": [
+      27
+    ],
+    "question_number": 6,
+    "crop": "questions/53391dc5-6c21-431a-b897-2737c42f6a8c/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

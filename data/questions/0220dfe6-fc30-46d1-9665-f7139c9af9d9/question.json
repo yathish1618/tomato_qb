@@ -1,0 +1,25 @@
+{
+  "id": "0220dfe6-fc30-46d1-9665-f7139c9af9d9",
+  "type": "SUBJECTIVE",
+  "question": "Use the derivatives and the left and right limits at points of discontinuities, if any, of the function\n\\[\nf(x)=\\frac{x}{x+2}+\\frac{x+2}{x}\n\\]\nto make conclusions about the behaviour of the function as \\(x\\) ranges over all possible values. Using this, draw a rough sketch of the graph of the function \\(f(x)\\) on plain paper.",
+  "answer": null,
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "tomato"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10 + 2 Level",
+    "file": "Tomato 16th Edition.pdf",
+    "pages": [
+      249
+    ],
+    "question_number": 133,
+    "crop": "questions/0220dfe6-fc30-46d1-9665-f7139c9af9d9/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

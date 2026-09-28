@@ -1,0 +1,31 @@
+{
+  "id": "c14345d7-409d-4581-9adf-8dff7142bc21",
+  "type": "MCQ",
+  "question": "Consider a quadrilateral \\(ABCD\\) in the \\(XY\\)-plane with all of its angles less than \\(180^\\circ\\). Let \\(P\\) be an arbitrary point in the plane and consider the six triangles each of which is formed by the point \\(P\\) and two of the points \\(A,B,C,D\\). Then the total area of these six triangles is minimum when the point \\(P\\) is",
+  "options": {
+    "A": "outside the quadrilateral",
+    "B": "one of the vertices of the quadrilateral",
+    "C": "intersection of the diagonals of the quadrilateral",
+    "D": "none of the points given in (A), (B) or (C)."
+  },
+  "answer": "C",
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "2013-bstat-bmath-admission-test-multiple-choice"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10 + 2 Level",
+    "file": "Tomato 16th Edition.pdf",
+    "pages": [
+      199
+    ],
+    "question_number": 29,
+    "crop": "questions/c14345d7-409d-4581-9adf-8dff7142bc21/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

@@ -1,0 +1,31 @@
+{
+  "id": "7e0dcb84-f16d-4650-9ed2-8fda073c73b2",
+  "type": "MCQ",
+  "question": "Consider the curve represented by the equation\n\\[\nax^2+2bxy+cy^2+d=0\n\\]\nin the plane, where \\(a>0,c>0\\) and \\(ac>b^2\\). Suppose that the normals to the curve drawn at 5 distinct points on the curve all pass through the origin. Then",
+  "options": {
+    "A": "\\(a=c\\) and \\(b>0\\)",
+    "B": "\\(a\ne c\\) and \\(b=0\\)",
+    "C": "\\(a\ne c\\) and \\(b<0\\)",
+    "D": "None of the above."
+  },
+  "answer": "D",
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "2016-bstat-bmath-admission-test-multiple-choice"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10 + 2 Level",
+    "file": "Tomato 16th Edition.pdf",
+    "pages": [
+      212
+    ],
+    "question_number": 14,
+    "crop": "questions/7e0dcb84-f16d-4650-9ed2-8fda073c73b2/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

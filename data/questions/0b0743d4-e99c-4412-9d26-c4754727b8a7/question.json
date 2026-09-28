@@ -1,0 +1,31 @@
+{
+  "id": "0b0743d4-e99c-4412-9d26-c4754727b8a7",
+  "type": "MCQ",
+  "question": "For the roots of the quadratic equation $x^2+bx-4=0$ to be integers",
+  "options": {
+    "A": "it is sufficient that $b=0,\\pm3$",
+    "B": "it is sufficient that $b=0,\\pm2$",
+    "C": "it is sufficient that $b=0,\\pm4$",
+    "D": "none of the foregoing conditions is sufficient"
+  },
+  "answer": "A",
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "tomato"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10+2 Level — Sixteenth Edition",
+    "file": "tomato.pdf",
+    "pages": [
+      47
+    ],
+    "question_number": 261,
+    "crop": "questions/0b0743d4-e99c-4412-9d26-c4754727b8a7/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

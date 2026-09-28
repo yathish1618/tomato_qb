@@ -1,0 +1,23 @@
+{
+  "id": "7688ec53-65ec-4d10-bf21-86e013ff7c5f",
+  "type": "SUBJECTIVE",
+  "question": "Consider a ball that moves inside an acute-angled triangle along a straight line, until it hits the boundary, which is when it changes direction according to the mirror law, just like a ray of light (angle of incidence = angle of reflection). Prove that there exists a triangular periodic path for the ball, as pictured below.",
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "bstat-bmath-ugb-2025"
+  ],
+  "source": {
+    "title": "UGB 2025",
+    "file": "ISI BStat-BMath UGA & UGB 2025 Problem and Solution - Cheenta Academy.pdf",
+    "pages": [
+      27,
+      28
+    ],
+    "question_number": 7,
+    "crop": "questions/7688ec53-65ec-4d10-bf21-86e013ff7c5f/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

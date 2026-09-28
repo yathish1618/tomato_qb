@@ -1,0 +1,31 @@
+{
+  "id": "d40c2fe2-10a9-474c-bed6-bf78ed428fc6",
+  "type": "MCQ",
+  "question": "The number of roots of the equation $x\\sin x=1$ in the interval $0<x\\le2\\pi$ is",
+  "options": {
+    "A": "0",
+    "B": "1",
+    "C": "2",
+    "D": "4"
+  },
+  "answer": "C",
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "tomato"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10+2 Level",
+    "file": "tomato.pdf",
+    "pages": [
+      115
+    ],
+    "question_number": 712,
+    "crop": "full_page"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

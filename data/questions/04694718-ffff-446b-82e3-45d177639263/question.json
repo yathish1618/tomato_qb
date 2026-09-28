@@ -1,0 +1,31 @@
+{
+  "id": "04694718-ffff-446b-82e3-45d177639263",
+  "type": "MCQ",
+  "question": "A circular pit of radius $r$ metres and depth 2 metres is dug and the removed soil is piled up as a cone with the bottom of the pit as its base. What proportion of the volume of the cone is above the ground level?",
+  "options": {
+    "A": "$\\frac23$;",
+    "B": "$\\frac8{27}$;",
+    "C": "$\\frac{4r^2}{9}$;",
+    "D": "$\\frac{r^3}{27}$."
+  },
+  "answer": "B",
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "2007-bstat-admission-test-multiple-choice"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10 + 2 Level",
+    "file": "Tomato 16th Edition.pdf",
+    "pages": [
+      140
+    ],
+    "question_number": 8,
+    "crop": "questions/04694718-ffff-446b-82e3-45d177639263/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

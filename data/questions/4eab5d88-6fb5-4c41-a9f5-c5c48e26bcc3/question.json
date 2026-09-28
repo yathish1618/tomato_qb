@@ -1,0 +1,31 @@
+{
+  "id": "4eab5d88-6fb5-4c41-a9f5-c5c48e26bcc3",
+  "type": "MCQ",
+  "question": "Consider the function $f(x)=x(x-1)(x+1)$ from $\\mathbb R$ to $\\mathbb R$, where $\\mathbb R$ is the set of all real numbers. Then,",
+  "options": {
+    "A": "$f$ is one-one and onto",
+    "B": "$f$ is neither one-one nor onto",
+    "C": "$f$ is one-one but not onto",
+    "D": "$f$ is not one-one but onto"
+  },
+  "answer": "D",
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "tomato"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10+2 Level",
+    "file": "tomato.pdf",
+    "pages": [
+      120
+    ],
+    "question_number": 741,
+    "crop": "full_page"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

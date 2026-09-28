@@ -1,0 +1,25 @@
+{
+  "id": "8ea686ed-dea9-4949-a613-95d40246aa70",
+  "type": "SUBJECTIVE",
+  "question": "There is a rectangular plot of size $1\\times n$. This has to be covered by three types of tiles - red, blue and black. The red tiles are of size $1\\times1$, the blue tiles are of size $1\\times1$ and the black tiles are of size $1\\times2$. Let $t_n$ denote the number of ways this can be done. For example, clearly $t_1=2$ because we can have either a red or a blue tile. Also, $t_2=5$ since we could have tiled the plot as: two red tiles, two blue tiles, a red tile on the left and a blue tile on the right, a blue tile on the left and a red tile on the right, or a single black tile. (a) Prove that $t_{2n+1}=t_n(t_{n-1}+t_{n+1})$ for all $n>1$. (b) Prove that $t_n=\\sum_{d\\ge0}\\binom{n-d}{d}2^{n-2d}$ for all $n>0$. Here, $\\binom mr=\\begin{cases}\\frac{m!}{r!(m-r)!},&0\\le r\\le m,\\\\\\\\0,&\\text{otherwise},\\end{cases}$ for integers $m,r$.",
+  "answer": null,
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "bstat-bmath-ugb-2023"
+  ],
+  "source": {
+    "title": "",
+    "file": "BStat-BMath-UGB-2023.pdf",
+    "pages": [
+      2
+    ],
+    "question_number": 5,
+    "crop": "questions/8ea686ed-dea9-4949-a613-95d40246aa70/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

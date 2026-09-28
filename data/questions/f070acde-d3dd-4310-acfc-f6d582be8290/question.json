@@ -1,0 +1,25 @@
+{
+  "id": "f070acde-d3dd-4310-acfc-f6d582be8290",
+  "type": "SUBJECTIVE",
+  "question": "Let $f$ and $g$ be two non-decreasing twice differentiable functions defined on an interval $(a,b)$ such that for each $x\\in(a,b)$, $f''(x)=g(x)$ and $g''(x)=f(x)$. Suppose also that $f(x)g(x)$ is linear in $x$ on $(a,b)$. Show that we must have $f(x)=g(x)=0$ for all $x\\in(a,b)$.",
+  "answer": null,
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "2014-bstat-bmath-admission-test-short-answer-type"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10 + 2 Level",
+    "file": "Tomato 16th Edition(1).pdf",
+    "pages": [
+      282
+    ],
+    "question_number": 4,
+    "crop": "questions/f070acde-d3dd-4310-acfc-f6d582be8290/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

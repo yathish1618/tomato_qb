@@ -1,0 +1,31 @@
+{
+  "id": "b85a62a8-0eca-4fcf-85db-c38bc99e2ca0",
+  "type": "MCQ",
+  "question": "If $(\\log_5 k)(\\log_3 5)(\\log_k x)=k$, then the value of $x$ equals",
+  "options": {
+    "A": "$k^3$",
+    "B": "$5^k$",
+    "C": "$k^5$",
+    "D": "$3^k$"
+  },
+  "answer": "D",
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "tomato"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10+2 Level — Sixteenth Edition",
+    "file": "tomato.pdf",
+    "pages": [
+      41
+    ],
+    "question_number": 215,
+    "crop": "questions/b85a62a8-0eca-4fcf-85db-c38bc99e2ca0/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

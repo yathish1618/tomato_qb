@@ -1,0 +1,31 @@
+{
+  "id": "8eb939d2-0271-4a6a-a3f0-4fb2893c8c38",
+  "type": "MCQ",
+  "question": "Three boys of class I, 4 boys of class II and 5 boys of class III sit in a row. The number of ways they can sit, so that boys of the same class sit together is",
+  "options": {
+    "A": "$3!4!5!$",
+    "B": "$\\frac{12!}{3!4!5!}$",
+    "C": "$(3!)^2 4!5!$",
+    "D": "$3\\times4!5!$"
+  },
+  "answer": "C",
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "tomato"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10+2 Level — Sixteenth Edition",
+    "file": "tomato.pdf",
+    "pages": [
+      28
+    ],
+    "question_number": 120,
+    "crop": "questions/8eb939d2-0271-4a6a-a3f0-4fb2893c8c38/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

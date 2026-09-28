@@ -1,0 +1,31 @@
+{
+  "id": "0b88443e-186e-4cae-87b5-73c5ef1e0d63",
+  "type": "MCQ",
+  "question": "For each integer $i,\\ 1\\le i\\le100$, let $c_i$ be either $+1$ or $-1$. Assume that $c_1=+1$ and $c_1+\\cdots+c_i>0$ for all $i\\ge2$. If $c_i=-1$, then $c_{i-1}=+1$. One of the following statements about the total number of sign changes is correct.",
+  "options": {
+    "A": "is odd",
+    "B": "is even",
+    "C": "is at most 50",
+    "D": "can have 49 distinct values"
+  },
+  "answer": "A",
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "tomato"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10+2 Level — Sixteenth Edition",
+    "file": "tomato.pdf",
+    "pages": [
+      38
+    ],
+    "question_number": 192,
+    "crop": "questions/0b88443e-186e-4cae-87b5-73c5ef1e0d63/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

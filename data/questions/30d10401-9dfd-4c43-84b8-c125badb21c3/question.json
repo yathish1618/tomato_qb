@@ -1,0 +1,25 @@
+{
+  "id": "30d10401-9dfd-4c43-84b8-c125badb21c3",
+  "type": "SUBJECTIVE",
+  "question": "Let $\\binom{n}{k}$ denote the binomial coefficient $\\frac{n!}{k!(n-k)!}$, and $F_m$ be the $m$th Fibonacci number given by $F_1=F_2=1$ and $F_{m+2}=F_m+F_{m+1}$ for all $m\\ge1$. Show that $$\\sum \\binom{n}{k}=F_{m+1}\\quad\\text{for all }m\\ge1.$$ Here, the above sum is over all pairs of integers $n\\ge k\\ge0$ with $n+k=m$.",
+  "answer": null,
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "2008-bmath-admission-test-short-answer-type"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10 + 2 Level",
+    "file": "Tomato 16th Edition(1).pdf",
+    "pages": [
+      266
+    ],
+    "question_number": 6,
+    "crop": "questions/30d10401-9dfd-4c43-84b8-c125badb21c3/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

@@ -1,0 +1,32 @@
+{
+  "id": "13439ae8-e13c-48d6-8359-4c7124ad11f6",
+  "type": "MCQ",
+  "question": "Let $f(x)=a_0+a_1|x|+a_2|x|^2+a_3|x|^3$ where $a_0,a_1,a_2$ and $a_3$ are constants. Then only one of the following statements is correct. Which one is it?",
+  "options": {
+    "A": "$f(x)$ is differentiable at $x=0$ whatever be $a_0,a_1,a_2,a_3$",
+    "B": "$f(x)$ is not differentiable at $x=0$ whatever be $a_0,a_1,a_2,a_3$",
+    "C": "If $f(x)$ is differentiable at $x=0$, then $a_1=0$",
+    "D": "If $f(x)$ is differentiable at $x=0$, then $a_1=0$ and $a_3=0"
+  },
+  "answer": "C",
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "tomato"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10+2 Level",
+    "file": "tomato.pdf",
+    "pages": [
+      123,
+      124
+    ],
+    "question_number": 758,
+    "crop": "full_page"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

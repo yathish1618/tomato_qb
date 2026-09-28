@@ -1,0 +1,31 @@
+{
+  "id": "9b486f34-a7de-4d50-9d6b-e36759c87069",
+  "type": "MCQ",
+  "question": "Let $f(x)=7x^{11}+4x^5-3$. Then $f$ has",
+  "options": {
+    "A": "exactly 1 real root",
+    "B": "exactly 3 real roots",
+    "C": "exactly 5 real roots",
+    "D": "11 real roots"
+  },
+  "answer": "A",
+  "solution": "$f'(x)=77x^{10}+20x^4>0$ for $x\\ne0$. Also $\\lim_{x\\to\\infty}f(x)=\\infty$ and $\\lim_{x\\to-\\infty}f(x)=-\\infty$. Thus there is at least one real root, and $f$ is monotone (apart from the stationary point at $0$), so there is exactly one real root.",
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "bstat-bmath-uga-2025"
+  ],
+  "source": {
+    "title": "UGA 2025",
+    "file": "ISI BStat-BMath UGA & UGB 2025 Problem and Solution - Cheenta Academy.pdf",
+    "pages": [
+      4
+    ],
+    "question_number": 5,
+    "crop": "questions/9b486f34-a7de-4d50-9d6b-e36759c87069/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

@@ -1,0 +1,31 @@
+{
+  "id": "72121079-c482-4101-a56f-c9265573c661",
+  "type": "MCQ",
+  "question": "If $A,B,C$ are the angles of a triangle, then the value of $1-\\left(\\sin^2\\frac A2+\\sin^2\\frac B2+\\sin^2\\frac C2\\right)$ equals",
+  "options": {
+    "A": "$2\\sin A\\sin B\\sin C$",
+    "B": "$2\\sin\\frac A2\\sin\\frac B2\\sin\\frac C2$",
+    "C": "$4\\sin\\frac A2\\sin\\frac B2\\sin\\frac C2$",
+    "D": "$4\\sin A\\sin B\\sin C$"
+  },
+  "answer": "B",
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "tomato"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10+2 Level",
+    "file": "tomato.pdf",
+    "pages": [
+      101
+    ],
+    "question_number": 622,
+    "crop": "full_page"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

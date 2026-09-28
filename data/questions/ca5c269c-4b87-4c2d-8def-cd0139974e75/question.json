@@ -1,0 +1,31 @@
+{
+  "id": "ca5c269c-4b87-4c2d-8def-cd0139974e75",
+  "type": "MCQ",
+  "question": "If \\(x,y,z\\) are arbitrary positive real numbers satisfying \\(4xy+6yz+8zx=9\\), then the maximum possible value of the product \\(xyz\\) is",
+  "options": {
+    "A": "\\(\\frac1{2\\sqrt2}\\)",
+    "B": "\\(\\frac{\\sqrt3}{4}\\)",
+    "C": "\\(\\frac38\\)",
+    "D": "none of the foregoing values"
+  },
+  "answer": "C",
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "tomato"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10+2 Level — Sixteenth Edition",
+    "file": "tomato.pdf",
+    "pages": [
+      65
+    ],
+    "question_number": 388,
+    "crop": "questions/ca5c269c-4b87-4c2d-8def-cd0139974e75/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

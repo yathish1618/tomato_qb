@@ -1,0 +1,25 @@
+{
+  "id": "c6c6af3e-080c-4f1d-ade7-97468d44b2cb",
+  "type": "SUBJECTIVE",
+  "question": "Show that the polynomial $x^8-x^7+x^2-x+15$ has no real root.",
+  "answer": null,
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "2012-bstat-bmath-admission-test-short-answer-type"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10 + 2 Level",
+    "file": "Tomato 16th Edition(1).pdf",
+    "pages": [
+      279
+    ],
+    "question_number": 4,
+    "crop": "questions/c6c6af3e-080c-4f1d-ade7-97468d44b2cb/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

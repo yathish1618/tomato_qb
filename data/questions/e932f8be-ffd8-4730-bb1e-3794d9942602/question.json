@@ -1,0 +1,31 @@
+{
+  "id": "e932f8be-ffd8-4730-bb1e-3794d9942602",
+  "type": "MCQ",
+  "question": "Let $f(x)$ be a real-valued function of a real variable. Then the function is said to be one-to-one if $f(x_1)\\ne f(x_2)$ whenever $x_1\\ne x_2$. The function is said to be onto if it takes all real values. Suppose now $f(x)=x^3-3x^2+6x-5$. Then",
+  "options": {
+    "A": "$f$ is one-to-one and onto",
+    "B": "$f$ is one-to-one but not onto",
+    "C": "$f$ is onto but not one-to-one",
+    "D": "$f$ is neither one-to-one nor onto"
+  },
+  "answer": "A",
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "tomato"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10+2 Level",
+    "file": "tomato.pdf",
+    "pages": [
+      114
+    ],
+    "question_number": 702,
+    "crop": "full_page"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

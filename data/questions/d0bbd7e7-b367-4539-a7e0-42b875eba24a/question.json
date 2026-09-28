@@ -1,0 +1,31 @@
+{
+  "id": "d0bbd7e7-b367-4539-a7e0-42b875eba24a",
+  "type": "MCQ",
+  "question": "The number of different ways to colour the vertices of a square $PQRS$ using one or more colours from the set $\\{\\text{Red, Blue, Green, Yellow}\\}$, such that no two adjacent vertices have the same colour is",
+  "options": {
+    "A": "$36$",
+    "B": "$48$",
+    "C": "$72$",
+    "D": "$84$"
+  },
+  "answer": null,
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "bstat-bmath-uga-2021"
+  ],
+  "source": {
+    "title": "",
+    "file": "BStat-BMath-UGA-2021(1).pdf",
+    "pages": [
+      4
+    ],
+    "question_number": 16,
+    "crop": "questions/d0bbd7e7-b367-4539-a7e0-42b875eba24a/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

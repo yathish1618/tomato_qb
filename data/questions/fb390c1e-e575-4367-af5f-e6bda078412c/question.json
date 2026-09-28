@@ -1,0 +1,31 @@
+{
+  "id": "fb390c1e-e575-4367-af5f-e6bda078412c",
+  "type": "MCQ",
+  "question": "The angles \\(A,B,C\\) of a triangle \\(ABC\\) are in arithmetic progression. \\(AB=6\\) and \\(BC=7\\). Then \\(AC\\) is",
+  "options": {
+    "A": "5",
+    "B": "7",
+    "C": "8",
+    "D": "none of the foregoing numbers"
+  },
+  "answer": "D",
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "tomato"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10+2 Level — Sixteenth Edition",
+    "file": "tomato.pdf",
+    "pages": [
+      78
+    ],
+    "question_number": 457,
+    "crop": "questions/fb390c1e-e575-4367-af5f-e6bda078412c/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

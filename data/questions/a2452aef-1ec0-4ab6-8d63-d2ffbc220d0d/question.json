@@ -1,0 +1,31 @@
+{
+  "id": "a2452aef-1ec0-4ab6-8d63-d2ffbc220d0d",
+  "type": "MCQ",
+  "question": "A truck is to be driven 300 km on a highway at a constant speed of $x$ kmph. Speed rules of the highway require that $30\\le x\\le60$. The fuel costs Rs. 10 per litre and is consumed at the rate of $2+\\frac{x^2}{600}$ litres per hour. The wages of the driver are Rs. 200 per hour. The most economical speed to drive the truck, in kmph, is",
+  "options": {
+    "A": "30",
+    "B": "60",
+    "C": "$30\\sqrt{3.3}$",
+    "D": "$20\\sqrt{33}$"
+  },
+  "answer": "B",
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "tomato"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10+2 Level",
+    "file": "tomato.pdf",
+    "pages": [
+      129
+    ],
+    "question_number": 801,
+    "crop": "full_page"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

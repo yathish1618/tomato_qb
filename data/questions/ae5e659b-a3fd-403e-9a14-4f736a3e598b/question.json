@@ -1,0 +1,31 @@
+{
+  "id": "ae5e659b-a3fd-403e-9a14-4f736a3e598b",
+  "type": "MCQ",
+  "question": "$(x+y+z)(yz+zx+xy)-xyz$ equals",
+  "options": {
+    "A": "$(y+z)(z+x)(x+y)$",
+    "B": "$(y-z)(z-x)(x-y)$",
+    "C": "$(x+y+z)^2$",
+    "D": "none of the foregoing expressions, in general"
+  },
+  "answer": "A",
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "tomato"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10+2 Level — Sixteenth Edition",
+    "file": "tomato.pdf",
+    "pages": [
+      43
+    ],
+    "question_number": 233,
+    "crop": "questions/ae5e659b-a3fd-403e-9a14-4f736a3e598b/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

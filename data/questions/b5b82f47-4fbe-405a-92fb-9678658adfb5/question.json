@@ -1,0 +1,31 @@
+{
+  "id": "b5b82f47-4fbe-405a-92fb-9678658adfb5",
+  "type": "MCQ",
+  "question": "Suppose $z\\in\\mathbb C$ is such that the imaginary part of $z$ is non-zero and $z^{25}=1$. Then $\\sum_{k=0}^{2023}z^k$ equals",
+  "options": {
+    "A": "$0$",
+    "B": "$1$",
+    "C": "$-1-z^{24}$",
+    "D": "$-z^{24}$"
+  },
+  "answer": null,
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "bstat-bmath-uga-2023"
+  ],
+  "source": {
+    "title": "",
+    "file": "BStat-BMath-UGA-2023(1).pdf",
+    "pages": [
+      5
+    ],
+    "question_number": 17,
+    "crop": "questions/b5b82f47-4fbe-405a-92fb-9678658adfb5/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

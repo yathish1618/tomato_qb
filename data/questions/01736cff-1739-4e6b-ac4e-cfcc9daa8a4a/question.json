@@ -1,0 +1,31 @@
+{
+  "id": "01736cff-1739-4e6b-ac4e-cfcc9daa8a4a",
+  "type": "MCQ",
+  "question": "The minimum value of $3x+4y$, subject to the condition $x^2y^3=6$ and $x$ and $y$ are positive, is",
+  "options": {
+    "A": "10",
+    "B": "14",
+    "C": "7",
+    "D": "13"
+  },
+  "answer": "A",
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "tomato"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10+2 Level",
+    "file": "tomato.pdf",
+    "pages": [
+      128
+    ],
+    "question_number": 788,
+    "crop": "full_page"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

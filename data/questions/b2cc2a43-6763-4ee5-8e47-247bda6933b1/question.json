@@ -1,0 +1,31 @@
+{
+  "id": "b2cc2a43-6763-4ee5-8e47-247bda6933b1",
+  "type": "MCQ",
+  "question": "Let $f$ and $g$ be two positive valued functions defined on $[-1,1]$, such that $f(-x)=1/f(x)$ and $g$ is an even function with $\\int_{-1}^{1}g(x)\\,dx=1$. Then $I=\\int_{-1}^{1}f(x)g(x)\\,dx$ satisfies",
+  "options": {
+    "A": "$I\\ge1$",
+    "B": "$I\\le1$",
+    "C": "$\\frac13<I<3$",
+    "D": "$I=1$"
+  },
+  "answer": "A",
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "2009-bstat-admission-test-multiple-choice"
+  ],
+  "source": {
+    "title": "B.Stat. (Hons.) Admission Test: 2009",
+    "file": "Tomato 16th Edition.pdf",
+    "pages": [
+      160
+    ],
+    "question_number": 18,
+    "crop": "questions/b2cc2a43-6763-4ee5-8e47-247bda6933b1/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

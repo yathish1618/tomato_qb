@@ -1,0 +1,31 @@
+{
+  "id": "a93f5ac0-842c-4436-bee2-6c1c9bd06671",
+  "type": "MCQ",
+  "question": "Consider the branch of the rectangular hyperbola $xy=1$ in the first quadrant. Let $P$ be a fixed point on this curve. The locus of the mid-point of the line segment joining $P$ and an arbitrary point $Q$ on the curve is part of",
+  "options": {
+    "A": "a hyperbola",
+    "B": "a parabola",
+    "C": "an ellipse",
+    "D": "none of the above."
+  },
+  "answer": "A",
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "2010-bstat-admission-test-multiple-choice"
+  ],
+  "source": {
+    "title": "B.Stat. (Hons.) Admission Test: 2010",
+    "file": "Tomato 16th Edition.pdf",
+    "pages": [
+      171
+    ],
+    "question_number": 19,
+    "crop": "questions/a93f5ac0-842c-4436-bee2-6c1c9bd06671/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

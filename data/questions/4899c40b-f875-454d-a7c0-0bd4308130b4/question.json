@@ -1,0 +1,31 @@
+{
+  "id": "4899c40b-f875-454d-a7c0-0bd4308130b4",
+  "type": "MCQ",
+  "question": "Consider an ellipse with centre at the origin. From any arbitrary point $P$ on the ellipse, perpendiculars $PA$ and $PB$ are dropped on the axes of the ellipse. Then the locus of the point $Q$ that divides $AB$ in the fixed ratio $m:n$ is",
+  "options": {
+    "A": "a circle",
+    "B": "an ellipse",
+    "C": "a hyperbola",
+    "D": "none of the foregoing curves"
+  },
+  "answer": "B",
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "tomato"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10+2 Level — Sixteenth Edition",
+    "file": "tomato.pdf",
+    "pages": [
+      95
+    ],
+    "question_number": 579,
+    "crop": "questions/4899c40b-f875-454d-a7c0-0bd4308130b4/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

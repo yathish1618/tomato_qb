@@ -1,0 +1,31 @@
+{
+  "id": "e27411a5-8d71-473f-a250-81e5e3fb14c2",
+  "type": "MCQ",
+  "question": "The letters of the word “MOTHER” are permuted, and all the permutations so formed are arranged in alphabetical order as in a dictionary. Then the number of permutations which come before the word “MOTHER” is",
+  "options": {
+    "A": "503",
+    "B": "93",
+    "C": "$\\frac{9!}{2}-1$",
+    "D": "308"
+  },
+  "answer": "D",
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "tomato"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10+2 Level — Sixteenth Edition",
+    "file": "tomato.pdf",
+    "pages": [
+      32
+    ],
+    "question_number": 144,
+    "crop": "questions/e27411a5-8d71-473f-a250-81e5e3fb14c2/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

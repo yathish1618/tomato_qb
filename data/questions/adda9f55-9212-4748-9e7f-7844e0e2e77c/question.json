@@ -1,0 +1,31 @@
+{
+  "id": "adda9f55-9212-4748-9e7f-7844e0e2e77c",
+  "type": "MCQ",
+  "question": "Out of a circular sheet of paper of radius $a$, a sector with central angle $\\theta$ is cut out and folded into the shape of a conical funnel. The volume of this funnel is maximum when $\\theta$ equals",
+  "options": {
+    "A": "$\\displaystyle\\frac{2\\pi}{\\sqrt2}$",
+    "B": "$\\displaystyle2\\pi\\sqrt{\\frac23}$",
+    "C": "$\\frac\\pi2$",
+    "D": "$\\pi$"
+  },
+  "answer": "B",
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "tomato"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10+2 Level",
+    "file": "tomato.pdf",
+    "pages": [
+      130
+    ],
+    "question_number": 804,
+    "crop": "full_page"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

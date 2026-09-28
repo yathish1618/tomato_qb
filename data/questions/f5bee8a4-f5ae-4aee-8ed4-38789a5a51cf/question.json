@@ -1,0 +1,31 @@
+{
+  "id": "f5bee8a4-f5ae-4aee-8ed4-38789a5a51cf",
+  "type": "MCQ",
+  "question": "Define $f:\\mathbb R\\to\\mathbb R$ by $f(x)=\\begin{cases}(1-\\cos x)\\sin(1/x),&x\\ne0,\\\\0,&x=0.\\end{cases}$ Then",
+  "options": {
+    "A": "$f$ is discontinuous.",
+    "B": "$f$ is continuous but not differentiable.",
+    "C": "$f$ is differentiable and its derivative is discontinuous.",
+    "D": "$f$ is differentiable and its derivative is continuous."
+  },
+  "answer": null,
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "bstat-bmath-uga-2021"
+  ],
+  "source": {
+    "title": "",
+    "file": "BStat-BMath-UGA-2021(1).pdf",
+    "pages": [
+      6
+    ],
+    "question_number": 26,
+    "crop": "questions/f5bee8a4-f5ae-4aee-8ed4-38789a5a51cf/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

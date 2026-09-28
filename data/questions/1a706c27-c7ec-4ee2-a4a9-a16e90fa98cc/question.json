@@ -1,0 +1,31 @@
+{
+  "id": "1a706c27-c7ec-4ee2-a4a9-a16e90fa98cc",
+  "type": "MCQ",
+  "question": "The circles $x^2+y^2+2ax+c^2=0$ and $x^2+y^2+2by+c^2=0$ will touch if",
+  "options": {
+    "A": "$\\frac1{a^2}+\\frac1{b^2}=\\frac1{c^2}$",
+    "B": "$a^2+b^2=c^2$",
+    "C": "$a+b=c$",
+    "D": "$\\frac1a+\\frac1b=\\frac1c$"
+  },
+  "answer": "A",
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "tomato"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10+2 Level — Sixteenth Edition",
+    "file": "tomato.pdf",
+    "pages": [
+      91
+    ],
+    "question_number": 555,
+    "crop": "questions/1a706c27-c7ec-4ee2-a4a9-a16e90fa98cc/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

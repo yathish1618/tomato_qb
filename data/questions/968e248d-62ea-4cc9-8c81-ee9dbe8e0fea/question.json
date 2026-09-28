@@ -1,0 +1,31 @@
+{
+  "id": "968e248d-62ea-4cc9-8c81-ee9dbe8e0fea",
+  "type": "MCQ",
+  "question": "Let $f(t)=\\frac{t+1}{t-1}$. Then $f(f(2010))$ equals",
+  "options": {
+    "A": "$\\frac{2011}{2009}$",
+    "B": "$2010$",
+    "C": "$\\frac{2010}{2009}$",
+    "D": "none of the above."
+  },
+  "answer": "B",
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "2009-bmath-admission-test-multiple-choice"
+  ],
+  "source": {
+    "title": "B.Math. (Hons.) Admission Test: 2009",
+    "file": "Tomato 16th Edition.pdf",
+    "pages": [
+      166
+    ],
+    "question_number": 19,
+    "crop": "questions/968e248d-62ea-4cc9-8c81-ee9dbe8e0fea/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

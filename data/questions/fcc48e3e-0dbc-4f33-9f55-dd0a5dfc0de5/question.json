@@ -1,0 +1,31 @@
+{
+  "id": "fcc48e3e-0dbc-4f33-9f55-dd0a5dfc0de5",
+  "type": "MCQ",
+  "question": "The digit in the unit position of the integer $1!+2!+3!+\\cdots+99!$ is",
+  "options": {
+    "A": "3",
+    "B": "0",
+    "C": "1",
+    "D": "7"
+  },
+  "answer": "A",
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "tomato"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10+2 Level — Sixteenth Edition",
+    "file": "tomato.pdf",
+    "pages": [
+      12
+    ],
+    "question_number": 11,
+    "crop": "questions/fcc48e3e-0dbc-4f33-9f55-dd0a5dfc0de5/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

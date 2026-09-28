@@ -1,0 +1,31 @@
+{
+  "id": "fac1b3f3-e62c-4d79-b55e-253939b9739e",
+  "type": "MCQ",
+  "question": "A particle \\(P\\) moves in the plane in such a way that the angle between the two tangents drawn from \\(P\\) to the curve \\(y^2=4ax\\) is always \\(90^\\circ\\). The locus of \\(P\\) is",
+  "options": {
+    "A": "a parabola",
+    "B": "a circle",
+    "C": "an ellipse",
+    "D": "a straight line."
+  },
+  "answer": "D",
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "2012-bstat-bmath-admission-test-multiple-choice"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10 + 2 Level",
+    "file": "Tomato 16th Edition.pdf",
+    "pages": [
+      190
+    ],
+    "question_number": 10,
+    "crop": "questions/fac1b3f3-e62c-4d79-b55e-253939b9739e/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

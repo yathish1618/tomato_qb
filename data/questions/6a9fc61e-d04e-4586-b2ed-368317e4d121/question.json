@@ -1,0 +1,31 @@
+{
+  "id": "6a9fc61e-d04e-4586-b2ed-368317e4d121",
+  "type": "MCQ",
+  "question": "The number of polynomials of the form $x^3+ax^2+bx+c$ which are divisible by $x^2+1$ and where $a,b$ and $c$ belong to $\\{1,2,\\ldots,10\\}$, is",
+  "options": {
+    "A": "1;",
+    "B": "10;",
+    "C": "11;",
+    "D": "100."
+  },
+  "answer": "B",
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "2008-bmath-admission-test-multiple-choice"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10 + 2 Level",
+    "file": "Tomato 16th Edition.pdf",
+    "pages": [
+      153
+    ],
+    "question_number": 2,
+    "crop": "questions/6a9fc61e-d04e-4586-b2ed-368317e4d121/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

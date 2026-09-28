@@ -1,0 +1,31 @@
+{
+  "id": "20122ceb-e9c5-4111-9189-ac4b967ab065",
+  "type": "MCQ",
+  "question": "Let $M$ be a $3\\times3$ matrix with all entries being 0 or 1. Then, all possible values for $\\det(M)$ are",
+  "options": {
+    "A": "$0,\\pm1$",
+    "B": "$0,\\pm1,\\pm2$",
+    "C": "$0,\\pm1,\\pm3$",
+    "D": "$0,\\pm1,\\pm2,\\pm3$."
+  },
+  "answer": null,
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "bstat-bmath-uga-2019"
+  ],
+  "source": {
+    "title": "UGA 2019",
+    "file": "BStat-BMath-UGA-2019.pdf",
+    "pages": [
+      4
+    ],
+    "question_number": 19,
+    "crop": "questions/20122ceb-e9c5-4111-9189-ac4b967ab065/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

@@ -1,0 +1,31 @@
+{
+  "id": "e3cdfe41-f8f0-41a6-8edd-3d79d86e6a3c",
+  "type": "MCQ",
+  "question": "Let $a,b$ and $c$ be fixed positive real numbers. Let $u_n=\\frac{n^2a}{b+n^2c}$ for $n\\ge1$. Then as $n$ increases,",
+  "options": {
+    "A": "$u_n$ increases;",
+    "B": "$u_n$ decreases;",
+    "C": "$u_n$ increases first and then decreases;",
+    "D": "none of the above is necessarily true."
+  },
+  "answer": "A",
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "2008-bmath-admission-test-multiple-choice"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10 + 2 Level",
+    "file": "Tomato 16th Edition.pdf",
+    "pages": [
+      153
+    ],
+    "question_number": 1,
+    "crop": "questions/e3cdfe41-f8f0-41a6-8edd-3d79d86e6a3c/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

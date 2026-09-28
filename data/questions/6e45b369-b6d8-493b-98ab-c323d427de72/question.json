@@ -1,0 +1,25 @@
+{
+  "id": "6e45b369-b6d8-493b-98ab-c323d427de72",
+  "type": "SUBJECTIVE",
+  "question": "1. A vessel contains $x$ gallons of wine and another contains $y$ gallons of water. From each vessel $z$ gallons are taken out and transferred to the other. From the resulting mixture in each vessel, $z$ gallons are again taken out and transferred to the other. If after the second transfer, the quantity of wine in each vessel remains the same as it was after the first transfer, then show that $z(x+y)=xy$.",
+  "answer": null,
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "tomato"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10 + 2 Level",
+    "file": "Tomato 16th Edition.pdf",
+    "pages": [
+      231
+    ],
+    "question_number": 1,
+    "crop": "questions/6e45b369-b6d8-493b-98ab-c323d427de72/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

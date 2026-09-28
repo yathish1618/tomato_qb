@@ -1,0 +1,31 @@
+{
+  "id": "c18db14d-b064-4530-9e4f-9be78dc1a7ef",
+  "type": "MCQ",
+  "question": "Let $P(x)=ax^2+bx+c$ and $Q(x)=-ax^2+bx+c$, where $ac\\ne0$. Consider the polynomial $P(x)Q(x)$",
+  "options": {
+    "A": "All its roots are real",
+    "B": "None of its roots is real",
+    "C": "At least two of its roots are real",
+    "D": "Exactly two of its roots are real"
+  },
+  "answer": "C",
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "tomato"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10+2 Level — Sixteenth Edition",
+    "file": "tomato.pdf",
+    "pages": [
+      47
+    ],
+    "question_number": 260,
+    "crop": "questions/c18db14d-b064-4530-9e4f-9be78dc1a7ef/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

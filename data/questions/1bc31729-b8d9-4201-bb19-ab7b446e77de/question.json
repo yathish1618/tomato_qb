@@ -1,0 +1,31 @@
+{
+  "id": "1bc31729-b8d9-4201-bb19-ab7b446e77de",
+  "type": "MCQ",
+  "question": "It was a hot day and four couples drank together 44 bottles of cold drink. Anita had 2, Biva 3, Chanchala 4, and Dipti 5 bottles. Mr. Panikkar drank just as many bottles as his wife, but each of the other men drank more than his wife. Mr. Dubé twice, Mr. Narayan three times and Mr. Rao four times as many bottles. Then only one of the following statements is correct. Which one is it?",
+  "options": {
+    "A": "Mrs. Panikkar is Chanchala.",
+    "B": "Anita’s husband had 8 bottles.",
+    "C": "Mr. Narayan had 12 bottles.",
+    "D": "Mrs. Rao is Dipti."
+  },
+  "answer": "B",
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "tomato"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10+2 Level — Sixteenth Edition",
+    "file": "tomato.pdf",
+    "pages": [
+      22
+    ],
+    "question_number": 68,
+    "crop": "questions/1bc31729-b8d9-4201-bb19-ab7b446e77de/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

@@ -1,0 +1,25 @@
+{
+  "id": "21f59fdd-2e87-4b6b-b914-552d76755e5e",
+  "type": "SUBJECTIVE",
+  "question": "13. (i) In the identity\n\\[\n\\frac{n!}{x(x+1)(x+2)\\cdots(x+n)}=\\sum_{k=0}^{n}\\frac{A_k}{x+k},\n\\]\nprove that\n\\[\nA_k=(-1)^k\\binom{n}{k}.\n\\]\n\n(ii) Deduce that:\n\\[\n\\binom{n}{0}\\frac1{1\\cdot2}-\\binom{n}{1}\\frac1{2\\cdot3}+\\binom{n}{2}\\frac1{3\\cdot4}-\\cdots+(-1)^n\\binom{n}{n}\\frac1{(n+1)(n+2)}=\\frac1{n+2}.\n\\]",
+  "answer": null,
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "tomato"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10 + 2 Level",
+    "file": "Tomato 16th Edition.pdf",
+    "pages": [
+      235
+    ],
+    "question_number": 13,
+    "crop": "questions/21f59fdd-2e87-4b6b-b914-552d76755e5e/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

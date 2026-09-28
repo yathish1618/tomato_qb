@@ -1,0 +1,25 @@
+{
+  "id": "b8a7432c-d0b1-4e3c-8d55-1b5fea2912cc",
+  "type": "SUBJECTIVE",
+  "question": "Let $f:\\mathbb Z\\to\\mathbb Z$ be a function satisfying $f(0)\\ne0=f(1)$. Assume also that $f$ satisfies equations (A) and (B) below: $f(xy)=f(x)+f(y)-f(x)f(y)$ (A), $f(x-y)f(x)f(y)=f(0)f(x)f(y)$ (B), for all integers $x,y$. (i) Determine explicitly the set $\\{f(a):a\\in\\mathbb Z\\}$. (ii) Assuming that there is a non-zero integer $a$ such that $f(a)\\ne0$, prove that the set $\\{b:f(b)\\ne0\\}$ is infinite.",
+  "answer": null,
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "bstat-bmath-ugb-2021"
+  ],
+  "source": {
+    "title": "",
+    "file": "BStat-BMath-UGB-2021.pdf",
+    "pages": [
+      1
+    ],
+    "question_number": 2,
+    "crop": "questions/b8a7432c-d0b1-4e3c-8d55-1b5fea2912cc/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

@@ -1,0 +1,31 @@
+{
+  "id": "fd43ff6c-fbe3-4525-aa53-d7f316c4c178",
+  "type": "MCQ",
+  "question": "Consider a circle of unit radius and a chord of that circle that has unit length. The area of the largest triangle that can be inscribed in the circle with that chord as its base is",
+  "options": {
+    "A": "\\(\\frac12+\\frac{\\sqrt2}{4}\\)",
+    "B": "\\(\\frac12+\\frac{\\sqrt2}{2}\\)",
+    "C": "\\(\\frac12+\\frac{\\sqrt3}{4}\\)",
+    "D": "\\(\\frac12+\\frac{\\sqrt3}{2}\\)"
+  },
+  "answer": "C",
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "2016-bstat-bmath-admission-test-multiple-choice"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10 + 2 Level",
+    "file": "Tomato 16th Edition.pdf",
+    "pages": [
+      210
+    ],
+    "question_number": 6,
+    "crop": "questions/fd43ff6c-fbe3-4525-aa53-d7f316c4c178/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "4f4f4126-9589-42d8-a8a4-185af4ea0b2e",
+  "type": "SUBJECTIVE",
+  "question": "Let $S^1=\\{z\\in\\mathbb C:|z|=1\\}$ be the unit circle in the complex plane. Let $f:S^1\\to S^1$ be the map given by $f(z)=z^2$. We define $f^{(1)}:=f$ and $f^{(k+1)}:=f\\circ f^{(k)}$ for $k\\ge1$. The smallest positive integer $n$ such that $f^{(n)}(z)=z$ is called the period of $z$. Determine the total number of points in $S^1$ of period $2025$.\n\n(Hint: $2025=3^4\\times5^2$.)",
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "bstat-bmath-ugb-2025"
+  ],
+  "source": {
+    "title": "UGB 2025",
+    "file": "ISI BStat-BMath UGA & UGB 2025 Problem and Solution - Cheenta Academy.pdf",
+    "pages": [
+      27
+    ],
+    "question_number": 4,
+    "crop": "questions/4f4f4126-9589-42d8-a8a4-185af4ea0b2e/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

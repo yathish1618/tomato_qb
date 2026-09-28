@@ -1,0 +1,31 @@
+{
+  "id": "74cf1eff-8a5e-4916-b3cb-92cbc0702fb3",
+  "type": "MCQ",
+  "question": "If $X,Y,Z$ are any three sets of numbers, then the set of all numbers which belong to exactly two of the sets $X,Y,Z$ is",
+  "options": {
+    "A": "$(X\\cap Y)\\cup(Y\\cap Z)\\cup(Z\\cap X)$",
+    "B": "$[(X\\cup Y)\\cup Z]-[(X\\triangle Y)\\triangle Z]$",
+    "C": "$(X\\triangle Y)\\cup(Y\\triangle Z)\\cup(Z\\triangle X)$",
+    "D": "not necessarily any of (A) to (C)"
+  },
+  "answer": "B",
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": "4615231b-13f6-4512-9f11-31343628a683",
+  "grade": "12",
+  "tags": [
+    "tomato"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10+2 Level — Sixteenth Edition",
+    "file": "tomato.pdf",
+    "pages": [
+      15
+    ],
+    "question_number": 29,
+    "crop": "questions/74cf1eff-8a5e-4916-b3cb-92cbc0702fb3/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

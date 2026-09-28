@@ -1,0 +1,31 @@
+{
+  "id": "df7a042b-166b-4ecd-a21c-b8da7ff526b4",
+  "type": "MCQ",
+  "question": "$\\displaystyle\\lim_{n\\to\\infty}\\frac{\\sqrt1+\\sqrt2+\\cdots+\\sqrt{n-1}}{n\\sqrt n}$ is equal to",
+  "options": {
+    "A": "$\\frac12$",
+    "B": "$\\frac13$",
+    "C": "$\\frac23$",
+    "D": "0"
+  },
+  "answer": "C",
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "tomato"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10+2 Level",
+    "file": "tomato.pdf",
+    "pages": [
+      132
+    ],
+    "question_number": 820,
+    "crop": "full_page"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

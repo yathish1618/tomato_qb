@@ -1,0 +1,27 @@
+{
+  "id": "4b734647-2a30-4f1d-9e55-682778c74a5d",
+  "type": "SUBJECTIVE",
+  "question": "Let $0<a<b$. Consider two circles with radii $a$ and $b$ and centers $(a,0)$ and $(0,b)$ respectively with $0<a<b$. Let $c$ be the center of any circle in the crescent shaped region $M$ between the two circles and tangent to both (see figure below). Determine the locus of $c$ as its circle traverses through region $M$ maintaining tangency.",
+  "answer": null,
+  "solution": null,
+  "marks": 1,
+  "figures": [
+    "questions/4b734647-2a30-4f1d-9e55-682778c74a5d/figures/figure.png"
+  ],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "2012-bstat-bmath-admission-test-short-answer-type"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10 + 2 Level",
+    "file": "Tomato 16th Edition(1).pdf",
+    "pages": [
+      280
+    ],
+    "question_number": 7,
+    "crop": "questions/4b734647-2a30-4f1d-9e55-682778c74a5d/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

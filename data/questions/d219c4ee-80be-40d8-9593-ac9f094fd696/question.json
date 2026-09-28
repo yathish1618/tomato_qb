@@ -1,0 +1,25 @@
+{
+  "id": "d219c4ee-80be-40d8-9593-ac9f094fd696",
+  "type": "SUBJECTIVE",
+  "question": "Let $f:\\mathbb R\\to\\mathbb R$ be a continuous function such that for all $x\\in\\mathbb R$ and for all $t\\ge0$, $f(x)=f(e^t x)$. Show that $f$ is a constant function.",
+  "answer": null,
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "bstat-bmath-ugb-2018"
+  ],
+  "source": {
+    "title": "",
+    "file": "BStat-BMath-UGB-2018.pdf",
+    "pages": [
+      1
+    ],
+    "question_number": 3,
+    "crop": "questions/d219c4ee-80be-40d8-9593-ac9f094fd696/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

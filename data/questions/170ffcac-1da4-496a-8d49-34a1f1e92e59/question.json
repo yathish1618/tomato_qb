@@ -1,0 +1,32 @@
+{
+  "id": "170ffcac-1da4-496a-8d49-34a1f1e92e59",
+  "type": "MCQ",
+  "question": "There are 4 pairs of shoes of different sizes. Each of the 8 shoes can be coloured with one of the four colours: black, brown, white and red. In how many ways can one colour the shoes so that in at least three pairs, the left and the right shoes do not have the same colour?",
+  "options": {
+    "A": "$12^4$",
+    "B": "$28\\times12^3$",
+    "C": "$16\\times12^3$",
+    "D": "$4\\times12^3$"
+  },
+  "answer": "B",
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "tomato"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10+2 Level — Sixteenth Edition",
+    "file": "tomato.pdf",
+    "pages": [
+      38,
+      39
+    ],
+    "question_number": 194,
+    "crop": "questions/170ffcac-1da4-496a-8d49-34a1f1e92e59/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

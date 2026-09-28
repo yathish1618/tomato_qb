@@ -1,0 +1,31 @@
+{
+  "id": "f16e7fc4-f4e7-4d96-9263-2b0947096ac5",
+  "type": "MCQ",
+  "question": "A point $P$ with coordinates $(x,y)$ is said to be good if both $x$ and $y$ are positive integers. The number of good points on the curve $xy=2707$ is",
+  "options": {
+    "A": "8",
+    "B": "16",
+    "C": "32",
+    "D": "64"
+  },
+  "answer": "C",
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "tomato"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10+2 Level — Sixteenth Edition",
+    "file": "tomato.pdf",
+    "pages": [
+      32
+    ],
+    "question_number": 149,
+    "crop": "questions/f16e7fc4-f4e7-4d96-9263-2b0947096ac5/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

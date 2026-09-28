@@ -1,0 +1,31 @@
+{
+  "id": "e2d50231-c8a3-469a-8052-c98d7df25d52",
+  "type": "MCQ",
+  "question": "A circle and a square have the same perimeter. Then",
+  "options": {
+    "A": "their areas are equal",
+    "B": "the area of the circle is larger",
+    "C": "the area of the square is larger",
+    "D": "the area of the circle is $\\pi$ times the area of the square"
+  },
+  "answer": "B",
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "tomato"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10+2 Level — Sixteenth Edition",
+    "file": "tomato.pdf",
+    "pages": [
+      85
+    ],
+    "question_number": 511,
+    "crop": "questions/e2d50231-c8a3-469a-8052-c98d7df25d52/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

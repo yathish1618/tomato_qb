@@ -1,0 +1,31 @@
+{
+  "id": "9b858143-e5ff-4867-9656-5770c4bda5e5",
+  "type": "MCQ",
+  "question": "If $\\cos2\\theta=\\sqrt2(\\cos\\theta-\\sin\\theta)$, then $\\tan\\theta$ is",
+  "options": {
+    "A": "$\\frac1{\\sqrt2},-\\frac1{\\sqrt2}$ or $1$",
+    "B": "1",
+    "C": "1 or -1",
+    "D": "none of the foregoing values"
+  },
+  "answer": "B",
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "tomato"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10+2 Level",
+    "file": "tomato.pdf",
+    "pages": [
+      102
+    ],
+    "question_number": 630,
+    "crop": "full_page"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

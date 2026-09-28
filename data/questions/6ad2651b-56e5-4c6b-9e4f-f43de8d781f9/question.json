@@ -1,0 +1,31 @@
+{
+  "id": "6ad2651b-56e5-4c6b-9e4f-f43de8d781f9",
+  "type": "MCQ",
+  "question": "The set of all points $(x,y)$ in the plane satisfying the equation $5x^2y-xy+y=0$ forms",
+  "options": {
+    "A": "a straight line",
+    "B": "a parabola",
+    "C": "a circle",
+    "D": "none of the foregoing curves"
+  },
+  "answer": "A",
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "tomato"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10+2 Level — Sixteenth Edition",
+    "file": "tomato.pdf",
+    "pages": [
+      84
+    ],
+    "question_number": 500,
+    "crop": "questions/6ad2651b-56e5-4c6b-9e4f-f43de8d781f9/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

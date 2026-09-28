@@ -1,0 +1,31 @@
+{
+  "id": "68c1ad73-90ec-4cee-9c29-fea2e0cd5b74",
+  "type": "MCQ",
+  "question": "Let $x,y,z,w$ be positive real numbers, which satisfy the two conditions that (i) if $x>y$ then $z>w$, and (ii) if $x>z$ then $y<w$. Then one of the statements given below is a valid conclusion. Which one is it?",
+  "options": {
+    "A": "If $x<y$ then $z<w$.",
+    "B": "If $x<z$ then $y>w$.",
+    "C": "If $x>y+z$ then $z<y$.",
+    "D": "If $x>y+z$ then $z>y$."
+  },
+  "answer": "D",
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "tomato"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10+2 Level — Sixteenth Edition",
+    "file": "tomato.pdf",
+    "pages": [
+      21
+    ],
+    "question_number": 60,
+    "crop": "questions/68c1ad73-90ec-4cee-9c29-fea2e0cd5b74/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

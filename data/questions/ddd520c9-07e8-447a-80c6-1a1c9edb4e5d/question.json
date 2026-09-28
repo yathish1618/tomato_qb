@@ -1,0 +1,25 @@
+{
+  "id": "ddd520c9-07e8-447a-80c6-1a1c9edb4e5d",
+  "type": "SUBJECTIVE",
+  "question": "A man walking towards a building, on which a flagstaff is fixed vertically, observes the angle subtended by the flagstaff to be the greatest when he is at a distance \\(d\\) from the building. If \\(\\theta\\) is the observed greatest angle, show that the length of the flagstaff is \\(2d\\tan\\theta\\).",
+  "answer": null,
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "tomato"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10 + 2 Level",
+    "file": "Tomato 16th Edition.pdf",
+    "pages": [
+      253
+    ],
+    "question_number": 156,
+    "crop": "questions/ddd520c9-07e8-447a-80c6-1a1c9edb4e5d/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

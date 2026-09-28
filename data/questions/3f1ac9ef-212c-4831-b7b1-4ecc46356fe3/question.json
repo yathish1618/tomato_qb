@@ -1,0 +1,25 @@
+{
+  "id": "3f1ac9ef-212c-4831-b7b1-4ecc46356fe3",
+  "type": "SUBJECTIVE",
+  "question": "Find, with proof, all possible values of $t$ such that $$\\lim_{n\\to\\infty}\\left\\{\\frac{1+2^{1/3}+3^{1/3}+\\cdots+n^{1/3}}{n^t}\\right\\}=c$$ for some real number $c>0$. Also find the corresponding values of $c$.",
+  "answer": null,
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "bstat-bmath-ugb-2024"
+  ],
+  "source": {
+    "title": "",
+    "file": "BStat-BMath-UGB-2024.pdf",
+    "pages": [
+      1
+    ],
+    "question_number": 1,
+    "crop": "questions/3f1ac9ef-212c-4831-b7b1-4ecc46356fe3/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

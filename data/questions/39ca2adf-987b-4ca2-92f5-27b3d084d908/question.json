@@ -1,0 +1,31 @@
+{
+  "id": "39ca2adf-987b-4ca2-92f5-27b3d084d908",
+  "type": "MCQ",
+  "question": "The largest integer \\(n\\) for which \\(n+5\\) divides \\(n^5+5\\) is",
+  "options": {
+    "A": "3115",
+    "B": "3120",
+    "C": "3125",
+    "D": "3130."
+  },
+  "answer": "A",
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "2016-bstat-bmath-admission-test-multiple-choice"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10 + 2 Level",
+    "file": "Tomato 16th Edition.pdf",
+    "pages": [
+      210
+    ],
+    "question_number": 1,
+    "crop": "questions/39ca2adf-987b-4ca2-92f5-27b3d084d908/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

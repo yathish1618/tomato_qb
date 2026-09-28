@@ -1,0 +1,31 @@
+{
+  "id": "b11da07f-3869-41ec-9bea-df6fdfd27eaf",
+  "type": "MCQ",
+  "question": "What is the maximum possible value of a positive integer $n$, such that for any choice of seven distinct elements from $\\{1,2,\\ldots,n\\}$, there will exist two numbers $x$ and $y$ satisfying $1<x/y\\le2$?",
+  "options": {
+    "A": "$2\\times7$",
+    "B": "$2^7-2$",
+    "C": "$7^2-2$",
+    "D": "$7^7-2$"
+  },
+  "answer": "B",
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "2009-bstat-admission-test-multiple-choice"
+  ],
+  "source": {
+    "title": "B.Stat. (Hons.) Admission Test: 2009",
+    "file": "Tomato 16th Edition.pdf",
+    "pages": [
+      161
+    ],
+    "question_number": 20,
+    "crop": "questions/b11da07f-3869-41ec-9bea-df6fdfd27eaf/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

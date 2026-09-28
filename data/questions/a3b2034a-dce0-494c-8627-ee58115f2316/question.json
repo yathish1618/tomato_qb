@@ -1,0 +1,31 @@
+{
+  "id": "a3b2034a-dce0-494c-8627-ee58115f2316",
+  "type": "MCQ",
+  "question": "Consider a differentiable function $u:[0,1]\\to\\mathbb R$. Assume the function $u$ satisfies $u(a)=\\frac{1}{2r}\\int_{a-r}^{a+r}u(x)\\,dx$ for all $a\\in(0,1)$ and all $r<\\min(a,1-a)$. Which of the following four statements must be true?",
+  "options": {
+    "A": "$u$ attains its maximum but not its minimum on the set $\\{0,1\\}$.",
+    "B": "$u$ attains its minimum but not maximum on the set $\\{0,1\\}$.",
+    "C": "If $u$ attains either its maximum or its minimum on the set $\\{0,1\\}$, then it must be constant.",
+    "D": "$u$ attains both its maximum and its minimum on the set $\\{0,1\\}$."
+  },
+  "answer": null,
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "bstat-bmath-uga-2022"
+  ],
+  "source": {
+    "title": "",
+    "file": "BStat-BMath-UGA-2022(1).pdf",
+    "pages": [
+      3
+    ],
+    "question_number": 14,
+    "crop": "questions/a3b2034a-dce0-494c-8627-ee58115f2316/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

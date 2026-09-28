@@ -1,0 +1,25 @@
+{
+  "id": "f6c8e9e8-e4c5-423c-95e3-4d51ce9afd22",
+  "type": "SUBJECTIVE",
+  "question": "Sketch, on plain paper, the regions represented on the plane by the following:\n\n(i) \\(|y|=\\sin x\\);\n\n(ii) \\(|x|-|y|\\ge1\\).",
+  "answer": null,
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "tomato"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10 + 2 Level",
+    "file": "Tomato 16th Edition.pdf",
+    "pages": [
+      248
+    ],
+    "question_number": 126,
+    "crop": "questions/f6c8e9e8-e4c5-423c-95e3-4d51ce9afd22/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

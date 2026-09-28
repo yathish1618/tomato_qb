@@ -1,0 +1,25 @@
+{
+  "id": "70be4344-1ae4-4ee3-bf4d-018a45b39275",
+  "type": "SUBJECTIVE",
+  "question": "Let $f(x)=e^{-x}$ for $x\\ge0$. Define a function $g$ on the nonnegative real numbers as follows: for each integer $k\\ge0$, the graph of $g$ on the interval $[k,k+1]$ is the straight line segment connecting the points $(k,f(k))$ and $(k+1,f(k+1))$. Find the total area of the region which lies between the curves of $f$ and $g$.",
+  "answer": null,
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "2011-bmath-admission-test-short-answer-type"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10 + 2 Level",
+    "file": "Tomato 16th Edition(1).pdf",
+    "pages": [
+      277
+    ],
+    "question_number": 2,
+    "crop": "questions/70be4344-1ae4-4ee3-bf4d-018a45b39275/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

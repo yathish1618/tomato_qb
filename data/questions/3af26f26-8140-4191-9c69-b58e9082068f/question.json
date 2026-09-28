@@ -1,0 +1,31 @@
+{
+  "id": "3af26f26-8140-4191-9c69-b58e9082068f",
+  "type": "MCQ",
+  "question": "Let \\(f:\\mathbb R\\to\\mathbb R\\) be a differentiable and strictly decreasing function such that \\(f(0)=1\\) and \\(f(1)=0\\). For \\(x\\in\\mathbb R\\), let\n\\[\nF(x)=\\int_0^x (t-2)f(t)\\,dt.\n\\]\nThen",
+  "options": {
+    "A": "\\(F\\) is strictly increasing in \\([0,3]\\)",
+    "B": "\\(F\\) has a unique minimum in \\((0,3)\\) but has no maximum in \\((0,3)\\)",
+    "C": "\\(F\\) has a unique maximum in \\((0,3)\\) but has no minimum in \\((0,3)\\)",
+    "D": "\\(F\\) has a unique maximum and a unique minimum in \\((0,3)\\)."
+  },
+  "answer": "D",
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "2016-bstat-bmath-admission-test-multiple-choice"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10 + 2 Level",
+    "file": "Tomato 16th Edition.pdf",
+    "pages": [
+      213
+    ],
+    "question_number": 19,
+    "crop": "questions/3af26f26-8140-4191-9c69-b58e9082068f/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

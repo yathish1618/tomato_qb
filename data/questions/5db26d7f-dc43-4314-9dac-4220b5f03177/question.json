@@ -1,0 +1,25 @@
+{
+  "id": "5db26d7f-dc43-4314-9dac-4220b5f03177",
+  "type": "SUBJECTIVE",
+  "question": "Let $f$ be a twice differentiable function on the open interval $(-1,1)$ such that $f(0)=1$. Suppose $f$ also satisfies $f(x)\\ge 0$, $f'(x)\\le 0$ and $f''(x)\\le f(x)$, for all $x\\ge 0$. Show that $f'(0)\\ge -\\sqrt2$.",
+  "answer": null,
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "2011-bstat-admission-test-short-answer-type"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10 + 2 Level",
+    "file": "Tomato 16th Edition(1).pdf",
+    "pages": [
+      275
+    ],
+    "question_number": 4,
+    "crop": "questions/5db26d7f-dc43-4314-9dac-4220b5f03177/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

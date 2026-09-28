@@ -1,0 +1,31 @@
+{
+  "id": "c9fe6efe-1933-49aa-9fbe-7526c7b6d8bc",
+  "type": "MCQ",
+  "question": "Let $A$ be an $m\\times n$ matrix with the $(i,j)$th entry given by the real number $a_{ij}$, $1\\le i\\le m$, $1\\le j\\le n$. Let\n\\[\n\\alpha=\\max_{1\\le j\\le n}\\left(\\min_{1\\le i\\le m}a_{ij}\\right),\\qquad\n\\beta=\\min_{1\\le j\\le n}\\left(\\max_{1\\le i\\le m}a_{ij}\\right).\n\\]\nThen",
+  "options": {
+    "A": "$\\alpha\\le\\beta$ but not necessarily $\\alpha=\\beta$",
+    "B": "$\\beta\\le\\alpha$ but not necessarily $\\alpha=\\beta$",
+    "C": "$\\alpha=\\beta$",
+    "D": "nothing can be said in general"
+  },
+  "answer": "D",
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "bstat-bmath-uga-2025"
+  ],
+  "source": {
+    "title": "UGA 2025",
+    "file": "ISI BStat-BMath UGA & UGB 2025 Problem and Solution - Cheenta Academy.pdf",
+    "pages": [
+      5
+    ],
+    "question_number": 6,
+    "crop": "questions/c9fe6efe-1933-49aa-9fbe-7526c7b6d8bc/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

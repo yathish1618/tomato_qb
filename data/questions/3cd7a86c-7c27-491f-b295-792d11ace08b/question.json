@@ -1,0 +1,31 @@
+{
+  "id": "3cd7a86c-7c27-491f-b295-792d11ace08b",
+  "type": "MCQ",
+  "question": "Let $A=\\{x_1,x_2,\\ldots,x_{50}\\}$ and $B=\\{y_1,y_2,\\ldots,y_{20}\\}$ be two sets of real numbers. What is the total number of functions $f:A\\to B$ such that $f$ is onto and $f(x_1)\\le f(x_2)\\le\\cdots\\le f(x_{50})$?",
+  "options": {
+    "A": "$\\binom{49}{19}$",
+    "B": "$\\binom{49}{20}$",
+    "C": "$\\binom{50}{19}$",
+    "D": "$\\binom{50}{20}$"
+  },
+  "answer": null,
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "bstat-bmath-uga-2020"
+  ],
+  "source": {
+    "title": "",
+    "file": "BStat-BMath-UGA-2020.pdf",
+    "pages": [
+      3
+    ],
+    "question_number": 15,
+    "crop": "questions/3cd7a86c-7c27-491f-b295-792d11ace08b/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

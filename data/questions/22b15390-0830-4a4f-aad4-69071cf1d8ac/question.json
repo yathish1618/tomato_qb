@@ -1,0 +1,31 @@
+{
+  "id": "22b15390-0830-4a4f-aad4-69071cf1d8ac",
+  "type": "MCQ",
+  "question": "For $0\\le x<2\\pi$, the number of solutions of $\\sin^2x+2\\cos^2x+3\\sin x\\cos x=0$ is",
+  "options": {
+    "A": "$1$",
+    "B": "$2$",
+    "C": "$3$",
+    "D": "$4$"
+  },
+  "answer": null,
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "bstat-bmath-uga-2021"
+  ],
+  "source": {
+    "title": "",
+    "file": "BStat-BMath-UGA-2021(1).pdf",
+    "pages": [
+      5
+    ],
+    "question_number": 23,
+    "crop": "questions/22b15390-0830-4a4f-aad4-69071cf1d8ac/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

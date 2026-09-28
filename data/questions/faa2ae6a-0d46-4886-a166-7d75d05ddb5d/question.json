@@ -1,0 +1,31 @@
+{
+  "id": "faa2ae6a-0d46-4886-a166-7d75d05ddb5d",
+  "type": "MCQ",
+  "question": "Let \\(f:\\mathbb R\\to\\mathbb R\\) be a nonzero function such that \\(\\displaystyle\\lim_{x\\to\\infty}\\frac{f(xy)}{x^3}\\) exists for all \\(y>0\\). Let\n\\[\ng(y)=\\lim_{x\\to\\infty}\\frac{f(xy)}{x^3}.\n\\]\nIf \\(g(1)=1\\), then for all \\(y>0\\)",
+  "options": {
+    "A": "\\(g(y)=1\\)",
+    "B": "\\(g(y)=y\\)",
+    "C": "\\(g(y)=y^2\\)",
+    "D": "\\(g(y)=y^3\\)."
+  },
+  "answer": "D",
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "2016-bstat-bmath-admission-test-multiple-choice"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10 + 2 Level",
+    "file": "Tomato 16th Edition.pdf",
+    "pages": [
+      213
+    ],
+    "question_number": 20,
+    "crop": "questions/faa2ae6a-0d46-4886-a166-7d75d05ddb5d/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

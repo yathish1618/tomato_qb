@@ -1,0 +1,31 @@
+{
+  "id": "26e5c9b0-6727-4993-ac6b-21113f9e6d98",
+  "type": "MCQ",
+  "question": "If $\\frac{a+b}{b+c}=\\frac{c+d}{d+a}$, then",
+  "options": {
+    "A": "$a=c$",
+    "B": "either $a=c$ or $a+b+c+d=0$",
+    "C": "$a+b+c+d=0$",
+    "D": "$a=c$ and $b=d$"
+  },
+  "answer": "B",
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "tomato"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10+2 Level — Sixteenth Edition",
+    "file": "tomato.pdf",
+    "pages": [
+      12
+    ],
+    "question_number": 15,
+    "crop": "questions/26e5c9b0-6727-4993-ac6b-21113f9e6d98/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

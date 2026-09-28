@@ -1,0 +1,31 @@
+{
+  "id": "72235a73-916a-4f54-a27e-ada3aa66948c",
+  "type": "MCQ",
+  "question": "The sum of all natural numbers $a$ such that $a^2-16a+67$ is a perfect square is:",
+  "options": {
+    "A": "10",
+    "B": "12",
+    "C": "16",
+    "D": "22."
+  },
+  "answer": null,
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "bstat-bmath-uga-2018"
+  ],
+  "source": {
+    "title": "",
+    "file": "BStat-BMath-UGA-2018.pdf",
+    "pages": [
+      4
+    ],
+    "question_number": 25,
+    "crop": "questions/72235a73-916a-4f54-a27e-ada3aa66948c/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

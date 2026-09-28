@@ -1,0 +1,31 @@
+{
+  "id": "ff5c29ee-e403-462c-bdc0-32b96daa691c",
+  "type": "MCQ",
+  "question": "On a straight road $XY$, 100 metres long, 15 heavy stones are placed one metre apart beginning at the end $X$. A worker, starting at $X$, has to transport all the stones to $Y$, by carrying only one stone at a time. The minimum distance he has to travel is (in km)",
+  "options": {
+    "A": "1.395",
+    "B": "2.79",
+    "C": "2.69",
+    "D": "1.495"
+  },
+  "answer": "C",
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "tomato"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10+2 Level — Sixteenth Edition",
+    "file": "tomato.pdf",
+    "pages": [
+      58
+    ],
+    "question_number": 344,
+    "crop": "questions/ff5c29ee-e403-462c-bdc0-32b96daa691c/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

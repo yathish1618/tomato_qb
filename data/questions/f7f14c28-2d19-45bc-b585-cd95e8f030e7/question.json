@@ -1,0 +1,31 @@
+{
+  "id": "f7f14c28-2d19-45bc-b585-cd95e8f030e7",
+  "type": "MCQ",
+  "question": "Suppose in a triangle $ABC$, $b\\cos B=c\\cos C$. Then the triangle",
+  "options": {
+    "A": "is right-angled",
+    "B": "is isosceles",
+    "C": "is equilateral",
+    "D": "need not necessarily be any of the above types"
+  },
+  "answer": "D",
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "tomato"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10+2 Level",
+    "file": "tomato.pdf",
+    "pages": [
+      110
+    ],
+    "question_number": 686,
+    "crop": "full_page"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

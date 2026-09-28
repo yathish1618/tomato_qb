@@ -1,0 +1,31 @@
+{
+  "id": "b19ee7a9-9b3d-450c-bce1-83563cde7d00",
+  "type": "MCQ",
+  "question": "Let $A_1,A_2,A_3$ be three points on a straight line. Let $B_1,B_2,B_3,B_4,B_5$ be five points on a straight line parallel to the first one. Each of the three points on the first line is joined by a straight line to each of the five points on the second line. Further, no three or more of these joining lines meet at a point except possibly at the $A$'s or the $B$'s. Then the number of points of intersections of the joining lines lying between the two given straight lines is",
+  "options": {
+    "A": "30",
+    "B": "25",
+    "C": "35",
+    "D": "20"
+  },
+  "answer": "A",
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "tomato"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10+2 Level — Sixteenth Edition",
+    "file": "tomato.pdf",
+    "pages": [
+      39
+    ],
+    "question_number": 199,
+    "crop": "questions/b19ee7a9-9b3d-450c-bce1-83563cde7d00/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

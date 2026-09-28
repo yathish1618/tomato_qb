@@ -1,0 +1,25 @@
+{
+  "id": "26c789a6-fbbf-4285-bc60-71646e46991b",
+  "type": "SUBJECTIVE",
+  "question": "48. Find the number of ways in which 5 different gifts can be presented to 3 children so that each child receives at least one gift.",
+  "answer": null,
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "tomato"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10 + 2 Level",
+    "file": "Tomato 16th Edition.pdf",
+    "pages": [
+      238
+    ],
+    "question_number": 48,
+    "crop": "questions/26c789a6-fbbf-4285-bc60-71646e46991b/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

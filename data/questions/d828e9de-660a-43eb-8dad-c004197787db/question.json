@@ -1,0 +1,31 @@
+{
+  "id": "d828e9de-660a-43eb-8dad-c004197787db",
+  "type": "MCQ",
+  "question": "Let $f$ be a function from a set $X$ to $X$ such that $f(f(x))=x$ for all $x\\in X$. Then",
+  "options": {
+    "A": "$f$ is one-to-one but need not be onto",
+    "B": "$f$ is onto but need not be one-to-one",
+    "C": "$f$ is both one-to-one and onto",
+    "D": "none of the foregoing statements is necessarily true"
+  },
+  "answer": "C",
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "tomato"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10+2 Level",
+    "file": "tomato.pdf",
+    "pages": [
+      114
+    ],
+    "question_number": 703,
+    "crop": "full_page"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

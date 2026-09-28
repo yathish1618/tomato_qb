@@ -1,0 +1,31 @@
+{
+  "id": "fdd5e602-ea19-44c7-9c2f-b316e97f4be5",
+  "type": "MCQ",
+  "question": "The number of points at which the function $f(x)=\\begin{cases}\\min\\{|x|,x^2\\},&-\\infty<x<1\\\\\\min\\{2x-1,x^2\\},&\\text{otherwise}\\end{cases}$ is not differentiable is",
+  "options": {
+    "A": "0",
+    "B": "1",
+    "C": "2",
+    "D": "more than 2"
+  },
+  "answer": "B",
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "tomato"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10+2 Level",
+    "file": "tomato.pdf",
+    "pages": [
+      122
+    ],
+    "question_number": 753,
+    "crop": "full_page"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

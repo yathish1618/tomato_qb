@@ -1,0 +1,31 @@
+{
+  "id": "3bbb4926-58c1-441c-b6eb-5ded6be5989a",
+  "type": "MCQ",
+  "question": "Water falls from a tap of circular cross section at the rate of 2 metres/sec and fills up a hemispherical bowl of inner diameter 0.9 metres. If the inner diameter of the tap is 0.01 metres, then the time needed to fill the bowl is",
+  "options": {
+    "A": "40.5 minutes;",
+    "B": "81 minutes;",
+    "C": "60.75 minutes;",
+    "D": "20.25 minutes."
+  },
+  "answer": "D",
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "2007-bstat-admission-test-multiple-choice"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10 + 2 Level",
+    "file": "Tomato 16th Edition.pdf",
+    "pages": [
+      139
+    ],
+    "question_number": 6,
+    "crop": "questions/3bbb4926-58c1-441c-b6eb-5ded6be5989a/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

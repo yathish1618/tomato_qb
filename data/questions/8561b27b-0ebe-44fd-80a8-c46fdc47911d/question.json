@@ -1,0 +1,31 @@
+{
+  "id": "8561b27b-0ebe-44fd-80a8-c46fdc47911d",
+  "type": "MCQ",
+  "question": "What is the limit of $\\displaystyle\\sum_{k=1}^{n}\\frac{e^{-k/n}}{n}$ as $n$ tends to $\\infty$?",
+  "options": {
+    "A": "The limit does not exist.",
+    "B": "$\\infty$",
+    "C": "$1-e^{-1}$",
+    "D": "$e^{-0.5}"
+  },
+  "answer": null,
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "bstat-bmath-uga-2020"
+  ],
+  "source": {
+    "title": "",
+    "file": "BStat-BMath-UGA-2020.pdf",
+    "pages": [
+      1
+    ],
+    "question_number": 5,
+    "crop": "questions/8561b27b-0ebe-44fd-80a8-c46fdc47911d/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

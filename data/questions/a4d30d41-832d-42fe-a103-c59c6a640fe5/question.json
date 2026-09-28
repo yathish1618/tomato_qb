@@ -1,0 +1,32 @@
+{
+  "id": "a4d30d41-832d-42fe-a103-c59c6a640fe5",
+  "type": "MCQ",
+  "question": "Consider the following statements about two similar triangles $\\triangle_1$ and $\\triangle_2$.\n\n$S_1$: Lengths of the sides of $\\triangle_1$ are in arithmetic progression.\n\n$S_2$: Lengths of the sides of $\\triangle_1$ are in geometric progression.\n\n$S_3$: Lengths of the sides of $\\triangle_2$ are in arithmetic progression.\n\n$S_4$: Lengths of the sides of $\\triangle_2$ are in geometric progression.\n\nThen",
+  "options": {
+    "A": "$S_1$ implies $S_3$, but $S_2$ does not imply $S_4$",
+    "B": "$S_1$ does not imply $S_3$, but $S_2$ implies $S_4$",
+    "C": "$S_1$ implies $S_3$, and $S_2$ implies $S_4$",
+    "D": "$S_1$ does not imply $S_3$, and $S_2$ does not imply $S_4$"
+  },
+  "answer": "C",
+  "solution": "If the corresponding sides of similar triangles have common ratio $r$, then an AP triple remains an AP triple after multiplication by $r$, and similarly a GP triple remains a GP triple. Hence $S_1$ implies $S_3$ and $S_2$ implies $S_4$.",
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "bstat-bmath-uga-2025"
+  ],
+  "source": {
+    "title": "UGA 2025",
+    "file": "ISI BStat-BMath UGA & UGB 2025 Problem and Solution - Cheenta Academy.pdf",
+    "pages": [
+      11,
+      12
+    ],
+    "question_number": 13,
+    "crop": "questions/a4d30d41-832d-42fe-a103-c59c6a640fe5/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

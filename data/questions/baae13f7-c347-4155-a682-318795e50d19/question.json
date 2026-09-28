@@ -1,0 +1,31 @@
+{
+  "id": "baae13f7-c347-4155-a682-318795e50d19",
+  "type": "MCQ",
+  "question": "The hands of a clock are observed continuously from 12:45 p.m. onwards. They will be observed to point in the same direction some time between",
+  "options": {
+    "A": "1:03 p.m. and 1:04 p.m.",
+    "B": "1:04 p.m. and 1:05 p.m.",
+    "C": "1:05 p.m. and 1:06 p.m.",
+    "D": "1:06 p.m. and 1:07 p.m."
+  },
+  "answer": "C",
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "tomato"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10+2 Level — Sixteenth Edition",
+    "file": "tomato.pdf",
+    "pages": [
+      13
+    ],
+    "question_number": 23,
+    "crop": "questions/baae13f7-c347-4155-a682-318795e50d19/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

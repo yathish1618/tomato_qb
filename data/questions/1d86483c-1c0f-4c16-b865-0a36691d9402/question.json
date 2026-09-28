@@ -1,0 +1,31 @@
+{
+  "id": "1d86483c-1c0f-4c16-b865-0a36691d9402",
+  "type": "MCQ",
+  "question": "The equation $\\log_3 x-\\log_x3=2$ has",
+  "options": {
+    "A": "no real solution;",
+    "B": "exactly one real solution;",
+    "C": "exactly two real solutions;",
+    "D": "infinitely many real solutions."
+  },
+  "answer": "C",
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "2008-bmath-admission-test-multiple-choice"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10 + 2 Level",
+    "file": "Tomato 16th Edition.pdf",
+    "pages": [
+      155
+    ],
+    "question_number": 19,
+    "crop": "questions/1d86483c-1c0f-4c16-b865-0a36691d9402/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

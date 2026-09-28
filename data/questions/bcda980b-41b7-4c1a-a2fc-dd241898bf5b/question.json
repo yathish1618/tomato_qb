@@ -1,0 +1,31 @@
+{
+  "id": "bcda980b-41b7-4c1a-a2fc-dd241898bf5b",
+  "type": "MCQ",
+  "question": "Let \\(a,b,c\\) be any real numbers such that \\(a^2+b^2+c^2=1\\). Then the quantity \\(ab+bc+ca\\) satisfies the condition(s)",
+  "options": {
+    "A": "\\(ab+bc+ca\\) is constant.",
+    "B": "\\(-\\frac12\\le ab+bc+ca\\le1\\)",
+    "C": "\\(-\\frac14\\le ab+bc+ca\\le1\\)",
+    "D": " \\(-1\\le ab+bc+ca\\le\\frac12\\)"
+  },
+  "answer": "B",
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "tomato"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10+2 Level — Sixteenth Edition",
+    "file": "tomato.pdf",
+    "pages": [
+      61
+    ],
+    "question_number": 360,
+    "crop": "questions/bcda980b-41b7-4c1a-a2fc-dd241898bf5b/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

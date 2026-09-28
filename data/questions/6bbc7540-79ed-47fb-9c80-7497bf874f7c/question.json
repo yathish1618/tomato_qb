@@ -1,0 +1,31 @@
+{
+  "id": "6bbc7540-79ed-47fb-9c80-7497bf874f7c",
+  "type": "MCQ",
+  "question": "Three children and two adults want to cross a river using a rowing boat. The boat can carry no more than a single adult or, in case no adult is in the boat, a maximum of two children. The least number of times the boat needs to cross the river to transport all five people is:",
+  "options": {
+    "A": "9",
+    "B": "11",
+    "C": "13",
+    "D": "15."
+  },
+  "answer": null,
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "bstat-bmath-uga-2019"
+  ],
+  "source": {
+    "title": "UGA 2019",
+    "file": "BStat-BMath-UGA-2019.pdf",
+    "pages": [
+      4
+    ],
+    "question_number": 18,
+    "crop": "questions/6bbc7540-79ed-47fb-9c80-7497bf874f7c/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

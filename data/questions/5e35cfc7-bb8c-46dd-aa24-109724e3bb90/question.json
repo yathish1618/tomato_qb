@@ -1,0 +1,31 @@
+{
+  "id": "5e35cfc7-bb8c-46dd-aa24-109724e3bb90",
+  "type": "MCQ",
+  "question": "Let $f(x)=\\begin{cases}\\displaystyle\\int_0^x[5+|1-y|]dy,&x>2\\\\5x+1,&x\\le2\\end{cases}$. Then",
+  "options": {
+    "A": "$f(x)$ is continuous but not differentiable at $x=2$",
+    "B": "$f(x)$ is not continuous at $x=2$",
+    "C": "$f(x)$ is differentiable everywhere",
+    "D": "the right derivative of $f(x)$ at $x=2$ does not exist"
+  },
+  "answer": "A",
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "tomato"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10+2 Level",
+    "file": "tomato.pdf",
+    "pages": [
+      133
+    ],
+    "question_number": 828,
+    "crop": "full_page"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

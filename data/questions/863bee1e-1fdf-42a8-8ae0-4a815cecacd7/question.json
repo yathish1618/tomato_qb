@@ -1,0 +1,31 @@
+{
+  "id": "863bee1e-1fdf-42a8-8ae0-4a815cecacd7",
+  "type": "MCQ",
+  "question": "$\\displaystyle\\lim_{x\\to2}\\frac{e^{x^2}-e^{2x}}{(x-2)e^{2x}}$ equals",
+  "options": {
+    "A": "$0$",
+    "B": "$1$",
+    "C": "$2$",
+    "D": "$3$"
+  },
+  "answer": "C",
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "2010-bstat-admission-test-multiple-choice"
+  ],
+  "source": {
+    "title": "B.Stat. (Hons.) Admission Test: 2010",
+    "file": "Tomato 16th Edition.pdf",
+    "pages": [
+      168
+    ],
+    "question_number": 4,
+    "crop": "questions/863bee1e-1fdf-42a8-8ae0-4a815cecacd7/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

@@ -1,0 +1,13 @@
+# Root Python cache
+/__pycache__/
+
+# Images directly inside individual question folders i.e., source images
+/data/questions/*/*.png
+/data/questions/*/*.jpg
+/data/questions/*/*.jpeg
+/data/groups/*/*.png
+/data/groups/*/*.jpg
+/data/groups/*/*.jpeg
+
+# utility scripts
+/utils/

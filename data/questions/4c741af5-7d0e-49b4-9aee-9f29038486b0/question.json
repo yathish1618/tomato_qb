@@ -1,0 +1,31 @@
+{
+  "id": "4c741af5-7d0e-49b4-9aee-9f29038486b0",
+  "type": "MCQ",
+  "question": "We consider the relation “a person $x$ shakes hand with a person $y$”. Obviously, if $x$ shakes hand with $y$, then $y$ shakes hand with $x$. In a gathering of 99 persons, one of the following statements is always true, considering 0 to be an even number. Which one is it?",
+  "options": {
+    "A": "There is at least one person who shakes hand exactly with an odd number of persons.",
+    "B": "There is at least one person who shakes hand exactly with an even number of persons.",
+    "C": "There are even number of persons who shake hand exactly with an even number of persons.",
+    "D": "None of the foregoing statements."
+  },
+  "answer": "B",
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "tomato"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10+2 Level — Sixteenth Edition",
+    "file": "tomato.pdf",
+    "pages": [
+      21
+    ],
+    "question_number": 63,
+    "crop": "questions/4c741af5-7d0e-49b4-9aee-9f29038486b0/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

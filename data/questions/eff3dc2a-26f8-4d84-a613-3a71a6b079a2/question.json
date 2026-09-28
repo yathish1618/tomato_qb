@@ -1,0 +1,31 @@
+{
+  "id": "eff3dc2a-26f8-4d84-a613-3a71a6b079a2",
+  "type": "MCQ",
+  "question": "Let $z=x+iy$ be a complex number, which satisfies the equation $(z+\\bar z)z=2+4i$. Then",
+  "options": {
+    "A": "$y=\\pm2$",
+    "B": "$x=\\pm2$",
+    "C": "$x=\\pm3$",
+    "D": "$y=\\pm1$"
+  },
+  "answer": null,
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "bstat-bmath-uga-2026"
+  ],
+  "source": {
+    "title": "Sample Question Paper-UGA",
+    "file": "BStat-BMath-UGA-2026(1).pdf",
+    "pages": [
+      3
+    ],
+    "question_number": 2,
+    "crop": "questions/eff3dc2a-26f8-4d84-a613-3a71a6b079a2/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

@@ -1,0 +1,25 @@
+{
+  "id": "697fe80c-5276-43d5-8725-0cf24c4e1bf6",
+  "type": "SUBJECTIVE",
+  "question": "In a group of five people any two are either friends or enemies, no three of them are friends of each other and no three of them are enemies of each other. Prove that every person in this group has exactly two friends.",
+  "answer": null,
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "2007-bmath-admission-test-short-answer-type"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10 + 2 Level",
+    "file": "Tomato 16th Edition(1).pdf",
+    "pages": [
+      263
+    ],
+    "question_number": 9,
+    "crop": "questions/697fe80c-5276-43d5-8725-0cf24c4e1bf6/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

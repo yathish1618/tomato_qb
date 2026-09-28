@@ -1,0 +1,31 @@
+{
+  "id": "24e0e508-2d45-41a2-9716-1c74739b513e",
+  "type": "MCQ",
+  "question": "In a triangle \\(ABC\\), let \\(C_1\\) be any point on the side \\(AB\\) other than \\(A\\) or \\(B\\). Join \\(CC_1\\). The line passing through \\(A\\) and parallel to \\(CC_1\\) intersects the line \\(BC\\) extended at \\(A_1\\). The line passing through \\(B\\) and parallel to \\(CC_1\\) intersects the line \\(AC\\) extended at \\(B_1\\). The lengths \\(AA_1,BB_1,CC_1\\) are given to be \\(p,q,r\\) units respectively. Then",
+  "options": {
+    "A": "\\(r=\\frac{pq}{p+q}\\)",
+    "B": "\\(\\,r=\\frac{p+q}{4}\\)",
+    "C": "\\(\\,r=\\frac{\\sqrt{pq}}2\\)",
+    "D": "none of the foregoing statements is true"
+  },
+  "answer": "A",
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "tomato"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10+2 Level — Sixteenth Edition",
+    "file": "tomato.pdf",
+    "pages": [
+      75
+    ],
+    "question_number": 444,
+    "crop": "questions/24e0e508-2d45-41a2-9716-1c74739b513e/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

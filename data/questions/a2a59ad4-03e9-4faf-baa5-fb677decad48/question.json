@@ -1,0 +1,31 @@
+{
+  "id": "a2a59ad4-03e9-4faf-baa5-fb677decad48",
+  "type": "MCQ",
+  "question": "If $f(x)=\\sin x$, $g(x)=x^2$ and $h(x)=\\log x$, and if $F(x)=h(g(f(x)))$, then $\\frac{d^2F}{dx^2}$ equals",
+  "options": {
+    "A": "$-2\\csc^2x$",
+    "B": "$2\\csc^2x$",
+    "C": "$2\\cot(x^2)-4x^2\\csc^2(x^2)$",
+    "D": "$2x\\cot(x^2)$"
+  },
+  "answer": "A",
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "tomato"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10+2 Level",
+    "file": "tomato.pdf",
+    "pages": [
+      126
+    ],
+    "question_number": 772,
+    "crop": "full_page"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

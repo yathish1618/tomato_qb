@@ -1,0 +1,31 @@
+{
+  "id": "06acef2b-3115-4dd7-aedd-fe81211ba722",
+  "type": "MCQ",
+  "question": "A triangle $ABC$ has a fixed base $BC$. If $AB:AC=1:2$, then the locus of the vertex $A$ is",
+  "options": {
+    "A": "a circle whose centre is the midpoint of $BC$;",
+    "B": "a circle whose centre is on the line $BC$ but not the midpoint of $BC$;",
+    "C": "a straight line;",
+    "D": "none of the above."
+  },
+  "answer": "B",
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "2008-bstat-admission-test-multiple-choice"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10 + 2 Level",
+    "file": "Tomato 16th Edition.pdf",
+    "pages": [
+      148
+    ],
+    "question_number": 15,
+    "crop": "questions/06acef2b-3115-4dd7-aedd-fe81211ba722/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

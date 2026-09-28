@@ -1,0 +1,32 @@
+{
+  "id": "c22f0804-12e3-4b5c-bee8-ac9dd73da96b",
+  "type": "MCQ",
+  "question": "A subset $u_1,u_2,u_3,u_4,u_5$ of the first $90$ positive integers can be selected in $\\binom{90}{5}$ ways. Let $u_{\\max}=\\max\\{u_1,u_2,u_3,u_4,u_5\\}$ and $u_{\\min}=\\min\\{u_1,u_2,u_3,u_4,u_5\\}$. Then the arithmetic mean of $u_{\\max}+u_{\\min}$ over all such subsets is",
+  "options": {
+    "A": "45",
+    "B": "46",
+    "C": "89",
+    "D": "91"
+  },
+  "answer": "D",
+  "solution": "Counting subsets according to their maximum and minimum and applying the hockey-stick identity gives\n\\[\n\\sum(u_{\\max}+u_{\\min})=91\\binom{90}{5}.\n\\]\nDividing by $\\binom{90}{5}$ gives the arithmetic mean $91$.",
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "bstat-bmath-uga-2025"
+  ],
+  "source": {
+    "title": "UGA 2025",
+    "file": "ISI BStat-BMath UGA & UGB 2025 Problem and Solution - Cheenta Academy.pdf",
+    "pages": [
+      24,
+      25
+    ],
+    "question_number": 29,
+    "crop": "questions/c22f0804-12e3-4b5c-bee8-ac9dd73da96b/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

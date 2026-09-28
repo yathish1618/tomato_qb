@@ -1,0 +1,25 @@
+{
+  "id": "5285aa16-8597-431f-9022-58c149e4b3de",
+  "type": "SUBJECTIVE",
+  "question": "Let \\(P(z)=az^2+bz+c\\), where \\(a,b,c\\) are complex numbers.\n\n(a) If \\(P(z)\\) is real for all real numbers \\(z\\), show that \\(a,b,c\\) are real numbers.\n\n(b) In addition to (a) above, assume that \\(P(z)\\) is not real whenever \\(z\\) is not real. Show that \\(a=0\\).",
+  "answer": null,
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "tomato"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10 + 2 Level",
+    "file": "Tomato 16th Edition.pdf",
+    "pages": [
+      243
+    ],
+    "question_number": 87,
+    "crop": "questions/5285aa16-8597-431f-9022-58c149e4b3de/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

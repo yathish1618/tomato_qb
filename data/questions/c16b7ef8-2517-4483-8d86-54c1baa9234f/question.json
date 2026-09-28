@@ -1,0 +1,31 @@
+{
+  "id": "c16b7ef8-2517-4483-8d86-54c1baa9234f",
+  "type": "MCQ",
+  "question": "In the Mathematics department of a college, there are 60 first year students, 84 second year students, and 108 third year students. All of these students are to be divided into project groups such that each group has the same number of first year students, the same number of second year students, and the same number of third year students. What is the smallest possible size of each group?",
+  "options": {
+    "A": "9",
+    "B": "12",
+    "C": "19",
+    "D": "21."
+  },
+  "answer": null,
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "bstat-bmath-uga-2017"
+  ],
+  "source": {
+    "title": "",
+    "file": "BStat-BMath-UGA-2017.pdf",
+    "pages": [
+      1
+    ],
+    "question_number": 6,
+    "crop": "questions/c16b7ef8-2517-4483-8d86-54c1baa9234f/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

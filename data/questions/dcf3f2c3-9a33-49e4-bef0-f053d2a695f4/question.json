@@ -1,0 +1,31 @@
+{
+  "id": "dcf3f2c3-9a33-49e4-bef0-f053d2a695f4",
+  "type": "MCQ",
+  "question": "A box has 13 distinct pairs of socks. Let $p_r$ denote the probability of having at least one matching pair among a bunch of $r$ socks drawn at random from the box. If $r_0$ is the maximum possible value of $r$ such that $p_r<1$, then the value of $p_{r_0}$ is",
+  "options": {
+    "A": "$1-\\frac{12}{\\binom{26}{12}}$",
+    "B": "$1-\\frac{13}{\\binom{26}{13}}$",
+    "C": "$1-\\frac{2}{13\\binom{26}{13}}$",
+    "D": "$1-\\frac{2}{12\\binom{26}{12}}$"
+  },
+  "answer": null,
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "bstat-bmath-uga-2021"
+  ],
+  "source": {
+    "title": "",
+    "file": "BStat-BMath-UGA-2021(1).pdf",
+    "pages": [
+      2
+    ],
+    "question_number": 11,
+    "crop": "questions/dcf3f2c3-9a33-49e4-bef0-f053d2a695f4/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

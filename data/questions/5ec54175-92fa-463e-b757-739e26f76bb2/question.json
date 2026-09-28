@@ -1,0 +1,31 @@
+{
+  "id": "5ec54175-92fa-463e-b757-739e26f76bb2",
+  "type": "MCQ",
+  "question": "\\(ABC\\) is a triangle with \\(BC=a,CA=b\\) and \\(\\angle BCA=120^\\circ\\). \\(CD\\) is the bisector of \\(\\angle BCA\\) meeting \\(AB\\) at \\(D\\). Then the length of \\(CD\\) is",
+  "options": {
+    "A": "\\(\\frac{a+b}{4}\\)",
+    "B": "\\(\\frac{ab}{a+b}\\)",
+    "C": "\\(\\frac{a^2+b^2}{2(a+b)}\\)",
+    "D": "\\(\\frac{a^2+ab+b^2}{3(a+b)}\\)"
+  },
+  "answer": "B",
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "tomato"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10+2 Level — Sixteenth Edition",
+    "file": "tomato.pdf",
+    "pages": [
+      80
+    ],
+    "question_number": 470,
+    "crop": "questions/5ec54175-92fa-463e-b757-739e26f76bb2/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

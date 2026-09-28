@@ -1,0 +1,31 @@
+{
+  "id": "aa34de7b-7800-45bc-916f-c515f5da8424",
+  "type": "MCQ",
+  "question": "If $\\tan(\\pi\\cos\\theta)=\\cot(\\pi\\sin\\theta)$, then the value of $\\cos\\left(\\theta-\\frac{\\pi}{4}\\right)$ is",
+  "options": {
+    "A": "$\\frac12$",
+    "B": "$\\pm\\frac{1}{2\\sqrt2}$",
+    "C": "$-\\frac{1}{2\\sqrt2}$",
+    "D": "$\\frac{1}{2\\sqrt2}$"
+  },
+  "answer": "B",
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "tomato"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10+2 Level — Sixteenth Edition",
+    "file": "tomato.pdf",
+    "pages": [
+      100
+    ],
+    "question_number": 612,
+    "crop": "questions/aa34de7b-7800-45bc-916f-c515f5da8424/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

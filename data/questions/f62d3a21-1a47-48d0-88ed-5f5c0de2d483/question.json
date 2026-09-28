@@ -1,0 +1,31 @@
+{
+  "id": "f62d3a21-1a47-48d0-88ed-5f5c0de2d483",
+  "type": "MCQ",
+  "question": "Let $f:\\mathbb R\\to\\mathbb R$ and $g:\\mathbb R\\to\\mathbb R$ be two functions. Consider the following two statements: $P(1)$: If $\\lim_{x\\to0}f(x)$ exists and $\\lim_{x\\to0}f(x)g(x)$ exists, then $\\lim_{x\\to0}g(x)$ must exist. $P(2)$: If $f,g$ are differentiable with $f(x)<g(x)$ for every real number $x$, then $f\\prime(x)<g\\prime(x)$ for all $x$. Then, which one of the following is a correct statement?",
+  "options": {
+    "A": "Both $P(1)$ and $P(2)$ are true.",
+    "B": "Both $P(1)$ and $P(2)$ are false.",
+    "C": "$P(1)$ is true and $P(2)$ is false.",
+    "D": "$P(1)$ is false and $P(2)$ is true."
+  },
+  "answer": null,
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "bstat-bmath-uga-2018"
+  ],
+  "source": {
+    "title": "",
+    "file": "BStat-BMath-UGA-2018.pdf",
+    "pages": [
+      4
+    ],
+    "question_number": 21,
+    "crop": "questions/f62d3a21-1a47-48d0-88ed-5f5c0de2d483/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

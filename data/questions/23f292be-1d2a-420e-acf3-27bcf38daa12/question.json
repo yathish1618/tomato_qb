@@ -1,0 +1,31 @@
+{
+  "id": "23f292be-1d2a-420e-acf3-27bcf38daa12",
+  "type": "MCQ",
+  "question": "If the complex numbers \\(w\\) and \\(z\\) represent two diagonally opposite vertices of a square, then the other two vertices are given by the complex numbers",
+  "options": {
+    "A": "\\(w+iz\\) and \\(w-iz\\)",
+    "B": "\\(\\frac12(w+z)+\\frac i2(w+z)\\) and \\(\\frac12(w+z)-\\frac i2(w+z)\\)",
+    "C": "\\(\\frac12(w-z)+\\frac i2(w-z)\\) and \\(\\frac12(w-z)-\\frac i2(w-z)\\)",
+    "D": "\\(\\frac12(w+z)+\\frac i2(w-z)\\) and \\(\\frac12(w+z)-\\frac i2(w-z)\\)"
+  },
+  "answer": "D",
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "tomato"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10+2 Level — Sixteenth Edition",
+    "file": "tomato.pdf",
+    "pages": [
+      68
+    ],
+    "question_number": 404,
+    "crop": "questions/23f292be-1d2a-420e-acf3-27bcf38daa12/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

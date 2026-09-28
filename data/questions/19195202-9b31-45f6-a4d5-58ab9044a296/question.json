@@ -1,0 +1,32 @@
+{
+  "id": "19195202-9b31-45f6-a4d5-58ab9044a296",
+  "type": "MCQ",
+  "question": "For a real number $x$, let\n\\[\nf(x)=\\int_{-20}^{20}g(t)g(x-t)\\,dt,\n\\]\nwhere\n\\[\ng(x)=\\begin{cases}1,&x\\in[0,1],\\\\0,&\\text{otherwise}.\n\\end{cases}\n\\]\nThen $f(x)$ is equal to",
+  "options": {
+    "A": "$\\begin{cases}x,&x\\in[0,1],\\\\2-x,&x\\in[1,2],\\\\0,&\\text{otherwise},\\end{cases}$",
+    "B": "$\\begin{cases}1+x,&x\\in[0,1],\\\\1-x,&x\\in[1,2],\\\\0,&\\text{otherwise},\\end{cases}$",
+    "C": "$\\begin{cases}1,&x\\in(-20,20),\\\\0,&\\text{otherwise},\\end{cases}$",
+    "D": "none of the above"
+  },
+  "answer": "A",
+  "solution": "If $x<0$ or $x>2$, the integral is zero. For $0\\le x\\le1$,\n\\[\nf(x)=\\int_{x-1}^{x}g(t)\\,dt=x.\n\\]\nFor $1\\le x\\le2$,\n\\[\nf(x)=\\int_{x-1}^{x}g(t)\\,dt=2-x.\n\\]\nThus option (A) is correct.",
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "bstat-bmath-uga-2025"
+  ],
+  "source": {
+    "title": "UGA 2025",
+    "file": "ISI BStat-BMath UGA & UGB 2025 Problem and Solution - Cheenta Academy.pdf",
+    "pages": [
+      17,
+      18
+    ],
+    "question_number": 21,
+    "crop": "questions/19195202-9b31-45f6-a4d5-58ab9044a296/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

@@ -1,0 +1,31 @@
+{
+  "id": "ff9feec3-728b-40b7-98da-81f273a53d30",
+  "type": "MCQ",
+  "question": "The least value of \\(\\frac1x+\\frac1y+\\frac1z\\) for positive \\(x,y,z\\) satisfying \\(x+y+z=9\\) is",
+  "options": {
+    "A": "\\(\\frac{15}{7}\\)",
+    "B": "\\(\\frac19\\)",
+    "C": "3",
+    "D": "1"
+  },
+  "answer": "D",
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "tomato"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10+2 Level — Sixteenth Edition",
+    "file": "tomato.pdf",
+    "pages": [
+      64
+    ],
+    "question_number": 381,
+    "crop": "questions/ff9feec3-728b-40b7-98da-81f273a53d30/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

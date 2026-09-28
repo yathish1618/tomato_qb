@@ -1,0 +1,31 @@
+{
+  "id": "424120d9-4e15-416a-93a4-eeb5629ded06",
+  "type": "MCQ",
+  "question": "The expression $(1+q)(1+q^2)(1+q^4)(1+q^8)(1+q^{16})(1+q^{32})(1+q^{64})$, where $q\ne1$, equals",
+  "options": {
+    "A": "$\\frac{1-q^{128}}{1-q}$",
+    "B": "$\\frac{1-q^{64}}{1-q}$",
+    "C": "$\\frac{1-q^{1+2+4+\\cdots+64}}{1-q}$",
+    "D": "none of the foregoing expressions"
+  },
+  "answer": "A",
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "tomato"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10+2 Level — Sixteenth Edition",
+    "file": "tomato.pdf",
+    "pages": [
+      12
+    ],
+    "question_number": 16,
+    "crop": "questions/424120d9-4e15-416a-93a4-eeb5629ded06/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

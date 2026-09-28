@@ -1,0 +1,25 @@
+{
+  "id": "6bc0bcca-e911-4bf5-ae74-01eed5b54494",
+  "type": "SUBJECTIVE",
+  "question": "54. Let $S=\\{1,2,\\ldots,n\\}$. Find the number of unordered pairs $\\{A,B\\}$ of subsets of $S$ such that $A$ and $B$ are disjoint, where $A$ or $B$ or both may be empty.",
+  "answer": null,
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "tomato"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10 + 2 Level",
+    "file": "Tomato 16th Edition.pdf",
+    "pages": [
+      239
+    ],
+    "question_number": 54,
+    "crop": "questions/6bc0bcca-e911-4bf5-ae74-01eed5b54494/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

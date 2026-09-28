@@ -1,0 +1,31 @@
+{
+  "id": "149941bc-5a21-45ca-bc0b-ba5fd9882df4",
+  "type": "MCQ",
+  "question": "Consider the functional equation $f(x-y)=\\frac{f(x)}{f(y)}$. If $f\\prime(0)=p$ and $f\\prime(5)=q$, then $f\\prime(-5)$ is",
+  "options": {
+    "A": "$\\frac{p^2}{q}$",
+    "B": "$\\frac qp$",
+    "C": "$\\frac{q^2}{p}$",
+    "D": "$q$"
+  },
+  "answer": "C",
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "tomato"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10+2 Level",
+    "file": "tomato.pdf",
+    "pages": [
+      125
+    ],
+    "question_number": 768,
+    "crop": "full_page"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

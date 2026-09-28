@@ -1,0 +1,31 @@
+{
+  "id": "aa54713d-c593-4b9c-a3e9-cc5e4cf4bf51",
+  "type": "MCQ",
+  "question": "If $\\frac{\\cos x}{\\cos y}=\\frac{a}{b}$, then $a\\tan x+b\\tan y$ equals",
+  "options": {
+    "A": "$(a+b)\\cot\\frac{x+y}{2}$",
+    "B": "$(a+b)\\tan\\frac{x+y}{2}$",
+    "C": "$(a+b)\\left(\\tan\\frac{x}{2}+\\tan\\frac{y}{2}\\right)$",
+    "D": "$(a+b)\\left(\\cot\\frac{x}{2}+\\cot\\frac{y}{2}\\right)$"
+  },
+  "answer": "B",
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "tomato"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10+2 Level — Sixteenth Edition",
+    "file": "tomato.pdf",
+    "pages": [
+      97
+    ],
+    "question_number": 597,
+    "crop": "questions/aa54713d-c593-4b9c-a3e9-cc5e4cf4bf51/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

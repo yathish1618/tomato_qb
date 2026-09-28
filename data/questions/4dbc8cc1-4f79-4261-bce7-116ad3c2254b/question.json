@@ -1,0 +1,31 @@
+{
+  "id": "4dbc8cc1-4f79-4261-bce7-116ad3c2254b",
+  "type": "MCQ",
+  "question": "There are \\(2n+1\\) real numbers having the property that the sum of any \\(n\\) of them is less than the sum of the remaining \\(n+1\\). Then,",
+  "options": {
+    "A": "all the numbers must be positive",
+    "B": "all the numbers must be negative",
+    "C": "all the numbers must be equal",
+    "D": "such a system of real numbers cannot exist."
+  },
+  "answer": "A",
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "2015-bstat-bmath-admission-test-multiple-choice"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10 + 2 Level",
+    "file": "Tomato 16th Edition.pdf",
+    "pages": [
+      209
+    ],
+    "question_number": 30,
+    "crop": "questions/4dbc8cc1-4f79-4261-bce7-116ad3c2254b/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

@@ -1,0 +1,31 @@
+{
+  "id": "fb36cf39-9b48-46c6-9e7c-4a9df6b76f0d",
+  "type": "MCQ",
+  "question": "Consider the quadratic equation $(a+c-b)x^2+2cx+(b+c-a)=0$, where $a,b,c$ are distinct real numbers and $a+c-b\\ne0$. Suppose that both the roots of the equation are rational. Then",
+  "options": {
+    "A": "$a,b,c$ are rational",
+    "B": "$\\frac{c}{a-b}$ is rational",
+    "C": "$\\frac{b}{c-a}$ is rational",
+    "D": "$\\frac{a}{b-c}$ is rational"
+  },
+  "answer": "B",
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "tomato"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10+2 Level — Sixteenth Edition",
+    "file": "tomato.pdf",
+    "pages": [
+      45
+    ],
+    "question_number": 243,
+    "crop": "questions/fb36cf39-9b48-46c6-9e7c-4a9df6b76f0d/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

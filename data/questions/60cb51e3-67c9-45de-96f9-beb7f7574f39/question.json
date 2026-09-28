@@ -1,0 +1,32 @@
+{
+  "id": "60cb51e3-67c9-45de-96f9-beb7f7574f39",
+  "type": "MCQ",
+  "question": "The polynomials $x^5-5x^4+7x^3+ax^2+bx+c$ and $3x^3-15x^2+18x$ have three common roots. Then the values of $a,b,c$ are",
+  "options": {
+    "A": "$c=0$ and $a$ and $b$ are arbitrary",
+    "B": "$a=-5,b=6,c=0$",
+    "C": "$a=-\\frac56b$, $b$ arbitrary, $c=0$",
+    "D": "none of the foregoing statements"
+  },
+  "answer": "B",
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "tomato"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10+2 Level — Sixteenth Edition",
+    "file": "tomato.pdf",
+    "pages": [
+      50,
+      51
+    ],
+    "question_number": 284,
+    "crop": "questions/60cb51e3-67c9-45de-96f9-beb7f7574f39/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

@@ -1,0 +1,25 @@
+{
+  "id": "251e707b-2efe-4ccb-9306-92c4f359baec",
+  "type": "SUBJECTIVE",
+  "question": "Let $A$ be a set of positive integers satisfying the following properties: (i) if $m$ and $n$ belong to $A$, then $m+n$ also belongs to $A$; (ii) there is no prime number that divides all elements of $A$. (a) Suppose $n_1$ and $n_2$ are two integers belonging to $A$ such that $n_2-n_1>1$. Show that you can find two integers $m_1$ and $m_2$ in $A$ such that $0<m_2-m_1<n_2-n_1$. (b) Hence show that there are two consecutive integers belonging to $A$. (c) Let $n_0$ and $n_0+1$ be two consecutive integers belonging to $A$. Show that if $n\\ge n_0^2$ then $n$ belongs to $A$.",
+  "answer": null,
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "2007-bstat-admission-test-short-answer-type"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10 + 2 Level",
+    "file": "Tomato 16th Edition(1).pdf",
+    "pages": [
+      262
+    ],
+    "question_number": 10,
+    "crop": "questions/251e707b-2efe-4ccb-9306-92c4f359baec/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

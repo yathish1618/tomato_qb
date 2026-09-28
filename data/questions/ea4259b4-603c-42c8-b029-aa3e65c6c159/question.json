@@ -1,0 +1,25 @@
+{
+  "id": "ea4259b4-603c-42c8-b029-aa3e65c6c159",
+  "type": "SUBJECTIVE",
+  "question": "Prove that every positive rational number can be expressed uniquely as a finite sum of the form $a_1+\\frac{a_2}{2!}+\\frac{a_3}{3!}+\\cdots+\\frac{a_n}{n!}$, where $a_n$ are integers such that $0\\le a_n\\le n-1$ for all $n>1$.",
+  "answer": null,
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "bstat-bmath-ugb-2021"
+  ],
+  "source": {
+    "title": "",
+    "file": "BStat-BMath-UGB-2021.pdf",
+    "pages": [
+      1
+    ],
+    "question_number": 3,
+    "crop": "questions/ea4259b4-603c-42c8-b029-aa3e65c6c159/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "470cb13d-35de-4563-aad1-3a9fa239e179",
+  "type": "SUBJECTIVE",
+  "question": "If the interior angles of a triangle $(ABC)$ satisfy the equality\n\\[\n\\sin^2A+\\sin^2B+\\sin^2C=2(\\cos^2A+\\cos^2B+\\cos^2C),\n\\]\nprove that the triangle must have a right angle.",
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "bstat-bmath-ugb-2025"
+  ],
+  "source": {
+    "title": "UGB 2025",
+    "file": "ISI BStat-BMath UGA & UGB 2025 Problem and Solution - Cheenta Academy.pdf",
+    "pages": [
+      26
+    ],
+    "question_number": 2,
+    "crop": "questions/470cb13d-35de-4563-aad1-3a9fa239e179/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

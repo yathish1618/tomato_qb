@@ -1,0 +1,31 @@
+{
+  "id": "7b7c760f-c29b-4b82-9d8e-9e29fd60295a",
+  "type": "MCQ",
+  "question": "$A$, $B$ and $C$ are three commodities. A packet containing 5 pieces of $A$, 3 of $B$ and 7 of $C$ costs Rs. 24.50. A packet containing 2, 1 and 3 of $A$, $B$ and $C$ respectively, costs Rs. 17.00. The cost of a packet containing 16, 9 and 23 items of $A$, $B$ and $C$ respectively",
+  "options": {
+    "A": "is Rs. 55.00",
+    "B": "is Rs. 75.50",
+    "C": "is Rs. 100.00",
+    "D": "cannot be determined from the given information"
+  },
+  "answer": "C",
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "tomato"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10+2 Level — Sixteenth Edition",
+    "file": "tomato.pdf",
+    "pages": [
+      14
+    ],
+    "question_number": 24,
+    "crop": "questions/7b7c760f-c29b-4b82-9d8e-9e29fd60295a/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

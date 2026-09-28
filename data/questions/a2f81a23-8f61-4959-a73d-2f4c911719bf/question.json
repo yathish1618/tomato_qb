@@ -1,0 +1,31 @@
+{
+  "id": "a2f81a23-8f61-4959-a73d-2f4c911719bf",
+  "type": "MCQ",
+  "question": "For any real number $x$, let $[x]$ denote the greatest integer $m$ such that $m\\le x$. The number of points in the open interval $(-2,2)$ where $f(x)=[x^2-1]$ is not continuous",
+  "options": {
+    "A": "5;",
+    "B": "6;",
+    "C": "7;",
+    "D": "$\\infty$."
+  },
+  "answer": "B",
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "2008-bmath-admission-test-multiple-choice"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10 + 2 Level",
+    "file": "Tomato 16th Edition.pdf",
+    "pages": [
+      155
+    ],
+    "question_number": 18,
+    "crop": "questions/a2f81a23-8f61-4959-a73d-2f4c911719bf/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

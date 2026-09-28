@@ -1,0 +1,31 @@
+{
+  "id": "7ca0e1de-5da8-4c88-b884-cb1476223688",
+  "type": "MCQ",
+  "question": "The locus of points $z$ in the complex plane satisfying $z^2+|z|^2=0$ is",
+  "options": {
+    "A": "a straight line",
+    "B": "a pair of straight lines",
+    "C": "a circle",
+    "D": "a parabola"
+  },
+  "answer": null,
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "bstat-bmath-uga-2022"
+  ],
+  "source": {
+    "title": "",
+    "file": "BStat-BMath-UGA-2022(1).pdf",
+    "pages": [
+      1
+    ],
+    "question_number": 4,
+    "crop": "questions/7ca0e1de-5da8-4c88-b884-cb1476223688/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

@@ -1,0 +1,31 @@
+{
+  "id": "ae3288a7-cb40-426d-9c0c-9bba79183d76",
+  "type": "MCQ",
+  "question": "Six numbers are in G.P. such that their product is 512. If the fourth number is 4, then the second number is",
+  "options": {
+    "A": "$\\frac12$",
+    "B": "1",
+    "C": "2",
+    "D": "none of the foregoing numbers"
+  },
+  "answer": "B",
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "tomato"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10+2 Level — Sixteenth Edition",
+    "file": "tomato.pdf",
+    "pages": [
+      53
+    ],
+    "question_number": 306,
+    "crop": "questions/ae3288a7-cb40-426d-9c0c-9bba79183d76/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

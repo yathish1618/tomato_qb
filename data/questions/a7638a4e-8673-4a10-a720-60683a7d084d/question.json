@@ -1,0 +1,31 @@
+{
+  "id": "a7638a4e-8673-4a10-a720-60683a7d084d",
+  "type": "MCQ",
+  "question": "If the roots of the equation $(x-a)(x-b)+(x-b)(x-c)+(x-c)(x-a)=0$, where $a,b,c$ are real numbers, are equal, then",
+  "options": {
+    "A": "$b^2-4ac=0$",
+    "B": "$a=b=c$",
+    "C": "$a+b+c=0$",
+    "D": "none of the foregoing statements is correct"
+  },
+  "answer": "B",
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "tomato"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10+2 Level — Sixteenth Edition",
+    "file": "tomato.pdf",
+    "pages": [
+      51
+    ],
+    "question_number": 291,
+    "crop": "questions/a7638a4e-8673-4a10-a720-60683a7d084d/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

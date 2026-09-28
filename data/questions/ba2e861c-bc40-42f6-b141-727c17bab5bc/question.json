@@ -1,0 +1,31 @@
+{
+  "id": "ba2e861c-bc40-42f6-b141-727c17bab5bc",
+  "type": "MCQ",
+  "question": "Suppose $x^2+px+q=0$ has two real roots $\\alpha$ and $\\beta$ with $|\\alpha|\\ne|\\beta|$. If $\\alpha^4$ and $\\beta^4$ are the roots of $x^2+rx+s=0$, then the equation $x^2-4qx+2q^2+r=0$ has",
+  "options": {
+    "A": "one positive and one negative root;",
+    "B": "two distinct positive roots;",
+    "C": "two distinct negative roots;",
+    "D": "no real roots."
+  },
+  "answer": "A",
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "2008-bstat-admission-test-multiple-choice"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10 + 2 Level",
+    "file": "Tomato 16th Edition.pdf",
+    "pages": [
+      148
+    ],
+    "question_number": 8,
+    "crop": "questions/ba2e861c-bc40-42f6-b141-727c17bab5bc/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

@@ -1,0 +1,31 @@
+{
+  "id": "bb7fc0f5-8cc7-41d1-9b14-61c2fd12c3ca",
+  "type": "MCQ",
+  "question": "The area of a regular polygon of 12 sides that can be inscribed in the circle \\(x^2+y^2-6x+5=0\\) is",
+  "options": {
+    "A": "6 units",
+    "B": "9 units",
+    "C": "12 units",
+    "D": "15 units."
+  },
+  "answer": "C",
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "2013-bstat-bmath-admission-test-multiple-choice"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10 + 2 Level",
+    "file": "Tomato 16th Edition.pdf",
+    "pages": [
+      196
+    ],
+    "question_number": 15,
+    "crop": "questions/bb7fc0f5-8cc7-41d1-9b14-61c2fd12c3ca/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

@@ -1,0 +1,31 @@
+{
+  "id": "b534ae50-cb48-48cb-9a2a-2e47e1d3deaa",
+  "type": "MCQ",
+  "question": "If the point \\(z\\) in the complex plane describes a circle of radius 2 with centre at the origin, then the point \\(z+\\frac1z\\) describes",
+  "options": {
+    "A": "a circle",
+    "B": "a parabola",
+    "C": "an ellipse",
+    "D": "a hyperbola"
+  },
+  "answer": "C",
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "tomato"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10+2 Level — Sixteenth Edition",
+    "file": "tomato.pdf",
+    "pages": [
+      71
+    ],
+    "question_number": 422,
+    "crop": "questions/b534ae50-cb48-48cb-9a2a-2e47e1d3deaa/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

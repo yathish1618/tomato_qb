@@ -1,0 +1,31 @@
+{
+  "id": "ae73c5c3-7beb-43ed-944e-2dadaab1b20a",
+  "type": "MCQ",
+  "question": "\\(ABC\\) is a triangle. \\(P,Q,R\\) are respectively the mid-points of \\(AB,BC,CA\\). The area of triangle \\(ABC\\) is 20. Then the area of triangle \\(PQR\\) is",
+  "options": {
+    "A": "4",
+    "B": "5",
+    "C": "6",
+    "D": "8"
+  },
+  "answer": "B",
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "tomato"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10+2 Level — Sixteenth Edition",
+    "file": "tomato.pdf",
+    "pages": [
+      78
+    ],
+    "question_number": 458,
+    "crop": "questions/ae73c5c3-7beb-43ed-944e-2dadaab1b20a/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

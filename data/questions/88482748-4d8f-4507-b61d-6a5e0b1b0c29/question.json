@@ -1,0 +1,31 @@
+{
+  "id": "88482748-4d8f-4507-b61d-6a5e0b1b0c29",
+  "type": "MCQ",
+  "question": "The number of integers $n$ for which the cubic equation $x^3-x+n=0$ has 3 distinct integer solutions is:",
+  "options": {
+    "A": "0",
+    "B": "1",
+    "C": "2",
+    "D": "infinite."
+  },
+  "answer": null,
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "bstat-bmath-uga-2019"
+  ],
+  "source": {
+    "title": "UGA 2019",
+    "file": "BStat-BMath-UGA-2019.pdf",
+    "pages": [
+      6
+    ],
+    "question_number": 28,
+    "crop": "questions/88482748-4d8f-4507-b61d-6a5e0b1b0c29/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

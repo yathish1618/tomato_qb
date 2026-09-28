@@ -1,0 +1,31 @@
+{
+  "id": "a0e849a7-e1db-4a9f-8385-185a504424a6",
+  "type": "MCQ",
+  "question": "The last digit of $22^{22}$ is:",
+  "options": {
+    "A": "$2$",
+    "B": "$4$",
+    "C": "$6$",
+    "D": "$0"
+  },
+  "answer": "B",
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "2009-bmath-admission-test-multiple-choice"
+  ],
+  "source": {
+    "title": "B.Math. (Hons.) Admission Test: 2009",
+    "file": "Tomato 16th Edition.pdf",
+    "pages": [
+      165
+    ],
+    "question_number": 10,
+    "crop": "questions/a0e849a7-e1db-4a9f-8385-185a504424a6/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

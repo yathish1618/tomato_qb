@@ -1,0 +1,31 @@
+{
+  "id": "1f7a0cb4-5b3a-4694-8c5f-835d154a8bf6",
+  "type": "MCQ",
+  "question": "The external length, breadth and height of a closed box are 10 cm, 9 cm and 7 cm respectively. The total inner surface area of the box is 262 sq. cm. If the walls of the box are of uniform thickness \\(d\\) cm, then \\(d\\) equals",
+  "options": {
+    "A": "1.5",
+    "B": "2",
+    "C": "2.5",
+    "D": "1"
+  },
+  "answer": "D",
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "tomato"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10+2 Level — Sixteenth Edition",
+    "file": "tomato.pdf",
+    "pages": [
+      80
+    ],
+    "question_number": 475,
+    "crop": "questions/1f7a0cb4-5b3a-4694-8c5f-835d154a8bf6/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

@@ -1,0 +1,31 @@
+{
+  "id": "5b80577b-da8d-49f3-a33a-f5508c21a2d0",
+  "type": "MCQ",
+  "question": "Consider the following equation in $x$ and $y$: $(x-2y-1)^2+(4x+3y-4)^2+(x-2y-1)(4x+3y-4)=0$. How many solutions to $(x,y)$ with $x,y$ real, does the equation have?",
+  "options": {
+    "A": "none",
+    "B": "exactly one",
+    "C": "exactly two",
+    "D": "more than two"
+  },
+  "answer": "B",
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "tomato"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10+2 Level — Sixteenth Edition",
+    "file": "tomato.pdf",
+    "pages": [
+      58
+    ],
+    "question_number": 342,
+    "crop": "questions/5b80577b-da8d-49f3-a33a-f5508c21a2d0/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

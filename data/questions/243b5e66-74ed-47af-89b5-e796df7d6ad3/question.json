@@ -1,0 +1,31 @@
+{
+  "id": "243b5e66-74ed-47af-89b5-e796df7d6ad3",
+  "type": "MCQ",
+  "question": "Let \\([x]\\) denote the largest integer less than or equal to \\(x\\). Then \\(\\displaystyle\\int_0^{n^{1/k}}[x^k+n]\\\\,dx\\) equals",
+  "options": {
+    "A": "\\(n^2+\\sum_{i=1}^{n}i^{1/k}\\)",
+    "B": "\\(2n^{(1+k)/k}-\\sum_{i=1}^{n}i^{1/k}\\)",
+    "C": "\\(2n^{(1+k)/k}-\\sum_{i=1}^{n-1}i^{1/k}\\)",
+    "D": "None of these."
+  },
+  "answer": "B",
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "2011-bstat-admission-test-multiple-choice"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10 + 2 Level",
+    "file": "Tomato 16th Edition.pdf",
+    "pages": [
+      180
+    ],
+    "question_number": 12,
+    "crop": "questions/243b5e66-74ed-47af-89b5-e796df7d6ad3/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

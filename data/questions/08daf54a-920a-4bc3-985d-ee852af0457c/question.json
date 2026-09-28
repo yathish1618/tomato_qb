@@ -1,0 +1,31 @@
+{
+  "id": "08daf54a-920a-4bc3-985d-ee852af0457c",
+  "type": "MCQ",
+  "question": "The value of the integral $\\displaystyle\\int_0^u\\sqrt{1+\\sin\\frac x2}\\,dx$, where $0\\le u\\le\\pi$, is",
+  "options": {
+    "A": "$4+4(\\sin\\frac u4-\\cos\\frac u4)$",
+    "B": "$4+4(\\cos\\frac u4-\\sin\\frac u4)$",
+    "C": "$4+\\frac14(\\cos\\frac u4-\\sin\\frac u4)$",
+    "D": "$4+\\frac14(\\sin\\frac u4-\\cos\\frac u4)$"
+  },
+  "answer": "A",
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "tomato"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10+2 Level",
+    "file": "tomato.pdf",
+    "pages": [
+      131
+    ],
+    "question_number": 814,
+    "crop": "full_page"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

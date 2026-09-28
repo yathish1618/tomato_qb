@@ -1,0 +1,31 @@
+{
+  "id": "b374f3eb-1980-4461-8e49-df27cdb489eb",
+  "type": "MCQ",
+  "question": "The number of 3-digit numbers \\(abc\\) such that we can construct an isosceles triangle with sides \\(a,b,c\\) is",
+  "options": {
+    "A": "153",
+    "B": "163",
+    "C": "165",
+    "D": "183."
+  },
+  "answer": "C",
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "2016-bstat-bmath-admission-test-multiple-choice"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10 + 2 Level",
+    "file": "Tomato 16th Edition.pdf",
+    "pages": [
+      213
+    ],
+    "question_number": 22,
+    "crop": "questions/b374f3eb-1980-4461-8e49-df27cdb489eb/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

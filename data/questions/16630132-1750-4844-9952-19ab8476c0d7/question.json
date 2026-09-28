@@ -1,0 +1,31 @@
+{
+  "id": "16630132-1750-4844-9952-19ab8476c0d7",
+  "type": "MCQ",
+  "question": "A variable plane passes through a fixed point $(a,b,c)$ and cuts the coordinate axes at $P,Q,R$. Then the coordinates $(x,y,z)$ of the centre of the sphere passing through $P,Q,R$ and the origin satisfy the equation",
+  "options": {
+    "A": "$\\frac{x}{a}+\\frac{y}{b}+\\frac{z}{c}=2$",
+    "B": "$\\frac{x}{a}+\\frac{y}{b}+\\frac{z}{c}=3$",
+    "C": "$ax+by+cz=1$",
+    "D": "$ax+by+cz=a^2+b^2+c^2$"
+  },
+  "answer": "A",
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "tomato"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10+2 Level — Sixteenth Edition",
+    "file": "tomato.pdf",
+    "pages": [
+      96
+    ],
+    "question_number": 586,
+    "crop": "questions/16630132-1750-4844-9952-19ab8476c0d7/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

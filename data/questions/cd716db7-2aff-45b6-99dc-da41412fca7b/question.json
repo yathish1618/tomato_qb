@@ -1,0 +1,31 @@
+{
+  "id": "cd716db7-2aff-45b6-99dc-da41412fca7b",
+  "type": "MCQ",
+  "question": "Let \\(ABCDEFGHIJ\\) be a 10-digit number, where all the 10 digits are distinct. Further, \\(A>B>C,\\ A+B+C=9,\\ D>E>F>G\\) are consecutive odd numbers and \\(H>I>J\\) are consecutive even numbers. Then \\(A\\) is",
+  "options": {
+    "A": "8",
+    "B": "7",
+    "C": "6",
+    "D": "5."
+  },
+  "answer": "A",
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "2015-bstat-bmath-admission-test-multiple-choice"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10 + 2 Level",
+    "file": "Tomato 16th Edition.pdf",
+    "pages": [
+      207
+    ],
+    "question_number": 20,
+    "crop": "questions/cd716db7-2aff-45b6-99dc-da41412fca7b/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

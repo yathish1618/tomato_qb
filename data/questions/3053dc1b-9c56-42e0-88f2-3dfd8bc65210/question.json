@@ -1,0 +1,31 @@
+{
+  "id": "3053dc1b-9c56-42e0-88f2-3dfd8bc65210",
+  "type": "MCQ",
+  "question": "For all \\(x\\) such that \\(1\\le x\\le3\\), the inequality \\((x-3a)(x-a-3)<0\\) holds for",
+  "options": {
+    "A": "no value of \\(a\\)",
+    "B": "all \\(a\\) satisfying \\(\\frac23<a<1\\)",
+    "C": "all \\(a\\) satisfying \\(0<a<\\frac13\\)",
+    "D": "all \\(a\\) satisfying \\(\\frac13<a<\\frac23\\)"
+  },
+  "answer": "C",
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "tomato"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10+2 Level — Sixteenth Edition",
+    "file": "tomato.pdf",
+    "pages": [
+      63
+    ],
+    "question_number": 376,
+    "crop": "questions/3053dc1b-9c56-42e0-88f2-3dfd8bc65210/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

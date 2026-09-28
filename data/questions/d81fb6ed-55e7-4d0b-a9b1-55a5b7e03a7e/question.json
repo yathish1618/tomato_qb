@@ -1,0 +1,31 @@
+{
+  "id": "d81fb6ed-55e7-4d0b-a9b1-55a5b7e03a7e",
+  "type": "MCQ",
+  "question": "The value of $\\frac{\\cos37^\\circ+\\sin37^\\circ}{\\cos37^\\circ-\\sin37^\\circ}$ equals",
+  "options": {
+    "A": "$\\tan8^\\circ$",
+    "B": "$\\cot8^\\circ$",
+    "C": "$\\sec8^\\circ$",
+    "D": "$\\cosec8^\\circ$"
+  },
+  "answer": "B",
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "tomato"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10+2 Level",
+    "file": "tomato.pdf",
+    "pages": [
+      110
+    ],
+    "question_number": 682,
+    "crop": "full_page"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

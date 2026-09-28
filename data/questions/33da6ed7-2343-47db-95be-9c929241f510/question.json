@@ -1,0 +1,31 @@
+{
+  "id": "33da6ed7-2343-47db-95be-9c929241f510",
+  "type": "MCQ",
+  "question": "Let \\(i=\\sqrt{-1}\\) and \\(z_1,z_2,\\ldots\\) be a sequence of complex numbers defined by \\(z_1=i\\) and \\(z_{n+1}=z_n^2+i\\) for \\(n\\ge1\\). Then \\(|z_{2013}-z_1|\\) is",
+  "options": {
+    "A": "0",
+    "B": "1",
+    "C": "2",
+    "D": "\\(\\sqrt5\\)"
+  },
+  "answer": "C",
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "2013-bstat-bmath-admission-test-multiple-choice"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10 + 2 Level",
+    "file": "Tomato 16th Edition.pdf",
+    "pages": [
+      196
+    ],
+    "question_number": 11,
+    "crop": "questions/33da6ed7-2343-47db-95be-9c929241f510/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

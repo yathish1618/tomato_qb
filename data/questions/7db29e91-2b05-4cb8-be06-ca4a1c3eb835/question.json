@@ -1,0 +1,31 @@
+{
+  "id": "7db29e91-2b05-4cb8-be06-ca4a1c3eb835",
+  "type": "MCQ",
+  "question": "We define the dual of a line \\(y=mx+c\\) to be the point \\((m,-c)\\). Consider a set of \\(n\\)-non-vertical lines, \\(n>3\\), passing through the point \\((1,1)\\). Then the duals of these lines will always",
+  "options": {
+    "A": "be the same",
+    "B": "lie on a circle",
+    "C": "lie on a line",
+    "D": "form the vertices of a polygon with positive area."
+  },
+  "answer": "C",
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "2013-bstat-bmath-admission-test-multiple-choice"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10 + 2 Level",
+    "file": "Tomato 16th Edition.pdf",
+    "pages": [
+      195
+    ],
+    "question_number": 3,
+    "crop": "questions/7db29e91-2b05-4cb8-be06-ca4a1c3eb835/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

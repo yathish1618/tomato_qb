@@ -1,0 +1,25 @@
+{
+  "id": "ba0f63d9-fa2b-4433-af98-5a05f486b350",
+  "type": "SUBJECTIVE",
+  "question": "Show that a necessary and sufficient condition for the line \\(ax+by+c=0\\), where \\(a,b,c\\) are nonzero real numbers, to pass through the first quadrant is either \\(ac<0\\) or \\(bc<0\\).",
+  "answer": null,
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "tomato"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10 + 2 Level",
+    "file": "Tomato 16th Edition.pdf",
+    "pages": [
+      244
+    ],
+    "question_number": 91,
+    "crop": "questions/ba0f63d9-fa2b-4433-af98-5a05f486b350/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

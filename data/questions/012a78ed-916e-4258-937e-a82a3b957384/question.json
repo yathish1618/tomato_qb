@@ -1,0 +1,31 @@
+{
+  "id": "012a78ed-916e-4258-937e-a82a3b957384",
+  "type": "MCQ",
+  "question": "The expression $\\sum_{k=0}^{10}2^k\\tan(2^k)$ equals",
+  "options": {
+    "A": "$\\cot 1+2^{11}\\cot(2^{11})$",
+    "B": "$\\cot 1-2^{10}\\cot(2^{10})$",
+    "C": "$\\cot 1+2^{10}\\cot(2^{10})$",
+    "D": "$\\cot 1-2^{11}\\cot(2^{11})$"
+  },
+  "answer": null,
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "bstat-bmath-uga-2021"
+  ],
+  "source": {
+    "title": "",
+    "file": "BStat-BMath-UGA-2021(1).pdf",
+    "pages": [
+      6
+    ],
+    "question_number": 25,
+    "crop": "questions/012a78ed-916e-4258-937e-a82a3b957384/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

@@ -1,0 +1,31 @@
+{
+  "id": "5249feb2-d8ac-4087-a89a-9d8739c50303",
+  "type": "MCQ",
+  "question": "Let $S_n$ be the set of all $n$-digit numbers whose digits are all $1$ or $2$ and there are no consecutive $2$’s. (Example: $112$ is in $S_3$ but $221$ is not in $S_3$). Then the number of elements in $S_{10}$ is",
+  "options": {
+    "A": "$512$",
+    "B": "$256$",
+    "C": "$144$",
+    "D": "$89$"
+  },
+  "answer": null,
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "bstat-bmath-uga-2024"
+  ],
+  "source": {
+    "title": "",
+    "file": "BStat-BMath-UGA-2024(1).pdf",
+    "pages": [
+      1
+    ],
+    "question_number": 3,
+    "crop": "questions/5249feb2-d8ac-4087-a89a-9d8739c50303/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

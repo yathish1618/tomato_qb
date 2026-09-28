@@ -1,0 +1,32 @@
+{
+  "id": "90b477cc-5ff0-4368-863f-cc1af0c8f1d7",
+  "type": "MCQ",
+  "question": "The number of ordered pairs $(a,b)$ of positive integers with $a<b$ satisfying $a^2+b^2=2025$ is",
+  "options": {
+    "A": "0",
+    "B": "1",
+    "C": "2",
+    "D": "6"
+  },
+  "answer": "B",
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "bstat-bmath-uga-2025"
+  ],
+  "source": {
+    "title": "UGA 2025",
+    "file": "ISI BStat-BMath UGA & UGB 2025 Problem and Solution - Cheenta Academy.pdf",
+    "pages": [
+      8,
+      9
+    ],
+    "question_number": 9,
+    "crop": "questions/90b477cc-5ff0-4368-863f-cc1af0c8f1d7/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

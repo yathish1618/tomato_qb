@@ -1,0 +1,25 @@
+{
+  "id": "6aacb71a-50fb-4cfe-aead-46461425129f",
+  "type": "SUBJECTIVE",
+  "question": "Let $x_1,x_2,\\ldots,x_n$ be positive real numbers with $x_1+\\cdots+x_n=1$. Then show that\n\\[\n\\sum_{i=1}^{n}\\frac{x_i}{2-x_i}\\ge \\frac{n}{2n-1}.\n\\]",
+  "answer": null,
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "2011-bstat-admission-test-short-answer-type"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10 + 2 Level",
+    "file": "Tomato 16th Edition(1).pdf",
+    "pages": [
+      275
+    ],
+    "question_number": 1,
+    "crop": "questions/6aacb71a-50fb-4cfe-aead-46461425129f/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

@@ -1,0 +1,31 @@
+{
+  "id": "9e1bef07-ac00-4353-a586-1fe11b30e640",
+  "type": "MCQ",
+  "question": "The smallest integer greater than the real number \\((\\sqrt5+\\sqrt3)^{2n}\\) (for nonnegative integer \\(n\\)) is",
+  "options": {
+    "A": "\\(8^n\\)",
+    "B": "\\(\\,4^{2n}\\)",
+    "C": "\\((\\sqrt5+\\sqrt3)^{2n}+(\\sqrt5-\\sqrt3)^{2n}-1\\)",
+    "D": "\\((\\sqrt5+\\sqrt3)^{2n}+(\\sqrt5-\\sqrt3)^{2n}\\)"
+  },
+  "answer": "D",
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "tomato"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10+2 Level — Sixteenth Edition",
+    "file": "tomato.pdf",
+    "pages": [
+      66
+    ],
+    "question_number": 391,
+    "crop": "questions/9e1bef07-ac00-4353-a586-1fe11b30e640/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

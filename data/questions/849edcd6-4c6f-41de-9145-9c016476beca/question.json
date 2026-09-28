@@ -1,0 +1,31 @@
+{
+  "id": "849edcd6-4c6f-41de-9145-9c016476beca",
+  "type": "MCQ",
+  "question": "For any real number $x$, let $[x]$ denote the greatest integer $m$ such that $m\\le x$. Then $\\displaystyle\\int_{-2}^{2}[x^2-1]dx$ equals",
+  "options": {
+    "A": "$2(3-\\sqrt3-\\sqrt2)$",
+    "B": "$2(5-\\sqrt3-\\sqrt2)$",
+    "C": "$2(1-\\sqrt3-\\sqrt2)$",
+    "D": "none of these"
+  },
+  "answer": "A",
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "tomato"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10+2 Level",
+    "file": "tomato.pdf",
+    "pages": [
+      130
+    ],
+    "question_number": 808,
+    "crop": "full_page"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

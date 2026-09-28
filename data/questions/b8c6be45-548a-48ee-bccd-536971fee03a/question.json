@@ -1,0 +1,25 @@
+{
+  "id": "b8c6be45-548a-48ee-bccd-536971fee03a",
+  "type": "SUBJECTIVE",
+  "question": "Prove that the family of curves $\\frac{x^2}{a^2+\\lambda}+\\frac{y^2}{b^2+\\lambda}=1$ satisfies $\\frac{dy}{dx}(a^2-b^2)=\\left(x+y\\frac{dy}{dx}\\right)\\left(x\\frac{dy}{dx}-y\\right)$.",
+  "answer": null,
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "bstat-bmath-ugb-2020"
+  ],
+  "source": {
+    "title": "",
+    "file": "BStat-BMath-UGB-2020.pdf",
+    "pages": [
+      1
+    ],
+    "question_number": 6,
+    "crop": "questions/b8c6be45-548a-48ee-bccd-536971fee03a/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

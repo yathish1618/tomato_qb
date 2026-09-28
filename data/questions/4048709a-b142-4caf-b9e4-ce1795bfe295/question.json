@@ -1,0 +1,31 @@
+{
+  "id": "4048709a-b142-4caf-b9e4-ce1795bfe295",
+  "type": "MCQ",
+  "question": "If $a,b,c,d$ and $p$ are distinct real numbers such that $(a^2+b^2+c^2)p^2-2(ab+bc+cd)p+(b^2+c^2+d^2)\\le0$, then",
+  "options": {
+    "A": "$a,b,c,d$ are in H.P.",
+    "B": "$ab,bc,cd$ are in A.P.",
+    "C": "$a,b,c,d$ are in A.P.",
+    "D": "$a,b,c,d$ are in G.P."
+  },
+  "answer": "D",
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "tomato"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10+2 Level — Sixteenth Edition",
+    "file": "tomato.pdf",
+    "pages": [
+      56
+    ],
+    "question_number": 331,
+    "crop": "questions/4048709a-b142-4caf-b9e4-ce1795bfe295/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

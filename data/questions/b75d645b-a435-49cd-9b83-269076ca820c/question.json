@@ -1,0 +1,31 @@
+{
+  "id": "b75d645b-a435-49cd-9b83-269076ca820c",
+  "type": "MCQ",
+  "question": "A rectangle \\(PQRS\\) joins the points \\(P=(2,3), Q=(x_1,y_1), R=(8,11), S=(x_2,y_2)\\). The line \\(QS\\) is known to be parallel to the \\(y\\)-axis. Then the coordinates of \\(Q\\) and \\(S\\) are, respectively,",
+  "options": {
+    "A": "\\((0,7)\\) and \\((10,7)\\)",
+    "B": "\\((5,2)\\) and \\((5,12)\\)",
+    "C": "\\((7,6)\\) and \\((7,10)\\)",
+    "D": "none of the foregoing pairs"
+  },
+  "answer": "B",
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "tomato"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10+2 Level — Sixteenth Edition",
+    "file": "tomato.pdf",
+    "pages": [
+      74
+    ],
+    "question_number": 432,
+    "crop": "questions/b75d645b-a435-49cd-9b83-269076ca820c/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

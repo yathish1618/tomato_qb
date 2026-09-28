@@ -1,0 +1,31 @@
+{
+  "id": "2a15de94-b3bc-48a2-bfa2-43e2e8f67096",
+  "type": "MCQ",
+  "question": "An office has 8 officers including two who are twins. Two teams, Red and Blue, of 4 officers each are to be formed randomly. What is the probability that the twins would be together in the Red team?",
+  "options": {
+    "A": "$\\frac16$",
+    "B": "$\\frac37$",
+    "C": "$\\frac14$",
+    "D": "$\\frac3{14}$"
+  },
+  "answer": null,
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "bstat-bmath-uga-2018"
+  ],
+  "source": {
+    "title": "",
+    "file": "BStat-BMath-UGA-2018.pdf",
+    "pages": [
+      1
+    ],
+    "question_number": 2,
+    "crop": "questions/2a15de94-b3bc-48a2-bfa2-43e2e8f67096/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

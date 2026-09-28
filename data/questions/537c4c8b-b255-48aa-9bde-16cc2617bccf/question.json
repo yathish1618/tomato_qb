@@ -1,0 +1,31 @@
+{
+  "id": "537c4c8b-b255-48aa-9bde-16cc2617bccf",
+  "type": "MCQ",
+  "question": "A necessary and sufficient condition for the quadratic function $ax^2+bx+c$ to take both positive and negative values is",
+  "options": {
+    "A": "$ab\\ne0$",
+    "B": "$b^2-4ac>0$",
+    "C": "$b^2-4ac\\ge0$",
+    "D": "none of the foregoing statements"
+  },
+  "answer": "B",
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "tomato"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10+2 Level — Sixteenth Edition",
+    "file": "tomato.pdf",
+    "pages": [
+      48
+    ],
+    "question_number": 264,
+    "crop": "questions/537c4c8b-b255-48aa-9bde-16cc2617bccf/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

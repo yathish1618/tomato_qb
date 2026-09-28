@@ -1,0 +1,25 @@
+{
+  "id": "2d123f53-cdf3-4e6e-84dc-eacff85adda2",
+  "type": "SUBJECTIVE",
+  "question": "47. For a finite set $A$, let $|A|$ denote the number of elements in the set $A$.\n\n(a) Let $F$ be the set of all functions\n\\[\nf:\\{1,2,\\ldots,n\\}\\to\\{1,2,\\ldots,k\\}\\qquad(n\\ge3,\\ k\\ge2)\n\\]\nsatisfying\n\\[\nf(i)\\ne f(i+1)\\quad\\text{for every }i,\\ 1\\le i\\le n-1.\n\\]\nShow that $|F|=k(k-1)^{n-1}$.\n\n(b) Let $c(n,k)$ denote the number of functions in $F$ satisfying $f(n)\\ne f(1)$. For $n\\ge4$, show that\n\\[\nc(n,k)=k(k-1)^{n-1}-c(n-1,k).\n\\]\n\n(c) Using (b) prove that for $n\\ge3$,\n\\[\nc(n,k)=(k-1)^n+(-1)^n(k-1).\n\\]",
+  "answer": null,
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "tomato"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10 + 2 Level",
+    "file": "Tomato 16th Edition.pdf",
+    "pages": [
+      238
+    ],
+    "question_number": 47,
+    "crop": "questions/2d123f53-cdf3-4e6e-84dc-eacff85adda2/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

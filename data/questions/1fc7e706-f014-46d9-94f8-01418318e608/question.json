@@ -1,0 +1,31 @@
+{
+  "id": "1fc7e706-f014-46d9-94f8-01418318e608",
+  "type": "MCQ",
+  "question": "Let $d_1,d_2,\\ldots,d_k$ be all the factors of a positive integer $n$ including 1 and $n$. Suppose $d_1+d_2+\\cdots+d_k=72$. Then $\\frac1{d_1}+\\frac1{d_2}+\\cdots+\\frac1{d_k}$",
+  "options": {
+    "A": "is $\\frac{k^2}{72}$",
+    "B": "is $\\frac{72}{k}$",
+    "C": "is $\\frac{72}{n}$",
+    "D": "cannot be computed from the given information."
+  },
+  "answer": "C",
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "tomato"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10+2 Level — Sixteenth Edition",
+    "file": "tomato.pdf",
+    "pages": [
+      26
+    ],
+    "question_number": 100,
+    "crop": "questions/1fc7e706-f014-46d9-94f8-01418318e608/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

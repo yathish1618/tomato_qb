@@ -1,0 +1,25 @@
+{
+  "id": "a05173cc-78fa-40eb-b7a8-e8dd5cfaeca4",
+  "type": "SUBJECTIVE",
+  "question": "Consider a board having $2$ rows and $n$ columns. Thus there are $2n$ cells in the board. Each cell is to be filled in by $0$ or $1$. (a) In how many ways can this be done such that each row sum and each column sum is even? (b) In how many ways can this be done such that each row sum and each column sum is odd?",
+  "answer": null,
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "bstat-bmath-ugb-2022"
+  ],
+  "source": {
+    "title": "",
+    "file": "BStat-BMath-UGB-2022.pdf",
+    "pages": [
+      1
+    ],
+    "question_number": 1,
+    "crop": "questions/a05173cc-78fa-40eb-b7a8-e8dd5cfaeca4/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

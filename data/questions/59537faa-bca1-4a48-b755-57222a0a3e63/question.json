@@ -1,0 +1,31 @@
+{
+  "id": "59537faa-bca1-4a48-b755-57222a0a3e63",
+  "type": "MCQ",
+  "question": "Consider the triangle with vertices $(1,2)$, $(-5,-1)$ and $(3,-2)$. Let $\\Delta$ denote the region enclosed by the above triangle. Consider the function $f:\\Delta\\to\\mathbb R$ defined by $f(x,y)=|10x-3y|$. Then the range of $f$ is the interval",
+  "options": {
+    "A": "$[0,36]$",
+    "B": "$[0,47]$",
+    "C": "$[4,47]$",
+    "D": "$[36,47]$"
+  },
+  "answer": "B",
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "2010-bstat-admission-test-multiple-choice"
+  ],
+  "source": {
+    "title": "B.Stat. (Hons.) Admission Test: 2010",
+    "file": "Tomato 16th Edition.pdf",
+    "pages": [
+      172
+    ],
+    "question_number": 28,
+    "crop": "questions/59537faa-bca1-4a48-b755-57222a0a3e63/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

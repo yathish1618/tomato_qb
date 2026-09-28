@@ -1,0 +1,31 @@
+{
+  "id": "60c2fb1e-4e2c-4728-a404-aa10652ae9a0",
+  "type": "MCQ",
+  "question": "For a real number $\\alpha$, let $S_\\alpha$ denote the set of those real numbers $\\beta$ that satisfy $\\alpha\\sin(\\beta)=\\beta\\sin(\\alpha)$. Then which of the following statements is true?",
+  "options": {
+    "A": "For any $\\alpha$, $S_\\alpha$ is an infinite set.",
+    "B": "$S_\\alpha$ is a finite set if and only if $\\alpha$ is not an integer multiple of $\\pi$.",
+    "C": "There are infinitely many numbers $\\alpha$ for which $S_\\alpha$ is the set of all real numbers.",
+    "D": "$S_\\alpha$ is always finite."
+  },
+  "answer": null,
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "bstat-bmath-uga-2018"
+  ],
+  "source": {
+    "title": "",
+    "file": "BStat-BMath-UGA-2018.pdf",
+    "pages": [
+      3
+    ],
+    "question_number": 19,
+    "crop": "questions/60c2fb1e-4e2c-4728-a404-aa10652ae9a0/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

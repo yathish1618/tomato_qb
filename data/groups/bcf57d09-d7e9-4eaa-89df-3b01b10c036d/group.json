@@ -1,0 +1,27 @@
+{
+  "id": "bcf57d09-d7e9-4eaa-89df-3b01b10c036d",
+  "type": "GROUP",
+  "content": "Directions for Items 704 to 706: A real-valued function $f(x)$ of a real variable $x$ is said to be periodic if there is a strictly positive real number $p$ such that $f(x+p)=f(x)$ for every $x$. The smallest $p$ satisfying the above property is called the period of $f$.",
+  "children": [
+    "eed6101e-5a9f-4007-b8f4-55e5c6d1d5ba",
+    "0de0a458-baca-43b7-b522-84016797b7bc",
+    "cefd2a95-bb25-4259-bc0c-abac557d22f3"
+  ],
+  "marks": null,
+  "figures": [],
+  "grade": "12",
+  "tags": [
+    "tomato"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10+2 Level",
+    "file": "tomato.pdf",
+    "pages": [
+      114
+    ],
+    "question_number": "704-706",
+    "crop": "full_page"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

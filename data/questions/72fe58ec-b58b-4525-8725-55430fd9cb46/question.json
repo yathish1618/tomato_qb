@@ -1,0 +1,31 @@
+{
+  "id": "72fe58ec-b58b-4525-8725-55430fd9cb46",
+  "type": "MCQ",
+  "question": "Let $y=\\tan^{-1}\\left(\\frac{\\sqrt{1+x^2}-1}{x}\\right)$. Then $\\frac{dy}{dx}$ equals",
+  "options": {
+    "A": "$\\frac1{2(1+x^2)}$",
+    "B": "$\\frac2{1+x^2}$",
+    "C": "$-\\frac12\\frac1{1+x^2}$",
+    "D": "$-\\frac2{1+x^2}$"
+  },
+  "answer": "A",
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "tomato"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10+2 Level",
+    "file": "tomato.pdf",
+    "pages": [
+      118
+    ],
+    "question_number": 730,
+    "crop": "full_page"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

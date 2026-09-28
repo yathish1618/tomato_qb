@@ -1,0 +1,31 @@
+{
+  "id": "3db499cf-336c-4281-b0fe-9db5a88f0991",
+  "type": "MCQ",
+  "question": "Consider the function \\(f:\\mathbb R\\setminus\\{1\\}\\to\\mathbb R\\setminus\\{2\\}\\) given by \\(\\displaystyle f(x)=\\frac{2x}{x-1}.\\) Then",
+  "options": {
+    "A": "\\(f\\) is one-one but not onto",
+    "B": "\\(f\\) is onto but not one-one",
+    "C": "\\(f\\) is neither one-one nor onto",
+    "D": "\\(f\\) is both one-one and onto."
+  },
+  "answer": "D",
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "2012-bstat-bmath-admission-test-multiple-choice"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10 + 2 Level",
+    "file": "Tomato 16th Edition.pdf",
+    "pages": [
+      191
+    ],
+    "question_number": 15,
+    "crop": "questions/3db499cf-336c-4281-b0fe-9db5a88f0991/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

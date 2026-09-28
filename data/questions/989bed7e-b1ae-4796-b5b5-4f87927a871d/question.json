@@ -1,0 +1,25 @@
+{
+  "id": "989bed7e-b1ae-4796-b5b5-4f87927a871d",
+  "type": "SUBJECTIVE",
+  "question": "Let $a$ and $b$ be two non-zero rational numbers such that the equation $ax^2+by^2=0$ has a non-zero solution in rational numbers. Prove that for any rational number $t$, there is a rational solution of the equation $ax^2+by^2=t$.",
+  "answer": null,
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "2007-bmath-admission-test-short-answer-type"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10 + 2 Level",
+    "file": "Tomato 16th Edition(1).pdf",
+    "pages": [
+      263
+    ],
+    "question_number": 2,
+    "crop": "questions/989bed7e-b1ae-4796-b5b5-4f87927a871d/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

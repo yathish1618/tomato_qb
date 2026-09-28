@@ -1,0 +1,31 @@
+{
+  "id": "cfbd6f73-4228-4050-bf02-aefa95173ebf",
+  "type": "MCQ",
+  "question": "Consider a cubical box of $1$ m side which has one corner placed at $(0,0,0)$ and the opposite corner placed at $(1,1,1)$. The least distance that an ant crawling from the point $(0,0,0)$ to the point $(1,1,1)$ must travel is",
+  "options": {
+    "A": "$\\sqrt6$ m",
+    "B": "$\\sqrt5$ m",
+    "C": "$2\\sqrt3$ m",
+    "D": "$1+\\sqrt3$ m"
+  },
+  "answer": "B",
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "2010-bmath-admission-test-multiple-choice"
+  ],
+  "source": {
+    "title": "B.Math. (Hons.) Admission Test: 2010",
+    "file": "Tomato 16th Edition.pdf",
+    "pages": [
+      174
+    ],
+    "question_number": 5,
+    "crop": "questions/cfbd6f73-4228-4050-bf02-aefa95173ebf/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

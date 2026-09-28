@@ -1,0 +1,31 @@
+{
+  "id": "81b5a3e4-e896-4ae0-8de4-9b8d013e4519",
+  "type": "MCQ",
+  "question": "Let $p,q$ and $s$ be integers such that $p^2=sq^2$. Then it follows that",
+  "options": {
+    "A": "$p$ is an even number",
+    "B": "if $s$ divides $p$, then $s$ is a perfect square",
+    "C": "$s$ divides $p$",
+    "D": "$q^2$ divides $p$"
+  },
+  "answer": "B",
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "tomato"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10+2 Level — Sixteenth Edition",
+    "file": "tomato.pdf",
+    "pages": [
+      32
+    ],
+    "question_number": 147,
+    "crop": "questions/81b5a3e4-e896-4ae0-8de4-9b8d013e4519/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

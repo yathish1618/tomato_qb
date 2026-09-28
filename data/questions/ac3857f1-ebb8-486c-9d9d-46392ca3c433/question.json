@@ -1,0 +1,31 @@
+{
+  "id": "ac3857f1-ebb8-486c-9d9d-46392ca3c433",
+  "type": "MCQ",
+  "question": "The roots of the equation $\\frac12x^2+bx+c=0$ are integers if",
+  "options": {
+    "A": "$b^2-2c>0$",
+    "B": "$b^2-2c$ is the square of an integer and $b$ is an integer",
+    "C": "$b$ and $c$ are integers",
+    "D": "$b$ and $c$ are even integers"
+  },
+  "answer": "B",
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "tomato"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10+2 Level — Sixteenth Edition",
+    "file": "tomato.pdf",
+    "pages": [
+      45
+    ],
+    "question_number": 242,
+    "crop": "questions/ac3857f1-ebb8-486c-9d9d-46392ca3c433/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

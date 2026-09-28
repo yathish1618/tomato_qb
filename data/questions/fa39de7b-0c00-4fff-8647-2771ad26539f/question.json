@@ -1,0 +1,31 @@
+{
+  "id": "fa39de7b-0c00-4fff-8647-2771ad26539f",
+  "type": "MCQ",
+  "question": "A water tank has the shape of a right-circular cone with its vertex down. The radius of the top is 15 ft and the height is 10 ft. Water is poured into the tank at a constant rate of $C$ cubic feet per second. Water leaks out from the bottom at a constant rate of one cubic foot per second. The value of $C$ for which the water level will be rising at the rate of four ft per second at the time point when the water is two ft deep, is given by",
+  "options": {
+    "A": "$C=1+36\\pi$",
+    "B": "$C=1+9\\pi$",
+    "C": "$C=1+4\\pi$",
+    "D": "$C=1+18\\pi$"
+  },
+  "answer": "A",
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "tomato"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10+2 Level",
+    "file": "tomato.pdf",
+    "pages": [
+      126
+    ],
+    "question_number": 774,
+    "crop": "full_page"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

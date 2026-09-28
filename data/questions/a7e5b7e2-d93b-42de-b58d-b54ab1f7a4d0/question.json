@@ -1,0 +1,33 @@
+{
+  "id": "a7e5b7e2-d93b-42de-b58d-b54ab1f7a4d0",
+  "type": "MCQ",
+  "question": "Consider the L-shaped brick in the diagram below. If an ant starts from \\(A\\), find the minimum distance it has to travel along the surface to reach \\(B\\).",
+  "options": {
+    "A": "\\(\\sqrt5\\)",
+    "B": "\\(2\\sqrt5\\)",
+    "C": "\\(\\frac{3\\sqrt5}{2}\\)",
+    "D": "\\(3\\sqrt5\\)"
+  },
+  "answer": "C",
+  "solution": null,
+  "marks": 1,
+  "figures": [
+    "questions/a7e5b7e2-d93b-42de-b58d-b54ab1f7a4d0/figures/figure.png"
+  ],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "2011-bstat-admission-test-multiple-choice"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10 + 2 Level",
+    "file": "Tomato 16th Edition.pdf",
+    "pages": [
+      181
+    ],
+    "question_number": 19,
+    "crop": "questions/a7e5b7e2-d93b-42de-b58d-b54ab1f7a4d0/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

@@ -1,0 +1,31 @@
+{
+  "id": "03220148-cbfa-451f-aab4-682d3d921d47",
+  "type": "MCQ",
+  "question": "In a factory, 20 workers start working on a project of packing consignments. They need exactly 5 hours to pack one consignment. Every hour 4 new workers join the existing workforce. It is mandatory to relieve a worker after 10 hours. Then the number of consignments that would be packed in the initial 113 hours is",
+  "options": {
+    "A": "40",
+    "B": "50",
+    "C": "45",
+    "D": "52."
+  },
+  "answer": null,
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "bstat-bmath-uga-2018"
+  ],
+  "source": {
+    "title": "",
+    "file": "BStat-BMath-UGA-2018.pdf",
+    "pages": [
+      3
+    ],
+    "question_number": 15,
+    "crop": "questions/03220148-cbfa-451f-aab4-682d3d921d47/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

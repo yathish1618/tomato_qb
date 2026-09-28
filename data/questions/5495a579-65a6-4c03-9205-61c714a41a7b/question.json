@@ -1,0 +1,31 @@
+{
+  "id": "5495a579-65a6-4c03-9205-61c714a41a7b",
+  "type": "MCQ",
+  "question": "If the maximum and minimum values of $\\sin^6x+\\cos^6x$, as $x$ takes all real values, are $a$ and $b$, respectively, then $a-b$ equals",
+  "options": {
+    "A": "$\\frac12$",
+    "B": "$\\frac23$",
+    "C": "$\\frac34$",
+    "D": "$1$"
+  },
+  "answer": null,
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "bstat-bmath-uga-2021"
+  ],
+  "source": {
+    "title": "",
+    "file": "BStat-BMath-UGA-2021(1).pdf",
+    "pages": [
+      6
+    ],
+    "question_number": 27,
+    "crop": "questions/5495a579-65a6-4c03-9205-61c714a41a7b/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

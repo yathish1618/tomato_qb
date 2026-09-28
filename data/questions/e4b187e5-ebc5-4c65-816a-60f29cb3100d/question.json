@@ -1,0 +1,25 @@
+{
+  "id": "e4b187e5-ebc5-4c65-816a-60f29cb3100d",
+  "type": "SUBJECTIVE",
+  "question": "Find all \\((x,y)\\) such that\n\\[\n\\sin x+\\sin y=\\sin(x+y)\\quad\\text{and}\\quad |x|+|y|=1.\n\\]",
+  "answer": null,
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "tomato"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10 + 2 Level",
+    "file": "Tomato 16th Edition.pdf",
+    "pages": [
+      248
+    ],
+    "question_number": 127,
+    "crop": "questions/e4b187e5-ebc5-4c65-816a-60f29cb3100d/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

@@ -1,0 +1,31 @@
+{
+  "id": "90b76c8e-00e1-4437-aa80-0eddab8ba185",
+  "type": "MCQ",
+  "question": "For any two positive integers $a$ and $b$, define $a\\equiv b$ if $a-b$ is divisible by 7. Then $(1512+121)\\cdot(356-645)$ is",
+  "options": {
+    "A": "4",
+    "B": "5",
+    "C": "3",
+    "D": "2"
+  },
+  "answer": "B",
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "tomato"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10+2 Level — Sixteenth Edition",
+    "file": "tomato.pdf",
+    "pages": [
+      28
+    ],
+    "question_number": 116,
+    "crop": "questions/90b76c8e-00e1-4437-aa80-0eddab8ba185/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

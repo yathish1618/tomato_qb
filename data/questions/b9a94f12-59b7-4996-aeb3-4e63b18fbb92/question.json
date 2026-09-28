@@ -1,0 +1,31 @@
+{
+  "id": "b9a94f12-59b7-4996-aeb3-4e63b18fbb92",
+  "type": "MCQ",
+  "question": "Suppose $a+b+c$ and $a-b+c$ are positive and $c<0$. Then the equation $ax^2+bx+c=0$",
+  "options": {
+    "A": "has exactly one root lying between $-1$ and $+1$",
+    "B": "has both the roots lying between $-1$ and $+1$",
+    "C": "has no root lying between $-1$ and $+1$",
+    "D": "nothing definite can be said about the roots without knowing the values of $a,b,c$"
+  },
+  "answer": "B",
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "tomato"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10+2 Level — Sixteenth Edition",
+    "file": "tomato.pdf",
+    "pages": [
+      44
+    ],
+    "question_number": 235,
+    "crop": "questions/b9a94f12-59b7-4996-aeb3-4e63b18fbb92/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

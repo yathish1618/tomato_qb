@@ -1,0 +1,31 @@
+{
+  "id": "5a0b2f32-d981-4480-b1c1-b944de4d16ae",
+  "type": "MCQ",
+  "question": "$x_1,x_2,x_3,\\ldots$ is an infinite sequence of positive integers in G.P., such that $x_1x_2x_3x_4=64$. Then the value of $x_5$ is",
+  "options": {
+    "A": "4",
+    "B": "64",
+    "C": "128",
+    "D": "16"
+  },
+  "answer": "D",
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "tomato"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10+2 Level — Sixteenth Edition",
+    "file": "tomato.pdf",
+    "pages": [
+      55
+    ],
+    "question_number": 318,
+    "crop": "questions/5a0b2f32-d981-4480-b1c1-b944de4d16ae/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

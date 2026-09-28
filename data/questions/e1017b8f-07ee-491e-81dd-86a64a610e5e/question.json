@@ -1,0 +1,31 @@
+{
+  "id": "e1017b8f-07ee-491e-81dd-86a64a610e5e",
+  "type": "MCQ",
+  "question": "Let $a=\\frac{(\\log_{100}10)(\\log_2(\\log_2 2))(\\log_4(\\log_2(256)^2))}{\\log_4 8+\\log_8 4}$. Then the value of $a$ is",
+  "options": {
+    "A": "$-\\frac13$",
+    "B": "2",
+    "C": "$-\\frac6{13}$",
+    "D": "$\\frac23$"
+  },
+  "answer": "C",
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "tomato"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10+2 Level — Sixteenth Edition",
+    "file": "tomato.pdf",
+    "pages": [
+      42
+    ],
+    "question_number": 219,
+    "crop": "questions/e1017b8f-07ee-491e-81dd-86a64a610e5e/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

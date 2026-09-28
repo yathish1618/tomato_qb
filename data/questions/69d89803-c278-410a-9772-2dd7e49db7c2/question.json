@@ -1,0 +1,25 @@
+{
+  "id": "69d89803-c278-410a-9772-2dd7e49db7c2",
+  "type": "SUBJECTIVE",
+  "question": "Suppose that $P(x)$ is a polynomial with real coefficients such that for some positive real numbers $c,d$, and for all natural numbers $n$, we have $$c|n|^3\\le |P(n)|\\le d|n|^3.$$ Prove that $P(x)$ has a real zero.",
+  "answer": null,
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "2008-bmath-admission-test-short-answer-type"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10 + 2 Level",
+    "file": "Tomato 16th Edition(1).pdf",
+    "pages": [
+      266
+    ],
+    "question_number": 2,
+    "crop": "questions/69d89803-c278-410a-9772-2dd7e49db7c2/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

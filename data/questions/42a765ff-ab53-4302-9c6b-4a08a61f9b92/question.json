@@ -1,0 +1,31 @@
+{
+  "id": "42a765ff-ab53-4302-9c6b-4a08a61f9b92",
+  "type": "MCQ",
+  "question": "For any integer $p\\ge3$, the largest integer $r$, such that $(x-1)^r$ is a factor of the polynomial $2x^{p+1}-p(p+1)x^2+2(p^2-1)x-p(p-1)$, is",
+  "options": {
+    "A": "$p$",
+    "B": "4",
+    "C": "1",
+    "D": "3"
+  },
+  "answer": "D",
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "tomato"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10+2 Level — Sixteenth Edition",
+    "file": "tomato.pdf",
+    "pages": [
+      51
+    ],
+    "question_number": 286,
+    "crop": "questions/42a765ff-ab53-4302-9c6b-4a08a61f9b92/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

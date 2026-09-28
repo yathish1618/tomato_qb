@@ -1,0 +1,31 @@
+{
+  "id": "4b698688-08da-45c2-9a9a-081a1a3345db",
+  "type": "MCQ",
+  "question": "If the function $f(x)=\\frac{(x-1)(x-2)}{x-a}$, for $x\\ne a$, takes all values in $(-\\infty,\\infty)$, then we must have",
+  "options": {
+    "A": "$a\\le1$;",
+    "B": "$a\\ge2$;",
+    "C": "$a\\le1$ or $a\\ge2$;",
+    "D": "$1\\le a\\le2$."
+  },
+  "answer": "D",
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "2007-bstat-admission-test-multiple-choice"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10 + 2 Level",
+    "file": "Tomato 16th Edition.pdf",
+    "pages": [
+      140
+    ],
+    "question_number": 11,
+    "crop": "questions/4b698688-08da-45c2-9a9a-081a1a3345db/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

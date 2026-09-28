@@ -1,0 +1,31 @@
+{
+  "id": "ee47443e-dba4-4968-aa47-1e62837e4710",
+  "type": "MCQ",
+  "question": "The value of\n\\[\n\\sin^{-1}\\!\\cot\\left[\\sin^{-1}\\!\\left\\{\\frac12\\left(1-\\sqrt{\\frac56}\\right)\\right\\}+\\cos^{-1}\\!\\sqrt{\\frac23}+\\sec^{-1}\\!\\sqrt{\\frac83}\\right]\n\\]\nis",
+  "options": {
+    "A": "0;",
+    "B": "$\\pi/6$;",
+    "C": "$\\pi/4$;",
+    "D": "$\\pi/2$."
+  },
+  "answer": "A",
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "2007-bstat-admission-test-multiple-choice"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10 + 2 Level",
+    "file": "Tomato 16th Edition.pdf",
+    "pages": [
+      141
+    ],
+    "question_number": 17,
+    "crop": "questions/ee47443e-dba4-4968-aa47-1e62837e4710/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

@@ -1,0 +1,31 @@
+{
+  "id": "2aad9a78-9166-4533-8b01-5743e3582b3d",
+  "type": "MCQ",
+  "question": "For any positive real number $x$ and any positive integer $n$, we can uniquely write $x=mn+r$, where $m$ is an integer (positive, negative or zero) and $0\\le r<n$. With this notation we define $x\\bmod n=r$. For example, $13.2\\bmod3=1.2$. The number of discontinuity points of the function $f(x)=(x\\bmod2)^2+(x\\bmod4)$ in the interval $0<x<9$ is",
+  "options": {
+    "A": "0",
+    "B": "2",
+    "C": "4",
+    "D": "6"
+  },
+  "answer": "C",
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "tomato"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10+2 Level",
+    "file": "tomato.pdf",
+    "pages": [
+      122
+    ],
+    "question_number": 751,
+    "crop": "full_page"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

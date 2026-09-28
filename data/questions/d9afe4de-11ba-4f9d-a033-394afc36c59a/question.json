@@ -1,0 +1,31 @@
+{
+  "id": "d9afe4de-11ba-4f9d-a033-394afc36c59a",
+  "type": "MCQ",
+  "question": "If $f(x)=\\log\\left(\\frac{1+x}{1-x}\\right)$, then $f(x)+f(y)$ is",
+  "options": {
+    "A": "$f(x+y)$",
+    "B": "$f\\left(\\frac{x+y}{1+xy}\\right)$",
+    "C": "$(x+y)f\\left(\\frac1{1+xy}\\right)$",
+    "D": "$f(x)+\\frac{f(y)}{1+xy}$"
+  },
+  "answer": "B",
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "tomato"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10+2 Level — Sixteenth Edition",
+    "file": "tomato.pdf",
+    "pages": [
+      42
+    ],
+    "question_number": 220,
+    "crop": "questions/d9afe4de-11ba-4f9d-a033-394afc36c59a/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

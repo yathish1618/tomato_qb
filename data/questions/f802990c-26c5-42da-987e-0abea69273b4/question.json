@@ -1,0 +1,25 @@
+{
+  "id": "f802990c-26c5-42da-987e-0abea69273b4",
+  "type": "SUBJECTIVE",
+  "question": "59. Consider the set of points\n\\[\nS=\\{(x,y):x,y\\text{ are non-negative integers }\\le n\\}.\n\\]\nFind the number of squares that can be formed with vertices belonging to $S$ and sides parallel to the axes.",
+  "answer": null,
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "tomato"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10 + 2 Level",
+    "file": "Tomato 16th Edition.pdf",
+    "pages": [
+      240
+    ],
+    "question_number": 59,
+    "crop": "questions/f802990c-26c5-42da-987e-0abea69273b4/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

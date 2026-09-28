@@ -1,0 +1,25 @@
+{
+  "id": "0b29f388-8cd7-4dcd-8063-2f4219a9bede",
+  "type": "SUBJECTIVE",
+  "question": "Let $f:\\mathbb R\\to\\mathbb R$ be a twice differentiable function such that $\\frac{1}{2y}\\int_{x-y}^{x+y}f(t)\\,dt=f(x)$, for all $x\\in\\mathbb R$, $y>0$. Show that there exist $a,b\\in\\mathbb R$ such that $f(x)=ax+b$ for all $x\\in\\mathbb R$.",
+  "answer": null,
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "bstat-bmath-ugb-2019"
+  ],
+  "source": {
+    "title": "UGB 2019",
+    "file": "BStat-BMath-UGB-2019.pdf",
+    "pages": [
+      1
+    ],
+    "question_number": 4,
+    "crop": "questions/0b29f388-8cd7-4dcd-8063-2f4219a9bede/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

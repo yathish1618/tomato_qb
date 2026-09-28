@@ -1,0 +1,31 @@
+{
+  "id": "a58d5d4d-0777-4a4b-b828-7ae3fc2df718",
+  "type": "MCQ",
+  "question": "The number of distinct rearrangements of the letters of the word “MULTIPLE” that can be made preserving the order in which the letters of the word (MULE) occur and not counting the original arrangement is",
+  "options": {
+    "A": "6719",
+    "B": "3359",
+    "C": "6720",
+    "D": "3214"
+  },
+  "answer": "B",
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "tomato"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10+2 Level — Sixteenth Edition",
+    "file": "tomato.pdf",
+    "pages": [
+      36
+    ],
+    "question_number": 173,
+    "crop": "questions/a58d5d4d-0777-4a4b-b828-7ae3fc2df718/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

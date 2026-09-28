@@ -1,0 +1,31 @@
+{
+  "id": "625bdde8-a984-4907-9e1b-a2739b97cf5e",
+  "type": "MCQ",
+  "question": "Let\n\\[\nf(x)=\\begin{cases}-1,&x<0,\\\\0,&x=0,\\\\1,&x>0.\\end{cases}\n\\]\nThen the function $F$ defined by $F(x)=\\displaystyle\\int_{-5}^{x}f(t)\\,dt$ is",
+  "options": {
+    "A": "not continuous",
+    "B": "continuous, but nowhere differentiable",
+    "C": "differentiable everywhere",
+    "D": "differentiable everywhere except at $0$"
+  },
+  "answer": "D",
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "bstat-bmath-uga-2025"
+  ],
+  "source": {
+    "title": "UGA 2025",
+    "file": "ISI BStat-BMath UGA & UGB 2025 Problem and Solution - Cheenta Academy.pdf",
+    "pages": [
+      15
+    ],
+    "question_number": 17,
+    "crop": "questions/625bdde8-a984-4907-9e1b-a2739b97cf5e/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

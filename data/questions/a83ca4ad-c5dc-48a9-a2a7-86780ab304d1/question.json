@@ -1,0 +1,31 @@
+{
+  "id": "a83ca4ad-c5dc-48a9-a2a7-86780ab304d1",
+  "type": "MCQ",
+  "question": "Suppose $x$ is an irrational number and $a,b,c,d$ are non-zero rational numbers. If $\\frac{ax+b}{cx+d}$ is rational, then we must have",
+  "options": {
+    "A": "$a=c=0$;",
+    "B": "$a=c,b=d$;",
+    "C": "$ad=bc$;",
+    "D": "$a+d=b+c$"
+  },
+  "answer": "C",
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "2010-bmath-admission-test-multiple-choice"
+  ],
+  "source": {
+    "title": "B.Math. (Hons.) Admission Test: 2010",
+    "file": "Tomato 16th Edition.pdf",
+    "pages": [
+      176
+    ],
+    "question_number": 19,
+    "crop": "questions/a83ca4ad-c5dc-48a9-a2a7-86780ab304d1/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

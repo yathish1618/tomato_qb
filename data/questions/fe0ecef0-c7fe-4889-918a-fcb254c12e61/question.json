@@ -1,0 +1,25 @@
+{
+  "id": "fe0ecef0-c7fe-4889-918a-fcb254c12e61",
+  "type": "SUBJECTIVE",
+  "question": "Suppose \\(f(x)\\) is a continuous function such that \\(f(x)=\\int_0^x f(t)\\,dt\\). Prove that \\(f(x)\\) is identically equal to zero.",
+  "answer": null,
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "tomato"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10 + 2 Level",
+    "file": "Tomato 16th Edition.pdf",
+    "pages": [
+      250
+    ],
+    "question_number": 135,
+    "crop": "questions/fe0ecef0-c7fe-4889-918a-fcb254c12e61/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

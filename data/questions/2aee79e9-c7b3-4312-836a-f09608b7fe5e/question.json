@@ -1,0 +1,31 @@
+{
+  "id": "2aee79e9-c7b3-4312-836a-f09608b7fe5e",
+  "type": "MCQ",
+  "question": "Suppose $f(x)$ is a twice differentiable function on $[a,b]$ such that $f(a)=0=f(b)$ and $x^2f^{\\prime\\prime}(x)+4xf^\\prime(x)+2f(x)>0$ for all $x\\in(a,b)$. Then",
+  "options": {
+    "A": "$f$ is negative for all $x\\in(a,b)$.",
+    "B": "$f$ is positive for all $x\\in(a,b)$.",
+    "C": "$f(x)=0$ for exactly one $x\\in(a,b)$.",
+    "D": "$f(x)=0$ for at least two $x\\in(a,b)$."
+  },
+  "answer": null,
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "bstat-bmath-uga-2021"
+  ],
+  "source": {
+    "title": "",
+    "file": "BStat-BMath-UGA-2021(1).pdf",
+    "pages": [
+      3
+    ],
+    "question_number": 14,
+    "crop": "questions/2aee79e9-c7b3-4312-836a-f09608b7fe5e/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

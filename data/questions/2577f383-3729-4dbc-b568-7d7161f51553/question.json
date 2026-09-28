@@ -1,0 +1,25 @@
+{
+  "id": "2577f383-3729-4dbc-b568-7d7161f51553",
+  "type": "SUBJECTIVE",
+  "question": "Consider the function\n\\[\nf(x)=\\begin{cases}\n\\sin\\left(\\frac\\pi4(x-[x])\\right),& \\text{if }[x]\\text{ is odd},\\ x\\ge0,\\\\\n\\cos\\left(\\frac\\pi4(1-x+[x])\\right),& \\text{if }[x]\\text{ is even},\\ x\\ge0,\n\\end{cases}\n\\]\nwhere \\([x]\\) denotes the largest integer smaller than or equal to \\(x\\).\n\n(i) Sketch the graph of the function \\(f\\) on plain paper.\n\n(ii) Determine the points of discontinuities of \\(f\\) and the points where \\(f\\) is not differentiable.",
+  "answer": null,
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "tomato"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10 + 2 Level",
+    "file": "Tomato 16th Edition.pdf",
+    "pages": [
+      250
+    ],
+    "question_number": 136,
+    "crop": "questions/2577f383-3729-4dbc-b568-7d7161f51553/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

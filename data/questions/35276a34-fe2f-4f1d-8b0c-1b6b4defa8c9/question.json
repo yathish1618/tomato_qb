@@ -1,0 +1,31 @@
+{
+  "id": "35276a34-fe2f-4f1d-8b0c-1b6b4defa8c9",
+  "type": "MCQ",
+  "question": "The equations of the pair of straight lines parallel to the $x$-axis and tangent to the curve $9x^2+4y^2=36$ are",
+  "options": {
+    "A": "$y=-3,y=6$",
+    "B": "$y=3,y=-6$",
+    "C": "$y=\\pm6$",
+    "D": "$y=\\pm3$"
+  },
+  "answer": "D",
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "tomato"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10+2 Level — Sixteenth Edition",
+    "file": "tomato.pdf",
+    "pages": [
+      93
+    ],
+    "question_number": 566,
+    "crop": "questions/35276a34-fe2f-4f1d-8b0c-1b6b4defa8c9/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

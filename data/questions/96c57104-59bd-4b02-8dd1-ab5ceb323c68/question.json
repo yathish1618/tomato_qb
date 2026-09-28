@@ -1,0 +1,25 @@
+{
+  "id": "96c57104-59bd-4b02-8dd1-ab5ceb323c68",
+  "type": "SUBJECTIVE",
+  "question": "Show that it is not possible to have a triangle with sides $a$, $b$ and $c$ whose medians have lengths $\\frac{2}{3}a$, $\\frac{2}{3}b$ and $\\frac{4}{5}c$.",
+  "answer": null,
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "2007-bstat-admission-test-short-answer-type"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10 + 2 Level",
+    "file": "Tomato 16th Edition(1).pdf",
+    "pages": [
+      260
+    ],
+    "question_number": 4,
+    "crop": "questions/96c57104-59bd-4b02-8dd1-ab5ceb323c68/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

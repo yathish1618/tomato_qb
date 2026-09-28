@@ -1,0 +1,31 @@
+{
+  "id": "2b5f1611-0498-4b8b-9042-6567cae3aec8",
+  "type": "MCQ",
+  "question": "If $n^2+19n+92$ is a perfect square, then the possible values of $n$ may be",
+  "options": {
+    "A": "$-19$",
+    "B": "$-8$",
+    "C": "$-4$",
+    "D": "$-11$"
+  },
+  "answer": null,
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "bstat-bmath-uga-2026"
+  ],
+  "source": {
+    "title": "Sample Question Paper-UGA",
+    "file": "BStat-BMath-UGA-2026(1).pdf",
+    "pages": [
+      3
+    ],
+    "question_number": 4,
+    "crop": "questions/2b5f1611-0498-4b8b-9042-6567cae3aec8/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

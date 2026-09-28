@@ -1,0 +1,31 @@
+{
+  "id": "7427b853-87af-4e58-aa37-8a775de39fc5",
+  "type": "MCQ",
+  "question": "In the interval $(-2\\pi,0)$, the function $f(x)=\\sin(1/x)$",
+  "options": {
+    "A": "never changes sign",
+    "B": "changes sign only once",
+    "C": "changes sign more than once, but a finite number of times",
+    "D": "changes sign infinite number of times"
+  },
+  "answer": "D",
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "tomato"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10+2 Level",
+    "file": "tomato.pdf",
+    "pages": [
+      115
+    ],
+    "question_number": 709,
+    "crop": "full_page"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

@@ -1,0 +1,31 @@
+{
+  "id": "c451d0d9-68b2-4b26-89e8-0ed6264162dd",
+  "type": "MCQ",
+  "question": "If in a triangle \\(ABC\\) with \\(a,b,c\\) denoting sides opposite to angles \\(A,B,C\\) respectively, \\(a=2b\\) and \\(A=3B\\), then the triangle",
+  "options": {
+    "A": "is isosceles",
+    "B": "is right-angled but not isosceles",
+    "C": "is right-angled and isosceles",
+    "D": "need not necessarily be any of the above types"
+  },
+  "answer": "B",
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "tomato"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10+2 Level — Sixteenth Edition",
+    "file": "tomato.pdf",
+    "pages": [
+      75
+    ],
+    "question_number": 441,
+    "crop": "questions/c451d0d9-68b2-4b26-89e8-0ed6264162dd/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

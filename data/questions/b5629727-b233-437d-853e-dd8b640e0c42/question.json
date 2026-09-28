@@ -1,0 +1,22 @@
+{
+  "id": "b5629727-b233-437d-853e-dd8b640e0c42",
+  "type": "SUBJECTIVE",
+  "question": "Suppose $f:[0,1]\\to\\mathbb R$ is differentiable with $f(0)=0$. If $|f'(x)|\\le f(x)$ for all $x\\in[0,1]$, then show that $f(x)=0$ for all $x$.",
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "bstat-bmath-ugb-2025"
+  ],
+  "source": {
+    "title": "UGB 2025",
+    "file": "ISI BStat-BMath UGA & UGB 2025 Problem and Solution - Cheenta Academy.pdf",
+    "pages": [
+      27
+    ],
+    "question_number": 3,
+    "crop": "questions/b5629727-b233-437d-853e-dd8b640e0c42/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

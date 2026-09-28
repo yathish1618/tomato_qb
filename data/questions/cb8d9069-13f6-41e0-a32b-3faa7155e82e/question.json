@@ -1,0 +1,33 @@
+{
+  "id": "cb8d9069-13f6-41e0-a32b-3faa7155e82e",
+  "type": "MCQ",
+  "question": "A hollow right circular cone rests on a sphere as shown in the figure. The height of the cone is 4 metres and the radius of the base is 1 metre. The volume of the sphere is the same as that of the cone. Then, the distance between the centre of the sphere and the vertex of the cone is",
+  "options": {
+    "A": "4 metres;",
+    "B": "$\\sqrt{17}$ metres;",
+    "C": "$\\sqrt{15}$ metres;",
+    "D": "$5$ metres."
+  },
+  "answer": "B",
+  "solution": null,
+  "marks": 1,
+  "figures": [
+    "questions/cb8d9069-13f6-41e0-a32b-3faa7155e82e/figures/figure.png"
+  ],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "2008-bstat-admission-test-multiple-choice"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10 + 2 Level",
+    "file": "Tomato 16th Edition.pdf",
+    "pages": [
+      151
+    ],
+    "question_number": 25,
+    "crop": "questions/cb8d9069-13f6-41e0-a32b-3faa7155e82e/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

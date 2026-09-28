@@ -1,0 +1,25 @@
+{
+  "id": "83c4c2c5-a433-4571-bcf9-9bedb680950d",
+  "type": "SUBJECTIVE",
+  "question": "If $a,b,c\\in(0,1)$ satisfy $a+b+c=2$, prove that $$\\frac{abc}{(1-a)(1-b)(1-c)}\\ge8.$",
+  "answer": null,
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "2010-bmath-admission-test-short-answer-type"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10 + 2 Level",
+    "file": "Tomato 16th Edition(1).pdf",
+    "pages": [
+      273
+    ],
+    "question_number": 4,
+    "crop": "questions/83c4c2c5-a433-4571-bcf9-9bedb680950d/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

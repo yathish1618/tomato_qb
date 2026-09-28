@@ -1,0 +1,31 @@
+{
+  "id": "18b4cf06-899c-418b-bbd0-39d63b57b9c6",
+  "type": "MCQ",
+  "question": "If $x$ is a real number and $y=\\frac12(e^x-e^{-x})$, then",
+  "options": {
+    "A": "$x$ can be either $\\log(y+\\sqrt{y^2+1})$ or $\\log(y-\\sqrt{y^2+1})$",
+    "B": "$x$ can only be $\\log(y+\\sqrt{y^2+1})$",
+    "C": "$x$ can be either $\\log(y+\\sqrt{y^2-1})$ or $\\log(y-\\sqrt{y^2-1})$",
+    "D": "$x$ can only be $\\log(y+\\sqrt{y^2-1})$"
+  },
+  "answer": "B",
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "tomato"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10+2 Level — Sixteenth Edition",
+    "file": "tomato.pdf",
+    "pages": [
+      43
+    ],
+    "question_number": 231,
+    "crop": "questions/18b4cf06-899c-418b-bbd0-39d63b57b9c6/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

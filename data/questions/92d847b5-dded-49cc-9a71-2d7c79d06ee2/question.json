@@ -1,0 +1,31 @@
+{
+  "id": "92d847b5-dded-49cc-9a71-2d7c79d06ee2",
+  "type": "MCQ",
+  "question": "Let $p$ and $q$ be two non-zero polynomials such that the degree of $p$ is less than or equal to the degree of $q$, and $p(a)q(a)=0$ for $a=0,1,2,\\ldots,10$. Which of the following must be true?",
+  "options": {
+    "A": "$\\deg q\\ne10$",
+    "B": "$\\deg p\\ne10$",
+    "C": "$\\deg q\\ne5$",
+    "D": "$\\deg p\\ne5$"
+  },
+  "answer": null,
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "bstat-bmath-uga-2022"
+  ],
+  "source": {
+    "title": "",
+    "file": "BStat-BMath-UGA-2022(1).pdf",
+    "pages": [
+      5
+    ],
+    "question_number": 18,
+    "crop": "questions/92d847b5-dded-49cc-9a71-2d7c79d06ee2/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

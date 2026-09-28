@@ -1,0 +1,31 @@
+{
+  "id": "76be544a-fcd4-4566-b0c4-29c414b29ec0",
+  "type": "MCQ",
+  "question": "The value of $(1+\\tan1^\\circ)(1+\\tan2^\\circ)\\cdots(1+\\tan44^\\circ)$ is",
+  "options": {
+    "A": "$2$",
+    "B": "a multiple of $22$",
+    "C": "not an integer",
+    "D": "a multiple of $4$"
+  },
+  "answer": "D",
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "2009-bstat-admission-test-multiple-choice"
+  ],
+  "source": {
+    "title": "B.Stat. (Hons.) Admission Test: 2009",
+    "file": "Tomato 16th Edition.pdf",
+    "pages": [
+      158
+    ],
+    "question_number": 5,
+    "crop": "questions/76be544a-fcd4-4566-b0c4-29c414b29ec0/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

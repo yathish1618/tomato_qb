@@ -1,0 +1,25 @@
+{
+  "id": "93fcd3f0-5310-4e30-9242-c50e886b7215",
+  "type": "SUBJECTIVE",
+  "question": "49. $x$ red balls, $y$ black balls and $z$ white balls are to be arranged in a row. Suppose that any two balls of the same colour are indistinguishable. Given that $x+y+z=30$, show that the number of possible arrangements is the largest for $x=y=z=10$.",
+  "answer": null,
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "tomato"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10 + 2 Level",
+    "file": "Tomato 16th Edition.pdf",
+    "pages": [
+      239
+    ],
+    "question_number": 49,
+    "crop": "questions/93fcd3f0-5310-4e30-9242-c50e886b7215/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

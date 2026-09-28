@@ -1,0 +1,25 @@
+{
+  "id": "2b884eb3-b499-4534-8130-760504e5c11f",
+  "type": "SUBJECTIVE",
+  "question": "A cardboard box in the shape of a rectangular parallelepiped is to be enclosed in a cylindrical container with a hemispherical lid. If the total height of the container from the base to the top of the lid is 60 centimetres and its base has radius 30 centimetres, find the volume of the largest box that can be completely enclosed inside the container with the lid on.",
+  "answer": null,
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "2009-bstat-admission-test-short-answer-type"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10 + 2 Level",
+    "file": "Tomato 16th Edition(1).pdf",
+    "pages": [
+      268
+    ],
+    "question_number": 5,
+    "crop": "questions/2b884eb3-b499-4534-8130-760504e5c11f/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

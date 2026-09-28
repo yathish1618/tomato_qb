@@ -1,0 +1,32 @@
+{
+  "id": "7b6ffeb9-1c29-43f2-be68-2e1d6192a1b8",
+  "type": "MCQ",
+  "question": "Suppose \\(f\\) is continuously differentiable up to 3rd order and satisfies \\(\\displaystyle\\int_0^1\\{6f(x)+x^3f^{(3)}(x)\\}\\,dx=f''(1)\\). Which of the following must be true?",
+  "options": {
+    "A": "\\(f(1)=0\\)",
+    "B": "\\(f'(1)=2f(1)\\)",
+    "C": "\\(f'(1)=f(1)\\)",
+    "D": "\\(f'(1)=0\\)"
+  },
+  "answer": "B",
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "2011-bstat-admission-test-multiple-choice"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10 + 2 Level",
+    "file": "Tomato 16th Edition.pdf",
+    "pages": [
+      181,
+      182
+    ],
+    "question_number": 22,
+    "crop": "questions/7b6ffeb9-1c29-43f2-be68-2e1d6192a1b8/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

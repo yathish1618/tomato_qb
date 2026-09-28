@@ -1,0 +1,31 @@
+{
+  "id": "5d5b01f7-bc0d-4f04-9cd2-88145b45767f",
+  "type": "MCQ",
+  "question": "Let $1,\\omega,\\omega^2$ be the cube roots of unity. Then the product $(1-\\omega+\\omega^2)(1-\\omega^2+\\omega^4)(1-\\omega^4+\\omega^8)\\cdots(1-\\omega^{29}+\\omega^{30})$ is equal to:",
+  "options": {
+    "A": "$2^{10}$",
+    "B": "$3^{10}$",
+    "C": "$2^{10}\\omega$",
+    "D": "$3^{10}\\omega^2$"
+  },
+  "answer": null,
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "bstat-bmath-uga-2022"
+  ],
+  "source": {
+    "title": "",
+    "file": "BStat-BMath-UGA-2022(1).pdf",
+    "pages": [
+      5
+    ],
+    "question_number": 21,
+    "crop": "questions/5d5b01f7-bc0d-4f04-9cd2-88145b45767f/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

@@ -1,0 +1,31 @@
+{
+  "id": "7001c56e-1060-4640-a094-8b4332a2679a",
+  "type": "MCQ",
+  "question": "The $m^{th}$ term of an arithmetic progression is $x$ and the $n^{th}$ term is $y$. Then the sum of the first $(m+n)$ terms is",
+  "options": {
+    "A": "$\\frac{m+n}{2}\\left[(x+y)+\\frac{x-y}{m-n}\\right]$",
+    "B": "$\\frac{m+n}{2}\\left[(x-y)+\\frac{x+y}{m-n}\\right]$",
+    "C": "$\\frac12\\left[\\frac{x+y}{m+n}+\\frac{x-y}{m-n}\\right]$",
+    "D": "$\\frac12\\left[\\frac{x+y}{m+n}-\\frac{x-y}{m-n}\\right]$"
+  },
+  "answer": "A",
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "tomato"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10+2 Level — Sixteenth Edition",
+    "file": "tomato.pdf",
+    "pages": [
+      54
+    ],
+    "question_number": 314,
+    "crop": "questions/7001c56e-1060-4640-a094-8b4332a2679a/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

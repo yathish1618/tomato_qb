@@ -1,0 +1,33 @@
+{
+  "id": "986bac41-b83e-4e5c-80b2-708dc4f4a306",
+  "type": "MCQ",
+  "question": "The graph of a function $f$ defined on $(0,2)$ with the property $\\lim_{x\\to0+}f(x)=\\lim_{x\\to2-}f(x)=\\infty$ is as follows. The graph of the derivative of the above function looks like:",
+  "options": {
+    "A": "Graph (A);",
+    "B": "Graph (B);",
+    "C": "Graph (C);",
+    "D": "Graph (D)."
+  },
+  "answer": "D",
+  "solution": null,
+  "marks": 1,
+  "figures": [
+    "questions/986bac41-b83e-4e5c-80b2-708dc4f4a306/figures/figure.png"
+  ],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "2008-bstat-admission-test-multiple-choice"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10 + 2 Level",
+    "file": "Tomato 16th Edition.pdf",
+    "pages": [
+      150
+    ],
+    "question_number": 23,
+    "crop": "questions/986bac41-b83e-4e5c-80b2-708dc4f4a306/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

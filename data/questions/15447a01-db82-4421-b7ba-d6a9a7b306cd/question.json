@@ -1,0 +1,25 @@
+{
+  "id": "15447a01-db82-4421-b7ba-d6a9a7b306cd",
+  "type": "SUBJECTIVE",
+  "question": "6. The following table gives the distribution of the workers in a community by age, sex and type of work.\n\n\\[\n\\begin{array}{c|rrrr}\n\\text{Age in Years (last birthday)} & \\text{Manual Male} & \\text{Manual Female} & \\text{Non-manual Male} & \\text{Non-manual Female}\\\\\n5\\text{-}10&8&15&0&0\\\\\n11\\text{-}15&10&20&0&0\\\\\n16\\text{-}20&22&20&25&5\\\\\n21\\text{-}35&35&45&65&25\\\\\n36\\text{-}50&25&35&45&15\\\\\n51\\text{-}65&20&15&15&5\\\\\n\\text{above }65&10&5&0&0\n\\end{array}\n\\]\n\nA similar table that was produced for the same community ten years ago is as follows:\n\n\\[\n\\begin{array}{c|rr}\n\\text{Age in years (last birthday)}&\\text{Manual}&\\text{Non-manual}\\\\\n5\\text{-}10&15&0\\\\\n11\\text{-}15&35&0\\\\\n16\\text{-}20&40&40\\\\\n21\\text{-}35&50&80\\\\\n36\\text{-}50&70&65\\\\\n51\\text{-}65&20&15\\\\\n\\text{above }65&10&0\n\\end{array}\n\\]\n\nThe break-up of workers by sex is not given in the old table. Assume that the male-female ratios in both the '35 and below' and 'above 35' age-groups have remained the same over the last ten years for manual as well as non-manual workers. In which of these two age-groups has the number of female manual workers increased more?",
+  "answer": null,
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "tomato"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10 + 2 Level",
+    "file": "Tomato 16th Edition.pdf",
+    "pages": [
+      233
+    ],
+    "question_number": 6,
+    "crop": "questions/15447a01-db82-4421-b7ba-d6a9a7b306cd/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

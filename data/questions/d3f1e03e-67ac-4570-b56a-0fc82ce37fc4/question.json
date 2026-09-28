@@ -1,0 +1,25 @@
+{
+  "id": "d3f1e03e-67ac-4570-b56a-0fc82ce37fc4",
+  "type": "SUBJECTIVE",
+  "question": "51. (a) Given $m$ identical symbols, say $H$'s, show that the number of ways in which you can distribute them in $k$ boxes marked $1,2,\\ldots,k$, so that no box goes empty is $\\binom{m-1}{k-1}$.\n\n(b) In an arrangement of $m\\ H$'s and $n\\ T$'s, an uninterrupted sequence of one kind of symbol is called a run. (For example, the arrangement $HHHTHHTTTH$ of 6 $H$'s and 4 $T$'s opens with an $H$-run of length 3, followed successively by a $T$-run of length 1, an $H$-run of length 2, a $T$-run of length 3 and, finally, an $H$-run of length 1.) Find the number of arrangements of $m\\ H$'s and $n\\ T$'s in which there are exactly $k\\ H$-runs. [You may use (a) above.]",
+  "answer": null,
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "tomato"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10 + 2 Level",
+    "file": "Tomato 16th Edition.pdf",
+    "pages": [
+      239
+    ],
+    "question_number": 51,
+    "crop": "questions/d3f1e03e-67ac-4570-b56a-0fc82ce37fc4/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

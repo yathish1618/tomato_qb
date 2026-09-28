@@ -1,0 +1,25 @@
+{
+  "id": "b2082020-bbda-4778-a1c7-0ec5ace93117",
+  "type": "SUBJECTIVE",
+  "question": "In the accompanying figure, $y=f(x)$ is the graph of a one-to-one continuous function $f$. At each point $P$ on the graph of $y=2x^2$, assume that the areas of $OAP$ and $OBP$ are equal. Here $PA,PB$ are the horizontal and vertical segments. Determine the function $f$.",
+  "answer": null,
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "2010-bmath-admission-test-short-answer-type"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10 + 2 Level",
+    "file": "Tomato 16th Edition(1).pdf",
+    "pages": [
+      273
+    ],
+    "question_number": 2,
+    "crop": "questions/b2082020-bbda-4778-a1c7-0ec5ace93117/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

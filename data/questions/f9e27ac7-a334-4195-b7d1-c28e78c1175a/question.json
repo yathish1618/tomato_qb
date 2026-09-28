@@ -1,0 +1,31 @@
+{
+  "id": "f9e27ac7-a334-4195-b7d1-c28e78c1175a",
+  "type": "MCQ",
+  "question": "Let \\(A\\) be the fixed point \\((0,4)\\) and \\(B\\) be a moving point \\((2t,0)\\). Let \\(M\\) be the mid-point of \\(AB\\) and let the perpendicular bisector of \\(AB\\) meet the \\(y\\)-axis at \\(R\\). The locus of the mid-point \\(P\\) of \\(MR\\) is",
+  "options": {
+    "A": "\\(y+x^2=2\\)",
+    "B": "\\(\\,x^2+(y-2)^2=\\frac14\\)",
+    "C": "\\((y-2)^2-x^2=\\frac14\\)",
+    "D": "none of the foregoing curves"
+  },
+  "answer": "A",
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "tomato"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10+2 Level — Sixteenth Edition",
+    "file": "tomato.pdf",
+    "pages": [
+      77
+    ],
+    "question_number": 452,
+    "crop": "questions/f9e27ac7-a334-4195-b7d1-c28e78c1175a/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

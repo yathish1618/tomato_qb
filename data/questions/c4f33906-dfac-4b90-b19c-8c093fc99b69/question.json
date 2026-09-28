@@ -1,0 +1,25 @@
+{
+  "id": "c4f33906-dfac-4b90-b19c-8c093fc99b69",
+  "type": "SUBJECTIVE",
+  "question": "$ABCD$ is a trapezium such that $AB$ is parallel to $DC$ and $\\dfrac{AB}{DC}=\\alpha>1$. Suppose $P$ and $Q$ are points on $AC$ and $BD$ respectively, such that\n\\[\n\\frac{AP}{AC}=\\frac{BQ}{BD}=\\frac{\\alpha-1}{\\alpha+1}.\n\\]\nShow that $PQCD$ is a parallelogram.",
+  "answer": null,
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "2011-bstat-admission-test-short-answer-type"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10 + 2 Level",
+    "file": "Tomato 16th Edition(1).pdf",
+    "pages": [
+      275
+    ],
+    "question_number": 5,
+    "crop": "questions/c4f33906-dfac-4b90-b19c-8c093fc99b69/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

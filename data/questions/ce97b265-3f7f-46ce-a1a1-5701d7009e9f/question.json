@@ -1,0 +1,31 @@
+{
+  "id": "ce97b265-3f7f-46ce-a1a1-5701d7009e9f",
+  "type": "MCQ",
+  "question": "The precise interval on which the function $f(x)=\\log_{1/2}(x^2-2x-3)$ is monotonically decreasing, is",
+  "options": {
+    "A": "$(-\\infty,-1)$",
+    "B": "$(-\\infty,1)$",
+    "C": "$(1,\\infty)$",
+    "D": "$(3,\\infty)$"
+  },
+  "answer": null,
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "bstat-bmath-uga-2024"
+  ],
+  "source": {
+    "title": "",
+    "file": "BStat-BMath-UGA-2024(1).pdf",
+    "pages": [
+      2
+    ],
+    "question_number": 7,
+    "crop": "questions/ce97b265-3f7f-46ce-a1a1-5701d7009e9f/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

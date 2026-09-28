@@ -1,0 +1,31 @@
+{
+  "id": "c2f2f36c-efd5-42e6-99d7-6a857074ef11",
+  "type": "MCQ",
+  "question": "For a regular polygon with $n$ sides ($n>5$), the number of triangles whose vertices are joining non-adjacent vertices of the polygon is",
+  "options": {
+    "A": "$n(n-4)(n-5)$",
+    "B": "$\\frac{(n-3)(n-4)(n-5)}{3}$",
+    "C": "$2(n-3)(n-4)(n-5)$",
+    "D": "$\\frac{n(n-4)(n-5)}{6}$"
+  },
+  "answer": "A",
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "tomato"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10+2 Level — Sixteenth Edition",
+    "file": "tomato.pdf",
+    "pages": [
+      27
+    ],
+    "question_number": 105,
+    "crop": "questions/c2f2f36c-efd5-42e6-99d7-6a857074ef11/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

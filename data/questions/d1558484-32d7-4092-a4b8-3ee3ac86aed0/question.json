@@ -1,0 +1,31 @@
+{
+  "id": "d1558484-32d7-4092-a4b8-3ee3ac86aed0",
+  "type": "MCQ",
+  "question": "The remainder obtained when the polynomial $x+x^3+x^9+x^{27}+x^{81}+x^{243}$ is divided by $x^2-1$ is",
+  "options": {
+    "A": "$6x+1$",
+    "B": "$5x+1$",
+    "C": "$4x$",
+    "D": "$6x$"
+  },
+  "answer": "D",
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "tomato"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10+2 Level — Sixteenth Edition",
+    "file": "tomato.pdf",
+    "pages": [
+      46
+    ],
+    "question_number": 252,
+    "crop": "questions/d1558484-32d7-4092-a4b8-3ee3ac86aed0/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

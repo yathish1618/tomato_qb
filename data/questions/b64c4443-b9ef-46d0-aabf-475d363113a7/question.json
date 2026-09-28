@@ -1,0 +1,31 @@
+{
+  "id": "b64c4443-b9ef-46d0-aabf-475d363113a7",
+  "type": "MCQ",
+  "question": "Let $a,b,c,d>0$ be any real numbers. Then the maximum possible value of $cx+dy$, over all points on the ellipse $\\frac{x^2}{a^2}+\\frac{y^2}{b^2}=1$, must be",
+  "options": {
+    "A": "$\\sqrt{a^2c^2+b^2d^2}$",
+    "B": "$\\sqrt{a^2b^2+c^2d^2}$",
+    "C": "$\\sqrt{\\frac{a^2c^2+b^2d^2}{a^2+b^2}}$",
+    "D": "$\\sqrt{\\frac{a^2b^2+c^2d^2}{c^2+d^2}}$"
+  },
+  "answer": null,
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "bstat-bmath-uga-2021"
+  ],
+  "source": {
+    "title": "",
+    "file": "BStat-BMath-UGA-2021(1).pdf",
+    "pages": [
+      1
+    ],
+    "question_number": 5,
+    "crop": "questions/b64c4443-b9ef-46d0-aabf-475d363113a7/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

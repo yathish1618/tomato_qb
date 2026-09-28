@@ -1,0 +1,31 @@
+{
+  "id": "0f2a8810-d3b1-4f11-a5c1-9211b999d285",
+  "type": "MCQ",
+  "question": "The number of ordered pairs $(x,y)$ of positive integers such that $x+y=90$ and their greatest common divisor is 6 equals",
+  "options": {
+    "A": "15",
+    "B": "14",
+    "C": "8",
+    "D": "10"
+  },
+  "answer": "C",
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "tomato"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10+2 Level — Sixteenth Edition",
+    "file": "tomato.pdf",
+    "pages": [
+      36
+    ],
+    "question_number": 177,
+    "crop": "questions/0f2a8810-d3b1-4f11-a5c1-9211b999d285/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

@@ -1,0 +1,31 @@
+{
+  "id": "e44ff4ba-bc75-4ed2-8159-9286fb1d5d3f",
+  "type": "MCQ",
+  "question": "Let \\(A,B,C\\) be the angles of a triangle. Suppose that \\(\\tan A\\) and \\(\\tan B\\) are the roots of the equation \\(x^2-8x+5=0\\). Then \\(\\cos^2C-8\\cos C\\sin C+5\\sin^2C\\) equals",
+  "options": {
+    "A": "\\(-1\\)",
+    "B": "0",
+    "C": "1",
+    "D": "2."
+  },
+  "answer": "C",
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "2015-bstat-bmath-admission-test-multiple-choice"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10 + 2 Level",
+    "file": "Tomato 16th Edition.pdf",
+    "pages": [
+      207
+    ],
+    "question_number": 15,
+    "crop": "questions/e44ff4ba-bc75-4ed2-8159-9286fb1d5d3f/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

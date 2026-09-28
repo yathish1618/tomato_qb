@@ -1,0 +1,31 @@
+{
+  "id": "0b9e0230-fc06-4000-9dea-9a59caa31bda",
+  "type": "MCQ",
+  "question": "Let \\(\\log_2 18=a\\). Then \\(\\log_{24}16\\) is equal to",
+  "options": {
+    "A": "\\(\\frac{8-4a}{5-a}\\)",
+    "B": "\\(\\frac{1}{3+a}\\)",
+    "C": "\\(\\frac{4a-1}{2+3a}\\)",
+    "D": "\\(\\frac{8-4a}{5+a}\\)"
+  },
+  "answer": "A",
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "2014-bstat-bmath-admission-test-multiple-choice"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10 + 2 Level",
+    "file": "Tomato 16th Edition.pdf",
+    "pages": [
+      200
+    ],
+    "question_number": 2,
+    "crop": "questions/0b9e0230-fc06-4000-9dea-9a59caa31bda/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

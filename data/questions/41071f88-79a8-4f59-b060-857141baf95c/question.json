@@ -1,0 +1,31 @@
+{
+  "id": "41071f88-79a8-4f59-b060-857141baf95c",
+  "type": "MCQ",
+  "question": "Let \\(p>3\\) be a prime number. Which of the following is always false?",
+  "options": {
+    "A": "\\(p+2\\) is a prime number;",
+    "B": "\\(p+4\\) is a prime number;",
+    "C": "both \\(p+2\\) and \\(p+4\\) are prime numbers;",
+    "D": "neither \\(p+2\\) nor \\(p+4\\) are prime numbers."
+  },
+  "answer": "C",
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "2011-bmath-admission-test-multiple-choice"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10 + 2 Level",
+    "file": "Tomato 16th Edition.pdf",
+    "pages": [
+      185
+    ],
+    "question_number": 11,
+    "crop": "questions/41071f88-79a8-4f59-b060-857141baf95c/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

@@ -1,0 +1,31 @@
+{
+  "id": "930abe40-87f9-4fae-9aa8-bea46d45971a",
+  "type": "MCQ",
+  "question": "Given that $f$ is a real-valued differentiable function such that $f(x)f\\prime(x)<0$ for all real $x$, it follows that",
+  "options": {
+    "A": "$f(x)$ is an increasing function",
+    "B": "$f(x)$ is a decreasing function",
+    "C": "$|f(x)|$ is an increasing function",
+    "D": "$|f(x)|$ is a decreasing function"
+  },
+  "answer": "D",
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "tomato"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10+2 Level",
+    "file": "tomato.pdf",
+    "pages": [
+      119
+    ],
+    "question_number": 736,
+    "crop": "full_page"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

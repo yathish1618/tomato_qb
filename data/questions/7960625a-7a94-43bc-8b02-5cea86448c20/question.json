@@ -1,0 +1,31 @@
+{
+  "id": "7960625a-7a94-43bc-8b02-5cea86448c20",
+  "type": "MCQ",
+  "question": "What is the value of the following integral?\n\\[\n\\int_{1/2014}^{2014}\\frac{\\tan^{-1}x}{x}\\,dx\n\\]",
+  "options": {
+    "A": "\\(\\frac{\\pi}{4}\\log 2014\\)",
+    "B": "\\(\\frac{\\pi}{2}\\log 2014\\)",
+    "C": "\\(\\pi\\log 2014\\)",
+    "D": "\\(\\frac12\\log 2014\\)"
+  },
+  "answer": "B",
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "2014-bstat-bmath-admission-test-multiple-choice"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10 + 2 Level",
+    "file": "Tomato 16th Edition.pdf",
+    "pages": [
+      200
+    ],
+    "question_number": 5,
+    "crop": "questions/7960625a-7a94-43bc-8b02-5cea86448c20/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

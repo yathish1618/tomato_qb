@@ -1,0 +1,31 @@
+{
+  "id": "1db93fbc-c196-4a3e-b21c-76b95bae4051",
+  "type": "MCQ",
+  "question": "Consider the sequence: $a_1=101,a_2=10101,a_3=1010101,$ and so on. Then $a_k$ is a composite number (that is, not a prime number)",
+  "options": {
+    "A": "if and only if $k\\ge2$ and it divides $10^{k+1}+1$",
+    "B": "if and only if $k\\ge2$ and it divides $10^{k+1}-1$",
+    "C": "if and only if $k\\ge2$ and $k-2$ is divisible by 3",
+    "D": "if and only if $k\\ge2$ and $k$ is even."
+  },
+  "answer": "D",
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "tomato"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10+2 Level — Sixteenth Edition",
+    "file": "tomato.pdf",
+    "pages": [
+      23
+    ],
+    "question_number": 75,
+    "crop": "questions/1db93fbc-c196-4a3e-b21c-76b95bae4051/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

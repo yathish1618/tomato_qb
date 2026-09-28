@@ -1,0 +1,31 @@
+{
+  "id": "65b450c0-d86d-48e0-af07-59029e4c05d4",
+  "type": "MCQ",
+  "question": "Three cylinders each of height 16 cm and radius of base 4 cm are placed on a plane so that each cylinder touches the other two. Then the volume of the region enclosed between the three cylinders is, in cm$^3$",
+  "options": {
+    "A": "$98(4\\sqrt3-\\pi)$",
+    "B": "$98(2\\sqrt3-\\pi)$",
+    "C": "$98(\\sqrt3-\\pi)$",
+    "D": "$128(2\\sqrt3-\\pi)$"
+  },
+  "answer": "D",
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "tomato"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10+2 Level — Sixteenth Edition",
+    "file": "tomato.pdf",
+    "pages": [
+      88
+    ],
+    "question_number": 534,
+    "crop": "questions/65b450c0-d86d-48e0-af07-59029e4c05d4/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

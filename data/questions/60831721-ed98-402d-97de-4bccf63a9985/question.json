@@ -1,0 +1,25 @@
+{
+  "id": "60831721-ed98-402d-97de-4bccf63a9985",
+  "type": "SUBJECTIVE",
+  "question": "Show that the triangle whose angles satisfy the equality\n\\[\n\\frac{\\sin^2A+\\sin^2B+\\sin^2C}{\\cos^2A+\\cos^2B+\\cos^2C}=2\n\\]\nis right-angled.",
+  "answer": null,
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "2011-bstat-admission-test-short-answer-type"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10 + 2 Level",
+    "file": "Tomato 16th Edition(1).pdf",
+    "pages": [
+      276
+    ],
+    "question_number": 10,
+    "crop": "questions/60831721-ed98-402d-97de-4bccf63a9985/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

@@ -1,0 +1,25 @@
+{
+  "id": "b2f5c4b3-1b14-4ae8-852f-f70ff9a2ed14",
+  "type": "SUBJECTIVE",
+  "question": "Prove that the positive integers $n$ that cannot be written as a sum of $r$ consecutive positive integers, with $r>1$, are of the form $n=2^\\ell$ for some $\\ell\\ge0$.",
+  "answer": null,
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "bstat-bmath-ugb-2019"
+  ],
+  "source": {
+    "title": "UGB 2019",
+    "file": "BStat-BMath-UGB-2019.pdf",
+    "pages": [
+      1
+    ],
+    "question_number": 1,
+    "crop": "questions/b2f5c4b3-1b14-4ae8-852f-f70ff9a2ed14/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

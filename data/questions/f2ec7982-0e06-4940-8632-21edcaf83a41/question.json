@@ -1,0 +1,25 @@
+{
+  "id": "f2ec7982-0e06-4940-8632-21edcaf83a41",
+  "type": "SUBJECTIVE",
+  "question": "If a given equilateral triangle $\\Delta$ of side length $a$ lies in the union of five equilateral triangles of side length $b$, show that there exist four equilateral triangles of side length $b$ whose union contains $\\Delta$.",
+  "answer": null,
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "bstat-bmath-ugb-2021"
+  ],
+  "source": {
+    "title": "",
+    "file": "BStat-BMath-UGB-2021.pdf",
+    "pages": [
+      2
+    ],
+    "question_number": 6,
+    "crop": "questions/f2ec7982-0e06-4940-8632-21edcaf83a41/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

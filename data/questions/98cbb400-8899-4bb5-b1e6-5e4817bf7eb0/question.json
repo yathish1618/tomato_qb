@@ -1,0 +1,31 @@
+{
+  "id": "98cbb400-8899-4bb5-b1e6-5e4817bf7eb0",
+  "type": "MCQ",
+  "question": "The number of elements in the set $\\{x:0\\le x\\le2,\\ |x-x^5|=|x^5-x^6|\\}$ is",
+  "options": {
+    "A": "$2$",
+    "B": "$3$",
+    "C": "$4$",
+    "D": "$5$"
+  },
+  "answer": null,
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "bstat-bmath-uga-2024"
+  ],
+  "source": {
+    "title": "",
+    "file": "BStat-BMath-UGA-2024(1).pdf",
+    "pages": [
+      3
+    ],
+    "question_number": 13,
+    "crop": "questions/98cbb400-8899-4bb5-b1e6-5e4817bf7eb0/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

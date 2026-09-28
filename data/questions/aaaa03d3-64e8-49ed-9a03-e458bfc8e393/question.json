@@ -1,0 +1,31 @@
+{
+  "id": "aaaa03d3-64e8-49ed-9a03-e458bfc8e393",
+  "type": "MCQ",
+  "question": "The numbers $12n+1$ and $30n+2$ are relatively prime for",
+  "options": {
+    "A": "any positive integer $n$",
+    "B": "infinitely many, but not all, integers $n$",
+    "C": "for finitely many integers $n$",
+    "D": "none of the above"
+  },
+  "answer": "A",
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "tomato"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10+2 Level — Sixteenth Edition",
+    "file": "tomato.pdf",
+    "pages": [
+      33
+    ],
+    "question_number": 157,
+    "crop": "questions/aaaa03d3-64e8-49ed-9a03-e458bfc8e393/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

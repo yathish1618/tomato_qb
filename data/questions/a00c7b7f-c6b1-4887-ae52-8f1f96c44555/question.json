@@ -1,0 +1,31 @@
+{
+  "id": "a00c7b7f-c6b1-4887-ae52-8f1f96c44555",
+  "type": "MCQ",
+  "question": "The largest area of a rectangle which has one side on the $x$-axis and two vertices on the curve $y=e^{-x^2}$ is",
+  "options": {
+    "A": "$\\frac1{\\sqrt2}e^{-1/2}$",
+    "B": "$\\frac12e^{-2}$",
+    "C": "$\\sqrt2e^{-1/2}$",
+    "D": "$\\sqrt2e^{-2}$"
+  },
+  "answer": "C",
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "tomato"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10+2 Level",
+    "file": "tomato.pdf",
+    "pages": [
+      137
+    ],
+    "question_number": 851,
+    "crop": "full_page"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

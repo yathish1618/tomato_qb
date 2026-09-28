@@ -1,0 +1,31 @@
+{
+  "id": "738f6c8c-73f6-47fb-8043-ee61819e40a4",
+  "type": "MCQ",
+  "question": "Let \\(z=x+iy\\) where \\(x,y\\) are real and \\(i=\\sqrt{-1}\\). The points \\((x,y)\\) in the plane, for which \\(\\frac{z+i}{z-i}\\) is purely imaginary (that is, it is of the form \\(ib\\) where \\(b\\) is a real number), lie on",
+  "options": {
+    "A": "a straight line",
+    "B": "a circle",
+    "C": "an ellipse",
+    "D": "a hyperbola"
+  },
+  "answer": "B",
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "tomato"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10+2 Level — Sixteenth Edition",
+    "file": "tomato.pdf",
+    "pages": [
+      71
+    ],
+    "question_number": 421,
+    "crop": "questions/738f6c8c-73f6-47fb-8043-ee61819e40a4/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

@@ -1,0 +1,31 @@
+{
+  "id": "e8b89b66-2ea2-4f4c-8e9c-b82b2c289b87",
+  "type": "MCQ",
+  "question": "The number of solutions of the equation \\(\\sin(\\cos\\theta)=\\theta\\), \\(-1\\le\\theta\\le1\\), is",
+  "options": {
+    "A": "0",
+    "B": "1",
+    "C": "2",
+    "D": "3"
+  },
+  "answer": "B",
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "2011-bstat-admission-test-multiple-choice"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10 + 2 Level",
+    "file": "Tomato 16th Edition.pdf",
+    "pages": [
+      180
+    ],
+    "question_number": 15,
+    "crop": "questions/e8b89b66-2ea2-4f4c-8e9c-b82b2c289b87/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

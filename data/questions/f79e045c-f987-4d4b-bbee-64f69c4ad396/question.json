@@ -1,0 +1,31 @@
+{
+  "id": "f79e045c-f987-4d4b-bbee-64f69c4ad396",
+  "type": "MCQ",
+  "question": "Let $f$ be the function $f(x)=\\cos x-1+\\frac{x^2}{2}$. Then",
+  "options": {
+    "A": "$f(x)$ is an increasing function on the real line",
+    "B": "$f(x)$ is a decreasing function on the real line",
+    "C": "$f(x)$ is an increasing function in the interval $-\\infty<x\\le0$ and decreasing in the interval $0\\le x<\\infty$",
+    "D": "$f(x)$ is a decreasing function in the interval $-\\infty<x\\le0$ and increasing in the interval $0\\le x<\\infty$"
+  },
+  "answer": "D",
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "tomato"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10+2 Level",
+    "file": "tomato.pdf",
+    "pages": [
+      119
+    ],
+    "question_number": 738,
+    "crop": "full_page"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

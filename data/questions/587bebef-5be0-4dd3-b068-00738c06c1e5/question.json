@@ -1,0 +1,31 @@
+{
+  "id": "587bebef-5be0-4dd3-b068-00738c06c1e5",
+  "type": "MCQ",
+  "question": "For a real number $a$, define $a^+=\\max\\{a,0\\}$. For example, $2^+=2$, $(-3)^+=0$. Then, for two real numbers $a$ and $b$, the equality $(ab)^+=(a^+)(b^+)$ holds if and only if",
+  "options": {
+    "A": "both $a$ and $b$ are positive",
+    "B": "$a$ and $b$ have the same sign",
+    "C": "$a=b=0$",
+    "D": "at least one of $a$ and $b$ is greater than or equal to 0"
+  },
+  "answer": "D",
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "tomato"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10+2 Level — Sixteenth Edition",
+    "file": "tomato.pdf",
+    "pages": [
+      17
+    ],
+    "question_number": 42,
+    "crop": "questions/587bebef-5be0-4dd3-b068-00738c06c1e5/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

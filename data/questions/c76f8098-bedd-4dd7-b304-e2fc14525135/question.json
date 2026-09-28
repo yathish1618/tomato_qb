@@ -1,0 +1,31 @@
+{
+  "id": "c76f8098-bedd-4dd7-b304-e2fc14525135",
+  "type": "MCQ",
+  "question": "Let \\(\\alpha>0\\) and consider the sequence \\(\\displaystyle x_n=\\frac{(\\alpha+1)^n+(\\alpha-1)^n}{(2\\alpha)^n},\\ n=1,2,\\ldots\\). Then \\(\\lim_{n\\to\\infty}x_n\\) is",
+  "options": {
+    "A": "0 for any \\(\\alpha>0\\)",
+    "B": "1 for any \\(\\alpha>0\\)",
+    "C": "0 or 1 depending on what \\(\\alpha>0\\) is",
+    "D": "0, 1 or \\(\\infty\\) depending on what \\(\\alpha>0\\) is."
+  },
+  "answer": "D",
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "2012-bstat-bmath-admission-test-multiple-choice"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10 + 2 Level",
+    "file": "Tomato 16th Edition.pdf",
+    "pages": [
+      193
+    ],
+    "question_number": 24,
+    "crop": "questions/c76f8098-bedd-4dd7-b304-e2fc14525135/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

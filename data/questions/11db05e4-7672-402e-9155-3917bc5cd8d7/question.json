@@ -1,0 +1,31 @@
+{
+  "id": "11db05e4-7672-402e-9155-3917bc5cd8d7",
+  "type": "MCQ",
+  "question": "Let $x$ be a real number. Let $a_0=x$, $a_1=\\sin x$ and, in general, $a_n=\\sin a_{n-1}$. Then the sequence $\\{a_n\\}$",
+  "options": {
+    "A": "oscillates between -1 and +1, unless $x$ is a multiple of $\\pi$",
+    "B": "converges to 0 whatever be $x$",
+    "C": "converges to 0 if and only if $x$ is a multiple of $\\pi$",
+    "D": "sometimes converges and sometimes oscillates depending on $x$"
+  },
+  "answer": "B",
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "tomato"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10+2 Level",
+    "file": "tomato.pdf",
+    "pages": [
+      112
+    ],
+    "question_number": 695,
+    "crop": "full_page"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

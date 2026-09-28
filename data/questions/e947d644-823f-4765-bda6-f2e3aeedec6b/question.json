@@ -1,0 +1,31 @@
+{
+  "id": "e947d644-823f-4765-bda6-f2e3aeedec6b",
+  "type": "MCQ",
+  "question": "Number of real roots of the equation $8x^3-6x+1=0$ lying between $-1$ and $1$, is",
+  "options": {
+    "A": "0",
+    "B": "1",
+    "C": "2",
+    "D": "3"
+  },
+  "answer": "D",
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "tomato"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10+2 Level — Sixteenth Edition",
+    "file": "tomato.pdf",
+    "pages": [
+      44
+    ],
+    "question_number": 236,
+    "crop": "questions/e947d644-823f-4765-bda6-f2e3aeedec6b/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

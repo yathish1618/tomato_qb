@@ -1,0 +1,32 @@
+{
+  "id": "3725650f-0690-434b-bc17-45827e03d8f8",
+  "type": "MCQ",
+  "question": "In a trapezium, the lengths of the two parallel sides are 6 and 10 units. If one of the oblique sides has length 1 unit, then the length of the other oblique side must be",
+  "options": {
+    "A": "greater than 3 units but less than 4 units",
+    "B": "greater than 3 units but less than 5 units",
+    "C": "less than or equal to 3 units",
+    "D": "greater than 5 units but less than 6 units"
+  },
+  "answer": "B",
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "tomato"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10+2 Level — Sixteenth Edition",
+    "file": "tomato.pdf",
+    "pages": [
+      74,
+      75
+    ],
+    "question_number": 439,
+    "crop": "questions/3725650f-0690-434b-bc17-45827e03d8f8/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

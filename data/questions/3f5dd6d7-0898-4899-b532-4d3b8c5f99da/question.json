@@ -1,0 +1,32 @@
+{
+  "id": "3f5dd6d7-0898-4899-b532-4d3b8c5f99da",
+  "type": "MCQ",
+  "question": "For each $n\\ge1$, let $a_n$ and $b_n$ be real numbers such that $a_n\\ne0$ and $b_n\\ne0$. Let\n\\[\n(a_n+i b_n)^n=n(a_n+i b_n)\\qquad\\text{for all }n\\ge6.\n\\]\nThen",
+  "options": {
+    "A": "no such $(a_n,b_n)$ exist",
+    "B": "$a_n=n^{\\frac1{n+1}}\\cos\\frac{2\\pi}{n+1},\\quad b_n=n^{\\frac1{n+1}}\\sin\\frac{2\\pi}{n+1}$",
+    "C": "$a_n=n^{\\frac1n}\\cos\\frac{2\\pi}{n},\\quad b_n=n^{\\frac1n}\\sin\\frac{2\\pi}{n}$",
+    "D": "$a_n=n^{\\frac1{n-1}}\\cos\\frac{2\\pi}{n-1},\\quad b_n=n^{\\frac1{n-1}}\\sin\\frac{2\\pi}{n-1}$"
+  },
+  "answer": "D",
+  "solution": "Since $a_n+i b_n\\ne0$,\n\\[\n(a_n+i b_n)^{n-1}=n.\n\\]\nThus the nonzero $(n-1)$st roots of $n$ give\n\\[\na_n+i b_n=n^{1/(n-1)}\\left(\\cos\\frac{2\\pi k}{n-1}+i\\sin\\frac{2\\pi k}{n-1}\\right),\n\\]\nwith $0\\le k<n-1$. Hence option (D) is valid.",
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "bstat-bmath-uga-2025"
+  ],
+  "source": {
+    "title": "UGA 2025",
+    "file": "ISI BStat-BMath UGA & UGB 2025 Problem and Solution - Cheenta Academy.pdf",
+    "pages": [
+      12,
+      13
+    ],
+    "question_number": 14,
+    "crop": "questions/3f5dd6d7-0898-4899-b532-4d3b8c5f99da/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

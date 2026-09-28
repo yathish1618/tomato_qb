@@ -1,0 +1,25 @@
+{
+  "id": "19aa441f-b6d3-4d02-bab6-483c0d3f14d1",
+  "type": "SUBJECTIVE",
+  "question": "Let \\(l,b\\) be positive integers. Divide the \\(l\\times b\\) rectangle into \\(lb\\) unit squares in the usual manner. Consider one of the two diagonals of this rectangle. How many of these unit squares contain a segment of positive length of this diagonal?",
+  "answer": null,
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "tomato"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10 + 2 Level",
+    "file": "Tomato 16th Edition.pdf",
+    "pages": [
+      255
+    ],
+    "question_number": 178,
+    "crop": "questions/19aa441f-b6d3-4d02-bab6-483c0d3f14d1/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

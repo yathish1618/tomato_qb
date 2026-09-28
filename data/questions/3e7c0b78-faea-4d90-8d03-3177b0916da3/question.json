@@ -1,0 +1,25 @@
+{
+  "id": "3e7c0b78-faea-4d90-8d03-3177b0916da3",
+  "type": "SUBJECTIVE",
+  "question": "23. By considering the expression $(1+\\sqrt2)^n+(1-\\sqrt2)^n$, where $n$ is a positive integer, show that the integers $[(1+\\sqrt2)^n]$ are alternatively even and odd as $n$ takes values $1,2,\\ldots$. Here for any real number $x$, $[x]$ denotes the greatest integer less than or equal to $x$.",
+  "answer": null,
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "tomato"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10 + 2 Level",
+    "file": "Tomato 16th Edition.pdf",
+    "pages": [
+      236
+    ],
+    "question_number": 23,
+    "crop": "questions/3e7c0b78-faea-4d90-8d03-3177b0916da3/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

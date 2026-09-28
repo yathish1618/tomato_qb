@@ -1,0 +1,31 @@
+{
+  "id": "b32df86a-7938-41fa-a922-33ea788c8d22",
+  "type": "MCQ",
+  "question": "In a triangle $ABC$ with sides $a=5$, $b=3$ and $c=7$, the value of $3\\cos C+7\\cos B$ is",
+  "options": {
+    "A": "3",
+    "B": "7",
+    "C": "10",
+    "D": "5"
+  },
+  "answer": "D",
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "tomato"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10+2 Level",
+    "file": "tomato.pdf",
+    "pages": [
+      108
+    ],
+    "question_number": 674,
+    "crop": "full_page"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

@@ -1,0 +1,25 @@
+{
+  "id": "811e5075-3f14-4537-ba74-1c6cbd984c6b",
+  "type": "SUBJECTIVE",
+  "question": "Let $X,Y,Z$ be the angles of a triangle.\n\n(i) Prove that\n\\[\n\\tan\\frac X2\\tan\\frac Y2+\\tan\\frac X2\\tan\\frac Z2+\\tan\\frac Z2\\tan\\frac Y2=1.\n\\]\n\n(ii) Using (i) or otherwise prove that\n\\[\n\\tan\\frac X2\\tan\\frac Y2\\tan\\frac Z2\\le\\frac1{3\\sqrt3}.\n\\]",
+  "answer": null,
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "2012-bstat-bmath-admission-test-short-answer-type"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10 + 2 Level",
+    "file": "Tomato 16th Edition(1).pdf",
+    "pages": [
+      279
+    ],
+    "question_number": 1,
+    "crop": "questions/811e5075-3f14-4537-ba74-1c6cbd984c6b/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

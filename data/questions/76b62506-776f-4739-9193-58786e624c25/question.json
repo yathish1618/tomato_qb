@@ -1,0 +1,25 @@
+{
+  "id": "76b62506-776f-4739-9193-58786e624c25",
+  "type": "SUBJECTIVE",
+  "question": "A sequence is called an arithmetic progression of the first order if the differences of the successive terms are constant. It is called an arithmetic progression of the second order if the differences of the successive terms form an arithmetic progression of the first order. In general, for $k\\ge2$, a sequence is called an arithmetic progression of the $k$-th order if the differences of the successive terms form an arithmetic progression of the $(k-1)$-th order. The numbers $4,6,13,27,50,84$ are the first six terms of an arithmetic progression of some order. What is its least possible order? Find a formula for the $n$-th term of this progression.",
+  "answer": null,
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "2009-bstat-admission-test-short-answer-type"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10 + 2 Level",
+    "file": "Tomato 16th Edition(1).pdf",
+    "pages": [
+      268
+    ],
+    "question_number": 4,
+    "crop": "questions/76b62506-776f-4739-9193-58786e624c25/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

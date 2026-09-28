@@ -1,0 +1,25 @@
+{
+  "id": "c2c6c952-7283-4682-80c5-cc08d2b68e93",
+  "type": "SUBJECTIVE",
+  "question": "Two subsets $A$ and $B$ of the $(x,y)$-plane are said to be equivalent if there exists a function $f:A\\to B$ which is both one-to-one and onto. (i) Show that any two line segments in the plane are equivalent. (ii) Show that any two circles in the plane are equivalent.",
+  "answer": null,
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "2008-bstat-admission-test-short-answer-type"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10 + 2 Level",
+    "file": "Tomato 16th Edition(1).pdf",
+    "pages": [
+      265
+    ],
+    "question_number": 10,
+    "crop": "questions/c2c6c952-7283-4682-80c5-cc08d2b68e93/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

@@ -1,0 +1,25 @@
+{
+  "id": "ea870baa-bbc1-4878-9a75-1b67ba57da5a",
+  "type": "SUBJECTIVE",
+  "question": "For \\(x>0\\), show that \\(\\frac{x^n-1}{x-1}\\ge n x^{(n-1)/2}\\), where \\(n\\) is a positive integer.",
+  "answer": null,
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "tomato"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10 + 2 Level",
+    "file": "Tomato 16th Edition.pdf",
+    "pages": [
+      242
+    ],
+    "question_number": 77,
+    "crop": "questions/ea870baa-bbc1-4878-9a75-1b67ba57da5a/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

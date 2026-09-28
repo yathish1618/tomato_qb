@@ -1,0 +1,31 @@
+{
+  "id": "0cc2bdfc-49fb-4e56-affb-43f3b8b378af",
+  "type": "MCQ",
+  "question": "A box contains 10 red cards numbered $1,\\ldots,10$ and 10 black cards numbered $1,\\ldots,10$. In how many ways can we choose 10 out of the 20 cards so that there are exactly 3 matches, where a match means a red card and a black card with the same number?",
+  "options": {
+    "A": "$\\binom{10}{3}\\binom74 2^4$;",
+    "B": "$\\binom{10}{3}\\binom74$;",
+    "C": "$\\binom{10}{3}2^7$;",
+    "D": "$\\binom{10}{3}\\binom{14}{4}$."
+  },
+  "answer": "A",
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "2007-bstat-admission-test-multiple-choice"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10 + 2 Level",
+    "file": "Tomato 16th Edition.pdf",
+    "pages": [
+      143
+    ],
+    "question_number": 25,
+    "crop": "questions/0cc2bdfc-49fb-4e56-affb-43f3b8b378af/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

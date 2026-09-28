@@ -1,0 +1,31 @@
+{
+  "id": "14075b0d-a572-4318-bd6e-3aa60d70d7ca",
+  "type": "MCQ",
+  "question": "$\\displaystyle\\int_0^{\\pi/2}\\frac{\\sin^{100}x}{\\sin^{100}x+\\cos^{100}x}dx$ equals",
+  "options": {
+    "A": "$\\frac\\pi4$",
+    "B": "$\\frac\\pi2$",
+    "C": "$\\frac{3\\pi}4$",
+    "D": "$\\frac\\pi3$"
+  },
+  "answer": "A",
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "tomato"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10+2 Level",
+    "file": "tomato.pdf",
+    "pages": [
+      135
+    ],
+    "question_number": 839,
+    "crop": "full_page"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

@@ -1,0 +1,31 @@
+{
+  "id": "8ad8581f-e1d3-41a6-a407-0561b1f00df4",
+  "type": "MCQ",
+  "question": "Let $A$ denote the set of all prime numbers, $B$ the set of all prime numbers and the number 4, and $C$ the set of all prime numbers and their squares. Let $D$ be the set of positive integers $k$ for which $\\frac{(k-1)!}{k}$ is not an integer. Then",
+  "options": {
+    "A": "$D=A$",
+    "B": "$D=B$",
+    "C": "$D=C$",
+    "D": "$B\\subset D\\subset C$"
+  },
+  "answer": "B",
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "tomato"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10+2 Level — Sixteenth Edition",
+    "file": "tomato.pdf",
+    "pages": [
+      33
+    ],
+    "question_number": 155,
+    "crop": "questions/8ad8581f-e1d3-41a6-a407-0561b1f00df4/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

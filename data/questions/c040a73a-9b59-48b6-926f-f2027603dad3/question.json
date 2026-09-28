@@ -1,0 +1,31 @@
+{
+  "id": "c040a73a-9b59-48b6-926f-f2027603dad3",
+  "type": "MCQ",
+  "question": "For integers \\(m\\) and \\(n\\), let \\(f_{m,n}\\) denote the function from the set of integers to itself, defined by \\(f_{m,n}(x)=mx+n\\). Let \\(\\mathcal F\\) be the set of all such functions, \\(\\mathcal F=\\{f_{m,n}:m,n\\text{ integers}\\}.\\) Call an element \\(f\\in\\mathcal F\\) invertible if there exists an element \\(g\\in\\mathcal F\\) such that \\(g(f(x))=f(g(x))=x\\) for all integers \\(x\\). Then which of the following is true?",
+  "options": {
+    "A": "Every element of \\(\\mathcal F\\) is invertible.",
+    "B": "\\(\\mathcal F\\) has infinitely many invertible and infinitely many non-invertible elements.",
+    "C": "\\(\\mathcal F\\) has finitely many invertible elements.",
+    "D": "No element of \\(\\mathcal F\\) is invertible."
+  },
+  "answer": "B",
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "2013-bstat-bmath-admission-test-multiple-choice"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10 + 2 Level",
+    "file": "Tomato 16th Edition.pdf",
+    "pages": [
+      197
+    ],
+    "question_number": 19,
+    "crop": "questions/c040a73a-9b59-48b6-926f-f2027603dad3/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

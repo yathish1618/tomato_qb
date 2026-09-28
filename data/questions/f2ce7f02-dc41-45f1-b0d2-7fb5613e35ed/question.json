@@ -1,0 +1,25 @@
+{
+  "id": "f2ce7f02-dc41-45f1-b0d2-7fb5613e35ed",
+  "type": "SUBJECTIVE",
+  "question": "14. Show that\n\\[\n\\frac3{1\\cdot2\\cdot4}+\\frac4{2\\cdot3\\cdot5}+\\frac5{3\\cdot4\\cdot6}+\\cdots+\\frac{n+2}{n(n+1)(n+3)}\n=\\frac16\\left[\\frac{29}{6}-\\frac4{n+1}-\\frac1{n+2}-\\frac1{n+3}\\right].\n\\]",
+  "answer": null,
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "tomato"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10 + 2 Level",
+    "file": "Tomato 16th Edition.pdf",
+    "pages": [
+      235
+    ],
+    "question_number": 14,
+    "crop": "questions/f2ce7f02-dc41-45f1-b0d2-7fb5613e35ed/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

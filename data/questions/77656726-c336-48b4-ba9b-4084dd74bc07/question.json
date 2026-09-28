@@ -1,0 +1,31 @@
+{
+  "id": "77656726-c336-48b4-ba9b-4084dd74bc07",
+  "type": "MCQ",
+  "question": "A bag contains some candies, $\\frac25$ of them are made of white chocolate and the remaining $\\frac35$ are made of dark chocolate. Out of the white chocolate candies, $\\frac13$ are wrapped in red paper, the rest are wrapped in blue paper. Out of the dark chocolate candies, $\\frac23$ are wrapped in red paper, the rest are wrapped in blue paper. If a randomly selected candy from the bag is found to be wrapped in red paper, then what is the probability that it is made up of dark chocolate?",
+  "options": {
+    "A": "$\\frac23$",
+    "B": "$\\frac34$",
+    "C": "$\\frac35$",
+    "D": "$\\frac14$"
+  },
+  "answer": null,
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "bstat-bmath-uga-2018"
+  ],
+  "source": {
+    "title": "",
+    "file": "BStat-BMath-UGA-2018.pdf",
+    "pages": [
+      4
+    ],
+    "question_number": 23,
+    "crop": "questions/77656726-c336-48b4-ba9b-4084dd74bc07/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

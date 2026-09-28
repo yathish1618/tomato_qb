@@ -1,0 +1,25 @@
+{
+  "id": "6fd9a9bd-d319-4146-af5b-da2984a424f2",
+  "type": "SUBJECTIVE",
+  "question": "3. A troop 5 metres long starts marching. A soldier at the end of the file steps out and starts marching forward at a higher speed. On reaching the head of the column, he immediately turns around and marches back at the same speed. As soon as he reaches the end of the file, the troop stops marching, and it is found that the troop has moved by exactly 5 metres. What distance has the soldier travelled?",
+  "answer": null,
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "tomato"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10 + 2 Level",
+    "file": "Tomato 16th Edition.pdf",
+    "pages": [
+      231
+    ],
+    "question_number": 3,
+    "crop": "questions/6fd9a9bd-d319-4146-af5b-da2984a424f2/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

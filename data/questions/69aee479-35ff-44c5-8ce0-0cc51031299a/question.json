@@ -1,0 +1,25 @@
+{
+  "id": "69aee479-35ff-44c5-8ce0-0cc51031299a",
+  "type": "SUBJECTIVE",
+  "question": "9. Let $x=(x_1,x_2,\\ldots,x_n)$, $y=(y_1,y_2,\\ldots,y_n)$, where $x_1,x_2,\\ldots,x_n,y_1,y_2,\\ldots,y_n$ are real numbers. We write $x>y$, if for some $k$, $1\\le k\\le(n-1)$, $x_1=y_1,x_2=y_2,\\ldots,x_k=y_k$, but $x_{k+1}>y_{k+1}$. Show that for $u=(u_1,\\ldots,u_n)$, $v=(v_1,\\ldots,v_n)$, $w=(w_1,\\ldots,w_n)$ and $z=(z_1,\\ldots,z_n)$, if $u>v$ and $w>z$, then $(u+w)>(v+z)$.",
+  "answer": null,
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "tomato"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10 + 2 Level",
+    "file": "Tomato 16th Edition.pdf",
+    "pages": [
+      234
+    ],
+    "question_number": 9,
+    "crop": "questions/69aee479-35ff-44c5-8ce0-0cc51031299a/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

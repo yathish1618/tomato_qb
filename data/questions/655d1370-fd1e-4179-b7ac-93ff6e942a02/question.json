@@ -1,0 +1,31 @@
+{
+  "id": "655d1370-fd1e-4179-b7ac-93ff6e942a02",
+  "type": "MCQ",
+  "question": "The value of \\(\\displaystyle\\lim_{x\\to-\\infty}\\sum_{k=1}^{1000}\\frac{x^k}{k!}\\) is",
+  "options": {
+    "A": "\\(-\\infty\\)",
+    "B": "\\(\\infty\\)",
+    "C": "0",
+    "D": "\\(e^{-1}\\)"
+  },
+  "answer": "B",
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "2013-bstat-bmath-admission-test-multiple-choice"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10 + 2 Level",
+    "file": "Tomato 16th Edition.pdf",
+    "pages": [
+      197
+    ],
+    "question_number": 18,
+    "crop": "questions/655d1370-fd1e-4179-b7ac-93ff6e942a02/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

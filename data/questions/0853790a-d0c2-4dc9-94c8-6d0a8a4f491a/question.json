@@ -1,0 +1,31 @@
+{
+  "id": "0853790a-d0c2-4dc9-94c8-6d0a8a4f491a",
+  "type": "MCQ",
+  "question": "Let \\(f\\) be a strictly increasing function on \\(\\mathbb R\\), that is, \\(f(x)<f(y)\\) whenever \\(x<y\\). Then",
+  "options": {
+    "A": "\\(f\\) is a continuous function;",
+    "B": "\\(f\\) is a bounded function;",
+    "C": "\\(f\\) is an unbounded function;",
+    "D": "the given information is not sufficient to say anything about continuity or boundedness of \\(f\\)."
+  },
+  "answer": "D",
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "2011-bmath-admission-test-multiple-choice"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10 + 2 Level",
+    "file": "Tomato 16th Edition.pdf",
+    "pages": [
+      185
+    ],
+    "question_number": 8,
+    "crop": "questions/0853790a-d0c2-4dc9-94c8-6d0a8a4f491a/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

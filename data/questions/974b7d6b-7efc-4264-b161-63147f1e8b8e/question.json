@@ -1,0 +1,31 @@
+{
+  "id": "974b7d6b-7efc-4264-b161-63147f1e8b8e",
+  "type": "MCQ",
+  "question": "Let $P,Q,R$ and $S$ be four statements such that if $P$ is true then $Q$ is true, if $Q$ is true then $R$ is true and if $S$ is true then at least one of $Q$ and $R$ is false. Then it follows that",
+  "options": {
+    "A": "if $S$ is false then $Q$ and $R$ are true.",
+    "B": "at least one of $Q$ and $R$ is true then $S$ is false.",
+    "C": "if $P$ is true then $S$ is false.",
+    "D": "if $Q$ is true then $S$ is true."
+  },
+  "answer": "C",
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "tomato"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10+2 Level — Sixteenth Edition",
+    "file": "tomato.pdf",
+    "pages": [
+      22
+    ],
+    "question_number": 65,
+    "crop": "questions/974b7d6b-7efc-4264-b161-63147f1e8b8e/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

@@ -1,0 +1,31 @@
+{
+  "id": "f39f58d8-dae9-49f2-9406-4fea5c85bcd7",
+  "type": "MCQ",
+  "question": "The number of ways of going up 7 steps if we take one or two steps at a time is",
+  "options": {
+    "A": "19;",
+    "B": "20;",
+    "C": "21;",
+    "D": "22."
+  },
+  "answer": "C",
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "2007-bmath-admission-test-multiple-choice"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10 + 2 Level",
+    "file": "Tomato 16th Edition.pdf",
+    "pages": [
+      144
+    ],
+    "question_number": 1,
+    "crop": "questions/f39f58d8-dae9-49f2-9406-4fea5c85bcd7/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

@@ -1,0 +1,31 @@
+{
+  "id": "f5b554f6-01cc-4b02-80a3-e730b6172b5c",
+  "type": "MCQ",
+  "question": "$PQRS$ is a quadrilateral in which $PQ$ and $SR$ are parallel (that is, $PQRS$ is a trapezium). Further, $PQ=10$, $QR=5$, $RS=4$, $SP=5$. Then the area of the quadrilateral is",
+  "options": {
+    "A": "25",
+    "B": "28",
+    "C": "20",
+    "D": "$10\\sqrt{10}$"
+  },
+  "answer": "B",
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "tomato"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10+2 Level — Sixteenth Edition",
+    "file": "tomato.pdf",
+    "pages": [
+      81
+    ],
+    "question_number": 483,
+    "crop": "questions/f5b554f6-01cc-4b02-80a3-e730b6172b5c/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

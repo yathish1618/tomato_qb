@@ -1,0 +1,31 @@
+{
+  "id": "b6c7c754-d34b-40d7-a3fa-a70ef893523d",
+  "type": "MCQ",
+  "question": "Let $d$ be the side length of the largest possible equilateral triangle that can be put inside a square of side length $1$. Then",
+  "options": {
+    "A": "$d<1$",
+    "B": "$d=1$",
+    "C": "$1<d<\\frac{2}{3^{1/4}}$",
+    "D": "$d\\ge\\frac{2}{3^{1/4}}$"
+  },
+  "answer": "C",
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "bstat-bmath-uga-2025"
+  ],
+  "source": {
+    "title": "UGA 2025",
+    "file": "ISI BStat-BMath UGA & UGB 2025 Problem and Solution - Cheenta Academy.pdf",
+    "pages": [
+      21
+    ],
+    "question_number": 25,
+    "crop": "questions/b6c7c754-d34b-40d7-a3fa-a70ef893523d/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

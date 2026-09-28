@@ -1,0 +1,25 @@
+{
+  "id": "f67d3693-9df9-415d-aa71-61869cce7ba1",
+  "type": "SUBJECTIVE",
+  "question": "If $p$ is a prime number and $a>1$ is a natural number, then show that the greatest common divisor of the two numbers $a-1$ and $\\frac{a^{p-1}-1}{a-1}$ is either 1 or $p$.",
+  "answer": null,
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "2008-bmath-admission-test-short-answer-type"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10 + 2 Level",
+    "file": "Tomato 16th Edition(1).pdf",
+    "pages": [
+      267
+    ],
+    "question_number": 10,
+    "crop": "questions/f67d3693-9df9-415d-aa71-61869cce7ba1/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}

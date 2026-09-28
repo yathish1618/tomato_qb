@@ -1,0 +1,31 @@
+{
+  "id": "3375eceb-4b87-47af-beb0-24ec87a54aea",
+  "type": "MCQ",
+  "question": "A boy walks from his home to school at 6 km per hour (kmph). He walks back at 2 kmph. His average speed, in kmph, is",
+  "options": {
+    "A": "3",
+    "B": "4",
+    "C": "5",
+    "D": "$\\sqrt{12}$"
+  },
+  "answer": "A",
+  "solution": null,
+  "marks": 1,
+  "figures": [],
+  "group_id": null,
+  "grade": "12",
+  "tags": [
+    "tomato"
+  ],
+  "source": {
+    "title": "Test of Mathematics at the 10+2 Level — Sixteenth Edition",
+    "file": "tomato.pdf",
+    "pages": [
+      11
+    ],
+    "question_number": 3,
+    "crop": "questions/3375eceb-4b87-47af-beb0-24ec87a54aea/source.png"
+  },
+  "review_status": "NEEDS_REVIEW",
+  "publication_status": "DRAFT"
+}
