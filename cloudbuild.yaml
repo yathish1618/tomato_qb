@@ -1,0 +1,32 @@
+steps:
+  # 1. Build the Docker image
+  - name: 'gcr.io/cloud-builders/docker'
+    args:
+      - 'build'
+      - '-t'
+      - 'gcr.io/$PROJECT_ID/github.com/yathish1618/tomato_qb:$COMMIT_SHA'
+      - '.'
+
+  # 2. Push the Docker image
+  - name: 'gcr.io/cloud-builders/docker'
+    args:
+      - 'push'
+      - 'gcr.io/$PROJECT_ID/github.com/yathish1618/tomato_qb:$COMMIT_SHA'
+
+  # 3. Deploy the image to Cloud Run
+  - name: 'gcr.io/google.com/cloudsdktool/cloud-sdk'
+    entrypoint: 'gcloud'
+    args:
+      - 'run'
+      - 'deploy'
+      - 'tomato-qb'
+      - '--image'
+      - 'gcr.io/$PROJECT_ID/github.com/yathish1618/tomato_qb:$COMMIT_SHA'
+      - '--region'
+      - 'asia-south1'
+      - '--platform'
+      - 'managed'
+      - '--quiet'
+
+images:
+  - 'gcr.io/$PROJECT_ID/github.com/yathish1618/tomato_qb:$COMMIT_SHA'
