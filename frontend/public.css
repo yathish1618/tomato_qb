@@ -791,3 +791,10 @@ body {
     color: var(--muted);
 }
 
+.content-paragraph { margin: 0 0 14px; }
+.content-list { margin: 0 0 14px 24px; }
+.content-table-wrap { overflow-x: auto; }
+.content-table { border-collapse: collapse; width: 100%; margin: 14px 0; }
+.content-table td, .content-table th { border: 1px solid var(--line); padding: 8px 10px; vertical-align: top; }
+.content-table p { margin: 0; }
+.render-math.display { margin: 12px 0; }

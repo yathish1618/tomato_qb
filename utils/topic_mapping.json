@@ -1,0 +1,3439 @@
+[
+  {
+    "uuid": "012a78ed-916e-4258-937e-a82a3b957384",
+    "mappings": [
+      {
+        "topic_id": "trigonometry",
+        "subtopic_id": "trigonometric-identities"
+      }
+    ]
+  },
+  {
+    "uuid": "019266a4-60c8-4bc1-98e5-a4cb71bc3030",
+    "mappings": [
+      {
+        "topic_id": "combinatorics",
+        "subtopic_id": "combinations"
+      }
+    ]
+  },
+  {
+    "uuid": "03220148-cbfa-451f-aab4-682d3d921d47",
+    "mappings": [
+      {
+        "topic_id": "arithmetic",
+        "subtopic_id": "time-and-work"
+      }
+    ]
+  },
+  {
+    "uuid": "03c7394b-53d2-49e1-9695-719a15142e75",
+    "mappings": [
+      {
+        "topic_id": "functions",
+        "subtopic_id": "exponential-functions"
+      }
+    ]
+  },
+  {
+    "uuid": "04c49896-7d89-49c9-a651-8ee7eb9d815e",
+    "mappings": [
+      {
+        "topic_id": "mathematical-optimization",
+        "subtopic_id": "geometric-optimization"
+      }
+    ]
+  },
+  {
+    "uuid": "075feb2e-2086-45b9-8f9a-814acad3c672",
+    "mappings": [
+      {
+        "topic_id": "sequences-and-series",
+        "subtopic_id": "sequences"
+      }
+    ]
+  },
+  {
+    "uuid": "07e191c9-fcc0-42b7-b062-1ae7c74f8b7c",
+    "mappings": [
+      {
+        "topic_id": "trigonometry",
+        "subtopic_id": "trigonometric-inequalities"
+      }
+    ]
+  },
+  {
+    "uuid": "0884ad42-2b93-4ccd-bfca-f92024d79546",
+    "mappings": [
+      {
+        "topic_id": "complex-numbers",
+        "subtopic_id": "complex-equations"
+      }
+    ]
+  },
+  {
+    "uuid": "0922a67b-f9a4-4d20-8742-7536b3838000",
+    "mappings": [
+      {
+        "topic_id": "geometry",
+        "subtopic_id": "triangles"
+      }
+    ]
+  },
+  {
+    "uuid": "0981784e-e853-4208-950e-41dee866e332",
+    "mappings": [
+      {
+        "topic_id": "number-systems",
+        "subtopic_id": "divisibility"
+      }
+    ]
+  },
+  {
+    "uuid": "0b29f388-8cd7-4dcd-8063-2f4219a9bede",
+    "mappings": [
+      {
+        "topic_id": "sequences-and-series",
+        "subtopic_id": "sequences"
+      }
+    ]
+  },
+  {
+    "uuid": "0b9144f1-8986-41d7-9da5-f5264aa9a0a5",
+    "mappings": [
+      {
+        "topic_id": "algebra",
+        "subtopic_id": "roots-of-polynomials"
+      }
+    ]
+  },
+  {
+    "uuid": "0daecd8d-9ec9-4870-a9db-ff39c5addf3c",
+    "mappings": [
+      {
+        "topic_id": "calculus",
+        "subtopic_id": "applications-of-integration"
+      }
+    ]
+  },
+  {
+    "uuid": "0ed12485-20cc-4edd-933e-8837d4e72191",
+    "mappings": [
+      {
+        "topic_id": "mathematical-optimization",
+        "subtopic_id": "algebraic-optimization"
+      }
+    ]
+  },
+  {
+    "uuid": "10afc79c-b092-41ae-a835-73dd47e1578c",
+    "mappings": [
+      {
+        "topic_id": "functions",
+        "subtopic_id": "functions-and-mappings"
+      }
+    ]
+  },
+  {
+    "uuid": "1124013a-0f31-4d2a-9b93-b87fb4e7230b",
+    "mappings": [
+      {
+        "topic_id": "number-systems",
+        "subtopic_id": "number-representation-and-bases"
+      }
+    ]
+  },
+  {
+    "uuid": "1130a9eb-8ea5-4829-bb72-71ecc958fd38",
+    "mappings": [
+      {
+        "topic_id": "number-systems",
+        "subtopic_id": "number-representation-and-bases"
+      }
+    ]
+  },
+  {
+    "uuid": "122ee97b-d5d0-4a1e-bff9-1e78521d1873",
+    "mappings": [
+      {
+        "topic_id": "combinatorics",
+        "subtopic_id": "counting-with-restrictions"
+      }
+    ]
+  },
+  {
+    "uuid": "12bdfdbd-504f-4758-a384-6ffc7187b227",
+    "mappings": [
+      {
+        "topic_id": "calculus",
+        "subtopic_id": "continuity"
+      }
+    ]
+  },
+  {
+    "uuid": "136cc630-354e-47c3-a016-b6af0de1db63",
+    "mappings": [
+      {
+        "topic_id": "number-theory",
+        "subtopic_id": "diophantine-equations"
+      }
+    ]
+  },
+  {
+    "uuid": "14d90b02-7204-4ca9-a754-c1819fadec73",
+    "mappings": [
+      {
+        "topic_id": "calculus",
+        "subtopic_id": "integration"
+      }
+    ]
+  },
+  {
+    "uuid": "14e29614-da0b-40c9-afb6-664e18c51b46",
+    "mappings": [
+      {
+        "topic_id": "mathematical-optimization",
+        "subtopic_id": "linear-optimization"
+      }
+    ]
+  },
+  {
+    "uuid": "15a540e7-3b1a-4fa3-8a11-5f4b1784de78",
+    "mappings": [
+      {
+        "topic_id": "sequences-and-series",
+        "subtopic_id": "infinite-series"
+      }
+    ]
+  },
+  {
+    "uuid": "1600a6f8-4b7f-4546-ab85-a9593daa02b4",
+    "mappings": [
+      {
+        "topic_id": "combinatorics",
+        "subtopic_id": "pigeonhole-principle"
+      }
+    ]
+  },
+  {
+    "uuid": "163a1821-8afb-4a39-b620-4d19b5c29946",
+    "mappings": [
+      {
+        "topic_id": "geometry",
+        "subtopic_id": "areas"
+      }
+    ]
+  },
+  {
+    "uuid": "166c687b-b984-46be-85dd-eb7c7acedd17",
+    "mappings": [
+      {
+        "topic_id": "trigonometry",
+        "subtopic_id": "multiple-and-submultiple-angles"
+      }
+    ]
+  },
+  {
+    "uuid": "16ac4dd8-670c-43c6-bf12-57ab3be09eec",
+    "mappings": [
+      {
+        "topic_id": "calculus",
+        "subtopic_id": "differential-equations"
+      }
+    ]
+  },
+  {
+    "uuid": "17a0f9c6-fedb-49c4-a801-4e961b1aec11",
+    "mappings": [
+      {
+        "topic_id": "calculus",
+        "subtopic_id": "derivatives"
+      }
+    ]
+  },
+  {
+    "uuid": "1815e3b2-5ca0-46f5-b2c4-21f24273eddb",
+    "mappings": [
+      {
+        "topic_id": "algebra",
+        "subtopic_id": "absolute-value"
+      }
+    ]
+  },
+  {
+    "uuid": "19195202-9b31-45f6-a4d5-58ab9044a296",
+    "mappings": [
+      {
+        "topic_id": "functions",
+        "subtopic_id": "functions-and-mappings"
+      }
+    ]
+  },
+  {
+    "uuid": "191d8da8-1f47-4fea-8428-2448c9aca843",
+    "mappings": [
+      {
+        "topic_id": "geometry",
+        "subtopic_id": "quadrilaterals"
+      }
+    ]
+  },
+  {
+    "uuid": "1a134e74-b568-4791-a48f-375f5cab4b48",
+    "mappings": [
+      {
+        "topic_id": "trigonometry",
+        "subtopic_id": "trigonometric-identities"
+      }
+    ]
+  },
+  {
+    "uuid": "1ace17e7-49da-41ee-9b27-92ebee2edf76",
+    "mappings": [
+      {
+        "topic_id": "combinatorics",
+        "subtopic_id": "fundamental-counting-principle"
+      }
+    ]
+  },
+  {
+    "uuid": "1addfaea-3a5b-47f0-82dc-78edd00cd987",
+    "mappings": [
+      {
+        "topic_id": "geometry",
+        "subtopic_id": "geometric-inequalities"
+      }
+    ]
+  },
+  {
+    "uuid": "1bd7a5f9-bd67-4a24-8854-0302ae5a8174",
+    "mappings": [
+      {
+        "topic_id": "combinatorics",
+        "subtopic_id": "permutations"
+      }
+    ]
+  },
+  {
+    "uuid": "1c58011d-9d8b-44b9-b096-032ff08aa5e6",
+    "mappings": [
+      {
+        "topic_id": "calculus",
+        "subtopic_id": "limits"
+      }
+    ]
+  },
+  {
+    "uuid": "1d0b875a-ea5f-4153-8de6-fedd8e7a8f4c",
+    "mappings": [
+      {
+        "topic_id": "sequences-and-series",
+        "subtopic_id": "sequences"
+      }
+    ]
+  },
+  {
+    "uuid": "1d1f28ba-5ffe-45af-a7bf-8d1bdff884d3",
+    "mappings": [
+      {
+        "topic_id": "matrices-and-linear-algebra",
+        "subtopic_id": "determinants"
+      }
+    ]
+  },
+  {
+    "uuid": "1f2441a5-662c-4bcf-a410-7c685563acf8",
+    "mappings": [
+      {
+        "topic_id": "combinatorics",
+        "subtopic_id": "combinatorial-identities"
+      }
+    ]
+  },
+  {
+    "uuid": "20089966-4f4d-4496-87d2-d9cf78de2fb5",
+    "mappings": [
+      {
+        "topic_id": "geometry",
+        "subtopic_id": "areas"
+      }
+    ]
+  },
+  {
+    "uuid": "20122ceb-e9c5-4111-9189-ac4b967ab065",
+    "mappings": [
+      {
+        "topic_id": "matrices-and-linear-algebra",
+        "subtopic_id": "determinants"
+      }
+    ]
+  },
+  {
+    "uuid": "20cbeebb-7723-4810-9d2f-d1fcf8467588",
+    "mappings": [
+      {
+        "topic_id": "trigonometry",
+        "subtopic_id": "trigonometric-graphs"
+      }
+    ]
+  },
+  {
+    "uuid": "20f5d543-fa63-489f-83c6-4f67c71d87fa",
+    "mappings": [
+      {
+        "topic_id": "complex-numbers",
+        "subtopic_id": "complex-equations"
+      }
+    ]
+  },
+  {
+    "uuid": "2222c190-6d7e-45cd-a0ad-fd784d5c5704",
+    "mappings": [
+      {
+        "topic_id": "geometry",
+        "subtopic_id": "triangles"
+      }
+    ]
+  },
+  {
+    "uuid": "22b15390-0830-4a4f-aad4-69071cf1d8ac",
+    "mappings": [
+      {
+        "topic_id": "trigonometry",
+        "subtopic_id": "trigonometric-equations"
+      }
+    ]
+  },
+  {
+    "uuid": "22d36990-f637-4dcc-b9b5-2152d939ae94",
+    "mappings": [
+      {
+        "topic_id": "sequences-and-series",
+        "subtopic_id": "sequences"
+      }
+    ]
+  },
+  {
+    "uuid": "230c84ab-5d6c-4828-8780-b115cd29d690",
+    "mappings": [
+      {
+        "topic_id": "geometry",
+        "subtopic_id": "geometric-inequalities"
+      }
+    ]
+  },
+  {
+    "uuid": "24fe8d55-5ab1-45e5-8692-1c6bfc51954f",
+    "mappings": [
+      {
+        "topic_id": "mathematical-optimization",
+        "subtopic_id": "geometric-optimization"
+      }
+    ]
+  },
+  {
+    "uuid": "250bd88f-74f7-476d-8c06-8d93a1840460",
+    "mappings": [
+      {
+        "topic_id": "algebra",
+        "subtopic_id": "polynomials"
+      }
+    ]
+  },
+  {
+    "uuid": "25f14250-df52-410b-9804-731eb544033d",
+    "mappings": [
+      {
+        "topic_id": "geometry",
+        "subtopic_id": "areas"
+      }
+    ]
+  },
+  {
+    "uuid": "273d11eb-1feb-49a1-9aea-a005b4322048",
+    "mappings": [
+      {
+        "topic_id": "trigonometry",
+        "subtopic_id": "trigonometric-equations"
+      }
+    ]
+  },
+  {
+    "uuid": "291e64dc-4df5-4b29-a075-35a47528c12c",
+    "mappings": [
+      {
+        "topic_id": "trigonometry",
+        "subtopic_id": "trigonometry-of-triangles"
+      }
+    ]
+  },
+  {
+    "uuid": "2949444f-25e8-4381-92f7-179ebfa5ae55",
+    "mappings": [
+      {
+        "topic_id": "matrices-and-linear-algebra",
+        "subtopic_id": "matrix-operations"
+      }
+    ]
+  },
+  {
+    "uuid": "29617e26-f864-47d8-b730-9ded3abef4ac",
+    "mappings": [
+      {
+        "topic_id": "trigonometry",
+        "subtopic_id": "trigonometric-ratios"
+      }
+    ]
+  },
+  {
+    "uuid": "2a15de94-b3bc-48a2-bfa2-43e2e8f67096",
+    "mappings": [
+      {
+        "topic_id": "combinatorics",
+        "subtopic_id": "combinations"
+      }
+    ]
+  },
+  {
+    "uuid": "2a20109e-eb26-4fc9-b29d-ef4a12deb8fa",
+    "mappings": [
+      {
+        "topic_id": "calculus",
+        "subtopic_id": "derivatives"
+      }
+    ]
+  },
+  {
+    "uuid": "2acc1185-da2f-43d6-aa51-76a6b18a99e0",
+    "mappings": [
+      {
+        "topic_id": "number-systems",
+        "subtopic_id": "numerical-patterns"
+      }
+    ]
+  },
+  {
+    "uuid": "2aee79e9-c7b3-4312-836a-f09608b7fe5e",
+    "mappings": [
+      {
+        "topic_id": "calculus",
+        "subtopic_id": "differential-equations"
+      }
+    ]
+  },
+  {
+    "uuid": "2b5f1611-0498-4b8b-9042-6567cae3aec8",
+    "mappings": [
+      {
+        "topic_id": "number-theory",
+        "subtopic_id": "perfect-squares-and-perfect-powers"
+      }
+    ]
+  },
+  {
+    "uuid": "2bc5763e-961c-4c72-bf68-4acdea316208",
+    "mappings": [
+      {
+        "topic_id": "algebra",
+        "subtopic_id": "polynomials"
+      }
+    ]
+  },
+  {
+    "uuid": "2bf29f89-4157-4a04-a6da-05c56defb98f",
+    "mappings": [
+      {
+        "topic_id": "complex-numbers",
+        "subtopic_id": "complex-equations"
+      }
+    ]
+  },
+  {
+    "uuid": "2c531c92-fac3-44f5-b9e2-c1797416d17b",
+    "mappings": [
+      {
+        "topic_id": "functions",
+        "subtopic_id": "polynomial-functions"
+      }
+    ]
+  },
+  {
+    "uuid": "2c9cc18d-9418-4a52-be9e-a4b5d7085f25",
+    "mappings": [
+      {
+        "topic_id": "combinatorics",
+        "subtopic_id": "permutations"
+      }
+    ]
+  },
+  {
+    "uuid": "2dc37281-8b7d-454c-8714-a72718ae20cf",
+    "mappings": [
+      {
+        "topic_id": "geometry",
+        "subtopic_id": "areas"
+      }
+    ]
+  },
+  {
+    "uuid": "2e5c6f77-b947-4d45-8087-2673d6451c34",
+    "mappings": [
+      {
+        "topic_id": "combinatorics",
+        "subtopic_id": "counting-with-restrictions"
+      }
+    ]
+  },
+  {
+    "uuid": "30050865-68a9-430a-aa41-d27c7873d1a0",
+    "mappings": [
+      {
+        "topic_id": "geometry",
+        "subtopic_id": "triangles"
+      }
+    ]
+  },
+  {
+    "uuid": "305f3d5e-a604-41e2-a6d0-73353cd13a58",
+    "mappings": [
+      {
+        "topic_id": "probability",
+        "subtopic_id": "basic-probability"
+      }
+    ]
+  },
+  {
+    "uuid": "312c6ed4-4cfe-40b5-a91b-dfea47748cc5",
+    "mappings": [
+      {
+        "topic_id": "trigonometry",
+        "subtopic_id": "trigonometry-of-triangles"
+      }
+    ]
+  },
+  {
+    "uuid": "31b1b6e6-b6a9-434f-8246-336eb362e879",
+    "mappings": [
+      {
+        "topic_id": "geometry",
+        "subtopic_id": "triangles"
+      }
+    ]
+  },
+  {
+    "uuid": "31dc3c0b-a59d-4669-8d52-53e624b79410",
+    "mappings": [
+      {
+        "topic_id": "probability",
+        "subtopic_id": "conditional-probability"
+      }
+    ]
+  },
+  {
+    "uuid": "3284d62b-34fe-4407-9fb8-288f0e7c5aaa",
+    "mappings": [
+      {
+        "topic_id": "geometry",
+        "subtopic_id": "geometric-proofs"
+      }
+    ]
+  },
+  {
+    "uuid": "32938c6a-53e5-4b44-99bb-8b58a06fbc22",
+    "mappings": [
+      {
+        "topic_id": "combinatorics",
+        "subtopic_id": "combinatorial-identities"
+      }
+    ]
+  },
+  {
+    "uuid": "330147f1-8bb2-448e-8310-c002407ed31a",
+    "mappings": [
+      {
+        "topic_id": "trigonometry",
+        "subtopic_id": "trigonometric-equations"
+      }
+    ]
+  },
+  {
+    "uuid": "33cd8d81-4330-4026-928c-b8cab44ba610",
+    "mappings": [
+      {
+        "topic_id": "functions",
+        "subtopic_id": "polynomial-functions"
+      }
+    ]
+  },
+  {
+    "uuid": "3435f654-b29e-46c9-8473-d085054e5102",
+    "mappings": [
+      {
+        "topic_id": "functions",
+        "subtopic_id": "functions-and-mappings"
+      }
+    ]
+  },
+  {
+    "uuid": "372cbcbb-f874-48cc-ad72-a716e8060477",
+    "mappings": [
+      {
+        "topic_id": "algebra",
+        "subtopic_id": "inequalities"
+      }
+    ]
+  },
+  {
+    "uuid": "378562ed-870a-4801-bc97-6f3c2d1d1791",
+    "mappings": [
+      {
+        "topic_id": "geometry",
+        "subtopic_id": "geometric-inequalities"
+      }
+    ]
+  },
+  {
+    "uuid": "37931d94-a063-4171-b219-226b2ae87b76",
+    "mappings": [
+      {
+        "topic_id": "probability",
+        "subtopic_id": "poisson-distribution"
+      }
+    ]
+  },
+  {
+    "uuid": "37ca89ac-982c-495a-af37-8c90940f455b",
+    "mappings": [
+      {
+        "topic_id": "algebra",
+        "subtopic_id": "exponents-and-powers"
+      }
+    ]
+  },
+  {
+    "uuid": "37ef9e3f-6427-40b5-bd2c-cce87bc16605",
+    "mappings": [
+      {
+        "topic_id": "functions",
+        "subtopic_id": "functional-equations"
+      }
+    ]
+  },
+  {
+    "uuid": "3a328513-b9c3-4f2f-b487-7180f0435fee",
+    "mappings": [
+      {
+        "topic_id": "arithmetic",
+        "subtopic_id": "word-problems"
+      }
+    ]
+  },
+  {
+    "uuid": "3ae2c7c0-e42b-4279-b6b8-d3ebbc173d26",
+    "mappings": [
+      {
+        "topic_id": "number-theory",
+        "subtopic_id": "prime-factorisation"
+      }
+    ]
+  },
+  {
+    "uuid": "3b2871b7-d237-43e7-9a33-b37a61400cc0",
+    "mappings": [
+      {
+        "topic_id": "geometry",
+        "subtopic_id": "pythagorean-theorem"
+      }
+    ]
+  },
+  {
+    "uuid": "3cd7a86c-7c27-491f-b295-792d11ace08b",
+    "mappings": [
+      {
+        "topic_id": "combinatorics",
+        "subtopic_id": "combinations"
+      }
+    ]
+  },
+  {
+    "uuid": "3cfaf838-17a9-4308-b7be-85772c00372f",
+    "mappings": [
+      {
+        "topic_id": "number-theory",
+        "subtopic_id": "perfect-squares-and-perfect-powers"
+      }
+    ]
+  },
+  {
+    "uuid": "3e8b79ad-6423-4b29-9d93-d0152e3ba86d",
+    "mappings": [
+      {
+        "topic_id": "coordinate-geometry",
+        "subtopic_id": "circles"
+      }
+    ]
+  },
+  {
+    "uuid": "3f1ac9ef-212c-4831-b7b1-4ecc46356fe3",
+    "mappings": [
+      {
+        "topic_id": "calculus",
+        "subtopic_id": "sequences-and-series-limits"
+      }
+    ]
+  },
+  {
+    "uuid": "3f5dd6d7-0898-4899-b532-4d3b8c5f99da",
+    "mappings": [
+      {
+        "topic_id": "complex-numbers",
+        "subtopic_id": "complex-numbers-and-imaginary-unit"
+      }
+    ]
+  },
+  {
+    "uuid": "4005c792-2f23-4dd9-9530-dd73a2167434",
+    "mappings": [
+      {
+        "topic_id": "functions",
+        "subtopic_id": "functional-equations"
+      }
+    ]
+  },
+  {
+    "uuid": "4041db7b-bdfe-46e3-827d-0e8e889a9f0d",
+    "mappings": [
+      {
+        "topic_id": "functions",
+        "subtopic_id": "functions-and-mappings"
+      }
+    ]
+  },
+  {
+    "uuid": "4094cc4d-64ef-4c85-ae40-d519d0a4ef71",
+    "mappings": [
+      {
+        "topic_id": "combinatorics",
+        "subtopic_id": "combinatorial-games"
+      }
+    ]
+  },
+  {
+    "uuid": "4163babf-eb9a-4209-ab09-964cbbadbb87",
+    "mappings": [
+      {
+        "topic_id": "combinatorics",
+        "subtopic_id": "permutations"
+      }
+    ]
+  },
+  {
+    "uuid": "436d6bbb-d583-419a-af71-bd33737c8781",
+    "mappings": [
+      {
+        "topic_id": "trigonometry",
+        "subtopic_id": "trigonometry-of-triangles"
+      }
+    ]
+  },
+  {
+    "uuid": "4491920a-b9d6-4575-8b12-515fd16c1f79",
+    "mappings": [
+      {
+        "topic_id": "matrices-and-linear-algebra",
+        "subtopic_id": "matrices"
+      }
+    ]
+  },
+  {
+    "uuid": "45fe2e45-c8b2-4993-b151-230a5a92ac0c",
+    "mappings": [
+      {
+        "topic_id": "sequences-and-series",
+        "subtopic_id": "infinite-series"
+      }
+    ]
+  },
+  {
+    "uuid": "46311e02-9b22-493b-b3ab-c9d3e6be0351",
+    "mappings": [
+      {
+        "topic_id": "number-systems",
+        "subtopic_id": "units-digit-and-last-digits"
+      }
+    ]
+  },
+  {
+    "uuid": "46ffa122-de7b-49cd-9d6d-0e82facda389",
+    "mappings": [
+      {
+        "topic_id": "geometry",
+        "subtopic_id": "similarity"
+      }
+    ]
+  },
+  {
+    "uuid": "470cb13d-35de-4563-aad1-3a9fa239e179",
+    "mappings": [
+      {
+        "topic_id": "trigonometry",
+        "subtopic_id": "trigonometry-of-triangles"
+      }
+    ]
+  },
+  {
+    "uuid": "47957f90-8960-4e99-af24-adb78c1db6fb",
+    "mappings": [
+      {
+        "topic_id": "combinatorics",
+        "subtopic_id": "permutations"
+      }
+    ]
+  },
+  {
+    "uuid": "47ab5566-9868-4179-a291-d6c711c557cc",
+    "mappings": [
+      {
+        "topic_id": "coordinate-geometry",
+        "subtopic_id": "circles"
+      }
+    ]
+  },
+  {
+    "uuid": "48143f3d-c386-4aba-ae0e-c0a17d66bff6",
+    "mappings": [
+      {
+        "topic_id": "number-theory",
+        "subtopic_id": "perfect-squares-and-perfect-powers"
+      }
+    ]
+  },
+  {
+    "uuid": "49abadea-6843-4720-b0cd-9c3fd60ab4e9",
+    "mappings": [
+      {
+        "topic_id": "calculus",
+        "subtopic_id": "limits"
+      }
+    ]
+  },
+  {
+    "uuid": "4a33a00c-940d-45df-bfc5-89756e01d46c",
+    "mappings": [
+      {
+        "topic_id": "mathematical-optimization",
+        "subtopic_id": "geometric-optimization"
+      }
+    ]
+  },
+  {
+    "uuid": "4a37558f-546f-46e2-a6e3-e546da9f0c9a",
+    "mappings": [
+      {
+        "topic_id": "calculus",
+        "subtopic_id": "derivatives"
+      },
+      {
+        "topic_id": "calculus",
+        "subtopic_id": "limits"
+      }
+    ]
+  },
+  {
+    "uuid": "4ac86b9d-261a-47dc-842a-0f23e4eb6324",
+    "mappings": [
+      {
+        "topic_id": "sequences-and-series",
+        "subtopic_id": "arithmetic-progressions"
+      }
+    ]
+  },
+  {
+    "uuid": "4b5bbaf9-8719-49c6-b865-ef664dbe68eb",
+    "mappings": [
+      {
+        "topic_id": "trigonometry",
+        "subtopic_id": "trigonometric-equations"
+      }
+    ]
+  },
+  {
+    "uuid": "4bdb8dc1-0876-46b9-ac97-2c7011603d01",
+    "mappings": [
+      {
+        "topic_id": "trigonometry",
+        "subtopic_id": "inverse-trigonometric-functions"
+      }
+    ]
+  },
+  {
+    "uuid": "4c71516b-ebcd-419e-b122-7ca180b9a278",
+    "mappings": [
+      {
+        "topic_id": "complex-numbers",
+        "subtopic_id": "modulus-and-argument"
+      }
+    ]
+  },
+  {
+    "uuid": "4dd8d243-b90b-49aa-9a2e-3ff3461db9cc",
+    "mappings": [
+      {
+        "topic_id": "algebra",
+        "subtopic_id": "quadratic-equations"
+      }
+    ]
+  },
+  {
+    "uuid": "4e81729b-9457-43a1-91cb-65d4ddb938de",
+    "mappings": [
+      {
+        "topic_id": "combinatorics",
+        "subtopic_id": "permutations"
+      }
+    ]
+  },
+  {
+    "uuid": "4ebd282f-4fa7-461b-b9de-fcb5574c0599",
+    "mappings": [
+      {
+        "topic_id": "calculus",
+        "subtopic_id": "definite-integrals"
+      }
+    ]
+  },
+  {
+    "uuid": "4f1512df-6123-4397-9136-a669edd65ca5",
+    "mappings": [
+      {
+        "topic_id": "algebra",
+        "subtopic_id": "inequalities"
+      }
+    ]
+  },
+  {
+    "uuid": "4f4f4126-9589-42d8-a8a4-185af4ea0b2e",
+    "mappings": [
+      {
+        "topic_id": "complex-numbers",
+        "subtopic_id": "powers-and-roots-of-complex-numbers"
+      }
+    ]
+  },
+  {
+    "uuid": "4fc956e4-d1a8-4f45-a9ee-00d1758078b5",
+    "mappings": [
+      {
+        "topic_id": "calculus",
+        "subtopic_id": "definite-integrals"
+      }
+    ]
+  },
+  {
+    "uuid": "508392af-4c2c-4ef4-94f4-96a40c9bcfe6",
+    "mappings": [
+      {
+        "topic_id": "algebra",
+        "subtopic_id": "inequalities"
+      }
+    ]
+  },
+  {
+    "uuid": "5085317d-bb0e-4be1-ba0a-943b258d59b5",
+    "mappings": [
+      {
+        "topic_id": "algebra",
+        "subtopic_id": "absolute-value"
+      }
+    ]
+  },
+  {
+    "uuid": "50c90110-f013-4ff4-820e-1106e37c9fa5",
+    "mappings": [
+      {
+        "topic_id": "calculus",
+        "subtopic_id": "sequences-and-series-limits"
+      }
+    ]
+  },
+  {
+    "uuid": "514909f8-ea62-4b9d-882f-be454b5e41a8",
+    "mappings": [
+      {
+        "topic_id": "algebra",
+        "subtopic_id": "polynomial-equations"
+      }
+    ]
+  },
+  {
+    "uuid": "5249feb2-d8ac-4087-a89a-9d8739c50303",
+    "mappings": [
+      {
+        "topic_id": "combinatorics",
+        "subtopic_id": "recurrence-and-counting"
+      }
+    ]
+  },
+  {
+    "uuid": "53391dc5-6c21-431a-b897-2737c42f6a8c",
+    "mappings": [
+      {
+        "topic_id": "combinatorics",
+        "subtopic_id": "pigeonhole-principle"
+      }
+    ]
+  },
+  {
+    "uuid": "54281ed4-8a09-4678-a305-4fc777d1ba9f",
+    "mappings": [
+      {
+        "topic_id": "combinatorics",
+        "subtopic_id": "fundamental-counting-principle"
+      }
+    ]
+  },
+  {
+    "uuid": "5495a579-65a6-4c03-9205-61c714a41a7b",
+    "mappings": [
+      {
+        "topic_id": "trigonometry",
+        "subtopic_id": "trigonometric-identities"
+      }
+    ]
+  },
+  {
+    "uuid": "54da9fc7-8f8a-4904-b951-cec7931c4ee1",
+    "mappings": [
+      {
+        "topic_id": "coordinate-geometry",
+        "subtopic_id": "locus"
+      }
+    ]
+  },
+  {
+    "uuid": "568b50c2-2a10-48e0-942c-830c68f171dd",
+    "mappings": [
+      {
+        "topic_id": "probability",
+        "subtopic_id": "binomial-distribution"
+      }
+    ]
+  },
+  {
+    "uuid": "57db1dde-2ae8-430b-9f3b-fa986ea28bfa",
+    "mappings": [
+      {
+        "topic_id": "coordinate-geometry",
+        "subtopic_id": "circles"
+      }
+    ]
+  },
+  {
+    "uuid": "59bd3c26-0643-47d4-9b37-eb1f1dcd3772",
+    "mappings": [
+      {
+        "topic_id": "discrete-mathematics",
+        "subtopic_id": "sets"
+      }
+    ]
+  },
+  {
+    "uuid": "5afa4e66-29df-4d4f-96cd-e423b3536829",
+    "mappings": [
+      {
+        "topic_id": "complex-numbers",
+        "subtopic_id": "powers-and-roots-of-complex-numbers"
+      }
+    ]
+  },
+  {
+    "uuid": "5b2514e5-e6b2-4a63-818d-3910fc8f4a37",
+    "mappings": [
+      {
+        "topic_id": "geometry",
+        "subtopic_id": "geometric-proofs"
+      }
+    ]
+  },
+  {
+    "uuid": "5bc53447-ff14-43ca-9291-f1ff591b9979",
+    "mappings": [
+      {
+        "topic_id": "sequences-and-series",
+        "subtopic_id": "telescoping-series"
+      }
+    ]
+  },
+  {
+    "uuid": "5d5b01f7-bc0d-4f04-9cd2-88145b45767f",
+    "mappings": [
+      {
+        "topic_id": "complex-numbers",
+        "subtopic_id": "complex-numbers-and-imaginary-unit"
+      }
+    ]
+  },
+  {
+    "uuid": "5d870272-e8e2-434a-9090-92e85d1c09a0",
+    "mappings": [
+      {
+        "topic_id": "functions",
+        "subtopic_id": "functions-and-mappings"
+      }
+    ]
+  },
+  {
+    "uuid": "6025ad7f-5fd2-443f-8442-e8125216d980",
+    "mappings": [
+      {
+        "topic_id": "algebra",
+        "subtopic_id": "logarithms"
+      }
+    ]
+  },
+  {
+    "uuid": "6086164e-ed22-49c8-915f-f9c118f002e9",
+    "mappings": [
+      {
+        "topic_id": "coordinate-geometry",
+        "subtopic_id": "parabola"
+      }
+    ]
+  },
+  {
+    "uuid": "60c2fb1e-4e2c-4728-a404-aa10652ae9a0",
+    "mappings": [
+      {
+        "topic_id": "functions",
+        "subtopic_id": "functional-equations"
+      }
+    ]
+  },
+  {
+    "uuid": "611f3396-b784-418e-b3d1-dea844e9b237",
+    "mappings": [
+      {
+        "topic_id": "number-theory",
+        "subtopic_id": "number-theoretic-functions"
+      }
+    ]
+  },
+  {
+    "uuid": "6228e531-6d0d-4feb-b2cd-48b5c9b9cda1",
+    "mappings": [
+      {
+        "topic_id": "coordinate-geometry",
+        "subtopic_id": "locus"
+      }
+    ]
+  },
+  {
+    "uuid": "625bdde8-a984-4907-9e1b-a2739b97cf5e",
+    "mappings": [
+      {
+        "topic_id": "calculus",
+        "subtopic_id": "integration"
+      }
+    ]
+  },
+  {
+    "uuid": "6266abad-3b51-4af5-b261-bd4e7ce91dea",
+    "mappings": [
+      {
+        "topic_id": "calculus",
+        "subtopic_id": "definite-integrals"
+      }
+    ]
+  },
+  {
+    "uuid": "62950f60-83ba-4658-81f2-a08cf9d1427d",
+    "mappings": [
+      {
+        "topic_id": "probability",
+        "subtopic_id": "basic-probability"
+      }
+    ]
+  },
+  {
+    "uuid": "64986e7e-cfcd-4d4b-96c7-f579c5dc126e",
+    "mappings": [
+      {
+        "topic_id": "discrete-mathematics",
+        "subtopic_id": "recurrence-relations"
+      }
+    ]
+  },
+  {
+    "uuid": "64fa0f07-afd3-4017-b084-7f8e09cbcc40",
+    "mappings": [
+      {
+        "topic_id": "number-theory",
+        "subtopic_id": "perfect-squares-and-perfect-powers"
+      }
+    ]
+  },
+  {
+    "uuid": "65b8176a-5202-4104-844d-86951450f58b",
+    "mappings": [
+      {
+        "topic_id": "mathematical-logic-and-proof",
+        "subtopic_id": "existence-and-uniqueness"
+      }
+    ]
+  },
+  {
+    "uuid": "66bf451a-0db1-4b50-bbb0-3cec138b5d89",
+    "mappings": [
+      {
+        "topic_id": "mathematical-logic-and-proof",
+        "subtopic_id": "existence-and-uniqueness"
+      }
+    ]
+  },
+  {
+    "uuid": "66c33a8e-9ae9-4c2e-9cae-60fc5b851d3f",
+    "mappings": [
+      {
+        "topic_id": "matrices-and-linear-algebra",
+        "subtopic_id": "matrices"
+      }
+    ]
+  },
+  {
+    "uuid": "67877206-c3b6-4f2f-9882-fd49b1e15328",
+    "mappings": [
+      {
+        "topic_id": "geometry",
+        "subtopic_id": "geometric-proofs"
+      }
+    ]
+  },
+  {
+    "uuid": "6852261b-5259-40f2-94dc-34225fb8a001",
+    "mappings": [
+      {
+        "topic_id": "calculus",
+        "subtopic_id": "definite-integrals"
+      }
+    ]
+  },
+  {
+    "uuid": "6981994b-cc4d-41d8-98ec-9bb471ce6dd6",
+    "mappings": [
+      {
+        "topic_id": "algebra",
+        "subtopic_id": "algebraic-manipulation"
+      }
+    ]
+  },
+  {
+    "uuid": "699b01cf-23a6-4444-b4b4-6b027600cf7d",
+    "mappings": [
+      {
+        "topic_id": "algebra",
+        "subtopic_id": "systems-of-equations"
+      }
+    ]
+  },
+  {
+    "uuid": "69ce45bb-b16a-4599-ba3a-ffbb34b5f3d8",
+    "mappings": [
+      {
+        "topic_id": "algebra",
+        "subtopic_id": "polynomials"
+      }
+    ]
+  },
+  {
+    "uuid": "6bbc7540-79ed-47fb-9c80-7497bf874f7c",
+    "mappings": [
+      {
+        "topic_id": "combinatorics",
+        "subtopic_id": "combinatorial-games"
+      }
+    ]
+  },
+  {
+    "uuid": "6c0e2512-f1e3-4852-881c-08636adf0c16",
+    "mappings": [
+      {
+        "topic_id": "algebra",
+        "subtopic_id": "polynomial-equations"
+      }
+    ]
+  },
+  {
+    "uuid": "6c154551-6ece-4919-b8a7-a3d0fc3b407a",
+    "mappings": [
+      {
+        "topic_id": "complex-numbers",
+        "subtopic_id": "loci-in-the-complex-plane"
+      }
+    ]
+  },
+  {
+    "uuid": "6c818f2c-c957-4818-ba4a-92aaaa13e01e",
+    "mappings": [
+      {
+        "topic_id": "algebra",
+        "subtopic_id": "quadratic-equations"
+      }
+    ]
+  },
+  {
+    "uuid": "6c9d9ac5-02be-4734-8526-451302595f99",
+    "mappings": [
+      {
+        "topic_id": "calculus",
+        "subtopic_id": "continuity"
+      }
+    ]
+  },
+  {
+    "uuid": "6d3374ca-945e-4f5e-a1cb-e2f145229a21",
+    "mappings": [
+      {
+        "topic_id": "mathematical-logic-and-proof",
+        "subtopic_id": "existence-and-uniqueness"
+      }
+    ]
+  },
+  {
+    "uuid": "6d6ec051-e7e4-4aec-9289-3c25dae746f2",
+    "mappings": [
+      {
+        "topic_id": "complex-numbers",
+        "subtopic_id": "complex-numbers-and-imaginary-unit"
+      }
+    ]
+  },
+  {
+    "uuid": "6f701154-5cb0-468b-b1d8-a8942206cd66",
+    "mappings": [
+      {
+        "topic_id": "probability",
+        "subtopic_id": "bayes-theorem"
+      }
+    ]
+  },
+  {
+    "uuid": "6fb2c168-8997-487c-a0cd-a8707648bfaa",
+    "mappings": [
+      {
+        "topic_id": "number-theory",
+        "subtopic_id": "prime-factorisation"
+      }
+    ]
+  },
+  {
+    "uuid": "70064123-4f0c-4acd-beef-51284f9e9512",
+    "mappings": [
+      {
+        "topic_id": "algebra",
+        "subtopic_id": "absolute-value"
+      }
+    ]
+  },
+  {
+    "uuid": "70dc0e45-be0e-4e9d-827d-2cdb60a6ff94",
+    "mappings": [
+      {
+        "topic_id": "calculus",
+        "subtopic_id": "limits"
+      }
+    ]
+  },
+  {
+    "uuid": "7146f194-9ca6-4649-b4e5-17690caf1681",
+    "mappings": [
+      {
+        "topic_id": "statistics",
+        "subtopic_id": "median-and-mode"
+      }
+    ]
+  },
+  {
+    "uuid": "7199d926-3750-4619-9cda-01e4f6975930",
+    "mappings": [
+      {
+        "topic_id": "geometry",
+        "subtopic_id": "mensuration"
+      }
+    ]
+  },
+  {
+    "uuid": "7210224e-29e9-4348-b873-5ee3587cb2a3",
+    "mappings": [
+      {
+        "topic_id": "mathematical-logic-and-proof",
+        "subtopic_id": "parity-arguments"
+      }
+    ]
+  },
+  {
+    "uuid": "72235a73-916a-4f54-a27e-ada3aa66948c",
+    "mappings": [
+      {
+        "topic_id": "number-theory",
+        "subtopic_id": "perfect-squares-and-perfect-powers"
+      }
+    ]
+  },
+  {
+    "uuid": "72487a0c-63c3-4bf5-ab8c-b0659adbe55b",
+    "mappings": [
+      {
+        "topic_id": "number-theory",
+        "subtopic_id": "modular-arithmetic"
+      }
+    ]
+  },
+  {
+    "uuid": "724bce63-cb71-41e4-8e5e-f613e7c5f15b",
+    "mappings": [
+      {
+        "topic_id": "geometry",
+        "subtopic_id": "pythagorean-theorem"
+      }
+    ]
+  },
+  {
+    "uuid": "72f76b3e-78c1-4da3-aed3-b33abb597bfe",
+    "mappings": [
+      {
+        "topic_id": "calculus",
+        "subtopic_id": "derivatives"
+      }
+    ]
+  },
+  {
+    "uuid": "7330ba2c-21b3-49c8-b93e-f2f15ed32900",
+    "mappings": [
+      {
+        "topic_id": "number-systems",
+        "subtopic_id": "divisibility"
+      }
+    ]
+  },
+  {
+    "uuid": "73ebee54-04bb-4068-94f5-a893d15eeb3a",
+    "mappings": [
+      {
+        "topic_id": "calculus",
+        "subtopic_id": "integration"
+      }
+    ]
+  },
+  {
+    "uuid": "749bad21-aeb0-43c6-9ee6-aee52c58f929",
+    "mappings": [
+      {
+        "topic_id": "combinatorics",
+        "subtopic_id": "binomial-theorem"
+      }
+    ]
+  },
+  {
+    "uuid": "7525523a-c472-4727-8b31-b94b760f836a",
+    "mappings": [
+      {
+        "topic_id": "algebra",
+        "subtopic_id": "polynomial-equations"
+      }
+    ]
+  },
+  {
+    "uuid": "7688ec53-65ec-4d10-bf21-86e013ff7c5f",
+    "mappings": [
+      {
+        "topic_id": "geometry",
+        "subtopic_id": "geometric-proofs"
+      }
+    ]
+  },
+  {
+    "uuid": "774a0df3-7946-4cc5-b5a6-f95bfdb2028d",
+    "mappings": [
+      {
+        "topic_id": "functions",
+        "subtopic_id": "transformations-of-functions"
+      }
+    ]
+  },
+  {
+    "uuid": "77656726-c336-48b4-ba9b-4084dd74bc07",
+    "mappings": [
+      {
+        "topic_id": "probability",
+        "subtopic_id": "conditional-probability"
+      }
+    ]
+  },
+  {
+    "uuid": "7a441408-25d9-43b0-946b-ae8803e5914e",
+    "mappings": [
+      {
+        "topic_id": "calculus",
+        "subtopic_id": "derivatives"
+      }
+    ]
+  },
+  {
+    "uuid": "7af8a2a3-0b5f-45b5-a12d-3a8fa91eb68f",
+    "mappings": [
+      {
+        "topic_id": "geometry",
+        "subtopic_id": "areas"
+      }
+    ]
+  },
+  {
+    "uuid": "7b33c0c7-42be-4408-94c2-0337f0f55ff7",
+    "mappings": [
+      {
+        "topic_id": "trigonometry",
+        "subtopic_id": "trigonometric-ratios"
+      }
+    ]
+  },
+  {
+    "uuid": "7bd3562d-e4c5-4eb2-8fd3-f08e0e69504f",
+    "mappings": [
+      {
+        "topic_id": "algebra",
+        "subtopic_id": "polynomial-equations"
+      }
+    ]
+  },
+  {
+    "uuid": "7c755a38-c962-4ee2-8ff2-1049ad052293",
+    "mappings": [
+      {
+        "topic_id": "calculus",
+        "subtopic_id": "maxima-and-minima"
+      }
+    ]
+  },
+  {
+    "uuid": "7ca0e1de-5da8-4c88-b884-cb1476223688",
+    "mappings": [
+      {
+        "topic_id": "complex-numbers",
+        "subtopic_id": "loci-in-the-complex-plane"
+      }
+    ]
+  },
+  {
+    "uuid": "7e488548-6893-4dbd-a5b1-b652c16a96ab",
+    "mappings": [
+      {
+        "topic_id": "arithmetic",
+        "subtopic_id": "time-speed-and-distance"
+      }
+    ]
+  },
+  {
+    "uuid": "7f6ae757-d991-40dd-9811-b168c05b1f5f",
+    "mappings": [
+      {
+        "topic_id": "calculus",
+        "subtopic_id": "maxima-and-minima"
+      }
+    ]
+  },
+  {
+    "uuid": "7fa581a4-e2c2-451a-b535-bbd2d9693d85",
+    "mappings": [
+      {
+        "topic_id": "geometry",
+        "subtopic_id": "geometric-inequalities"
+      }
+    ]
+  },
+  {
+    "uuid": "805fa88a-e3fe-40c0-9113-7c6e8d1fc70e",
+    "mappings": [
+      {
+        "topic_id": "combinatorics",
+        "subtopic_id": "permutations"
+      }
+    ]
+  },
+  {
+    "uuid": "80d036b8-0b90-4781-a4f8-72f03f8d39d9",
+    "mappings": [
+      {
+        "topic_id": "number-theory",
+        "subtopic_id": "number-theoretic-functions"
+      }
+    ]
+  },
+  {
+    "uuid": "8348f83c-8a02-4afc-a0f7-814edba18e63",
+    "mappings": [
+      {
+        "topic_id": "algebra",
+        "subtopic_id": "polynomial-equations"
+      }
+    ]
+  },
+  {
+    "uuid": "8529d112-f29c-451f-bad4-6fd1370788d2",
+    "mappings": [
+      {
+        "topic_id": "geometry",
+        "subtopic_id": "mensuration"
+      }
+    ]
+  },
+  {
+    "uuid": "8561b27b-0ebe-44fd-80a8-c46fdc47911d",
+    "mappings": [
+      {
+        "topic_id": "calculus",
+        "subtopic_id": "limits"
+      }
+    ]
+  },
+  {
+    "uuid": "86079edf-dc6a-499f-81fe-465f804ac11d",
+    "mappings": [
+      {
+        "topic_id": "algebra",
+        "subtopic_id": "algebraic-identities"
+      }
+    ]
+  },
+  {
+    "uuid": "86cbf730-cbc8-40d5-b3e5-5d1bfd3b7a44",
+    "mappings": [
+      {
+        "topic_id": "functions",
+        "subtopic_id": "functions-and-mappings"
+      }
+    ]
+  },
+  {
+    "uuid": "87926bf4-dc36-4dba-96f3-8368c22bcb71",
+    "mappings": [
+      {
+        "topic_id": "geometry",
+        "subtopic_id": "triangles"
+      }
+    ]
+  },
+  {
+    "uuid": "879e7c27-48da-4fa5-bcd1-f454a68f7bd2",
+    "mappings": [
+      {
+        "topic_id": "sequences-and-series",
+        "subtopic_id": "sequences"
+      }
+    ]
+  },
+  {
+    "uuid": "88482748-4d8f-4507-b61d-6a5e0b1b0c29",
+    "mappings": [
+      {
+        "topic_id": "algebra",
+        "subtopic_id": "polynomial-equations"
+      }
+    ]
+  },
+  {
+    "uuid": "887bb693-961a-4119-9b79-883eb15c5c88",
+    "mappings": [
+      {
+        "topic_id": "trigonometry",
+        "subtopic_id": "trigonometric-equations"
+      }
+    ]
+  },
+  {
+    "uuid": "88cda621-afcc-4ddb-92df-0438f4214c5b",
+    "mappings": [
+      {
+        "topic_id": "functions",
+        "subtopic_id": "rational-functions"
+      }
+    ]
+  },
+  {
+    "uuid": "89522084-7e10-4dbc-a1d0-3d076d82ddc1",
+    "mappings": [
+      {
+        "topic_id": "calculus",
+        "subtopic_id": "continuity"
+      }
+    ]
+  },
+  {
+    "uuid": "89b6f03c-05c9-4142-8770-8bd19006843d",
+    "mappings": [
+      {
+        "topic_id": "coordinate-geometry",
+        "subtopic_id": "circles"
+      }
+    ]
+  },
+  {
+    "uuid": "89d7fee4-c2d7-49b5-8859-6c79b410851f",
+    "mappings": [
+      {
+        "topic_id": "mathematical-optimization",
+        "subtopic_id": "geometric-optimization"
+      }
+    ]
+  },
+  {
+    "uuid": "89e2936a-f2d8-4d2f-8905-186c2da0dc2f",
+    "mappings": [
+      {
+        "topic_id": "sequences-and-series",
+        "subtopic_id": "arithmetic-progressions"
+      }
+    ]
+  },
+  {
+    "uuid": "89e300f8-220c-42c7-9cab-e35453f5b5d8",
+    "mappings": [
+      {
+        "topic_id": "functions",
+        "subtopic_id": "exponential-functions"
+      }
+    ]
+  },
+  {
+    "uuid": "8a79e086-8ac8-4138-a541-3e809c8e6289",
+    "mappings": [
+      {
+        "topic_id": "sequences-and-series",
+        "subtopic_id": "arithmetic-progressions"
+      }
+    ]
+  },
+  {
+    "uuid": "8a96a51b-6ced-42c7-9f8a-ccdef87ed3da",
+    "mappings": [
+      {
+        "topic_id": "calculus",
+        "subtopic_id": "differential-equations"
+      }
+    ]
+  },
+  {
+    "uuid": "8c127722-f164-46d0-8ae4-dfd50ce3dc3b",
+    "mappings": [
+      {
+        "topic_id": "combinatorics",
+        "subtopic_id": "binomial-theorem"
+      }
+    ]
+  },
+  {
+    "uuid": "8c217d97-8fd7-4b44-a1d0-242ea3040719",
+    "mappings": [
+      {
+        "topic_id": "calculus",
+        "subtopic_id": "continuity"
+      }
+    ]
+  },
+  {
+    "uuid": "8c6e457c-19ed-4a6d-b03b-fd59de1d8526",
+    "mappings": [
+      {
+        "topic_id": "combinatorics",
+        "subtopic_id": "combinations"
+      }
+    ]
+  },
+  {
+    "uuid": "8c7c2a93-97ad-4aed-968a-48c4fb54a338",
+    "mappings": [
+      {
+        "topic_id": "number-theory",
+        "subtopic_id": "diophantine-equations"
+      }
+    ]
+  },
+  {
+    "uuid": "8d49428f-f925-4c32-89cc-d512e3d793d3",
+    "mappings": [
+      {
+        "topic_id": "complex-numbers",
+        "subtopic_id": "geometric-interpretation"
+      }
+    ]
+  },
+  {
+    "uuid": "8df985fc-ebe8-4e8f-98ce-038fef252d16",
+    "mappings": [
+      {
+        "topic_id": "geometry",
+        "subtopic_id": "quadrilaterals"
+      }
+    ]
+  },
+  {
+    "uuid": "8ea686ed-dea9-4949-a613-95d40246aa70",
+    "mappings": [
+      {
+        "topic_id": "discrete-mathematics",
+        "subtopic_id": "recurrence-relations"
+      }
+    ]
+  },
+  {
+    "uuid": "9087cc56-554c-4e16-bc88-5c283f91e136",
+    "mappings": [
+      {
+        "topic_id": "functions",
+        "subtopic_id": "polynomial-functions"
+      }
+    ]
+  },
+  {
+    "uuid": "90b0f79b-592e-4cc4-a610-08a613dab2ca",
+    "mappings": [
+      {
+        "topic_id": "coordinate-geometry",
+        "subtopic_id": "ellipse"
+      }
+    ]
+  },
+  {
+    "uuid": "90b477cc-5ff0-4368-863f-cc1af0c8f1d7",
+    "mappings": [
+      {
+        "topic_id": "geometry",
+        "subtopic_id": "pythagorean-theorem"
+      }
+    ]
+  },
+  {
+    "uuid": "90f7f4cd-2c06-40e4-8c08-7bc3ed433c7c",
+    "mappings": [
+      {
+        "topic_id": "geometry",
+        "subtopic_id": "areas"
+      }
+    ]
+  },
+  {
+    "uuid": "90f8376b-94b3-4109-a1e2-e6925e8bdc0a",
+    "mappings": [
+      {
+        "topic_id": "discrete-mathematics",
+        "subtopic_id": "recurrence-relations"
+      }
+    ]
+  },
+  {
+    "uuid": "92d847b5-dded-49cc-9a71-2d7c79d06ee2",
+    "mappings": [
+      {
+        "topic_id": "algebra",
+        "subtopic_id": "polynomial-equations"
+      }
+    ]
+  },
+  {
+    "uuid": "9490c8e7-c4f7-4237-9897-476ccd311a48",
+    "mappings": [
+      {
+        "topic_id": "coordinate-geometry",
+        "subtopic_id": "circles"
+      }
+    ]
+  },
+  {
+    "uuid": "966893ea-dfd8-4759-b904-bd5b65c1d696",
+    "mappings": [
+      {
+        "topic_id": "complex-numbers",
+        "subtopic_id": "complex-equations"
+      }
+    ]
+  },
+  {
+    "uuid": "966a42a6-6360-4e3a-b834-79bd3fd8c93a",
+    "mappings": [
+      {
+        "topic_id": "calculus",
+        "subtopic_id": "sequences-and-series-limits"
+      }
+    ]
+  },
+  {
+    "uuid": "96e40b3f-f459-4bf0-8c46-e8696fa621c1",
+    "mappings": [
+      {
+        "topic_id": "sequences-and-series",
+        "subtopic_id": "infinite-series"
+      }
+    ]
+  },
+  {
+    "uuid": "9800fd15-748f-4f23-8acd-e61382ae59f7",
+    "mappings": [
+      {
+        "topic_id": "geometry",
+        "subtopic_id": "mensuration"
+      }
+    ]
+  },
+  {
+    "uuid": "98cbb400-8899-4bb5-b1e6-5e4817bf7eb0",
+    "mappings": [
+      {
+        "topic_id": "algebra",
+        "subtopic_id": "algebraic-manipulation"
+      }
+    ]
+  },
+  {
+    "uuid": "9969e915-253d-4200-89e1-676d685cf58b",
+    "mappings": [
+      {
+        "topic_id": "geometry",
+        "subtopic_id": "cyclic-quadrilaterals"
+      }
+    ]
+  },
+  {
+    "uuid": "996caab6-c9ff-4495-8b68-77fa16472715",
+    "mappings": [
+      {
+        "topic_id": "coordinate-geometry",
+        "subtopic_id": "locus"
+      }
+    ]
+  },
+  {
+    "uuid": "99914a15-ade3-4c70-93cb-3e8790a6d7be",
+    "mappings": [
+      {
+        "topic_id": "coordinate-geometry",
+        "subtopic_id": "circles"
+      }
+    ]
+  },
+  {
+    "uuid": "99c50768-f993-48ce-b7b9-403c3e3221b3",
+    "mappings": [
+      {
+        "topic_id": "algebra",
+        "subtopic_id": "polynomial-equations"
+      }
+    ]
+  },
+  {
+    "uuid": "9b0293a0-547c-4c60-8f2d-125002e2e5fd",
+    "mappings": [
+      {
+        "topic_id": "calculus",
+        "subtopic_id": "related-rates"
+      }
+    ]
+  },
+  {
+    "uuid": "9b486f34-a7de-4d50-9d6b-e36759c87069",
+    "mappings": [
+      {
+        "topic_id": "functions",
+        "subtopic_id": "polynomial-functions"
+      }
+    ]
+  },
+  {
+    "uuid": "9c0b9f10-52ba-4cef-93ff-1f8c3f9b4ea8",
+    "mappings": [
+      {
+        "topic_id": "trigonometry",
+        "subtopic_id": "inverse-trigonometric-functions"
+      }
+    ]
+  },
+  {
+    "uuid": "9c57f7c9-4f43-4593-a8aa-7c4328223260",
+    "mappings": [
+      {
+        "topic_id": "discrete-mathematics",
+        "subtopic_id": "graph-theory"
+      }
+    ]
+  },
+  {
+    "uuid": "9ce03953-360c-4e60-997a-ae6869229d6d",
+    "mappings": [
+      {
+        "topic_id": "algebra",
+        "subtopic_id": "systems-of-equations"
+      }
+    ]
+  },
+  {
+    "uuid": "9d61e26a-8a51-4de1-9dd0-647ed27f70ba",
+    "mappings": [
+      {
+        "topic_id": "calculus",
+        "subtopic_id": "mean-value-theorems"
+      }
+    ]
+  },
+  {
+    "uuid": "9da0f4e6-44a0-4dac-81be-ffc4113c75a5",
+    "mappings": [
+      {
+        "topic_id": "calculus",
+        "subtopic_id": "related-rates"
+      }
+    ]
+  },
+  {
+    "uuid": "9dbd4897-bed1-4f6d-9028-b10de02053a6",
+    "mappings": [
+      {
+        "topic_id": "number-systems",
+        "subtopic_id": "number-representation-and-bases"
+      }
+    ]
+  },
+  {
+    "uuid": "9f0a7faa-19b9-4a3c-abba-50ba4f2eec65",
+    "mappings": [
+      {
+        "topic_id": "number-theory",
+        "subtopic_id": "prime-number-problems"
+      }
+    ]
+  },
+  {
+    "uuid": "a05173cc-78fa-40eb-b7a8-e8dd5cfaeca4",
+    "mappings": [
+      {
+        "topic_id": "mathematical-logic-and-proof",
+        "subtopic_id": "invariants"
+      }
+    ]
+  },
+  {
+    "uuid": "a1124cc5-4984-485f-b33c-7cc26cba3006",
+    "mappings": [
+      {
+        "topic_id": "coordinate-geometry",
+        "subtopic_id": "circles"
+      }
+    ]
+  },
+  {
+    "uuid": "a17e47c3-da31-46fd-8cb0-ab9df7c69299",
+    "mappings": [
+      {
+        "topic_id": "functions",
+        "subtopic_id": "inverse-functions"
+      }
+    ]
+  },
+  {
+    "uuid": "a2f381e9-5ab5-4df1-8a2c-43e054b36e59",
+    "mappings": [
+      {
+        "topic_id": "matrices-and-linear-algebra",
+        "subtopic_id": "matrix-operations"
+      }
+    ]
+  },
+  {
+    "uuid": "a3934628-183c-4eb7-b9ff-b6770b366c6c",
+    "mappings": [
+      {
+        "topic_id": "number-theory",
+        "subtopic_id": "number-theoretic-functions"
+      }
+    ]
+  },
+  {
+    "uuid": "a3b2034a-dce0-494c-8627-ee58115f2316",
+    "mappings": [
+      {
+        "topic_id": "calculus",
+        "subtopic_id": "mean-value-theorems"
+      }
+    ]
+  },
+  {
+    "uuid": "a49c23d7-6fd3-4c11-8b73-6b9a2ceae883",
+    "mappings": [
+      {
+        "topic_id": "algebra",
+        "subtopic_id": "absolute-value"
+      }
+    ]
+  },
+  {
+    "uuid": "a4d30d41-832d-42fe-a103-c59c6a640fe5",
+    "mappings": [
+      {
+        "topic_id": "geometry",
+        "subtopic_id": "similarity"
+      }
+    ]
+  },
+  {
+    "uuid": "a62f72e0-6f86-4ead-9c0f-474ee0c3ac4f",
+    "mappings": [
+      {
+        "topic_id": "probability",
+        "subtopic_id": "binomial-distribution"
+      }
+    ]
+  },
+  {
+    "uuid": "a7f2b7eb-b0b9-4940-a746-42eed76afe0f",
+    "mappings": [
+      {
+        "topic_id": "matrices-and-linear-algebra",
+        "subtopic_id": "determinants"
+      }
+    ]
+  },
+  {
+    "uuid": "a80a90ef-b9d1-446b-b058-48610737324b",
+    "mappings": [
+      {
+        "topic_id": "discrete-mathematics",
+        "subtopic_id": "set-operations"
+      }
+    ]
+  },
+  {
+    "uuid": "a818a414-8c85-4b31-825a-5a51bc43650e",
+    "mappings": [
+      {
+        "topic_id": "trigonometry",
+        "subtopic_id": "trigonometric-identities"
+      }
+    ]
+  },
+  {
+    "uuid": "a833d816-e762-4d26-84d8-bb7a6acd3ce1",
+    "mappings": [
+      {
+        "topic_id": "functions",
+        "subtopic_id": "polynomial-functions"
+      }
+    ]
+  },
+  {
+    "uuid": "a921d7fe-2a5d-4474-b8af-84e5c9533b33",
+    "mappings": [
+      {
+        "topic_id": "mathematical-optimization",
+        "subtopic_id": "inequality-based-optimization"
+      }
+    ]
+  },
+  {
+    "uuid": "ab8d281b-f8b4-443a-ab42-bc6ebec636c0",
+    "mappings": [
+      {
+        "topic_id": "sequences-and-series",
+        "subtopic_id": "sequences"
+      }
+    ]
+  },
+  {
+    "uuid": "ad57154c-1756-4964-9108-d7ddf2eec5e3",
+    "mappings": [
+      {
+        "topic_id": "geometry",
+        "subtopic_id": "areas"
+      }
+    ]
+  },
+  {
+    "uuid": "ae8fcfd0-c4cc-42e0-8ffc-da9589b9e9af",
+    "mappings": [
+      {
+        "topic_id": "sequences-and-series",
+        "subtopic_id": "sequences"
+      }
+    ]
+  },
+  {
+    "uuid": "b29d118b-a44d-4fa3-9235-2baede4b7434",
+    "mappings": [
+      {
+        "topic_id": "coordinate-geometry",
+        "subtopic_id": "locus"
+      }
+    ]
+  },
+  {
+    "uuid": "b2cdf9dc-5aed-4826-b98c-eb79068def34",
+    "mappings": [
+      {
+        "topic_id": "trigonometry",
+        "subtopic_id": "trigonometric-identities"
+      }
+    ]
+  },
+  {
+    "uuid": "b2f5c4b3-1b14-4ae8-852f-f70ff9a2ed14",
+    "mappings": [
+      {
+        "topic_id": "number-theory",
+        "subtopic_id": "number-theoretic-functions"
+      }
+    ]
+  },
+  {
+    "uuid": "b2ffafa1-4f45-4645-a784-70aa190e8659",
+    "mappings": null
+  },
+  {
+    "uuid": "b3194a9d-85c6-44e5-989e-edaed4d7f375",
+    "mappings": [
+      {
+        "topic_id": "functions",
+        "subtopic_id": "functional-equations"
+      }
+    ]
+  },
+  {
+    "uuid": "b4c44eaa-ffa2-4805-b0d8-b09e283e4877",
+    "mappings": [
+      {
+        "topic_id": "algebra",
+        "subtopic_id": "polynomials"
+      }
+    ]
+  },
+  {
+    "uuid": "b5501ec3-4c1c-4b5e-abde-61a368da5bf5",
+    "mappings": [
+      {
+        "topic_id": "algebra",
+        "subtopic_id": "absolute-value"
+      }
+    ]
+  },
+  {
+    "uuid": "b5629727-b233-437d-853e-dd8b640e0c42",
+    "mappings": [
+      {
+        "topic_id": "calculus",
+        "subtopic_id": "differential-equations"
+      }
+    ]
+  },
+  {
+    "uuid": "b5b82f47-4fbe-405a-92fb-9678658adfb5",
+    "mappings": [
+      {
+        "topic_id": "complex-numbers",
+        "subtopic_id": "powers-and-roots-of-complex-numbers"
+      }
+    ]
+  },
+  {
+    "uuid": "b64c4443-b9ef-46d0-aabf-475d363113a7",
+    "mappings": [
+      {
+        "topic_id": "mathematical-optimization",
+        "subtopic_id": "algebraic-optimization"
+      }
+    ]
+  },
+  {
+    "uuid": "b67d72e9-5c57-4684-85bf-da638d71b630",
+    "mappings": [
+      {
+        "topic_id": "trigonometry",
+        "subtopic_id": "trigonometric-inequalities"
+      }
+    ]
+  },
+  {
+    "uuid": "b6c7c754-d34b-40d7-a3fa-a70ef893523d",
+    "mappings": [
+      {
+        "topic_id": "mathematical-optimization",
+        "subtopic_id": "geometric-optimization"
+      }
+    ]
+  },
+  {
+    "uuid": "b82a70f8-9962-452c-8f33-0481bdfefeb1",
+    "mappings": [
+      {
+        "topic_id": "complex-numbers",
+        "subtopic_id": "geometric-interpretation"
+      }
+    ]
+  },
+  {
+    "uuid": "b8a7432c-d0b1-4e3c-8d55-1b5fea2912cc",
+    "mappings": [
+      {
+        "topic_id": "functions",
+        "subtopic_id": "functional-equations"
+      }
+    ]
+  },
+  {
+    "uuid": "b8c6be45-548a-48ee-bccd-536971fee03a",
+    "mappings": [
+      {
+        "topic_id": "calculus",
+        "subtopic_id": "differentiation"
+      }
+    ]
+  },
+  {
+    "uuid": "ba2f86ff-a394-4425-91ec-085930d0bf37",
+    "mappings": [
+      {
+        "topic_id": "calculus",
+        "subtopic_id": "derivatives"
+      }
+    ]
+  },
+  {
+    "uuid": "ba5d82fe-9853-447e-b42a-d049f946cfa2",
+    "mappings": [
+      {
+        "topic_id": "mathematical-optimization",
+        "subtopic_id": "geometric-optimization"
+      }
+    ]
+  },
+  {
+    "uuid": "bb404890-aa4d-4e56-aada-baafb00c4dee",
+    "mappings": [
+      {
+        "topic_id": "number-theory",
+        "subtopic_id": "prime-factorisation"
+      }
+    ]
+  },
+  {
+    "uuid": "bc403a0b-c15d-40c1-9574-af0f4f9120c0",
+    "mappings": [
+      {
+        "topic_id": "complex-numbers",
+        "subtopic_id": "loci-in-the-complex-plane"
+      }
+    ]
+  },
+  {
+    "uuid": "bd63b1ce-d2dd-46a3-a46b-58b3fdb2327c",
+    "mappings": [
+      {
+        "topic_id": "calculus",
+        "subtopic_id": "maxima-and-minima"
+      }
+    ]
+  },
+  {
+    "uuid": "be804439-2f62-4161-b0c8-0b6ee5192ed4",
+    "mappings": [
+      {
+        "topic_id": "number-theory",
+        "subtopic_id": "modular-arithmetic"
+      }
+    ]
+  },
+  {
+    "uuid": "be8ac8f6-8db2-4118-9203-6433a40470a3",
+    "mappings": [
+      {
+        "topic_id": "complex-numbers",
+        "subtopic_id": "loci-in-the-complex-plane"
+      }
+    ]
+  },
+  {
+    "uuid": "bf52f42f-d025-4103-85ef-8db2377b7bb5",
+    "mappings": [
+      {
+        "topic_id": "functions",
+        "subtopic_id": "functions-and-mappings"
+      }
+    ]
+  },
+  {
+    "uuid": "c0ad21b1-9543-478c-a8a8-a69f789d5b00",
+    "mappings": [
+      {
+        "topic_id": "geometry",
+        "subtopic_id": "areas"
+      }
+    ]
+  },
+  {
+    "uuid": "c119de19-761e-4f27-905c-5138098744f4",
+    "mappings": [
+      {
+        "topic_id": "mathematical-optimization",
+        "subtopic_id": "inequality-based-optimization"
+      }
+    ]
+  },
+  {
+    "uuid": "c16b7ef8-2517-4483-8d86-54c1baa9234f",
+    "mappings": [
+      {
+        "topic_id": "number-theory",
+        "subtopic_id": "greatest-common-divisor-and-least-common-multiple"
+      }
+    ]
+  },
+  {
+    "uuid": "c17d4d25-bc14-452f-a737-d9c9fed5fd71",
+    "mappings": [
+      {
+        "topic_id": "algebra",
+        "subtopic_id": "roots-of-polynomials"
+      }
+    ]
+  },
+  {
+    "uuid": "c22f0804-12e3-4b5c-bee8-ac9dd73da96b",
+    "mappings": [
+      {
+        "topic_id": "arithmetic",
+        "subtopic_id": "averages"
+      }
+    ]
+  },
+  {
+    "uuid": "c30b13b0-b10a-416f-800b-524bb6ade6cd",
+    "mappings": [
+      {
+        "topic_id": "geometry",
+        "subtopic_id": "areas"
+      }
+    ]
+  },
+  {
+    "uuid": "c3269262-2ac4-4367-9486-243fee9f7e94",
+    "mappings": [
+      {
+        "topic_id": "calculus",
+        "subtopic_id": "maxima-and-minima"
+      }
+    ]
+  },
+  {
+    "uuid": "c3a57ab7-2caf-4e1e-8e0d-a33b32895ca6",
+    "mappings": [
+      {
+        "topic_id": "discrete-mathematics",
+        "subtopic_id": "graph-theory"
+      }
+    ]
+  },
+  {
+    "uuid": "c4e95c3a-074d-4c5f-93bf-2f93218481bc",
+    "mappings": [
+      {
+        "topic_id": "algebra",
+        "subtopic_id": "inequalities"
+      }
+    ]
+  },
+  {
+    "uuid": "c5724336-790f-42c7-b146-1480d99ea3bc",
+    "mappings": [
+      {
+        "topic_id": "calculus",
+        "subtopic_id": "limits"
+      }
+    ]
+  },
+  {
+    "uuid": "c5eabc88-7cb1-4d59-9193-a94e6a1c1fea",
+    "mappings": [
+      {
+        "topic_id": "number-theory",
+        "subtopic_id": "greatest-common-divisor-and-least-common-multiple"
+      }
+    ]
+  },
+  {
+    "uuid": "c647b244-1f78-48dd-ba5b-81a143d6f419",
+    "mappings": [
+      {
+        "topic_id": "geometry",
+        "subtopic_id": "triangles"
+      }
+    ]
+  },
+  {
+    "uuid": "c81e1ffb-2f65-4794-a90d-9d28741a9ea8",
+    "mappings": [
+      {
+        "topic_id": "coordinate-geometry",
+        "subtopic_id": "ellipse"
+      }
+    ]
+  },
+  {
+    "uuid": "c967c195-bcf8-4b22-ae76-01f0d46a598b",
+    "mappings": [
+      {
+        "topic_id": "combinatorics",
+        "subtopic_id": "combinations"
+      }
+    ]
+  },
+  {
+    "uuid": "c9fe6efe-1933-49aa-9fbe-7526c7b6d8bc",
+    "mappings": [
+      {
+        "topic_id": "matrices-and-linear-algebra",
+        "subtopic_id": "matrices"
+      }
+    ]
+  },
+  {
+    "uuid": "ca121ff1-27cb-4eaa-8a99-e2f4731cfd87",
+    "mappings": [
+      {
+        "topic_id": "algebra",
+        "subtopic_id": "logarithms"
+      }
+    ]
+  },
+  {
+    "uuid": "cbefdab2-9e46-4111-a4d8-cc3827bea565",
+    "mappings": [
+      {
+        "topic_id": "calculus",
+        "subtopic_id": "definite-integrals"
+      }
+    ]
+  },
+  {
+    "uuid": "ccdb4ccb-6042-4b72-aeed-4cbe9345c9ed",
+    "mappings": [
+      {
+        "topic_id": "trigonometry",
+        "subtopic_id": "trigonometry-of-triangles"
+      }
+    ]
+  },
+  {
+    "uuid": "cd645755-51f9-4f36-8c92-99b247a58a25",
+    "mappings": [
+      {
+        "topic_id": "probability",
+        "subtopic_id": "basic-probability"
+      }
+    ]
+  },
+  {
+    "uuid": "cda0a54a-fed0-4fa4-940d-3ae89cb3112c",
+    "mappings": [
+      {
+        "topic_id": "algebra",
+        "subtopic_id": "inequalities"
+      }
+    ]
+  },
+  {
+    "uuid": "ce97b265-3f7f-46ce-a1a1-5701d7009e9f",
+    "mappings": [
+      {
+        "topic_id": "functions",
+        "subtopic_id": "logarithmic-functions"
+      }
+    ]
+  },
+  {
+    "uuid": "cef8ea74-8f9b-41bc-b582-6357037baa81",
+    "mappings": [
+      {
+        "topic_id": "calculus",
+        "subtopic_id": "limits"
+      }
+    ]
+  },
+  {
+    "uuid": "cf3e2146-af2e-4398-b32f-eaa25fe49f78",
+    "mappings": [
+      {
+        "topic_id": "calculus",
+        "subtopic_id": "sequences-and-series-limits"
+      }
+    ]
+  },
+  {
+    "uuid": "d0bbd7e7-b367-4539-a7e0-42b875eba24a",
+    "mappings": [
+      {
+        "topic_id": "combinatorics",
+        "subtopic_id": "advanced-counting-problems"
+      }
+    ]
+  },
+  {
+    "uuid": "d0ce39d1-3fc7-4f23-b7b5-3e3a0599de9a",
+    "mappings": [
+      {
+        "topic_id": "mathematical-optimization",
+        "subtopic_id": "geometric-optimization"
+      }
+    ]
+  },
+  {
+    "uuid": "d113c675-5e70-443f-b7d8-020a8fd2f1b0",
+    "mappings": [
+      {
+        "topic_id": "functions",
+        "subtopic_id": "piecewise-functions"
+      }
+    ]
+  },
+  {
+    "uuid": "d1140a82-4061-4f74-9c76-38da13cb326c",
+    "mappings": [
+      {
+        "topic_id": "algebra",
+        "subtopic_id": "exponents-and-powers"
+      }
+    ]
+  },
+  {
+    "uuid": "d174afcd-3d01-4a4b-87c5-2c1cfbe19781",
+    "mappings": [
+      {
+        "topic_id": "functions",
+        "subtopic_id": "rational-functions"
+      }
+    ]
+  },
+  {
+    "uuid": "d179fb7a-4aec-4bbd-8534-e639e4d76321",
+    "mappings": [
+      {
+        "topic_id": "geometry",
+        "subtopic_id": "areas"
+      }
+    ]
+  },
+  {
+    "uuid": "d219c4ee-80be-40d8-9593-ac9f094fd696",
+    "mappings": [
+      {
+        "topic_id": "functions",
+        "subtopic_id": "functional-equations"
+      }
+    ]
+  },
+  {
+    "uuid": "d2715ec2-7fbb-43c0-a882-288ce85fad04",
+    "mappings": [
+      {
+        "topic_id": "calculus",
+        "subtopic_id": "sequences-and-series-limits"
+      }
+    ]
+  },
+  {
+    "uuid": "d283a224-5b1d-4215-bbab-3bde964d874f",
+    "mappings": [
+      {
+        "topic_id": "number-theory",
+        "subtopic_id": "prime-number-problems"
+      }
+    ]
+  },
+  {
+    "uuid": "d2ca55fa-cb5a-4e82-93b9-3d52e08247db",
+    "mappings": [
+      {
+        "topic_id": "coordinate-geometry",
+        "subtopic_id": "locus"
+      }
+    ]
+  },
+  {
+    "uuid": "d3dd361c-1e1f-42da-83df-df9fd30ecfc2",
+    "mappings": [
+      {
+        "topic_id": "functions",
+        "subtopic_id": "functional-equations"
+      }
+    ]
+  },
+  {
+    "uuid": "d40adeb8-f6b9-4ec1-82e4-4e7def566b21",
+    "mappings": [
+      {
+        "topic_id": "algebra",
+        "subtopic_id": "inequalities"
+      }
+    ]
+  },
+  {
+    "uuid": "d45f4e11-9653-4200-afda-7d82702135f8",
+    "mappings": [
+      {
+        "topic_id": "calculus",
+        "subtopic_id": "sequences-and-series-limits"
+      }
+    ]
+  },
+  {
+    "uuid": "d460b157-39f9-41df-afde-81a7bcd4f9ce",
+    "mappings": [
+      {
+        "topic_id": "calculus",
+        "subtopic_id": "limits"
+      }
+    ]
+  },
+  {
+    "uuid": "d5238092-d043-4194-b94b-014c7031ca07",
+    "mappings": [
+      {
+        "topic_id": "coordinate-geometry",
+        "subtopic_id": "circles"
+      }
+    ]
+  },
+  {
+    "uuid": "d52d9aaf-7a44-41b9-b0dc-f62fecd830a8",
+    "mappings": [
+      {
+        "topic_id": "matrices-and-linear-algebra",
+        "subtopic_id": "determinants"
+      }
+    ]
+  },
+  {
+    "uuid": "d57979d5-21b6-4e80-b110-3781b8aa03a8",
+    "mappings": [
+      {
+        "topic_id": "functions",
+        "subtopic_id": "functional-equations"
+      }
+    ]
+  },
+  {
+    "uuid": "d7a63dfe-46ea-4055-947b-652d9dcade9d",
+    "mappings": [
+      {
+        "topic_id": "calculus",
+        "subtopic_id": "maxima-and-minima"
+      }
+    ]
+  },
+  {
+    "uuid": "d862bb09-28df-4673-9a6c-3c060778f4d9",
+    "mappings": [
+      {
+        "topic_id": "mathematical-optimization",
+        "subtopic_id": "algebraic-optimization"
+      }
+    ]
+  },
+  {
+    "uuid": "da6653f7-079a-4d54-88a1-1887536f386c",
+    "mappings": [
+      {
+        "topic_id": "complex-numbers",
+        "subtopic_id": "modulus-and-argument"
+      }
+    ]
+  },
+  {
+    "uuid": "db6f57d3-527d-43ed-a3fe-980403facc2f",
+    "mappings": [
+      {
+        "topic_id": "calculus",
+        "subtopic_id": "differential-equations"
+      }
+    ]
+  },
+  {
+    "uuid": "dcf3f2c3-9a33-49e4-bef0-f053d2a695f4",
+    "mappings": [
+      {
+        "topic_id": "probability",
+        "subtopic_id": "counting-based-probability"
+      }
+    ]
+  },
+  {
+    "uuid": "dda179d3-94d0-4b5d-ac20-6f5df556e2d2",
+    "mappings": [
+      {
+        "topic_id": "coordinate-geometry",
+        "subtopic_id": "locus"
+      }
+    ]
+  },
+  {
+    "uuid": "ddeef59d-502f-4258-9392-5bb3fc2a054b",
+    "mappings": [
+      {
+        "topic_id": "geometry",
+        "subtopic_id": "mensuration"
+      }
+    ]
+  },
+  {
+    "uuid": "de0c4d84-794d-420e-aa8a-0cbe4de8d352",
+    "mappings": [
+      {
+        "topic_id": "discrete-mathematics",
+        "subtopic_id": "sets"
+      }
+    ]
+  },
+  {
+    "uuid": "de7169c5-167b-4723-8284-4364f77658ed",
+    "mappings": [
+      {
+        "topic_id": "sequences-and-series",
+        "subtopic_id": "infinite-series"
+      }
+    ]
+  },
+  {
+    "uuid": "dfde3959-b4c3-4250-b697-846e92117eaf",
+    "mappings": [
+      {
+        "topic_id": "calculus",
+        "subtopic_id": "definite-integrals"
+      }
+    ]
+  },
+  {
+    "uuid": "e11d77e9-52ad-4a36-911a-d190ea0772c7",
+    "mappings": [
+      {
+        "topic_id": "algebra",
+        "subtopic_id": "exponents-and-powers"
+      }
+    ]
+  },
+  {
+    "uuid": "e125adcb-a35f-4255-8493-8fa5ba0e04fa",
+    "mappings": [
+      {
+        "topic_id": "number-theory",
+        "subtopic_id": "diophantine-equations"
+      }
+    ]
+  },
+  {
+    "uuid": "e1c991db-35dd-4f16-8b29-41fb4416c9f7",
+    "mappings": [
+      {
+        "topic_id": "combinatorics",
+        "subtopic_id": "pigeonhole-principle"
+      }
+    ]
+  },
+  {
+    "uuid": "e1cd826f-40e3-4bdb-bb99-313c8f1d41ff",
+    "mappings": [
+      {
+        "topic_id": "trigonometry",
+        "subtopic_id": "trigonometric-equations"
+      }
+    ]
+  },
+  {
+    "uuid": "e2cd4e7f-e8df-46a0-882a-bbbdfe424767",
+    "mappings": [
+      {
+        "topic_id": "geometry",
+        "subtopic_id": "geometric-inequalities"
+      }
+    ]
+  },
+  {
+    "uuid": "e311f35a-e97a-4433-8f9f-5184026fedba",
+    "mappings": [
+      {
+        "topic_id": "algebra",
+        "subtopic_id": "polynomial-equations"
+      }
+    ]
+  },
+  {
+    "uuid": "e3de2f87-fa9a-46b3-84dc-c8d791ad21be",
+    "mappings": [
+      {
+        "topic_id": "calculus",
+        "subtopic_id": "sequences-and-series-limits"
+      }
+    ]
+  },
+  {
+    "uuid": "e596d045-af51-481d-8466-a0888258dab2",
+    "mappings": [
+      {
+        "topic_id": "mathematical-optimization",
+        "subtopic_id": "inequality-based-optimization"
+      }
+    ]
+  },
+  {
+    "uuid": "e5bcc078-718d-4c08-afcd-ab4d36abc694",
+    "mappings": [
+      {
+        "topic_id": "algebra",
+        "subtopic_id": "algebraic-identities"
+      }
+    ]
+  },
+  {
+    "uuid": "e600df42-4b48-4334-92ac-9eeb43a93364",
+    "mappings": [
+      {
+        "topic_id": "functions",
+        "subtopic_id": "functional-equations"
+      }
+    ]
+  },
+  {
+    "uuid": "e72fba2e-6f6e-470c-9158-60c376e28fbf",
+    "mappings": [
+      {
+        "topic_id": "matrices-and-linear-algebra",
+        "subtopic_id": "matrix-operations"
+      }
+    ]
+  },
+  {
+    "uuid": "e7b016db-3857-4204-a3ba-c296fa48b843",
+    "mappings": [
+      {
+        "topic_id": "combinatorics",
+        "subtopic_id": "combinations"
+      }
+    ]
+  },
+  {
+    "uuid": "e7bb3f70-700a-41fe-a5f1-90bc6c8cf889",
+    "mappings": [
+      {
+        "topic_id": "combinatorics",
+        "subtopic_id": "counting-with-restrictions"
+      }
+    ]
+  },
+  {
+    "uuid": "e81a4a53-b19d-47ed-921a-7127351e34cf",
+    "mappings": [
+      {
+        "topic_id": "algebra",
+        "subtopic_id": "inequalities"
+      }
+    ]
+  },
+  {
+    "uuid": "e9405236-835c-4297-927a-101f0c5c87fe",
+    "mappings": [
+      {
+        "topic_id": "coordinate-geometry",
+        "subtopic_id": "3d-coordinate-geometry"
+      }
+    ]
+  },
+  {
+    "uuid": "e94e9c33-5128-443c-82be-f9556723b9c7",
+    "mappings": [
+      {
+        "topic_id": "combinatorics",
+        "subtopic_id": "advanced-counting-problems"
+      }
+    ]
+  },
+  {
+    "uuid": "ea20103a-f672-4182-a433-748d2b0bcaff",
+    "mappings": [
+      {
+        "topic_id": "algebra",
+        "subtopic_id": "quadratic-equations"
+      }
+    ]
+  },
+  {
+    "uuid": "ea4259b4-603c-42c8-b029-aa3e65c6c159",
+    "mappings": [
+      {
+        "topic_id": "number-systems",
+        "subtopic_id": "number-representation-and-bases"
+      }
+    ]
+  },
+  {
+    "uuid": "ea4c33e7-98cb-4f2d-b23e-cd55d255d9ac",
+    "mappings": [
+      {
+        "topic_id": "calculus",
+        "subtopic_id": "limits"
+      }
+    ]
+  },
+  {
+    "uuid": "ea978e8a-eb37-4e53-aaca-a8be24207802",
+    "mappings": [
+      {
+        "topic_id": "functions",
+        "subtopic_id": "rational-functions"
+      }
+    ]
+  },
+  {
+    "uuid": "ead7dbeb-8034-497d-9366-627f6f75dba7",
+    "mappings": [
+      {
+        "topic_id": "number-systems",
+        "subtopic_id": "numerical-patterns"
+      }
+    ]
+  },
+  {
+    "uuid": "eb096e4f-0282-49a7-a175-72a99e45399c",
+    "mappings": [
+      {
+        "topic_id": "algebra",
+        "subtopic_id": "polynomial-equations"
+      }
+    ]
+  },
+  {
+    "uuid": "ed3ead34-b645-414a-ac54-bfee23bc5aed",
+    "mappings": [
+      {
+        "topic_id": "algebra",
+        "subtopic_id": "inequalities"
+      }
+    ]
+  },
+  {
+    "uuid": "ed658a90-28f3-47f0-a2a2-11b2c933c5d7",
+    "mappings": [
+      {
+        "topic_id": "algebra",
+        "subtopic_id": "polynomial-equations"
+      }
+    ]
+  },
+  {
+    "uuid": "edb99be6-1f19-4f52-bd00-5d8edd66ca43",
+    "mappings": [
+      {
+        "topic_id": "number-systems",
+        "subtopic_id": "remainders"
+      }
+    ]
+  },
+  {
+    "uuid": "ee3948a8-eee1-47da-8be2-f5ec9f516548",
+    "mappings": [
+      {
+        "topic_id": "number-systems",
+        "subtopic_id": "divisibility"
+      }
+    ]
+  },
+  {
+    "uuid": "ef8e7ec8-23ee-40be-a83c-0c656b96a0c8",
+    "mappings": [
+      {
+        "topic_id": "probability",
+        "subtopic_id": "basic-probability"
+      }
+    ]
+  },
+  {
+    "uuid": "eff3dc2a-26f8-4d84-a613-3a71a6b079a2",
+    "mappings": [
+      {
+        "topic_id": "complex-numbers",
+        "subtopic_id": "complex-equations"
+      }
+    ]
+  },
+  {
+    "uuid": "f13b1fdf-9c10-4470-809e-a89be50897d0",
+    "mappings": [
+      {
+        "topic_id": "sequences-and-series",
+        "subtopic_id": "infinite-series"
+      }
+    ]
+  },
+  {
+    "uuid": "f206f3c8-ce58-470e-a8ae-4112544d3134",
+    "mappings": [
+      {
+        "topic_id": "discrete-mathematics",
+        "subtopic_id": "graph-theory"
+      }
+    ]
+  },
+  {
+    "uuid": "f2ec7982-0e06-4940-8632-21edcaf83a41",
+    "mappings": [
+      {
+        "topic_id": "geometry",
+        "subtopic_id": "geometric-inequalities"
+      }
+    ]
+  },
+  {
+    "uuid": "f3e3dae8-5639-44b2-8827-5d26757b23b0",
+    "mappings": [
+      {
+        "topic_id": "discrete-mathematics",
+        "subtopic_id": "graph-theory"
+      }
+    ]
+  },
+  {
+    "uuid": "f403d62a-e26e-4945-a548-bc6850b52985",
+    "mappings": [
+      {
+        "topic_id": "sequences-and-series",
+        "subtopic_id": "series"
+      }
+    ]
+  },
+  {
+    "uuid": "f460d50a-37d0-4bdc-83ed-a7a4a0c1c30d",
+    "mappings": [
+      {
+        "topic_id": "combinatorics",
+        "subtopic_id": "binomial-theorem"
+      }
+    ]
+  },
+  {
+    "uuid": "f5bee8a4-f5ae-4aee-8ed4-38789a5a51cf",
+    "mappings": [
+      {
+        "topic_id": "calculus",
+        "subtopic_id": "continuity"
+      }
+    ]
+  },
+  {
+    "uuid": "f62d3a21-1a47-48d0-88ed-5f5c0de2d483",
+    "mappings": [
+      {
+        "topic_id": "calculus",
+        "subtopic_id": "limits"
+      }
+    ]
+  },
+  {
+    "uuid": "f63cc445-0438-4c8a-b3af-a111b2617a3d",
+    "mappings": [
+      {
+        "topic_id": "calculus",
+        "subtopic_id": "mean-value-theorems"
+      }
+    ]
+  },
+  {
+    "uuid": "f663c9dc-88dd-436a-96c2-f3258841d545",
+    "mappings": [
+      {
+        "topic_id": "sequences-and-series",
+        "subtopic_id": "series"
+      }
+    ]
+  },
+  {
+    "uuid": "f6d0b94e-dd79-4d76-a7d0-25449d57ce43",
+    "mappings": [
+      {
+        "topic_id": "discrete-mathematics",
+        "subtopic_id": "recurrence-relations"
+      }
+    ]
+  },
+  {
+    "uuid": "f6ef5795-8ff9-49ed-9817-5291a5d877f0",
+    "mappings": [
+      {
+        "topic_id": "calculus",
+        "subtopic_id": "limits"
+      }
+    ]
+  },
+  {
+    "uuid": "f7071535-44e0-4e64-b006-b1495062c372",
+    "mappings": [
+      {
+        "topic_id": "trigonometry",
+        "subtopic_id": "trigonometry-of-triangles"
+      }
+    ]
+  },
+  {
+    "uuid": "f73480c0-dbd6-4176-a5fd-8f16a5143260",
+    "mappings": [
+      {
+        "topic_id": "coordinate-geometry",
+        "subtopic_id": "locus"
+      }
+    ]
+  },
+  {
+    "uuid": "f77f3da4-36d8-4f99-a6e5-2ed375d5cd26",
+    "mappings": [
+      {
+        "topic_id": "functions",
+        "subtopic_id": "piecewise-functions"
+      }
+    ]
+  },
+  {
+    "uuid": "f7d24f06-7099-494d-84a4-703d9f70ebf7",
+    "mappings": [
+      {
+        "topic_id": "combinatorics",
+        "subtopic_id": "binomial-theorem"
+      }
+    ]
+  },
+  {
+    "uuid": "f9424095-d095-41f5-9468-c2df87bd2bbb",
+    "mappings": [
+      {
+        "topic_id": "complex-numbers",
+        "subtopic_id": "complex-equations"
+      }
+    ]
+  },
+  {
+    "uuid": "f94e4305-8131-46c9-b7e5-49ee6e25d3f8",
+    "mappings": [
+      {
+        "topic_id": "functions",
+        "subtopic_id": "polynomial-functions"
+      }
+    ]
+  },
+  {
+    "uuid": "f9d944c9-1657-449f-a56c-737c650c0bec",
+    "mappings": [
+      {
+        "topic_id": "coordinate-geometry",
+        "subtopic_id": "locus"
+      }
+    ]
+  },
+  {
+    "uuid": "fa012f61-a249-44be-bed5-51a63a2b41d9",
+    "mappings": [
+      {
+        "topic_id": "arithmetic",
+        "subtopic_id": "compound-interest"
+      }
+    ]
+  },
+  {
+    "uuid": "fa342b5c-5bd0-46ac-b13e-6842ef5dfc08",
+    "mappings": [
+      {
+        "topic_id": "probability",
+        "subtopic_id": "bayes-theorem"
+      }
+    ]
+  },
+  {
+    "uuid": "fa487851-2200-447a-9d81-18fa597f74df",
+    "mappings": [
+      {
+        "topic_id": "algebra",
+        "subtopic_id": "absolute-value"
+      }
+    ]
+  },
+  {
+    "uuid": "fb891e3d-da12-4b8e-9c21-21a895ae9571",
+    "mappings": [
+      {
+        "topic_id": "geometry",
+        "subtopic_id": "geometric-inequalities"
+      }
+    ]
+  },
+  {
+    "uuid": "fc6baaee-5c80-48a9-a774-86ab72b3aa16",
+    "mappings": [
+      {
+        "topic_id": "geometry",
+        "subtopic_id": "areas"
+      }
+    ]
+  },
+  {
+    "uuid": "fddb51a5-d5c2-4c92-bdbc-036dd291016e",
+    "mappings": [
+      {
+        "topic_id": "geometry",
+        "subtopic_id": "geometric-proofs"
+      }
+    ]
+  },
+  {
+    "uuid": "fe1381b2-3b67-41d2-b48a-689bd6ce22da",
+    "mappings": [
+      {
+        "topic_id": "trigonometry",
+        "subtopic_id": "inverse-trigonometric-functions"
+      }
+    ]
+  },
+  {
+    "uuid": "fec10e38-c80c-4630-bdea-f3e686d46a2e",
+    "mappings": [
+      {
+        "topic_id": "discrete-mathematics",
+        "subtopic_id": "graph-theory"
+      }
+    ]
+  },
+  {
+    "uuid": "fee075c9-f228-4b46-9cc7-61d918ea6474",
+    "mappings": [
+      {
+        "topic_id": "calculus",
+        "subtopic_id": "derivatives"
+      }
+    ]
+  },
+  {
+    "uuid": "feed78c1-4725-4ae5-8e72-c75b21d132af",
+    "mappings": [
+      {
+        "topic_id": "number-theory",
+        "subtopic_id": "diophantine-equations"
+      }
+    ]
+  },
+  {
+    "uuid": "ff390282-2a17-4ce9-a644-eeca0ce75676",
+    "mappings": [
+      {
+        "topic_id": "coordinate-geometry",
+        "subtopic_id": "circles"
+      }
+    ]
+  }
+]

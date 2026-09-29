@@ -83,12 +83,11 @@
       <section class="panel editor-panel">
         <div class="panel-head"><span>EDITOR</span><span id="editorType" class="panel-type">—</span></div>
         <div class="editor-scroll">
-          <div class="field"><label>QUESTION</label><textarea id="question"></textarea></div>
+          <div class="field"><label>QUESTION CONTENT</label><div id="questionEditor"></div></div>
           <div class="field" id="optionsField"><label>OPTIONS</label>
             <div id="options"></div>
           </div>
-          <div class="field"><label>SOLUTION</label><textarea id="solution"
-              placeholder="Solution explanation…"></textarea></div>
+          <div class="field"><label>SOLUTION</label><div id="solutionEditor"></div></div>
 
           <div class="meta-grid">
             <div class="field"><label>DIFFICULTY</label><select id="difficulty">
@@ -218,7 +217,7 @@
           class="btn primary" id="applyFiltersBtn">Apply Filters</button></div>
     </div>
   </div>
-  <script src="/app.js"></script>
+  <script type="module" src="/src/admin.js"></script>
 </body>
 
 </html>

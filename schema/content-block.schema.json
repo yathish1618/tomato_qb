@@ -1,0 +1,125 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://tomato-qb.local/schema/content-block.schema.json",
+  "title": "Tomato Question Content Blocks",
+  "type": "array",
+  "items": { "$ref": "#/definitions/block" },
+  "definitions": {
+    "inline": {
+      "oneOf": [
+        {
+          "type": "object",
+          "required": ["type", "text"],
+          "properties": {
+            "type": { "const": "text" },
+            "text": { "type": "string" },
+            "marks": {
+              "type": "array",
+              "items": { "enum": ["bold", "italic", "underline", "strikethrough"] },
+              "uniqueItems": true
+            }
+          },
+          "additionalProperties": false
+        },
+        {
+          "type": "object",
+          "required": ["type", "latex"],
+          "properties": {
+            "type": { "const": "math" },
+            "latex": { "type": "string" },
+            "display": { "type": "boolean", "default": false }
+          },
+          "additionalProperties": false
+        }
+      ]
+    },
+    "paragraph": {
+      "type": "object",
+      "required": ["type", "inlines"],
+      "properties": {
+        "type": { "const": "paragraph" },
+        "inlines": { "type": "array", "items": { "$ref": "#/definitions/inline" } }
+      },
+      "additionalProperties": false
+    },
+    "list": {
+      "type": "object",
+      "required": ["type", "items"],
+      "properties": {
+        "type": { "enum": ["bullet_list", "numbered_list"] },
+        "items": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": ["inlines"],
+            "properties": {
+              "inlines": { "type": "array", "items": { "$ref": "#/definitions/inline" } }
+            },
+            "additionalProperties": false
+          }
+        }
+      },
+      "additionalProperties": false
+    },
+    "table": {
+      "type": "object",
+      "required": ["type", "rows"],
+      "properties": {
+        "type": { "const": "table" },
+        "header_rows": { "type": "integer", "minimum": 0, "default": 0 },
+        "rows": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": ["cells"],
+            "properties": {
+              "cells": {
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "required": ["content"],
+                  "properties": {
+                    "content": { "type": "array", "items": { "$ref": "#/definitions/block" } }
+                  },
+                  "additionalProperties": false
+                }
+              }
+            },
+            "additionalProperties": false
+          }
+        }
+      },
+      "additionalProperties": false
+    },
+    "figure": {
+      "type": "object",
+      "required": ["type", "src"],
+      "properties": {
+        "type": { "const": "figure" },
+        "src": { "type": "string" },
+        "alt": { "type": "string" },
+        "caption": { "type": "string" }
+      },
+      "additionalProperties": false
+    },
+    "math_block": {
+      "type": "object",
+      "required": ["type", "latex"],
+      "properties": {
+        "type": { "const": "math" },
+        "latex": { "type": "string" },
+        "display": { "const": true }
+      },
+      "additionalProperties": false
+    },
+    "block": {
+      "oneOf": [
+        { "$ref": "#/definitions/paragraph" },
+        { "$ref": "#/definitions/list" },
+        { "$ref": "#/definitions/table" },
+        { "$ref": "#/definitions/figure" },
+        { "$ref": "#/definitions/math_block" }
+      ]
+    }
+  }
+}

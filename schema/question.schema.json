@@ -1,0 +1,130 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://tomato-qb.local/schema/question.schema.json",
+  "title": "Tomato Question",
+  "type": "object",
+  "required": [
+    "id",
+    "type",
+    "content",
+    "answer",
+    "marks",
+    "group_id",
+    "source",
+    "review_status",
+    "publication_status"
+  ],
+  "properties": {
+    "id": {
+      "type": "string",
+      "format": "uuid"
+    },
+    "type": {
+      "enum": [
+        "MCQ",
+        "SUBJECTIVE"
+      ]
+    },
+    "content": {
+      "$ref": "content-block.schema.json"
+    },
+    "options": {
+      "type": "object",
+      "propertyNames": {
+        "enum": [
+          "A",
+          "B",
+          "C",
+          "D"
+        ]
+      },
+      "additionalProperties": {
+        "$ref": "content-block.schema.json"
+      }
+    },
+    "answer": {
+      "oneOf": [
+        {
+          "type": "null"
+        },
+        {
+          "type": "string"
+        },
+        {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "minItems": 1,
+          "uniqueItems": true
+        }
+      ]
+    },
+    "solution": {
+      "oneOf": [
+        {
+          "type": "null"
+        },
+        {
+          "$ref": "content-block.schema.json"
+        }
+      ]
+    },
+    "figures": {
+      "type": "array"
+    },
+    "group_id": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "format": "uuid"
+    },
+    "marks": {
+      "type": [
+        "number",
+        "null"
+      ]
+    },
+    "grade": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "difficulty": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "tags": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "source": {
+      "type": "object"
+    },
+    "review_status": {
+      "type": "string"
+    },
+    "publication_status": {
+      "type": "string"
+    },
+    "created_at": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "updated_at": {
+      "type": [
+        "string",
+        "null"
+      ]
+    }
+  },
+  "additionalProperties": true
+}

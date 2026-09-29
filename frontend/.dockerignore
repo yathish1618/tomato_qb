@@ -1,0 +1,13 @@
+.git
+.github
+
+__pycache__
+*.py[cod]
+
+frontend/node_modules
+frontend/dist
+
+data/question_bank.db-shm
+data/question_bank.db-wal
+
+*.zip

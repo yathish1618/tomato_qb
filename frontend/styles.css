@@ -1197,3 +1197,124 @@ select:focus {
 .preview-check-result.incorrect {
     color: var(--red);
 }
+
+/* Block editor */
+.content-editor-shell {
+    border: 1px solid var(--line);
+    border-radius: var(--rs);
+    background: #fff;
+    overflow: hidden;
+}
+.content-editor-shell.compact { border-radius: 8px; }
+.content-editor-toolbar {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4px;
+    padding: 7px;
+    background: var(--bg);
+    border-bottom: 1px solid var(--line);
+}
+.content-tool-btn {
+    width: 31px;
+    height: 29px;
+    border: 1px solid var(--line);
+    border-radius: 7px;
+    background: #fff;
+    color: var(--text2);
+    cursor: pointer;
+    font-size: 12px;
+    font-weight: 700;
+}
+.content-tool-btn:hover { color: var(--text); border-color: #cfcfca; }
+.content-editor-input {
+    min-height: 150px;
+    padding: 13px 14px;
+    outline: none;
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 16px;
+    line-height: 1.65;
+}
+.content-editor-shell.compact .content-editor-input {
+    min-height: 44px;
+    padding: 8px 10px;
+    font-size: 14px;
+}
+.content-editor-input:empty::before {
+    content: attr(data-placeholder);
+    color: #aaa;
+}
+.content-editor-input table,
+.content-editor-shell table { border-collapse: collapse; width: 100%; margin: 10px 0; }
+.content-editor-input td,
+.content-editor-input th { border: 1px solid var(--line); padding: 7px 9px; min-width: 60px; }
+.lexical-math-node {
+    display: inline-block;
+    padding: 1px 4px;
+    border-radius: 5px;
+    background: #f7f7f3;
+    border: 1px dashed #d8d8d0;
+    cursor: pointer;
+}
+.lexical-math-node.display { display: block; margin: 8px 0; }
+.math-editor-modal {
+    position: fixed;
+    inset: 0;
+    z-index: 1000;
+    display: grid;
+    place-items: center;
+    background: rgba(0,0,0,.22);
+}
+.math-editor-modal[hidden] { display: none; }
+.math-editor-dialog {
+    width: min(620px, calc(100vw - 32px));
+    background: #fff;
+    border: 1px solid var(--line);
+    border-radius: 14px;
+    box-shadow: 0 20px 60px rgba(0,0,0,.15);
+    padding: 16px;
+}
+.math-editor-head { display:flex; align-items:center; justify-content:space-between; margin-bottom: 12px; }
+.math-editor-close { border:0; background:transparent; font-size:22px; color:#777; cursor:pointer; }
+.math-editor-field { width:100%; font-size:24px; min-height:54px; border:1px solid var(--line); border-radius:9px; padding:9px 12px; }
+.math-editor-actions { display:flex; justify-content:flex-end; gap:8px; margin-top:12px; }
+
+.content-paragraph { margin: 0 0 10px; }
+.content-list { margin: 0 0 12px 24px; }
+.content-table-wrap { overflow-x:auto; }
+.content-table { border-collapse:collapse; width:100%; }
+.content-table td, .content-table th { border:1px solid var(--line); padding:7px 9px; vertical-align:top; }
+.content-table p { margin:0; }
+
+.preview-body .content-paragraph { margin: 0 0 14px; }
+.preview-body .content-list { margin: 0 0 15px 24px; }
+.preview-body .content-table { margin: 14px 0; }
+
+.lexical-figure-node {
+    margin: 12px 0;
+    text-align: center;
+    border: 1px dashed var(--line);
+    border-radius: var(--rs);
+    padding: 8px;
+    background: var(--bg);
+    cursor: pointer;
+}
+.lexical-figure-node img {
+    display: block;
+    max-width: 100%;
+    max-height: 360px;
+    margin: 0 auto;
+    object-fit: contain;
+}
+.lexical-figure-node figcaption {
+    margin-top: 7px;
+    color: var(--muted);
+    font-size: 12px;
+}
+.content-editor-shell.compact .content-editor-toolbar {
+    padding: 4px 6px;
+}
+.content-editor-shell.compact .content-tool-btn {
+    width: 27px;
+    height: 26px;
+    font-size: 11px;
+}

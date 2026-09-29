@@ -1,0 +1,78 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://tomato-qb.local/schema/group.schema.json",
+  "title": "Tomato Question Group",
+  "type": "object",
+  "required": [
+    "id",
+    "type",
+    "content",
+    "children",
+    "marks",
+    "source",
+    "review_status",
+    "publication_status"
+  ],
+  "properties": {
+    "id": {
+      "type": "string",
+      "format": "uuid"
+    },
+    "type": {
+      "const": "GROUP"
+    },
+    "content": {
+      "$ref": "content-block.schema.json"
+    },
+    "children": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "format": "uuid"
+      }
+    },
+    "marks": {
+      "type": [
+        "number",
+        "null"
+      ]
+    },
+    "figures": {
+      "type": "array"
+    },
+    "grade": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "tags": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "source": {
+      "type": "object"
+    },
+    "review_status": {
+      "type": "string"
+    },
+    "publication_status": {
+      "type": "string"
+    },
+    "created_at": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "updated_at": {
+      "type": [
+        "string",
+        "null"
+      ]
+    }
+  },
+  "additionalProperties": true
+}

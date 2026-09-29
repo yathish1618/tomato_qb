@@ -1,13 +1,17 @@
-# Root Python cache
+# Python
 /__pycache__/
+*.py[cod]
 
-# Images directly inside individual question folders i.e., source images
+# Frontend dependencies/build
+/frontend/node_modules/
+/frontend/dist/
+
+# Local SQLite runtime/database files
+# /data/question_bank.db
+/data/question_bank.db-shm
+/data/question_bank.db-wal
+
+# Images directly inside individual question folders
 /data/questions/*/*.png
 /data/questions/*/*.jpg
 /data/questions/*/*.jpeg
-/data/groups/*/*.png
-/data/groups/*/*.jpg
-/data/groups/*/*.jpeg
-
-# utility scripts
-/utils/
