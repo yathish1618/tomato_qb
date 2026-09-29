@@ -30,3 +30,6 @@ steps:
 
 images:
   - 'gcr.io/$PROJECT_ID/github.com/yathish1618/tomato_qb:$COMMIT_SHA'
+
+options:
+  logging: CLOUD_LOGGING_ONLY
