@@ -1,0 +1,132 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Bulk Operations - TOMATO</title>
+<link rel="stylesheet" href="/styles.css">
+<style>
+  .app-minimal { display:flex; flex-direction:column; height:100vh; }
+  .topbar-minimal { flex:none; background:var(--card); border-bottom:1px solid var(--line); padding:0 18px; height:64px; display:flex; justify-content:space-between; align-items:center; }
+  .main-content { flex:1; overflow:auto; padding:40px 20px 60px; display:flex; justify-content:center; }
+  .container { width:100%; max-width:980px; }
+  .page-header { margin-bottom:28px; }
+  .page-header h1 { font-size:24px; font-weight:800; letter-spacing:-.02em; }
+  .page-header p { color:var(--muted); font-size:14px; margin-top:6px; max-width:720px; line-height:1.5; }
+
+  .operations-grid { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:18px; }
+  .operation-card { appearance:none; width:100%; text-align:left; border:1px solid var(--line); border-radius:18px; background:#fff; padding:24px; min-height:190px; cursor:pointer; box-shadow:var(--shadow); transition:transform .15s ease, box-shadow .15s ease, border-color .15s ease; }
+  .operation-card:hover { transform:translateY(-2px); border-color:#d7d7d2; box-shadow:0 8px 26px rgba(0,0,0,.07); }
+  .operation-card:focus-visible { outline:2px solid var(--blue); outline-offset:3px; }
+  .operation-icon { width:42px; height:42px; border-radius:12px; display:flex; align-items:center; justify-content:center; background:var(--bg2); color:var(--text); margin-bottom:20px; }
+  .operation-title { font-size:18px; font-weight:750; margin-bottom:8px; }
+  .operation-copy { font-size:14px; line-height:1.5; color:var(--muted); }
+  .operation-action { margin-top:18px; font-size:13px; font-weight:700; color:var(--text2); }
+
+  .modal-mask { display:none; position:fixed; inset:0; z-index:100; background:rgba(0,0,0,.28); align-items:center; justify-content:center; padding:20px; }
+  .modal-mask.open { display:flex; }
+  .modal { width:min(520px,100%); background:#fff; border:1px solid var(--line); border-radius:16px; box-shadow:0 20px 60px rgba(0,0,0,.16); overflow:hidden; }
+  .modal-head { padding:20px 22px; border-bottom:1px solid var(--line); display:flex; justify-content:space-between; gap:20px; align-items:flex-start; }
+  .modal-head h3 { font-size:17px; font-weight:800; }
+  .modal-head p { margin-top:5px; color:var(--muted); font-size:13px; line-height:1.45; }
+  .modal-x { border:0; background:transparent; color:var(--muted); width:30px; height:30px; border-radius:8px; font-size:24px; cursor:pointer; }
+  .modal-x:hover { background:var(--bg2); color:var(--text); }
+  .modal-body { padding:22px; }
+  .file-picker { border:1px dashed #cfcfc9; border-radius:12px; padding:18px; background:var(--bg); }
+  .file-picker input[type=file] { display:block; width:100%; }
+  .file-name { margin-top:10px; font-size:13px; color:var(--muted); word-break:break-word; }
+  .warning { margin-top:14px; padding:12px 14px; border-radius:10px; background:var(--red-l); color:var(--red); font-size:13px; line-height:1.45; }
+  .result { margin-top:16px; display:none; }
+  .result.open { display:block; }
+  .result-label { font-size:12px; font-weight:700; text-transform:uppercase; letter-spacing:.05em; color:var(--muted); margin-bottom:7px; }
+  .result pre { margin:0; max-height:220px; overflow:auto; padding:12px; border-radius:10px; background:#181818; color:#f5f5f5; font:12px/1.45 ui-monospace,SFMono-Regular,Menlo,monospace; white-space:pre-wrap; }
+  .modal-foot { padding:16px 22px; border-top:1px solid var(--line); display:flex; justify-content:flex-end; gap:8px; }
+  .btn:disabled { opacity:.5; cursor:default; }
+
+  @media (max-width:700px) {
+    .operations-grid { grid-template-columns:1fr; }
+    .main-content { padding:28px 16px 48px; }
+  }
+</style>
+</head>
+<body>
+<div class="app-minimal">
+  <header class="topbar-minimal">
+    <div class="brand-wrap">
+      <div class="brand">TOMATO</div>
+      <div class="brand-sub">Question Bank CMS</div>
+    </div>
+    <div class="top-actions">
+      <button class="btn secondary" onclick="window.location.href='/cms'">‹ Back to Questions</button>
+    </div>
+  </header>
+
+  <main class="main-content">
+    <div class="container">
+      <div class="page-header">
+        <h1>Bulk Operations</h1>
+        <p>Run database-safe bulk utilities against a JSON question file. Ingest adds only new question UUIDs; delete removes questions identified by the JSON file.</p>
+      </div>
+
+      <div class="operations-grid">
+        <button class="operation-card" type="button" data-operation="ingest">
+          <div class="operation-icon" aria-hidden="true">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M12 3v12"></path><path d="m7 8 5-5 5 5"></path><path d="M4 15v4a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-4"></path>
+            </svg>
+          </div>
+          <div class="operation-title">Ingest New Questions from JSON</div>
+          <div class="operation-copy">Append new questions from a validated JSON export without overwriting existing questions or modifying your topic and collection catalog.</div>
+          <div class="operation-action">Choose JSON → Ingest</div>
+        </button>
+
+        <button class="operation-card" type="button" data-operation="delete">
+          <div class="operation-icon" aria-hidden="true">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M3 6h18"></path><path d="M8 6V4h8v2"></path><path d="m19 6-1 14H6L5 6"></path><path d="M10 11v5"></path><path d="M14 11v5"></path>
+            </svg>
+          </div>
+          <div class="operation-title">Delete Questions from JSON</div>
+          <div class="operation-copy">Remove exactly the questions whose UUIDs appear in the selected JSON, including their question-specific tag, topic, collection, group-child and FTS rows.</div>
+          <div class="operation-action">Choose JSON → Delete</div>
+        </button>
+      </div>
+    </div>
+  </main>
+</div>
+
+<div class="modal-mask" id="operationModal">
+  <div class="modal" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+    <div class="modal-head">
+      <div>
+        <h3 id="modalTitle">Bulk Operation</h3>
+        <p id="modalDescription"></p>
+      </div>
+      <button class="modal-x" id="modalClose" type="button" aria-label="Close">×</button>
+    </div>
+
+    <div class="modal-body">
+      <div class="file-picker">
+        <input id="jsonFile" type="file" accept=".json,application/json">
+        <div class="file-name" id="fileName">No file selected.</div>
+      </div>
+      <div class="warning" id="deleteWarning" style="display:none">
+        This is destructive for the questions listed in the JSON. Existing unrelated questions and catalog tables are not targeted.
+      </div>
+      <div class="result" id="resultBox">
+        <div class="result-label">Result</div>
+        <pre id="resultText"></pre>
+      </div>
+    </div>
+
+    <div class="modal-foot">
+      <button class="btn secondary" id="modalCancel" type="button">Cancel</button>
+      <button class="btn primary" id="executeBtn" type="button" disabled>Execute</button>
+    </div>
+  </div>
+</div>
+
+<div id="toast" class="toast"></div>
+<script type="module" src="/src/bulk-operations.js"></script>
+</body>
+</html>

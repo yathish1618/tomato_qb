@@ -5,8 +5,8 @@ from datetime import datetime
 
 timestamp = datetime.now().strftime("%Y-%m-%d_%H-%M-%S")
 
-PROJECT_DIR = Path("../tomato_qb2")
-OUTPUT_ZIP = Path(f"../tomato_qb2_{timestamp}.zip")
+PROJECT_DIR = Path("../tomato_qb")
+OUTPUT_ZIP = Path(f"../tomato_qb_{timestamp}.zip")
 
 EXCLUDED_DIRS = {"questions", "groups", ".git", "node_modules"}
 

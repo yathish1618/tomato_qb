@@ -1,274 +1,245 @@
-from pathlib import Path
-import json
 import csv
+import sqlite3
+from pathlib import Path
+from datetime import datetime
+import shutil
 
 
-def get_unique_question_types(questions_dir="data/questions"):
-    types = set()
+# ============================================================
+# CONFIGURATION
+# ============================================================
 
-    for question_file in Path(questions_dir).glob("*/question.json"):
-        try:
-            with question_file.open("r", encoding="utf-8") as f:
-                data = json.load(f)
+DB_PATH = Path(r"C:\xampp\htdocs\tomato_qb\data\question_bank.db")
+CSV_PATH = Path(r"C:\xampp\htdocs\tomato_qb\topic_tagging.csv")
 
-            q_type = data.get("type")
-            if q_type:
-                types.add(q_type)
-
-        except (json.JSONDecodeError, OSError) as e:
-            print(f"Skipping {question_file}: {e}")
-
-    return sorted(types)
-
-def get_unique_tags(questions_dir="data/questions"):
-    tags = set()
-
-    for question_file in Path(questions_dir).glob("*/question.json"):
-        try:
-            with question_file.open("r", encoding="utf-8") as f:
-                data = json.load(f)
-
-            for tag in data.get("tags", []) or []:
-                if tag:
-                    tags.add(tag)
-
-        except (json.JSONDecodeError, OSError) as e:
-            print(f"Skipping {question_file}: {e}")
-
-    return sorted(tags)
+# Create a backup before making any changes
+CREATE_BACKUP = True
 
 
-def update_question_collections_from_tags(
-    tags,
-    questions_dir="data/questions",
-    mapping_file="data/mappings/question_collections.json",
-):
-    questions_dir = Path(questions_dir)
-    mapping_file = Path(mapping_file)
+# ============================================================
+# MAIN
+# ============================================================
 
-    # Load existing collection mappings
-    with mapping_file.open("r", encoding="utf-8") as f:
-        data = json.load(f)
+def tag_questions_from_csv():
 
-    mappings = data.setdefault("mappings", [])
+    if not DB_PATH.exists():
+        raise FileNotFoundError(f"SQLite database not found: {DB_PATH}")
 
-    # UUID -> mapping entry for quick lookup
-    mapping_by_uuid = {
-        item["uuid"]: item
-        for item in mappings
-        if item.get("uuid")
-    }
+    if not CSV_PATH.exists():
+        raise FileNotFoundError(f"CSV file not found: {CSV_PATH}")
 
-    updated = 0
+    # --------------------------------------------------------
+    # Backup database
+    # --------------------------------------------------------
 
-    for tag in tags:
-        for question_file in questions_dir.glob("*/question.json"):
-            try:
-                with question_file.open("r", encoding="utf-8") as f:
-                    question = json.load(f)
+    if CREATE_BACKUP:
+        timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
+        backup_path = DB_PATH.with_name(
+            f"{DB_PATH.stem}_backup_{timestamp}{DB_PATH.suffix}"
+        )
 
-                question_tags = question.get("tags", []) or []
+        shutil.copy2(DB_PATH, backup_path)
+        print(f"Database backup created:")
+        print(f"  {backup_path}")
+        print()
 
-                if tag not in question_tags:
-                    continue
+    # --------------------------------------------------------
+    # Read CSV
+    # --------------------------------------------------------
 
-                uuid = question.get("id")
-                if not uuid:
-                    continue
+    mappings = []
 
-                # Create mapping entry if it doesn't exist
-                if uuid not in mapping_by_uuid:
-                    entry = {
-                        "uuid": uuid,
-                        "mappings": []
-                    }
-                    mappings.append(entry)
-                    mapping_by_uuid[uuid] = entry
+    with open(CSV_PATH, "r", encoding="utf-8-sig", newline="") as f:
+        reader = csv.reader(f)
 
-                entry = mapping_by_uuid[uuid]
-                q_mappings = entry.setdefault("mappings", [])
+        header = next(reader, None)
 
-                # Check whether this exact ISI → tag mapping already exists
-                existing = next(
-                    (
-                        m for m in q_mappings
-                        if m.get("collection_id") == "isi"
-                        and m.get("set_id") == tag
-                    ),
-                    None
+        if header is None:
+            raise ValueError("CSV is empty.")
+
+        for row_number, row in enumerate(reader, start=2):
+
+            if len(row) != 2:
+                raise ValueError(
+                    f"CSV row {row_number} must contain exactly 2 columns. "
+                    f"Found {len(row)}."
                 )
 
-                if not existing:
-                    q_mappings.append({
-                        "collection_id": "isi",
-                        "set_id": tag
-                    })
-                    updated += 1
+            tag_pair = row[0].strip()
+            topic_pair = row[1].strip()
 
-            except (json.JSONDecodeError, OSError) as e:
-                print(f"Skipping {question_file}: {e}")
+            tags = [x.strip() for x in tag_pair.split("|")]
+            topic_ids = [x.strip() for x in topic_pair.split("|")]
 
-    # Save
-    with mapping_file.open("w", encoding="utf-8") as f:
-        json.dump(data, f, ensure_ascii=False, indent=2)
-        f.write("\n")
+            if len(tags) != 2:
+                raise ValueError(
+                    f"CSV row {row_number}: expected two tags separated by '|'. "
+                    f"Got: {tag_pair!r}"
+                )
 
-    print(f"Added {updated} collection mappings.")
+            if len(topic_ids) != 2:
+                raise ValueError(
+                    f"CSV row {row_number}: expected topic_id|subtopic_id. "
+                    f"Got: {topic_pair!r}"
+                )
 
+            tag1, tag2 = tags
+            topic_id, subtopic_id = topic_ids
 
+            if not tag1 or not tag2:
+                raise ValueError(
+                    f"CSV row {row_number}: tags cannot be empty."
+                )
 
-def update_question_topics_from_json(
-    input_json,
-    mapping_file="data/mappings/question_topics.json",
-):
-    input_json = Path(input_json)
-    mapping_file = Path(mapping_file)
+            if not topic_id or not subtopic_id:
+                raise ValueError(
+                    f"CSV row {row_number}: topic_id and subtopic_id cannot be empty."
+                )
 
-    # Input format:
-    # [
-    #   {
-    #     "uuid": "...",
-    #     "mappings": [...]
-    #   },
-    #   {
-    #     "uuid": "...",
-    #     "mappings": null
-    #   }
-    # ]
+            mappings.append({
+                "row": row_number,
+                "tag1": tag1,
+                "tag2": tag2,
+                "topic_id": topic_id,
+                "subtopic_id": subtopic_id,
+            })
 
-    with input_json.open("r", encoding="utf-8") as f:
-        incoming = json.load(f)
+    print(f"Loaded {len(mappings)} CSV mappings.")
+    print()
 
-    if not isinstance(incoming, list):
-        raise ValueError("Input JSON must be a list of UUID mapping objects.")
+    # --------------------------------------------------------
+    # Connect to SQLite
+    # --------------------------------------------------------
 
-    # Load existing canonical mapping file.
-    if mapping_file.exists():
-        with mapping_file.open("r", encoding="utf-8") as f:
-            existing_data = json.load(f)
-    else:
-        existing_data = {"mappings": []}
+    conn = sqlite3.connect(DB_PATH)
 
-    if not isinstance(existing_data, dict):
-        raise ValueError("question_topics.json must contain an object.")
+    try:
+        conn.execute("PRAGMA foreign_keys = ON")
 
-    existing = existing_data.setdefault("mappings", [])
+        # Verify required tables exist
+        tables = {
+            row[0]
+            for row in conn.execute(
+                "SELECT name FROM sqlite_master WHERE type='table'"
+            )
+        }
 
-    # UUID -> existing entry
-    by_uuid = {}
+        required_tables = {"question_tags", "question_topics"}
 
-    for item in existing:
-        uuid = item.get("uuid")
-        if uuid:
-            by_uuid[uuid] = item
+        missing = required_tables - tables
 
-    seen = set()
-    updated = 0
-
-    for item in incoming:
-        uuid = item.get("uuid")
-
-        if not uuid:
-            raise ValueError("Encountered an input record without a UUID.")
-
-        if uuid in seen:
-            raise ValueError(f"Duplicate UUID in input JSON: {uuid}")
-
-        seen.add(uuid)
-
-        # IMPORTANT:
-        # null means explicitly unmapped.
-        mappings = item.get("mappings")
-        if mappings is None:
-            mappings = []
-
-        if not isinstance(mappings, list):
-            raise ValueError(
-                f"Invalid mappings for UUID {uuid}: expected list or null."
+        if missing:
+            raise RuntimeError(
+                "Missing required SQLite table(s): "
+                + ", ".join(sorted(missing))
             )
 
-        if uuid in by_uuid:
-            # Replace existing mapping completely.
-            by_uuid[uuid]["mappings"] = mappings
-        else:
-            new_entry = {
-                "uuid": uuid,
-                "mappings": mappings,
-            }
-            existing.append(new_entry)
-            by_uuid[uuid] = new_entry
+        total_matched = 0
+        total_inserted = 0
 
-        updated += 1
+        # ----------------------------------------------------
+        # Process each CSV row
+        # ----------------------------------------------------
 
-    # Write canonical file.
-    with mapping_file.open("w", encoding="utf-8") as f:
-        json.dump(existing_data, f, ensure_ascii=False, indent=2)
-        f.write("\n")
+        for mapping in mappings:
 
-    print(f"Updated {updated} UUID mappings.")
+            tag1 = mapping["tag1"]
+            tag2 = mapping["tag2"]
+            topic_id = mapping["topic_id"]
+            subtopic_id = mapping["subtopic_id"]
+
+            # Find questions that contain BOTH tags.
+            #
+            # COUNT(DISTINCT tag) = 2 ensures that both tags
+            # are present on the same question.
+            #
+            # Exact tag matching is intentional.
+            #
+
+            matched_questions = conn.execute(
+                """
+                SELECT question_id
+                FROM question_tags
+                WHERE tag IN (?, ?)
+                GROUP BY question_id
+                HAVING COUNT(DISTINCT tag) = 2
+                """,
+                (tag1, tag2)
+            ).fetchall()
+
+            question_ids = [row[0] for row in matched_questions]
+
+            total_matched += len(question_ids)
+
+            inserted_for_row = 0
+
+            for question_id in question_ids:
+
+                # Insert only if this exact mapping does not
+                # already exist.
+
+                cursor = conn.execute(
+                    """
+                    INSERT INTO question_topics
+                        (question_id, topic_id, subtopic_id)
+                    SELECT ?, ?, ?
+                    WHERE NOT EXISTS (
+                        SELECT 1
+                        FROM question_topics
+                        WHERE question_id = ?
+                          AND topic_id = ?
+                          AND subtopic_id = ?
+                    )
+                    """,
+                    (
+                        question_id,
+                        topic_id,
+                        subtopic_id,
+                        question_id,
+                        topic_id,
+                        subtopic_id,
+                    )
+                )
+
+                if cursor.rowcount == 1:
+                    inserted_for_row += 1
+
+            total_inserted += inserted_for_row
+
+            print(
+                f"{tag1} + {tag2}"
+                f"  →  {topic_id} / {subtopic_id}"
+            )
+
+            print(
+                f"    Questions matched: {len(question_ids):>4}"
+                f" | New mappings added: {inserted_for_row:>4}"
+            )
+
+        # ----------------------------------------------------
+        # Commit
+        # ----------------------------------------------------
+
+        conn.commit()
+
+        print()
+        print("=" * 65)
+        print("COMPLETED")
+        print("=" * 65)
+        print(f"CSV mappings processed : {len(mappings)}")
+        print(f"Questions matched      : {total_matched}")
+        print(f"New topic mappings     : {total_inserted}")
+        print()
+
+    except Exception:
+        conn.rollback()
+        print()
+        print("ERROR: No changes were committed.")
+        raise
+
+    finally:
+        conn.close()
 
 
-
-def export_unmapped_collection_questions(
-    questions_dir="data/questions",
-    mapping_file="data/mappings/question_collections.json",
-    output_file="utils/unmapped_questions.csv",
-):
-    with open(mapping_file, "r", encoding="utf-8") as f:
-        data = json.load(f)
-
-    mapped = {
-        item["uuid"]
-        for item in data.get("mappings", [])
-        if item.get("uuid") and item.get("mappings")
-    }
-
-    uuids = []
-
-    for path in Path(questions_dir).glob("*/question.json"):
-        with open(path, "r", encoding="utf-8") as f:
-            q = json.load(f)
-
-        uuid = q.get("id")
-        if uuid and uuid not in mapped:
-            uuids.append(uuid)
-
-    with open(output_file, "w", encoding="utf-8", newline="") as f:
-        writer = csv.writer(f)
-        writer.writerow(["uuid"])
-        writer.writerows([[uuid] for uuid in sorted(uuids)])
-
-    print(f"Exported {len(uuids)} unmapped UUIDs to {output_file}")
-
-# ts = ['bstat-bmath-uga-2015',
-# 'bstat-bmath-uga-2016',
-# 'bstat-bmath-uga-2017',
-# 'bstat-bmath-uga-2018',
-# 'bstat-bmath-uga-2019',
-# 'bstat-bmath-uga-2020',
-# 'bstat-bmath-uga-2021',
-# 'bstat-bmath-uga-2022',
-# 'bstat-bmath-uga-2023',
-# 'bstat-bmath-uga-2024','bstat-bmath-uga-2025',
-# 'bstat-bmath-uga-2026',
-# 'bstat-bmath-ugb-2015',
-# 'bstat-bmath-ugb-2016',
-# 'bstat-bmath-ugb-2017',
-# 'bstat-bmath-ugb-2018',
-# 'bstat-bmath-ugb-2019',
-# 'bstat-bmath-ugb-2020',
-# 'bstat-bmath-ugb-2021',
-# 'bstat-bmath-ugb-2022',
-# 'bstat-bmath-ugb-2023',
-# 'bstat-bmath-ugb-2024','bstat-bmath-ugb-2025',
-# 'bstat-bmath-ugb-2026']
-
-# update_question_collections_from_tags(ts)
-
-# print(get_unique_tags())
-
-update_question_topics_from_json(
-    "utils/topic_mapping.json"
-)
-
-# export_unmapped_collection_questions()
+if __name__ == "__main__":
+    tag_questions_from_csv()

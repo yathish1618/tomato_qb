@@ -95,7 +95,6 @@ function buildFilterControls() {
     topicCatalog.topics.map(t => `<option value="${escAttr(t.id)}">${esc(t.name)}</option>`).join('');
   updateFilterSetSelect(false);
   updateFilterSubtopicSelect(false);
-  buildBulkControls();
 }
 
 function updateFilterSetSelect(render = true) {
@@ -111,17 +110,6 @@ function updateFilterSubtopicSelect(render = true) {
   $('filterSubtopic').innerHTML = '<option value="">All Subtopics</option><option value="__UNMAPPED_SUBTOPIC__">Unmapped — No Subtopic</option>' +
     (t?.subtopics || []).map(s => `<option value="${escAttr(s.id)}">${esc(s.name)}</option>`).join('');
   if (render) resetAndLoadList();
-}
-
-function buildBulkControls() {
-  $('bulkCollection').innerHTML = '<option value="">Select collection…</option>' + catalog.collections.map(c => `<option value="${escAttr(c.id)}">${esc(c.name)}</option>`).join('');
-  updateBulkSetSelect();
-}
-
-function updateBulkSetSelect() {
-  const cid = $('bulkCollection').value;
-  const c = catalog.collections.find(x => x.id === cid);
-  $('bulkSet').innerHTML = '<option value="">Select set…</option>' + (c?.sets || []).map(s => `<option value="${escAttr(s.id)}">${esc(s.name)}</option>`).join('');
 }
 
 function resetAndLoadList() {
@@ -215,11 +203,12 @@ function syncRelationsFromUI() {
   current.topics = [...document.querySelectorAll('#topics .topic-row')].map(row => ({
     topic_id: row.querySelector('.topic-select')?.value || '',
     subtopic_id: row.querySelector('.subtopic-select')?.value || '',
-  })).filter(x => x.topic_id && x.subtopic_id);
+  }));
+
   current.collections = [...document.querySelectorAll('#collectionsList .collection-row')].map(row => ({
     collection_id: row.querySelector('.collection-select')?.value || '',
     set_id: row.querySelector('.set-select')?.value || '',
-  })).filter(x => x.collection_id && x.set_id);
+  }));
 }
 
 function destroyOptionEditors() {
@@ -380,6 +369,11 @@ function renderPreview() {
     preview.appendChild(solution);
   }
 
+    const uuidEl = document.createElement('div');
+    uuidEl.className = 'pv-uuid';
+    uuidEl.textContent = current.id || '';
+    preview.appendChild(uuidEl);
+
   typesetMath(preview);
 }
 
@@ -471,6 +465,8 @@ async function saveQuestion() {
   syncRelationsFromUI();
   const payload = {
     ...current,
+    topics: (current.topics || []).filter(x => x.topic_id && x.subtopic_id),
+    collections: (current.collections || []).filter(x => x.collection_id && x.set_id),
     content: contentEditor.getContent(),
     options: current.type === 'MCQ' ? Object.fromEntries(['A','B','C','D'].map(l => [l, optionEditors[l].getContent()])) : {},
     solution: solutionEditor.getContent(),
@@ -498,7 +494,153 @@ async function loadNextPage() {
   await loadQuestionPage(true);
 }
 
+
+const BULK_OPERATION_CONFIG = {
+  ingest: {
+    title: 'Ingest New Questions from JSON',
+    description: 'Choose the JSON export produced by the question scraper. The additive migration will skip UUIDs that already exist.',
+    endpoint: '/api/bulk/ingest-json',
+    button: 'Ingest Questions',
+  },
+  delete: {
+    title: 'Delete Questions from JSON',
+    description: 'Choose the JSON export containing the questions you want to remove from SQLite.',
+    endpoint: '/api/bulk/delete-json',
+    button: 'Delete Questions',
+  },
+};
+
+let activeBulkOperation = null;
+
+function openBulkOperations() {
+  document.body.classList.add('bulk-cms-open');
+  $('bulkOperationsView').hidden = false;
+}
+
+function closeBulkOperations() {
+  $('bulkOperationModal').classList.remove('open');
+  activeBulkOperation = null;
+  document.body.classList.remove('bulk-cms-open');
+  $('bulkOperationsView').hidden = true;
+  $('bulkJsonFile').value = '';
+  $('bulkFileName').textContent = 'No file selected.';
+  $('bulkResultBox').classList.remove('open');
+  $('bulkResultText').textContent = '';
+}
+
+function openBulkOperation(kind) {
+  const config = BULK_OPERATION_CONFIG[kind];
+  if (!config) return;
+
+  activeBulkOperation = kind;
+  $('bulkModalTitle').textContent = config.title;
+  $('bulkModalDescription').textContent = config.description;
+  $('bulkExecuteBtn').textContent = config.button;
+  $('bulkJsonFile').value = '';
+  $('bulkFileName').textContent = 'No file selected.';
+  $('bulkExecuteBtn').disabled = true;
+  $('bulkResultBox').classList.remove('open');
+  $('bulkResultText').textContent = '';
+  $('bulkDeleteWarning').style.display = kind === 'delete' ? 'block' : 'none';
+  $('bulkOperationModal').classList.add('open');
+}
+
+function closeBulkOperationModal() {
+  $('bulkOperationModal').classList.remove('open');
+  activeBulkOperation = null;
+}
+
+async function executeBulkOperation() {
+  if (!activeBulkOperation) return;
+
+  const file = $('bulkJsonFile').files[0];
+  if (!file) {
+    toast('Choose a JSON file first.', 'err');
+    return;
+  }
+
+  if (!file.name.toLowerCase().endsWith('.json')) {
+    toast('Please choose a .json file.', 'err');
+    return;
+  }
+
+  if (activeBulkOperation === 'delete') {
+    const confirmed = window.confirm(
+      `Delete the questions listed in "${file.name}" from the SQLite database? This cannot be undone except by restoring a backup.`
+    );
+    if (!confirmed) return;
+  }
+
+  const form = new FormData();
+  form.append('file', file, file.name);
+
+  const config = BULK_OPERATION_CONFIG[activeBulkOperation];
+  const button = $('bulkExecuteBtn');
+  button.disabled = true;
+  button.textContent = activeBulkOperation === 'delete' ? 'Deleting…' : 'Ingesting…';
+
+  try {
+    const response = await fetch(config.endpoint, { method: 'POST', body: form });
+    const data = await response.json().catch(() => ({
+      success: false,
+      error: `Server returned ${response.status}.`,
+    }));
+
+    $('bulkResultText').textContent = data.output || data.error || 'Operation completed.';
+    $('bulkResultBox').classList.add('open');
+
+    if (!response.ok || !data.success) {
+      toast(data.error || 'Operation failed.', 'err');
+      return;
+    }
+
+    toast(
+      activeBulkOperation === 'delete'
+        ? 'Questions deleted successfully.'
+        : 'Questions ingested successfully.',
+      'ok'
+    );
+
+    // Refresh the CMS list/catalogs while staying on /cms.
+    if (activeBulkOperation === 'ingest' || activeBulkOperation === 'delete') {
+      await loadCatalogs();
+      resetAndLoadList();
+    }
+  } catch (err) {
+    $('bulkResultText').textContent = err.message;
+    $('bulkResultBox').classList.add('open');
+    toast('Operation failed.', 'err');
+  } finally {
+    button.textContent = BULK_OPERATION_CONFIG[activeBulkOperation]?.button || 'Execute';
+    button.disabled = !$('bulkJsonFile').files[0];
+  }
+}
+
+function wireBulkOperations() {
+  $('bulkBtn').onclick = openBulkOperations;
+  $('bulkBackBtn').onclick = closeBulkOperations;
+
+  document.querySelectorAll('[data-bulk-operation]').forEach(card => {
+    card.onclick = () => openBulkOperation(card.dataset.bulkOperation);
+  });
+
+  $('bulkOperationModal').onclick = event => {
+    if (event.target === $('bulkOperationModal')) closeBulkOperationModal();
+  };
+
+  $('bulkModalClose').onclick = closeBulkOperationModal;
+  $('bulkModalCancel').onclick = closeBulkOperationModal;
+  $('bulkExecuteBtn').onclick = executeBulkOperation;
+
+  $('bulkJsonFile').onchange = () => {
+    const file = $('bulkJsonFile').files[0];
+    $('bulkFileName').textContent = file ? file.name : 'No file selected.';
+    $('bulkExecuteBtn').disabled = !file;
+  };
+}
+
 function wire() {
+  wireBulkOperations();
   $('search').oninput = () => { currentQuery = $('search').value; resetAndLoadList(); };
   $('filterCollection').onchange = () => updateFilterSetSelect(true);
   $('filterSet').onchange = resetAndLoadList;
@@ -528,17 +670,11 @@ function wire() {
   $('tagInput').oninput = tagSuggest;
   $('tagInput').onkeydown = e => { if ((e.key === 'Enter' || e.key === ',') && $('tagInput').value.trim()) { e.preventDefault(); addTagDOM($('tagInput').value.trim().replace(/,/g,'')); $('tagInput').value=''; } };
   $('sourceToggle').onclick = () => { $('sourceBody').classList.toggle('open'); $('sourceChevron').textContent = $('sourceBody').classList.contains('open') ? '⌃' : '⌄'; };
-  $('bulkBtn').onclick = openBulk;
-  $('bulkClose').onclick = closeBulk;
-  $('bulkCancel').onclick = closeBulk;
-  $('bulkApply').onclick = applyBulk;
-  $('bulkCollection').onchange = updateBulkSetSelect;
-
   document.addEventListener('keydown', e => {
     if ((e.ctrlKey || e.metaKey) && e.key === 's') { e.preventDefault(); saveQuestion(); }
     if (e.key === 'ArrowLeft' && !['INPUT','TEXTAREA','SELECT'].includes(e.target.tagName)) navigateBy(-1);
     if (e.key === 'ArrowRight' && !['INPUT','TEXTAREA','SELECT'].includes(e.target.tagName)) navigateBy(1);
-    if (e.key === 'Escape') { $('filterModal').classList.remove('open'); $('bulkModal').classList.remove('open'); }
+    if (e.key === 'Escape') { $('filterModal').classList.remove('open'); if ($('bulkOperationModal').classList.contains('open')) closeBulkOperationModal(); else if (document.body.classList.contains('bulk-cms-open')) closeBulkOperations(); }
   });
 }
 
@@ -548,29 +684,6 @@ async function navigateBy(delta) {
   const data = await apiJson(`/api/questions/${encodeURIComponent(current.id)}/neighbors?${qs}`);
   const target = delta < 0 ? data.previous : data.next;
   if (target) await loadQuestion(target);
-}
-
-async function openBulk() {
-  const data = await apiJson(`/api/questions?${queryString({page:1,page_size:1})}`);
-  $('bulkCount').textContent = `${data.total} filtered question${data.total === 1 ? '' : 's'} will be updated`;
-  $('bulkModal').classList.add('open');
-}
-function closeBulk() { $('bulkModal').classList.remove('open'); }
-async function applyBulk() {
-  const cid = $('bulkCollection').value, sid = $('bulkSet').value;
-  if (!cid || !sid) return toast('Select both a collection and a set', 'err');
-  // Server-side bulk query: request all matching IDs in pages.
-  const ids = [];
-  let p = 1;
-  while (true) {
-    const data = await apiJson(`/api/questions?${queryString({page:p,page_size:100})}`);
-    ids.push(...data.questions.map(q => q.id));
-    if (ids.length >= data.total || !data.questions.length) break;
-    p += 1;
-  }
-  if (!confirm(`Assign ${ids.length} question(s) to the selected collection and set?`)) return;
-  await apiJson('/api/questions/bulk-assign', {method:'POST', headers:{'Content-Type':'application/json'}, body:JSON.stringify({ids,collection_id:cid,set_id:sid})});
-  closeBulk(); resetAndLoadList(); toast(`${ids.length} question(s) updated`, 'ok');
 }
 
 async function main() {

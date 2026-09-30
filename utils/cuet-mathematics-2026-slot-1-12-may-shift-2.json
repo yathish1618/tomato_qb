@@ -1,0 +1,6840 @@
+[
+  {
+    "id": "c97021c0-38f2-4f02-81a1-da61e66b936b",
+    "type": "MCQ",
+    "content": [
+      {
+        "type": "paragraph",
+        "inlines": [
+          {
+            "type": "text",
+            "text": "The area of region bounded by the curves "
+          },
+          {
+            "type": "math",
+            "latex": "4y = x^3, y = 0",
+            "display": false
+          },
+          {
+            "type": "text",
+            "text": " and "
+          },
+          {
+            "type": "math",
+            "latex": "x = 4",
+            "display": false
+          },
+          {
+            "type": "text",
+            "text": " in the first quadrant is :"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "inlines": [
+          {
+            "type": "text",
+            "text": "16 sq units"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "inlines": [
+          {
+            "type": "text",
+            "text": "4 sq units"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "inlines": [
+          {
+            "type": "text",
+            "text": "32 sq units"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "inlines": [
+          {
+            "type": "text",
+            "text": "8 sq units"
+          }
+        ]
+      }
+    ],
+    "options": {
+      "A": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "text",
+              "text": "16 sq units"
+            }
+          ]
+        }
+      ],
+      "B": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "text",
+              "text": "4 sq units"
+            }
+          ]
+        }
+      ],
+      "C": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "text",
+              "text": "32 sq units"
+            }
+          ]
+        }
+      ],
+      "D": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "text",
+              "text": "8 sq units"
+            }
+          ]
+        }
+      ]
+    },
+    "answer": "A",
+    "marks": 1,
+    "group_id": null,
+    "tags": [
+      "Calculus",
+      "Application of Integrals",
+      "Easy"
+    ],
+    "source": {
+      "title": "cuet-mathematics-2026-slot-1-12-may-shift-2",
+      "question_number": 1
+    },
+    "review_status": "NEEDS_REVIEW",
+    "publication_status": "DRAFT"
+  },
+  {
+    "id": "aecf5689-afdd-4fee-afd8-f16125058d77",
+    "type": "MCQ",
+    "content": [
+      {
+        "type": "paragraph",
+        "inlines": [
+          {
+            "type": "text",
+            "text": "Match List-I with List-II"
+          }
+        ]
+      },
+      {
+        "type": "table",
+        "header_rows": 1,
+        "rows": [
+          {
+            "cells": [
+              {
+                "content": [
+                  {
+                    "type": "paragraph",
+                    "inlines": [
+                      {
+                        "type": "text",
+                        "text": "List-I (Differential Equation)"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "content": [
+                  {
+                    "type": "paragraph",
+                    "inlines": [
+                      {
+                        "type": "text",
+                        "text": "List-II (Order and degree)"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "cells": [
+              {
+                "content": [
+                  {
+                    "type": "paragraph",
+                    "inlines": [
+                      {
+                        "type": "text",
+                        "text": "(A) "
+                      },
+                      {
+                        "type": "math",
+                        "latex": "\\left(\\dfrac{d^2y}{dx^2}\\right)^2 + e^{\\frac{dy}{dx}} = 0",
+                        "display": false
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "content": [
+                  {
+                    "type": "paragraph",
+                    "inlines": [
+                      {
+                        "type": "text",
+                        "text": "(I) order = 2, degree = 1"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "cells": [
+              {
+                "content": [
+                  {
+                    "type": "paragraph",
+                    "inlines": [
+                      {
+                        "type": "text",
+                        "text": "(B) "
+                      },
+                      {
+                        "type": "math",
+                        "latex": "xy\\dfrac{d^2y}{dx^2} + x\\left(\\dfrac{dy}{dx}\\right)^2 - y\\dfrac{dy}{dx} = 0",
+                        "display": false
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "content": [
+                  {
+                    "type": "paragraph",
+                    "inlines": [
+                      {
+                        "type": "text",
+                        "text": "(II) order = 2, degree = not defined"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "cells": [
+              {
+                "content": [
+                  {
+                    "type": "paragraph",
+                    "inlines": [
+                      {
+                        "type": "text",
+                        "text": "(C) "
+                      },
+                      {
+                        "type": "math",
+                        "latex": "\\left(\\dfrac{d^3y}{dx^3}\\right)^2 + \\log_e\\left(\\dfrac{dy}{dx}\\right) = 4x",
+                        "display": false
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "content": [
+                  {
+                    "type": "paragraph",
+                    "inlines": [
+                      {
+                        "type": "text",
+                        "text": "(III) order = 3, degree = 2"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "cells": [
+              {
+                "content": [
+                  {
+                    "type": "paragraph",
+                    "inlines": [
+                      {
+                        "type": "text",
+                        "text": "(D) "
+                      },
+                      {
+                        "type": "math",
+                        "latex": "\\dfrac{d}{dx}\\left(\\dfrac{d^2y}{dx^2}\\right) + y\\dfrac{dy}{dx} = \\left(1+\\dfrac{dy}{dx}\\right)^{1/2}",
+                        "display": false
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "content": [
+                  {
+                    "type": "paragraph",
+                    "inlines": [
+                      {
+                        "type": "text",
+                        "text": "(IV) order = 3, degree = not defined"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "inlines": [
+          {
+            "type": "text",
+            "text": "Choose the correct answer from the options given below:"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "inlines": [
+          {
+            "type": "text",
+            "text": "(A) - (I), (B) - (III), (C) - (IV), (D) - (II)"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "inlines": [
+          {
+            "type": "text",
+            "text": "(A) - (III), (B) - (IV), (C) - (II), (D) - (I)"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "inlines": [
+          {
+            "type": "text",
+            "text": "(A) - (II), (B) - (I), (C) - (IV), (D) - (III)"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "inlines": [
+          {
+            "type": "text",
+            "text": "(A) - (IV), (B) - (III), (C) - (II), (D) - (I)"
+          }
+        ]
+      }
+    ],
+    "options": {
+      "A": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "text",
+              "text": "(A) - (I), (B) - (III), (C) - (IV), (D) - (II)"
+            }
+          ]
+        }
+      ],
+      "B": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "text",
+              "text": "(A) - (III), (B) - (IV), (C) - (II), (D) - (I)"
+            }
+          ]
+        }
+      ],
+      "C": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "text",
+              "text": "(A) - (II), (B) - (I), (C) - (IV), (D) - (III)"
+            }
+          ]
+        }
+      ],
+      "D": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "text",
+              "text": "(A) - (IV), (B) - (III), (C) - (II), (D) - (I)"
+            }
+          ]
+        }
+      ]
+    },
+    "answer": "C",
+    "marks": 1,
+    "group_id": null,
+    "tags": [
+      "Calculus",
+      "Differential Equations",
+      "Medium"
+    ],
+    "source": {
+      "title": "cuet-mathematics-2026-slot-1-12-may-shift-2",
+      "question_number": 2
+    },
+    "review_status": "NEEDS_REVIEW",
+    "publication_status": "DRAFT"
+  },
+  {
+    "id": "37014802-f9f4-4d3a-a315-bbcf8a9f54f8",
+    "type": "MCQ",
+    "content": [
+      {
+        "type": "paragraph",
+        "inlines": [
+          {
+            "type": "text",
+            "text": "If "
+          },
+          {
+            "type": "math",
+            "latex": "x",
+            "display": false
+          },
+          {
+            "type": "text",
+            "text": " is real, then the minimum value of "
+          },
+          {
+            "type": "math",
+            "latex": "x^2 - 8x + 25",
+            "display": false
+          },
+          {
+            "type": "text",
+            "text": " is"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "inlines": [
+          {
+            "type": "text",
+            "text": "2"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "inlines": [
+          {
+            "type": "text",
+            "text": "9"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "inlines": [
+          {
+            "type": "text",
+            "text": "4"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "inlines": [
+          {
+            "type": "text",
+            "text": "3"
+          }
+        ]
+      }
+    ],
+    "options": {
+      "A": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "text",
+              "text": "2"
+            }
+          ]
+        }
+      ],
+      "B": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "text",
+              "text": "9"
+            }
+          ]
+        }
+      ],
+      "C": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "text",
+              "text": "4"
+            }
+          ]
+        }
+      ],
+      "D": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "text",
+              "text": "3"
+            }
+          ]
+        }
+      ]
+    },
+    "answer": "B",
+    "marks": 1,
+    "group_id": null,
+    "tags": [
+      "Calculus",
+      "Application of Derivatives",
+      "Easy"
+    ],
+    "source": {
+      "title": "cuet-mathematics-2026-slot-1-12-may-shift-2",
+      "question_number": 3
+    },
+    "review_status": "NEEDS_REVIEW",
+    "publication_status": "DRAFT"
+  },
+  {
+    "id": "18250d27-c2ff-4617-bb08-648b830df15d",
+    "type": "MCQ",
+    "content": [
+      {
+        "type": "paragraph",
+        "inlines": [
+          {
+            "type": "text",
+            "text": "If "
+          },
+          {
+            "type": "math",
+            "latex": "y = \\dfrac{\\log_e x}{x}",
+            "display": false
+          },
+          {
+            "type": "text",
+            "text": ", then "
+          },
+          {
+            "type": "math",
+            "latex": "\\dfrac{d^2y}{dx^2}",
+            "display": false
+          },
+          {
+            "type": "text",
+            "text": " is :"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "inlines": [
+          {
+            "type": "math",
+            "latex": "\\dfrac{2\\log_e x - 3x}{x^3}",
+            "display": false
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "inlines": [
+          {
+            "type": "math",
+            "latex": "\\dfrac{2\\log_e x - 3}{x^4}",
+            "display": false
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "inlines": [
+          {
+            "type": "math",
+            "latex": "\\dfrac{2\\log_e x + 3}{x^3}",
+            "display": false
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "inlines": [
+          {
+            "type": "math",
+            "latex": "\\dfrac{2\\log_e x - 3}{x^3}",
+            "display": false
+          }
+        ]
+      }
+    ],
+    "options": {
+      "A": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "math",
+              "latex": "\\dfrac{2\\log_e x - 3x}{x^3}",
+              "display": false
+            }
+          ]
+        }
+      ],
+      "B": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "math",
+              "latex": "\\dfrac{2\\log_e x - 3}{x^4}",
+              "display": false
+            }
+          ]
+        }
+      ],
+      "C": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "math",
+              "latex": "\\dfrac{2\\log_e x + 3}{x^3}",
+              "display": false
+            }
+          ]
+        }
+      ],
+      "D": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "math",
+              "latex": "\\dfrac{2\\log_e x - 3}{x^3}",
+              "display": false
+            }
+          ]
+        }
+      ]
+    },
+    "answer": "D",
+    "marks": 1,
+    "group_id": null,
+    "tags": [
+      "Calculus",
+      "Continuity & Differentiability",
+      "Medium"
+    ],
+    "source": {
+      "title": "cuet-mathematics-2026-slot-1-12-may-shift-2",
+      "question_number": 4
+    },
+    "review_status": "NEEDS_REVIEW",
+    "publication_status": "DRAFT"
+  },
+  {
+    "id": "82f208a3-59db-4dda-9c8b-9a9f405ec4ab",
+    "type": "MCQ",
+    "content": [
+      {
+        "type": "paragraph",
+        "inlines": [
+          {
+            "type": "text",
+            "text": "If "
+          },
+          {
+            "type": "math",
+            "latex": "A",
+            "display": false
+          },
+          {
+            "type": "text",
+            "text": " is a "
+          },
+          {
+            "type": "math",
+            "latex": "3\\times 3",
+            "display": false
+          },
+          {
+            "type": "text",
+            "text": " matrix with "
+          },
+          {
+            "type": "math",
+            "latex": "|A|=4",
+            "display": false
+          },
+          {
+            "type": "text",
+            "text": ", then "
+          },
+          {
+            "type": "math",
+            "latex": "|4A|",
+            "display": false
+          },
+          {
+            "type": "text",
+            "text": " is equal to :"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "inlines": [
+          {
+            "type": "text",
+            "text": "16"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "inlines": [
+          {
+            "type": "text",
+            "text": "256"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "inlines": [
+          {
+            "type": "text",
+            "text": "64"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "inlines": [
+          {
+            "type": "text",
+            "text": "12"
+          }
+        ]
+      }
+    ],
+    "options": {
+      "A": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "text",
+              "text": "16"
+            }
+          ]
+        }
+      ],
+      "B": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "text",
+              "text": "256"
+            }
+          ]
+        }
+      ],
+      "C": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "text",
+              "text": "64"
+            }
+          ]
+        }
+      ],
+      "D": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "text",
+              "text": "12"
+            }
+          ]
+        }
+      ]
+    },
+    "answer": "B",
+    "marks": 1,
+    "group_id": null,
+    "tags": [
+      "Algebra",
+      "Matrices & Determinants",
+      "Easy"
+    ],
+    "source": {
+      "title": "cuet-mathematics-2026-slot-1-12-may-shift-2",
+      "question_number": 5
+    },
+    "review_status": "NEEDS_REVIEW",
+    "publication_status": "DRAFT"
+  },
+  {
+    "id": "90a3f511-cdf7-4a15-8728-525de7855f88",
+    "type": "MCQ",
+    "content": [
+      {
+        "type": "paragraph",
+        "inlines": [
+          {
+            "type": "text",
+            "text": "If $A$ is a non-singular matrix of order $n$, then $adj(adj\\ A)$ is equal to :"
+          }
+        ]
+      }
+    ],
+    "options": {
+      "A": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "text",
+              "text": "$|A|^{n-1}$"
+            }
+          ]
+        }
+      ],
+      "B": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "text",
+              "text": "$|A|^{n-2}A$"
+            }
+          ]
+        }
+      ],
+      "C": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "text",
+              "text": "$|A|^{n-1}A$"
+            }
+          ]
+        }
+      ],
+      "D": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "text",
+              "text": "$|A|^{(n-1)^2}$"
+            }
+          ]
+        }
+      ]
+    },
+    "answer": "B",
+    "marks": 1,
+    "group_id": null,
+    "tags": [
+      "Algebra",
+      "Matrices & Determinants",
+      "Medium"
+    ],
+    "source": {
+      "title": "cuet-mathematics-2026-slot-1-12-may-shift-2",
+      "question_number": 6
+    },
+    "review_status": "NEEDS_REVIEW",
+    "publication_status": "DRAFT"
+  },
+  {
+    "id": "84731f65-3982-4a04-8db9-06c457867ed9",
+    "type": "MCQ",
+    "content": [
+      {
+        "type": "paragraph",
+        "inlines": [
+          {
+            "type": "text",
+            "text": "If the matrix $\\begin{bmatrix} 0 & -1 & 3x \\\\ 1 & y & -5 \\\\ -6 & 5 & 0 \\end{bmatrix}$ is skew symmetric, then the value of $x+y$ is"
+          }
+        ]
+      }
+    ],
+    "options": {
+      "A": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "text",
+              "text": "-2"
+            }
+          ]
+        }
+      ],
+      "B": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "text",
+              "text": "2"
+            }
+          ]
+        }
+      ],
+      "C": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "text",
+              "text": "3"
+            }
+          ]
+        }
+      ],
+      "D": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "text",
+              "text": "0"
+            }
+          ]
+        }
+      ]
+    },
+    "answer": "B",
+    "marks": 1,
+    "group_id": null,
+    "tags": [
+      "Algebra",
+      "Matrices & Determinants",
+      "Easy"
+    ],
+    "source": {
+      "title": "cuet-mathematics-2026-slot-1-12-may-shift-2",
+      "question_number": 7
+    },
+    "review_status": "NEEDS_REVIEW",
+    "publication_status": "DRAFT"
+  },
+  {
+    "id": "d6ff4ad2-ca5d-4bbd-85bb-b54dea1d35e3",
+    "type": "MCQ",
+    "content": [
+      {
+        "type": "paragraph",
+        "inlines": [
+          {
+            "type": "text",
+            "text": "If $A = \\begin{bmatrix} 3 & 1 \\\\ -1 & 2 \\end{bmatrix}$, then $A^2 - 5A$ is equal to : (where $I_2$ is identity matrix of order 2)"
+          }
+        ]
+      }
+    ],
+    "options": {
+      "A": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "text",
+              "text": "$-7I_2$"
+            }
+          ]
+        }
+      ],
+      "B": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "text",
+              "text": "$7I_2$"
+            }
+          ]
+        }
+      ],
+      "C": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "text",
+              "text": "$6I_2$"
+            }
+          ]
+        }
+      ],
+      "D": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "text",
+              "text": "$-6I_2$"
+            }
+          ]
+        }
+      ]
+    },
+    "answer": "A",
+    "marks": 1,
+    "group_id": null,
+    "tags": [
+      "Algebra",
+      "Matrices & Determinants",
+      "Easy"
+    ],
+    "source": {
+      "title": "cuet-mathematics-2026-slot-1-12-may-shift-2",
+      "question_number": 8
+    },
+    "review_status": "NEEDS_REVIEW",
+    "publication_status": "DRAFT"
+  },
+  {
+    "id": "916580ed-f46d-4d2c-aeea-ef041ee5841b",
+    "type": "MCQ",
+    "content": [
+      {
+        "type": "paragraph",
+        "inlines": [
+          {
+            "type": "text",
+            "text": "A die is thrown once then, Match **List-I** with **List-II** | List-I | List-II | |---|---| | (A) Probability of getting odd number | (I) $\\dfrac{1}{3}$ | | (B) Probability of getting number more than 4 | (II) $\\dfrac{2}{3}$ | | (C) Probability of getting number less than or equal to 4 | (III) $\\dfrac{1}{2}$ | | (D) Probability of getting number 2 | (IV) $\\dfrac{1}{6}$ | Choose the **correct** answer from the options given below:"
+          }
+        ]
+      }
+    ],
+    "options": {
+      "A": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "text",
+              "text": "(A) - (II), (B) - (IV), (C) - (III), (D) - (I)"
+            }
+          ]
+        }
+      ],
+      "B": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "text",
+              "text": "(A) - (III), (B) - (I), (C) - (II), (D) - (IV)"
+            }
+          ]
+        }
+      ],
+      "C": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "text",
+              "text": "(A) - (I), (B) - (III), (C) - (II), (D) - (IV)"
+            }
+          ]
+        }
+      ],
+      "D": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "text",
+              "text": "(A) - (IV), (B) - (III), (C) - (II), (D) - (I)"
+            }
+          ]
+        }
+      ]
+    },
+    "answer": "B",
+    "marks": 1,
+    "group_id": null,
+    "tags": [
+      "Algebra",
+      "Probability",
+      "Easy"
+    ],
+    "source": {
+      "title": "cuet-mathematics-2026-slot-1-12-may-shift-2",
+      "question_number": 9
+    },
+    "review_status": "NEEDS_REVIEW",
+    "publication_status": "DRAFT"
+  },
+  {
+    "id": "337fd29f-89eb-4191-a511-a2e706f0cd3a",
+    "type": "MCQ",
+    "content": [
+      {
+        "type": "paragraph",
+        "inlines": [
+          {
+            "type": "text",
+            "text": "The function $f(x) = x^3 + 2x^2 - 1$ is (A) increasing in $\\left(\\dfrac{-4}{3}, 0\\right)$ (B) decreasing in $\\left(\\dfrac{-4}{3}, 0\\right)$ (C) increasing in $\\left(-\\infty, \\dfrac{-4}{3}\\right)$ (D) increasing in $(0, \\infty)$ Choose the **correct** answer from the options given below:"
+          }
+        ]
+      }
+    ],
+    "options": {
+      "A": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "text",
+              "text": "(A) and (B) only"
+            }
+          ]
+        }
+      ],
+      "B": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "text",
+              "text": "(A) and (C) only"
+            }
+          ]
+        }
+      ],
+      "C": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "text",
+              "text": "(B), (C) and (D) only"
+            }
+          ]
+        }
+      ],
+      "D": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "text",
+              "text": "(A), (B), (C) and (D)"
+            }
+          ]
+        }
+      ]
+    },
+    "answer": "C",
+    "marks": 1,
+    "group_id": null,
+    "tags": [
+      "Calculus",
+      "Application of Derivatives",
+      "Medium"
+    ],
+    "source": {
+      "title": "cuet-mathematics-2026-slot-1-12-may-shift-2",
+      "question_number": 10
+    },
+    "review_status": "NEEDS_REVIEW",
+    "publication_status": "DRAFT"
+  },
+  {
+    "id": "58fe8398-34be-4b04-8d62-cccca8fcc0fe",
+    "type": "MCQ",
+    "content": [
+      {
+        "type": "paragraph",
+        "inlines": [
+          {
+            "type": "text",
+            "text": "The solution of the differential equation $\\dfrac{dy}{dx} = x^2y^2$ with $y = 1$ at $x = 0$ is"
+          }
+        ]
+      }
+    ],
+    "options": {
+      "A": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "text",
+              "text": "$y(x^3-3)-3=0$"
+            }
+          ]
+        }
+      ],
+      "B": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "text",
+              "text": "$y(x^3+3)-3=0$"
+            }
+          ]
+        }
+      ],
+      "C": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "text",
+              "text": "$y(x^3+3)+3=0$"
+            }
+          ]
+        }
+      ],
+      "D": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "text",
+              "text": "$y(x^3-3)+3=0$"
+            }
+          ]
+        }
+      ]
+    },
+    "answer": "D",
+    "marks": 1,
+    "group_id": null,
+    "tags": [
+      "Calculus",
+      "Differential Equations",
+      "Medium"
+    ],
+    "source": {
+      "title": "cuet-mathematics-2026-slot-1-12-may-shift-2",
+      "question_number": 11
+    },
+    "review_status": "NEEDS_REVIEW",
+    "publication_status": "DRAFT"
+  },
+  {
+    "id": "1637c0cb-9a68-431e-aa80-669103d40512",
+    "type": "MCQ",
+    "content": [
+      {
+        "type": "paragraph",
+        "inlines": [
+          {
+            "type": "text",
+            "text": "The general solution of the differential equation $\\dfrac{dy}{dx} = 1+x+y+xy$ is: (where $C$ is an arbitrary constant) (A) $1+y = x+\\dfrac{x^2}{2}+C$ (B) $\\log_e|1+y|^2 = x^2+2x+C$ (C) $\\log_e|1-y| = x-\\dfrac{x^2}{2}+C$ (D) $\\log_e|1+y| = x+\\dfrac{x^2}{2}+C$ Choose the **correct** answer from the options given below:"
+          }
+        ]
+      }
+    ],
+    "options": {
+      "A": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "text",
+              "text": "(A) only"
+            }
+          ]
+        }
+      ],
+      "B": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "text",
+              "text": "(B) only"
+            }
+          ]
+        }
+      ],
+      "C": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "text",
+              "text": "(B) and (D) only"
+            }
+          ]
+        }
+      ],
+      "D": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "text",
+              "text": "(B) and (C) only"
+            }
+          ]
+        }
+      ]
+    },
+    "answer": "C",
+    "marks": 1,
+    "group_id": null,
+    "tags": [
+      "Calculus",
+      "Differential Equations",
+      "Medium"
+    ],
+    "source": {
+      "title": "cuet-mathematics-2026-slot-1-12-may-shift-2",
+      "question_number": 12
+    },
+    "review_status": "NEEDS_REVIEW",
+    "publication_status": "DRAFT"
+  },
+  {
+    "id": "503d0287-a9aa-465d-b3aa-5b671e59ac0d",
+    "type": "MCQ",
+    "content": [
+      {
+        "type": "paragraph",
+        "inlines": [
+          {
+            "type": "text",
+            "text": "$\\int\\left\\{\\dfrac{1}{\\log_e x} - \\dfrac{1}{(\\log_e x)^2}\\right\\}dx$ is equal to : (where $C$ is an arbitrary constant)"
+          }
+        ]
+      }
+    ],
+    "options": {
+      "A": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "text",
+              "text": "$x\\log_e x + C$"
+            }
+          ]
+        }
+      ],
+      "B": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "text",
+              "text": "$\\dfrac{x}{\\log_e x}+C$"
+            }
+          ]
+        }
+      ],
+      "C": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "text",
+              "text": "$e^x\\log_e x + C$"
+            }
+          ]
+        }
+      ],
+      "D": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "text",
+              "text": "$\\dfrac{e^x}{\\log_e x}+C$"
+            }
+          ]
+        }
+      ]
+    },
+    "answer": "B",
+    "marks": 1,
+    "group_id": null,
+    "tags": [
+      "Calculus",
+      "Integrals",
+      "Medium"
+    ],
+    "source": {
+      "title": "cuet-mathematics-2026-slot-1-12-may-shift-2",
+      "question_number": 13
+    },
+    "review_status": "NEEDS_REVIEW",
+    "publication_status": "DRAFT"
+  },
+  {
+    "id": "85d99100-542a-4463-9f18-b32f45ce8835",
+    "type": "MCQ",
+    "content": [
+      {
+        "type": "paragraph",
+        "inlines": [
+          {
+            "type": "text",
+            "text": "If $\\displaystyle\\int_0^{40} \\dfrac{dx}{2x+1} = \\log_e k$, then the value of $k$ is :"
+          }
+        ]
+      }
+    ],
+    "options": {
+      "A": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "text",
+              "text": "3"
+            }
+          ]
+        }
+      ],
+      "B": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "text",
+              "text": "$\\dfrac{9}{2}$"
+            }
+          ]
+        }
+      ],
+      "C": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "text",
+              "text": "9"
+            }
+          ]
+        }
+      ],
+      "D": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "text",
+              "text": "$\\dfrac{3}{2}$"
+            }
+          ]
+        }
+      ]
+    },
+    "answer": "C",
+    "marks": 1,
+    "group_id": null,
+    "tags": [
+      "Calculus",
+      "Integrals",
+      "Easy"
+    ],
+    "source": {
+      "title": "cuet-mathematics-2026-slot-1-12-may-shift-2",
+      "question_number": 14
+    },
+    "review_status": "NEEDS_REVIEW",
+    "publication_status": "DRAFT"
+  },
+  {
+    "id": "022b2f96-1a1d-4823-8abe-1a79be9a7c14",
+    "type": "MCQ",
+    "content": [
+      {
+        "type": "paragraph",
+        "inlines": [
+          {
+            "type": "text",
+            "text": "In the linear programming problem maximize $Z = 4x+3y$ subject to the constraints $x+y \\ge 8$, $3x+5y \\le 15$, $x\\ge0, y\\ge0$, the feasible region has"
+          }
+        ]
+      }
+    ],
+    "options": {
+      "A": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "text",
+              "text": "2 corner points"
+            }
+          ]
+        }
+      ],
+      "B": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "text",
+              "text": "3 corner points"
+            }
+          ]
+        }
+      ],
+      "C": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "text",
+              "text": "4 corner points"
+            }
+          ]
+        }
+      ],
+      "D": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "text",
+              "text": "No point"
+            }
+          ]
+        }
+      ]
+    },
+    "answer": "D",
+    "marks": 1,
+    "group_id": null,
+    "tags": [
+      "Algebra",
+      "Linear Programming",
+      "Easy"
+    ],
+    "source": {
+      "title": "cuet-mathematics-2026-slot-1-12-may-shift-2",
+      "question_number": 15
+    },
+    "review_status": "NEEDS_REVIEW",
+    "publication_status": "DRAFT"
+  },
+  {
+    "id": "243b2af5-c573-446e-9f8b-e9ece8295d6e",
+    "type": "MCQ",
+    "content": [
+      {
+        "type": "paragraph",
+        "inlines": [
+          {
+            "type": "text",
+            "text": "A cylinder with height 'h' and radius of base is 'r' which is open at the top having a given outer surface area, then volume of the cylinder is maximum if"
+          }
+        ]
+      }
+    ],
+    "options": {
+      "A": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "text",
+              "text": "$r=2h$"
+            }
+          ]
+        }
+      ],
+      "B": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "text",
+              "text": "$h=3r$"
+            }
+          ]
+        }
+      ],
+      "C": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "text",
+              "text": "$h=r$"
+            }
+          ]
+        }
+      ],
+      "D": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "text",
+              "text": "$h=2r$"
+            }
+          ]
+        }
+      ]
+    },
+    "answer": "C",
+    "marks": 1,
+    "group_id": null,
+    "tags": [
+      "Calculus",
+      "Application of Derivatives",
+      "Medium"
+    ],
+    "source": {
+      "title": "cuet-mathematics-2026-slot-1-12-may-shift-2",
+      "question_number": 16
+    },
+    "review_status": "NEEDS_REVIEW",
+    "publication_status": "DRAFT"
+  },
+  {
+    "id": "0e6d52ad-4a07-4e11-8262-f664e37ca880",
+    "type": "MCQ",
+    "content": [
+      {
+        "type": "paragraph",
+        "inlines": [
+          {
+            "type": "text",
+            "text": "The system of equations in 3 variables $x, y$ and $z$ as $x+y=5$, $y+az=3$, $x+by=8$ has a unique solution if the value of $a$ and $b$ are (A) $a=1, b=1$ (B) $a=0, b=1$ (C) $a \\in (-\\infty,0)$ and $b\\neq1$ (D) $a\\neq0$ and $b\\in(3,4)$ Choose the **correct** answer from the options given below:"
+          }
+        ]
+      }
+    ],
+    "options": {
+      "A": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "text",
+              "text": "(A) only"
+            }
+          ]
+        }
+      ],
+      "B": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "text",
+              "text": "(A) and (B) only"
+            }
+          ]
+        }
+      ],
+      "C": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "text",
+              "text": "(C) and (D) only"
+            }
+          ]
+        }
+      ],
+      "D": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "text",
+              "text": "(A), (B) and (D) only"
+            }
+          ]
+        }
+      ]
+    },
+    "answer": "C",
+    "marks": 1,
+    "group_id": null,
+    "tags": [
+      "Algebra",
+      "Matrices & Determinants",
+      "Medium"
+    ],
+    "source": {
+      "title": "cuet-mathematics-2026-slot-1-12-may-shift-2",
+      "question_number": 17
+    },
+    "review_status": "NEEDS_REVIEW",
+    "publication_status": "DRAFT"
+  },
+  {
+    "id": "f7eccb79-91ac-41e0-a563-866447b327c5",
+    "type": "MCQ",
+    "content": [
+      {
+        "type": "paragraph",
+        "inlines": [
+          {
+            "type": "text",
+            "text": "The general solution of the differential equation $ydx + (x-y^3)dy = 0$ is :"
+          }
+        ]
+      }
+    ],
+    "options": {
+      "A": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "text",
+              "text": "$xy = \\dfrac{y^4}{4}+cx$ : $c$ is an arbitrary constant."
+            }
+          ]
+        }
+      ],
+      "B": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "text",
+              "text": "$x = \\dfrac{y^4}{4}+c$ : $c$ is an arbitrary constant."
+            }
+          ]
+        }
+      ],
+      "C": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "text",
+              "text": "$xy = \\dfrac{y^4}{4}+c$ : $c$ is an arbitrary constant."
+            }
+          ]
+        }
+      ],
+      "D": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "text",
+              "text": "$xy = \\dfrac{y^3}{3}+C$ : $C$ is an arbitrary constant."
+            }
+          ]
+        }
+      ]
+    },
+    "answer": "C",
+    "marks": 1,
+    "group_id": null,
+    "tags": [
+      "Calculus",
+      "Differential Equations",
+      "Medium"
+    ],
+    "source": {
+      "title": "cuet-mathematics-2026-slot-1-12-may-shift-2",
+      "question_number": 18
+    },
+    "review_status": "NEEDS_REVIEW",
+    "publication_status": "DRAFT"
+  },
+  {
+    "id": "f1de7bac-65c6-456b-9a3d-dacd4362886b",
+    "type": "MCQ",
+    "content": [
+      {
+        "type": "paragraph",
+        "inlines": [
+          {
+            "type": "text",
+            "text": "The area of the region bounded by the curves $x^2=4y$ and $x=4y$ is"
+          }
+        ]
+      }
+    ],
+    "options": {
+      "A": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "text",
+              "text": "$\\dfrac{3}{8}$ Sq.unit"
+            }
+          ]
+        }
+      ],
+      "B": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "text",
+              "text": "$\\dfrac{5}{8}$ Sq.unit"
+            }
+          ]
+        }
+      ],
+      "C": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "text",
+              "text": "$\\dfrac{7}{8}$ Sq.unit"
+            }
+          ]
+        }
+      ],
+      "D": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "text",
+              "text": "$\\dfrac{1}{24}$ Sq.unit"
+            }
+          ]
+        }
+      ]
+    },
+    "answer": "D",
+    "marks": 1,
+    "group_id": null,
+    "tags": [
+      "Calculus",
+      "Application of Integrals",
+      "Medium"
+    ],
+    "source": {
+      "title": "cuet-mathematics-2026-slot-1-12-may-shift-2",
+      "question_number": 19
+    },
+    "review_status": "NEEDS_REVIEW",
+    "publication_status": "DRAFT"
+  },
+  {
+    "id": "077ab76f-cd2e-41ad-8b89-6ae449ff5091",
+    "type": "MCQ",
+    "content": [
+      {
+        "type": "paragraph",
+        "inlines": [
+          {
+            "type": "text",
+            "text": "If $\\vec{a}.\\vec{b} = \\vec{a}.\\vec{c}$ and $\\vec{a}\\times\\vec{b} = \\vec{a}\\times\\vec{c}$, $\\vec{a}\\neq\\vec{0}$, then"
+          }
+        ]
+      }
+    ],
+    "options": {
+      "A": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "text",
+              "text": "$\\vec{b}+\\vec{c}=\\vec{0}$"
+            }
+          ]
+        }
+      ],
+      "B": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "text",
+              "text": "$\\vec{b}-\\vec{c}=\\vec{0}$"
+            }
+          ]
+        }
+      ],
+      "C": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "text",
+              "text": "$\\vec{b}+\\vec{c}=\\vec{a}$"
+            }
+          ]
+        }
+      ],
+      "D": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "text",
+              "text": "$\\vec{a}+\\vec{b}=\\vec{0}$"
+            }
+          ]
+        }
+      ]
+    },
+    "answer": "B",
+    "marks": 1,
+    "group_id": null,
+    "tags": [
+      "Algebra",
+      "Vector Algebra",
+      "Easy"
+    ],
+    "source": {
+      "title": "cuet-mathematics-2026-slot-1-12-may-shift-2",
+      "question_number": 20
+    },
+    "review_status": "NEEDS_REVIEW",
+    "publication_status": "DRAFT"
+  },
+  {
+    "id": "73116ded-8969-433c-b250-16eb1ae9096a",
+    "type": "MCQ",
+    "content": [
+      {
+        "type": "paragraph",
+        "inlines": [
+          {
+            "type": "text",
+            "text": "Let $A$ be set of all real numbers and $R$ be a relation on $A$ defined by $R=\\{(a,b): 1+ab>0\\}$, then relation $R$ is"
+          }
+        ]
+      }
+    ],
+    "options": {
+      "A": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "text",
+              "text": "Reflexive and transitive"
+            }
+          ]
+        }
+      ],
+      "B": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "text",
+              "text": "Reflexive and symmetric"
+            }
+          ]
+        }
+      ],
+      "C": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "text",
+              "text": "Symmetric and transitive"
+            }
+          ]
+        }
+      ],
+      "D": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "text",
+              "text": "Equivalence relation"
+            }
+          ]
+        }
+      ]
+    },
+    "answer": "B",
+    "marks": 1,
+    "group_id": null,
+    "tags": [
+      "Algebra",
+      "Relations & Functions",
+      "Medium"
+    ],
+    "source": {
+      "title": "cuet-mathematics-2026-slot-1-12-may-shift-2",
+      "question_number": 21
+    },
+    "review_status": "NEEDS_REVIEW",
+    "publication_status": "DRAFT"
+  },
+  {
+    "id": "67e38147-7922-4354-aff2-e5dbd22014e9",
+    "type": "MCQ",
+    "content": [
+      {
+        "type": "paragraph",
+        "inlines": [
+          {
+            "type": "text",
+            "text": "A bag contains 4 balls. Let E be an event in which two balls are drawn at random and found to be white, then Match **List-I** with **List-II** | List-I | List-II | |---|---| | (A) Probability that all balls are white | (I) $\\dfrac{1}{6}$ | | (B) Probability of drawing 2 white ball at random given that there are 3 white ball | (II) $\\dfrac{3}{5}$ | | (C) P(E) | (III) $\\dfrac{1}{2}$ | | (D) Probability of drawing 2 white ball at random given that there is only 2 white ball | (IV) $\\dfrac{5}{9}$ | Choose the **correct** answer from the options given below:"
+          }
+        ]
+      }
+    ],
+    "options": {
+      "A": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "text",
+              "text": "(A) - (II), (B) - (IV), (C) - (III), (D) - (I)"
+            }
+          ]
+        }
+      ],
+      "B": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "text",
+              "text": "(A) - (II), (B) - (III), (C) - (IV), (D) - (I)"
+            }
+          ]
+        }
+      ],
+      "C": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "text",
+              "text": "(A) - (I), (B) - (IV), (C) - (III), (D) - (II)"
+            }
+          ]
+        }
+      ],
+      "D": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "text",
+              "text": "(A) - (IV), (B) - (III), (C) - (II), (D) - (I)"
+            }
+          ]
+        }
+      ]
+    },
+    "answer": "B",
+    "marks": 1,
+    "group_id": null,
+    "tags": [
+      "Algebra",
+      "Probability",
+      "Hard"
+    ],
+    "source": {
+      "title": "cuet-mathematics-2026-slot-1-12-may-shift-2",
+      "question_number": 22
+    },
+    "review_status": "NEEDS_REVIEW",
+    "publication_status": "DRAFT"
+  },
+  {
+    "id": "b6e316ea-c485-4021-b272-9c9a48682699",
+    "type": "MCQ",
+    "content": [
+      {
+        "type": "paragraph",
+        "inlines": [
+          {
+            "type": "text",
+            "text": "Let $\\vec{a}=\\hat{i}-\\hat{j}$, $\\vec{b}=3\\hat{j}-\\hat{k}$ and $\\vec{c}=7\\hat{i}-\\hat{k}$. Then a vector $\\vec{d}$ which is perpendicular to both $\\vec{a}$ and $\\vec{b}$ and $\\vec{c}.\\vec{d}=1$ is"
+          }
+        ]
+      }
+    ],
+    "options": {
+      "A": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "text",
+              "text": "$(\\hat{i}+\\hat{j}+3\\hat{k})$"
+            }
+          ]
+        }
+      ],
+      "B": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "text",
+              "text": "$\\dfrac{1}{4}(\\hat{i}+\\hat{j}+3\\hat{k})$"
+            }
+          ]
+        }
+      ],
+      "C": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "text",
+              "text": "$\\dfrac{1}{4}(\\hat{i}+\\hat{j}-3\\hat{k})$"
+            }
+          ]
+        }
+      ],
+      "D": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "text",
+              "text": "$\\dfrac{1}{4}(\\hat{i}-\\hat{j}+3\\hat{k})$"
+            }
+          ]
+        }
+      ]
+    },
+    "answer": "B",
+    "marks": 1,
+    "group_id": null,
+    "tags": [
+      "Algebra",
+      "Vector Algebra",
+      "Medium"
+    ],
+    "source": {
+      "title": "cuet-mathematics-2026-slot-1-12-may-shift-2",
+      "question_number": 23
+    },
+    "review_status": "NEEDS_REVIEW",
+    "publication_status": "DRAFT"
+  },
+  {
+    "id": "44b0f53d-e26a-4549-8788-8ab2d5fb9c78",
+    "type": "MCQ",
+    "content": [
+      {
+        "type": "paragraph",
+        "inlines": [
+          {
+            "type": "text",
+            "text": "Match **List-I** with **List-II** | List-I | List-II | |---|---| | **Indefinite integral** | **Solution (where 'c' is an arbitrary constant)** | | (A) $\\displaystyle\\int \\sqrt{x^2-a^2} \\, dx$ | (I) $\\dfrac{1}{a}\\tan^{-1}\\dfrac{x}{a} + c$ | | (B) $\\displaystyle\\int \\dfrac{1}{x^2-a^2} \\, dx$ | (II) $\\dfrac{x}{2}\\sqrt{x^2+a^2} + \\dfrac{a^2}{2}\\log\\left[x+\\sqrt{x^2+a^2}\\right] + c$ | | (C) $\\displaystyle\\int \\dfrac{1}{x^2+a^2} \\, dx$ | (III) $\\dfrac{x}{2}\\sqrt{x^2-a^2} - \\dfrac{a^2}{2}\\log\\left[x+\\sqrt{x^2-a^2}\\right] + c$ | | (D) $\\displaystyle\\int \\sqrt{x^2+a^2} \\, dx$ | (IV) $\\dfrac{1}{2a}\\log\\left\\vert \\dfrac{x-a}{x+a} \\right\\vert + C$ | Choose the **correct** answer from the options given below:"
+          }
+        ]
+      }
+    ],
+    "options": {
+      "A": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "text",
+              "text": "(A) - (III), (B) - (I), (C) - (IV), (D) - (II)"
+            }
+          ]
+        }
+      ],
+      "B": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "text",
+              "text": "(A) - (II), (B) - (IV), (C) - (I), (D) - (III)"
+            }
+          ]
+        }
+      ],
+      "C": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "text",
+              "text": "(A) - (III), (B) - (IV), (C) - (I), (D) - (II)"
+            }
+          ]
+        }
+      ],
+      "D": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "text",
+              "text": "(A) - (II), (B) - (I), (C) - (III), (D) - (IV)"
+            }
+          ]
+        }
+      ]
+    },
+    "answer": "C",
+    "marks": 1,
+    "group_id": null,
+    "tags": [
+      "Calculus",
+      "Integrals",
+      "Easy"
+    ],
+    "source": {
+      "title": "cuet-mathematics-2026-slot-1-12-may-shift-2",
+      "question_number": 24
+    },
+    "review_status": "NEEDS_REVIEW",
+    "publication_status": "DRAFT"
+  },
+  {
+    "id": "7d923b8d-8e04-4f04-9154-64c3195bb79c",
+    "type": "MCQ",
+    "content": [
+      {
+        "type": "paragraph",
+        "inlines": [
+          {
+            "type": "text",
+            "text": "If the points $A(-1,3,2)$, $B(-4,2,-2)$ and $C(5,5,\\lambda)$ are collinear, then value of $\\lambda$ is :"
+          }
+        ]
+      }
+    ],
+    "options": {
+      "A": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "text",
+              "text": "$\\lambda=5$"
+            }
+          ]
+        }
+      ],
+      "B": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "text",
+              "text": "$\\lambda=10$"
+            }
+          ]
+        }
+      ],
+      "C": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "text",
+              "text": "$\\lambda=20$"
+            }
+          ]
+        }
+      ],
+      "D": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "text",
+              "text": "$\\lambda=-10$"
+            }
+          ]
+        }
+      ]
+    },
+    "answer": "B",
+    "marks": 1,
+    "group_id": null,
+    "tags": [
+      "Geometry",
+      "3D Geometry",
+      "Easy"
+    ],
+    "source": {
+      "title": "cuet-mathematics-2026-slot-1-12-may-shift-2",
+      "question_number": 25
+    },
+    "review_status": "NEEDS_REVIEW",
+    "publication_status": "DRAFT"
+  },
+  {
+    "id": "77e6afce-418f-4b73-a48c-9b56e6929e2c",
+    "type": "MCQ",
+    "content": [
+      {
+        "type": "paragraph",
+        "inlines": [
+          {
+            "type": "text",
+            "text": "Two vectors $\\vec{a}$ and $\\vec{b}$ are inclined at angle $\\theta=60°$ such that $|\\vec{a}|=1$, $|\\vec{b}|=2$, then $\\left|(\\vec{a}+3\\vec{b})\\times(3\\vec{a}-\\vec{b})\\right|^2$ is equal to"
+          }
+        ]
+      }
+    ],
+    "options": {
+      "A": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "text",
+              "text": "300"
+            }
+          ]
+        }
+      ],
+      "B": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "text",
+              "text": "225"
+            }
+          ]
+        }
+      ],
+      "C": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "text",
+              "text": "150"
+            }
+          ]
+        }
+      ],
+      "D": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "text",
+              "text": "200"
+            }
+          ]
+        }
+      ]
+    },
+    "answer": "A",
+    "marks": 1,
+    "group_id": null,
+    "tags": [
+      "Algebra",
+      "Vector Algebra",
+      "Medium"
+    ],
+    "source": {
+      "title": "cuet-mathematics-2026-slot-1-12-may-shift-2",
+      "question_number": 26
+    },
+    "review_status": "NEEDS_REVIEW",
+    "publication_status": "DRAFT"
+  },
+  {
+    "id": "c78330b1-e73a-48ee-88c8-2ff7cbeb292c",
+    "type": "MCQ",
+    "content": [
+      {
+        "type": "paragraph",
+        "inlines": [
+          {
+            "type": "text",
+            "text": "The feasible region for an LPP is shown in the given figure. Let $Z=3x+4y$ be the objective function. Then which of the following is/are TRUE? <img src=\"https://balti.afterboards.in/keY7zvrtj9K8Dlg\" width=\"400px\"/> (A) The minimum value of Z is 156 (B) The minimum value of Z is 152 (C) The maximum value of Z is 196 (D) Neither minimum nor maximum value of Z exists Choose the **correct** answer from the options given below:"
+          }
+        ]
+      }
+    ],
+    "options": {
+      "A": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "text",
+              "text": "(A) only"
+            }
+          ]
+        }
+      ],
+      "B": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "text",
+              "text": "(A) and (C) only"
+            }
+          ]
+        }
+      ],
+      "C": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "text",
+              "text": "(C) only"
+            }
+          ]
+        }
+      ],
+      "D": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "text",
+              "text": "(D) only"
+            }
+          ]
+        }
+      ]
+    },
+    "answer": "C",
+    "marks": 1,
+    "group_id": null,
+    "tags": [
+      "Algebra",
+      "Linear Programming",
+      "Medium"
+    ],
+    "source": {
+      "title": "cuet-mathematics-2026-slot-1-12-may-shift-2",
+      "question_number": 27
+    },
+    "review_status": "NEEDS_REVIEW",
+    "publication_status": "DRAFT"
+  },
+  {
+    "id": "354702e4-f3c5-48a2-904c-2e00eb481465",
+    "type": "MCQ",
+    "content": [
+      {
+        "type": "paragraph",
+        "inlines": [
+          {
+            "type": "text",
+            "text": "If angle between the lines $\\dfrac{x-1}{\\propto} = \\dfrac{y+2}{-5} = \\dfrac{z+\\frac{7}{3}}{\\beta}$ and $x=z, y=0$ is $\\dfrac{\\pi}{4}$, then"
+          }
+        ]
+      }
+    ],
+    "options": {
+      "A": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "text",
+              "text": "$\\propto\\beta=25$"
+            }
+          ]
+        }
+      ],
+      "B": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "text",
+              "text": "$2\\propto\\beta=25$"
+            }
+          ]
+        }
+      ],
+      "C": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "text",
+              "text": "$2\\propto+3\\beta=25$"
+            }
+          ]
+        }
+      ],
+      "D": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "text",
+              "text": "$3\\propto+2\\beta=25$"
+            }
+          ]
+        }
+      ]
+    },
+    "answer": "B",
+    "marks": 1,
+    "group_id": null,
+    "tags": [
+      "Geometry",
+      "3D Geometry",
+      "Medium"
+    ],
+    "source": {
+      "title": "cuet-mathematics-2026-slot-1-12-may-shift-2",
+      "question_number": 28
+    },
+    "review_status": "NEEDS_REVIEW",
+    "publication_status": "DRAFT"
+  },
+  {
+    "id": "a2d04f32-0ef2-46a0-b43e-d90581811804",
+    "type": "MCQ",
+    "content": [
+      {
+        "type": "paragraph",
+        "inlines": [
+          {
+            "type": "text",
+            "text": "The values of $x, y, z$ and $w$ such that $\\begin{bmatrix} x-y & 2z+w \\\\ 2x-y & 2x+w \\end{bmatrix} = \\begin{bmatrix} 5 & 3 \\\\ 12 & 15 \\end{bmatrix}$ are given by"
+          }
+        ]
+      }
+    ],
+    "options": {
+      "A": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "text",
+              "text": "$x=2, y=3, z=2, w=2$"
+            }
+          ]
+        }
+      ],
+      "B": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "text",
+              "text": "$x=7, y=2, z=2, w=2$"
+            }
+          ]
+        }
+      ],
+      "C": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "text",
+              "text": "$x=7, y=2, z=1, w=1$"
+            }
+          ]
+        }
+      ],
+      "D": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "text",
+              "text": "$x=7, y=7, z=2, w=1$"
+            }
+          ]
+        }
+      ]
+    },
+    "answer": "C",
+    "marks": 1,
+    "group_id": null,
+    "tags": [
+      "Algebra",
+      "Matrices & Determinants",
+      "Easy"
+    ],
+    "source": {
+      "title": "cuet-mathematics-2026-slot-1-12-may-shift-2",
+      "question_number": 29
+    },
+    "review_status": "NEEDS_REVIEW",
+    "publication_status": "DRAFT"
+  },
+  {
+    "id": "e1846583-3776-42a4-88e0-77d5e8e43914",
+    "type": "MCQ",
+    "content": [
+      {
+        "type": "paragraph",
+        "inlines": [
+          {
+            "type": "text",
+            "text": "Match **List-I** with **List-II** | List-I (Functions) | List-II (Range, principal value) | |---|---| | (A) $\\sin^{-1}x$ | (I) $[0,\\pi]-\\left\\{\\dfrac{\\pi}{2}\\right\\}$ | | (B) $\\tan^{-1}x$ | (II) $\\left[-\\dfrac{\\pi}{2},\\dfrac{\\pi}{2}\\right]-\\{0\\}$ | | (C) $cosec^{-1}x$ | (III) $\\left[-\\dfrac{\\pi}{2},\\dfrac{\\pi}{2}\\right]$ | | (D) $\\sec^{-1}x$ | (IV) $\\left(-\\dfrac{\\pi}{2},\\dfrac{\\pi}{2}\\right)$ | Choose the **correct** answer from the options given below:"
+          }
+        ]
+      }
+    ],
+    "options": {
+      "A": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "text",
+              "text": "(A) - (IV), (B) - (III), (C) - (I), (D) - (II)"
+            }
+          ]
+        }
+      ],
+      "B": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "text",
+              "text": "(A) - (III), (B) - (IV), (C) - (II), (D) - (I)"
+            }
+          ]
+        }
+      ],
+      "C": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "text",
+              "text": "(A) - (I), (B) - (II), (C) - (III), (D) - (IV)"
+            }
+          ]
+        }
+      ],
+      "D": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "text",
+              "text": "(A) - (III), (B) - (I), (C) - (II), (D) - (IV)"
+            }
+          ]
+        }
+      ]
+    },
+    "answer": "B",
+    "marks": 1,
+    "group_id": null,
+    "tags": [
+      "Geometry",
+      "Trigonometry",
+      "Easy"
+    ],
+    "source": {
+      "title": "cuet-mathematics-2026-slot-1-12-may-shift-2",
+      "question_number": 30
+    },
+    "review_status": "NEEDS_REVIEW",
+    "publication_status": "DRAFT"
+  },
+  {
+    "id": "eb9a6c22-ac3b-4b28-8fc6-19ac7b800a4f",
+    "type": "MCQ",
+    "content": [
+      {
+        "type": "paragraph",
+        "inlines": [
+          {
+            "type": "text",
+            "text": "From a lot of 10 items containing 3 defectives, a sample of 4 items is drawn at random. Let X denotes the number of defective items in the sample. If the sample is drawn randomly, then Match **List-I** with **List-II** (P(X) denotes the probability of occurence of X) | List-I | List-II | |---|---| | (A) P (X = 0) | (I) $\\dfrac{^3C_3\\times{}^7C_1}{^{10}C_4}$ | | (B) P (X = 1) | (II) $\\dfrac{^7C_4\\times{}^3C_0}{^{10}C_4}$ | | (C) P (X = 2) | (III) $\\dfrac{^3C_1\\times{}^7C_3}{^{10}C_4}$ | | (D) P (X = 3) | (IV) $\\dfrac{^3C_2\\times{}^7C_2}{^{10}C_4}$ | Choose the **correct** answer from the options given below:"
+          }
+        ]
+      }
+    ],
+    "options": {
+      "A": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "text",
+              "text": "(A) - (I), (B) - (III), (C) - (II), (D) - (IV)"
+            }
+          ]
+        }
+      ],
+      "B": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "text",
+              "text": "(A) - (II), (B) - (III), (C) - (IV), (D) - (I)"
+            }
+          ]
+        }
+      ],
+      "C": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "text",
+              "text": "(A) - (III), (B) - (IV), (C) - (I), (D) - (II)"
+            }
+          ]
+        }
+      ],
+      "D": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "text",
+              "text": "(A) - (IV), (B) - (I), (C) - (II), (D) - (III)"
+            }
+          ]
+        }
+      ]
+    },
+    "answer": "B",
+    "marks": 1,
+    "group_id": null,
+    "tags": [
+      "Algebra",
+      "Probability",
+      "Easy"
+    ],
+    "source": {
+      "title": "cuet-mathematics-2026-slot-1-12-may-shift-2",
+      "question_number": 31
+    },
+    "review_status": "NEEDS_REVIEW",
+    "publication_status": "DRAFT"
+  },
+  {
+    "id": "c24e482e-c3a3-467b-94b2-4d8c08ad5946",
+    "type": "MCQ",
+    "content": [
+      {
+        "type": "paragraph",
+        "inlines": [
+          {
+            "type": "text",
+            "text": "Let $A=R-\\{2\\}$ and $B=R-\\{1\\}$ and a function $f:A\\to B$ defined by $f(x)=\\dfrac{x-1}{x-2}\\ \\forall x\\in A$, then the function $f(x)$ is :"
+          }
+        ]
+      }
+    ],
+    "options": {
+      "A": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "text",
+              "text": "Injective but not surjective"
+            }
+          ]
+        }
+      ],
+      "B": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "text",
+              "text": "Surjective but not injective"
+            }
+          ]
+        }
+      ],
+      "C": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "text",
+              "text": "Both injective and surjective"
+            }
+          ]
+        }
+      ],
+      "D": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "text",
+              "text": "Neither injective nor surjective"
+            }
+          ]
+        }
+      ]
+    },
+    "answer": "C",
+    "marks": 1,
+    "group_id": null,
+    "tags": [
+      "Algebra",
+      "Relations & Functions",
+      "Medium"
+    ],
+    "source": {
+      "title": "cuet-mathematics-2026-slot-1-12-may-shift-2",
+      "question_number": 32
+    },
+    "review_status": "NEEDS_REVIEW",
+    "publication_status": "DRAFT"
+  },
+  {
+    "id": "894b7a52-def7-446f-9562-85502199b967",
+    "type": "MCQ",
+    "content": [
+      {
+        "type": "paragraph",
+        "inlines": [
+          {
+            "type": "text",
+            "text": "If $x^2+y^2 = t+\\dfrac{1}{t}$ and $x^4+y^4=t^2+\\dfrac{1}{t^2}$, then $\\dfrac{dy}{dx}$ is equal to"
+          }
+        ]
+      }
+    ],
+    "options": {
+      "A": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "text",
+              "text": "$\\dfrac{y}{x}$"
+            }
+          ]
+        }
+      ],
+      "B": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "text",
+              "text": "$-\\dfrac{y}{x}$"
+            }
+          ]
+        }
+      ],
+      "C": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "text",
+              "text": "$\\dfrac{y}{x^3}$"
+            }
+          ]
+        }
+      ],
+      "D": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "text",
+              "text": "$\\dfrac{y^3}{x^2}$"
+            }
+          ]
+        }
+      ]
+    },
+    "answer": "B",
+    "marks": 1,
+    "group_id": null,
+    "tags": [
+      "Calculus",
+      "Continuity & Differentiability",
+      "Medium"
+    ],
+    "source": {
+      "title": "cuet-mathematics-2026-slot-1-12-may-shift-2",
+      "question_number": 33
+    },
+    "review_status": "NEEDS_REVIEW",
+    "publication_status": "DRAFT"
+  },
+  {
+    "id": "305027ce-5311-4032-a288-2d1880b02174",
+    "type": "MCQ",
+    "content": [
+      {
+        "type": "paragraph",
+        "inlines": [
+          {
+            "type": "text",
+            "text": "If $[2\\ \\ x\\ \\ 3]\\begin{bmatrix}-1 & 0 & -1\\\\ -1 & 1 & 0\\\\ 0 & 1 & 1\\end{bmatrix}\\begin{bmatrix}x\\\\0\\\\-1\\end{bmatrix}=[-4]$, then the value(/s) of $x$ is"
+          }
+        ]
+      }
+    ],
+    "options": {
+      "A": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "text",
+              "text": "1 only"
+            }
+          ]
+        }
+      ],
+      "B": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "text",
+              "text": "-3 only"
+            }
+          ]
+        }
+      ],
+      "C": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "text",
+              "text": "-3, 1"
+            }
+          ]
+        }
+      ],
+      "D": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "text",
+              "text": "3, -1"
+            }
+          ]
+        }
+      ]
+    },
+    "answer": "C",
+    "marks": 1,
+    "group_id": null,
+    "tags": [
+      "Algebra",
+      "Matrices & Determinants",
+      "Medium"
+    ],
+    "source": {
+      "title": "cuet-mathematics-2026-slot-1-12-may-shift-2",
+      "question_number": 34
+    },
+    "review_status": "NEEDS_REVIEW",
+    "publication_status": "DRAFT"
+  },
+  {
+    "id": "f86c634a-5d60-416a-8b2d-e6cd7167743d",
+    "type": "MCQ",
+    "content": [
+      {
+        "type": "paragraph",
+        "inlines": [
+          {
+            "type": "text",
+            "text": "For a given line L: $\\dfrac{x}{2}=\\dfrac{y+1}{3}=\\dfrac{-z-3}{-5}$, which of the following is/are True ? (A) The direction ratio of line L is (2, 3, -5) (B) The perpendicular distance of the point (1, 1, 3) on the line L is $\\sqrt{3}$ (C) The foot of perpendicular from the point (1, 1, 3) on line L is (2, 2, 1) (D) The image of point (1, 1, 3) with respect to line L is (3, 3, 1) Choose the **correct** answer from the options given below:"
+          }
+        ]
+      }
+    ],
+    "options": {
+      "A": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "text",
+              "text": "(A) only"
+            }
+          ]
+        }
+      ],
+      "B": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "text",
+              "text": "(B) only"
+            }
+          ]
+        }
+      ],
+      "C": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "text",
+              "text": "(B) and (C) only"
+            }
+          ]
+        }
+      ],
+      "D": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "text",
+              "text": "(B) and (D) only"
+            }
+          ]
+        }
+      ]
+    },
+    "answer": "D",
+    "marks": 1,
+    "group_id": null,
+    "tags": [
+      "Geometry",
+      "3D Geometry",
+      "Hard"
+    ],
+    "source": {
+      "title": "cuet-mathematics-2026-slot-1-12-may-shift-2",
+      "question_number": 35
+    },
+    "review_status": "NEEDS_REVIEW",
+    "publication_status": "DRAFT"
+  },
+  {
+    "id": "5e9bfb56-f39f-484b-a39a-cfda599457d6",
+    "type": "MCQ",
+    "content": [
+      {
+        "type": "paragraph",
+        "inlines": [
+          {
+            "type": "text",
+            "text": "If $x=a(\\theta+\\sin\\theta)$, $y=a(1-\\cos\\theta)$, then $\\dfrac{d^2y}{dx^2}=$"
+          }
+        ]
+      }
+    ],
+    "options": {
+      "A": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "text",
+              "text": "$\\dfrac{1}{4a}\\sec^4\\dfrac{\\theta}{2}$"
+            }
+          ]
+        }
+      ],
+      "B": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "text",
+              "text": "$\\tan\\dfrac{\\theta}{2}$"
+            }
+          ]
+        }
+      ],
+      "C": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "text",
+              "text": "$-\\cot\\theta$"
+            }
+          ]
+        }
+      ],
+      "D": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "text",
+              "text": "$\\tan\\theta$"
+            }
+          ]
+        }
+      ]
+    },
+    "answer": "A",
+    "marks": 1,
+    "group_id": null,
+    "tags": [
+      "Calculus",
+      "Continuity & Differentiability",
+      "Medium"
+    ],
+    "source": {
+      "title": "cuet-mathematics-2026-slot-1-12-may-shift-2",
+      "question_number": 36
+    },
+    "review_status": "NEEDS_REVIEW",
+    "publication_status": "DRAFT"
+  },
+  {
+    "id": "b21cb591-e8fa-4721-8ce2-949ce7aee1af",
+    "type": "MCQ",
+    "content": [
+      {
+        "type": "paragraph",
+        "inlines": [
+          {
+            "type": "text",
+            "text": "The linear constraints for which the shaded region in the figure are: <img src=\"https://balti.afterboards.in/v0QsIyGIrwouZMF\" width=\"500px\"/>"
+          }
+        ]
+      }
+    ],
+    "options": {
+      "A": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "text",
+              "text": "$x+3y\\le60, x\\le y, x+y\\le10, x\\ge0, y\\ge0$"
+            }
+          ]
+        }
+      ],
+      "B": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "text",
+              "text": "$x+3y\\le60, x\\ge y, x+y\\ge10, x\\ge0, y\\ge0$"
+            }
+          ]
+        }
+      ],
+      "C": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "text",
+              "text": "$x+3y\\le60, x\\le y, x+y\\ge10, x\\ge0, y\\ge0$"
+            }
+          ]
+        }
+      ],
+      "D": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "text",
+              "text": "$x+3y\\ge60, x\\ge y, x+y\\ge10, x\\ge0, y\\ge0$"
+            }
+          ]
+        }
+      ]
+    },
+    "answer": "C",
+    "marks": 1,
+    "group_id": null,
+    "tags": [
+      "Algebra",
+      "Linear Programming",
+      "Medium"
+    ],
+    "source": {
+      "title": "cuet-mathematics-2026-slot-1-12-may-shift-2",
+      "question_number": 37
+    },
+    "review_status": "NEEDS_REVIEW",
+    "publication_status": "DRAFT"
+  },
+  {
+    "id": "730c8eac-7cf8-42b3-a126-3db527eed35f",
+    "type": "MCQ",
+    "content": [
+      {
+        "type": "paragraph",
+        "inlines": [
+          {
+            "type": "text",
+            "text": "The position vectors of the points A and B are $\\vec{a}=2\\hat{i}-3\\hat{j}+2\\hat{k}$ and $\\vec{b}=2\\hat{i}+3\\hat{j}+\\hat{k}$ respectively, then area of triangle OAB is:"
+          }
+        ]
+      }
+    ],
+    "options": {
+      "A": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "text",
+              "text": "$\\dfrac{1}{2}\\sqrt{229}$ Sq. unit"
+            }
+          ]
+        }
+      ],
+      "B": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "text",
+              "text": "$\\sqrt{229}$ Sq. unit"
+            }
+          ]
+        }
+      ],
+      "C": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "text",
+              "text": "$\\sqrt{225}$ Sq. unit"
+            }
+          ]
+        }
+      ],
+      "D": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "text",
+              "text": "$\\dfrac{1}{2}\\sqrt{225}$ Sq. unit"
+            }
+          ]
+        }
+      ]
+    },
+    "answer": "A",
+    "marks": 1,
+    "group_id": null,
+    "tags": [
+      "Algebra",
+      "Vector Algebra",
+      "Easy"
+    ],
+    "source": {
+      "title": "cuet-mathematics-2026-slot-1-12-may-shift-2",
+      "question_number": 38
+    },
+    "review_status": "NEEDS_REVIEW",
+    "publication_status": "DRAFT"
+  },
+  {
+    "id": "ddd18877-ecd5-4d67-82a7-bf14a829f35e",
+    "type": "MCQ",
+    "content": [
+      {
+        "type": "paragraph",
+        "inlines": [
+          {
+            "type": "text",
+            "text": "The maximum value of $f(x)=\\dfrac{1}{3(x^2-x+1)}$ is :"
+          }
+        ]
+      }
+    ],
+    "options": {
+      "A": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "text",
+              "text": "$\\dfrac{9}{4}$"
+            }
+          ]
+        }
+      ],
+      "B": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "text",
+              "text": "$\\dfrac{4}{9}$"
+            }
+          ]
+        }
+      ],
+      "C": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "text",
+              "text": "$\\dfrac{1}{2}$"
+            }
+          ]
+        }
+      ],
+      "D": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "text",
+              "text": "$-\\dfrac{1}{2}$"
+            }
+          ]
+        }
+      ]
+    },
+    "answer": "B",
+    "marks": 1,
+    "group_id": null,
+    "tags": [
+      "Calculus",
+      "Application of Derivatives",
+      "Medium"
+    ],
+    "source": {
+      "title": "cuet-mathematics-2026-slot-1-12-may-shift-2",
+      "question_number": 39
+    },
+    "review_status": "NEEDS_REVIEW",
+    "publication_status": "DRAFT"
+  },
+  {
+    "id": "36610514-b148-44d5-a155-9007a2050fd7",
+    "type": "MCQ",
+    "content": [
+      {
+        "type": "paragraph",
+        "inlines": [
+          {
+            "type": "text",
+            "text": "The area of region $\\{(x,y): 9x^2+16y^2\\le144, x\\ge0, y\\ge0\\}$ is-"
+          }
+        ]
+      }
+    ],
+    "options": {
+      "A": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "text",
+              "text": "$3\\pi$ Sq.units"
+            }
+          ]
+        }
+      ],
+      "B": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "text",
+              "text": "$6\\pi$ Sq.units"
+            }
+          ]
+        }
+      ],
+      "C": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "text",
+              "text": "$9\\pi$ Sq.units"
+            }
+          ]
+        }
+      ],
+      "D": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "text",
+              "text": "$12\\pi$ Sq.units"
+            }
+          ]
+        }
+      ]
+    },
+    "answer": "A",
+    "marks": 1,
+    "group_id": null,
+    "tags": [
+      "Calculus",
+      "Application of Integrals",
+      "Easy"
+    ],
+    "source": {
+      "title": "cuet-mathematics-2026-slot-1-12-may-shift-2",
+      "question_number": 40
+    },
+    "review_status": "NEEDS_REVIEW",
+    "publication_status": "DRAFT"
+  },
+  {
+    "id": "c3347f2c-fcc3-4fe1-a6d7-23682980303c",
+    "type": "MCQ",
+    "content": [
+      {
+        "type": "paragraph",
+        "inlines": [
+          {
+            "type": "text",
+            "text": "If $A=[a_{ij}]_{3\\times3}$ and $a_{ij}=2i-j$, then Match **List-I** with **List-II** | List-I | List-II | |---|---| | (A) $a_{21}+a_{32}$ | (I) 0 | | (B) $\\lvert A\\rvert$ | (II) 19 | | (C) Number of the elements in A | (III) 7 | | (D) $a_{22}.a_{31}+a_{21}.a_{33}$ | (IV) 9 | Choose the **correct** answer from the options given below:"
+          }
+        ]
+      }
+    ],
+    "options": {
+      "A": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "text",
+              "text": "(A) - (II), (B) - (III), (C) - (IV), (D) - (I)"
+            }
+          ]
+        }
+      ],
+      "B": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "text",
+              "text": "(A) - (II), (B) - (I), (C) - (III), (D) - (IV)"
+            }
+          ]
+        }
+      ],
+      "C": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "text",
+              "text": "(A) - (III), (B) - (I), (C) - (IV), (D) - (II)"
+            }
+          ]
+        }
+      ],
+      "D": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "text",
+              "text": "(A) - (III), (B) - (IV), (C) - (I), (D) - (II)"
+            }
+          ]
+        }
+      ]
+    },
+    "answer": "C",
+    "marks": 1,
+    "group_id": null,
+    "tags": [
+      "Algebra",
+      "Matrices & Determinants",
+      "Medium"
+    ],
+    "source": {
+      "title": "cuet-mathematics-2026-slot-1-12-may-shift-2",
+      "question_number": 41
+    },
+    "review_status": "NEEDS_REVIEW",
+    "publication_status": "DRAFT"
+  },
+  {
+    "id": "b3221af8-8155-4752-a912-475c91877327",
+    "type": "MCQ",
+    "content": [
+      {
+        "type": "paragraph",
+        "inlines": [
+          {
+            "type": "text",
+            "text": "For the function $f(x)=ax^3-9ax^2+9x+3, x\\in R$, then which of the following statements are True? (A) $f'(x)=3[ax^2-6ax+3]$ (B) It is increasing for $a\\in\\left[0,\\dfrac{1}{3}\\right]\\ \\forall x\\in R$ (C) It is increasing for $a\\in(-\\infty,0)\\ \\forall x\\in R$ (D) It is increasing for $\\forall a\\in R$ Choose the **correct** answer from the options given below:"
+          }
+        ]
+      }
+    ],
+    "options": {
+      "A": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "text",
+              "text": "(A) and (C) only"
+            }
+          ]
+        }
+      ],
+      "B": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "text",
+              "text": "(A) and (B) only"
+            }
+          ]
+        }
+      ],
+      "C": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "text",
+              "text": "(B) and (C) only"
+            }
+          ]
+        }
+      ],
+      "D": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "text",
+              "text": "(C) and (D) only"
+            }
+          ]
+        }
+      ]
+    },
+    "answer": "B",
+    "marks": 1,
+    "group_id": null,
+    "tags": [
+      "Calculus",
+      "Application of Derivatives",
+      "Hard"
+    ],
+    "source": {
+      "title": "cuet-mathematics-2026-slot-1-12-may-shift-2",
+      "question_number": 42
+    },
+    "review_status": "NEEDS_REVIEW",
+    "publication_status": "DRAFT"
+  },
+  {
+    "id": "62a46b24-6b52-4f8c-a77b-18eefe77d292",
+    "type": "MCQ",
+    "content": [
+      {
+        "type": "paragraph",
+        "inlines": [
+          {
+            "type": "text",
+            "text": "Suppose that A and B are independent events with $P(A)=\\dfrac{1}{7}$ and $P(B)=\\dfrac{3}{7}$, then $P(A\\cap B)$ is"
+          }
+        ]
+      }
+    ],
+    "options": {
+      "A": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "text",
+              "text": "$\\dfrac{2}{49}$"
+            }
+          ]
+        }
+      ],
+      "B": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "text",
+              "text": "$\\dfrac{3}{49}$"
+            }
+          ]
+        }
+      ],
+      "C": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "text",
+              "text": "$\\dfrac{46}{49}$"
+            }
+          ]
+        }
+      ],
+      "D": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "text",
+              "text": "$\\dfrac{5}{49}$"
+            }
+          ]
+        }
+      ]
+    },
+    "answer": "B",
+    "marks": 1,
+    "group_id": null,
+    "tags": [
+      "Algebra",
+      "Probability",
+      "Easy"
+    ],
+    "source": {
+      "title": "cuet-mathematics-2026-slot-1-12-may-shift-2",
+      "question_number": 43
+    },
+    "review_status": "NEEDS_REVIEW",
+    "publication_status": "DRAFT"
+  },
+  {
+    "id": "9560f5b7-3624-427a-8a96-4e741aeee4af",
+    "type": "MCQ",
+    "content": [
+      {
+        "type": "paragraph",
+        "inlines": [
+          {
+            "type": "text",
+            "text": "Which of the following differential equations has $y=x$ as one of the particular solution?"
+          }
+        ]
+      }
+    ],
+    "options": {
+      "A": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "text",
+              "text": "$\\dfrac{d^2y}{dx^2}-x\\dfrac{dy}{dx}+xy=x$"
+            }
+          ]
+        }
+      ],
+      "B": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "text",
+              "text": "$\\dfrac{d^2y}{dx^2}+x\\dfrac{dy}{dx}+xy=x$"
+            }
+          ]
+        }
+      ],
+      "C": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "text",
+              "text": "$\\dfrac{d^2y}{dx^2}-x^2\\dfrac{dy}{dx}+xy=0$"
+            }
+          ]
+        }
+      ],
+      "D": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "text",
+              "text": "$\\dfrac{d^2y}{dx^2}+x\\dfrac{dy}{dx}+xy=0$"
+            }
+          ]
+        }
+      ]
+    },
+    "answer": "C",
+    "marks": 1,
+    "group_id": null,
+    "tags": [
+      "Calculus",
+      "Differential Equations",
+      "Medium"
+    ],
+    "source": {
+      "title": "cuet-mathematics-2026-slot-1-12-may-shift-2",
+      "question_number": 44
+    },
+    "review_status": "NEEDS_REVIEW",
+    "publication_status": "DRAFT"
+  },
+  {
+    "id": "0c9f1e34-f7ac-4bd4-aa2b-01829b8cfaad",
+    "type": "MCQ",
+    "content": [
+      {
+        "type": "paragraph",
+        "inlines": [
+          {
+            "type": "text",
+            "text": "If $\\begin{vmatrix}1 & 1 & 1\\\\ c & b-x & a\\\\ b & a & c-x\\end{vmatrix}=0$, then $x$ is equal to"
+          }
+        ]
+      }
+    ],
+    "options": {
+      "A": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "text",
+              "text": "$\\pm\\sqrt2\\sqrt{(a-b)^2+(b-c)^2+(c-a)^2}$"
+            }
+          ]
+        }
+      ],
+      "B": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "text",
+              "text": "$\\pm\\dfrac{1}{\\sqrt2}\\sqrt{(a-b)^2+(b-c)^2+(c-a)^2}$"
+            }
+          ]
+        }
+      ],
+      "C": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "text",
+              "text": "$\\pm\\sqrt{(a-b)^2+(b-c)^2+(c-a)^2}$"
+            }
+          ]
+        }
+      ],
+      "D": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "text",
+              "text": "$\\pm\\sqrt{a^2+b^2+c^2}$"
+            }
+          ]
+        }
+      ]
+    },
+    "answer": "B",
+    "marks": 1,
+    "group_id": null,
+    "tags": [
+      "Algebra",
+      "Matrices & Determinants",
+      "Hard"
+    ],
+    "source": {
+      "title": "cuet-mathematics-2026-slot-1-12-may-shift-2",
+      "question_number": 45
+    },
+    "review_status": "NEEDS_REVIEW",
+    "publication_status": "DRAFT"
+  },
+  {
+    "id": "9f4d946a-6c90-4c7c-ad2a-d3bbfcdf56b1",
+    "type": "MCQ",
+    "content": [
+      {
+        "type": "paragraph",
+        "inlines": [
+          {
+            "type": "text",
+            "text": "Function $f(x)=[x]$, greatest integer function is (A) Continuous at $x=2.5$ (B) Continuous at $x=1$ (C) Differentiable at $x=2$ (D) Differentiable at $x=-1.2$ Choose the **correct** answer from the options given below:"
+          }
+        ]
+      }
+    ],
+    "options": {
+      "A": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "text",
+              "text": "(B) and (C) only"
+            }
+          ]
+        }
+      ],
+      "B": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "text",
+              "text": "(A) and (D) only"
+            }
+          ]
+        }
+      ],
+      "C": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "text",
+              "text": "(A), (B) and (D) only"
+            }
+          ]
+        }
+      ],
+      "D": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "text",
+              "text": "(A), (B) and (C) only"
+            }
+          ]
+        }
+      ]
+    },
+    "answer": "B",
+    "marks": 1,
+    "group_id": null,
+    "tags": [
+      "Calculus",
+      "Continuity & Differentiability",
+      "Easy"
+    ],
+    "source": {
+      "title": "cuet-mathematics-2026-slot-1-12-may-shift-2",
+      "question_number": 46
+    },
+    "review_status": "NEEDS_REVIEW",
+    "publication_status": "DRAFT"
+  },
+  {
+    "id": "d920908e-7dc8-4eea-9a99-9d92c1701ca6",
+    "type": "MCQ",
+    "content": [
+      {
+        "type": "paragraph",
+        "inlines": [
+          {
+            "type": "text",
+            "text": "If $\\begin{vmatrix}3 & x\\\\ x & 1\\end{vmatrix}=\\begin{vmatrix}3 & 2\\\\ 4 & 1\\end{vmatrix}$, then value of $x$ is/are (A) $x=2$ (B) $x=-2$ (C) $x=2\\sqrt2$ (D) $x=-2\\sqrt2$ Choose the **correct** answer from the options given below:"
+          }
+        ]
+      }
+    ],
+    "options": {
+      "A": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "text",
+              "text": "(A) only"
+            }
+          ]
+        }
+      ],
+      "B": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "text",
+              "text": "(B) and (D) only"
+            }
+          ]
+        }
+      ],
+      "C": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "text",
+              "text": "(C) and (D) only"
+            }
+          ]
+        }
+      ],
+      "D": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "text",
+              "text": "(A), (C) and (D) only"
+            }
+          ]
+        }
+      ]
+    },
+    "answer": "C",
+    "marks": 1,
+    "group_id": null,
+    "tags": [
+      "Algebra",
+      "Matrices & Determinants",
+      "Easy"
+    ],
+    "source": {
+      "title": "cuet-mathematics-2026-slot-1-12-may-shift-2",
+      "question_number": 47
+    },
+    "review_status": "NEEDS_REVIEW",
+    "publication_status": "DRAFT"
+  },
+  {
+    "id": "fd373a8e-d5e5-4011-a24d-759d37b4b26a",
+    "type": "MCQ",
+    "content": [
+      {
+        "type": "paragraph",
+        "inlines": [
+          {
+            "type": "text",
+            "text": "If $\\displaystyle\\int\\dfrac{x^3\\,dx}{\\sqrt{1+x^2}} = a(1+x^2)^{3/2}+b\\sqrt{1+x^2}+c$, where 'C' is an arbitrary constant, then the value of $a$ and $b$ are"
+          }
+        ]
+      }
+    ],
+    "options": {
+      "A": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "text",
+              "text": "$a=\\dfrac{1}{3}, b=1$"
+            }
+          ]
+        }
+      ],
+      "B": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "text",
+              "text": "$a=-\\dfrac{1}{3}, b=1$"
+            }
+          ]
+        }
+      ],
+      "C": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "text",
+              "text": "$a=-\\dfrac{1}{3}, b=-1$"
+            }
+          ]
+        }
+      ],
+      "D": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "text",
+              "text": "$a=\\dfrac{1}{3}, b=-1$"
+            }
+          ]
+        }
+      ]
+    },
+    "answer": "D",
+    "marks": 1,
+    "group_id": null,
+    "tags": [
+      "Calculus",
+      "Integrals",
+      "Medium"
+    ],
+    "source": {
+      "title": "cuet-mathematics-2026-slot-1-12-may-shift-2",
+      "question_number": 48
+    },
+    "review_status": "NEEDS_REVIEW",
+    "publication_status": "DRAFT"
+  },
+  {
+    "id": "9b1c8faa-a407-4a0f-87a3-08b574f5288d",
+    "type": "MCQ",
+    "content": [
+      {
+        "type": "paragraph",
+        "inlines": [
+          {
+            "type": "text",
+            "text": "Given that the events A and B are mutually exclusive such that $P(A)=\\dfrac{1}{2}$, $P(A\\cup B)=\\dfrac{2}{3}$ and $P(B)=p$, then the value of $p$ is:"
+          }
+        ]
+      }
+    ],
+    "options": {
+      "A": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "text",
+              "text": "$\\dfrac{1}{6}$"
+            }
+          ]
+        }
+      ],
+      "B": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "text",
+              "text": "$\\dfrac{1}{5}$"
+            }
+          ]
+        }
+      ],
+      "C": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "text",
+              "text": "$\\dfrac{1}{4}$"
+            }
+          ]
+        }
+      ],
+      "D": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "text",
+              "text": "$\\dfrac{1}{3}$"
+            }
+          ]
+        }
+      ]
+    },
+    "answer": "A",
+    "marks": 1,
+    "group_id": null,
+    "tags": [
+      "Algebra",
+      "Probability",
+      "Easy"
+    ],
+    "source": {
+      "title": "cuet-mathematics-2026-slot-1-12-may-shift-2",
+      "question_number": 49
+    },
+    "review_status": "NEEDS_REVIEW",
+    "publication_status": "DRAFT"
+  },
+  {
+    "id": "10941dd3-abcc-4d17-a5f8-a63ea6fcf083",
+    "type": "MCQ",
+    "content": [
+      {
+        "type": "paragraph",
+        "inlines": [
+          {
+            "type": "text",
+            "text": "The value of $\\displaystyle\\int_{-1}^{1}|x^4-x|\\,dx$ is equal to:"
+          }
+        ]
+      }
+    ],
+    "options": {
+      "A": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "text",
+              "text": "$\\dfrac{1}{2}$"
+            }
+          ]
+        }
+      ],
+      "B": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "text",
+              "text": "$\\dfrac{1}{3}$"
+            }
+          ]
+        }
+      ],
+      "C": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "text",
+              "text": "2"
+            }
+          ]
+        }
+      ],
+      "D": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "text",
+              "text": "1"
+            }
+          ]
+        }
+      ]
+    },
+    "answer": "D",
+    "marks": 1,
+    "group_id": null,
+    "tags": [
+      "Calculus",
+      "Integrals",
+      "Medium"
+    ],
+    "source": {
+      "title": "cuet-mathematics-2026-slot-1-12-may-shift-2",
+      "question_number": 50
+    },
+    "review_status": "NEEDS_REVIEW",
+    "publication_status": "DRAFT"
+  },
+  {
+    "id": "ce00e3c5-218b-43f6-8eb1-c8a567abbf77",
+    "type": "MCQ",
+    "content": [
+      {
+        "type": "paragraph",
+        "inlines": [
+          {
+            "type": "text",
+            "text": "A person can row a motor boat in still water at the rate of 12 km/hr. It takes him thrice as long to row upstream of a river as to row downstream of the same river. The speed of the stream is :"
+          }
+        ]
+      }
+    ],
+    "options": {
+      "A": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "text",
+              "text": "8 km/hr"
+            }
+          ]
+        }
+      ],
+      "B": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "text",
+              "text": "10 km/hr"
+            }
+          ]
+        }
+      ],
+      "C": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "text",
+              "text": "6 km/hr"
+            }
+          ]
+        }
+      ],
+      "D": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "text",
+              "text": "4 km/hr"
+            }
+          ]
+        }
+      ]
+    },
+    "answer": "C",
+    "marks": 1,
+    "group_id": null,
+    "tags": [
+      "Arithmetic",
+      "Time, Speed & Distance",
+      "Easy"
+    ],
+    "source": {
+      "title": "cuet-mathematics-2026-slot-1-12-may-shift-2",
+      "question_number": 51
+    },
+    "review_status": "NEEDS_REVIEW",
+    "publication_status": "DRAFT"
+  },
+  {
+    "id": "554ff20c-e655-40a6-8830-74bd0eb7cecb",
+    "type": "MCQ",
+    "content": [
+      {
+        "type": "paragraph",
+        "inlines": [
+          {
+            "type": "text",
+            "text": "Match the components of time series with the examples associated to them. Match **List-I** with **List-II** | List-I | List-II | |---|---| | (A) Secular Trend | (I) Monthly sale of soft drink increases in summer | | (B) Seasonal variations | (II) Rise and fall of the share market | | (C) Cyclic Variations | (III) Data regarding national income | | (D) Irregular Variations | (IV) Sudden fall in crop yield due to floods | Choose the **correct** answer from the options given below:"
+          }
+        ]
+      }
+    ],
+    "options": {
+      "A": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "text",
+              "text": "(A) - (I), (B) - (II), (C) - (III), (D) - (IV)"
+            }
+          ]
+        }
+      ],
+      "B": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "text",
+              "text": "(A) - (IV), (B) - (III), (C) - (II), (D) - (I)"
+            }
+          ]
+        }
+      ],
+      "C": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "text",
+              "text": "(A) - (III), (B) - (I), (C) - (II), (D) - (IV)"
+            }
+          ]
+        }
+      ],
+      "D": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "text",
+              "text": "(A) - (II), (B) - (III), (C) - (IV), (D) - (I)"
+            }
+          ]
+        }
+      ]
+    },
+    "answer": "C",
+    "marks": 1,
+    "group_id": null,
+    "tags": [
+      "Statistics & Applications",
+      "Trends & Data",
+      "Easy"
+    ],
+    "source": {
+      "title": "cuet-mathematics-2026-slot-1-12-may-shift-2",
+      "question_number": 52
+    },
+    "review_status": "NEEDS_REVIEW",
+    "publication_status": "DRAFT"
+  },
+  {
+    "id": "4d3fa07b-053a-4ce7-85c7-c342a64a78e7",
+    "type": "MCQ",
+    "content": [
+      {
+        "type": "paragraph",
+        "inlines": [
+          {
+            "type": "text",
+            "text": "The matrix which is both symmetric and skew-symmetric, is a:"
+          }
+        ]
+      }
+    ],
+    "options": {
+      "A": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "text",
+              "text": "Row matrix"
+            }
+          ]
+        }
+      ],
+      "B": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "text",
+              "text": "Column matrix"
+            }
+          ]
+        }
+      ],
+      "C": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "text",
+              "text": "Upper Triangular Matrix"
+            }
+          ]
+        }
+      ],
+      "D": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "text",
+              "text": "Null Matrix"
+            }
+          ]
+        }
+      ]
+    },
+    "answer": "D",
+    "marks": 1,
+    "group_id": null,
+    "tags": [
+      "Algebra",
+      "Matrices & Determinants",
+      "Easy"
+    ],
+    "source": {
+      "title": "cuet-mathematics-2026-slot-1-12-may-shift-2",
+      "question_number": 53
+    },
+    "review_status": "NEEDS_REVIEW",
+    "publication_status": "DRAFT"
+  },
+  {
+    "id": "95dc9abf-6d9d-4d1f-9a90-22e8e654b576",
+    "type": "MCQ",
+    "content": [
+      {
+        "type": "paragraph",
+        "inlines": [
+          {
+            "type": "text",
+            "text": "Which of the following approaches is not associated to valuation of bonds ?"
+          }
+        ]
+      }
+    ],
+    "options": {
+      "A": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "text",
+              "text": "Present value approach"
+            }
+          ]
+        }
+      ],
+      "B": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "text",
+              "text": "Arbitrage-face pricing approach"
+            }
+          ]
+        }
+      ],
+      "C": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "text",
+              "text": "Scottish-differential approach"
+            }
+          ]
+        }
+      ],
+      "D": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "text",
+              "text": "Relative-price approach"
+            }
+          ]
+        }
+      ]
+    },
+    "answer": "C",
+    "marks": 1,
+    "group_id": null,
+    "tags": [
+      "Statistics & Applications",
+      "Financial Math",
+      "Easy"
+    ],
+    "source": {
+      "title": "cuet-mathematics-2026-slot-1-12-may-shift-2",
+      "question_number": 54
+    },
+    "review_status": "NEEDS_REVIEW",
+    "publication_status": "DRAFT"
+  },
+  {
+    "id": "afade43a-70cc-4956-9ea0-284584d0cfcc",
+    "type": "MCQ",
+    "content": [
+      {
+        "type": "paragraph",
+        "inlines": [
+          {
+            "type": "text",
+            "text": "The total revenue received from the sale of $x$ units of a product is given by $R(x)=24x+5x^2+3$. The marginal revenue when $x=10$ is,"
+          }
+        ]
+      }
+    ],
+    "options": {
+      "A": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "text",
+              "text": "743"
+            }
+          ]
+        }
+      ],
+      "B": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "text",
+              "text": "124"
+            }
+          ]
+        }
+      ],
+      "C": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "text",
+              "text": "10"
+            }
+          ]
+        }
+      ],
+      "D": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "text",
+              "text": "155"
+            }
+          ]
+        }
+      ]
+    },
+    "answer": "B",
+    "marks": 1,
+    "group_id": null,
+    "tags": [
+      "Calculus",
+      "Application of Derivatives",
+      "Easy"
+    ],
+    "source": {
+      "title": "cuet-mathematics-2026-slot-1-12-may-shift-2",
+      "question_number": 55
+    },
+    "review_status": "NEEDS_REVIEW",
+    "publication_status": "DRAFT"
+  },
+  {
+    "id": "e922d8c0-90f8-41e4-bf86-e07ed5f87216",
+    "type": "MCQ",
+    "content": [
+      {
+        "type": "paragraph",
+        "inlines": [
+          {
+            "type": "text",
+            "text": "If a container contains 't' units of a particular liquid. Out of which 's' units are taken out and replaced by water. Then after $p-1$ operations, the quantity of pure liquid left in the container is given by:-"
+          }
+        ]
+      }
+    ],
+    "options": {
+      "A": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "text",
+              "text": "$\\left[s\\left(1-\\dfrac{t}{s}\\right)\\right]^p$ units"
+            }
+          ]
+        }
+      ],
+      "B": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "text",
+              "text": "$\\left[t\\left(1-\\dfrac{s}{t}\\right)\\right]^{p-1}$ units"
+            }
+          ]
+        }
+      ],
+      "C": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "text",
+              "text": "$\\left[t\\left(1-\\dfrac{s}{t}\\right)^{p-1}\\right]$ units"
+            }
+          ]
+        }
+      ],
+      "D": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "text",
+              "text": "$\\left[s\\left(1-\\dfrac{t}{s}\\right)^p\\right]$ units"
+            }
+          ]
+        }
+      ]
+    },
+    "answer": "C",
+    "marks": 1,
+    "group_id": null,
+    "tags": [
+      "Arithmetic",
+      "Mixture & Alligation",
+      "Medium"
+    ],
+    "source": {
+      "title": "cuet-mathematics-2026-slot-1-12-may-shift-2",
+      "question_number": 56
+    },
+    "review_status": "NEEDS_REVIEW",
+    "publication_status": "DRAFT"
+  },
+  {
+    "id": "a0822aee-28c7-48f6-a8af-1978f6a89d19",
+    "type": "MCQ",
+    "content": [
+      {
+        "type": "paragraph",
+        "inlines": [
+          {
+            "type": "text",
+            "text": "Let $Z=ux+vy$, $u,v>0$ be the objective function of a linear programming problem. Then the condition on $u$ and $v$ so that the maximum of $Z$ occurs at both points $(3,4)$ and $(0,5)$ is :"
+          }
+        ]
+      }
+    ],
+    "options": {
+      "A": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "text",
+              "text": "$u=v$"
+            }
+          ]
+        }
+      ],
+      "B": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "text",
+              "text": "$u=2v$"
+            }
+          ]
+        }
+      ],
+      "C": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "text",
+              "text": "$u=3v$"
+            }
+          ]
+        }
+      ],
+      "D": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "text",
+              "text": "$3u=v$"
+            }
+          ]
+        }
+      ]
+    },
+    "answer": "D",
+    "marks": 1,
+    "group_id": null,
+    "tags": [
+      "Algebra",
+      "Linear Programming",
+      "Easy"
+    ],
+    "source": {
+      "title": "cuet-mathematics-2026-slot-1-12-may-shift-2",
+      "question_number": 57
+    },
+    "review_status": "NEEDS_REVIEW",
+    "publication_status": "DRAFT"
+  },
+  {
+    "id": "41ab16e8-1597-49b5-a2da-4e544ee13d63",
+    "type": "MCQ",
+    "content": [
+      {
+        "type": "paragraph",
+        "inlines": [
+          {
+            "type": "text",
+            "text": "If $y=7^x\\log(5x^3)$, then $\\dfrac{dy}{dx}$ is equal to: (consider $\\log_e x = \\log x$)"
+          }
+        ]
+      }
+    ],
+    "options": {
+      "A": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "text",
+              "text": "$x.7^{x-1}[\\log(5x)^3]+\\dfrac{7^x}{5x^3}$"
+            }
+          ]
+        }
+      ],
+      "B": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "text",
+              "text": "$7^{x-1}\\left[x\\log(5x^3)+\\dfrac{7}{5x^3}\\right]$"
+            }
+          ]
+        }
+      ],
+      "C": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "text",
+              "text": "$7^x\\left[\\log7\\{\\log(5x^3)\\}+\\dfrac{3}{x}\\right]$"
+            }
+          ]
+        }
+      ],
+      "D": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "text",
+              "text": "$x.7^x\\left[x\\log5x^3+\\dfrac{7}{5x^3}\\log7\\right]$"
+            }
+          ]
+        }
+      ]
+    },
+    "answer": "C",
+    "marks": 1,
+    "group_id": null,
+    "tags": [
+      "Calculus",
+      "Continuity & Differentiability",
+      "Medium"
+    ],
+    "source": {
+      "title": "cuet-mathematics-2026-slot-1-12-may-shift-2",
+      "question_number": 58
+    },
+    "review_status": "NEEDS_REVIEW",
+    "publication_status": "DRAFT"
+  },
+  {
+    "id": "5b7d3a98-c4d7-41e1-81ae-3d9149146db2",
+    "type": "MCQ",
+    "content": [
+      {
+        "type": "paragraph",
+        "inlines": [
+          {
+            "type": "text",
+            "text": "A perpetual bond generates an annual return of ₹1,50,000 payable at the end by each year. The present value of this perpetuity if the money is worth 7% per annum will be"
+          }
+        ]
+      }
+    ],
+    "options": {
+      "A": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "text",
+              "text": "₹21,43,857.14"
+            }
+          ]
+        }
+      ],
+      "B": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "text",
+              "text": "₹21,42,857.14"
+            }
+          ]
+        }
+      ],
+      "C": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "text",
+              "text": "₹21,43,587.41"
+            }
+          ]
+        }
+      ],
+      "D": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "text",
+              "text": "₹21,42,578.14"
+            }
+          ]
+        }
+      ]
+    },
+    "answer": "B",
+    "marks": 1,
+    "group_id": null,
+    "tags": [
+      "Statistics & Applications",
+      "Financial Math",
+      "Easy"
+    ],
+    "source": {
+      "title": "cuet-mathematics-2026-slot-1-12-may-shift-2",
+      "question_number": 59
+    },
+    "review_status": "NEEDS_REVIEW",
+    "publication_status": "DRAFT"
+  },
+  {
+    "id": "a90bddc6-538b-4161-b4e3-f026c49f5fea",
+    "type": "MCQ",
+    "content": [
+      {
+        "type": "paragraph",
+        "inlines": [
+          {
+            "type": "text",
+            "text": "If A is an invertible matrix of order 3 and $|A|=7$, then the value of $|adj\\ A|$ is:"
+          }
+        ]
+      }
+    ],
+    "options": {
+      "A": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "text",
+              "text": "14"
+            }
+          ]
+        }
+      ],
+      "B": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "text",
+              "text": "343"
+            }
+          ]
+        }
+      ],
+      "C": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "text",
+              "text": "49"
+            }
+          ]
+        }
+      ],
+      "D": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "text",
+              "text": "7"
+            }
+          ]
+        }
+      ]
+    },
+    "answer": "C",
+    "marks": 1,
+    "group_id": null,
+    "tags": [
+      "Algebra",
+      "Matrices & Determinants",
+      "Easy"
+    ],
+    "source": {
+      "title": "cuet-mathematics-2026-slot-1-12-may-shift-2",
+      "question_number": 60
+    },
+    "review_status": "NEEDS_REVIEW",
+    "publication_status": "DRAFT"
+  },
+  {
+    "id": "7202e666-c3a3-4335-9271-b6a223370cda",
+    "type": "MCQ",
+    "content": [
+      {
+        "type": "paragraph",
+        "inlines": [
+          {
+            "type": "text",
+            "text": "If $\\begin{vmatrix}4x & 9\\\\ -4 & -5\\end{vmatrix}=\\begin{vmatrix}4 & 8\\\\ 2 & 3\\end{vmatrix}$, then the value of $x$ is :"
+          }
+        ]
+      }
+    ],
+    "options": {
+      "A": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "text",
+              "text": "1"
+            }
+          ]
+        }
+      ],
+      "B": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "text",
+              "text": "3"
+            }
+          ]
+        }
+      ],
+      "C": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "text",
+              "text": "2"
+            }
+          ]
+        }
+      ],
+      "D": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "text",
+              "text": "5"
+            }
+          ]
+        }
+      ]
+    },
+    "answer": "C",
+    "marks": 1,
+    "group_id": null,
+    "tags": [
+      "Algebra",
+      "Matrices & Determinants",
+      "Easy"
+    ],
+    "source": {
+      "title": "cuet-mathematics-2026-slot-1-12-may-shift-2",
+      "question_number": 61
+    },
+    "review_status": "NEEDS_REVIEW",
+    "publication_status": "DRAFT"
+  },
+  {
+    "id": "c52e460f-ab5a-4bb9-99d6-19195afde221",
+    "type": "MCQ",
+    "content": [
+      {
+        "type": "paragraph",
+        "inlines": [
+          {
+            "type": "text",
+            "text": "If $X$ is a Poisson variate such that $4P(X=1)=3P(X=2)$, then $P(X=0)=$"
+          }
+        ]
+      }
+    ],
+    "options": {
+      "A": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "text",
+              "text": "$e^{-8/3}$"
+            }
+          ]
+        }
+      ],
+      "B": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "text",
+              "text": "$e^{-4/3}$"
+            }
+          ]
+        }
+      ],
+      "C": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "text",
+              "text": "$e^{-2}$"
+            }
+          ]
+        }
+      ],
+      "D": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "text",
+              "text": "$e^{-1/3}$"
+            }
+          ]
+        }
+      ]
+    },
+    "answer": "A",
+    "marks": 1,
+    "group_id": null,
+    "tags": [
+      "Applied Mathematics",
+      "Probability Distribution",
+      "Medium"
+    ],
+    "source": {
+      "title": "cuet-mathematics-2026-slot-1-12-may-shift-2",
+      "question_number": 62
+    },
+    "review_status": "NEEDS_REVIEW",
+    "publication_status": "DRAFT"
+  },
+  {
+    "id": "c00daf02-1e21-4b7a-aacb-c9c265aa9657",
+    "type": "MCQ",
+    "content": [
+      {
+        "type": "paragraph",
+        "inlines": [
+          {
+            "type": "text",
+            "text": "If $\\begin{bmatrix}-2 & 0\\\\ x & 4\\end{bmatrix}+3\\begin{bmatrix}y & 0\\\\ 2 & -1\\end{bmatrix}=I$, where $I$ is $2\\times2$ unit matrix, then the value of $x$ and $y$ are:"
+          }
+        ]
+      }
+    ],
+    "options": {
+      "A": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "text",
+              "text": "$x=0, y=2$"
+            }
+          ]
+        }
+      ],
+      "B": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "text",
+              "text": "$x=-6, y=1$"
+            }
+          ]
+        }
+      ],
+      "C": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "text",
+              "text": "$x=-3, y=1$"
+            }
+          ]
+        }
+      ],
+      "D": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "text",
+              "text": "$x=0, y=3$"
+            }
+          ]
+        }
+      ]
+    },
+    "answer": "B",
+    "marks": 1,
+    "group_id": null,
+    "tags": [
+      "Algebra",
+      "Matrices & Determinants",
+      "Easy"
+    ],
+    "source": {
+      "title": "cuet-mathematics-2026-slot-1-12-may-shift-2",
+      "question_number": 63
+    },
+    "review_status": "NEEDS_REVIEW",
+    "publication_status": "DRAFT"
+  },
+  {
+    "id": "5602e3af-7dfc-4f3f-b74d-d1091aa4ae6c",
+    "type": "MCQ",
+    "content": [
+      {
+        "type": "paragraph",
+        "inlines": [
+          {
+            "type": "text",
+            "text": "If $x=2at^5$ and $y=at^{10}$, then $\\dfrac{dy}{dx}=$"
+          }
+        ]
+      }
+    ],
+    "options": {
+      "A": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "text",
+              "text": "$\\dfrac{1}{t^5}$"
+            }
+          ]
+        }
+      ],
+      "B": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "text",
+              "text": "$t^5$"
+            }
+          ]
+        }
+      ],
+      "C": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "text",
+              "text": "$10at^9$"
+            }
+          ]
+        }
+      ],
+      "D": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "text",
+              "text": "$10at^4$"
+            }
+          ]
+        }
+      ]
+    },
+    "answer": "B",
+    "marks": 1,
+    "group_id": null,
+    "tags": [
+      "Calculus",
+      "Continuity & Differentiability",
+      "Easy"
+    ],
+    "source": {
+      "title": "cuet-mathematics-2026-slot-1-12-may-shift-2",
+      "question_number": 64
+    },
+    "review_status": "NEEDS_REVIEW",
+    "publication_status": "DRAFT"
+  },
+  {
+    "id": "f373a7fd-16cf-4abc-a2bf-d36b8054f759",
+    "type": "MCQ",
+    "content": [
+      {
+        "type": "paragraph",
+        "inlines": [
+          {
+            "type": "text",
+            "text": "For the values 22, 25, 28, 31, 40, 43, the three yearly moving averages are"
+          }
+        ]
+      }
+    ],
+    "options": {
+      "A": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "text",
+              "text": "25, 33, 38, 42"
+            }
+          ]
+        }
+      ],
+      "B": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "text",
+              "text": "25, 28, 33, 38"
+            }
+          ]
+        }
+      ],
+      "C": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "text",
+              "text": "25, 27, 32, 37"
+            }
+          ]
+        }
+      ],
+      "D": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "text",
+              "text": "25, 28, 32, 37"
+            }
+          ]
+        }
+      ]
+    },
+    "answer": "B",
+    "marks": 1,
+    "group_id": null,
+    "tags": [
+      "Statistics & Applications",
+      "Trends & Data",
+      "Easy"
+    ],
+    "source": {
+      "title": "cuet-mathematics-2026-slot-1-12-may-shift-2",
+      "question_number": 65
+    },
+    "review_status": "NEEDS_REVIEW",
+    "publication_status": "DRAFT"
+  },
+  {
+    "id": "df0cc55d-3963-4701-9c5b-e780bad8e7dd",
+    "type": "MCQ",
+    "content": [
+      {
+        "type": "paragraph",
+        "inlines": [
+          {
+            "type": "text",
+            "text": "A ring is dropped into a quiet pond and waves move in circles at a speed of 2 cm/second. At the instant, when the radius of the circular wave is 12 cm, how fast is the enclosed area increasing?"
+          }
+        ]
+      }
+    ],
+    "options": {
+      "A": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "text",
+              "text": "$24\\pi\\ cm^2/sec$"
+            }
+          ]
+        }
+      ],
+      "B": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "text",
+              "text": "$24\\pi\\ cm^3/sec$"
+            }
+          ]
+        }
+      ],
+      "C": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "text",
+              "text": "$48\\pi\\ cm^2/sec$"
+            }
+          ]
+        }
+      ],
+      "D": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "text",
+              "text": "$48\\pi\\ cm^3/sec$"
+            }
+          ]
+        }
+      ]
+    },
+    "answer": "C",
+    "marks": 1,
+    "group_id": null,
+    "tags": [
+      "Calculus",
+      "Application of Derivatives",
+      "Easy"
+    ],
+    "source": {
+      "title": "cuet-mathematics-2026-slot-1-12-may-shift-2",
+      "question_number": 66
+    },
+    "review_status": "NEEDS_REVIEW",
+    "publication_status": "DRAFT"
+  },
+  {
+    "id": "1b4279a5-b705-4656-b706-28ca1652011e",
+    "type": "MCQ",
+    "content": [
+      {
+        "type": "paragraph",
+        "inlines": [
+          {
+            "type": "text",
+            "text": "Match the rational functions with the correct form of the partial fractions. [ $p,q,r,a,b,c,A,B,C$ are arbitrary constants] Match **List-I** with **List-II** | List-I (Rational Function) | List-II (Partial Fraction) | |---|---| | (A) $\\dfrac{px^2+qx+r}{(x-a)(x^2+bx+c)}$ | (I) $\\dfrac{A}{x-a}+\\dfrac{B}{(x-a)^2}+\\dfrac{C}{x-b}$ | | (B) $\\dfrac{px^2+qx+r}{(x-a)^2(x-b)}, a\\neq b$ | (II) $\\dfrac{A}{x-a}+\\dfrac{B}{(x-a)^2}$ | | (C) $\\dfrac{px^2+qx+r}{(x-a)(x-b)(x-c)}, a\\neq b\\neq c$ | (III) $\\dfrac{A}{x-a}+\\dfrac{Bx+C}{x^2+bx+c}$ | | (D) $\\dfrac{px+q}{(x-a)^2}$ | (IV) $\\dfrac{A}{x-a}+\\dfrac{B}{x-b}+\\dfrac{C}{x-c}$ | Choose the **correct** answer from the options given below:"
+          }
+        ]
+      }
+    ],
+    "options": {
+      "A": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "text",
+              "text": "(A) - (III), (B) - (IV), (C) - (I), (D) - (II)"
+            }
+          ]
+        }
+      ],
+      "B": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "text",
+              "text": "(A) - (III), (B) - (I), (C) - (II), (D) - (IV)"
+            }
+          ]
+        }
+      ],
+      "C": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "text",
+              "text": "(A) - (III), (B) - (II), (C) - (I), (D) - (IV)"
+            }
+          ]
+        }
+      ],
+      "D": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "text",
+              "text": "(A) - (III), (B) - (I), (C) - (IV), (D) - (II)"
+            }
+          ]
+        }
+      ]
+    },
+    "answer": "D",
+    "marks": 1,
+    "group_id": null,
+    "tags": [
+      "Calculus",
+      "Integrals",
+      "Easy"
+    ],
+    "source": {
+      "title": "cuet-mathematics-2026-slot-1-12-may-shift-2",
+      "question_number": 67
+    },
+    "review_status": "NEEDS_REVIEW",
+    "publication_status": "DRAFT"
+  },
+  {
+    "id": "25ea012c-a2fa-44ec-9b03-565c4bb7da72",
+    "type": "MCQ",
+    "content": [
+      {
+        "type": "paragraph",
+        "inlines": [
+          {
+            "type": "text",
+            "text": "The probability distribution of a random variable $X$ is given as $P(X=x)=\\begin{cases}kx^3 & \\text{for } x=1,2,3\\\\ 3kx & \\text{for } x=4,5\\\\ 0 & \\text{otherwise}\\end{cases}$, where $k$ is a constant. The value of $P(X\\ge4)$ is"
+          }
+        ]
+      }
+    ],
+    "options": {
+      "A": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "text",
+              "text": "$\\dfrac{5}{21}$"
+            }
+          ]
+        }
+      ],
+      "B": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "text",
+              "text": "$\\dfrac{16}{21}$"
+            }
+          ]
+        }
+      ],
+      "C": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "text",
+              "text": "$\\dfrac{3}{7}$"
+            }
+          ]
+        }
+      ],
+      "D": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "text",
+              "text": "$\\dfrac{4}{7}$"
+            }
+          ]
+        }
+      ]
+    },
+    "answer": "C",
+    "marks": 1,
+    "group_id": null,
+    "tags": [
+      "Applied Mathematics",
+      "Probability Distribution",
+      "Medium"
+    ],
+    "source": {
+      "title": "cuet-mathematics-2026-slot-1-12-may-shift-2",
+      "question_number": 68
+    },
+    "review_status": "NEEDS_REVIEW",
+    "publication_status": "DRAFT"
+  },
+  {
+    "id": "7d191d9a-e582-4468-9c2b-351ca0dfbb02",
+    "type": "MCQ",
+    "content": [
+      {
+        "type": "paragraph",
+        "inlines": [
+          {
+            "type": "text",
+            "text": "Match **List-I** with **List-II** | List-I | List-II | |---|---| | (A) If an inlet pipe can fill a tank in $x$ hours, but due to a leakage in the bottom it is filled in $y$ hours, then time (in hours) taken to empty the tank due to leakage | (I) $\\dfrac{yz+zx-xy}{xyz}$ | | (B) If two inlet pipes take $x$ & $y$ hours respectively to fill the tank and the third outlet pipe takes $z$ hours to empty the tank. If all three of them are opened together, then the net part of the tank filled in 1 hour | (II) $\\dfrac{1}{x}$ | | (C) If a pipe can fill the tank completely in $x$ hours, then the part of the tank filled in 1 hour | (III) $\\dfrac{xy}{y-x}$ | | (D) If two inlet pipes can fill a tank in $x$ & $y$ hours. If both pipes are opened at the same time, then net part of the tank filled in 1 hour | (IV) $\\dfrac{x+y}{xy}$ | Choose the **correct** answer from the options given below:"
+          }
+        ]
+      }
+    ],
+    "options": {
+      "A": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "text",
+              "text": "(A) - (III), (B) - (II), (C) - (I), (D) - (IV)"
+            }
+          ]
+        }
+      ],
+      "B": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "text",
+              "text": "(A) - (III), (B) - (I), (C) - (IV), (D) - (II)"
+            }
+          ]
+        }
+      ],
+      "C": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "text",
+              "text": "(A) - (II), (B) - (IV), (C) - (I), (D) - (III)"
+            }
+          ]
+        }
+      ],
+      "D": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "text",
+              "text": "(A) - (III), (B) - (I), (C) - (II), (D) - (IV)"
+            }
+          ]
+        }
+      ]
+    },
+    "answer": "D",
+    "marks": 1,
+    "group_id": null,
+    "tags": [
+      "Arithmetic",
+      "Time & Work",
+      "Easy"
+    ],
+    "source": {
+      "title": "cuet-mathematics-2026-slot-1-12-may-shift-2",
+      "question_number": 69
+    },
+    "review_status": "NEEDS_REVIEW",
+    "publication_status": "DRAFT"
+  },
+  {
+    "id": "4efdd8ba-876b-42bc-b889-27ee413e5b1e",
+    "type": "MCQ",
+    "content": [
+      {
+        "type": "paragraph",
+        "inlines": [
+          {
+            "type": "text",
+            "text": "If the sample size ($n$) is 32 in testing of hypothesis by t-test, then the degree of freedom ($\\gamma$) is equal to :"
+          }
+        ]
+      }
+    ],
+    "options": {
+      "A": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "text",
+              "text": "32"
+            }
+          ]
+        }
+      ],
+      "B": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "text",
+              "text": "30"
+            }
+          ]
+        }
+      ],
+      "C": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "text",
+              "text": "33"
+            }
+          ]
+        }
+      ],
+      "D": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "text",
+              "text": "31"
+            }
+          ]
+        }
+      ]
+    },
+    "answer": "D",
+    "marks": 1,
+    "group_id": null,
+    "tags": [
+      "Statistics & Applications",
+      "Inferential",
+      "Easy"
+    ],
+    "source": {
+      "title": "cuet-mathematics-2026-slot-1-12-may-shift-2",
+      "question_number": 70
+    },
+    "review_status": "NEEDS_REVIEW",
+    "publication_status": "DRAFT"
+  },
+  {
+    "id": "ed7ffa1d-9c99-4802-99fd-09edd3e3d065",
+    "type": "MCQ",
+    "content": [
+      {
+        "type": "paragraph",
+        "inlines": [
+          {
+            "type": "text",
+            "text": "A function $f(x)$ is defined as: $f(x) = x^3-6x^2+9x+15$ For the function $f(x)$, which of the following statements are correct ? (A) The critical points are $x=1$ and $x=3$. (B) $x=1$ is a point of local minimum. (C) The local maximum value is 19. (D) $x=3$ is a point of local minimum. Choose the **correct** answer from the options given below:"
+          }
+        ]
+      }
+    ],
+    "options": {
+      "A": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "text",
+              "text": "(A), (B), (C), and (D)"
+            }
+          ]
+        }
+      ],
+      "B": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "text",
+              "text": "(B) and (D) only"
+            }
+          ]
+        }
+      ],
+      "C": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "text",
+              "text": "(A), (C), and (D) only"
+            }
+          ]
+        }
+      ],
+      "D": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "text",
+              "text": "(A) and (D) only"
+            }
+          ]
+        }
+      ]
+    },
+    "answer": "C",
+    "marks": 1,
+    "group_id": null,
+    "tags": [
+      "Calculus",
+      "Application of Derivatives",
+      "Medium"
+    ],
+    "source": {
+      "title": "cuet-mathematics-2026-slot-1-12-may-shift-2",
+      "question_number": 71
+    },
+    "review_status": "NEEDS_REVIEW",
+    "publication_status": "DRAFT"
+  },
+  {
+    "id": "1a311e77-9ea3-44e7-8e1d-75be5ca20237",
+    "type": "MCQ",
+    "content": [
+      {
+        "type": "paragraph",
+        "inlines": [
+          {
+            "type": "text",
+            "text": "A car whose cost is ₹9,00,000 will depreciate to a scrap value of ₹1,20,000 in 12 years. Which of the following statements are correct ? (A) The annual depreciation is ₹65,000 (B) The book value of the car at the end of the fourth year is ₹6,40,000 (C) The book value of the car at the end of the sixth year is ₹5,00,000 (D) The book value of the car at the end of the fifth year is ₹5,75,000 Choose the **correct** answer from the options given below:"
+          }
+        ]
+      }
+    ],
+    "options": {
+      "A": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "text",
+              "text": "(A), (B), and (C) only"
+            }
+          ]
+        }
+      ],
+      "B": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "text",
+              "text": "(A), (B), and (D) only"
+            }
+          ]
+        }
+      ],
+      "C": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "text",
+              "text": "(B) and (C) only"
+            }
+          ]
+        }
+      ],
+      "D": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "text",
+              "text": "(A), (C), and (D) only"
+            }
+          ]
+        }
+      ]
+    },
+    "answer": "B",
+    "marks": 1,
+    "group_id": null,
+    "tags": [
+      "Statistics & Applications",
+      "Financial Math",
+      "Medium"
+    ],
+    "source": {
+      "title": "cuet-mathematics-2026-slot-1-12-may-shift-2",
+      "question_number": 72
+    },
+    "review_status": "NEEDS_REVIEW",
+    "publication_status": "DRAFT"
+  },
+  {
+    "id": "78758986-7f47-435f-8d64-fbeecb0c18de",
+    "type": "MCQ",
+    "content": [
+      {
+        "type": "paragraph",
+        "inlines": [
+          {
+            "type": "text",
+            "text": "The following data are from a simple random sample: 3, 6, 8, 15, 5, 11. What is the point estimate of the population mean?"
+          }
+        ]
+      }
+    ],
+    "options": {
+      "A": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "text",
+              "text": "19.2"
+            }
+          ]
+        }
+      ],
+      "B": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "text",
+              "text": "8"
+            }
+          ]
+        }
+      ],
+      "C": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "text",
+              "text": "1.92"
+            }
+          ]
+        }
+      ],
+      "D": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "text",
+              "text": "12.9"
+            }
+          ]
+        }
+      ]
+    },
+    "answer": "B",
+    "marks": 1,
+    "group_id": null,
+    "tags": [
+      "Statistics & Applications",
+      "Inferential",
+      "Easy"
+    ],
+    "source": {
+      "title": "cuet-mathematics-2026-slot-1-12-may-shift-2",
+      "question_number": 73
+    },
+    "review_status": "NEEDS_REVIEW",
+    "publication_status": "DRAFT"
+  },
+  {
+    "id": "66c47290-af00-4da3-ae51-394766c9098c",
+    "type": "MCQ",
+    "content": [
+      {
+        "type": "paragraph",
+        "inlines": [
+          {
+            "type": "text",
+            "text": "The last digit (unit digit) of $12^{25}$ is"
+          }
+        ]
+      }
+    ],
+    "options": {
+      "A": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "text",
+              "text": "1"
+            }
+          ]
+        }
+      ],
+      "B": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "text",
+              "text": "2"
+            }
+          ]
+        }
+      ],
+      "C": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "text",
+              "text": "4"
+            }
+          ]
+        }
+      ],
+      "D": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "text",
+              "text": "5"
+            }
+          ]
+        }
+      ]
+    },
+    "answer": "B",
+    "marks": 1,
+    "group_id": null,
+    "tags": [
+      "Arithmetic",
+      "Numericals",
+      "Easy"
+    ],
+    "source": {
+      "title": "cuet-mathematics-2026-slot-1-12-may-shift-2",
+      "question_number": 74
+    },
+    "review_status": "NEEDS_REVIEW",
+    "publication_status": "DRAFT"
+  },
+  {
+    "id": "fd1d770f-db79-406a-8360-d6471d4c10a7",
+    "type": "MCQ",
+    "content": [
+      {
+        "type": "paragraph",
+        "inlines": [
+          {
+            "type": "text",
+            "text": "The solution set of the inequation $|8x-7|\\le\\dfrac{2}{3}$ is"
+          }
+        ]
+      }
+    ],
+    "options": {
+      "A": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "text",
+              "text": "$\\left(\\dfrac{19}{24},\\dfrac{23}{24}\\right]$"
+            }
+          ]
+        }
+      ],
+      "B": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "text",
+              "text": "$\\left(\\dfrac{19}{24},\\dfrac{23}{24}\\right)$"
+            }
+          ]
+        }
+      ],
+      "C": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "text",
+              "text": "$\\left[\\dfrac{19}{24},\\dfrac{23}{24}\\right]$"
+            }
+          ]
+        }
+      ],
+      "D": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "text",
+              "text": "$\\left[\\dfrac{19}{24},\\dfrac{23}{24}\\right)$"
+            }
+          ]
+        }
+      ]
+    },
+    "answer": "C",
+    "marks": 1,
+    "group_id": null,
+    "tags": [
+      "Algebra",
+      "Inequalities",
+      "Easy"
+    ],
+    "source": {
+      "title": "cuet-mathematics-2026-slot-1-12-may-shift-2",
+      "question_number": 75
+    },
+    "review_status": "NEEDS_REVIEW",
+    "publication_status": "DRAFT"
+  },
+  {
+    "id": "14479549-b45e-4d89-a2c4-29c2a6ef53d7",
+    "type": "MCQ",
+    "content": [
+      {
+        "type": "paragraph",
+        "inlines": [
+          {
+            "type": "text",
+            "text": "A runs four times as fast as B. If A gives B a start of 90 meters, how far must the goal on the race course be so that A and B reach it at the same time ?"
+          }
+        ]
+      }
+    ],
+    "options": {
+      "A": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "text",
+              "text": "90 meters"
+            }
+          ]
+        }
+      ],
+      "B": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "text",
+              "text": "180 meters"
+            }
+          ]
+        }
+      ],
+      "C": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "text",
+              "text": "120 meters"
+            }
+          ]
+        }
+      ],
+      "D": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "text",
+              "text": "150 meters"
+            }
+          ]
+        }
+      ]
+    },
+    "answer": "C",
+    "marks": 1,
+    "group_id": null,
+    "tags": [
+      "Arithmetic",
+      "Time, Speed & Distance",
+      "Medium"
+    ],
+    "source": {
+      "title": "cuet-mathematics-2026-slot-1-12-may-shift-2",
+      "question_number": 76
+    },
+    "review_status": "NEEDS_REVIEW",
+    "publication_status": "DRAFT"
+  },
+  {
+    "id": "aeba4206-362d-4ff1-8ba0-7300042827c5",
+    "type": "MCQ",
+    "content": [
+      {
+        "type": "paragraph",
+        "inlines": [
+          {
+            "type": "text",
+            "text": "Match **List-I** with **List-II** | List-I (Types of Probability Sampling) | List-II (Characteristic) | |---|---| | (A) Simple random sampling | (I) Every member of the population is arranged in a particular order. The first member is selected at random and then the remaining members are selected at regular intervals. | | (B) Systematic sampling | (II) The population is divided into subgroups and each subgroup has similar characteristics of the whole population. | | (C) Stratified sampling | (III) Every member of the population has an equal chance of being selected. | | (D) Cluster Sampling | (IV) The population is divided into subgroups based on the relevant characteristics | Choose the **correct** answer from the options given below:"
+          }
+        ]
+      }
+    ],
+    "options": {
+      "A": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "text",
+              "text": "(A) - (III), (B) - (II), (C) - (I), (D) - (IV)"
+            }
+          ]
+        }
+      ],
+      "B": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "text",
+              "text": "(A) - (III), (B) - (IV), (C) - (I), (D) - (II)"
+            }
+          ]
+        }
+      ],
+      "C": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "text",
+              "text": "(A) - (III), (B) - (I), (C) - (IV), (D) - (II)"
+            }
+          ]
+        }
+      ],
+      "D": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "text",
+              "text": "(A) - (III), (B) - (IV), (C) - (II), (D) - (I)"
+            }
+          ]
+        }
+      ]
+    },
+    "answer": "C",
+    "marks": 1,
+    "group_id": null,
+    "tags": [
+      "Statistics & Applications",
+      "Inferential",
+      "Easy"
+    ],
+    "source": {
+      "title": "cuet-mathematics-2026-slot-1-12-may-shift-2",
+      "question_number": 77
+    },
+    "review_status": "NEEDS_REVIEW",
+    "publication_status": "DRAFT"
+  },
+  {
+    "id": "30cb0b8a-8cb3-496b-91f5-c3399c048aa7",
+    "type": "MCQ",
+    "content": [
+      {
+        "type": "paragraph",
+        "inlines": [
+          {
+            "type": "text",
+            "text": "If a coin is tossed 8 times and getting a head is considered as success, then which of the following statements are correct ? (A) The probability of getting 4 heads is $\\dfrac{35}{128}$ (B) The mean of the number of successes is 4. (C) The variance of the number of successes is 2. (D) The probability of getting 6 heads is $\\dfrac{9}{64}$. Choose the **correct** answer from the options given below:"
+          }
+        ]
+      }
+    ],
+    "options": {
+      "A": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "text",
+              "text": "(C) and (D) only"
+            }
+          ]
+        }
+      ],
+      "B": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "text",
+              "text": "(A), (B), and (D) only"
+            }
+          ]
+        }
+      ],
+      "C": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "text",
+              "text": "(A), (B), and (C) only"
+            }
+          ]
+        }
+      ],
+      "D": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "text",
+              "text": "(A) and (D) only"
+            }
+          ]
+        }
+      ]
+    },
+    "answer": "C",
+    "marks": 1,
+    "group_id": null,
+    "tags": [
+      "Applied Mathematics",
+      "Probability Distribution",
+      "Medium"
+    ],
+    "source": {
+      "title": "cuet-mathematics-2026-slot-1-12-may-shift-2",
+      "question_number": 78
+    },
+    "review_status": "NEEDS_REVIEW",
+    "publication_status": "DRAFT"
+  },
+  {
+    "id": "2eadbd9c-983f-42ca-9a7a-f71da9cc28f6",
+    "type": "MCQ",
+    "content": [
+      {
+        "type": "paragraph",
+        "inlines": [
+          {
+            "type": "text",
+            "text": "For what value of $\\mu$, $\\begin{bmatrix}5 & \\mu-7\\\\ 12 & 9\\end{bmatrix}$ is a singular matrix?"
+          }
+        ]
+      }
+    ],
+    "options": {
+      "A": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "text",
+              "text": "+1.75"
+            }
+          ]
+        }
+      ],
+      "B": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "text",
+              "text": "10.75"
+            }
+          ]
+        }
+      ],
+      "C": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "text",
+              "text": "-10.75"
+            }
+          ]
+        }
+      ],
+      "D": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "text",
+              "text": "17.5"
+            }
+          ]
+        }
+      ]
+    },
+    "answer": "B",
+    "marks": 1,
+    "group_id": null,
+    "tags": [
+      "Algebra",
+      "Matrices & Determinants",
+      "Easy"
+    ],
+    "source": {
+      "title": "cuet-mathematics-2026-slot-1-12-may-shift-2",
+      "question_number": 79
+    },
+    "review_status": "NEEDS_REVIEW",
+    "publication_status": "DRAFT"
+  },
+  {
+    "id": "51d570c4-adb2-4a48-9428-216cdc78f2e3",
+    "type": "MCQ",
+    "content": [
+      {
+        "type": "paragraph",
+        "inlines": [
+          {
+            "type": "text",
+            "text": "Mr. Bean purchased a laptop for ₹75,000. The Laptop is estimated to have a scrap value of ₹10,000 after a span of 8 years. The book value of the laptop at the end of 5 years is"
+          }
+        ]
+      }
+    ],
+    "options": {
+      "A": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "text",
+              "text": "₹65,000"
+            }
+          ]
+        }
+      ],
+      "B": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "text",
+              "text": "₹8,125"
+            }
+          ]
+        }
+      ],
+      "C": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "text",
+              "text": "₹42,500"
+            }
+          ]
+        }
+      ],
+      "D": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "text",
+              "text": "₹34,375"
+            }
+          ]
+        }
+      ]
+    },
+    "answer": "D",
+    "marks": 1,
+    "group_id": null,
+    "tags": [
+      "Statistics & Applications",
+      "Financial Math",
+      "Easy"
+    ],
+    "source": {
+      "title": "cuet-mathematics-2026-slot-1-12-may-shift-2",
+      "question_number": 80
+    },
+    "review_status": "NEEDS_REVIEW",
+    "publication_status": "DRAFT"
+  },
+  {
+    "id": "1d3f917a-1cd0-42ca-8e05-d57a1a4e121c",
+    "type": "MCQ",
+    "content": [
+      {
+        "type": "paragraph",
+        "inlines": [
+          {
+            "type": "text",
+            "text": "The feasible region for an L.P.P is always a/an"
+          }
+        ]
+      }
+    ],
+    "options": {
+      "A": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "text",
+              "text": "concave set"
+            }
+          ]
+        }
+      ],
+      "B": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "text",
+              "text": "convex set"
+            }
+          ]
+        }
+      ],
+      "C": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "text",
+              "text": "unbounded region"
+            }
+          ]
+        }
+      ],
+      "D": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "text",
+              "text": "bounded region"
+            }
+          ]
+        }
+      ]
+    },
+    "answer": "B",
+    "marks": 1,
+    "group_id": null,
+    "tags": [
+      "Algebra",
+      "Linear Programming",
+      "Easy"
+    ],
+    "source": {
+      "title": "cuet-mathematics-2026-slot-1-12-may-shift-2",
+      "question_number": 81
+    },
+    "review_status": "NEEDS_REVIEW",
+    "publication_status": "DRAFT"
+  },
+  {
+    "id": "cd719917-1ecc-42c6-b64f-f9e0f7ca1f22",
+    "type": "MCQ",
+    "content": [
+      {
+        "type": "paragraph",
+        "inlines": [
+          {
+            "type": "text",
+            "text": "Rama takes a personal loan for a car worth ₹5,00,000 at an interest rate of 7% per annum to be repaid by equal monthly instalments (EMI) in 5 years. Using flat rate method, EMI will be:-"
+          }
+        ]
+      }
+    ],
+    "options": {
+      "A": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "text",
+              "text": "₹13,500"
+            }
+          ]
+        }
+      ],
+      "B": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "text",
+              "text": "₹11,250"
+            }
+          ]
+        }
+      ],
+      "C": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "text",
+              "text": "₹12,150"
+            }
+          ]
+        }
+      ],
+      "D": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "text",
+              "text": "₹11,520"
+            }
+          ]
+        }
+      ]
+    },
+    "answer": "B",
+    "marks": 1,
+    "group_id": null,
+    "tags": [
+      "Statistics & Applications",
+      "Financial Math",
+      "Easy"
+    ],
+    "source": {
+      "title": "cuet-mathematics-2026-slot-1-12-may-shift-2",
+      "question_number": 82
+    },
+    "review_status": "NEEDS_REVIEW",
+    "publication_status": "DRAFT"
+  },
+  {
+    "id": "fc54c711-541b-473c-adec-4df0d7522d35",
+    "type": "MCQ",
+    "content": [
+      {
+        "type": "paragraph",
+        "inlines": [
+          {
+            "type": "text",
+            "text": "Identify the formula used for List I from List II Match **List-I** with **List-II** | List-I | List-II | |---|---| | (A) Present value of perpetuity payable at the end of each payment period | (I) $R+\\dfrac{R}{i}$ (₹R payable at the beginning of each payment period, $i$ = interest per rupee per payment period) | | (B) Present value of perpetuity payable at the beginning of each payment period | (II) $\\left(\\dfrac{V_n}{V_0}\\right)^{1/n}-1$, $V_n$ = Final value of investment, $V_0$ = Beginning value of the investment, $n$ = number of years | | (C) Computation of CAGR | (III) $\\dfrac{C-s}{n}$, $C$ = Original cost, $s$ = Scrap value, $n$ = number of years | | (D) Annual Depreciation | (IV) $\\dfrac{R}{i}$ (₹R payable at the end of each period, $i$ = interest per rupee per payment period) | Choose the **correct** answer from the options given below:"
+          }
+        ]
+      }
+    ],
+    "options": {
+      "A": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "text",
+              "text": "(A) - (III), (B) - (II), (C) - (I), (D) - (IV)"
+            }
+          ]
+        }
+      ],
+      "B": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "text",
+              "text": "(A) - (I), (B) - (II), (C) - (III), (D) - (IV)"
+            }
+          ]
+        }
+      ],
+      "C": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "text",
+              "text": "(A) - (IV), (B) - (I), (C) - (II), (D) - (III)"
+            }
+          ]
+        }
+      ],
+      "D": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "text",
+              "text": "(A) - (IV), (B) - (III), (C) - (II), (D) - (I)"
+            }
+          ]
+        }
+      ]
+    },
+    "answer": "C",
+    "marks": 1,
+    "group_id": null,
+    "tags": [
+      "Statistics & Applications",
+      "Financial Math",
+      "Easy"
+    ],
+    "source": {
+      "title": "cuet-mathematics-2026-slot-1-12-may-shift-2",
+      "question_number": 83
+    },
+    "review_status": "NEEDS_REVIEW",
+    "publication_status": "DRAFT"
+  },
+  {
+    "id": "ea503ca1-5e48-43c1-8e0c-22341101f6ea",
+    "type": "MCQ",
+    "content": [
+      {
+        "type": "paragraph",
+        "inlines": [
+          {
+            "type": "text",
+            "text": "The value of the integral $I=\\displaystyle\\int\\dfrac{e^x(x-2)}{(x+1)^4}dx$ is, [$C$ is an arbitrary constant]"
+          }
+        ]
+      }
+    ],
+    "options": {
+      "A": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "text",
+              "text": "$\\dfrac{e^x}{(x+1)^4}+C$"
+            }
+          ]
+        }
+      ],
+      "B": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "text",
+              "text": "$\\dfrac{e^x}{(x+1)^3}+C$"
+            }
+          ]
+        }
+      ],
+      "C": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "text",
+              "text": "$\\dfrac{-3e^x}{(x+1)^4}+C$"
+            }
+          ]
+        }
+      ],
+      "D": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "text",
+              "text": "$\\dfrac{3e^x}{(x+1)^3}+C$"
+            }
+          ]
+        }
+      ]
+    },
+    "answer": "B",
+    "marks": 1,
+    "group_id": null,
+    "tags": [
+      "Calculus",
+      "Integrals",
+      "Medium"
+    ],
+    "source": {
+      "title": "cuet-mathematics-2026-slot-1-12-may-shift-2",
+      "question_number": 84
+    },
+    "review_status": "NEEDS_REVIEW",
+    "publication_status": "DRAFT"
+  },
+  {
+    "id": "33c277e1-8861-4ea7-98d0-960ac7290a04",
+    "type": "MCQ",
+    "content": [
+      {
+        "type": "paragraph",
+        "inlines": [
+          {
+            "type": "text",
+            "text": "Ajay is a vendor who informs that there are 2% rotten apples in the fruit bag. Find the probability that a sample of 10 apples will include not more than one rotten apple."
+          }
+        ]
+      }
+    ],
+    "options": {
+      "A": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "text",
+              "text": "$\\left(\\dfrac{98}{100}\\right)^{10}\\left(\\dfrac{1}{5}\\right)$"
+            }
+          ]
+        }
+      ],
+      "B": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "text",
+              "text": "$\\left(\\dfrac{98}{100}\\right)^9\\left(\\dfrac{59}{50}\\right)$"
+            }
+          ]
+        }
+      ],
+      "C": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "text",
+              "text": "$\\left(\\dfrac{98}{100}\\right)^9(5)$"
+            }
+          ]
+        }
+      ],
+      "D": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "text",
+              "text": "$\\left(\\dfrac{98}{100}\\right)^9\\left(\\dfrac{59}{100}\\right)$"
+            }
+          ]
+        }
+      ]
+    },
+    "answer": "B",
+    "marks": 1,
+    "group_id": null,
+    "tags": [
+      "Applied Mathematics",
+      "Probability Distribution",
+      "Medium"
+    ],
+    "source": {
+      "title": "cuet-mathematics-2026-slot-1-12-may-shift-2",
+      "question_number": 85
+    },
+    "review_status": "NEEDS_REVIEW",
+    "publication_status": "DRAFT"
+  }
+]

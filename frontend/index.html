@@ -14,6 +14,59 @@
   </script>
   <script defer src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js"></script>
   <link rel="stylesheet" href="/styles.css">
+
+<style>
+  /* Bulk operations is an internal CMS view: the browser stays on /cms. */
+  #bulkOperationsView {
+    position: fixed;
+    inset: 0;
+    z-index: 50;
+    background: var(--bg, #f7f7f5);
+    overflow: auto;
+    padding: 88px 28px 40px;
+    display: none;
+  }
+  body.bulk-cms-open .sidebar,
+  body.bulk-cms-open .workspace { display: none !important; }
+  body.bulk-cms-open #bulkOperationsView { display: block; }
+  body.bulk-cms-open { overflow: hidden; }
+  .bulk-page-inner { max-width: 980px; margin: 0 auto; }
+  .bulk-page-head { display:flex; align-items:flex-start; justify-content:space-between; gap:24px; margin-bottom:28px; }
+  .bulk-page-title { font-size:24px; font-weight:800; letter-spacing:-.02em; color:var(--text,#222); margin:0; }
+  .bulk-page-copy { color:var(--muted,#707070); font-size:14px; line-height:1.5; margin:7px 0 0; max-width:720px; }
+  .bulk-operations-grid { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:18px; }
+  .bulk-operation-card { appearance:none; width:100%; text-align:left; border:1px solid var(--line,#deded8); border-radius:18px; background:#fff; padding:24px; min-height:190px; cursor:pointer; box-shadow:0 5px 18px rgba(0,0,0,.05); transition:transform .15s ease,box-shadow .15s ease,border-color .15s ease; }
+  .bulk-operation-card:hover { transform:translateY(-2px); border-color:#d0d0ca; box-shadow:0 8px 26px rgba(0,0,0,.08); }
+  .bulk-operation-card:focus-visible { outline:2px solid #555; outline-offset:3px; }
+  .bulk-operation-icon { width:42px; height:42px; border-radius:12px; display:flex; align-items:center; justify-content:center; background:var(--bg2,#f0f0ec); color:var(--text,#222); margin-bottom:20px; }
+  .bulk-operation-title { font-size:18px; font-weight:750; margin-bottom:8px; color:var(--text,#222); }
+  .bulk-operation-copy { font-size:14px; line-height:1.5; color:var(--muted,#707070); }
+  .bulk-operation-action { margin-top:18px; font-size:13px; font-weight:700; color:var(--text2,#444); }
+  .bulk-modal-mask { display:none; position:fixed; inset:0; z-index:200; background:rgba(0,0,0,.28); align-items:center; justify-content:center; padding:20px; }
+  .bulk-modal-mask.open { display:flex; }
+  .bulk-modal { width:min(520px,100%); background:#fff; border:1px solid var(--line,#deded8); border-radius:16px; box-shadow:0 20px 60px rgba(0,0,0,.16); overflow:hidden; }
+  .bulk-modal-head { padding:20px 22px; border-bottom:1px solid var(--line,#deded8); display:flex; justify-content:space-between; gap:20px; align-items:flex-start; }
+  .bulk-modal-head h3 { font-size:17px; font-weight:800; margin:0; color:var(--text,#222); }
+  .bulk-modal-head p { margin:5px 0 0; color:var(--muted,#707070); font-size:13px; line-height:1.45; }
+  .bulk-modal-x { border:0; background:transparent; color:var(--muted,#707070); width:30px; height:30px; border-radius:8px; font-size:24px; cursor:pointer; }
+  .bulk-modal-x:hover { background:var(--bg2,#f0f0ec); color:var(--text,#222); }
+  .bulk-modal-body { padding:22px; }
+  .bulk-file-picker { border:1px dashed #cfcfc9; border-radius:12px; padding:18px; background:var(--bg,#f7f7f5); }
+  .bulk-file-picker input[type=file] { display:block; width:100%; }
+  .bulk-file-name { margin-top:10px; font-size:13px; color:var(--muted,#707070); word-break:break-word; }
+  .bulk-warning { margin-top:14px; padding:12px 14px; border-radius:10px; background:#fff1f1; color:#a33; font-size:13px; line-height:1.45; }
+  .bulk-result { margin-top:16px; display:none; }
+  .bulk-result.open { display:block; }
+  .bulk-result-label { font-size:12px; font-weight:700; text-transform:uppercase; letter-spacing:.05em; color:var(--muted,#707070); margin-bottom:7px; }
+  .bulk-result pre { margin:0; max-height:220px; overflow:auto; padding:12px; border-radius:10px; background:#181818; color:#f5f5f5; font:12px/1.45 ui-monospace,SFMono-Regular,Menlo,monospace; white-space:pre-wrap; }
+  .bulk-modal-foot { padding:16px 22px; border-top:1px solid var(--line,#deded8); display:flex; justify-content:flex-end; gap:8px; }
+  @media (max-width:700px) {
+    #bulkOperationsView { padding:80px 16px 32px; }
+    .bulk-operations-grid { grid-template-columns:1fr; }
+    .bulk-page-head { flex-direction:column; }
+  }
+</style>
+
 </head>
 
 <body>
@@ -31,7 +84,7 @@
           title="Open public question bank">Public View</button>
         <button class="btn secondary" id="manageTopicsBtn" onclick="window.location.href='/topics'"
           title="Manage topics and subtopics">Topics/Subtopics</button>
-        <button class="btn secondary" id="bulkBtn" title="Bulk assign filtered questions">Bulk Operations</button>
+        <button class="btn secondary" id="bulkBtn" title="Open bulk operations">Bulk Operations</button>
         <button class="btn secondary" id="importBtn" title="Import questions">＋ Import</button>
         <button class="btn save" id="saveBtn" disabled>Save</button>
       </div>
@@ -138,29 +191,72 @@
       </section>
     </main>
   </div>
-  <div id="toast" class="toast"></div>
 
-
-  <div id="bulkModal" class="modal-mask">
-    <div class="modal">
-      <div class="modal-head">
+  <section id="bulkOperationsView" aria-label="Bulk Operations">
+    <div class="bulk-page-inner">
+      <div class="bulk-page-head">
         <div>
-          <h3>Bulk Assign Collection &amp; Set</h3>
-          <p>Assign the selected filtered questions. Existing values will be overwritten.</p>
-        </div><button class="modal-x" id="bulkClose">×</button>
+          <h1 class="bulk-page-title">Bulk Operations</h1>
+          <p class="bulk-page-copy">Run database-safe bulk utilities against a JSON question file. Ingest adds only new question UUIDs; delete removes questions identified by the JSON file.</p>
+        </div>
+        <button class="btn secondary" id="bulkBackBtn" type="button">‹ Back to Questions</button>
       </div>
-      <div class="modal-body">
-        <div class="bulk-count" id="bulkCount">0 questions selected</div>
-        <div class="field"><label>COLLECTION</label><select id="bulkCollection"></select></div>
-        <div class="field"><label>SET</label><select id="bulkSet"></select></div>
-        <div class="bulk-note">Every selected question will receive both <code>collection_id</code> and
-          <code>set_id</code>. A backup of each existing JSON is created before writing.
+
+      <div class="bulk-operations-grid">
+        <button class="bulk-operation-card" type="button" data-bulk-operation="ingest">
+          <div class="bulk-operation-icon" aria-hidden="true">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M12 3v12"></path><path d="m7 8 5-5 5 5"></path><path d="M4 15v4a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-4"></path>
+            </svg>
+          </div>
+          <div class="bulk-operation-title">Ingest New Questions from JSON</div>
+          <div class="bulk-operation-copy">Append new questions from a validated JSON export without overwriting existing questions.</div>
+          <div class="bulk-operation-action">Choose JSON → Ingest</div>
+        </button>
+
+        <button class="bulk-operation-card" type="button" data-bulk-operation="delete">
+          <div class="bulk-operation-icon" aria-hidden="true">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M3 6h18"></path><path d="M8 6V4h8v2"></path><path d="m19 6-1 14H6L5 6"></path><path d="M10 11v5"></path><path d="M14 11v5"></path>
+            </svg>
+          </div>
+          <div class="bulk-operation-title">Delete Questions from JSON</div>
+          <div class="bulk-operation-copy">Remove exactly the questions whose UUIDs appear in the selected JSON, including their dependent question-specific records.</div>
+          <div class="bulk-operation-action">Choose JSON → Delete</div>
+        </button>
+      </div>
+    </div>
+  </section>
+
+  <div class="bulk-modal-mask" id="bulkOperationModal">
+    <div class="bulk-modal" role="dialog" aria-modal="true" aria-labelledby="bulkModalTitle">
+      <div class="bulk-modal-head">
+        <div>
+          <h3 id="bulkModalTitle">Bulk Operation</h3>
+          <p id="bulkModalDescription"></p>
+        </div>
+        <button class="bulk-modal-x" id="bulkModalClose" type="button" aria-label="Close">×</button>
+      </div>
+      <div class="bulk-modal-body">
+        <div class="bulk-file-picker">
+          <input id="bulkJsonFile" type="file" accept=".json,application/json">
+          <div class="bulk-file-name" id="bulkFileName">No file selected.</div>
+        </div>
+        <div class="bulk-warning" id="bulkDeleteWarning" style="display:none">This is destructive for the questions listed in the JSON. Existing unrelated questions and catalog tables are not targeted.</div>
+        <div class="bulk-result" id="bulkResultBox">
+          <div class="bulk-result-label">Result</div>
+          <pre id="bulkResultText"></pre>
         </div>
       </div>
-      <div class="modal-foot"><button class="btn secondary" id="bulkCancel">Cancel</button><button class="btn primary"
-          id="bulkApply">Assign to selected</button></div>
+      <div class="bulk-modal-foot">
+        <button class="btn secondary" id="bulkModalCancel" type="button">Cancel</button>
+        <button class="btn primary" id="bulkExecuteBtn" type="button" disabled>Execute</button>
+      </div>
     </div>
   </div>
+
+  <div id="toast" class="toast"></div>
+
 
   <div id="filterModal" class="modal-mask">
     <div class="modal">

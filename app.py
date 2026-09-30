@@ -3,6 +3,10 @@ from __future__ import annotations
 import json
 import re
 import sqlite3
+import subprocess
+import sys
+import tempfile
+import threading
 from datetime import datetime, timezone
 from pathlib import Path
 
@@ -401,6 +405,11 @@ def collections_page():
     return send_from_directory(FRONTEND, "collections.html")
 
 
+@app.route("/bulk-operations")
+def bulk_operations_page():
+    return send_from_directory(FRONTEND, "bulk-operations.html")
+
+
 @app.get("/api/health")
 def health():
     row = db().execute("SELECT COUNT(*) AS n FROM questions").fetchone()
@@ -676,6 +685,107 @@ def rename_subtopic(tid, sid):
     if cur.rowcount == 0:
         abort(404)
     return jsonify({"success": True})
+
+
+_bulk_operation_lock = threading.Lock()
+MAX_BULK_UPLOAD_BYTES = 50 * 1024 * 1024
+
+
+def _run_bulk_json_script(script_name: str, uploaded_file, extra_args: list[str]):
+    filename = (uploaded_file.filename or "").strip()
+    if not filename:
+        return jsonify({"success": False, "error": "Choose a JSON file."}), 400
+    if not filename.lower().endswith(".json"):
+        return jsonify({"success": False, "error": "Only .json files are supported."}), 400
+
+    uploaded_file.stream.seek(0, 2)
+    size = uploaded_file.stream.tell()
+    uploaded_file.stream.seek(0)
+    if size > MAX_BULK_UPLOAD_BYTES:
+        return jsonify({
+            "success": False,
+            "error": f"JSON file is too large. Maximum size is {MAX_BULK_UPLOAD_BYTES // (1024 * 1024)} MB."
+        }), 413
+
+    script_path = ROOT / "utils" / script_name
+    if not script_path.is_file():
+        return jsonify({"success": False, "error": f"Bulk operation script not found: {script_name}"}), 500
+
+    temp_path = None
+    try:
+        with tempfile.NamedTemporaryFile(
+            mode="wb",
+            suffix=".json",
+            prefix="tomato_bulk_",
+            delete=False,
+            dir=tempfile.gettempdir(),
+        ) as tmp:
+            temp_path = Path(tmp.name)
+            uploaded_file.save(tmp)
+
+        cmd = [
+            sys.executable,
+            str(script_path),
+            "--json" if script_name == "delete_questions_from_json.py" else "--append-json",
+            str(temp_path),
+            "--db",
+            str(DB),
+            *extra_args,
+        ]
+
+        with _bulk_operation_lock:
+            completed = subprocess.run(
+                cmd,
+                cwd=ROOT,
+                capture_output=True,
+                text=True,
+                timeout=300,
+            )
+
+        output = "\n".join(
+            part for part in [completed.stdout.strip(), completed.stderr.strip()] if part
+        ).strip()
+
+        return jsonify({
+            "success": completed.returncode == 0,
+            "output": output,
+            "returncode": completed.returncode,
+            "filename": filename,
+        }), (200 if completed.returncode == 0 else 400)
+
+    except subprocess.TimeoutExpired:
+        return jsonify({
+            "success": False,
+            "error": "The bulk operation timed out after 5 minutes."
+        }), 504
+    except Exception as exc:
+        return jsonify({"success": False, "error": str(exc)}), 500
+    finally:
+        if temp_path is not None:
+            try:
+                temp_path.unlink(missing_ok=True)
+            except Exception:
+                pass
+
+
+@app.post("/api/bulk/ingest-json")
+def bulk_ingest_json():
+    uploaded_file = request.files.get("file")
+    if uploaded_file is None:
+        return jsonify({"success": False, "error": "Choose a JSON file."}), 400
+    return _run_bulk_json_script("migrate_json_to_sqlite.py", uploaded_file, [])
+
+
+@app.post("/api/bulk/delete-json")
+def bulk_delete_json():
+    uploaded_file = request.files.get("file")
+    if uploaded_file is None:
+        return jsonify({"success": False, "error": "Choose a JSON file."}), 400
+    return _run_bulk_json_script(
+        "delete_questions_from_json.py",
+        uploaded_file,
+        ["--execute", "--backup"],
+    )
 
 
 @app.post("/api/questions/bulk-assign")

@@ -1,0 +1,5404 @@
+[
+  {
+    "id": "f0bdb928-b961-4909-a6fc-8bb15fc307e7",
+    "type": "MCQ",
+    "content": [
+      {
+        "type": "paragraph",
+        "inlines": [
+          {
+            "type": "text",
+            "text": "If A is a matrix of order "
+          },
+          {
+            "type": "math",
+            "latex": "m \\times n",
+            "display": false
+          },
+          {
+            "type": "text",
+            "text": " and B is another matrix such that "
+          },
+          {
+            "type": "math",
+            "latex": "A'B",
+            "display": false
+          },
+          {
+            "type": "text",
+            "text": " and "
+          },
+          {
+            "type": "math",
+            "latex": "BA'",
+            "display": false
+          },
+          {
+            "type": "text",
+            "text": " are both defined, then the order of matrix B is"
+          }
+        ]
+      }
+    ],
+    "options": {
+      "A": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "math",
+              "latex": "m \\times n",
+              "display": false
+            }
+          ]
+        }
+      ],
+      "B": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "math",
+              "latex": "n \\times m",
+              "display": false
+            }
+          ]
+        }
+      ],
+      "C": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "math",
+              "latex": "m \\times m",
+              "display": false
+            }
+          ]
+        }
+      ],
+      "D": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "math",
+              "latex": "n \\times n",
+              "display": false
+            }
+          ]
+        }
+      ]
+    },
+    "answer": "A",
+    "marks": 1,
+    "group_id": null,
+    "tags": [
+      "Algebra",
+      "Matrices & Determinants",
+      "Easy",
+      "cuet-mathematics-2022-slot-7-6-aug-shift-2"
+    ],
+    "source": {
+      "title": "cuet-mathematics-2022-slot-7-6-aug-shift-2",
+      "question_number": 1
+    },
+    "review_status": "NEEDS_REVIEW",
+    "publication_status": "DRAFT"
+  },
+  {
+    "id": "22df03bd-825c-4d37-8059-2296daee4a43",
+    "type": "MCQ",
+    "content": [
+      {
+        "type": "paragraph",
+        "inlines": [
+          {
+            "type": "text",
+            "text": "If "
+          },
+          {
+            "type": "math",
+            "latex": "A = \\begin{bmatrix} 2x & 0 \\\\ x & x \\end{bmatrix}",
+            "display": false
+          },
+          {
+            "type": "text",
+            "text": " and "
+          },
+          {
+            "type": "math",
+            "latex": "A^{-1} = \\begin{bmatrix} 1 & 0 \\\\ -1 & 2 \\end{bmatrix}",
+            "display": false
+          },
+          {
+            "type": "text",
+            "text": ", then the value of "
+          },
+          {
+            "type": "math",
+            "latex": "x",
+            "display": false
+          },
+          {
+            "type": "text",
+            "text": " is"
+          }
+        ]
+      }
+    ],
+    "options": {
+      "A": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "math",
+              "latex": "2",
+              "display": false
+            }
+          ]
+        }
+      ],
+      "B": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "math",
+              "latex": "-\\frac{1}{2}",
+              "display": false
+            }
+          ]
+        }
+      ],
+      "C": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "math",
+              "latex": "1",
+              "display": false
+            }
+          ]
+        }
+      ],
+      "D": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "math",
+              "latex": "\\frac{1}{2}",
+              "display": false
+            }
+          ]
+        }
+      ]
+    },
+    "answer": "D",
+    "marks": 1,
+    "group_id": null,
+    "tags": [
+      "Algebra",
+      "Matrices & Determinants",
+      "Easy",
+      "cuet-mathematics-2022-slot-7-6-aug-shift-2"
+    ],
+    "source": {
+      "title": "cuet-mathematics-2022-slot-7-6-aug-shift-2",
+      "question_number": 2
+    },
+    "review_status": "NEEDS_REVIEW",
+    "publication_status": "DRAFT"
+  },
+  {
+    "id": "b12f8e9c-4e60-417d-92a4-2bc08646fcb6",
+    "type": "MCQ",
+    "content": [
+      {
+        "type": "paragraph",
+        "inlines": [
+          {
+            "type": "text",
+            "text": "If the matrix "
+          },
+          {
+            "type": "math",
+            "latex": "\\begin{bmatrix} 0 & -1 & 3x \\\\ 1 & y & -5 \\\\ -6 & 5 & 0 \\end{bmatrix}",
+            "display": false
+          },
+          {
+            "type": "text",
+            "text": " is skew-symmetric, then"
+          }
+        ]
+      }
+    ],
+    "options": {
+      "A": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "math",
+              "latex": "x = -2, y = 0",
+              "display": false
+            }
+          ]
+        }
+      ],
+      "B": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "math",
+              "latex": "x = 2, y = 0",
+              "display": false
+            }
+          ]
+        }
+      ],
+      "C": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "math",
+              "latex": "x = -2, y = 1",
+              "display": false
+            }
+          ]
+        }
+      ],
+      "D": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "math",
+              "latex": "x = 2, y = -1",
+              "display": false
+            }
+          ]
+        }
+      ]
+    },
+    "answer": "B",
+    "marks": 1,
+    "group_id": null,
+    "tags": [
+      "Algebra",
+      "Matrices & Determinants",
+      "Easy",
+      "cuet-mathematics-2022-slot-7-6-aug-shift-2"
+    ],
+    "source": {
+      "title": "cuet-mathematics-2022-slot-7-6-aug-shift-2",
+      "question_number": 3
+    },
+    "review_status": "NEEDS_REVIEW",
+    "publication_status": "DRAFT"
+  },
+  {
+    "id": "925839e5-356f-4b15-8cf7-9d0628cb099a",
+    "type": "MCQ",
+    "content": [
+      {
+        "type": "paragraph",
+        "inlines": [
+          {
+            "type": "text",
+            "text": "The function "
+          },
+          {
+            "type": "math",
+            "latex": "f(x) = 6(2x^4 - x^2)",
+            "display": false
+          },
+          {
+            "type": "text",
+            "text": " is strictly increasing in"
+          }
+        ]
+      }
+    ],
+    "options": {
+      "A": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "math",
+              "latex": "(-\\infty, -\\frac{1}{2}) \\cup (\\frac{1}{2}, \\infty)",
+              "display": false
+            }
+          ]
+        }
+      ],
+      "B": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "math",
+              "latex": "(-\\frac{1}{2}, 0) \\cup (\\frac{1}{2}, \\infty)",
+              "display": false
+            }
+          ]
+        }
+      ],
+      "C": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "math",
+              "latex": "(-\\frac{1}{2}, \\frac{1}{2})",
+              "display": false
+            }
+          ]
+        }
+      ],
+      "D": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "math",
+              "latex": "(-\\infty, -\\frac{1}{2}) \\cup (0, \\frac{1}{2})",
+              "display": false
+            }
+          ]
+        }
+      ]
+    },
+    "answer": "B",
+    "marks": 1,
+    "group_id": null,
+    "tags": [
+      "Calculus",
+      "Application of Derivatives",
+      "Medium",
+      "cuet-mathematics-2022-slot-7-6-aug-shift-2"
+    ],
+    "source": {
+      "title": "cuet-mathematics-2022-slot-7-6-aug-shift-2",
+      "question_number": 4
+    },
+    "review_status": "NEEDS_REVIEW",
+    "publication_status": "DRAFT"
+  },
+  {
+    "id": "fb472311-00e2-481f-9cc8-86f12ab104ee",
+    "type": "MCQ",
+    "content": [
+      {
+        "type": "paragraph",
+        "inlines": [
+          {
+            "type": "text",
+            "text": "If "
+          },
+          {
+            "type": "math",
+            "latex": "\\sqrt{y+x} + \\sqrt{y-x} = a",
+            "display": false
+          },
+          {
+            "type": "text",
+            "text": ", "
+          },
+          {
+            "type": "math",
+            "latex": "a > 1",
+            "display": false
+          },
+          {
+            "type": "text",
+            "text": ", "
+          },
+          {
+            "type": "math",
+            "latex": "\\frac{d^2y}{dx^2}",
+            "display": false
+          },
+          {
+            "type": "text",
+            "text": " is equal to :"
+          }
+        ]
+      }
+    ],
+    "options": {
+      "A": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "math",
+              "latex": "-\\frac{2}{a}",
+              "display": false
+            }
+          ]
+        }
+      ],
+      "B": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "math",
+              "latex": "-\\frac{a^2}{2}",
+              "display": false
+            }
+          ]
+        }
+      ],
+      "C": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "math",
+              "latex": "\\frac{2}{a^2}",
+              "display": false
+            }
+          ]
+        }
+      ],
+      "D": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "math",
+              "latex": "\\frac{2}{a}",
+              "display": false
+            }
+          ]
+        }
+      ]
+    },
+    "answer": "C",
+    "marks": 1,
+    "group_id": null,
+    "tags": [
+      "Calculus",
+      "Continuity & Differentiability",
+      "Medium",
+      "cuet-mathematics-2022-slot-7-6-aug-shift-2"
+    ],
+    "source": {
+      "title": "cuet-mathematics-2022-slot-7-6-aug-shift-2",
+      "question_number": 5
+    },
+    "review_status": "NEEDS_REVIEW",
+    "publication_status": "DRAFT"
+  },
+  {
+    "id": "5d0ee98f-3300-47a7-afae-dd1b41e74ce1",
+    "type": "MCQ",
+    "content": [
+      {
+        "type": "paragraph",
+        "inlines": [
+          {
+            "type": "text",
+            "text": "The maximum slope of the tangents to the curve "
+          },
+          {
+            "type": "math",
+            "latex": "y(x) = -x^3 + 3x^2 + 9x - 30",
+            "display": false
+          },
+          {
+            "type": "text",
+            "text": " is"
+          }
+        ]
+      }
+    ],
+    "options": {
+      "A": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "math",
+              "latex": "0",
+              "display": false
+            }
+          ]
+        }
+      ],
+      "B": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "math",
+              "latex": "12",
+              "display": false
+            }
+          ]
+        }
+      ],
+      "C": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "math",
+              "latex": "16",
+              "display": false
+            }
+          ]
+        }
+      ],
+      "D": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "math",
+              "latex": "18",
+              "display": false
+            }
+          ]
+        }
+      ]
+    },
+    "answer": "B",
+    "marks": 1,
+    "group_id": null,
+    "tags": [
+      "Calculus",
+      "Application of Derivatives",
+      "Easy",
+      "cuet-mathematics-2022-slot-7-6-aug-shift-2"
+    ],
+    "source": {
+      "title": "cuet-mathematics-2022-slot-7-6-aug-shift-2",
+      "question_number": 6
+    },
+    "review_status": "NEEDS_REVIEW",
+    "publication_status": "DRAFT"
+  },
+  {
+    "id": "e58b45fc-b289-4db6-baac-04523a3bd955",
+    "type": "MCQ",
+    "content": [
+      {
+        "type": "paragraph",
+        "inlines": [
+          {
+            "type": "text",
+            "text": "The value of "
+          },
+          {
+            "type": "math",
+            "latex": "\\int_0^1 e^x (x + 1) \\, dx",
+            "display": false
+          },
+          {
+            "type": "text",
+            "text": " is equal to"
+          }
+        ]
+      }
+    ],
+    "options": {
+      "A": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "math",
+              "latex": "e + 1",
+              "display": false
+            }
+          ]
+        }
+      ],
+      "B": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "math",
+              "latex": "3e",
+              "display": false
+            }
+          ]
+        }
+      ],
+      "C": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "math",
+              "latex": "e",
+              "display": false
+            }
+          ]
+        }
+      ],
+      "D": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "math",
+              "latex": "3e - 2",
+              "display": false
+            }
+          ]
+        }
+      ]
+    },
+    "answer": "C",
+    "marks": 1,
+    "group_id": null,
+    "tags": [
+      "Calculus",
+      "Integrals",
+      "Easy",
+      "cuet-mathematics-2022-slot-7-6-aug-shift-2"
+    ],
+    "source": {
+      "title": "cuet-mathematics-2022-slot-7-6-aug-shift-2",
+      "question_number": 7
+    },
+    "review_status": "NEEDS_REVIEW",
+    "publication_status": "DRAFT"
+  },
+  {
+    "id": "f0d34c79-5937-4e29-97fe-f85174b9f8e5",
+    "type": "MCQ",
+    "content": [
+      {
+        "type": "paragraph",
+        "inlines": [
+          {
+            "type": "text",
+            "text": "If "
+          },
+          {
+            "type": "math",
+            "latex": "f'(x) = 4x^5 - 6x",
+            "display": false
+          },
+          {
+            "type": "text",
+            "text": " and "
+          },
+          {
+            "type": "math",
+            "latex": "f(0) = 3",
+            "display": false
+          },
+          {
+            "type": "text",
+            "text": ", then "
+          },
+          {
+            "type": "math",
+            "latex": "f(3)",
+            "display": false
+          },
+          {
+            "type": "text",
+            "text": " is equal to"
+          }
+        ]
+      }
+    ],
+    "options": {
+      "A": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "math",
+              "latex": "462",
+              "display": false
+            }
+          ]
+        }
+      ],
+      "B": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "math",
+              "latex": "219",
+              "display": false
+            }
+          ]
+        }
+      ],
+      "C": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "math",
+              "latex": "138",
+              "display": false
+            }
+          ]
+        }
+      ],
+      "D": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "math",
+              "latex": "957",
+              "display": false
+            }
+          ]
+        }
+      ]
+    },
+    "answer": "A",
+    "marks": 1,
+    "group_id": null,
+    "tags": [
+      "Calculus",
+      "Integrals",
+      "Easy",
+      "cuet-mathematics-2022-slot-7-6-aug-shift-2"
+    ],
+    "source": {
+      "title": "cuet-mathematics-2022-slot-7-6-aug-shift-2",
+      "question_number": 8
+    },
+    "review_status": "NEEDS_REVIEW",
+    "publication_status": "DRAFT"
+  },
+  {
+    "id": "ad877fb2-4c73-4816-a673-a6b47c4cefd0",
+    "type": "MCQ",
+    "content": [
+      {
+        "type": "paragraph",
+        "inlines": [
+          {
+            "type": "text",
+            "text": "The value of "
+          },
+          {
+            "type": "math",
+            "latex": "\\int_{-4}^{4} \\log_e \\left( \\frac{1-x}{1+x} \\right) dx",
+            "display": false
+          },
+          {
+            "type": "text",
+            "text": " is equal to"
+          }
+        ]
+      }
+    ],
+    "options": {
+      "A": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "math",
+              "latex": "2",
+              "display": false
+            }
+          ]
+        }
+      ],
+      "B": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "math",
+              "latex": "1",
+              "display": false
+            }
+          ]
+        }
+      ],
+      "C": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "math",
+              "latex": "0",
+              "display": false
+            }
+          ]
+        }
+      ],
+      "D": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "math",
+              "latex": "8 \\log_e(2)",
+              "display": false
+            }
+          ]
+        }
+      ]
+    },
+    "answer": "C",
+    "marks": 1,
+    "group_id": null,
+    "tags": [
+      "Calculus",
+      "Integrals",
+      "Easy",
+      "cuet-mathematics-2022-slot-7-6-aug-shift-2"
+    ],
+    "source": {
+      "title": "cuet-mathematics-2022-slot-7-6-aug-shift-2",
+      "question_number": 9
+    },
+    "review_status": "NEEDS_REVIEW",
+    "publication_status": "DRAFT"
+  },
+  {
+    "id": "7be6d801-be74-44b0-9302-5c01b562c25a",
+    "type": "MCQ",
+    "content": [
+      {
+        "type": "paragraph",
+        "inlines": [
+          {
+            "type": "text",
+            "text": "If the order and the degree of the differential equation "
+          },
+          {
+            "type": "math",
+            "latex": "\\left(\\frac{dy}{dx}\\right)^{\\frac{1}{2}} = \\left(\\frac{d^2y}{dx^2}\\right)^{\\frac{1}{5}}",
+            "display": false
+          },
+          {
+            "type": "text",
+            "text": " are O and S respectively, then "
+          },
+          {
+            "type": "math",
+            "latex": "S - O",
+            "display": false
+          },
+          {
+            "type": "text",
+            "text": " is equal to"
+          }
+        ]
+      }
+    ],
+    "options": {
+      "A": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "math",
+              "latex": "3",
+              "display": false
+            }
+          ]
+        }
+      ],
+      "B": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "math",
+              "latex": "2",
+              "display": false
+            }
+          ]
+        }
+      ],
+      "C": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "math",
+              "latex": "1",
+              "display": false
+            }
+          ]
+        }
+      ],
+      "D": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "math",
+              "latex": "0",
+              "display": false
+            }
+          ]
+        }
+      ]
+    },
+    "answer": "D",
+    "marks": 1,
+    "group_id": null,
+    "tags": [
+      "Calculus",
+      "Differential Equations",
+      "Medium",
+      "cuet-mathematics-2022-slot-7-6-aug-shift-2"
+    ],
+    "source": {
+      "title": "cuet-mathematics-2022-slot-7-6-aug-shift-2",
+      "question_number": 10
+    },
+    "review_status": "NEEDS_REVIEW",
+    "publication_status": "DRAFT"
+  },
+  {
+    "id": "756a17d4-e808-4768-b0d7-9ccc59c3e3fb",
+    "type": "MCQ",
+    "content": [
+      {
+        "type": "paragraph",
+        "inlines": [
+          {
+            "type": "text",
+            "text": "If the system of linear equations"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "inlines": [
+          {
+            "type": "math",
+            "latex": "x + 2y - 3z = 1",
+            "display": false
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "inlines": [
+          {
+            "type": "math",
+            "latex": "(2p+1)y + z = 2",
+            "display": false
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "inlines": [
+          {
+            "type": "math",
+            "latex": "3x + 3z = 5",
+            "display": false
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "inlines": [
+          {
+            "type": "text",
+            "text": "has a unique solution, then p can not be equal to"
+          }
+        ]
+      }
+    ],
+    "options": {
+      "A": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "math",
+              "latex": "\\frac{3}{2}",
+              "display": false
+            }
+          ]
+        }
+      ],
+      "B": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "math",
+              "latex": "-\\frac{3}{4}",
+              "display": false
+            }
+          ]
+        }
+      ],
+      "C": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "math",
+              "latex": "-\\frac{4}{3}",
+              "display": false
+            }
+          ]
+        }
+      ],
+      "D": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "math",
+              "latex": "\\frac{2}{3}",
+              "display": false
+            }
+          ]
+        }
+      ]
+    },
+    "answer": "B",
+    "marks": 1,
+    "group_id": null,
+    "tags": [
+      "Algebra",
+      "Matrices & Determinants",
+      "Medium",
+      "cuet-mathematics-2022-slot-7-6-aug-shift-2"
+    ],
+    "source": {
+      "title": "cuet-mathematics-2022-slot-7-6-aug-shift-2",
+      "question_number": 11
+    },
+    "review_status": "NEEDS_REVIEW",
+    "publication_status": "DRAFT"
+  },
+  {
+    "id": "3da77244-e81f-4b4e-8486-9f1554f05820",
+    "type": "MCQ",
+    "content": [
+      {
+        "type": "paragraph",
+        "inlines": [
+          {
+            "type": "text",
+            "text": "Match List I with List II"
+          }
+        ]
+      },
+      {
+        "type": "table",
+        "header_rows": 1,
+        "rows": [
+          {
+            "cells": [
+              {
+                "content": [
+                  {
+                    "type": "paragraph",
+                    "inlines": [
+                      {
+                        "type": "text",
+                        "text": "List I"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "content": [
+                  {
+                    "type": "paragraph",
+                    "inlines": [
+                      {
+                        "type": "text",
+                        "text": "List II"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "cells": [
+              {
+                "content": [
+                  {
+                    "type": "paragraph",
+                    "inlines": [
+                      {
+                        "type": "text",
+                        "text": "A. The number of arbitrary constants in the particular solution of differential equation of order 2"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "content": [
+                  {
+                    "type": "paragraph",
+                    "inlines": [
+                      {
+                        "type": "text",
+                        "text": "I. 1"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "cells": [
+              {
+                "content": [
+                  {
+                    "type": "paragraph",
+                    "inlines": [
+                      {
+                        "type": "text",
+                        "text": "B. The number of arbitrary constants in the general solution of differential equation of order 2"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "content": [
+                  {
+                    "type": "paragraph",
+                    "inlines": [
+                      {
+                        "type": "text",
+                        "text": "II. 0"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "cells": [
+              {
+                "content": [
+                  {
+                    "type": "paragraph",
+                    "inlines": [
+                      {
+                        "type": "text",
+                        "text": "C. The integrating factor of differential equation "
+                      },
+                      {
+                        "type": "math",
+                        "latex": "\\frac{dy}{dx} + \\frac{1}{x}y = 3, x > 0",
+                        "display": false
+                      },
+                      {
+                        "type": "text",
+                        "text": ", is"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "content": [
+                  {
+                    "type": "paragraph",
+                    "inlines": [
+                      {
+                        "type": "text",
+                        "text": "III. 2"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "cells": [
+              {
+                "content": [
+                  {
+                    "type": "paragraph",
+                    "inlines": [
+                      {
+                        "type": "text",
+                        "text": "D. For differential equation, "
+                      },
+                      {
+                        "type": "math",
+                        "latex": "x^2 \\frac{dy}{dx} + x = xy, x > 0, \\lim_{x \\to 0^+} y(x)",
+                        "display": false
+                      },
+                      {
+                        "type": "text",
+                        "text": " is equal to"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "content": [
+                  {
+                    "type": "paragraph",
+                    "inlines": [
+                      {
+                        "type": "text",
+                        "text": "IV. "
+                      },
+                      {
+                        "type": "math",
+                        "latex": "x",
+                        "display": false
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "inlines": [
+          {
+            "type": "text",
+            "text": "Choose the correct answer from the options given below:"
+          }
+        ]
+      }
+    ],
+    "options": {
+      "A": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "text",
+              "text": "A-III, B-II, C-IV, D-I"
+            }
+          ]
+        }
+      ],
+      "B": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "text",
+              "text": "A-II, B-I, C-IV, D-III"
+            }
+          ]
+        }
+      ],
+      "C": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "text",
+              "text": "A-II, B-III, C-I, D-IV"
+            }
+          ]
+        }
+      ],
+      "D": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "text",
+              "text": "A-II, B-III, C-IV, D-I"
+            }
+          ]
+        }
+      ]
+    },
+    "answer": "D",
+    "marks": 1,
+    "group_id": null,
+    "tags": [
+      "Calculus",
+      "Differential Equations",
+      "Medium",
+      "cuet-mathematics-2022-slot-7-6-aug-shift-2"
+    ],
+    "source": {
+      "title": "cuet-mathematics-2022-slot-7-6-aug-shift-2",
+      "question_number": 12
+    },
+    "review_status": "NEEDS_REVIEW",
+    "publication_status": "DRAFT"
+  },
+  {
+    "id": "2e52a04a-b6d3-4010-b3e1-3e4c49be8e5c",
+    "type": "MCQ",
+    "content": [
+      {
+        "type": "paragraph",
+        "inlines": [
+          {
+            "type": "text",
+            "text": "If the mean and variance of a binomially distributed random variable X are 4 and 2 respectively, then "
+          },
+          {
+            "type": "math",
+            "latex": "P(X = 2)",
+            "display": false
+          },
+          {
+            "type": "text",
+            "text": " is equal to"
+          }
+        ]
+      }
+    ],
+    "options": {
+      "A": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "math",
+              "latex": "\\frac{7}{32}",
+              "display": false
+            }
+          ]
+        }
+      ],
+      "B": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "math",
+              "latex": "\\frac{1}{32}",
+              "display": false
+            }
+          ]
+        }
+      ],
+      "C": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "math",
+              "latex": "\\frac{7}{64}",
+              "display": false
+            }
+          ]
+        }
+      ],
+      "D": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "math",
+              "latex": "\\frac{1}{8}",
+              "display": false
+            }
+          ]
+        }
+      ]
+    },
+    "answer": "C",
+    "marks": 1,
+    "group_id": null,
+    "tags": [
+      "Algebra",
+      "Probability",
+      "Medium",
+      "cuet-mathematics-2022-slot-7-6-aug-shift-2"
+    ],
+    "source": {
+      "title": "cuet-mathematics-2022-slot-7-6-aug-shift-2",
+      "question_number": 13
+    },
+    "review_status": "NEEDS_REVIEW",
+    "publication_status": "DRAFT"
+  },
+  {
+    "id": "a6c72a43-a452-4507-a7b7-752409603414",
+    "type": "MCQ",
+    "content": [
+      {
+        "type": "paragraph",
+        "inlines": [
+          {
+            "type": "text",
+            "text": "Which is the most suitable definition for random variable among the options given below:"
+          }
+        ]
+      }
+    ],
+    "options": {
+      "A": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "text",
+              "text": "It is a relation between the events of a sample space and the numbers in [0,1]."
+            }
+          ]
+        }
+      ],
+      "B": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "text",
+              "text": "It is a function defined from the sample space of a random experiment to the set of real numbers."
+            }
+          ]
+        }
+      ],
+      "C": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "text",
+              "text": "It is a table containing probability values"
+            }
+          ]
+        }
+      ],
+      "D": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "text",
+              "text": "It is a function from the set of natural numbers to the numbers in [0,1]"
+            }
+          ]
+        }
+      ]
+    },
+    "answer": "B",
+    "marks": 1,
+    "group_id": null,
+    "tags": [
+      "Algebra",
+      "Probability",
+      "Easy",
+      "cuet-mathematics-2022-slot-7-6-aug-shift-2"
+    ],
+    "source": {
+      "title": "cuet-mathematics-2022-slot-7-6-aug-shift-2",
+      "question_number": 14
+    },
+    "review_status": "NEEDS_REVIEW",
+    "publication_status": "DRAFT"
+  },
+  {
+    "id": "fc918f1b-3012-4e92-b0c4-195592004dee",
+    "type": "MCQ",
+    "content": [
+      {
+        "type": "paragraph",
+        "inlines": [
+          {
+            "type": "text",
+            "text": "The optimal solution of the Linear Programming problem"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "inlines": [
+          {
+            "type": "text",
+            "text": "Maximize "
+          },
+          {
+            "type": "math",
+            "latex": "Z = 3x_1 + 5x_2",
+            "display": false
+          },
+          {
+            "type": "text",
+            "text": ","
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "inlines": [
+          {
+            "type": "text",
+            "text": "s.t. "
+          },
+          {
+            "type": "math",
+            "latex": "3x_1 + 2x_2 \\leq 18",
+            "display": false
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "inlines": [
+          {
+            "type": "math",
+            "latex": "x_1 \\leq 4",
+            "display": false
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "inlines": [
+          {
+            "type": "math",
+            "latex": "x_2 \\leq 6",
+            "display": false
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "inlines": [
+          {
+            "type": "math",
+            "latex": "x_1 \\geq 0, x_2 \\geq 0",
+            "display": false
+          },
+          {
+            "type": "text",
+            "text": " is"
+          }
+        ]
+      }
+    ],
+    "options": {
+      "A": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "math",
+              "latex": "(4, 5)",
+              "display": false
+            }
+          ]
+        }
+      ],
+      "B": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "math",
+              "latex": "(2, 6)",
+              "display": false
+            }
+          ]
+        }
+      ],
+      "C": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "math",
+              "latex": "(4, 3)",
+              "display": false
+            }
+          ]
+        }
+      ],
+      "D": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "math",
+              "latex": "(3, 6)",
+              "display": false
+            }
+          ]
+        }
+      ]
+    },
+    "answer": "B",
+    "marks": 1,
+    "group_id": null,
+    "tags": [
+      "Algebra",
+      "Linear Programming",
+      "Medium",
+      "cuet-mathematics-2022-slot-7-6-aug-shift-2"
+    ],
+    "source": {
+      "title": "cuet-mathematics-2022-slot-7-6-aug-shift-2",
+      "question_number": 15
+    },
+    "review_status": "NEEDS_REVIEW",
+    "publication_status": "DRAFT"
+  },
+  {
+    "id": "a7a0d8f4-c9e5-4dc3-a8e6-a18e52f26e74",
+    "type": "MCQ",
+    "content": [
+      {
+        "type": "paragraph",
+        "inlines": [
+          {
+            "type": "text",
+            "text": "If a relation R is defined on the set "
+          },
+          {
+            "type": "math",
+            "latex": "X = \\{1, 2, 3, 4\\}",
+            "display": false
+          },
+          {
+            "type": "text",
+            "text": " as "
+          },
+          {
+            "type": "math",
+            "latex": "R = \\{(1,1), (2,2), (3,4), (4,3)\\}",
+            "display": false
+          },
+          {
+            "type": "text",
+            "text": ", then R is"
+          }
+        ]
+      }
+    ],
+    "options": {
+      "A": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "text",
+              "text": "reflexive and not transitive."
+            }
+          ]
+        }
+      ],
+      "B": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "text",
+              "text": "symmetric and not reflexive."
+            }
+          ]
+        }
+      ],
+      "C": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "text",
+              "text": "transitive and not symmetric"
+            }
+          ]
+        }
+      ],
+      "D": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "text",
+              "text": "neither reflexive nor symmetric and nor transitive"
+            }
+          ]
+        }
+      ]
+    },
+    "answer": "B",
+    "marks": 1,
+    "group_id": null,
+    "tags": [
+      "Algebra",
+      "Relations & Functions",
+      "Easy",
+      "cuet-mathematics-2022-slot-7-6-aug-shift-2"
+    ],
+    "source": {
+      "title": "cuet-mathematics-2022-slot-7-6-aug-shift-2",
+      "question_number": 16
+    },
+    "review_status": "NEEDS_REVIEW",
+    "publication_status": "DRAFT"
+  },
+  {
+    "id": "2ab0d30b-0ed7-4f62-a09b-993e7dfa0576",
+    "type": "MCQ",
+    "content": [
+      {
+        "type": "paragraph",
+        "inlines": [
+          {
+            "type": "text",
+            "text": "Match List I with List II"
+          }
+        ]
+      },
+      {
+        "type": "table",
+        "header_rows": 1,
+        "rows": [
+          {
+            "cells": [
+              {
+                "content": [
+                  {
+                    "type": "paragraph",
+                    "inlines": [
+                      {
+                        "type": "text",
+                        "text": "List I"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "content": [
+                  {
+                    "type": "paragraph",
+                    "inlines": [
+                      {
+                        "type": "text",
+                        "text": "List II"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "cells": [
+              {
+                "content": [
+                  {
+                    "type": "paragraph",
+                    "inlines": [
+                      {
+                        "type": "text",
+                        "text": "A. Range of "
+                      },
+                      {
+                        "type": "math",
+                        "latex": "\\lvert x\\rvert",
+                        "display": false
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "content": [
+                  {
+                    "type": "paragraph",
+                    "inlines": [
+                      {
+                        "type": "text",
+                        "text": "I. "
+                      },
+                      {
+                        "type": "math",
+                        "latex": "(-5, \\infty)",
+                        "display": false
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "cells": [
+              {
+                "content": [
+                  {
+                    "type": "paragraph",
+                    "inlines": [
+                      {
+                        "type": "text",
+                        "text": "B. Range of "
+                      },
+                      {
+                        "type": "math",
+                        "latex": "9x^2 + 6x - 5",
+                        "display": false
+                      },
+                      {
+                        "type": "text",
+                        "text": " for all "
+                      },
+                      {
+                        "type": "math",
+                        "latex": "x \\geq 0",
+                        "display": false
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "content": [
+                  {
+                    "type": "paragraph",
+                    "inlines": [
+                      {
+                        "type": "text",
+                        "text": "II. "
+                      },
+                      {
+                        "type": "math",
+                        "latex": "[0, \\infty)",
+                        "display": false
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "cells": [
+              {
+                "content": [
+                  {
+                    "type": "paragraph",
+                    "inlines": [
+                      {
+                        "type": "text",
+                        "text": "C. Domain of "
+                      },
+                      {
+                        "type": "math",
+                        "latex": "\\dfrac{1}{\\sqrt{x+5}}",
+                        "display": false
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "content": [
+                  {
+                    "type": "paragraph",
+                    "inlines": [
+                      {
+                        "type": "text",
+                        "text": "III. "
+                      },
+                      {
+                        "type": "math",
+                        "latex": "\\{(1,1), (2,2), (3,3)\\}",
+                        "display": false
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "cells": [
+              {
+                "content": [
+                  {
+                    "type": "paragraph",
+                    "inlines": [
+                      {
+                        "type": "text",
+                        "text": "D. Smallest equivalence relation on Set "
+                      },
+                      {
+                        "type": "math",
+                        "latex": "\\{1,2,3\\}",
+                        "display": false
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "content": [
+                  {
+                    "type": "paragraph",
+                    "inlines": [
+                      {
+                        "type": "text",
+                        "text": "IV. "
+                      },
+                      {
+                        "type": "math",
+                        "latex": "[-5, \\infty)",
+                        "display": false
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "inlines": [
+          {
+            "type": "text",
+            "text": "Choose the correct answer from the options given below:"
+          }
+        ]
+      }
+    ],
+    "options": {
+      "A": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "text",
+              "text": "A-I, B-IV, C-II, D-III"
+            }
+          ]
+        }
+      ],
+      "B": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "text",
+              "text": "A-II, B-I, C-IV, D-III"
+            }
+          ]
+        }
+      ],
+      "C": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "text",
+              "text": "A-II, B-IV, C-I, D-III"
+            }
+          ]
+        }
+      ],
+      "D": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "text",
+              "text": "A-I, B-III, C-IV, D-II"
+            }
+          ]
+        }
+      ]
+    },
+    "answer": "C",
+    "marks": 1,
+    "group_id": null,
+    "tags": [
+      "Algebra",
+      "Relations & Functions",
+      "Medium",
+      "cuet-mathematics-2022-slot-7-6-aug-shift-2"
+    ],
+    "source": {
+      "title": "cuet-mathematics-2022-slot-7-6-aug-shift-2",
+      "question_number": 17
+    },
+    "review_status": "NEEDS_REVIEW",
+    "publication_status": "DRAFT"
+  },
+  {
+    "id": "e5af91f8-c593-4f6a-9401-76e660cd166f",
+    "type": "MCQ",
+    "content": [
+      {
+        "type": "paragraph",
+        "inlines": [
+          {
+            "type": "text",
+            "text": "If A is a square matrix of order 3 and "
+          },
+          {
+            "type": "math",
+            "latex": "|adj A| = 49",
+            "display": false
+          },
+          {
+            "type": "text",
+            "text": ", then "
+          },
+          {
+            "type": "math",
+            "latex": "|7A^{-1}|^2",
+            "display": false
+          }
+        ]
+      }
+    ],
+    "options": {
+      "A": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "math",
+              "latex": "7^2",
+              "display": false
+            }
+          ]
+        }
+      ],
+      "B": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "math",
+              "latex": "7^4",
+              "display": false
+            }
+          ]
+        }
+      ],
+      "C": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "math",
+              "latex": "1",
+              "display": false
+            }
+          ]
+        }
+      ],
+      "D": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "math",
+              "latex": "\\frac{1}{7^2}",
+              "display": false
+            }
+          ]
+        }
+      ]
+    },
+    "answer": "B",
+    "marks": 1,
+    "group_id": null,
+    "tags": [
+      "Algebra",
+      "Matrices & Determinants",
+      "Medium",
+      "cuet-mathematics-2022-slot-7-6-aug-shift-2"
+    ],
+    "source": {
+      "title": "cuet-mathematics-2022-slot-7-6-aug-shift-2",
+      "question_number": 18
+    },
+    "review_status": "NEEDS_REVIEW",
+    "publication_status": "DRAFT"
+  },
+  {
+    "id": "c85235b4-4f8b-4f3e-a5f8-2c5bcbb959ad",
+    "type": "MCQ",
+    "content": [
+      {
+        "type": "paragraph",
+        "inlines": [
+          {
+            "type": "text",
+            "text": "The set of all values of "
+          },
+          {
+            "type": "math",
+            "latex": "\\alpha",
+            "display": false
+          },
+          {
+            "type": "text",
+            "text": " for which the system of linear equations"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "inlines": [
+          {
+            "type": "math",
+            "latex": "x + y + z = 1",
+            "display": false
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "inlines": [
+          {
+            "type": "math",
+            "latex": "x + 2y + 4z = \\alpha",
+            "display": false
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "inlines": [
+          {
+            "type": "math",
+            "latex": "x + 4y + 10z = \\alpha^2",
+            "display": false
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "inlines": [
+          {
+            "type": "text",
+            "text": "is consistent, is"
+          }
+        ]
+      }
+    ],
+    "options": {
+      "A": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "math",
+              "latex": "\\{1, 2\\}",
+              "display": false
+            }
+          ]
+        }
+      ],
+      "B": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "math",
+              "latex": "\\{-1, 2\\}",
+              "display": false
+            }
+          ]
+        }
+      ],
+      "C": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "math",
+              "latex": "\\{-1, -2\\}",
+              "display": false
+            }
+          ]
+        }
+      ],
+      "D": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "math",
+              "latex": "\\{1, -2\\}",
+              "display": false
+            }
+          ]
+        }
+      ]
+    },
+    "answer": "A",
+    "marks": 1,
+    "group_id": null,
+    "tags": [
+      "Algebra",
+      "Matrices & Determinants",
+      "Hard",
+      "cuet-mathematics-2022-slot-7-6-aug-shift-2"
+    ],
+    "source": {
+      "title": "cuet-mathematics-2022-slot-7-6-aug-shift-2",
+      "question_number": 19
+    },
+    "review_status": "NEEDS_REVIEW",
+    "publication_status": "DRAFT"
+  },
+  {
+    "id": "836a2ae9-d4b0-48ec-b125-c368bab8d223",
+    "type": "MCQ",
+    "content": [
+      {
+        "type": "paragraph",
+        "inlines": [
+          {
+            "type": "text",
+            "text": "If "
+          },
+          {
+            "type": "math",
+            "latex": "3A = \\begin{bmatrix} 1 & 2 & 2 \\\\ 2 & 1 & -2 \\\\ x & 2 & y \\end{bmatrix}",
+            "display": false
+          },
+          {
+            "type": "text",
+            "text": " and "
+          },
+          {
+            "type": "math",
+            "latex": "AA^T = I",
+            "display": false
+          },
+          {
+            "type": "text",
+            "text": ", then "
+          },
+          {
+            "type": "math",
+            "latex": "x + y",
+            "display": false
+          },
+          {
+            "type": "text",
+            "text": " is equal to"
+          }
+        ]
+      }
+    ],
+    "options": {
+      "A": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "math",
+              "latex": "1",
+              "display": false
+            }
+          ]
+        }
+      ],
+      "B": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "math",
+              "latex": "-1",
+              "display": false
+            }
+          ]
+        }
+      ],
+      "C": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "math",
+              "latex": "3",
+              "display": false
+            }
+          ]
+        }
+      ],
+      "D": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "math",
+              "latex": "-3",
+              "display": false
+            }
+          ]
+        }
+      ]
+    },
+    "answer": "D",
+    "marks": 1,
+    "group_id": null,
+    "tags": [
+      "Algebra",
+      "Matrices & Determinants",
+      "Hard",
+      "cuet-mathematics-2022-slot-7-6-aug-shift-2"
+    ],
+    "source": {
+      "title": "cuet-mathematics-2022-slot-7-6-aug-shift-2",
+      "question_number": 20
+    },
+    "review_status": "NEEDS_REVIEW",
+    "publication_status": "DRAFT"
+  },
+  {
+    "id": "f419740f-2c16-43a9-9043-df7e0a356980",
+    "type": "MCQ",
+    "content": [
+      {
+        "type": "paragraph",
+        "inlines": [
+          {
+            "type": "text",
+            "text": "If "
+          },
+          {
+            "type": "math",
+            "latex": "x = \\int_0^y \\frac{dt}{\\sqrt{1+9t^2}}",
+            "display": false
+          },
+          {
+            "type": "text",
+            "text": " and "
+          },
+          {
+            "type": "math",
+            "latex": "\\frac{d^2y}{dx^2} = \\lambda y",
+            "display": false
+          },
+          {
+            "type": "text",
+            "text": ", then, "
+          },
+          {
+            "type": "math",
+            "latex": "\\lambda",
+            "display": false
+          },
+          {
+            "type": "text",
+            "text": " is equal to"
+          }
+        ]
+      }
+    ],
+    "options": {
+      "A": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "math",
+              "latex": "3",
+              "display": false
+            }
+          ]
+        }
+      ],
+      "B": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "math",
+              "latex": "6",
+              "display": false
+            }
+          ]
+        }
+      ],
+      "C": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "math",
+              "latex": "9",
+              "display": false
+            }
+          ]
+        }
+      ],
+      "D": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "math",
+              "latex": "12",
+              "display": false
+            }
+          ]
+        }
+      ]
+    },
+    "answer": "C",
+    "marks": 1,
+    "group_id": null,
+    "tags": [
+      "Calculus",
+      "Continuity & Differentiability",
+      "Hard",
+      "cuet-mathematics-2022-slot-7-6-aug-shift-2"
+    ],
+    "source": {
+      "title": "cuet-mathematics-2022-slot-7-6-aug-shift-2",
+      "question_number": 21
+    },
+    "review_status": "NEEDS_REVIEW",
+    "publication_status": "DRAFT"
+  },
+  {
+    "id": "f5564919-0099-4d53-8211-4a01a21a6ffa",
+    "type": "MCQ",
+    "content": [
+      {
+        "type": "paragraph",
+        "inlines": [
+          {
+            "type": "text",
+            "text": "If "
+          },
+          {
+            "type": "math",
+            "latex": "A = \\begin{bmatrix} 0 & 2 & -3 \\\\ y & 0 & -1 \\\\ z & x & 0 \\end{bmatrix}",
+            "display": false
+          },
+          {
+            "type": "text",
+            "text": " is skew symmetric matrix, then "
+          },
+          {
+            "type": "math",
+            "latex": "x^3 + y^3 + z^3 - 3xyz",
+            "display": false
+          },
+          {
+            "type": "text",
+            "text": " is equal to :"
+          }
+        ]
+      }
+    ],
+    "options": {
+      "A": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "math",
+              "latex": "-2",
+              "display": false
+            }
+          ]
+        }
+      ],
+      "B": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "math",
+              "latex": "-1",
+              "display": false
+            }
+          ]
+        }
+      ],
+      "C": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "math",
+              "latex": "38",
+              "display": false
+            }
+          ]
+        }
+      ],
+      "D": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "math",
+              "latex": "13",
+              "display": false
+            }
+          ]
+        }
+      ]
+    },
+    "answer": "C",
+    "marks": 1,
+    "group_id": null,
+    "tags": [
+      "Algebra",
+      "Matrices & Determinants",
+      "Medium",
+      "cuet-mathematics-2022-slot-7-6-aug-shift-2"
+    ],
+    "source": {
+      "title": "cuet-mathematics-2022-slot-7-6-aug-shift-2",
+      "question_number": 22
+    },
+    "review_status": "NEEDS_REVIEW",
+    "publication_status": "DRAFT"
+  },
+  {
+    "id": "fa0b303e-3bd2-4307-917e-fd96092a399b",
+    "type": "MCQ",
+    "content": [
+      {
+        "type": "paragraph",
+        "inlines": [
+          {
+            "type": "text",
+            "text": "The value of "
+          },
+          {
+            "type": "math",
+            "latex": "\\cos^{-1} \\left( \\sin \\left( \\cos^{-1} \\frac{1}{2} \\right) \\right) + \\tan^{-1}(1)",
+            "display": false
+          }
+        ]
+      }
+    ],
+    "options": {
+      "A": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "math",
+              "latex": "\\frac{\\pi}{6}",
+              "display": false
+            }
+          ]
+        }
+      ],
+      "B": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "math",
+              "latex": "\\frac{\\pi}{3}",
+              "display": false
+            }
+          ]
+        }
+      ],
+      "C": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "math",
+              "latex": "\\frac{\\pi}{2}",
+              "display": false
+            }
+          ]
+        }
+      ],
+      "D": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "math",
+              "latex": "\\frac{5\\pi}{12}",
+              "display": false
+            }
+          ]
+        }
+      ]
+    },
+    "answer": "D",
+    "marks": 1,
+    "group_id": null,
+    "tags": [
+      "Geometry",
+      "Trigonometry",
+      "Medium",
+      "cuet-mathematics-2022-slot-7-6-aug-shift-2"
+    ],
+    "source": {
+      "title": "cuet-mathematics-2022-slot-7-6-aug-shift-2",
+      "question_number": 23
+    },
+    "review_status": "NEEDS_REVIEW",
+    "publication_status": "DRAFT"
+  },
+  {
+    "id": "26217169-a45f-44a4-bf18-e6c8d7e84e58",
+    "type": "MCQ",
+    "content": [
+      {
+        "type": "paragraph",
+        "inlines": [
+          {
+            "type": "text",
+            "text": "The Principal value of "
+          },
+          {
+            "type": "math",
+            "latex": "\\cos^{-1} \\left( -\\frac{1}{2} \\right)",
+            "display": false
+          },
+          {
+            "type": "text",
+            "text": " is:"
+          }
+        ]
+      }
+    ],
+    "options": {
+      "A": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "math",
+              "latex": "\\frac{\\pi}{3}",
+              "display": false
+            }
+          ]
+        }
+      ],
+      "B": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "math",
+              "latex": "\\frac{2\\pi}{3}",
+              "display": false
+            }
+          ]
+        }
+      ],
+      "C": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "math",
+              "latex": "\\frac{5\\pi}{6}",
+              "display": false
+            }
+          ]
+        }
+      ],
+      "D": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "math",
+              "latex": "\\frac{3\\pi}{4}",
+              "display": false
+            }
+          ]
+        }
+      ]
+    },
+    "answer": "B",
+    "marks": 1,
+    "group_id": null,
+    "tags": [
+      "Geometry",
+      "Trigonometry",
+      "Easy",
+      "cuet-mathematics-2022-slot-7-6-aug-shift-2"
+    ],
+    "source": {
+      "title": "cuet-mathematics-2022-slot-7-6-aug-shift-2",
+      "question_number": 24
+    },
+    "review_status": "NEEDS_REVIEW",
+    "publication_status": "DRAFT"
+  },
+  {
+    "id": "bc3db2f2-1765-4182-ba37-d807f0bb4c95",
+    "type": "MCQ",
+    "content": [
+      {
+        "type": "paragraph",
+        "inlines": [
+          {
+            "type": "text",
+            "text": "The value of k, for which the function "
+          },
+          {
+            "type": "math",
+            "latex": "f(x) = \\begin{cases} \\frac{\\sin kx}{x} + 3\\cos x, & x \\neq 0 \\\\ 7, & x = 0 \\end{cases}",
+            "display": false
+          },
+          {
+            "type": "text",
+            "text": " is continuous at "
+          },
+          {
+            "type": "math",
+            "latex": "x = 0",
+            "display": false
+          },
+          {
+            "type": "text",
+            "text": ", is"
+          }
+        ]
+      }
+    ],
+    "options": {
+      "A": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "math",
+              "latex": "3",
+              "display": false
+            }
+          ]
+        }
+      ],
+      "B": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "math",
+              "latex": "5",
+              "display": false
+            }
+          ]
+        }
+      ],
+      "C": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "math",
+              "latex": "1",
+              "display": false
+            }
+          ]
+        }
+      ],
+      "D": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "math",
+              "latex": "4",
+              "display": false
+            }
+          ]
+        }
+      ]
+    },
+    "answer": "D",
+    "marks": 1,
+    "group_id": null,
+    "tags": [
+      "Calculus",
+      "Continuity & Differentiability",
+      "Easy",
+      "cuet-mathematics-2022-slot-7-6-aug-shift-2"
+    ],
+    "source": {
+      "title": "cuet-mathematics-2022-slot-7-6-aug-shift-2",
+      "question_number": 25
+    },
+    "review_status": "NEEDS_REVIEW",
+    "publication_status": "DRAFT"
+  },
+  {
+    "id": "f568ebaf-6bda-47be-9683-b0f9b1008e71",
+    "type": "MCQ",
+    "content": [
+      {
+        "type": "paragraph",
+        "inlines": [
+          {
+            "type": "text",
+            "text": "If "
+          },
+          {
+            "type": "math",
+            "latex": "f",
+            "display": false
+          },
+          {
+            "type": "text",
+            "text": " is a function defined by "
+          },
+          {
+            "type": "math",
+            "latex": "f(x) = \\begin{cases} 5x^2 - x + 3, & x < 1 \\\\ 3x + 4, & x \\geq 1 \\end{cases}",
+            "display": false
+          },
+          {
+            "type": "text",
+            "text": ", then, at "
+          },
+          {
+            "type": "math",
+            "latex": "x = 1",
+            "display": false
+          },
+          {
+            "type": "text",
+            "text": ", "
+          },
+          {
+            "type": "math",
+            "latex": "f",
+            "display": false
+          },
+          {
+            "type": "text",
+            "text": " is"
+          }
+        ]
+      }
+    ],
+    "options": {
+      "A": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "text",
+              "text": "continuous and differentiable"
+            }
+          ]
+        }
+      ],
+      "B": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "text",
+              "text": "continuous but not differentiable"
+            }
+          ]
+        }
+      ],
+      "C": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "math",
+              "latex": "\\lim_{x \\to 1^-} f'(x) = 10",
+              "display": false
+            }
+          ]
+        }
+      ],
+      "D": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "math",
+              "latex": "f''(1) = 10",
+              "display": false
+            }
+          ]
+        }
+      ]
+    },
+    "answer": "B",
+    "marks": 1,
+    "group_id": null,
+    "tags": [
+      "Calculus",
+      "Continuity & Differentiability",
+      "Medium",
+      "cuet-mathematics-2022-slot-7-6-aug-shift-2"
+    ],
+    "source": {
+      "title": "cuet-mathematics-2022-slot-7-6-aug-shift-2",
+      "question_number": 26
+    },
+    "review_status": "NEEDS_REVIEW",
+    "publication_status": "DRAFT"
+  },
+  {
+    "id": "1f3b549f-bf28-4551-a3cf-cf760194304b",
+    "type": "MCQ",
+    "content": [
+      {
+        "type": "paragraph",
+        "inlines": [
+          {
+            "type": "text",
+            "text": "The line "
+          },
+          {
+            "type": "math",
+            "latex": "ax + by = 7",
+            "display": false
+          },
+          {
+            "type": "text",
+            "text": " is a tangent to the curve "
+          },
+          {
+            "type": "math",
+            "latex": "y = \\frac{x-7}{(x-2)(x-3)}",
+            "display": false
+          },
+          {
+            "type": "text",
+            "text": " at the point where it cuts the x-axis"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "inlines": [
+          {
+            "type": "text",
+            "text": "A. The y-intercept of the line is "
+          },
+          {
+            "type": "math",
+            "latex": "-0.7",
+            "display": false
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "inlines": [
+          {
+            "type": "text",
+            "text": "B. "
+          },
+          {
+            "type": "math",
+            "latex": "b = -7",
+            "display": false
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "inlines": [
+          {
+            "type": "text",
+            "text": "C. "
+          },
+          {
+            "type": "math",
+            "latex": "a = 1",
+            "display": false
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "inlines": [
+          {
+            "type": "text",
+            "text": "D. the line passes through the point "
+          },
+          {
+            "type": "math",
+            "latex": "(-13, -1)",
+            "display": false
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "inlines": [
+          {
+            "type": "text",
+            "text": "E. "
+          },
+          {
+            "type": "math",
+            "latex": "b = -20",
+            "display": false
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "inlines": [
+          {
+            "type": "text",
+            "text": "Choose the correct answer from the options given below:"
+          }
+        ]
+      }
+    ],
+    "options": {
+      "A": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "text",
+              "text": "A, B, D Only"
+            }
+          ]
+        }
+      ],
+      "B": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "text",
+              "text": "C, D, E Only"
+            }
+          ]
+        }
+      ],
+      "C": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "text",
+              "text": "A, D, E Only"
+            }
+          ]
+        }
+      ],
+      "D": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "text",
+              "text": "B, C, D Only"
+            }
+          ]
+        }
+      ]
+    },
+    "answer": "B",
+    "marks": 1,
+    "group_id": null,
+    "tags": [
+      "Calculus",
+      "Application of Derivatives",
+      "Hard",
+      "cuet-mathematics-2022-slot-7-6-aug-shift-2"
+    ],
+    "source": {
+      "title": "cuet-mathematics-2022-slot-7-6-aug-shift-2",
+      "question_number": 27
+    },
+    "review_status": "NEEDS_REVIEW",
+    "publication_status": "DRAFT"
+  },
+  {
+    "id": "043b0cab-e86a-4ad7-9103-6672c0c53f9b",
+    "type": "MCQ",
+    "content": [
+      {
+        "type": "paragraph",
+        "inlines": [
+          {
+            "type": "text",
+            "text": "The slope of normal to the curve "
+          },
+          {
+            "type": "math",
+            "latex": "y = 3x^2 + 3 \\sin 3x",
+            "display": false
+          },
+          {
+            "type": "text",
+            "text": ", at "
+          },
+          {
+            "type": "math",
+            "latex": "x = 0",
+            "display": false
+          },
+          {
+            "type": "text",
+            "text": " is:"
+          }
+        ]
+      }
+    ],
+    "options": {
+      "A": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "math",
+              "latex": "9",
+              "display": false
+            }
+          ]
+        }
+      ],
+      "B": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "math",
+              "latex": "\\frac{1}{9}",
+              "display": false
+            }
+          ]
+        }
+      ],
+      "C": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "math",
+              "latex": "-\\frac{1}{9}",
+              "display": false
+            }
+          ]
+        }
+      ],
+      "D": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "math",
+              "latex": "-9",
+              "display": false
+            }
+          ]
+        }
+      ]
+    },
+    "answer": "C",
+    "marks": 1,
+    "group_id": null,
+    "tags": [
+      "Calculus",
+      "Application of Derivatives",
+      "Easy",
+      "cuet-mathematics-2022-slot-7-6-aug-shift-2"
+    ],
+    "source": {
+      "title": "cuet-mathematics-2022-slot-7-6-aug-shift-2",
+      "question_number": 28
+    },
+    "review_status": "NEEDS_REVIEW",
+    "publication_status": "DRAFT"
+  },
+  {
+    "id": "48c35eec-078c-4862-96f7-fa10556e41f1",
+    "type": "MCQ",
+    "content": [
+      {
+        "type": "paragraph",
+        "inlines": [
+          {
+            "type": "text",
+            "text": "The curve passing through the point "
+          },
+          {
+            "type": "math",
+            "latex": "(-1, 1)",
+            "display": false
+          },
+          {
+            "type": "text",
+            "text": ", given that the slope of the tangent to the curve at any point "
+          },
+          {
+            "type": "math",
+            "latex": "(x, y)",
+            "display": false
+          },
+          {
+            "type": "text",
+            "text": " is "
+          },
+          {
+            "type": "math",
+            "latex": "\\frac{2x}{y^2}",
+            "display": false
+          },
+          {
+            "type": "text",
+            "text": " also passes through the point "
+          },
+          {
+            "type": "math",
+            "latex": "\\left( k, -\\frac{1}{2} \\right)",
+            "display": false
+          },
+          {
+            "type": "text",
+            "text": ", then"
+          }
+        ]
+      }
+    ],
+    "options": {
+      "A": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "math",
+              "latex": "4k^2 - 5 = 0",
+              "display": false
+            }
+          ]
+        }
+      ],
+      "B": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "math",
+              "latex": "8k^2 - 5 = 0",
+              "display": false
+            }
+          ]
+        }
+      ],
+      "C": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "math",
+              "latex": "8k^2 - 17 = 0",
+              "display": false
+            }
+          ]
+        }
+      ],
+      "D": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "math",
+              "latex": "5k^2 - 8 = 0",
+              "display": false
+            }
+          ]
+        }
+      ]
+    },
+    "answer": "B",
+    "marks": 1,
+    "group_id": null,
+    "tags": [
+      "Calculus",
+      "Differential Equations",
+      "Medium",
+      "cuet-mathematics-2022-slot-7-6-aug-shift-2"
+    ],
+    "source": {
+      "title": "cuet-mathematics-2022-slot-7-6-aug-shift-2",
+      "question_number": 29
+    },
+    "review_status": "NEEDS_REVIEW",
+    "publication_status": "DRAFT"
+  },
+  {
+    "id": "09f84e84-91ca-4a94-a576-938c6d13a6ff",
+    "type": "MCQ",
+    "content": [
+      {
+        "type": "paragraph",
+        "inlines": [
+          {
+            "type": "text",
+            "text": "If the solution curve of the differentiable equation "
+          },
+          {
+            "type": "math",
+            "latex": "\\frac{dy}{dx} + 2y = e^{3x}",
+            "display": false
+          },
+          {
+            "type": "text",
+            "text": ", passes through the point "
+          },
+          {
+            "type": "math",
+            "latex": "\\left(0, \\frac{6}{5}\\right)",
+            "display": false
+          },
+          {
+            "type": "text",
+            "text": ", then the value of "
+          },
+          {
+            "type": "math",
+            "latex": "y(\\log_e 2)",
+            "display": false
+          },
+          {
+            "type": "text",
+            "text": " is:"
+          }
+        ]
+      }
+    ],
+    "options": {
+      "A": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "math",
+              "latex": "\\frac{37}{20}",
+              "display": false
+            }
+          ]
+        }
+      ],
+      "B": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "math",
+              "latex": "\\frac{1}{5}",
+              "display": false
+            }
+          ]
+        }
+      ],
+      "C": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "math",
+              "latex": "\\frac{11}{5}",
+              "display": false
+            }
+          ]
+        }
+      ],
+      "D": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "math",
+              "latex": "1",
+              "display": false
+            }
+          ]
+        }
+      ]
+    },
+    "answer": "A",
+    "marks": 1,
+    "group_id": null,
+    "tags": [
+      "Calculus",
+      "Differential Equations",
+      "Hard",
+      "cuet-mathematics-2022-slot-7-6-aug-shift-2"
+    ],
+    "source": {
+      "title": "cuet-mathematics-2022-slot-7-6-aug-shift-2",
+      "question_number": 30
+    },
+    "review_status": "NEEDS_REVIEW",
+    "publication_status": "DRAFT"
+  },
+  {
+    "id": "1875b910-0e0a-42ec-b8bd-958f26388d3c",
+    "type": "MCQ",
+    "content": [
+      {
+        "type": "paragraph",
+        "inlines": [
+          {
+            "type": "text",
+            "text": "If two lines "
+          },
+          {
+            "type": "math",
+            "latex": "\\frac{x-3}{2} = \\frac{y-4}{5} = \\frac{z}{4}",
+            "display": false
+          },
+          {
+            "type": "text",
+            "text": " and "
+          },
+          {
+            "type": "math",
+            "latex": "\\frac{x-4}{3} = \\frac{y-5}{6} = \\frac{1-z}{k}",
+            "display": false
+          },
+          {
+            "type": "text",
+            "text": ", are coplanar, then "
+          },
+          {
+            "type": "math",
+            "latex": "k",
+            "display": false
+          },
+          {
+            "type": "text",
+            "text": " is equal to"
+          }
+        ]
+      }
+    ],
+    "options": {
+      "A": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "math",
+              "latex": "5",
+              "display": false
+            }
+          ]
+        }
+      ],
+      "B": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "math",
+              "latex": "-5",
+              "display": false
+            }
+          ]
+        }
+      ],
+      "C": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "math",
+              "latex": "9",
+              "display": false
+            }
+          ]
+        }
+      ],
+      "D": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "math",
+              "latex": "-3",
+              "display": false
+            }
+          ]
+        }
+      ]
+    },
+    "answer": "B",
+    "marks": 1,
+    "group_id": null,
+    "tags": [
+      "Geometry",
+      "3D Geometry",
+      "Hard",
+      "cuet-mathematics-2022-slot-7-6-aug-shift-2"
+    ],
+    "source": {
+      "title": "cuet-mathematics-2022-slot-7-6-aug-shift-2",
+      "question_number": 31
+    },
+    "review_status": "NEEDS_REVIEW",
+    "publication_status": "DRAFT"
+  },
+  {
+    "id": "a15b8c2f-54cb-408a-ba77-eca3a3d6cf14",
+    "type": "MCQ",
+    "content": [
+      {
+        "type": "paragraph",
+        "inlines": [
+          {
+            "type": "text",
+            "text": "The foot of perpendicular from the point P (1, 2, -3) to the line "
+          },
+          {
+            "type": "math",
+            "latex": "\\frac{x+1}{2} = \\frac{y-3}{-2} = \\frac{z}{-1}",
+            "display": false
+          },
+          {
+            "type": "text",
+            "text": " is"
+          }
+        ]
+      }
+    ],
+    "options": {
+      "A": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "math",
+              "latex": "(1, 1, 1)",
+              "display": false
+            }
+          ]
+        }
+      ],
+      "B": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "math",
+              "latex": "(1, -1, 1)",
+              "display": false
+            }
+          ]
+        }
+      ],
+      "C": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "math",
+              "latex": "(1, 1, -1)",
+              "display": false
+            }
+          ]
+        }
+      ],
+      "D": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "math",
+              "latex": "(-1, 1, 1)",
+              "display": false
+            }
+          ]
+        }
+      ]
+    },
+    "answer": "C",
+    "marks": 1,
+    "group_id": null,
+    "tags": [
+      "Geometry",
+      "3D Geometry",
+      "Medium",
+      "cuet-mathematics-2022-slot-7-6-aug-shift-2"
+    ],
+    "source": {
+      "title": "cuet-mathematics-2022-slot-7-6-aug-shift-2",
+      "question_number": 32
+    },
+    "review_status": "NEEDS_REVIEW",
+    "publication_status": "DRAFT"
+  },
+  {
+    "id": "ddf3e06c-f687-4732-912f-b4d68696b6c9",
+    "type": "MCQ",
+    "content": [
+      {
+        "type": "paragraph",
+        "inlines": [
+          {
+            "type": "text",
+            "text": "The equation of plane passing through the point of (3, 2, 0) and containing the line "
+          },
+          {
+            "type": "math",
+            "latex": "\\frac{x-2}{2} = \\frac{y+3}{4} = \\frac{z-1}{1}",
+            "display": false
+          },
+          {
+            "type": "text",
+            "text": " is"
+          }
+        ]
+      }
+    ],
+    "options": {
+      "A": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "math",
+              "latex": "3x - y - 2z = 7",
+              "display": false
+            }
+          ]
+        }
+      ],
+      "B": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "math",
+              "latex": "3x - y + 2z = 7",
+              "display": false
+            }
+          ]
+        }
+      ],
+      "C": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "math",
+              "latex": "x + y - 2z = 5",
+              "display": false
+            }
+          ]
+        }
+      ],
+      "D": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "math",
+              "latex": "x - y + 2z = 1",
+              "display": false
+            }
+          ]
+        }
+      ]
+    },
+    "answer": "A",
+    "marks": 1,
+    "group_id": null,
+    "tags": [
+      "Geometry",
+      "3D Geometry",
+      "Medium",
+      "cuet-mathematics-2022-slot-7-6-aug-shift-2"
+    ],
+    "source": {
+      "title": "cuet-mathematics-2022-slot-7-6-aug-shift-2",
+      "question_number": 33
+    },
+    "review_status": "NEEDS_REVIEW",
+    "publication_status": "DRAFT"
+  },
+  {
+    "id": "3b1a63b0-4831-4671-8fc0-ff3a66cdebe3",
+    "type": "MCQ",
+    "content": [
+      {
+        "type": "paragraph",
+        "inlines": [
+          {
+            "type": "text",
+            "text": "The sum of all the values of "
+          },
+          {
+            "type": "math",
+            "latex": "\\lambda",
+            "display": false
+          },
+          {
+            "type": "text",
+            "text": " for which the distance of the point P (2, 3, "
+          },
+          {
+            "type": "math",
+            "latex": "\\lambda",
+            "display": false
+          },
+          {
+            "type": "text",
+            "text": ") from the plane "
+          },
+          {
+            "type": "math",
+            "latex": "x + 2y - 2z = 9",
+            "display": false
+          },
+          {
+            "type": "text",
+            "text": " is 3 units, is"
+          }
+        ]
+      }
+    ],
+    "options": {
+      "A": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "math",
+              "latex": "-9",
+              "display": false
+            }
+          ]
+        }
+      ],
+      "B": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "math",
+              "latex": "-1",
+              "display": false
+            }
+          ]
+        }
+      ],
+      "C": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "math",
+              "latex": "1",
+              "display": false
+            }
+          ]
+        }
+      ],
+      "D": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "math",
+              "latex": "9",
+              "display": false
+            }
+          ]
+        }
+      ]
+    },
+    "answer": "B",
+    "marks": 1,
+    "group_id": null,
+    "tags": [
+      "Geometry",
+      "3D Geometry",
+      "Easy",
+      "cuet-mathematics-2022-slot-7-6-aug-shift-2"
+    ],
+    "source": {
+      "title": "cuet-mathematics-2022-slot-7-6-aug-shift-2",
+      "question_number": 34
+    },
+    "review_status": "NEEDS_REVIEW",
+    "publication_status": "DRAFT"
+  },
+  {
+    "id": "265f734d-a6dc-47c8-8878-801eb7cd5848",
+    "type": "MCQ",
+    "content": [
+      {
+        "type": "paragraph",
+        "inlines": [
+          {
+            "type": "text",
+            "text": "The value of "
+          },
+          {
+            "type": "math",
+            "latex": "\\hat{i} \\cdot (\\hat{k} \\times \\hat{j}) + \\hat{j} \\cdot (\\hat{i} \\times \\hat{k}) + \\hat{k} \\cdot (\\hat{j} \\times \\hat{i})",
+            "display": false
+          },
+          {
+            "type": "text",
+            "text": " is"
+          }
+        ]
+      }
+    ],
+    "options": {
+      "A": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "math",
+              "latex": "0",
+              "display": false
+            }
+          ]
+        }
+      ],
+      "B": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "math",
+              "latex": "3",
+              "display": false
+            }
+          ]
+        }
+      ],
+      "C": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "math",
+              "latex": "-1",
+              "display": false
+            }
+          ]
+        }
+      ],
+      "D": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "math",
+              "latex": "-3",
+              "display": false
+            }
+          ]
+        }
+      ]
+    },
+    "answer": "D",
+    "marks": 1,
+    "group_id": null,
+    "tags": [
+      "Algebra",
+      "Vector Algebra",
+      "Easy",
+      "cuet-mathematics-2022-slot-7-6-aug-shift-2"
+    ],
+    "source": {
+      "title": "cuet-mathematics-2022-slot-7-6-aug-shift-2",
+      "question_number": 35
+    },
+    "review_status": "NEEDS_REVIEW",
+    "publication_status": "DRAFT"
+  },
+  {
+    "id": "d8a8a1bb-eb27-42de-8916-7a56edacded9",
+    "type": "MCQ",
+    "content": [
+      {
+        "type": "paragraph",
+        "inlines": [
+          {
+            "type": "text",
+            "text": "In a triangle, "
+          },
+          {
+            "type": "math",
+            "latex": "\\triangle ABC",
+            "display": false
+          },
+          {
+            "type": "text",
+            "text": ", the sides AB and AC are represented by vectors "
+          },
+          {
+            "type": "math",
+            "latex": "\\hat{i} + \\hat{j} + \\hat{k}",
+            "display": false
+          },
+          {
+            "type": "text",
+            "text": " and "
+          },
+          {
+            "type": "math",
+            "latex": "2\\hat{i} - \\hat{k}",
+            "display": false
+          },
+          {
+            "type": "text",
+            "text": " respectively. The length of median drawn from vertex A to BC is:"
+          }
+        ]
+      }
+    ],
+    "options": {
+      "A": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "math",
+              "latex": "\\sqrt{10}",
+              "display": false
+            }
+          ]
+        }
+      ],
+      "B": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "math",
+              "latex": "\\sqrt{6}",
+              "display": false
+            }
+          ]
+        }
+      ],
+      "C": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "math",
+              "latex": "\\sqrt{5}",
+              "display": false
+            }
+          ]
+        }
+      ],
+      "D": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "math",
+              "latex": "\\sqrt{\\frac{5}{2}}",
+              "display": false
+            }
+          ]
+        }
+      ]
+    },
+    "answer": "D",
+    "marks": 1,
+    "group_id": null,
+    "tags": [
+      "Algebra",
+      "Vector Algebra",
+      "Medium",
+      "cuet-mathematics-2022-slot-7-6-aug-shift-2"
+    ],
+    "source": {
+      "title": "cuet-mathematics-2022-slot-7-6-aug-shift-2",
+      "question_number": 36
+    },
+    "review_status": "NEEDS_REVIEW",
+    "publication_status": "DRAFT"
+  },
+  {
+    "id": "c0d16d13-50a1-4f1a-8aad-8902638ff4fb",
+    "type": "MCQ",
+    "content": [
+      {
+        "type": "paragraph",
+        "inlines": [
+          {
+            "type": "text",
+            "text": "Let "
+          },
+          {
+            "type": "math",
+            "latex": "\\vec{OA} = 2\\hat{i} - \\hat{j} + \\hat{k}",
+            "display": false
+          },
+          {
+            "type": "text",
+            "text": " and "
+          },
+          {
+            "type": "math",
+            "latex": "\\vec{OB} = \\hat{i} + \\hat{j} - \\hat{k}",
+            "display": false
+          },
+          {
+            "type": "text",
+            "text": ". Then"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "inlines": [
+          {
+            "type": "text",
+            "text": "A. The magnitude of vector "
+          },
+          {
+            "type": "math",
+            "latex": "\\vec{OA}",
+            "display": false
+          },
+          {
+            "type": "text",
+            "text": " is 6"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "inlines": [
+          {
+            "type": "text",
+            "text": "B. The magnitude of vector "
+          },
+          {
+            "type": "math",
+            "latex": "\\vec{OB}",
+            "display": false
+          },
+          {
+            "type": "text",
+            "text": " is "
+          },
+          {
+            "type": "math",
+            "latex": "\\sqrt{3}",
+            "display": false
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "inlines": [
+          {
+            "type": "text",
+            "text": "C. The vector "
+          },
+          {
+            "type": "math",
+            "latex": "\\vec{AB}",
+            "display": false
+          },
+          {
+            "type": "text",
+            "text": " is "
+          },
+          {
+            "type": "math",
+            "latex": "(-\\hat{i} + 2\\hat{j} - 2\\hat{k})",
+            "display": false
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "inlines": [
+          {
+            "type": "text",
+            "text": "D. "
+          },
+          {
+            "type": "math",
+            "latex": "\\vec{OA} \\cdot \\vec{OB} = 0",
+            "display": false
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "inlines": [
+          {
+            "type": "text",
+            "text": "E. "
+          },
+          {
+            "type": "math",
+            "latex": "\\vec{OA} \\parallel \\vec{OB}",
+            "display": false
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "inlines": [
+          {
+            "type": "text",
+            "text": "Choose the correct answer from the options given below:"
+          }
+        ]
+      }
+    ],
+    "options": {
+      "A": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "text",
+              "text": "A, B, C, D Only"
+            }
+          ]
+        }
+      ],
+      "B": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "text",
+              "text": "A, B, E Only"
+            }
+          ]
+        }
+      ],
+      "C": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "text",
+              "text": "C, D, E Only"
+            }
+          ]
+        }
+      ],
+      "D": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "text",
+              "text": "B, C, D Only"
+            }
+          ]
+        }
+      ]
+    },
+    "answer": "D",
+    "marks": 1,
+    "group_id": null,
+    "tags": [
+      "Algebra",
+      "Vector Algebra",
+      "Medium",
+      "cuet-mathematics-2022-slot-7-6-aug-shift-2"
+    ],
+    "source": {
+      "title": "cuet-mathematics-2022-slot-7-6-aug-shift-2",
+      "question_number": 37
+    },
+    "review_status": "NEEDS_REVIEW",
+    "publication_status": "DRAFT"
+  },
+  {
+    "id": "16e78abe-615c-40e4-8fa7-37219d1fbaae",
+    "type": "MCQ",
+    "content": [
+      {
+        "type": "paragraph",
+        "inlines": [
+          {
+            "type": "text",
+            "text": "The optimal value of linear programming problem maximum "
+          },
+          {
+            "type": "math",
+            "latex": "Z = 3x + 4y",
+            "display": false
+          },
+          {
+            "type": "text",
+            "text": ", subject to,"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "inlines": [
+          {
+            "type": "math",
+            "latex": "x + 3y \\leq 12",
+            "display": false
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "inlines": [
+          {
+            "type": "math",
+            "latex": "x + y \\geq 8",
+            "display": false
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "inlines": [
+          {
+            "type": "math",
+            "latex": "x, y \\geq 0",
+            "display": false
+          },
+          {
+            "type": "text",
+            "text": " is"
+          }
+        ]
+      }
+    ],
+    "options": {
+      "A": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "math",
+              "latex": "26",
+              "display": false
+            }
+          ]
+        }
+      ],
+      "B": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "math",
+              "latex": "32",
+              "display": false
+            }
+          ]
+        }
+      ],
+      "C": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "math",
+              "latex": "36",
+              "display": false
+            }
+          ]
+        }
+      ],
+      "D": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "math",
+              "latex": "38",
+              "display": false
+            }
+          ]
+        }
+      ]
+    },
+    "answer": "C",
+    "marks": 1,
+    "group_id": null,
+    "tags": [
+      "Algebra",
+      "Linear Programming",
+      "Medium",
+      "cuet-mathematics-2022-slot-7-6-aug-shift-2"
+    ],
+    "source": {
+      "title": "cuet-mathematics-2022-slot-7-6-aug-shift-2",
+      "question_number": 38
+    },
+    "review_status": "NEEDS_REVIEW",
+    "publication_status": "DRAFT"
+  },
+  {
+    "id": "237e98fb-d5b4-44e1-bde2-ab3a09602105",
+    "type": "MCQ",
+    "content": [
+      {
+        "type": "paragraph",
+        "inlines": [
+          {
+            "type": "text",
+            "text": "There are three identical boxes I, II and III, each containing two balls. In box I, both balls are red, In box II, both balls are blue and box III contains one blue ball and one red ball. A boy randomly chooses a box and takes out a ball at random from it. If the ball is red, then the probability that the other ball in the box is also red colour is:"
+          }
+        ]
+      }
+    ],
+    "options": {
+      "A": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "math",
+              "latex": "\\frac{1}{2}",
+              "display": false
+            }
+          ]
+        }
+      ],
+      "B": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "math",
+              "latex": "\\frac{2}{3}",
+              "display": false
+            }
+          ]
+        }
+      ],
+      "C": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "math",
+              "latex": "0",
+              "display": false
+            }
+          ]
+        }
+      ],
+      "D": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "math",
+              "latex": "1",
+              "display": false
+            }
+          ]
+        }
+      ]
+    },
+    "answer": "B",
+    "marks": 1,
+    "group_id": null,
+    "tags": [
+      "Algebra",
+      "Probability",
+      "Medium",
+      "cuet-mathematics-2022-slot-7-6-aug-shift-2"
+    ],
+    "source": {
+      "title": "cuet-mathematics-2022-slot-7-6-aug-shift-2",
+      "question_number": 39
+    },
+    "review_status": "NEEDS_REVIEW",
+    "publication_status": "DRAFT"
+  },
+  {
+    "id": "d9bf26dd-ccbe-4694-a5f6-e2fac87643fc",
+    "type": "MCQ",
+    "content": [
+      {
+        "type": "paragraph",
+        "inlines": [
+          {
+            "type": "text",
+            "text": "If A and B are two independent events such that "
+          },
+          {
+            "type": "math",
+            "latex": "P(A) = 0.4",
+            "display": false
+          },
+          {
+            "type": "text",
+            "text": ", and "
+          },
+          {
+            "type": "math",
+            "latex": "P(B) = 0.5",
+            "display": false
+          },
+          {
+            "type": "text",
+            "text": ", then P (neither A nor B) is"
+          }
+        ]
+      }
+    ],
+    "options": {
+      "A": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "math",
+              "latex": "0.24",
+              "display": false
+            }
+          ]
+        }
+      ],
+      "B": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "math",
+              "latex": "0.30",
+              "display": false
+            }
+          ]
+        }
+      ],
+      "C": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "math",
+              "latex": "0.25",
+              "display": false
+            }
+          ]
+        }
+      ],
+      "D": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "math",
+              "latex": "0.28",
+              "display": false
+            }
+          ]
+        }
+      ]
+    },
+    "answer": "B",
+    "marks": 1,
+    "group_id": null,
+    "tags": [
+      "Algebra",
+      "Probability",
+      "Easy",
+      "cuet-mathematics-2022-slot-7-6-aug-shift-2"
+    ],
+    "source": {
+      "title": "cuet-mathematics-2022-slot-7-6-aug-shift-2",
+      "question_number": 40
+    },
+    "review_status": "NEEDS_REVIEW",
+    "publication_status": "DRAFT"
+  },
+  {
+    "id": "971d5f25-917d-46f1-a5cc-d53df20512f6",
+    "type": "MCQ",
+    "content": [
+      {
+        "type": "paragraph",
+        "inlines": [
+          {
+            "type": "text",
+            "text": "The value of "
+          },
+          {
+            "type": "math",
+            "latex": "x",
+            "display": false
+          },
+          {
+            "type": "text",
+            "text": " for which "
+          },
+          {
+            "type": "math",
+            "latex": "\\frac{dy}{dx} = 0",
+            "display": false
+          },
+          {
+            "type": "text",
+            "text": ", is"
+          }
+        ]
+      }
+    ],
+    "options": {
+      "A": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "math",
+              "latex": "\\frac{1}{2}",
+              "display": false
+            }
+          ]
+        }
+      ],
+      "B": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "math",
+              "latex": "\\frac{1}{7}",
+              "display": false
+            }
+          ]
+        }
+      ],
+      "C": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "math",
+              "latex": "\\frac{2}{3}",
+              "display": false
+            }
+          ]
+        }
+      ],
+      "D": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "math",
+              "latex": "\\frac{1}{3}",
+              "display": false
+            }
+          ]
+        }
+      ]
+    },
+    "answer": "A",
+    "marks": 1,
+    "group_id": null,
+    "tags": [
+      "Calculus",
+      "Application of Integrals",
+      "Hard",
+      "cuet-mathematics-2022-slot-7-6-aug-shift-2"
+    ],
+    "source": {
+      "title": "cuet-mathematics-2022-slot-7-6-aug-shift-2",
+      "question_number": 41
+    },
+    "review_status": "NEEDS_REVIEW",
+    "publication_status": "DRAFT"
+  },
+  {
+    "id": "34743741-7f19-466e-8db7-b73d95fe8df5",
+    "type": "MCQ",
+    "content": [
+      {
+        "type": "paragraph",
+        "inlines": [
+          {
+            "type": "math",
+            "latex": "y(x)",
+            "display": false
+          },
+          {
+            "type": "text",
+            "text": " is strictly increasing in the interval"
+          }
+        ]
+      }
+    ],
+    "options": {
+      "A": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "math",
+              "latex": "(0, \\frac{1}{6})",
+              "display": false
+            }
+          ]
+        }
+      ],
+      "B": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "math",
+              "latex": "(\\frac{1}{6}, \\frac{2}{3})",
+              "display": false
+            }
+          ]
+        }
+      ],
+      "C": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "math",
+              "latex": "(0, \\frac{1}{2})",
+              "display": false
+            }
+          ]
+        }
+      ],
+      "D": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "math",
+              "latex": "(\\frac{1}{2}, \\frac{2}{3})",
+              "display": false
+            }
+          ]
+        }
+      ]
+    },
+    "answer": "C",
+    "marks": 1,
+    "group_id": null,
+    "tags": [
+      "Calculus",
+      "Application of Integrals",
+      "Hard",
+      "cuet-mathematics-2022-slot-7-6-aug-shift-2"
+    ],
+    "source": {
+      "title": "cuet-mathematics-2022-slot-7-6-aug-shift-2",
+      "question_number": 42
+    },
+    "review_status": "NEEDS_REVIEW",
+    "publication_status": "DRAFT"
+  },
+  {
+    "id": "3c783798-8a02-4ae3-8cf0-7f00c18641a7",
+    "type": "MCQ",
+    "content": [
+      {
+        "type": "paragraph",
+        "inlines": [
+          {
+            "type": "text",
+            "text": "The maximum height (in meters) achieved in the first jump is"
+          }
+        ]
+      }
+    ],
+    "options": {
+      "A": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "math",
+              "latex": "\\frac{2}{3}",
+              "display": false
+            }
+          ]
+        }
+      ],
+      "B": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "math",
+              "latex": "1",
+              "display": false
+            }
+          ]
+        }
+      ],
+      "C": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "math",
+              "latex": "\\frac{1}{2}",
+              "display": false
+            }
+          ]
+        }
+      ],
+      "D": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "math",
+              "latex": "\\frac{1}{6}",
+              "display": false
+            }
+          ]
+        }
+      ]
+    },
+    "answer": "B",
+    "marks": 1,
+    "group_id": null,
+    "tags": [
+      "Calculus",
+      "Application of Integrals",
+      "Hard",
+      "cuet-mathematics-2022-slot-7-6-aug-shift-2"
+    ],
+    "source": {
+      "title": "cuet-mathematics-2022-slot-7-6-aug-shift-2",
+      "question_number": 43
+    },
+    "review_status": "NEEDS_REVIEW",
+    "publication_status": "DRAFT"
+  },
+  {
+    "id": "7546f419-c603-4858-aaa8-a11f2edda07e",
+    "type": "MCQ",
+    "content": [
+      {
+        "type": "paragraph",
+        "inlines": [
+          {
+            "type": "text",
+            "text": "Evaluate "
+          },
+          {
+            "type": "math",
+            "latex": "\\int_0^{\\frac{1}{3}} y \\, dx",
+            "display": false
+          }
+        ]
+      }
+    ],
+    "options": {
+      "A": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "math",
+              "latex": "\\frac{1}{18} + \\frac{2\\sqrt{3}\\pi}{27}",
+              "display": false
+            }
+          ]
+        }
+      ],
+      "B": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "math",
+              "latex": "\\frac{1}{18} + \\sqrt{3}\\frac{\\pi}{36}",
+              "display": false
+            }
+          ]
+        }
+      ],
+      "C": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "math",
+              "latex": "\\frac{1}{18} + \\frac{\\sqrt{6}\\pi}{9}",
+              "display": false
+            }
+          ]
+        }
+      ],
+      "D": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "math",
+              "latex": "\\frac{1}{18} + \\frac{\\pi}{36}",
+              "display": false
+            }
+          ]
+        }
+      ]
+    },
+    "answer": "B",
+    "marks": 1,
+    "group_id": null,
+    "tags": [
+      "Calculus",
+      "Application of Integrals",
+      "Hard",
+      "cuet-mathematics-2022-slot-7-6-aug-shift-2"
+    ],
+    "source": {
+      "title": "cuet-mathematics-2022-slot-7-6-aug-shift-2",
+      "question_number": 44
+    },
+    "review_status": "NEEDS_REVIEW",
+    "publication_status": "DRAFT"
+  },
+  {
+    "id": "b4fccce6-24f4-47e1-bc0c-db57693fa8e6",
+    "type": "MCQ",
+    "content": [
+      {
+        "type": "paragraph",
+        "inlines": [
+          {
+            "type": "text",
+            "text": "The value of "
+          },
+          {
+            "type": "math",
+            "latex": "\\frac{dy}{dx}",
+            "display": false
+          },
+          {
+            "type": "text",
+            "text": " when "
+          },
+          {
+            "type": "math",
+            "latex": "x = \\frac{1}{6}",
+            "display": false
+          },
+          {
+            "type": "text",
+            "text": ", is"
+          }
+        ]
+      }
+    ],
+    "options": {
+      "A": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "math",
+              "latex": "2",
+              "display": false
+            }
+          ]
+        }
+      ],
+      "B": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "math",
+              "latex": "0",
+              "display": false
+            }
+          ]
+        }
+      ],
+      "C": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "math",
+              "latex": "3",
+              "display": false
+            }
+          ]
+        }
+      ],
+      "D": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "math",
+              "latex": "1",
+              "display": false
+            }
+          ]
+        }
+      ]
+    },
+    "answer": "A",
+    "marks": 1,
+    "group_id": null,
+    "tags": [
+      "Calculus",
+      "Application of Integrals",
+      "Hard",
+      "cuet-mathematics-2022-slot-7-6-aug-shift-2"
+    ],
+    "source": {
+      "title": "cuet-mathematics-2022-slot-7-6-aug-shift-2",
+      "question_number": 45
+    },
+    "review_status": "NEEDS_REVIEW",
+    "publication_status": "DRAFT"
+  },
+  {
+    "id": "12f3a8c0-234d-4190-96b4-05df16dd914d",
+    "type": "MCQ",
+    "content": [
+      {
+        "type": "paragraph",
+        "inlines": [
+          {
+            "type": "text",
+            "text": "The value of "
+          },
+          {
+            "type": "math",
+            "latex": "k",
+            "display": false
+          },
+          {
+            "type": "text",
+            "text": " is"
+          }
+        ]
+      }
+    ],
+    "options": {
+      "A": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "math",
+              "latex": "0.1",
+              "display": false
+            }
+          ]
+        }
+      ],
+      "B": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "math",
+              "latex": "0.2",
+              "display": false
+            }
+          ]
+        }
+      ],
+      "C": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "math",
+              "latex": "0.25",
+              "display": false
+            }
+          ]
+        }
+      ],
+      "D": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "math",
+              "latex": "0.125",
+              "display": false
+            }
+          ]
+        }
+      ]
+    },
+    "answer": "A",
+    "marks": 1,
+    "group_id": null,
+    "tags": [
+      "Algebra",
+      "Probability",
+      "Easy",
+      "cuet-mathematics-2022-slot-7-6-aug-shift-2"
+    ],
+    "source": {
+      "title": "cuet-mathematics-2022-slot-7-6-aug-shift-2",
+      "question_number": 46
+    },
+    "review_status": "NEEDS_REVIEW",
+    "publication_status": "DRAFT"
+  },
+  {
+    "id": "ccbfdee8-39f9-4714-976f-ca7f50405042",
+    "type": "MCQ",
+    "content": [
+      {
+        "type": "paragraph",
+        "inlines": [
+          {
+            "type": "text",
+            "text": "The probability that the study time of students is not more than one hour."
+          }
+        ]
+      }
+    ],
+    "options": {
+      "A": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "math",
+              "latex": "0.4",
+              "display": false
+            }
+          ]
+        }
+      ],
+      "B": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "math",
+              "latex": "0.3",
+              "display": false
+            }
+          ]
+        }
+      ],
+      "C": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "math",
+              "latex": "0.2",
+              "display": false
+            }
+          ]
+        }
+      ],
+      "D": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "math",
+              "latex": "0.1",
+              "display": false
+            }
+          ]
+        }
+      ]
+    },
+    "answer": "B",
+    "marks": 1,
+    "group_id": null,
+    "tags": [
+      "Algebra",
+      "Probability",
+      "Easy",
+      "cuet-mathematics-2022-slot-7-6-aug-shift-2"
+    ],
+    "source": {
+      "title": "cuet-mathematics-2022-slot-7-6-aug-shift-2",
+      "question_number": 47
+    },
+    "review_status": "NEEDS_REVIEW",
+    "publication_status": "DRAFT"
+  },
+  {
+    "id": "f80a8785-08ef-4066-ade8-425ca70577bb",
+    "type": "MCQ",
+    "content": [
+      {
+        "type": "paragraph",
+        "inlines": [
+          {
+            "type": "text",
+            "text": "The probability that the study time of students is at least 3 hours"
+          }
+        ]
+      }
+    ],
+    "options": {
+      "A": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "math",
+              "latex": "0.5",
+              "display": false
+            }
+          ]
+        }
+      ],
+      "B": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "math",
+              "latex": "0.2",
+              "display": false
+            }
+          ]
+        }
+      ],
+      "C": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "math",
+              "latex": "0.8",
+              "display": false
+            }
+          ]
+        }
+      ],
+      "D": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "math",
+              "latex": "0.7",
+              "display": false
+            }
+          ]
+        }
+      ]
+    },
+    "answer": "A",
+    "marks": 1,
+    "group_id": null,
+    "tags": [
+      "Algebra",
+      "Probability",
+      "Easy",
+      "cuet-mathematics-2022-slot-7-6-aug-shift-2"
+    ],
+    "source": {
+      "title": "cuet-mathematics-2022-slot-7-6-aug-shift-2",
+      "question_number": 48
+    },
+    "review_status": "NEEDS_REVIEW",
+    "publication_status": "DRAFT"
+  },
+  {
+    "id": "1f10dccc-8408-436e-88d7-593714fcea40",
+    "type": "MCQ",
+    "content": [
+      {
+        "type": "paragraph",
+        "inlines": [
+          {
+            "type": "text",
+            "text": "The probability that the study time of students is exactly 2 hours"
+          }
+        ]
+      }
+    ],
+    "options": {
+      "A": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "math",
+              "latex": "0.4",
+              "display": false
+            }
+          ]
+        }
+      ],
+      "B": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "math",
+              "latex": "0.5",
+              "display": false
+            }
+          ]
+        }
+      ],
+      "C": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "math",
+              "latex": "0.7",
+              "display": false
+            }
+          ]
+        }
+      ],
+      "D": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "math",
+              "latex": "0.2",
+              "display": false
+            }
+          ]
+        }
+      ]
+    },
+    "answer": "D",
+    "marks": 1,
+    "group_id": null,
+    "tags": [
+      "Algebra",
+      "Probability",
+      "Easy",
+      "cuet-mathematics-2022-slot-7-6-aug-shift-2"
+    ],
+    "source": {
+      "title": "cuet-mathematics-2022-slot-7-6-aug-shift-2",
+      "question_number": 49
+    },
+    "review_status": "NEEDS_REVIEW",
+    "publication_status": "DRAFT"
+  },
+  {
+    "id": "7758b64d-338f-44ac-848b-9ee6532e08ee",
+    "type": "MCQ",
+    "content": [
+      {
+        "type": "paragraph",
+        "inlines": [
+          {
+            "type": "text",
+            "text": "The probability that the study time of students is at least 1 hour"
+          }
+        ]
+      }
+    ],
+    "options": {
+      "A": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "math",
+              "latex": "0.2",
+              "display": false
+            }
+          ]
+        }
+      ],
+      "B": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "math",
+              "latex": "0.7",
+              "display": false
+            }
+          ]
+        }
+      ],
+      "C": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "math",
+              "latex": "0.8",
+              "display": false
+            }
+          ]
+        }
+      ],
+      "D": [
+        {
+          "type": "paragraph",
+          "inlines": [
+            {
+              "type": "math",
+              "latex": "0.6",
+              "display": false
+            }
+          ]
+        }
+      ]
+    },
+    "answer": "C",
+    "marks": 1,
+    "group_id": null,
+    "tags": [
+      "Algebra",
+      "Probability",
+      "Easy",
+      "cuet-mathematics-2022-slot-7-6-aug-shift-2"
+    ],
+    "source": {
+      "title": "cuet-mathematics-2022-slot-7-6-aug-shift-2",
+      "question_number": 50
+    },
+    "review_status": "NEEDS_REVIEW",
+    "publication_status": "DRAFT"
+  }
+]
