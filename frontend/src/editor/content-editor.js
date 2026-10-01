@@ -52,6 +52,7 @@ export class MathNode extends ElementNode {
     const dom = document.createElement(this.__display ? 'div' : 'span');
     dom.className = this.__display ? 'lexical-math-node display' : 'lexical-math-node';
     dom.dataset.mathNodeKey = this.getKey();
+    dom.contentEditable = 'false';
     dom.textContent = this.__display ? `$$${this.__latex}$$` : `\\(${this.__latex}\\)`;
     return dom;
   }
@@ -66,6 +67,13 @@ export class MathNode extends ElementNode {
 
   isInline() { return !this.__display; }
   canBeEmpty() { return false; }
+
+  insertNewAfter(_selection, restoreSelection = true) {
+    const paragraph = $createParagraphNode();
+    this.insertAfter(paragraph, restoreSelection);
+    return paragraph;
+  }
+
   getLatex() { return this.__latex; }
   getDisplay() { return this.__display; }
   setLatex(latex) { this.getWritable().__latex = latex; }
@@ -121,6 +129,13 @@ export class FigureNode extends ElementNode {
 
   isInline() { return false; }
   canBeEmpty() { return false; }
+
+  insertNewAfter(_selection, restoreSelection = true) {
+    const paragraph = $createParagraphNode();
+    this.insertAfter(paragraph, restoreSelection);
+    return paragraph;
+  }
+
   getSrc() { return this.__src; }
   getAlt() { return this.__alt; }
   getCaption() { return this.__caption; }
@@ -149,7 +164,8 @@ function textMarks(node) {
 function assetUrl(src) {
   if (!src) return '';
   if (/^(https?:|data:|blob:|\/)/.test(src)) return src;
-  return `/asset/${src.startsWith('data/') ? src : `data/${src}`}`;
+  const path = src.replace(/^\/+/, '');
+  return `/asset/${path.startsWith('data/') ? path : `data/${path}`}`;
 }
 
 function serializeInline(node) {
@@ -268,12 +284,94 @@ function normalizeEmpty(editor) {
   }, { tag: 'history-merge' });
 }
 
+const SUPPORTED_BLOCK_TYPES = new Set(['paragraph', 'bullet_list', 'numbered_list', 'table', 'figure', 'math']);
+const SUPPORTED_MARKS = new Set(MARKS);
+
+function validationError(path, message) {
+  return `${path}: ${message}`;
+}
+
+function validateInline(inline, path = 'inline') {
+  if (!inline || typeof inline !== 'object' || Array.isArray(inline)) return validationError(path, 'must be an object');
+  if (inline.type === 'text') {
+    if (typeof inline.text !== 'string') return validationError(path, 'text must be a string');
+    if (inline.marks !== undefined) {
+      if (!Array.isArray(inline.marks) || inline.marks.some(mark => !SUPPORTED_MARKS.has(mark))) {
+        return validationError(path, 'marks must be an array containing only bold, italic, underline, or strikethrough');
+      }
+    }
+    return null;
+  }
+  if (inline.type === 'math') {
+    if (typeof inline.latex !== 'string') return validationError(path, 'math latex must be a string');
+    if (inline.display !== undefined && typeof inline.display !== 'boolean') return validationError(path, 'math display must be boolean');
+    if (inline.display === true) return validationError(path, 'inline math cannot have display=true');
+    return null;
+  }
+  return validationError(path, 'unsupported inline type');
+}
+
+function validateBlocks(blocks, path = 'content') {
+  if (!Array.isArray(blocks)) return validationError(path, 'must be an array');
+  for (let i = 0; i < blocks.length; i++) {
+    const block = blocks[i];
+    const bp = `${path}[${i}]`;
+    if (!block || typeof block !== 'object' || Array.isArray(block)) return validationError(bp, 'must be an object');
+    if (!SUPPORTED_BLOCK_TYPES.has(block.type)) return validationError(bp, `unsupported block type '${block.type}'`);
+
+    if (block.type === 'paragraph') {
+      if (!Array.isArray(block.inlines)) return validationError(`${bp}.inlines`, 'must be an array');
+      for (let j = 0; j < block.inlines.length; j++) {
+        const error = validateInline(block.inlines[j], `${bp}.inlines[${j}]`);
+        if (error) return error;
+      }
+    } else if (block.type === 'bullet_list' || block.type === 'numbered_list') {
+      if (!Array.isArray(block.items)) return validationError(`${bp}.items`, 'must be an array');
+      for (let j = 0; j < block.items.length; j++) {
+        const item = block.items[j];
+        if (!item || typeof item !== 'object' || !Array.isArray(item.inlines)) return validationError(`${bp}.items[${j}].inlines`, 'must be an array');
+        for (let k = 0; k < item.inlines.length; k++) {
+          const error = validateInline(item.inlines[k], `${bp}.items[${j}].inlines[${k}]`);
+          if (error) return error;
+        }
+      }
+    } else if (block.type === 'table') {
+      if (block.header_rows !== undefined && (!Number.isInteger(block.header_rows) || block.header_rows < 0)) return validationError(`${bp}.header_rows`, 'must be a non-negative integer');
+      if (!Array.isArray(block.rows)) return validationError(`${bp}.rows`, 'must be an array');
+      for (let r = 0; r < block.rows.length; r++) {
+        const row = block.rows[r];
+        if (!row || typeof row !== 'object' || !Array.isArray(row.cells)) return validationError(`${bp}.rows[${r}].cells`, 'must be an array');
+        for (let c = 0; c < row.cells.length; c++) {
+          const error = validateBlocks(row.cells[c]?.content, `${bp}.rows[${r}].cells[${c}].content`);
+          if (error) return error;
+        }
+      }
+    } else if (block.type === 'figure') {
+      if (typeof block.src !== 'string' || !block.src.trim()) return validationError(`${bp}.src`, 'must be a non-empty string');
+      if (block.alt !== undefined && typeof block.alt !== 'string') return validationError(`${bp}.alt`, 'must be a string');
+      if (block.caption !== undefined && typeof block.caption !== 'string') return validationError(`${bp}.caption`, 'must be a string');
+    } else if (block.type === 'math') {
+      if (typeof block.latex !== 'string') return validationError(`${bp}.latex`, 'must be a string');
+      if (block.display !== true) return validationError(`${bp}.display`, 'must be true for a display-math block');
+    }
+  }
+  return null;
+}
+
+export function validateContentBlocks(blocks) {
+  return validateBlocks(blocks, 'content');
+}
+
 export class ContentEditor {
-  constructor(container, { placeholder = 'Start typing…', showToolbar = true, compact = false, toolbarMode = 'full' } = {}) {
+  constructor(container, { placeholder = 'Start typing…', showToolbar = true, compact = false, toolbarMode = 'full', showJsonTools = false, jsonTitle = 'JSON', jsonAdapter = null, onFigureUpload = null } = {}) {
     this.container = container;
     this.showToolbar = showToolbar;
     this.compact = compact;
     this.toolbarMode = toolbarMode;
+    this.showJsonTools = showJsonTools;
+    this.jsonTitle = jsonTitle;
+    this.jsonAdapter = jsonAdapter;
+    this.onFigureUpload = onFigureUpload;
     this.changeHandler = null;
     this.activeMathKey = null;
     this._lastContentSignature = '';
@@ -317,6 +415,27 @@ export class ContentEditor {
         button.onclick = handler;
         this.toolbar.appendChild(button);
       }
+      if (this.showJsonTools) {
+        const separator = document.createElement('span');
+        separator.className = 'content-toolbar-separator';
+        this.toolbar.appendChild(separator);
+        const exportButton = document.createElement('button');
+        exportButton.type = 'button';
+        exportButton.className = 'content-tool-btn content-json-btn';
+        exportButton.textContent = '⇧';
+        exportButton.title = `Export ${this.jsonTitle} JSON`;
+        exportButton.setAttribute('aria-label', `Export ${this.jsonTitle} JSON`);
+        exportButton.onclick = () => this.openJsonModal('export');
+        this.toolbar.appendChild(exportButton);
+        const importButton = document.createElement('button');
+        importButton.type = 'button';
+        importButton.className = 'content-tool-btn content-json-btn';
+        importButton.textContent = '⇩';
+        importButton.title = `Import ${this.jsonTitle} JSON`;
+        importButton.setAttribute('aria-label', `Import ${this.jsonTitle} JSON`);
+        importButton.onclick = () => this.openJsonModal('import');
+        this.toolbar.appendChild(importButton);
+      }
       rootWrap.appendChild(this.toolbar);
     }
 
@@ -358,14 +477,45 @@ export class ContentEditor {
       if (this.changeHandler) this.changeHandler();
     });
 
-    this.editable.addEventListener('dblclick', event => {
+    this.editable.addEventListener('click', event => {
       const mathTarget = event.target.closest?.('[data-math-node-key]');
       if (mathTarget) {
+        event.preventDefault();
+        event.stopPropagation();
         this.openMathModal(mathTarget.dataset.mathNodeKey);
         return;
       }
       const figureTarget = event.target.closest?.('[data-figure-node-key]');
-      if (figureTarget) this.editFigure(figureTarget.dataset.figureNodeKey);
+      if (figureTarget) {
+        this.editFigure(figureTarget.dataset.figureNodeKey);
+        return;
+      }
+
+      // Non-editable terminal blocks cannot accept a caret in the empty area
+      // below them. When the user clicks there, create a real paragraph after
+      // the block so normal typing/Enter behavior can continue.
+      if (event.target !== this.editable) return;
+
+      let lastKey = null;
+      this.editor.getEditorState().read(() => {
+        const last = $getRoot().getLastChild();
+        if (last instanceof MathNode || last instanceof FigureNode || $isTableNode(last)) {
+          lastKey = last.getKey();
+        }
+      });
+      if (!lastKey) return;
+
+      const lastDom = this.editor.getElementByKey(lastKey);
+      if (!lastDom || event.clientY < lastDom.getBoundingClientRect().bottom) return;
+
+      this.editor.update(() => {
+        const root = $getRoot();
+        const last = root.getLastChild();
+        if (!last || last.getKey() !== lastKey) return;
+        const paragraph = $createParagraphNode();
+        last.insertAfter(paragraph);
+        paragraph.select();
+      });
     });
 
     this._setDefaults();
@@ -411,19 +561,96 @@ export class ContentEditor {
     this.changeHandler = callback;
   }
 
+  getJsonValue() {
+    if (this.jsonAdapter?.export) return this.jsonAdapter.export();
+    return this.getContent();
+  }
+
+  applyJsonValue(value) {
+    let result;
+    if (this.jsonAdapter?.import) result = this.jsonAdapter.import(value);
+    else {
+      const error = validateContentBlocks(value);
+      if (error) throw new Error(error);
+      this.setContent(value);
+      result = true;
+    }
+    if (this.changeHandler) requestAnimationFrame(() => this.changeHandler());
+    return result;
+  }
+
+  openJsonModal(mode) {
+    const modal = getJsonModal();
+    modal.activeEditor = this;
+    modal.mode = mode;
+    modal.overlay.hidden = false;
+    modal.title.textContent = mode === 'export' ? `Export ${this.jsonTitle} JSON` : `Import ${this.jsonTitle} JSON`;
+    modal.copyButton.hidden = mode !== 'export';
+    modal.applyButton.hidden = mode === 'export';
+    modal.field.readOnly = mode === 'export';
+    modal.field.value = mode === 'export'
+      ? JSON.stringify(this.getJsonValue(), null, 2)
+      : '';
+    modal.status.textContent = mode === 'export'
+      ? 'Copy this JSON into the Tomato QB Solution Writer plugin.'
+      : 'Paste JSON here. It will be validated before anything is changed.';
+    modal.status.className = 'content-json-status';
+    modal.field.focus();
+    if (mode === 'export') modal.field.select();
+  }
+
   focus() { this.editor.focus(); }
 
-  insertFigure() {
-    const src = window.prompt('Figure path or URL', 'data/questions/.../figures/...');
-    if (!src) return;
-    const alt = window.prompt('Alt text (optional)', '') || '';
-    const caption = window.prompt('Caption (optional)', '') || '';
-    this.editor.update(() => {
-      $insertNodes([new FigureNode(src.trim(), alt.trim(), caption.trim())]);
+  _pickImage() {
+    return new Promise(resolve => {
+      const input = document.createElement('input');
+      input.type = 'file';
+      input.accept = 'image/*';
+      input.style.display = 'none';
+      document.body.appendChild(input);
+      input.onchange = () => {
+        const file = input.files?.[0] || null;
+        input.remove();
+        resolve(file);
+      };
+      input.oncancel = () => {
+        input.remove();
+        resolve(null);
+      };
+      input.click();
     });
   }
 
-  editFigure(key) {
+  async insertFigure() {
+    if (!this.onFigureUpload) {
+      const src = window.prompt('Figure path or URL', 'data/questions/.../ques_fig1.png');
+      if (!src) return;
+      const alt = window.prompt('Alt text (optional)', '') || '';
+      const caption = window.prompt('Caption (optional)', '') || '';
+      this.editor.update(() => {
+        $insertNodes([new FigureNode(src.trim(), alt.trim(), caption.trim())]);
+      });
+      return;
+    }
+
+    const file = await this._pickImage();
+    if (!file) return;
+
+    const alt = window.prompt('Alt text (optional)', '') || '';
+    const caption = window.prompt('Caption (optional)', '') || '';
+
+    try {
+      const src = await this.onFigureUpload(file);
+      if (!src) throw new Error('The image upload did not return a file path.');
+      this.editor.update(() => {
+        $insertNodes([new FigureNode(src, alt.trim(), caption.trim())]);
+      });
+    } catch (error) {
+      window.alert(error?.message || 'Image upload failed.');
+    }
+  }
+
+  async editFigure(key) {
     let current = null;
     this.editor.getEditorState().read(() => {
       const node = $getNodeByKey(key);
@@ -432,14 +659,35 @@ export class ContentEditor {
       }
     });
     if (!current) return;
-    const src = window.prompt('Figure path or URL', current.src);
-    if (src === null) return;
+
+    if (!this.onFigureUpload) {
+      const src = window.prompt('Figure path or URL', current.src);
+      if (src === null) return;
+      const alt = window.prompt('Alt text (optional)', current.alt) ?? current.alt;
+      const caption = window.prompt('Caption (optional)', current.caption) ?? current.caption;
+      this.editor.update(() => {
+        const node = $getNodeByKey(key);
+        if (node instanceof FigureNode) node.setFigure(src.trim(), alt.trim(), caption.trim());
+      });
+      return;
+    }
+
+    const file = await this._pickImage();
+    if (!file) return;
+
     const alt = window.prompt('Alt text (optional)', current.alt) ?? current.alt;
     const caption = window.prompt('Caption (optional)', current.caption) ?? current.caption;
-    this.editor.update(() => {
-      const node = $getNodeByKey(key);
-      if (node instanceof FigureNode) node.setFigure(src.trim(), alt.trim(), caption.trim());
-    });
+
+    try {
+      const src = await this.onFigureUpload(file);
+      if (!src) throw new Error('The image upload did not return a file path.');
+      this.editor.update(() => {
+        const node = $getNodeByKey(key);
+        if (node instanceof FigureNode) node.setFigure(src, alt.trim(), caption.trim());
+      });
+    } catch (error) {
+      window.alert(error?.message || 'Image upload failed.');
+    }
   }
 
   destroy() {
@@ -461,8 +709,11 @@ export class ContentEditor {
         if (node instanceof MathNode) latex = node.getLatex();
       });
     }
+    modal.title.textContent = existingKey ? 'Edit mathematics' : 'Insert mathematics';
+    modal.saveButton.textContent = existingKey ? 'Apply' : 'Insert';
     modal.field.value = latex;
-    modal.field.focus();
+    modal.latexInput.value = latex;
+    modal.setTab('latex');
   }
 
   insertOrUpdateMath(latex) {
@@ -481,29 +732,139 @@ export class ContentEditor {
   }
 }
 
+let jsonModal;
+function getJsonModal() {
+  if (jsonModal) return jsonModal;
+  const overlay = document.createElement('div');
+  overlay.className = 'content-json-modal';
+  overlay.hidden = true;
+  overlay.innerHTML = `
+    <div class="content-json-dialog" role="dialog" aria-modal="true">
+      <div class="content-json-head"><strong class="content-json-title">JSON</strong><button type="button" class="content-json-close" aria-label="Close">×</button></div>
+      <p class="content-json-status"></p>
+      <textarea class="content-json-field" spellcheck="false"></textarea>
+      <div class="content-json-actions"><button type="button" class="btn secondary content-json-cancel">Close</button><button type="button" class="btn secondary content-json-copy">Copy JSON</button><button type="button" class="btn primary content-json-apply">Import JSON</button></div>
+    </div>`;
+  document.body.appendChild(overlay);
+  const title = overlay.querySelector('.content-json-title');
+  const field = overlay.querySelector('.content-json-field');
+  const status = overlay.querySelector('.content-json-status');
+  const copyButton = overlay.querySelector('.content-json-copy');
+  const applyButton = overlay.querySelector('.content-json-apply');
+  const close = () => { overlay.hidden = true; jsonModal.activeEditor = null; };
+  overlay.querySelector('.content-json-close').onclick = close;
+  overlay.querySelector('.content-json-cancel').onclick = close;
+  overlay.addEventListener('click', event => { if (event.target === overlay) close(); });
+  copyButton.onclick = async () => {
+    try {
+      await navigator.clipboard.writeText(field.value);
+      status.textContent = 'Copied to clipboard.';
+      status.className = 'content-json-status ok';
+    } catch {
+      field.focus(); field.select();
+      status.textContent = 'Clipboard access was unavailable; the JSON is selected for manual copying.';
+      status.className = 'content-json-status';
+    }
+  };
+  applyButton.onclick = () => {
+    try {
+      const value = JSON.parse(field.value);
+      jsonModal.activeEditor?.applyJsonValue(value);
+      status.textContent = 'Imported successfully.';
+      status.className = 'content-json-status ok';
+      window.setTimeout(close, 250);
+    } catch (error) {
+      status.textContent = error?.message || 'Invalid JSON.';
+      status.className = 'content-json-status error';
+    }
+  };
+  jsonModal = { overlay, title, field, status, copyButton, applyButton, activeEditor: null, mode: null };
+  return jsonModal;
+}
+
 let mathModal;
 function getMathModal() {
   if (mathModal) return mathModal;
+
   const overlay = document.createElement('div');
   overlay.className = 'math-editor-modal';
   overlay.hidden = true;
   overlay.innerHTML = `
-    <div class="math-editor-dialog">
-      <div class="math-editor-head"><strong>Insert mathematics</strong><button type="button" class="math-editor-close">×</button></div>
-      <math-field class="math-editor-field"></math-field>
-      <div class="math-editor-actions"><button type="button" class="btn secondary math-cancel">Cancel</button><button type="button" class="btn primary math-save">Insert</button></div>
+    <div class="math-editor-dialog" role="dialog" aria-modal="true" aria-label="Edit mathematics">
+      <div class="math-editor-head">
+        <strong class="math-editor-title">Insert mathematics</strong>
+        <button type="button" class="math-editor-close" aria-label="Close">×</button>
+      </div>
+      <div class="math-editor-tabs" role="tablist" aria-label="Mathematics editing mode">
+        <button type="button" class="math-editor-tab active" data-tab="latex" role="tab" aria-selected="true">LaTeX</button>
+        <button type="button" class="math-editor-tab" data-tab="visual" role="tab" aria-selected="false">Visual</button>
+      </div>
+      <div class="math-editor-panel active" data-panel="latex" role="tabpanel">
+        <textarea class="math-editor-latex" spellcheck="false" aria-label="LaTeX source" placeholder="Type LaTeX here…"></textarea>
+      </div>
+      <div class="math-editor-panel" data-panel="visual" role="tabpanel" hidden>
+        <math-field class="math-editor-field"></math-field>
+      </div>
+      <div class="math-editor-actions">
+        <button type="button" class="btn secondary math-cancel">Cancel</button>
+        <button type="button" class="btn primary math-save">Insert</button>
+      </div>
     </div>`;
   document.body.appendChild(overlay);
+
+  const dialog = overlay.querySelector('.math-editor-dialog');
+  const title = overlay.querySelector('.math-editor-title');
+  const latexInput = overlay.querySelector('.math-editor-latex');
   const field = overlay.querySelector('math-field');
-  const close = () => { overlay.hidden = true; mathModal.activeEditor = null; };
+  const saveButton = overlay.querySelector('.math-save');
+  const tabs = [...overlay.querySelectorAll('.math-editor-tab')];
+  const panels = [...overlay.querySelectorAll('.math-editor-panel')];
+
+  const setTab = tabName => {
+    tabs.forEach(tab => {
+      const active = tab.dataset.tab === tabName;
+      tab.classList.toggle('active', active);
+      tab.setAttribute('aria-selected', active ? 'true' : 'false');
+    });
+    panels.forEach(panel => {
+      const active = panel.dataset.panel === tabName;
+      panel.classList.toggle('active', active);
+      panel.hidden = !active;
+    });
+    if (tabName === 'latex') latexInput.focus();
+    else field.focus();
+  };
+
+  const close = () => {
+    overlay.hidden = true;
+    mathModal.activeEditor = null;
+  };
+
+  tabs.forEach(tab => tab.onclick = () => setTab(tab.dataset.tab));
+  latexInput.addEventListener('input', () => {
+    if (mathModal.syncing) return;
+    mathModal.syncing = true;
+    field.value = latexInput.value;
+    mathModal.syncing = false;
+  });
+  field.addEventListener('input', () => {
+    if (mathModal.syncing) return;
+    mathModal.syncing = true;
+    latexInput.value = field.value || '';
+    mathModal.syncing = false;
+  });
+
   overlay.querySelector('.math-editor-close').onclick = close;
   overlay.querySelector('.math-cancel').onclick = close;
-  overlay.querySelector('.math-save').onclick = () => {
-    if (mathModal.activeEditor) mathModal.activeEditor.insertOrUpdateMath(field.value || '');
+  saveButton.onclick = () => {
+    if (mathModal.activeEditor) mathModal.activeEditor.insertOrUpdateMath(latexInput.value || field.value || '');
     close();
   };
-  overlay.addEventListener('click', e => { if (e.target === overlay) close(); });
-  mathModal = { overlay, field, activeEditor: null };
+  overlay.addEventListener('click', event => {
+    if (event.target === overlay) close();
+  });
+
+  mathModal = { overlay, dialog, title, field, latexInput, saveButton, setTab, activeEditor: null, syncing: false };
   return mathModal;
 }
 

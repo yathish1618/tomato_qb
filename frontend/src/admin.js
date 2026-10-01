@@ -1,4 +1,4 @@
-import { ContentEditor } from './editor/content-editor.js';
+import { ContentEditor, validateContentBlocks } from './editor/content-editor.js';
 import { renderContent, contentToPlainText, typesetMath } from './shared/content-renderer.js';
 import '../styles.css';
 
@@ -27,6 +27,53 @@ async function apiJson(url, options) {
   const data = await r.json().catch(() => ({}));
   if (!r.ok) throw new Error(data.error || `Request failed: ${r.status}`);
   return data;
+}
+
+async function convertImageToPng(file) {
+  if (file.type === 'image/png') return file;
+
+  const objectUrl = URL.createObjectURL(file);
+  try {
+    const image = new Image();
+    image.decoding = 'async';
+    image.src = objectUrl;
+    await new Promise((resolve, reject) => {
+      image.onload = resolve;
+      image.onerror = () => reject(new Error('The selected image could not be read.'));
+    });
+
+    if (!image.naturalWidth || !image.naturalHeight) {
+      throw new Error('The selected image has no usable dimensions.');
+    }
+
+    const canvas = document.createElement('canvas');
+    canvas.width = image.naturalWidth;
+    canvas.height = image.naturalHeight;
+    const ctx = canvas.getContext('2d');
+    if (!ctx) throw new Error('The browser could not prepare the image.');
+
+    ctx.drawImage(image, 0, 0);
+
+    const blob = await new Promise(resolve => canvas.toBlob(resolve, 'image/png'));
+    if (!blob) throw new Error('The image could not be converted to PNG.');
+
+    return new File([blob], 'figure.png', { type: 'image/png' });
+  } finally {
+    URL.revokeObjectURL(objectUrl);
+  }
+}
+
+async function uploadFigure(file, kind) {
+  const png = await convertImageToPng(file);
+  const form = new FormData();
+  form.append('file', png, 'figure.png');
+  form.append('kind', kind);
+
+  const data = await apiJson(`/api/questions/${encodeURIComponent(current.id)}/figures`, {
+    method: 'POST',
+    body: form,
+  });
+  return data.src;
 }
 
 function toast(message, type = '') {
@@ -229,8 +276,58 @@ function initEditors() {
   if (solutionEditor) solutionEditor.destroy();
   destroyOptionEditors();
 
-  contentEditor = new ContentEditor($('questionEditor'), { placeholder: 'Question content…' });
-  solutionEditor = new ContentEditor($('solutionEditor'), { placeholder: 'Solution…' });
+  contentEditor = new ContentEditor($('questionEditor'), {
+    placeholder: 'Question content…',
+    showJsonTools: true,
+    jsonTitle: 'Question',
+    onFigureUpload: file => uploadFigure(file, 'question'),
+    jsonAdapter: {
+      export: () => {
+        const payload = { content: contentEditor.getContent() };
+        if (current?.type === 'MCQ') {
+          payload.options = Object.fromEntries(['A', 'B', 'C', 'D'].map(label => [label, optionEditors[label]?.getContent?.() || []]));
+        }
+        return payload;
+      },
+      import: value => {
+        // Question export is deliberately small: content plus MCQ options only.
+        if (Array.isArray(value)) {
+          const error = validateContentBlocks(value);
+          if (error) throw new Error(error);
+          contentEditor.setContent(value);
+          return true;
+        }
+        if (!value || typeof value !== 'object' || Array.isArray(value)) throw new Error('Question JSON must be an object containing a content array.');
+        const content = value.content;
+        const contentError = validateContentBlocks(content);
+        if (contentError) throw new Error(contentError);
+        if (current?.type === 'MCQ') {
+          if (value.options !== undefined) {
+            if (!value.options || typeof value.options !== 'object' || Array.isArray(value.options)) throw new Error('options must be an object with A, B, C and D arrays.');
+            for (const label of ['A', 'B', 'C', 'D']) {
+              if (!(label in value.options)) throw new Error(`options.${label} is missing.`);
+              const error = validateContentBlocks(value.options[label]);
+              if (error) throw new Error(error.replace(/^content/, `options.${label}`));
+              continue;
+            }
+          }
+        } else if (value.options !== undefined) {
+          throw new Error('This is not an MCQ, so question JSON must not contain options.');
+        }
+        contentEditor.setContent(content);
+        if (current?.type === 'MCQ' && value.options !== undefined) {
+          for (const label of ['A', 'B', 'C', 'D']) optionEditors[label]?.setContent(value.options[label]);
+        }
+        return true;
+      },
+    },
+  });
+  solutionEditor = new ContentEditor($('solutionEditor'), {
+    placeholder: 'Solution…',
+    showJsonTools: true,
+    jsonTitle: 'Solution',
+    onFigureUpload: file => uploadFigure(file, 'solution'),
+  });
   contentEditor.onChange(handleEditorChange);
   solutionEditor.onChange(handleEditorChange);
 }
@@ -257,7 +354,7 @@ function renderOptions() {
     answerBtn.onclick = () => toggleAnswer(label);
     row.appendChild(answerBtn);
     $('options').appendChild(row);
-    optionEditors[label] = new ContentEditor(host, { placeholder: `Option ${label}…`, compact: true, toolbarMode: 'minimal' });
+    optionEditors[label] = new ContentEditor(host, { placeholder: `Option ${label}…`, compact: true, toolbarMode: 'minimal', showJsonTools: false });
   }
   setOptionAnswers();
   for (const label of ['A', 'B', 'C', 'D']) {
@@ -294,11 +391,32 @@ function toggleAnswer(letter) {
 
 function renderStatuses() {
   const review = ['NEEDS_REVIEW', 'REVIEWED'];
-  $('reviewStatus').innerHTML = review.map(s => `<button class="status-btn ${current.review_status === s ? 'active' : ''}">${s.replace('_', ' ')}</button>`).join('');
-  $('reviewStatus').querySelectorAll('button').forEach((b, i) => b.onclick = () => { current.review_status = review[i]; renderStatuses(); markDirty(); });
+
+  $('reviewStatus').innerHTML = review.map(s =>
+    `<button class="status-btn ${current.review_status === s ? 'active ' + (s === 'REVIEWED' ? 'reviewed' : 'review') : ''}">${s.replace('_', ' ')}</button>`
+  ).join('');
+
+  $('reviewStatus').querySelectorAll('button').forEach((b, i) => {
+    b.onclick = () => {
+      current.review_status = review[i];
+      renderStatuses();
+      markDirty();
+    };
+  });
+
   const pub = ['DRAFT', 'PUBLISHED'];
-  $('pubStatus').innerHTML = pub.map(s => `<button class="status-btn ${current.publication_status === s ? 'active' : ''}">${s}</button>`).join('');
-  $('pubStatus').querySelectorAll('button').forEach((b, i) => b.onclick = () => { current.publication_status = pub[i]; renderStatuses(); markDirty(); });
+
+  $('pubStatus').innerHTML = pub.map(s =>
+    `<button class="status-btn ${current.publication_status === s ? 'active ' + (s === 'PUBLISHED' ? 'pub' : 'draft') : ''}">${s}</button>`
+  ).join('');
+
+  $('pubStatus').querySelectorAll('button').forEach((b, i) => {
+    b.onclick = () => {
+      current.publication_status = pub[i];
+      renderStatuses();
+      markDirty();
+    };
+  });
 }
 
 function renderSource() {

@@ -1,7 +1,8 @@
 function assetUrl(src) {
   if (!src) return '';
   if (/^(https?:|data:|blob:|\/)/.test(src)) return src;
-  return `/asset/${src.startsWith('data/') ? src : `data/${src}`}`;
+  const path = src.replace(/^\/+/, '');
+  return `/asset/${path.startsWith('data/') ? path : `data/${path}`}`;
 }
 
 function addInline(parent, inline) {

@@ -1266,17 +1266,32 @@ select:focus {
 }
 .math-editor-modal[hidden] { display: none; }
 .math-editor-dialog {
-    width: min(620px, calc(100vw - 32px));
+    width: min(720px, calc(100vw - 32px));
+    min-width: 420px;
+    min-height: 280px;
+    max-width: calc(100vw - 32px);
+    max-height: calc(100vh - 32px);
+    resize: both;
+    overflow: auto;
     background: #fff;
     border: 1px solid var(--line);
     border-radius: 14px;
     box-shadow: 0 20px 60px rgba(0,0,0,.15);
     padding: 16px;
 }
-.math-editor-head { display:flex; align-items:center; justify-content:space-between; margin-bottom: 12px; }
+.math-editor-head { display:flex; align-items:center; justify-content:space-between; margin-bottom: 10px; }
 .math-editor-close { border:0; background:transparent; font-size:22px; color:#777; cursor:pointer; }
+.math-editor-tabs { display:flex; gap:4px; border-bottom:1px solid var(--line); margin-bottom:12px; }
+.math-editor-tab { border:0; background:transparent; padding:8px 12px; color:var(--muted); cursor:pointer; border-bottom:2px solid transparent; font:inherit; }
+.math-editor-tab.active { color:inherit; border-bottom-color:currentColor; }
+.math-editor-panel { min-height: 170px; }
+.math-editor-panel[hidden] { display:none; }
+.math-editor-latex { width:100%; min-height:170px; height:100%; box-sizing:border-box; resize:vertical; border:1px solid var(--line); border-radius:9px; padding:12px; font: 14px/1.5 ui-monospace, SFMono-Regular, Consolas, monospace; background:#fbfbf8; color:inherit; }
 .math-editor-field { width:100%; font-size:24px; min-height:54px; border:1px solid var(--line); border-radius:9px; padding:9px 12px; }
 .math-editor-actions { display:flex; justify-content:flex-end; gap:8px; margin-top:12px; }
+@media (max-width: 520px) {
+    .math-editor-dialog { width: calc(100vw - 16px); min-width: 0; min-height: 240px; max-width: calc(100vw - 16px); max-height: calc(100vh - 16px); padding:12px; }
+}
 
 .content-paragraph { margin: 0 0 10px; }
 .content-list { margin: 0 0 12px 24px; }
@@ -1317,4 +1332,70 @@ select:focus {
     width: 27px;
     height: 26px;
     font-size: 11px;
+}
+
+
+/* JSON import/export tools for content editors */
+.content-toolbar-separator {
+    width: 1px;
+    height: 22px;
+    margin: 3px 3px;
+    background: var(--line);
+}
+.content-tool-btn.content-json-btn {
+    font-size: 15px;
+    font-weight: 800;
+}
+.content-json-modal {
+    position: fixed;
+    inset: 0;
+    z-index: 1100;
+    display: grid;
+    place-items: center;
+    padding: 20px;
+    background: rgba(0,0,0,.24);
+}
+.content-json-modal[hidden] { display: none; }
+.content-json-dialog {
+    width: min(820px, calc(100vw - 32px));
+    max-height: min(760px, calc(100vh - 40px));
+    display: flex;
+    flex-direction: column;
+    background: #fff;
+    border: 1px solid var(--line);
+    border-radius: 14px;
+    box-shadow: 0 20px 60px rgba(0,0,0,.16);
+    padding: 16px;
+}
+.content-json-head { display:flex; align-items:center; justify-content:space-between; gap:16px; margin-bottom:5px; }
+.content-json-close { border:0; background:transparent; color:#777; width:32px; height:32px; border-radius:8px; font-size:23px; cursor:pointer; }
+.content-json-close:hover { background:var(--bg); color:var(--text); }
+.content-json-status { margin:0 0 10px; color:var(--muted); font-size:13px; line-height:1.45; }
+.content-json-status.ok { color:var(--green); }
+.content-json-status.error { color:var(--red); }
+.content-json-field {
+    width: 100%;
+    min-height: 420px;
+    flex: 1 1 auto;
+    resize: vertical;
+    box-sizing: border-box;
+    border: 1px solid var(--line);
+    border-radius: 9px;
+    padding: 12px;
+    outline: none;
+    background: #fbfbfa;
+    color: #222;
+    font: 12px/1.5 ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+    tab-size: 2;
+}
+.content-json-field:focus { border-color: #bbb; background: #fff; }
+.content-json-actions { display:flex; justify-content:flex-end; gap:8px; margin-top:12px; }
+@media (max-width:700px) {
+    .content-json-dialog { width: calc(100vw - 24px); padding:12px; }
+    .content-json-field { min-height: 320px; }
+}
+
+.content-editor-shell ul,
+.content-editor-shell ol {
+    padding-left: 2rem;
 }

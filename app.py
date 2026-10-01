@@ -558,6 +558,69 @@ def get_group(gid):
     return jsonify(group)
 
 
+FIGURE_UPLOAD_MAX_BYTES = 15 * 1024 * 1024
+_figure_upload_lock = threading.Lock()
+_PNG_SIGNATURE = b"\x89PNG\r\n\x1a\n"
+
+
+@app.post("/api/questions/<qid>/figures")
+def upload_question_figure(qid):
+    qid = safe_id(qid)
+
+    if not db().execute("SELECT 1 FROM questions WHERE id = ?", (qid,)).fetchone():
+        abort(404)
+
+    kind = (request.form.get("kind") or "").strip().lower()
+    prefix = {
+        "question": "ques_fig",
+        "solution": "sol_fig",
+    }.get(kind)
+    if prefix is None:
+        return jsonify({"success": False, "error": "kind must be 'question' or 'solution'."}), 400
+
+    uploaded = request.files.get("file")
+    if uploaded is None or not uploaded.filename:
+        return jsonify({"success": False, "error": "Choose an image file."}), 400
+
+    data = uploaded.read()
+    if not data:
+        return jsonify({"success": False, "error": "The selected image is empty."}), 400
+    if len(data) > FIGURE_UPLOAD_MAX_BYTES:
+        return jsonify({
+            "success": False,
+            "error": f"Image is too large. Maximum size is {FIGURE_UPLOAD_MAX_BYTES // (1024 * 1024)} MB."
+        }), 413
+    if not data.startswith(_PNG_SIGNATURE):
+        return jsonify({"success": False, "error": "The uploaded image must be a PNG."}), 400
+
+    folder = SOURCE_QUESTIONS / qid
+    try:
+        with _figure_upload_lock:
+            folder.mkdir(parents=True, exist_ok=True)
+
+            highest = 0
+            pattern = re.compile(rf"^{re.escape(prefix)}(\d+)\.png$", re.IGNORECASE)
+            for path in folder.iterdir():
+                if not path.is_file():
+                    continue
+                match = pattern.fullmatch(path.name)
+                if match:
+                    highest = max(highest, int(match.group(1)))
+
+            filename = f"{prefix}{highest + 1}.png"
+            path = folder / filename
+            path.write_bytes(data)
+    except Exception as exc:
+        return jsonify({"success": False, "error": f"Could not store image: {exc}"}), 500
+
+    src = (Path("data") / "questions" / qid / filename).as_posix()
+    return jsonify({
+        "success": True,
+        "filename": filename,
+        "src": src,
+    })
+
+
 @app.get("/api/questions/<qid>/source")
 def question_source(qid):
     qid = safe_id(qid)
