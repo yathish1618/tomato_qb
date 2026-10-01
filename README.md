@@ -2,7 +2,7 @@
 
 TOMATO is a mathematics question-bank CMS and public question browser built around a Flask API, SQLite, and a Vite-powered frontend.
 
-The current architecture is designed for a large question bank rather than for a small collection of JSON files. The runtime source of truth is the SQLite database; the older JSON question-bank layout is now primarily a migration/import/export format.
+The runtime source of truth is the SQLite database;
 
 ---
 
@@ -214,8 +214,6 @@ UUID searches are handled separately as exact ID lookups.
 ---
 
 ## 4. Canonical content model
-
-The application no longer treats a question as one undifferentiated HTML/text string.
 
 Question, option, solution, and group content are represented as ordered content blocks.
 
@@ -495,15 +493,17 @@ The built frontend is served by Flask.
 Terminal 1:
 
 ```bash
-python app.py
+cd frontend
+npm run dev
 ```
 
 Terminal 2:
 
 ```bash
-cd frontend
-npm run dev
+python app.py
 ```
+
+
 
 Vite runs on port 5173 and proxies API requests to Flask on port 5000.
 
@@ -540,111 +540,23 @@ SQLite uses Python's standard-library `sqlite3` module, so no SQLite package is 
 
 The current `requirements.txt` therefore does not need additional runtime packages solely because the application moved from JSON to SQLite.
 
-Some older utility scripts use additional packages such as Pillow. Those are ingestion/maintenance utilities, not runtime Cloud Run dependencies. If those utilities remain in active use, their dependencies should be installed in the environment used for those utilities rather than adding unnecessary packages to the production runtime.
-
 ---
 
-## 10. Data migration
 
-The main migration utility is:
-
-```text
-utils/migrate_json_to_sqlite.py
-```
-
-It can migrate an older JSON-backed project directly into SQLite.
-
-Typical usage:
-
-```bash
-python utils/migrate_json_to_sqlite.py \
-    --project "path/to/legacy/project" \
-    --db "data/question_bank.db" \
-    --reset
-```
-
-The migration reads legacy question/group JSON plus the legacy catalog/mapping JSON files, then creates the relational SQLite structure and canonical structured content.
-
-Source JSON is not modified by the migration.
-
-### Exporting back to JSON
-
-```text
-utils/export_sqlite_to_json.py
-```
-
-can recreate a portable JSON representation from the database.
-
-### Database utilities
-
-```text
-utils/inspect_sqlite.py
-utils/backup_sqlite.py
-```
-
-are intended for routine inspection and backup.
-
----
-
-## 11. Legacy JSON data
-
-The application no longer uses these as its runtime source of truth:
-
-```text
-data/questions/*/question.json
-data/groups/*/group.json
-data/collections.json
-data/topics.json
-data/mappings/question_topics.json
-data/mappings/question_collections.json
-data/tag_pool.json
-```
-
-They are useful as:
-
-- migration sources
-- archival evidence
-- export/import material
-- ingestion interchange data
-
-The question/group **source images** are different: those can still be needed by the CMS for source inspection and should not be deleted merely because the JSON records have been migrated.
-
-For a production deployment, keep the runtime database and necessary media assets separate from legacy migration data.
-
----
-
-## 12. Utilities
+## 10. Utilities
 
 The `utils/` directory contains both current database utilities and older one-time ingestion/cleanup tools.
 
-Current/important:
+The following two scripts are used under Bulk Operations as part of CMS view.
 
 ```text
-migrate_json_to_sqlite.py
-export_sqlite_to_json.py
-inspect_sqlite.py
-backup_sqlite.py
+utils/migrate_json_to_sqlite.py
+utils/delete_questions_from_json.py
 ```
-
-Legacy / migration-era tools:
-
-```text
-repair_latex_json.py
-create_math_validation_bundle.py
-validate_mathjax_bundle.js
-update_mcq_answers_from_csv.py
-export_topics_missing_qs.py
-crop_questions.py
-misc.py
-```
-
-These are not imported by the Flask application.
-
-Some of them are useful when working with the older JSON ingestion pipeline; they do not belong in the runtime execution path.
 
 ---
 
-## 13. Cloud Run deployment
+## 11. Cloud Run deployment
 
 Cloud Run is a good fit for the Flask/Vite application, but there is one important storage limitation.
 
@@ -666,43 +578,9 @@ For a production multi-user CMS, the long-term storage layer should therefore mo
 
 Source images should likewise use durable storage rather than relying on the writable Cloud Run filesystem.
 
-### Web-server entrypoint
-
-This repository contains `gunicorn` in `requirements.txt`, but the current `Procfile` still contains:
-
-```text
-web: python app.py
-```
-
-For Cloud Run, the production entrypoint should use a WSGI server such as Gunicorn and bind to Cloud Run's `$PORT`.
-
-A typical entrypoint is:
-
-```text
-web: gunicorn --bind :$PORT --workers 1 --threads 8 --timeout 0 app:app
-```
-
-The exact worker/thread configuration should be tuned for the service.
-
-For local development, `python app.py` remains convenient.
-
 ---
 
-## 14. Recommended production project hygiene
-
-Before treating the repository as the long-term production repository:
-
-1. Keep `frontend/package-lock.json`.
-2. Keep `node_modules/` and `frontend/dist/` out of version control.
-3. Keep the production Python requirements minimal.
-4. Move legacy JSON migration material out of the runtime data directory when the ingestion process is fully migrated to SQLite.
-5. Keep source images/assets in durable storage for Cloud Run.
-6. Move the writable SQLite database to persistent database infrastructure before relying on Cloud Run for multi-user CMS writes.
-7. Use Gunicorn for the Cloud Run web process.
-
----
-
-## 15. Local URLs
+## 12. Local URLs
 
 ```text
 Public:
@@ -720,22 +598,14 @@ http://127.0.0.1:5000/topics
 
 ---
 
-## 16. Current source-of-truth principle
-
-The intended hierarchy is:
+## 13. Production URLs
 
 ```text
-Source PDF / source images
-        ↓
-Ingestion / migration tools
-        ↓
-SQLite + canonical content model
-        ↓
-CMS editing
-        ↓
-Public question bank
+Public:
+https://tomato-qb-13736577417.asia-south1.run.app/
+
+CMS:
+https://tomato-qb-13736577417.asia-south1.run.app/cms
 ```
 
-The CMS/database is the authoritative edited representation of a question.
-
-OCR or legacy JSON is evidence/input, not the final authority.
+---
