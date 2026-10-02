@@ -1,0 +1,5 @@
+- Add shuffle option for the assembler
+- Add UUID in answer key PDF
+- Logo and home button should be the same, Assembler CTA in public view, Remove import button
+- Optimize MCQ layout in question paper PDF
+- Header instructions for Question Paper PDF
