@@ -70,6 +70,29 @@ def utc_now():
     return datetime.now(timezone.utc).isoformat()
 
 
+def catalog_slug(name: str) -> str:
+    """Create the stable, URL-friendly base ID used for new catalog entities."""
+    slug = re.sub(r"[^a-z0-9]+", "-", name.casefold()).strip("-")
+    return slug or "entity"
+
+
+def next_catalog_id(conn, table: str, name: str) -> str:
+    """Return a globally unique ID within the given catalog table.
+
+    Catalog IDs are database primary keys, so a display name that is valid in
+    a different parent may still need a numeric suffix to avoid an ID clash.
+    """
+    if table not in {"topics", "subtopics", "collections", "sets"}:
+        raise ValueError(f"Unsupported catalog table: {table}")
+    base = catalog_slug(name)
+    candidate = base
+    suffix = 1
+    while conn.execute(f"SELECT 1 FROM {table} WHERE id = ?", (candidate,)).fetchone():
+        candidate = f"{base}-{suffix}"
+        suffix += 1
+    return candidate
+
+
 def init_db():
     DATA.mkdir(parents=True, exist_ok=True)
     sql = (DATA / "schema.sql").read_text(encoding="utf-8")
@@ -395,6 +418,11 @@ def cms_home():
     return send_from_directory(FRONTEND, "index.html")
 
 
+@app.route("/assembler")
+def assembler_page():
+    return send_from_directory(FRONTEND, "assembler.html")
+
+
 @app.route("/topics")
 def topics_page():
     return send_from_directory(FRONTEND, "topics.html")
@@ -425,6 +453,57 @@ def health():
 @app.get("/api/questions")
 def questions_api():
     return jsonify(list_questions(request.args))
+
+
+BATCH_QUESTION_LIMIT = 200
+
+
+@app.post("/api/questions/batch")
+def batch_questions_api():
+    body = request.get_json(silent=True)
+    if not isinstance(body, dict):
+        return jsonify({"success": False, "error": "Invalid JSON body."}), 400
+
+    raw_ids = body.get("ids")
+    if not isinstance(raw_ids, list):
+        return jsonify({"success": False, "error": "ids must be an array."}), 400
+    if len(raw_ids) > BATCH_QUESTION_LIMIT:
+        return jsonify({
+            "success": False,
+            "error": f"A maximum of {BATCH_QUESTION_LIMIT} questions can be requested at once.",
+        }), 400
+
+    ids = []
+    seen = set()
+    try:
+        for raw_id in raw_ids:
+            qid = safe_id(str(raw_id))
+            if qid not in seen:
+                ids.append(qid)
+                seen.add(qid)
+    except Exception:
+        return jsonify({"success": False, "error": "One or more question IDs are invalid."}), 400
+
+    if not ids:
+        return jsonify({"questions": []})
+
+    conn = db()
+    placeholders = ",".join("?" for _ in ids)
+    rows = conn.execute(
+        f"SELECT * FROM questions WHERE id IN ({placeholders})",
+        ids,
+    ).fetchall()
+    by_id = {row["id"]: serialize_question(row) for row in rows}
+
+    missing = [qid for qid in ids if qid not in by_id]
+    if missing:
+        return jsonify({
+            "success": False,
+            "error": "One or more selected questions no longer exist.",
+            "missing_ids": missing,
+        }), 404
+
+    return jsonify({"questions": [by_id[qid] for qid in ids]})
 
 
 @app.get("/api/questions/<qid>")
@@ -649,29 +728,51 @@ def topics_api():
 @app.post("/api/collections")
 def create_collection():
     body = request.get_json(silent=True) or {}
-    cid = str(body.get("id") or body.get("name") or "").strip().lower()
     name = str(body.get("name") or "").strip()
-    if not cid or not name:
+    if not name:
         return jsonify({"success": False, "error": "Collection name is required."}), 400
+
+    conn = db()
+    if conn.execute(
+        "SELECT 1 FROM collections WHERE lower(trim(name)) = lower(trim(?))",
+        (name,),
+    ).fetchone():
+        return jsonify({"success": False, "error": "A collection with this name already exists."}), 409
+
+    cid = next_catalog_id(conn, "collections", name)
     try:
-        db().execute("INSERT INTO collections(id, name) VALUES (?, ?)", (cid, name))
-        db().commit()
+        conn.execute("INSERT INTO collections(id, name) VALUES (?, ?)", (cid, name))
+        conn.commit()
     except sqlite3.IntegrityError:
-        return jsonify({"success": False, "error": "Collection ID already exists."}), 409
-    return jsonify({"success": True})
+        conn.rollback()
+        return jsonify({"success": False, "error": "The collection could not be created because its generated ID is already in use."}), 409
+    return jsonify({"success": True, "id": cid})
 
 
 @app.post("/api/collections/<cid>/sets")
 def create_set(cid):
     body = request.get_json(silent=True) or {}
-    sid = str(body.get("id") or body.get("name") or "").strip().lower()
     name = str(body.get("name") or "").strip()
+    if not name:
+        return jsonify({"success": False, "error": "Set name is required."}), 400
+
+    conn = db()
+    if not conn.execute("SELECT 1 FROM collections WHERE id = ?", (cid,)).fetchone():
+        return jsonify({"success": False, "error": "Collection not found."}), 404
+    if conn.execute(
+        "SELECT 1 FROM sets WHERE collection_id = ? AND lower(trim(name)) = lower(trim(?))",
+        (cid, name),
+    ).fetchone():
+        return jsonify({"success": False, "error": "A set with this name already exists in this collection."}), 409
+
+    sid = next_catalog_id(conn, "sets", name)
     try:
-        db().execute("INSERT INTO sets(id, collection_id, name) VALUES (?, ?, ?)", (sid, cid, name))
-        db().commit()
-    except sqlite3.IntegrityError as exc:
-        return jsonify({"success": False, "error": str(exc)}), 409
-    return jsonify({"success": True})
+        conn.execute("INSERT INTO sets(id, collection_id, name) VALUES (?, ?, ?)", (sid, cid, name))
+        conn.commit()
+    except sqlite3.IntegrityError:
+        conn.rollback()
+        return jsonify({"success": False, "error": "The set could not be created because its generated ID is already in use."}), 409
+    return jsonify({"success": True, "id": sid})
 
 
 @app.put("/api/collections/<cid>")
@@ -680,8 +781,14 @@ def rename_collection(cid):
     name = str(body.get("name") or "").strip()
     if not name:
         return jsonify({"success": False, "error": "Collection name is required."}), 400
-    cur = db().execute("UPDATE collections SET name = ? WHERE id = ?", (name, cid))
-    db().commit()
+    conn = db()
+    if conn.execute(
+        "SELECT 1 FROM collections WHERE id <> ? AND lower(trim(name)) = lower(trim(?))",
+        (cid, name),
+    ).fetchone():
+        return jsonify({"success": False, "error": "A collection with this name already exists."}), 409
+    cur = conn.execute("UPDATE collections SET name = ? WHERE id = ?", (name, cid))
+    conn.commit()
     if cur.rowcount == 0:
         abort(404)
     return jsonify({"success": True})
@@ -693,8 +800,14 @@ def rename_set(cid, sid):
     name = str(body.get("name") or "").strip()
     if not name:
         return jsonify({"success": False, "error": "Set name is required."}), 400
-    cur = db().execute("UPDATE sets SET name = ? WHERE id = ? AND collection_id = ?", (name, sid, cid))
-    db().commit()
+    conn = db()
+    if conn.execute(
+        "SELECT 1 FROM sets WHERE id <> ? AND collection_id = ? AND lower(trim(name)) = lower(trim(?))",
+        (sid, cid, name),
+    ).fetchone():
+        return jsonify({"success": False, "error": "A set with this name already exists in this collection."}), 409
+    cur = conn.execute("UPDATE sets SET name = ? WHERE id = ? AND collection_id = ?", (name, sid, cid))
+    conn.commit()
     if cur.rowcount == 0:
         abort(404)
     return jsonify({"success": True})
@@ -703,37 +816,67 @@ def rename_set(cid, sid):
 @app.post("/api/topics")
 def create_topic():
     body = request.get_json(silent=True) or {}
-    tid = str(body.get("id") or body.get("name") or "").strip().lower()
     name = str(body.get("name") or "").strip()
-    if not tid or not name:
+    if not name:
         return jsonify({"success": False, "error": "Topic name required."}), 400
+
+    conn = db()
+    if conn.execute(
+        "SELECT 1 FROM topics WHERE lower(trim(name)) = lower(trim(?))",
+        (name,),
+    ).fetchone():
+        return jsonify({"success": False, "error": "A topic with this name already exists."}), 409
+
+    tid = next_catalog_id(conn, "topics", name)
     try:
-        db().execute("INSERT INTO topics(id, name) VALUES (?, ?)", (tid, name))
-        db().commit()
+        conn.execute("INSERT INTO topics(id, name) VALUES (?, ?)", (tid, name))
+        conn.commit()
     except sqlite3.IntegrityError:
-        return jsonify({"success": False, "error": "Topic ID exists."}), 409
-    return jsonify({"success": True})
+        conn.rollback()
+        return jsonify({"success": False, "error": "The topic could not be created because its generated ID is already in use."}), 409
+    return jsonify({"success": True, "id": tid})
 
 
 @app.post("/api/topics/<tid>/subtopics")
 def create_subtopic(tid):
     body = request.get_json(silent=True) or {}
-    sid = str(body.get("id") or body.get("name") or "").strip().lower()
     name = str(body.get("name") or "").strip()
+    if not name:
+        return jsonify({"success": False, "error": "Subtopic name is required."}), 400
+
+    conn = db()
+    if not conn.execute("SELECT 1 FROM topics WHERE id = ?", (tid,)).fetchone():
+        return jsonify({"success": False, "error": "Topic not found."}), 404
+    if conn.execute(
+        "SELECT 1 FROM subtopics WHERE topic_id = ? AND lower(trim(name)) = lower(trim(?))",
+        (tid, name),
+    ).fetchone():
+        return jsonify({"success": False, "error": "A subtopic with this name already exists in this topic."}), 409
+
+    sid = next_catalog_id(conn, "subtopics", name)
     try:
-        db().execute("INSERT INTO subtopics(id, topic_id, name) VALUES (?, ?, ?)", (sid, tid, name))
-        db().commit()
-    except sqlite3.IntegrityError as exc:
-        return jsonify({"success": False, "error": str(exc)}), 409
-    return jsonify({"success": True})
+        conn.execute("INSERT INTO subtopics(id, topic_id, name) VALUES (?, ?, ?)", (sid, tid, name))
+        conn.commit()
+    except sqlite3.IntegrityError:
+        conn.rollback()
+        return jsonify({"success": False, "error": "The subtopic could not be created because its generated ID is already in use."}), 409
+    return jsonify({"success": True, "id": sid})
 
 
 @app.put("/api/topics/<tid>")
 def rename_topic(tid):
     body = request.get_json(silent=True) or {}
     name = str(body.get("name") or "").strip()
-    cur = db().execute("UPDATE topics SET name = ? WHERE id = ?", (name, tid))
-    db().commit()
+    if not name:
+        return jsonify({"success": False, "error": "Topic name required."}), 400
+    conn = db()
+    if conn.execute(
+        "SELECT 1 FROM topics WHERE id <> ? AND lower(trim(name)) = lower(trim(?))",
+        (tid, name),
+    ).fetchone():
+        return jsonify({"success": False, "error": "A topic with this name already exists."}), 409
+    cur = conn.execute("UPDATE topics SET name = ? WHERE id = ?", (name, tid))
+    conn.commit()
     if cur.rowcount == 0:
         abort(404)
     return jsonify({"success": True})
@@ -743,8 +886,16 @@ def rename_topic(tid):
 def rename_subtopic(tid, sid):
     body = request.get_json(silent=True) or {}
     name = str(body.get("name") or "").strip()
-    cur = db().execute("UPDATE subtopics SET name = ? WHERE id = ? AND topic_id = ?", (name, sid, tid))
-    db().commit()
+    if not name:
+        return jsonify({"success": False, "error": "Subtopic name is required."}), 400
+    conn = db()
+    if conn.execute(
+        "SELECT 1 FROM subtopics WHERE id <> ? AND topic_id = ? AND lower(trim(name)) = lower(trim(?))",
+        (sid, tid, name),
+    ).fetchone():
+        return jsonify({"success": False, "error": "A subtopic with this name already exists in this topic."}), 409
+    cur = conn.execute("UPDATE subtopics SET name = ? WHERE id = ? AND topic_id = ?", (name, sid, tid))
+    conn.commit()
     if cur.rowcount == 0:
         abort(404)
     return jsonify({"success": True})

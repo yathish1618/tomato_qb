@@ -9,6 +9,7 @@ export default defineConfig({
     rollupOptions: {
       input: {
         cms: resolve(import.meta.dirname, 'index.html'),
+        assembler: resolve(import.meta.dirname, 'assembler.html'),
         public: resolve(import.meta.dirname, 'public.html'),
         collections: resolve(import.meta.dirname, 'collections.html'),
         topics: resolve(import.meta.dirname, 'topics.html'),
@@ -23,6 +24,7 @@ export default defineConfig({
       '/collections': 'http://127.0.0.1:5000',
       '/topics': 'http://127.0.0.1:5000',
       '/cms': 'http://127.0.0.1:5000',
+      '/assembler': 'http://127.0.0.1:5000',
     },
   },
 });

@@ -6,10 +6,16 @@ import {
   $getSelection,
   $insertNodes,
   $isElementNode,
+  $isNodeSelection,
   $isRangeSelection,
+  COMMAND_PRIORITY_HIGH,
   createEditor,
+  DELETE_CHARACTER_COMMAND,
   ElementNode,
   FORMAT_TEXT_COMMAND,
+  KEY_BACKSPACE_COMMAND,
+  KEY_DELETE_COMMAND,
+  RootNode,
 } from 'lexical';
 import {
   INSERT_ORDERED_LIST_COMMAND,
@@ -67,6 +73,11 @@ export class MathNode extends ElementNode {
 
   isInline() { return !this.__display; }
   canBeEmpty() { return false; }
+  // These nodes are visually non-editable, but the caret must be allowed
+  // to sit immediately before/after them so Lexical can provide a normal
+  // insertion point and its block-cursor behavior.
+  canInsertTextBefore() { return true; }
+  canInsertTextAfter() { return true; }
 
   insertNewAfter(_selection, restoreSelection = true) {
     const paragraph = $createParagraphNode();
@@ -129,6 +140,11 @@ export class FigureNode extends ElementNode {
 
   isInline() { return false; }
   canBeEmpty() { return false; }
+  // These nodes are visually non-editable, but the caret must be allowed
+  // to sit immediately before/after them so Lexical can provide a normal
+  // insertion point and its block-cursor behavior.
+  canInsertTextBefore() { return true; }
+  canInsertTextAfter() { return true; }
 
   insertNewAfter(_selection, restoreSelection = true) {
     const paragraph = $createParagraphNode();
@@ -166,6 +182,80 @@ function assetUrl(src) {
   if (/^(https?:|data:|blob:|\/)/.test(src)) return src;
   const path = src.replace(/^\/+/, '');
   return `/asset/${path.startsWith('data/') ? path : `data/${path}`}`;
+}
+
+function isAtomicContentNode(node) {
+  return node instanceof MathNode || node instanceof FigureNode || $isTableNode(node);
+}
+
+function isTerminalBlockNode(node) {
+  return node instanceof FigureNode || $isTableNode(node) || (node instanceof MathNode && node.getDisplay());
+}
+
+function isEmptyParagraphNode(node) {
+  return $isElementNode(node) && node.getType?.() === 'paragraph' && node.getChildrenSize() === 0;
+}
+
+function selectOrCreateParagraphBefore(node) {
+  const previous = node.getPreviousSibling();
+  if ($isElementNode(previous) && previous.getType?.() === 'paragraph') {
+    previous.selectEnd();
+    return previous;
+  }
+  const paragraph = $createParagraphNode();
+  node.insertBefore(paragraph);
+  paragraph.select();
+  return paragraph;
+}
+
+function selectOrCreateParagraphAfter(node) {
+  const next = node.getNextSibling();
+  if ($isElementNode(next) && next.getType?.() === 'paragraph') {
+    next.selectStart();
+    return next;
+  }
+  const paragraph = $createParagraphNode();
+  node.insertAfter(paragraph);
+  paragraph.select();
+  return paragraph;
+}
+
+function ensureTrailingParagraph(root, select = false) {
+  const last = root.getLastChild();
+  if (!last || !isTerminalBlockNode(last)) return null;
+
+  const paragraph = $createParagraphNode();
+  root.append(paragraph);
+  if (select) paragraph.select();
+  return paragraph;
+}
+
+function getAtomicSiblingAtDeletionBoundary(point, isBackward) {
+  const node = point.getNode();
+
+  if (point.type === 'element') {
+    const children = node.getChildren();
+    if (isBackward) {
+      if (point.offset > 0 && point.offset <= children.length) return children[point.offset - 1];
+      if (point.offset === 0) return node.getPreviousSibling();
+    } else {
+      if (point.offset >= 0 && point.offset < children.length) return children[point.offset];
+      if (point.offset === children.length) return node.getNextSibling();
+    }
+    return null;
+  }
+
+  if (point.type === 'text') {
+    const textLength = node.getTextContentSize();
+    if (isBackward && point.offset === 0) {
+      return node.getPreviousSibling() || node.getParent()?.getPreviousSibling() || null;
+    }
+    if (!isBackward && point.offset === textLength) {
+      return node.getNextSibling() || node.getParent()?.getNextSibling() || null;
+    }
+  }
+
+  return null;
 }
 
 function serializeInline(node) {
@@ -457,6 +547,36 @@ export class ContentEditor {
     this.cleanupList = registerList(this.editor);
     this.cleanupTable = registerTablePlugin(this.editor);
     this.cleanupHistory = registerHistory(this.editor, createEmptyHistoryState(), 300);
+    this.cleanupTrailingParagraph = this.editor.registerNodeTransform(RootNode, root => {
+      ensureTrailingParagraph(root);
+    });
+    this.cleanupDeleteCharacter = this.editor.registerCommand(
+      DELETE_CHARACTER_COMMAND,
+      isBackward => this._handleAtomicDeletion(isBackward),
+      COMMAND_PRIORITY_HIGH,
+    );
+    this.cleanupBackspace = this.editor.registerCommand(
+      KEY_BACKSPACE_COMMAND,
+      event => {
+        if (this._handleAtomicDeletion(true)) {
+          event?.preventDefault();
+          return true;
+        }
+        return false;
+      },
+      COMMAND_PRIORITY_HIGH,
+    );
+    this.cleanupDeleteKey = this.editor.registerCommand(
+      KEY_DELETE_COMMAND,
+      event => {
+        if (this._handleAtomicDeletion(false)) {
+          event?.preventDefault();
+          return true;
+        }
+        return false;
+      },
+      COMMAND_PRIORITY_HIGH,
+    );
 
     this.editor.registerUpdateListener(({ tags, dirtyElements, dirtyLeaves }) => {
       if (tags?.has('tomato-hydrate')) return;
@@ -487,35 +607,78 @@ export class ContentEditor {
       }
       const figureTarget = event.target.closest?.('[data-figure-node-key]');
       if (figureTarget) {
+        event.preventDefault();
+        event.stopPropagation();
         this.editFigure(figureTarget.dataset.figureNodeKey);
         return;
       }
 
-      // Non-editable terminal blocks cannot accept a caret in the empty area
-      // below them. When the user clicks there, create a real paragraph after
-      // the block so normal typing/Enter behavior can continue.
+      // The special block DOM is contentEditable=false, so the browser cannot
+      // always hit-test a caret at its left/right edge. When the user clicks
+      // in the editor gutter beside a top-level special block, turn that
+      // click into a real paragraph boundary. This is shared by math, figures,
+      // and tables rather than being tied to any one block type.
       if (event.target !== this.editable) return;
 
-      let lastKey = null;
+      const rootBlockKeys = [];
       this.editor.getEditorState().read(() => {
-        const last = $getRoot().getLastChild();
-        if (last instanceof MathNode || last instanceof FigureNode || $isTableNode(last)) {
-          lastKey = last.getKey();
+        const root = $getRoot();
+        for (const child of root.getChildren()) {
+          if (isTerminalBlockNode(child) || $isTableNode(child)) {
+            rootBlockKeys.push(child.getKey());
+          }
         }
       });
-      if (!lastKey) return;
 
-      const lastDom = this.editor.getElementByKey(lastKey);
-      if (!lastDom || event.clientY < lastDom.getBoundingClientRect().bottom) return;
+      for (const key of rootBlockKeys) {
+        const dom = this.editor.getElementByKey(key);
+        if (!dom) continue;
+        const rect = dom.getBoundingClientRect();
+        const withinVerticalBand = event.clientY >= rect.top && event.clientY <= rect.bottom;
+        if (!withinVerticalBand) continue;
 
-      this.editor.update(() => {
-        const root = $getRoot();
-        const last = root.getLastChild();
-        if (!last || last.getKey() !== lastKey) return;
-        const paragraph = $createParagraphNode();
-        last.insertAfter(paragraph);
-        paragraph.select();
-      });
+        if (event.clientX < rect.left) {
+          this.editor.update(() => {
+            const node = $getNodeByKey(key);
+            if (node) selectOrCreateParagraphBefore(node);
+          });
+          return;
+        }
+
+        if (event.clientX > rect.right) {
+          this.editor.update(() => {
+            const node = $getNodeByKey(key);
+            if (node) selectOrCreateParagraphAfter(node);
+          });
+          return;
+        }
+      }
+
+      // Also handle the genuinely empty space immediately above/below the
+      // first/last special block, including a document containing only one
+      // special block.
+      const firstKey = rootBlockKeys[0] || null;
+      if (firstKey) {
+        const firstDom = this.editor.getElementByKey(firstKey);
+        if (firstDom && event.clientY < firstDom.getBoundingClientRect().top) {
+          this.editor.update(() => {
+            const first = $getNodeByKey(firstKey);
+            if (first) selectOrCreateParagraphBefore(first);
+          });
+          return;
+        }
+      }
+
+      const lastKey = rootBlockKeys[rootBlockKeys.length - 1] || null;
+      if (lastKey) {
+        const lastDom = this.editor.getElementByKey(lastKey);
+        if (lastDom && event.clientY > lastDom.getBoundingClientRect().bottom) {
+          this.editor.update(() => {
+            const last = $getNodeByKey(lastKey);
+            if (last) selectOrCreateParagraphAfter(last);
+          });
+        }
+      }
     });
 
     this._setDefaults();
@@ -552,7 +715,10 @@ export class ContentEditor {
   getContent() {
     let blocks = [];
     this.editor.getEditorState().read(() => {
-      blocks = serializeChildren($getRoot().getChildren());
+      const children = $getRoot().getChildren();
+      const lastIndex = children.length - 1;
+      const serializableChildren = children.filter((child, index) => !(index === lastIndex && isEmptyParagraphNode(child)));
+      blocks = serializeChildren(serializableChildren);
     });
     return blocks;
   }
@@ -629,6 +795,7 @@ export class ContentEditor {
       const caption = window.prompt('Caption (optional)', '') || '';
       this.editor.update(() => {
         $insertNodes([new FigureNode(src.trim(), alt.trim(), caption.trim())]);
+        ensureTrailingParagraph($getRoot(), true);
       });
       return;
     }
@@ -644,6 +811,7 @@ export class ContentEditor {
       if (!src) throw new Error('The image upload did not return a file path.');
       this.editor.update(() => {
         $insertNodes([new FigureNode(src, alt.trim(), caption.trim())]);
+        ensureTrailingParagraph($getRoot(), true);
       });
     } catch (error) {
       window.alert(error?.message || 'Image upload failed.');
@@ -690,11 +858,36 @@ export class ContentEditor {
     }
   }
 
+  _handleAtomicDeletion(isBackward) {
+    const selection = $getSelection();
+    if (!selection) return false;
+
+    if ($isNodeSelection(selection)) {
+      const nodes = selection.getNodes();
+      const atomicNodes = nodes.filter(isAtomicContentNode);
+      if (!atomicNodes.length) return false;
+      for (const node of atomicNodes) node.remove();
+      return true;
+    }
+
+    if (!$isRangeSelection(selection) || !selection.isCollapsed()) return false;
+
+    const adjacent = getAtomicSiblingAtDeletionBoundary(selection.anchor, isBackward);
+    if (!isAtomicContentNode(adjacent)) return false;
+
+    adjacent.remove();
+    return true;
+  }
+
   destroy() {
     this.cleanupRich?.();
     this.cleanupList?.();
     this.cleanupTable?.();
     this.cleanupHistory?.();
+    this.cleanupTrailingParagraph?.();
+    this.cleanupDeleteCharacter?.();
+    this.cleanupBackspace?.();
+    this.cleanupDeleteKey?.();
     this.editor.setRootElement(null);
   }
 
@@ -835,7 +1028,44 @@ function getMathModal() {
     else field.focus();
   };
 
+  const closeMathMenu = () => {
+    if (!mathModal?.menuOpen) return false;
+    const toggle = field.shadowRoot?.querySelector('[part=\"menu-toggle\"]');
+    if (toggle) toggle.click();
+    mathModal.menuOpen = false;
+    return true;
+  };
+
+  const wireMenuToggle = () => {
+    const toggle = field.shadowRoot?.querySelector('[part=\"menu-toggle\"]');
+    if (!toggle || toggle.dataset.tomatoQbMenuWired === '1') return;
+    toggle.dataset.tomatoQbMenuWired = '1';
+    toggle.addEventListener('click', () => {
+      mathModal.menuOpen = !mathModal.menuOpen;
+    });
+  };
+
+  const closeMenuOnOutsidePointer = event => {
+    if (!mathModal || mathModal.overlay.hidden || !mathModal.menuOpen) return;
+    const path = event.composedPath?.() || [];
+    const isMenuRelated = path.some(node => {
+      if (!(node instanceof Element)) return false;
+      const part = node.getAttribute('part') || '';
+      return node.getAttribute('role') === 'menu'
+        || part.split(/\s+/).includes('menu')
+        || part === 'menu-toggle'
+        || node.classList.contains('ML__menu');
+    });
+    if (isMenuRelated) return;
+    closeMathMenu();
+  };
+
+  if (field.shadowRoot) wireMenuToggle();
+  field.addEventListener('mount', wireMenuToggle, { once: true });
+  document.addEventListener('pointerdown', closeMenuOnOutsidePointer, true);
+
   const close = () => {
+    closeMathMenu();
     overlay.hidden = true;
     mathModal.activeEditor = null;
   };
@@ -854,6 +1084,10 @@ function getMathModal() {
     mathModal.syncing = false;
   });
 
+  field.addEventListener('menu-select', () => {
+    mathModal.menuOpen = false;
+  });
+
   overlay.querySelector('.math-editor-close').onclick = close;
   overlay.querySelector('.math-cancel').onclick = close;
   saveButton.onclick = () => {
@@ -864,7 +1098,7 @@ function getMathModal() {
     if (event.target === overlay) close();
   });
 
-  mathModal = { overlay, dialog, title, field, latexInput, saveButton, setTab, activeEditor: null, syncing: false };
+  mathModal = { overlay, dialog, title, field, latexInput, saveButton, setTab, activeEditor: null, syncing: false, menuOpen: false };
   return mathModal;
 }
 

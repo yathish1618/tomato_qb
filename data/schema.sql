@@ -20,6 +20,7 @@ CREATE TABLE IF NOT EXISTS sets (
     sort_order INTEGER
 );
 CREATE INDEX IF NOT EXISTS idx_sets_collection ON sets(collection_id);
+CREATE UNIQUE INDEX IF NOT EXISTS uq_sets_collection_name ON sets(collection_id, lower(trim(name)));
 
 CREATE TABLE IF NOT EXISTS topics (
     id TEXT PRIMARY KEY,
@@ -34,6 +35,9 @@ CREATE TABLE IF NOT EXISTS subtopics (
     sort_order INTEGER
 );
 CREATE INDEX IF NOT EXISTS idx_subtopics_topic ON subtopics(topic_id);
+CREATE UNIQUE INDEX IF NOT EXISTS uq_subtopics_topic_name ON subtopics(topic_id, lower(trim(name)));
+CREATE UNIQUE INDEX IF NOT EXISTS uq_topics_name ON topics(lower(trim(name)));
+CREATE UNIQUE INDEX IF NOT EXISTS uq_collections_name ON collections(lower(trim(name)));
 
 CREATE TABLE IF NOT EXISTS groups (
     id TEXT PRIMARY KEY,

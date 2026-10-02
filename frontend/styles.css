@@ -1256,6 +1256,11 @@ select:focus {
     cursor: pointer;
 }
 .lexical-math-node.display { display: block; margin: 8px 0; }
+/* MathLive renders its virtual keyboard in the document body. Keep it above
+   the math editor dialog so keyboard presses are not intercepted by the modal. */
+body {
+    --keyboard-zindex: 1150;
+}
 .math-editor-modal {
     position: fixed;
     inset: 0;

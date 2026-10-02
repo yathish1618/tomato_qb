@@ -790,8 +790,17 @@ function wire() {
   $('sourceToggle').onclick = () => { $('sourceBody').classList.toggle('open'); $('sourceChevron').textContent = $('sourceBody').classList.contains('open') ? '⌃' : '⌄'; };
   document.addEventListener('keydown', e => {
     if ((e.ctrlKey || e.metaKey) && e.key === 's') { e.preventDefault(); saveQuestion(); }
-    if (e.key === 'ArrowLeft' && !['INPUT','TEXTAREA','SELECT'].includes(e.target.tagName)) navigateBy(-1);
-    if (e.key === 'ArrowRight' && !['INPUT','TEXTAREA','SELECT'].includes(e.target.tagName)) navigateBy(1);
+
+    // Left/right arrows belong to Lexical while either question/solution
+    // editor (or one of the MCQ option editors) has focus. Otherwise they
+    // continue to provide question-to-question navigation.
+    const insideContentEditor = e.target?.closest?.('.content-editor-input');
+    const insideTextControl = ['INPUT', 'TEXTAREA', 'SELECT'].includes(e.target?.tagName);
+    if (!insideContentEditor && !insideTextControl) {
+      if (e.key === 'ArrowLeft') navigateBy(-1);
+      if (e.key === 'ArrowRight') navigateBy(1);
+    }
+
     if (e.key === 'Escape') { $('filterModal').classList.remove('open'); if ($('bulkOperationModal').classList.contains('open')) closeBulkOperationModal(); else if (document.body.classList.contains('bulk-cms-open')) closeBulkOperations(); }
   });
 }
